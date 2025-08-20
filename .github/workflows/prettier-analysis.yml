@@ -1,0 +1,41 @@
+name: Code Analysis
+
+permissions: read-all
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  schedule:
+    - cron: 0 0 * * 1 # Every Monday at 00:00 UTC
+
+jobs:
+  prettier:
+    name: Prettier
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+
+      - name: Install Dependencies
+        run: bun install --ci
+
+      - name: Run Prettier Check
+        id: prettier
+        run: bun run prettier:check
+
+      - name: Prettier Failure Handler
+        if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
+        run: |
+          echo "::error::Prettier found formatting issues!"
+          echo "Run 'bun run prettier:fix' locally to resolve issues"
+          exit 1
