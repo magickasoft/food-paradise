@@ -1,4 +1,4 @@
-import { Recipe, RECIPES_OBJ } from '../constants/recipes/recipes'
+import { type Recipe, RECIPES_OBJ } from '../constants/recipes/recipes'
 
 const RECIPE_MAP = createRecipeMap()
 
