@@ -1,7 +1,7 @@
-# Fit Paradise - Fitness Platform
+# Food Paradise - Recipe Platform
 
-[![Maintainability](https://qlty.sh/badges/4ea960d6-d0e4-4485-87fa-40def28a77bb/maintainability.svg)](https://qlty.sh/gh/magickasoft/projects/fit-paradise)
-[![Code Coverage](https://qlty.sh/badges/4ea960d6-d0e4-4485-87fa-40def28a77bb/test_coverage.svg)](https://qlty.sh/gh/magickasoft/projects/fit-paradise)
+[![Maintainability](https://qlty.sh/gh/magickasoft/projects/food-paradise/maintainability.svg)](https://qlty.sh/gh/magickasoft/projects/food-paradise)
+[![Code Coverage](https://qlty.sh/gh/magickasoft/projects/food-paradise/coverage.svg)](https://qlty.sh/gh/magickasoft/projects/food-paradise)
 
 ## Getting Started
 
