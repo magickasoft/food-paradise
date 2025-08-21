@@ -50,6 +50,7 @@ export default async function LocaleLayout({ children, params }: Readonly<Locale
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
+        <meta name="yandex-verification" content="76914165504dc0b6" />
         <Script
           id="remove-extra-attributes"
           strategy="beforeInteractive"
