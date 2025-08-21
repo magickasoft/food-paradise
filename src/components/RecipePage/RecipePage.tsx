@@ -9,7 +9,7 @@ import { DetailCard } from '@/components/Cards'
 
 import { NoList } from '@/components/NoList'
 
-import { Recipe, RECIPES_OBJ } from '@/constants/recipes/recipes'
+import { type Recipe, RECIPES_OBJ } from '@/constants/recipes/recipes'
 import { FiAlertCircle, FiShuffle } from 'react-icons/fi'
 import { RecipeCard } from '../Cards/RecipeCard'
 

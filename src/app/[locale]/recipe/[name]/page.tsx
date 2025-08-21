@@ -1,6 +1,6 @@
 import { findByKey } from '@/helpers/findByKey'
 import RecipePage from '../../../../components/RecipePage/RecipePage'
-import { Metadata } from 'next'
+import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 
 export async function generateMetadata({ params }: { params: Promise<{ name: string }> }): Promise<Metadata> {
