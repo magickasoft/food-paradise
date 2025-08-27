@@ -7,6 +7,7 @@ import { CATEGORIES_ARR } from './constants'
 import { CategoryCard } from '../Cards/CategoryCard'
 import { RECIPES_OBJ } from '@/constants/recipes/recipes'
 import { maxDevice } from '@/styles/device'
+import { RecipesScroll } from '../RecipesScroll'
 
 const Container = styled.section`
   background-color: #ffffff;
@@ -56,33 +57,6 @@ const CategoryCardWrapper = styled.div`
 
   @media ${maxDevice.tablet} {
     width: 100%;
-  }
-`
-
-const RecipesScroll = styled.div`
-  display: flex;
-  overflow-x: auto;
-  gap: 12px;
-  padding-bottom: 8px;
-  max-width: 94vw;
-  align-items: stretch;
-
-  &::-webkit-scrollbar {
-    height: 4px;
-  }
-
-  &::-webkit-scrollbar-track {
-    background: transparent;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    transition: background 0.3s;
-  }
-
-  &::-webkit-scrollbar-thumb:hover {
-    background: rgba(0, 0, 0, 0.35);
   }
 `
 

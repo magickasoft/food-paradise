@@ -10,8 +10,11 @@ import { DetailCard } from '@/components/Cards'
 import { NoList } from '@/components/NoList'
 
 import { type Recipe, RECIPES_OBJ } from '@/constants/recipes/recipes'
-import { FiAlertCircle, FiShuffle } from 'react-icons/fi'
 import { RecipeCard } from '../Cards/RecipeCard'
+import { RecipesScroll } from '../RecipesScroll'
+import { DetailsTitle } from '../DetailsTitle'
+import { TipsList } from '../TipsList'
+import { VariationsList } from '../VariationsList'
 
 const HeaderContainer = styled.div`
   max-width: 1800px;
@@ -176,13 +179,6 @@ const EquipmentsContainer = styled.section`
   }
 `
 
-const DetailsTitle = styled.h2`
-  font-size: 1.8rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: #333;
-`
-
 const DetailsCardsContainer = styled.section<{
   width?: string
   $justifyContent?: string
@@ -254,52 +250,6 @@ const Zero = styled.section`
   display: none;
 `
 
-const TipsList = styled.ul`
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-`
-
-const TipItem = styled.li`
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  background: #fffbe6;
-  border-left: 4px solid #ffcc00;
-  padding: 12px 16px;
-  border-radius: 6px;
-  font-size: 1rem;
-  line-height: 1.4;
-`
-
-const VariationsList = styled.ul`
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-`
-
-const VariationItem = styled.li`
-  background: #f3f7ff;
-  border: 1px solid #d0e1ff;
-  border-radius: 6px;
-  padding: 12px 16px;
-`
-
-const VariationTitle = styled.strong`
-  display: inline-block;
-  background: #d0e1ff;
-  padding: 2px 8px;
-  border-radius: 4px;
-  margin-bottom: 4px;
-  font-size: 0.9rem;
-`
-
 const AnotherRecipesBlock = styled.section`
   width: 100%;
   display: flex;
@@ -308,33 +258,6 @@ const AnotherRecipesBlock = styled.section`
   background: #f9f9f9;
   padding: 20px;
   margin-bottom: 30px;
-`
-
-const RecipesScroll = styled.div`
-  display: flex;
-  overflow-x: auto;
-  gap: 12px;
-  padding-bottom: 8px;
-  max-width: 94vw;
-  align-items: stretch;
-
-  &::-webkit-scrollbar {
-    height: 4px;
-  }
-
-  &::-webkit-scrollbar-track {
-    background: transparent;
-  }
-
-  &::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    transition: background 0.3s;
-  }
-
-  &::-webkit-scrollbar-thumb:hover {
-    background: rgba(0, 0, 0, 0.35);
-  }
 `
 
 const RecipePage = ({ recipe }: { recipe: Recipe | null }) => {
@@ -429,35 +352,13 @@ const RecipePage = ({ recipe }: { recipe: Recipe | null }) => {
 
             {recipe.tips && recipe.tips?.length > 0 && (
               <DetailsContainer>
-                <DetailsTitle>
-                  <FiAlertCircle size={20} style={{ marginRight: 8 }} />
-                  Советы
-                </DetailsTitle>
-                <TipsList>
-                  {recipe.tips.map((tip, index) => (
-                    <TipItem key={index}>
-                      <FiAlertCircle size={18} color="#ffcc00" />
-                      {tip}
-                    </TipItem>
-                  ))}
-                </TipsList>
+                <TipsList tips={recipe.tips} />
               </DetailsContainer>
             )}
 
             {recipe.variations && recipe.variations?.length > 0 && (
               <DetailsContainer>
-                <DetailsTitle>
-                  <FiShuffle size={20} style={{ marginRight: 8 }} />
-                  Вариации
-                </DetailsTitle>
-                <VariationsList>
-                  {recipe.variations.map((variation, index) => (
-                    <VariationItem key={index}>
-                      <VariationTitle>{variation.name}</VariationTitle>
-                      <div>{variation.changes}</div>
-                    </VariationItem>
-                  ))}
-                </VariationsList>
+                <VariationsList variations={recipe.variations} />
               </DetailsContainer>
             )}
           </>
