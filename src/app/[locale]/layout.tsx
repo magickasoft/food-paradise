@@ -4,7 +4,7 @@ import { Geist, Geist_Mono } from 'next/font/google'
 import Script from 'next/script'
 import { notFound } from 'next/navigation'
 import { hasLocale, NextIntlClientProvider } from 'next-intl'
-// import { getTranslations, setRequestLocale } from 'next-intl/server'
+
 import { setRequestLocale } from 'next-intl/server'
 import { YandexMetricaProvider } from '@artginzburg/next-ym'
 import { routing } from '@/i18n/routing'
@@ -28,16 +28,6 @@ export function generateStaticParams() {
   return routing.locales.map(locale => ({ locale }))
 }
 
-// export async function generateMetadata(props: Omit<LocaleLayoutProps, 'children'>): Promise<{ title: string }> {
-//   const { locale } = await props.params
-
-//   const t = await getTranslations({ locale, namespace: 'localeLayout' })
-
-//   return {
-//     // title: t('title'),
-//   }
-// }
-
 export default async function LocaleLayout({ children, params }: Readonly<LocaleLayoutProps>) {
   const { locale } = await params
 
@@ -50,7 +40,13 @@ export default async function LocaleLayout({ children, params }: Readonly<Locale
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
+        <link rel="icon" href="/favicon.svg" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="max-image-preview:large" />
         <meta name="yandex-verification" content="76914165504dc0b6" />
+        <title>{'SEO.title'}</title>
+        <meta name="description" content={'SEO.description'} />
+        <meta name="keywords" content={'SEO.keywords'} />
         <Script
           id="remove-extra-attributes"
           strategy="beforeInteractive"
