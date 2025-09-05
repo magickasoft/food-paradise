@@ -4,13 +4,13 @@ import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
   :root {
-    --background: #ffffff;
+    --background: #f9f9f9;
     --foreground: #171717;
   }
 
   @media (prefers-color-scheme: dark) {
     :root {
-      --background: #ffffff;
+      --background: #f9f9f9;
       --foreground: #171717;
     }
   }

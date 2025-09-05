@@ -3,8 +3,8 @@
 import styled from 'styled-components'
 
 const Title = styled.h2`
-  font-size: 1.8rem;
-  font-weight: bold;
+  font-size: 1.4rem;
+  font-weight: 600;
   margin-bottom: 10px;
   color: #333;
 `
