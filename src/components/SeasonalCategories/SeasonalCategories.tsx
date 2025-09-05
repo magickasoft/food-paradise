@@ -6,7 +6,6 @@ import { SEASONAL_CATEGORIES_ARR } from './constants'
 import { maxDevice } from '@/styles/device'
 
 const Container = styled.section`
-  background-color: #ffffff;
   min-height: 300px;
   max-width: 1920px;
   margin: 0 auto;

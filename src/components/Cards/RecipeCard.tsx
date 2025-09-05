@@ -73,6 +73,7 @@ const Description = styled.div`
 const Characteristic = styled.div`
   margin-top: auto;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 12px;
   font-size: 12px;

@@ -5,10 +5,10 @@ import styled from 'styled-components'
 
 const Container = styled.header`
   display: flex;
-  margin: 120px 140px 60px 140px;
+  margin: 76px 140px 60px 140px;
 
   @media ${maxDevice.tablet} {
-    margin: 120px 0px 60px 0px;
+    margin: 40px 0px 60px 0px;
   }
 
   @media ${maxDevice.mobileL} {
@@ -46,19 +46,21 @@ const Text = styled.div`
   max-width: 760px;
 `
 
-const Content = styled.div`
+const Content = styled.div<{ backgroundColor?: string }>`
   width: 100%;
+  background-color: ${props => props.backgroundColor || 'transparent'};
 `
 
 type PageWrapperProps = {
   label?: React.ReactNode
   text?: React.ReactNode
   children?: React.ReactNode
+  backgroundColor?: string
 }
 
-export const PageWrapper = ({ label, text, children }: PageWrapperProps) => (
+export const PageWrapper = ({ label, text, children, backgroundColor }: PageWrapperProps) => (
   <Container>
-    <Content>
+    <Content backgroundColor={backgroundColor}>
       {label && <Label>{label}</Label>}
       {text && <Text>{text}</Text>}
       {children}

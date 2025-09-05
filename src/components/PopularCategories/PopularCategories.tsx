@@ -10,7 +10,6 @@ import { maxDevice } from '@/styles/device'
 import { RecipesScroll } from '../RecipesScroll'
 
 const Container = styled.section`
-  background-color: #ffffff;
   min-height: 300px;
   max-width: 1920px;
   overflow: hidden;

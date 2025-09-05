@@ -1,7 +1,6 @@
 'use client'
 
 import { DetailsTitle } from './DetailsTitle'
-import { FiShuffle } from 'react-icons/fi'
 
 import styled from 'styled-components'
 
@@ -12,12 +11,13 @@ const List = styled.ul`
   padding: 0;
   margin: 0;
   list-style: none;
-`
-
-const Item = styled.li`
+  width: 100%;
   background: #f3f7ff;
   border: 1px solid #d0e1ff;
   border-radius: 6px;
+`
+
+const Item = styled.li`
   padding: 12px 16px;
 `
 
@@ -33,10 +33,7 @@ const Title = styled.strong`
 export function VariationsList({ variations }: { variations: { name: string; changes: string }[] }) {
   return (
     <>
-      <DetailsTitle>
-        <FiShuffle size={20} style={{ marginRight: 8 }} />
-        Вариации
-      </DetailsTitle>
+      <DetailsTitle>Вариации</DetailsTitle>
       <List>
         {variations.map((variation, index) => (
           <Item key={index}>

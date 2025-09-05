@@ -6,37 +6,38 @@ const Card = styled.div<{
   $backgroundColor?: string
   variant?: 'default' | 'short'
 }>`
-  width: 150px;
-  min-width: 150px;
-  height: ${({ variant }) => (variant === 'short' ? '180px' : '220px')};
-  min-height: ${({ variant }) => (variant === 'short' ? '180px' : '220px')};
+  width: 120px;
+  min-width: 120px;
+  height: ${({ variant }) => (variant === 'short' ? '140px' : '180px')};
+  min-height: ${({ variant }) => (variant === 'short' ? '140px' : '180px')};
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 20px 10px 10px 10px;
+  padding: 8px;
+  padding-top: 16px;
   border-radius: 8px;
   gap: 10px;
   background-color: ${({ $backgroundColor }) => $backgroundColor || '#ffffff'};
 `
 
 const ImageBlock = styled.div`
-  width: 80%;
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
 `
 
 const Image = styled.img`
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
   border-radius: 50%;
 `
 
 const NoImage = styled.div`
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   background-color: #dddddd;
   border-radius: 50%;
   display: flex;

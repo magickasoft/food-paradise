@@ -2,7 +2,6 @@
 
 import styled from 'styled-components'
 
-import { InfoBlock } from '@/components/RecipePage'
 import { PageWrapper } from '@/components/PageWrapper'
 
 import { DetailCard } from '@/components/Cards'
@@ -10,125 +9,13 @@ import { DetailCard } from '@/components/Cards'
 import { NoList } from '@/components/NoList'
 
 import { type Recipe, RECIPES_OBJ } from '@/constants/recipes/recipes'
-import { RecipeCard } from '../Cards/RecipeCard'
-import { RecipesScroll } from '../RecipesScroll'
+
 import { DetailsTitle } from '../DetailsTitle'
-import { TipsList } from '../TipsList'
-import { VariationsList } from '../VariationsList'
-
-const HeaderContainer = styled.div`
-  max-width: 1800px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
-  overflow: hidden;
-`
-
-const Header = styled.header`
-  display: flex;
-  max-height: 90vh;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: stretch;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    max-height: none;
-  }
-`
-
-const TitleContainer = styled.article`
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  border-radius: 8px 0 0 8px;
-
-  @media (max-width: 768px) {
-    width: 100%;
-    border-radius: 8px 8px 0 0;
-    padding: 16px;
-    order: 2;
-  }
-`
-
-const ImageContainer = styled.article`
-  width: 40%;
-  display: flex;
-  height: auto;
-  aspect-ratio: 4 / 3;
-  overflow: hidden;
-  border-radius: 0 8px 0 0;
-
-  @media (max-width: 768px) {
-    width: 100%;
-    border-radius: 0 0 8px 8px;
-    aspect-ratio: 1.5 / 1;
-    order: 1;
-  }
-`
-
-const Image = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 0 8px 0 0;
-`
-
-const Placeholder = styled.article`
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(0deg, #f9f9f9, #ddd);
-  color: #777;
-  font-size: 1.2rem;
-  font-weight: 500;
-  font-style: italic;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0 8px 0 0;
-`
-
-const Title = styled.h1`
-  width: 80%;
-  margin-bottom: 10px;
-  line-height: 1.2;
-  text-align: center;
-
-  @media (max-width: 768px) {
-    width: 100%;
-    font-size: 1.5rem;
-  }
-`
-
-const Description = styled.article`
-  width: 80%;
-  margin-bottom: 10px;
-  font-size: 1.2rem;
-  line-height: 1.6;
-  text-align: justify;
-
-  @media (max-width: 768px) {
-    width: 100%;
-    font-size: 0.75rem;
-  }
-`
-
-const InfoContainer = styled.article`
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: center;
-
-  @media (max-width: 768px) {
-    flex-direction: row;
-    gap: 8px;
-  }
-`
+import { HeaderBlock } from './HeaderBlock'
+import { AnotherRecipesBlock } from './AnotherRecipesBlock'
+import { TipsBlock } from './TipsBlock'
+import { VariationsBlock } from './VariationsBlock'
+import { maxDevice } from '@/styles/device'
 
 const DetailsContainer = styled.section`
   width: 100%;
@@ -136,14 +23,13 @@ const DetailsContainer = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 20px;
   background-color: #f9f9f9;
   margin-bottom: 20px;
   font-size: 1rem;
   line-height: 1.6;
   color: #333;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     flex-direction: column;
     padding: 16px;
   }
@@ -154,14 +40,15 @@ const IngredientsContainer = styled.section`
   display: flex;
   flex-direction: column;
   text-align: start;
+  padding: 0 20px;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     width: 100%;
     border-right: none;
     border-bottom: 1px solid #ddd;
     padding-right: 0;
+    padding-left: 0;
     padding-bottom: 20px;
-    margin-bottom: 20px;
   }
 `
 
@@ -171,7 +58,7 @@ const EquipmentsContainer = styled.section`
   flex-direction: column;
   text-align: start;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     width: 100%;
     border-left: none;
     padding-left: 0;
@@ -182,39 +69,77 @@ const EquipmentsContainer = styled.section`
 const DetailsCardsContainer = styled.section<{
   width?: string
   $justifyContent?: string
+  $background?: string
 }>`
   width: ${props => props.width || '100%'};
   display: flex;
   flex-direction: row;
   gap: 10px;
-  height: 220px;
+  background: ${props => props.$background || 'transparent'};
   justify-content: ${props => props.$justifyContent || 'flex-start'};
   overflow-x: auto;
+  margin-bottom: 20px;
+  border-radius: 6px;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     height: auto;
   }
 `
 
 const RecipeStepsContainer = styled.section`
   width: 100%;
+  max-width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+
+  @media ${maxDevice.laptop} {
+    flex-direction: column;
+  }
+`
+
+const RecipeDetailsBlock = styled.section`
+  width: calc(30% - 10px);
   display: flex;
   flex-direction: column;
+  padding: 20px;
+  height: auto;
+  border-radius: 8px;
+
+  @media ${maxDevice.laptop} {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+`
+
+const RecipeStepBlock = styled.section`
+  width: calc(70% - 10px);
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #fff;
+
+  @media ${maxDevice.laptop} {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
 `
 
 const RecipeStep = styled.article`
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin-bottom: 10px;
   font-size: 1rem;
   line-height: 1.6;
   color: #333;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     padding: 15px;
     margin-bottom: 10px;
   }
@@ -226,7 +151,7 @@ const RecipeTitle = styled.h2`
   margin-bottom: 10px;
   color: #333;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     margin-bottom: 5px;
     font-size: 1.2rem;
   }
@@ -238,9 +163,9 @@ const RecipeDescription = styled.article`
   font-size: 1rem;
   line-height: 1.6;
   color: #333;
-  text-align: center;
+  text-align: left;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     width: 100%;
     font-size: 0.85rem;
   }
@@ -248,16 +173,6 @@ const RecipeDescription = styled.article`
 
 const Zero = styled.section`
   display: none;
-`
-
-const AnotherRecipesBlock = styled.section`
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background: #f9f9f9;
-  padding: 20px;
-  margin-bottom: 30px;
 `
 
 const RecipePage = ({ recipe }: { recipe: Recipe | null }) => {
@@ -268,26 +183,7 @@ const RecipePage = ({ recipe }: { recipe: Recipe | null }) => {
   return (
     <main>
       <PageWrapper>
-        <HeaderContainer>
-          {!recipe ? (
-            <Title>Recipe not found</Title>
-          ) : (
-            <Header>
-              <TitleContainer>
-                <Title>{recipe.title}</Title>
-                <Description>{recipe.description}</Description>
-                <InfoContainer>
-                  {recipe.preparation && <InfoBlock name="Подготовка" value={recipe.preparation} gauge="мин" />}
-                  <InfoBlock name="Готовка" value={recipe.time} gauge="мин" />
-                  {recipe.calories && <InfoBlock name="Калорийность" value={recipe.calories} gauge="ккал" />}
-                </InfoContainer>
-              </TitleContainer>
-              <ImageContainer>
-                {recipe.img ? <Image src={recipe.img} alt={recipe.name} /> : <Placeholder>Нет изображения</Placeholder>}
-              </ImageContainer>
-            </Header>
-          )}
-        </HeaderContainer>
+        <HeaderBlock recipe={recipe} />
         {recipe && (
           <>
             <DetailsContainer>
@@ -308,73 +204,58 @@ const RecipePage = ({ recipe }: { recipe: Recipe | null }) => {
                   <NoList value="Список ингредиентов будет доступен позднее..." />
                 )}
               </IngredientsContainer>
-
-              <EquipmentsContainer>
-                <DetailsTitle>Оборудование</DetailsTitle>
-                {recipe.equipments.length ? (
-                  <DetailsCardsContainer>
-                    {recipe.equipments.map(equipment => (
-                      <DetailCard
-                        key={equipment.name}
-                        name={equipment.name}
-                        img={equipment?.img || null}
-                        variant="short"
-                      />
-                    ))}
-                  </DetailsCardsContainer>
-                ) : (
-                  <NoList value="Список оборудования будет доступен позднее..." />
-                )}
-              </EquipmentsContainer>
             </DetailsContainer>
             <RecipeStepsContainer>
-              {recipe.cookingRecipe?.map((step, index) => (
-                <RecipeStep key={index}>
-                  <RecipeTitle>{`Шаг ${index + 1}`}</RecipeTitle>
-                  <RecipeDescription>{step.description}</RecipeDescription>
-                  {step.ingredients?.length > 0 && (
-                    <DetailsCardsContainer width="100%" $justifyContent="center">
-                      {step.ingredients.map(ingredient => (
+              <RecipeDetailsBlock>
+                <EquipmentsContainer>
+                  <DetailsTitle>Оборудование</DetailsTitle>
+                  {recipe.equipments.length ? (
+                    <DetailsCardsContainer $background="#fff">
+                      {recipe.equipments.map(equipment => (
                         <DetailCard
-                          key={ingredient.name}
-                          name={ingredient.name}
-                          text={ingredient.count && ingredient.gauge ? `${ingredient.count} ${ingredient.gauge}` : ''}
-                          img={ingredient?.img || null}
-                          backgroundColor="#f9f9f9"
+                          key={equipment.name}
+                          name={equipment.name}
+                          img={equipment?.img || null}
                           variant="short"
                         />
                       ))}
                     </DetailsCardsContainer>
+                  ) : (
+                    <NoList value="Список оборудования будет доступен позднее..." />
                   )}
-                </RecipeStep>
-              ))}
+                </EquipmentsContainer>
+                <TipsBlock tips={recipe?.tips || []} />
+                <VariationsBlock variations={recipe?.variations || []} />
+              </RecipeDetailsBlock>
+              <RecipeStepBlock>
+                {recipe.cookingRecipe?.map((step, index) => (
+                  <div key={index}>
+                    <RecipeStep>
+                      <RecipeTitle>{`Шаг ${index + 1}`}</RecipeTitle>
+                      <RecipeDescription>{step.description}</RecipeDescription>
+                    </RecipeStep>
+                    {step.ingredients?.length > 0 && (
+                      <DetailsCardsContainer width="100%">
+                        {step.ingredients.map(ingredient => (
+                          <DetailCard
+                            key={ingredient.name}
+                            name={ingredient.name}
+                            text={ingredient.count && ingredient.gauge ? `${ingredient.count} ${ingredient.gauge}` : ''}
+                            img={ingredient?.img || null}
+                            backgroundColor="#f9f9f9"
+                            variant="short"
+                          />
+                        ))}
+                      </DetailsCardsContainer>
+                    )}
+                  </div>
+                ))}
+              </RecipeStepBlock>
             </RecipeStepsContainer>
-
-            {recipe.tips && recipe.tips?.length > 0 && (
-              <DetailsContainer>
-                <TipsList tips={recipe.tips} />
-              </DetailsContainer>
-            )}
-
-            {recipe.variations && recipe.variations?.length > 0 && (
-              <DetailsContainer>
-                <VariationsList variations={recipe.variations} />
-              </DetailsContainer>
-            )}
           </>
         )}
-        {recipes && (
-          <AnotherRecipesBlock>
-            <DetailsTitle>Другие рецепты</DetailsTitle>
-            <RecipesScroll>
-              {recipes.map(({ key, name, ...recipe }) => (
-                <RecipeCard name={name} key={key || name} {...recipe} />
-              ))}
-            </RecipesScroll>
-          </AnotherRecipesBlock>
-        )}
+        <AnotherRecipesBlock recipes={recipes} />
       </PageWrapper>
-
       <Zero>
         {recipe?.searchRequests?.map(query => {
           return <p key={query}>{query}</p>

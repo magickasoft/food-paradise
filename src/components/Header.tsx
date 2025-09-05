@@ -25,7 +25,7 @@ const Container = styled.header<{ $scrolled: boolean }>`
   box-shadow: ${({ $scrolled }) => ($scrolled ? '0 2px 6px rgba(0,0,0,0.05)' : 'none')};
   transition: all 0.3s ease;
 
-  @media ${maxDevice.tablet} {
+  @media ${maxDevice.laptop} {
     padding: 0 20px;
     height: 3.5rem;
   }
@@ -59,7 +59,7 @@ const CenterBlock = styled.nav<{ $menuOpen?: boolean }>`
     }
   }
 
-  @media ${maxDevice.tablet} {
+  @media ${maxDevice.laptop} {
     display: ${({ $menuOpen }) => ($menuOpen ? 'flex' : 'none')};
     flex-direction: column;
     position: absolute;
@@ -79,7 +79,7 @@ const BurgerMenu = styled.div`
   cursor: pointer;
   color: #333;
 
-  @media ${maxDevice.tablet} {
+  @media ${maxDevice.laptop} {
     display: block;
   }
 `
@@ -117,7 +117,7 @@ const StyledButton = styled.a`
   /* Альтернативный вариант с более выраженным градиентом */
   /* background: linear-gradient(90deg, #ff5e4d 0%, #ff7c6b 50%, #ff5e4d 100%); */
 
-  @media ${maxDevice.tablet} {
+  @media ${maxDevice.laptop} {
     height: 36px;
     font-size: 14px;
     padding: 0 16px;
