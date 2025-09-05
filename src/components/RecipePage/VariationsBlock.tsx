@@ -1,7 +1,6 @@
 'use client'
 
 import styled from 'styled-components'
-import { TipsList } from '../TipsList'
 import { VariationsList } from '../VariationsList'
 import { maxDevice } from '@/styles/device'
 

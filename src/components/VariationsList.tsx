@@ -1,7 +1,6 @@
 'use client'
 
 import { DetailsTitle } from './DetailsTitle'
-import { FiShuffle } from 'react-icons/fi'
 
 import styled from 'styled-components'
 
