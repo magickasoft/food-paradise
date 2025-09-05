@@ -11,12 +11,11 @@ import { NoList } from '@/components/NoList'
 import { type Recipe, RECIPES_OBJ } from '@/constants/recipes/recipes'
 
 import { DetailsTitle } from '../DetailsTitle'
-import { TipsList } from '../TipsList'
-import { VariationsList } from '../VariationsList'
 import { HeaderBlock } from './HeaderBlock'
 import { AnotherRecipesBlock } from './AnotherRecipesBlock'
 import { TipsBlock } from './TipsBlock'
 import { VariationsBlock } from './VariationsBlock'
+import { maxDevice } from '@/styles/device'
 
 const DetailsContainer = styled.section`
   width: 100%;
@@ -30,7 +29,7 @@ const DetailsContainer = styled.section`
   line-height: 1.6;
   color: #333;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     flex-direction: column;
     padding: 16px;
   }
@@ -43,13 +42,13 @@ const IngredientsContainer = styled.section`
   text-align: start;
   padding: 0 20px;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     width: 100%;
     border-right: none;
     border-bottom: 1px solid #ddd;
     padding-right: 0;
+    padding-left: 0;
     padding-bottom: 20px;
-    margin-bottom: 20px;
   }
 `
 
@@ -59,7 +58,7 @@ const EquipmentsContainer = styled.section`
   flex-direction: column;
   text-align: start;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     width: 100%;
     border-left: none;
     padding-left: 0;
@@ -82,7 +81,7 @@ const DetailsCardsContainer = styled.section<{
   margin-bottom: 20px;
   border-radius: 6px;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     height: auto;
   }
 `
@@ -94,7 +93,7 @@ const RecipeStepsContainer = styled.section`
   gap: 20px;
   flex-direction: row;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     flex-direction: column;
   }
 `
@@ -107,9 +106,10 @@ const RecipeDetailsBlock = styled.section`
   height: auto;
   border-radius: 8px;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 `
 
@@ -120,6 +120,12 @@ const RecipeStepBlock = styled.section`
   flex-direction: column;
   border-radius: 8px;
   background-color: #fff;
+
+  @media ${maxDevice.laptop} {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
 `
 
 const RecipeStep = styled.article`
@@ -133,7 +139,7 @@ const RecipeStep = styled.article`
   line-height: 1.6;
   color: #333;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     padding: 15px;
     margin-bottom: 10px;
   }
@@ -145,7 +151,7 @@ const RecipeTitle = styled.h2`
   margin-bottom: 10px;
   color: #333;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     margin-bottom: 5px;
     font-size: 1.2rem;
   }
@@ -159,7 +165,7 @@ const RecipeDescription = styled.article`
   color: #333;
   text-align: left;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     width: 100%;
     font-size: 0.85rem;
   }

@@ -3,6 +3,7 @@
 import styled from 'styled-components'
 import { TipsList } from '../TipsList'
 import { VariationsList } from '../VariationsList'
+import { maxDevice } from '@/styles/device'
 
 const DetailsContainer = styled.section`
   width: 100%;
@@ -16,9 +17,10 @@ const DetailsContainer = styled.section`
   line-height: 1.6;
   color: #333;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     flex-direction: column;
-    padding: 16px;
+    padding: 0px;
+    margin-bottom: 10px;
   }
 `
 

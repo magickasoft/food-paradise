@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 import { InfoBlock } from '@/components/RecipePage'
 import { Recipe } from '@/constants/recipes/recipes'
+import { maxDevice } from '@/styles/device'
 
 const HeaderContainer = styled.div`
   max-width: 1800px;
@@ -21,7 +22,7 @@ const Header = styled.header`
   justify-content: space-between;
   align-items: stretch;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     flex-direction: column;
     max-height: none;
   }
@@ -29,14 +30,15 @@ const Header = styled.header`
 
 const TitleContainer = styled.article`
   width: 60%;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   padding: 0 20px 20px 20px;
   border-radius: 8px 0 0 8px;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     width: 100%;
     border-radius: 8px 8px 0 0;
     padding: 16px;
@@ -52,7 +54,7 @@ const ImageContainer = styled.article`
   overflow: hidden;
   border-radius: 8px;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     width: 100%;
     border-radius: 0 0 8px 8px;
     aspect-ratio: 1.5 / 1;
@@ -88,7 +90,7 @@ const Title = styled.h1`
   text-align: left;
   font-size: 2rem;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     width: 100%;
     font-size: 1.5rem;
   }
@@ -101,9 +103,9 @@ const Description = styled.article`
   line-height: 1.6;
   text-align: justify;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     width: 100%;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
   }
 `
 
@@ -115,7 +117,7 @@ const InfoContainer = styled.article`
   align-items: center;
   justify-content: center;
 
-  @media (max-width: 768px) {
+  @media ${maxDevice.laptop} {
     flex-direction: row;
     gap: 8px;
   }

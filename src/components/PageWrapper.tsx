@@ -8,7 +8,7 @@ const Container = styled.header`
   margin: 76px 140px 60px 140px;
 
   @media ${maxDevice.tablet} {
-    margin: 120px 0px 60px 0px;
+    margin: 40px 0px 60px 0px;
   }
 
   @media ${maxDevice.mobileL} {
