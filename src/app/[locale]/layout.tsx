@@ -43,7 +43,6 @@ export default async function LocaleLayout({ children, params }: Readonly<Locale
         <link rel="icon" href="/favicon.svg" type="image/x-icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="max-image-preview:large" />
-        <meta name="yandex-verification" content="76914165504dc0b6" />
         <meta name="yandex-verification" content="2e7fe2a2d1794de6" />
         <title>{'SEO.title'}</title>
         <meta name="description" content={'SEO.description'} />
