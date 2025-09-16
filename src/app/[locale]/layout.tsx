@@ -10,7 +10,6 @@ import { YandexMetricaProvider } from '@artginzburg/next-ym'
 import { routing } from '@/i18n/routing'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
-import { YANDEX_METRICA_ID } from '@/variables/YANDEX_METRICA_ID'
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] })
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] })
