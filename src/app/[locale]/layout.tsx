@@ -45,7 +45,7 @@ export const metadata: Metadata = {
 
 export interface LocaleLayoutProps {
   children: ReactNode
-  params: { locale: string }
+  params: Promise<{ locale: string }>
 }
 
 export function generateStaticParams() {
@@ -53,7 +53,7 @@ export function generateStaticParams() {
 }
 
 export default async function LocaleLayout({ children, params }: Readonly<LocaleLayoutProps>) {
-  const { locale } = params
+  const { locale } = await params
 
   if (!hasLocale(routing.locales, locale)) notFound()
 
