@@ -146,7 +146,7 @@ export const Header = () => {
     <Container $scrolled={scrolled}>
       <LeftBlock>
         <Link href="/" locale="ru">
-          <Image src="/static/povr-eshka-logo.png" alt="logo" width={50} height={50} priority />
+          <Image src="/static/logo.png" alt="logo" width={50} height={50} priority />
         </Link>
       </LeftBlock>
 
