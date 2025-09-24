@@ -13,6 +13,12 @@ export const routing = defineRouting({
     '/categories': {
       en: '/categories',
     },
+    '/categories/[name]': {
+      en: '/categories/[name]',
+    },
+    '/recipe/[name]': {
+      en: '/recipe/[name]',
+    },
     '/recipe/shashlyk-iz-svininy-na-kefire': {
       en: '/recipe/shashlyk-iz-svininy-na-kefire',
     },
