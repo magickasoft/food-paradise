@@ -8,7 +8,7 @@ type Href = Parameters<typeof getPathname>[0]['href']
 
 function getUrl(href: Href, locale: Locale) {
   const pathname = getPathname({ locale, href })
-  return `https://${URL}/` + pathname
+  return `https://${URL}${pathname}`
 }
 
 function getEntries(href: Href) {
