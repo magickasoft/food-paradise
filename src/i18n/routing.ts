@@ -1,323 +1,135 @@
 import { defineRouting } from 'next-intl/routing'
 import { locales, defaultLocale } from './constants'
+import { createLocalizedPaths } from './createLocalizedPaths'
+
+const withLocales = createLocalizedPaths(locales)
+
+const straightPaths = {
+  '/': withLocales('/'),
+  '/categories': withLocales('/categories'),
+} as const
+
+const dynamicPaths = {
+  '/categories/[name]': withLocales('/categories/[name]'),
+  '/recipe/[name]': withLocales('/recipe/[name]'),
+} as const
+
+const recipePaths = {
+  '/recipe/shashlyk-iz-svininy-na-kefire': withLocales('/recipe/shashlyk-iz-svininy-na-kefire'),
+  '/recipe/shashlyk-iz-kurinogo-bedra': withLocales('/recipe/shashlyk-iz-kurinogo-bedra'),
+  '/recipe/shashlyk-iz-kurinyh-grudok': withLocales('/recipe/shashlyk-iz-kurinyh-grudok'),
+  '/recipe/shashlyk-iz-kuritsy-v-kefirnom-marinade': withLocales('/recipe/shashlyk-iz-kuritsy-v-kefirnom-marinade'),
+  '/recipe/shashlyk-iz-kuritsy-v-soevom-marinade': withLocales('/recipe/shashlyk-iz-kuritsy-v-soevom-marinade'),
+  '/recipe/shashlyk-iz-svininy-v-granatovom-souse': withLocales('/recipe/shashlyk-iz-svininy-v-granatovom-souse'),
+  '/recipe/shashlyk-iz-baraniny-s-rozmarinom': withLocales('/recipe/shashlyk-iz-baraniny-s-rozmarinom'),
+  '/recipe/shashlyk-iz-indeyki-v-yogurtovom-marinade': withLocales('/recipe/shashlyk-iz-indeyki-v-yogurtovom-marinade'),
+  '/recipe/ovoschi-gril-s-balzamisceskoy-glazuryu': withLocales('/recipe/ovoschi-gril-s-balzamisceskoy-glazuryu'),
+  '/recipe/losos-na-kedrovoy-doske-s-medovo-gorchichnym-sousom': withLocales(
+    '/recipe/losos-na-kedrovoy-doske-s-medovo-gorchichnym-sousom',
+  ),
+  '/recipe/krevetki-na-grile-s-chesnochnym-maslom': withLocales('/recipe/krevetki-na-grile-s-chesnochnym-maslom'),
+  '/recipe/gril-sendvich-s-halloumi-i-ovoschami': withLocales('/recipe/gril-sendvich-s-halloumi-i-ovoschami'),
+  '/recipe/grecheskij-salat': withLocales('/recipe/grecheskij-salat'),
+  '/recipe/salat-cezar-s-kuritsey': withLocales('/recipe/salat-cezar-s-kuritsey'),
+  '/recipe/salat-s-avokado-i-krevetkami': withLocales('/recipe/salat-s-avokado-i-krevetkami'),
+  '/recipe/salat-kapreze': withLocales('/recipe/salat-kapreze'),
+  '/recipe/salat-s-tuntsom-i-yaitsom': withLocales('/recipe/salat-s-tuntsom-i-yaitsom'),
+  '/recipe/teplyj-salat-s-govyadinoj': withLocales('/recipe/teplyj-salat-s-govyadinoj'),
+  '/recipe/salat-nisuaz-s-tuntsom': withLocales('/recipe/salat-nisuaz-s-tuntsom'),
+  '/recipe/salat-valdorf-s-kuritsey': withLocales('/recipe/salat-valdorf-s-kuritsey'),
+  '/recipe/krabovyi-salat-s-kukuruzoi': withLocales('/recipe/krabovyi-salat-s-kukuruzoi'),
+  '/recipe/salat-olivye-klassicheskii': withLocales('/recipe/salat-olivye-klassicheskii'),
+  '/recipe/letnii-salat-s-klubnikoi': withLocales('/recipe/letnii-salat-s-klubnikoi'),
+  '/recipe/gruzinskii-salat-lobio': withLocales('/recipe/gruzinskii-salat-lobio'),
+  '/recipe/limonad-s-myatoj': withLocales('/recipe/limonad-s-myatoj'),
+  '/recipe/ogurechnyj-detoks-napitok': withLocales('/recipe/ogurechnyj-detoks-napitok'),
+  '/recipe/yagodnyj-mors': withLocales('/recipe/yagodnyj-mors'),
+  '/recipe/arbuznyj-smuzi': withLocales('/recipe/arbuznyj-smuzi'),
+  '/recipe/myatno-limonnij-detoks-napitok': withLocales('/recipe/myatno-limonnij-detoks-napitok'),
+  '/recipe/imbirnyj-limonad-s-medom': withLocales('/recipe/imbirnyj-limonad-s-medom'),
+  '/recipe/klubnichno-bazilikovyj-limonad': withLocales('/recipe/klubnichno-bazilikovyj-limonad'),
+  '/recipe/tropicheskij-smuzi-s-mango': withLocales('/recipe/tropicheskij-smuzi-s-mango'),
+  '/recipe/ogurechno-lajmovyj-spritser': withLocales('/recipe/ogurechno-lajmovyj-spritser'),
+  '/recipe/malinovyj-chajnyj-fresh': withLocales('/recipe/malinovyj-chajnyj-fresh'),
+  '/recipe/persikovyj-latte': withLocales('/recipe/persikovyj-latte'),
+  '/recipe/inzhirnyj-koktejl': withLocales('/recipe/inzhirnyj-koktejl'),
+  '/recipe/scrambled-eggs': withLocales('/recipe/scrambled-eggs'),
+  '/recipe/scrambled-eggs-with-broccoli': withLocales('/recipe/scrambled-eggs-with-broccoli'),
+  '/recipe/ovsjanaja-kasha-s-jablokami-i-koricej': withLocales('/recipe/ovsjanaja-kasha-s-jablokami-i-koricej'),
+  '/recipe/omlet-s-molokom': withLocales('/recipe/omlet-s-molokom'),
+  '/recipe/bliny': withLocales('/recipe/bliny'),
+  '/recipe/scrambled-eggs-with-sausages-and-beans': withLocales('/recipe/scrambled-eggs-with-sausages-and-beans'),
+  '/recipe/scrambled-eggs-shakshuka': withLocales('/recipe/scrambled-eggs-shakshuka'),
+  '/recipe/menemen': withLocales('/recipe/menemen'),
+  '/recipe/borshch-s-pampushkami': withLocales('/recipe/borshch-s-pampushkami'),
+  '/recipe/okroshka-na-kvase': withLocales('/recipe/okroshka-na-kvase'),
+  '/recipe/okroshka-na-kefire': withLocales('/recipe/okroshka-na-kefire'),
+  '/recipe/classic-borscht': withLocales('/recipe/classic-borscht'),
+  '/recipe/pumpkin-cream-soup': withLocales('/recipe/pumpkin-cream-soup'),
+  '/recipe/pho-bo': withLocales('/recipe/pho-bo'),
+  '/recipe/gazpacho': withLocales('/recipe/gazpacho'),
+  '/recipe/cream-mushroom-soup': withLocales('/recipe/cream-mushroom-soup'),
+  '/recipe/schi-iz-svezhey-kapusty': withLocales('/recipe/schi-iz-svezhey-kapusty'),
+  '/recipe/uha-po-finski': withLocales('/recipe/uha-po-finski'),
+  '/recipe/sup-pyure-iz-tykvy': withLocales('/recipe/sup-pyure-iz-tykvy'),
+  '/recipe/kurinyy-bulon-s-lapshoy': withLocales('/recipe/kurinyy-bulon-s-lapshoy'),
+  '/recipe/rublenye-kotlety-iz-grudki-na-skovorode': withLocales('/recipe/rublenye-kotlety-iz-grudki-na-skovorode'),
+  '/recipe/stejk-ribaj-na-elektrogrile': withLocales('/recipe/stejk-ribaj-na-elektrogrile'),
+  '/recipe/mjaso-po-francuzski-s-pomidorami-i-syrom': withLocales('/recipe/mjaso-po-francuzski-s-pomidorami-i-syrom'),
+  '/recipe/uzbekskij-plov-s-govyadinoj': withLocales('/recipe/uzbekskij-plov-s-govyadinoj'),
+  '/recipe/losos-v-medovo-gorchichnom-souse': withLocales('/recipe/losos-v-medovo-gorchichnom-souse'),
+  '/recipe/kuritsa-gril-s-kinoa': withLocales('/recipe/kuritsa-gril-s-kinoa'),
+  '/recipe/ratatui-s-baklazhanami': withLocales('/recipe/ratatui-s-baklazhanami'),
+  '/recipe/lazanya-s-myasom-i-syrom': withLocales('/recipe/lazanya-s-myasom-i-syrom'),
+  '/recipe/grechka-s-gribami-i-lukom': withLocales('/recipe/grechka-s-gribami-i-lukom'),
+  '/recipe/kartofelnaya-zapekanka-s-farshem': withLocales('/recipe/kartofelnaya-zapekanka-s-farshem'),
+  '/recipe/kurinye-grudki-v-slivocnom-souse': withLocales('/recipe/kurinye-grudki-v-slivocnom-souse'),
+  '/recipe/losos-pod-syrnoy-korochkoy': withLocales('/recipe/losos-pod-syrnoy-korochkoy'),
+  '/recipe/ratatuy-po-domashnemu': withLocales('/recipe/ratatuy-po-domashnemu'),
+  '/recipe/govyadina-po-burgundski': withLocales('/recipe/govyadina-po-burgundski'),
+  '/recipe/krevetki-v-chesnochnom-souse': withLocales('/recipe/krevetki-v-chesnochnom-souse'),
+  '/recipe/kotlety-s-pyure': withLocales('/recipe/kotlety-s-pyure'),
+  '/recipe/makarony-s-syrom': withLocales('/recipe/makarony-s-syrom'),
+  '/recipe/rybnye-kotlety-s-pyure': withLocales('/recipe/rybnye-kotlety-s-pyure'),
+  '/recipe/farshirovannye-pertsy': withLocales('/recipe/farshirovannye-pertsy'),
+  '/recipe/ragu-iz-kabachkov-v-smetane': withLocales('/recipe/ragu-iz-kabachkov-v-smetane'),
+  '/recipe/ovsyanoblin': withLocales('/recipe/ovsyanoblin'),
+  '/recipe/kinoa-boul-s-lososem': withLocales('/recipe/kinoa-boul-s-lososem'),
+  '/recipe/tykvennyj-sup-s-imbirem': withLocales('/recipe/tykvennyj-sup-s-imbirem'),
+  '/recipe/smuzi-boul-s-chia': withLocales('/recipe/smuzi-boul-s-chia'),
+  '/recipe/farshirovannye-pertsy-s-kinoa': withLocales('/recipe/farshirovannye-pertsy-s-kinoa'),
+  '/recipe/chizkeik': withLocales('/recipe/chizkeik'),
+  '/recipe/panna-cotta': withLocales('/recipe/panna-cotta'),
+  '/recipe/chocolate-truffles': withLocales('/recipe/chocolate-truffles'),
+  '/recipe/meringue-roll-s-lemon-curd': withLocales('/recipe/meringue-roll-s-lemon-curd'),
+  '/recipe/klubnichnyy-pai-s-pesochnoy-kroschkoy': withLocales('/recipe/klubnichnyy-pai-s-pesochnoy-kroschkoy'),
+  '/recipe/krem-bryule-s-vanilyu': withLocales('/recipe/krem-bryule-s-vanilyu'),
+  '/recipe/morkovnyy-tort-s-gretskimi-orekhami': withLocales('/recipe/morkovnyy-tort-s-gretskimi-orekhami'),
+  '/recipe/pirozhnoye-kartoshka': withLocales('/recipe/pirozhnoye-kartoshka'),
+  '/recipe/tort-medovik': withLocales('/recipe/tort-medovik'),
+  '/recipe/beze': withLocales('/recipe/beze'),
+  '/recipe/lenivyy-napoleon': withLocales('/recipe/lenivyy-napoleon'),
+  '/recipe/shu-s-kremom': withLocales('/recipe/shu-s-kremom'),
+  '/recipe/apple-strudel': withLocales('/recipe/apple-strudel'),
+  '/recipe/cherry-pie': withLocales('/recipe/cherry-pie'),
+  '/recipe/rulety-iz-vetchiny-s-syrnom-i-chesnokom': withLocales('/recipe/rulety-iz-vetchiny-s-syrnom-i-chesnokom'),
+  '/recipe/kartofelnye-chipsy-v-mikrovolnovke': withLocales('/recipe/kartofelnye-chipsy-v-mikrovolnovke'),
+  '/recipe/sendvich-s-avokado-i-yaitsom-pashot': withLocales('/recipe/sendvich-s-avokado-i-yaitsom-pashot'),
+  '/recipe/grecheskiy-sendvich-s-fetoy': withLocales('/recipe/grecheskiy-sendvich-s-fetoy'),
+  '/recipe/sendvich-s-kuritsey-i-pesto': withLocales('/recipe/sendvich-s-kuritsey-i-pesto'),
+} as const
+
+export const paths = {
+  ...straightPaths,
+  ...recipePaths,
+}
 
 export const routing = defineRouting({
   locales,
   defaultLocale,
   localePrefix: 'as-needed',
   pathnames: {
-    '/': '/',
-    '/privacy-policy': {
-      en: '/privacy-policy',
-    },
-    '/categories': {
-      en: '/categories',
-    },
-    '/categories/[name]': {
-      en: '/categories/[name]',
-    },
-    '/recipe/[name]': {
-      en: '/recipe/[name]',
-    },
-    '/recipe/shashlyk-iz-svininy-na-kefire': {
-      en: '/recipe/shashlyk-iz-svininy-na-kefire',
-    },
-    '/recipe/shashlyk-iz-kurinogo-bedra': {
-      en: '/recipe/shashlyk-iz-kurinogo-bedra',
-    },
-    '/recipe/shashlyk-iz-kurinyh-grudok': {
-      en: '/recipe/shashlyk-iz-kurinyh-grudok',
-    },
-    '/recipe/shashlyk-iz-kuritsy-v-kefirnom-marinade': {
-      en: '/recipe/shashlyk-iz-kuritsy-v-kefirnom-marinade',
-    },
-    '/recipe/shashlyk-iz-kuritsy-v-soevom-marinade': {
-      en: '/recipe/shashlyk-iz-kuritsy-v-soevom-marinade',
-    },
-    '/recipe/shashlyk-iz-svininy-v-granatovom-souse': {
-      en: '/recipe/shashlyk-iz-svininy-v-granatovom-souse',
-    },
-    '/recipe/shashlyk-iz-baraniny-s-rozmarinom': {
-      en: '/recipe/shashlyk-iz-baraniny-s-rozmarinom',
-    },
-    '/recipe/shashlyk-iz-indeyki-v-yogurtovom-marinade': {
-      en: '/recipe/shashlyk-iz-indeyki-v-yogurtovom-marinade',
-    },
-    '/recipe/ovoschi-gril-s-balzamisceskoy-glazuryu': {
-      en: '/recipe/ovoschi-gril-s-balzamisceskoy-glazuryu',
-    },
-    '/recipe/losos-na-kedrovoy-doske-s-medovo-gorchichnym-sousom': {
-      en: '/recipe/losos-na-kedrovoy-doske-s-medovo-gorchichnym-sousom',
-    },
-    '/recipe/krevetki-na-grile-s-chesnochnym-maslom': {
-      en: '/recipe/krevetki-na-grile-s-chesnochnym-maslom',
-    },
-    '/recipe/gril-sendvich-s-halloumi-i-ovoschami': {
-      en: '/recipe/gril-sendvich-s-halloumi-i-ovoschami',
-    },
-    '/recipe/grecheskij-salat': {
-      en: '/recipe/grecheskij-salat',
-    },
-    '/recipe/salat-cezar-s-kuritsey': {
-      en: '/recipe/salat-cezar-s-kuritsey',
-    },
-    '/recipe/salat-s-avokado-i-krevetkami': {
-      en: '/recipe/salat-s-avokado-i-krevetkami',
-    },
-    '/recipe/salat-kapreze': {
-      en: '/recipe/salat-kapreze',
-    },
-    '/recipe/salat-s-tuntsom-i-yaitsom': {
-      en: '/recipe/salat-s-tuntsom-i-yaitsom',
-    },
-    '/recipe/teplyj-salat-s-govyadinoj': {
-      en: '/recipe/teplyj-salat-s-govyadinoj',
-    },
-    '/recipe/salat-nisuaz-s-tuntsom': {
-      en: '/recipe/salat-nisuaz-s-tuntsom',
-    },
-    '/recipe/salat-valdorf-s-kuritsey': {
-      en: '/recipe/salat-valdorf-s-kuritsey',
-    },
-    '/recipe/krabovyi-salat-s-kukuruzoi': {
-      en: '/recipe/krabovyi-salat-s-kukuruzoi',
-    },
-    '/recipe/salat-olivye-klassicheskii': {
-      en: '/recipe/salat-olivye-klassicheskii',
-    },
-    '/recipe/letnii-salat-s-klubnikoi': {
-      en: '/recipe/letnii-salat-s-klubnikoi',
-    },
-    '/recipe/gruzinskii-salat-lobio': {
-      en: '/recipe/gruzinskii-salat-lobio',
-    },
-    '/recipe/limonad-s-myatoj': {
-      en: '/recipe/limonad-s-myatoj',
-    },
-    '/recipe/ogurechnyj-detoks-napitok': {
-      en: '/recipe/ogurechnyj-detoks-napitok',
-    },
-    '/recipe/yagodnyj-mors': {
-      en: '/recipe/yagodnyj-mors',
-    },
-    '/recipe/arbuznyj-smuzi': {
-      en: '/recipe/arbuznyj-smuzi',
-    },
-    '/recipe/myatno-limonnij-detoks-napitok': {
-      en: '/recipe/myatno-limonnij-detoks-napitok',
-    },
-    '/recipe/imbirnyj-limonad-s-medom': {
-      en: '/recipe/imbirnyj-limonad-s-medom',
-    },
-    '/recipe/klubnichno-bazilikovyj-limonad': {
-      en: '/recipe/klubnichno-bazilikovyj-limonad',
-    },
-    '/recipe/tropicheskij-smuzi-s-mango': {
-      en: '/recipe/tropicheskij-smuzi-s-mango',
-    },
-    '/recipe/ogurechno-lajmovyj-spritser': {
-      en: '/recipe/ogurechno-lajmovyj-spritser',
-    },
-    '/recipe/malinovyj-chajnyj-fresh': {
-      en: '/recipe/malinovyj-chajnyj-fresh',
-    },
-    '/recipe/persikovyj-latte': {
-      en: '/recipe/persikovyj-latte',
-    },
-    '/recipe/inzhirnyj-koktejl': {
-      en: '/recipe/inzhirnyj-koktejl',
-    },
-    '/recipe/scrambled-eggs': {
-      en: '/recipe/scrambled-eggs',
-    },
-    '/recipe/scrambled-eggs-with-broccoli': {
-      en: '/recipe/scrambled-eggs-with-broccoli',
-    },
-    '/recipe/ovsjanaja-kasha-s-jablokami-i-koricej': {
-      en: '/recipe/ovsjanaja-kasha-s-jablokami-i-koricej',
-    },
-    '/recipe/omlet-s-molokom': {
-      en: '/recipe/omlet-s-molokom',
-    },
-    '/recipe/bliny': {
-      en: '/recipe/bliny',
-    },
-    '/recipe/scrambled-eggs-with-sausages-and-beans': {
-      en: '/recipe/scrambled-eggs-with-sausages-and-beans',
-    },
-    '/recipe/scrambled-eggs-shakshuka': {
-      en: '/recipe/scrambled-eggs-shakshuka',
-    },
-    '/recipe/menemen': {
-      en: '/recipe/menemen',
-    },
-    '/recipe/borshch-s-pampushkami': {
-      en: '/recipe/borshch-s-pampushkami',
-    },
-    '/recipe/okroshka-na-kvase': {
-      en: '/recipe/okroshka-na-kvase',
-    },
-    '/recipe/okroshka-na-kefire': {
-      en: '/recipe/okroshka-na-kefire',
-    },
-    '/recipe/classic-borscht': {
-      en: '/recipe/classic-borscht',
-    },
-    '/recipe/pumpkin-cream-soup': {
-      en: '/recipe/pumpkin-cream-soup',
-    },
-    '/recipe/pho-bo': {
-      en: '/recipe/pho-bo',
-    },
-    '/recipe/gazpacho': {
-      en: '/recipe/gazpacho',
-    },
-    '/recipe/cream-mushroom-soup': {
-      en: '/recipe/cream-mushroom-soup',
-    },
-    '/recipe/schi-iz-svezhey-kapusty': {
-      en: '/recipe/schi-iz-svezhey-kapusty',
-    },
-    '/recipe/uha-po-finski': {
-      en: '/recipe/uha-po-finski',
-    },
-    '/recipe/sup-pyure-iz-tykvy': {
-      en: '/recipe/sup-pyure-iz-tykvy',
-    },
-    '/recipe/kurinyy-bulon-s-lapshoy': {
-      en: '/recipe/kurinyy-bulon-s-lapshoy',
-    },
-    '/recipe/rublenye-kotlety-iz-grudki-na-skovorode': {
-      en: '/recipe/rublenye-kotlety-iz-grudki-na-skovorode',
-    },
-    '/recipe/stejk-ribaj-na-elektrogrile': {
-      en: '/recipe/stejk-ribaj-na-elektrogrile',
-    },
-    '/recipe/mjaso-po-francuzski-s-pomidorami-i-syrom': {
-      en: '/recipe/mjaso-po-francuzski-s-pomidorami-i-syrom',
-    },
-    '/recipe/uzbekskij-plov-s-govyadinoj': {
-      en: '/recipe/uzbekskij-plov-s-govyadinoj',
-    },
-    '/recipe/losos-v-medovo-gorchichnom-souse': {
-      en: '/recipe/losos-v-medovo-gorchichnom-souse',
-    },
-    '/recipe/kuritsa-gril-s-kinoa': {
-      en: '/recipe/kuritsa-gril-s-kinoa',
-    },
-    '/recipe/ratatui-s-baklazhanami': {
-      en: '/recipe/ratatui-s-baklazhanami',
-    },
-    '/recipe/lazanya-s-myasom-i-syrom': {
-      en: '/recipe/lazanya-s-myasom-i-syrom',
-    },
-    '/recipe/grechka-s-gribami-i-lukom': {
-      en: '/recipe/grechka-s-gribami-i-lukom',
-    },
-    '/recipe/kartofelnaya-zapekanka-s-farshem': {
-      en: '/recipe/kartofelnaya-zapekanka-s-farshem',
-    },
-    '/recipe/kurinye-grudki-v-slivocnom-souse': {
-      en: '/recipe/kurinye-grudki-v-slivocnom-souse',
-    },
-    '/recipe/losos-pod-syrnoy-korochkoy': {
-      en: '/recipe/losos-pod-syrnoy-korochkoy',
-    },
-    '/recipe/ratatuy-po-domashnemu': {
-      en: '/recipe/ratatuy-po-domashnemu',
-    },
-    '/recipe/govyadina-po-burgundski': {
-      en: '/recipe/govyadina-po-burgundski',
-    },
-    '/recipe/krevetki-v-chesnochnom-souse': {
-      en: '/recipe/krevetki-v-chesnochnom-souse',
-    },
-    '/recipe/kotlety-s-pyure': {
-      en: '/recipe/kotlety-s-pyure',
-    },
-    '/recipe/makarony-s-syrom': {
-      en: '/recipe/makarony-s-syrom',
-    },
-    '/recipe/rybnye-kotlety-s-pyure': {
-      en: '/recipe/rybnye-kotlety-s-pyure',
-    },
-    '/recipe/farshirovannye-pertsy': {
-      en: '/recipe/farshirovannye-pertsy',
-    },
-    '/recipe/ragu-iz-kabachkov-v-smetane': {
-      en: '/recipe/ragu-iz-kabachkov-v-smetane',
-    },
-    '/recipe/ovsyanoblin': {
-      en: '/recipe/ovsyanoblin',
-    },
-    '/recipe/kinoa-boul-s-lososem': {
-      en: '/recipe/kinoa-boul-s-lososem',
-    },
-    '/recipe/tykvennyj-sup-s-imbirem': {
-      en: '/recipe/tykvennyj-sup-s-imbirem',
-    },
-    '/recipe/smuzi-boul-s-chia': {
-      en: '/recipe/smuzi-boul-s-chia',
-    },
-    '/recipe/farshirovannye-pertsy-s-kinoa': {
-      en: '/recipe/farshirovannye-pertsy-s-kinoa',
-    },
-    '/recipe/chizkeik': {
-      en: '/recipe/chizkeik',
-    },
-    '/recipe/panna-cotta': {
-      en: '/recipe/panna-cotta',
-    },
-    '/recipe/chocolate-truffles': {
-      en: '/recipe/chocolate-truffles',
-    },
-    '/recipe/meringue-roll-s-lemon-curd': {
-      en: '/recipe/meringue-roll-s-lemon-curd',
-    },
-    '/recipe/klubnichnyy-pai-s-pesochnoy-kroschkoy': {
-      en: '/recipe/klubnichnyy-pai-s-pesochnoy-kroschkoy',
-    },
-    '/recipe/krem-bryule-s-vanilyu': {
-      en: '/recipe/krem-bryule-s-vanilyu',
-    },
-    '/recipe/morkovnyy-tort-s-gretskimi-orekhami': {
-      en: '/recipe/morkovnyy-tort-s-gretskimi-orekhami',
-    },
-    '/recipe/pirozhnoye-kartoshka': {
-      en: '/recipe/pirozhnoye-kartoshka',
-    },
-    '/recipe/tort-medovik': {
-      en: '/recipe/tort-medovik',
-    },
-    '/recipe/beze': {
-      en: '/recipe/beze',
-    },
-    '/recipe/lenivyy-napoleon': {
-      en: '/recipe/lenivyy-napoleon',
-    },
-    '/recipe/shu-s-kremom': {
-      en: '/recipe/shu-s-kremom',
-    },
-    '/recipe/apple-strudel': {
-      en: '/recipe/apple-strudel',
-    },
-    '/recipe/cherry-pie': {
-      en: '/recipe/cherry-pie',
-    },
-    '/recipe/rulety-iz-vetchiny-s-syrnom-i-chesnokom': {
-      en: '/recipe/rulety-iz-vetchiny-s-syrnom-i-chesnokom',
-    },
-    '/recipe/kartofelnye-chipsy-v-mikrovolnovke': {
-      en: '/recipe/kartofelnye-chipsy-v-mikrovolnovke',
-    },
-    '/recipe/sendvich-s-avokado-i-yaitsom-pashot': {
-      en: '/recipe/sendvich-s-avokado-i-yaitsom-pashot',
-    },
-    '/recipe/grecheskiy-sendvich-s-fetoy': {
-      en: '/recipe/grecheskiy-sendvich-s-fetoy',
-    },
-    '/recipe/sendvich-s-kuritsey-i-pesto': {
-      en: '/recipe/sendvich-s-kuritsey-i-pesto',
-    },
+    ...straightPaths,
+    ...dynamicPaths,
   } as const,
 })

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 import { URL } from '../variables/url'
 import type { Locale } from 'next-intl'
-import { routing } from '@/i18n/routing'
+import { routing, paths } from '@/i18n/routing'
 import { getPathname } from '@/i18n/navigation'
 
 type Href = Parameters<typeof getPathname>[0]['href']
@@ -25,7 +25,7 @@ function getEntries(href: Href) {
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const hrefs = Object.keys(routing.pathnames) as Href[]
+  const hrefs = Object.keys(paths) as Href[]
 
   return hrefs.flatMap(href => getEntries(href))
 }
