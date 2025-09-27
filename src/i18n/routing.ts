@@ -4,7 +4,7 @@ import { createLocalizedPaths } from './createLocalizedPaths'
 
 const withLocales = createLocalizedPaths(locales)
 
-const straightPaths = {
+const staticPaths = {
   '/': withLocales('/'),
   '/categories': withLocales('/categories'),
 } as const
@@ -120,7 +120,7 @@ const recipePaths = {
 } as const
 
 export const paths = {
-  ...straightPaths,
+  ...staticPaths,
   ...recipePaths,
 }
 
@@ -129,7 +129,7 @@ export const routing = defineRouting({
   defaultLocale,
   localePrefix: 'as-needed',
   pathnames: {
-    ...straightPaths,
+    ...staticPaths,
     ...dynamicPaths,
   } as const,
 })
