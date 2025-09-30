@@ -3,14 +3,44 @@
 import { RECIPES_OBJ } from '@/constants/recipes/recipes'
 import styled from 'styled-components'
 
-const Container = styled.div`
+const Container = styled.footer`
   background: #ffffff;
   color: #181818;
+  min-height: 100px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  height: 40px;
-  font-size: 16px;
+  padding: 8px 16px;
+  font-size: 14px;
+  flex-wrap: wrap; /* чтобы на мобильных элементы переносились */
+  border-top: 1px solid #eaeaea;
+`
+
+const Links = styled.nav`
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+
+  a {
+    color: #181818;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+`
+
+const FooterCounter = styled.div`
+  font-size: 12px;
+  color: #999999;
+  margin-top: 4px;
+
+  @media (min-width: 600px) {
+    margin-top: 0;
+  }
 `
 
 export const Footer = () => {
@@ -18,9 +48,22 @@ export const Footer = () => {
     return acc + recipes.length
   }, 0)
 
+  const policyLinks = [
+    { label: 'Политика конфиденциальности', url: '/privacy' },
+    { label: 'Пользовательское соглашение', url: '/terms' },
+    { label: 'Cookies', url: '/cookies' },
+  ]
+
   return (
-    <footer>
-      <Container>{recipesCount}</Container> {/* Удалён лишний проп color */}
-    </footer>
+    <Container>
+      <Links>
+        {policyLinks.map(({ label, url }) => (
+          <a key={url} href={url} target="_blank" rel="noopener noreferrer">
+            {label}
+          </a>
+        ))}
+      </Links>
+      <FooterCounter>{recipesCount}</FooterCounter>
+    </Container>
   )
 }
