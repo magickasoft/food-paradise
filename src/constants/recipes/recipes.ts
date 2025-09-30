@@ -47,13 +47,18 @@ export interface MetaSeo {
 
 export interface Recipe {
   metaSeo: MetaSeo
+  // TODO: rename key to "searchPhrase"/"searchTerm"/"searchQuery"
   searchRequests?: string[]
+  // TODO: delete 'name' from categories
   categories: { name: string }[]
   key: string
   name: string
+  // TODO: "images" as array of objects { url: string; alt: string, primary: boolean }
   img: string | null
+  // TODO: "videos" as array of objects { url: string; title: string, coverImage: string, description: string, primary: boolean }
   title: string
   description: string
+  // TODO: add historyDescription: string
   calories: number | null
   preparation: number | null
   time: number
