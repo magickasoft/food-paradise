@@ -69,6 +69,7 @@ export interface Recipe {
     description: string
     ingredients: { name: string; count?: number; gauge: string; img?: string | null; optional?: boolean }[]
   }[]
+  historyDescription?: string
   tips?: string[]
   variations?: { name: string; changes: string }[]
 }
