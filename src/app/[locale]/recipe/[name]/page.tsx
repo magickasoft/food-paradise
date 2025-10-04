@@ -2,6 +2,7 @@ import { findByKey } from '@/helpers/findByKey'
 import RecipePage from '../../../../components/RecipePage/RecipePage'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
+import { URL } from '@/variables/url'
 
 export async function generateMetadata({ params }: { params: Promise<{ name: string }> }): Promise<Metadata> {
   const resolvedParams = await params
@@ -16,6 +17,9 @@ export async function generateMetadata({ params }: { params: Promise<{ name: str
     title: meta.title || 'Recipe not found',
     description: meta.description || 'Recipe not found',
     keywords: meta.keywords,
+    alternates: {
+      canonical: `https://${URL}/recipe/${resolvedParams.name}`,
+    },
     openGraph: {
       title: meta['og:title'] || '',
       description: meta['og:description'] || '',
