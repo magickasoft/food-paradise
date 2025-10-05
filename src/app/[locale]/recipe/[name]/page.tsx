@@ -2,7 +2,7 @@ import { findByKey } from '@/helpers/findByKey'
 import RecipePage from '../../../../components/RecipePage/RecipePage'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { createCanonicalUrl } from '@/i18n/createUrl'
+import { createUrl } from '@/i18n/createUrl'
 
 export async function generateMetadata({
   params,
@@ -22,7 +22,7 @@ export async function generateMetadata({
     description: meta.description || 'Recipe not found',
     keywords: meta.keywords,
     alternates: {
-      canonical: createCanonicalUrl(resolvedParams),
+      canonical: createUrl({ locale: resolvedParams.locale, href: `/recipe/${resolvedParams.name}` }),
     },
     openGraph: {
       title: meta['og:title'] || '',
