@@ -2,9 +2,15 @@ import { findByKey } from '@/helpers/findByKey'
 import RecipePage from '../../../../components/RecipePage/RecipePage'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { URL } from '@/variables/url'
+import type { Locale } from 'next-intl'
+import { createUrl } from '@/i18n/createUrl'
+import type { Href } from '@/i18n/createUrl'
 
-export async function generateMetadata({ params }: { params: Promise<{ name: string }> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ name: string; locale: string }>
+}): Promise<Metadata> {
   const resolvedParams = await params
 
   const recipe = await findByKey(resolvedParams.name)
@@ -18,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ name: str
     description: meta.description || 'Recipe not found',
     keywords: meta.keywords,
     alternates: {
-      canonical: `https://${URL}/recipe/${resolvedParams.name}`,
+      canonical: createUrl({ locale: resolvedParams.locale as Locale, href: `/recipe/${resolvedParams.name}` as Href }),
     },
     openGraph: {
       title: meta['og:title'] || '',
@@ -37,7 +43,7 @@ export async function generateMetadata({ params }: { params: Promise<{ name: str
   }
 }
 
-export default async function Page({ params }: { params: Promise<{ name: string }> }) {
+export default async function Page({ params }: { params: Promise<{ name: string; locale: string }> }) {
   const resolvedParams = await params
 
   const recipe = await findByKey(resolvedParams.name)
