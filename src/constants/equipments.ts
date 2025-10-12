@@ -24,11 +24,15 @@ import whisk from '../jsons/equipments/whisk.json'
 import sieve from '../jsons/equipments/dishes/sieve.json'
 import ladle from '../jsons/equipments/dishes/ladle.json'
 import woodenSpoon from '../jsons/equipments/wooden-spoon.json'
+import mortar from '../jsons/equipments/dishes/mortar.json'
+import fridge from '../jsons/equipments/appliances/fridge.json'
+import skimmer from '../jsons/equipments/skimmer.json'
 
 const APPLIANCES = {
   microwave,
   blender,
   oven,
+  fridge,
 }
 
 const DISHES = {
@@ -41,6 +45,7 @@ const DISHES = {
   lid,
   sieve,
   ladle,
+  mortar,
 }
 
 export const EQUIPMENTS = {
@@ -55,6 +60,7 @@ export const EQUIPMENTS = {
   cutBoard,
   spoon,
   woodenSpoon,
+  skimmer,
   measuringSpoon,
   grill,
   tongs,

@@ -16,6 +16,7 @@ import { AnotherRecipesBlock } from './AnotherRecipesBlock'
 import { TipsBlock } from './TipsBlock'
 import { VariationsBlock } from './VariationsBlock'
 import { maxDevice } from '@/styles/device'
+import { HistoryBlock } from './HistoryBlock'
 
 const DetailsContainer = styled.section`
   width: 100%;
@@ -226,6 +227,7 @@ const RecipePage = ({ recipe }: { recipe: Recipe | null }) => {
                 </EquipmentsContainer>
                 <TipsBlock tips={recipe?.tips || []} />
                 <VariationsBlock variations={recipe?.variations || []} />
+                <HistoryBlock history={recipe?.historyDescription} />
               </RecipeDetailsBlock>
               <RecipeStepBlock>
                 {recipe.cookingRecipe?.map((step, index) => (
@@ -238,7 +240,7 @@ const RecipePage = ({ recipe }: { recipe: Recipe | null }) => {
                       <DetailsCardsContainer width="100%">
                         {step.ingredients.map(ingredient => (
                           <DetailCard
-                            key={ingredient.name}
+                            key={`${index}-ingredient-${ingredient.name}`}
                             name={ingredient.name}
                             text={ingredient.count && ingredient.gauge ? `${ingredient.count} ${ingredient.gauge}` : ''}
                             img={ingredient?.img || null}

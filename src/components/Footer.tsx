@@ -25,7 +25,7 @@ const Links = styled.nav`
     color: #181818;
     text-decoration: none;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 1rem;
 
     &:hover {
       text-decoration: underline;
@@ -35,7 +35,7 @@ const Links = styled.nav`
 
 const FooterCounter = styled.div`
   font-size: 12px;
-  color: #999999;
+  color: #333;
   margin-top: 4px;
 
   @media (min-width: 600px) {
@@ -63,7 +63,7 @@ export const Footer = () => {
           </a>
         ))}
       </Links>
-      <FooterCounter>{recipesCount}</FooterCounter>
+      <FooterCounter>{`Всего рецептов: ${recipesCount}`}</FooterCounter>
     </Container>
   )
 }
