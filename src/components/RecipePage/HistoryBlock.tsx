@@ -1,7 +1,6 @@
 'use client'
 
 import styled from 'styled-components'
-import { VariationsList } from '../VariationsList'
 import { maxDevice } from '@/styles/device'
 import { DishHistory } from '../DishHistory'
 
