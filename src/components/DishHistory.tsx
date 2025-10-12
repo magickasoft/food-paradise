@@ -17,15 +17,6 @@ const Description = styled.li`
   border-radius: 6px;
 `
 
-const Title = styled.strong`
-  display: inline-block;
-  background: #d0e1ff;
-  padding: 2px 8px;
-  border-radius: 4px;
-  margin-bottom: 4px;
-  font-size: 0.9rem;
-`
-
 export function DishHistory({ history }: { history: string }) {
   return (
     <>
