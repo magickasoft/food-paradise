@@ -10,8 +10,8 @@ export async function POST(req: Request) {
       port: 465,
       secure: true,
       auth: {
-        user: '1234567890',
-        pass: '1234567890',
+        user: '',
+        pass: '',
       },
     })
 

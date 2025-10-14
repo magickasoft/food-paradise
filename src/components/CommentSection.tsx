@@ -126,7 +126,7 @@ const CommentSection: React.FC = () => {
       } else {
         setMessage('Ошибка при отправке. Попробуйте позже.')
       }
-    } catch (err) {
+    } catch {
       setMessage('Ошибка при отправке. Попробуйте позже.')
     } finally {
       setLoading(false)
