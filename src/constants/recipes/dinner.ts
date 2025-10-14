@@ -162,7 +162,7 @@ export const DINNER = [
           { ...INGREDIENTS.carrot, count: 1 },
           { ...INGREDIENTS.potato, count: 3 },
           { ...INGREDIENTS.onion, count: 1 },
-          { ...INGREDIENTS.cabbage, count: 300 },
+          { ...INGREDIENTS.cabbage, count: 0.5 },
           { ...INGREDIENTS.tomato, count: 2 },
           { ...INGREDIENTS.garlic, count: 3 },
           { ...INGREDIENTS.refinedVegetableOil, count: 2 },
