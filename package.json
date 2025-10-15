@@ -32,6 +32,7 @@
     "@biomejs/biome": "^2.2.0",
     "@eslint/eslintrc": "^3",
     "@types/node": "^24",
+    "@types/nodemailer": "^7.0.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",

@@ -83,7 +83,7 @@ const SubmitButton = styled.button`
   transition: background-color 0.2s ease;
 
   &:hover:not(:disabled) {
-    background-color: #ff6f61;
+    background-color: #ff8a7a;
   }
 
   &:disabled {
@@ -98,7 +98,11 @@ const Message = styled.div`
   color: #ff6f61;
 `
 
-const CommentSection: React.FC = () => {
+const HiddenInput = styled.input`
+  display: none;
+`
+
+const CommentSection: React.FC<{ recipe: string }> = ({ recipe }) => {
   const [rating, setRating] = useState(0)
   const [hover, setHover] = useState<number | null>(null)
   const [comment, setComment] = useState('')
@@ -108,6 +112,17 @@ const CommentSection: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+
+    if (!rating || !comment.trim()) {
+      setMessage('Пожалуйста, укажите оценку и комментарий.')
+      return
+    }
+
+    if (comment.length < 5) {
+      setMessage('Комментарий должен содержать хотя бы 5 символов.')
+      return
+    }
+
     setLoading(true)
     setMessage('')
 
@@ -115,7 +130,7 @@ const CommentSection: React.FC = () => {
       const res = await fetch('/api/send-feedback', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ rating, comment }),
+        body: JSON.stringify({ rating, comment, recipe }),
       })
 
       const data = await res.json()
@@ -124,7 +139,7 @@ const CommentSection: React.FC = () => {
         setRating(0)
         setComment('')
       } else {
-        setMessage('Ошибка при отправке. Попробуйте позже.')
+        setMessage(data.error || 'Ошибка при отправке. Попробуйте позже.')
       }
     } catch {
       setMessage('Ошибка при отправке. Попробуйте позже.')
@@ -151,6 +166,7 @@ const CommentSection: React.FC = () => {
       </Stars>
 
       <Form onSubmit={handleSubmit}>
+        <HiddenInput type="hidden" name="recipe" value={recipe} />
         <Textarea
           value={comment}
           onChange={e => setComment(e.target.value.slice(0, maxChars))}
@@ -158,7 +174,7 @@ const CommentSection: React.FC = () => {
         />
         <CharCounter>Осталось {maxChars - comment.length} символов</CharCounter>
 
-        <SubmitButton type="submit" disabled={loading || rating === 0 || !comment.trim()}>
+        <SubmitButton type="submit" disabled={loading}>
           {loading ? 'Отправка...' : 'Отправить'}
         </SubmitButton>
 

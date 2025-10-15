@@ -1,3 +1,4 @@
+import { EQUIPMENTS } from '../equipments'
 import { INGREDIENTS } from '../ingredients'
 
 export const SUPPER = [
@@ -881,7 +882,7 @@ export const SUPPER = [
     metaSeo: {
       title: 'Рататуй — французский овощной ужин без мяса',
       description:
-        'Классический рататуй с баклажанами, кабачками и томатами под ароматными травами. Веганский и низкокалорийный.',
+        'Классический рататуй с баклажанами, кабачками, томатами и сладким перцем, запечённый под ароматными прованскими травами. Лёгкое, яркое и полезное блюдо, вдохновлённое солнечным Провансом. Идеально подойдёт для веганского или диетического ужина.',
       keywords: [
         'рататуй',
         'овощной ужин',
@@ -905,12 +906,13 @@ export const SUPPER = [
         'антиоксиданты',
       ],
       'og:title': 'Рататуй — французский овощной ужин без мяса',
-      'og:description': 'Классический рататуй с баклажанами, кабачками и томатами под ароматными травами. Веганский.',
+      'og:description':
+        'Классический рататуй с баклажанами, кабачками и томатами под ароматными травами. Лёгкое и полезное блюдо французской кухни.',
       'og:url': 'https://food-paradise.ru/recipe/ratatui-s-baklazhanami',
-      'og:image': '/static/recipes/supper/ratatui-s-baklazhanami.jpeg',
+      'og:image': '/static/recipes/supper/ratatui-s-baklazhanami.jpg',
       twitterTitle: 'Рататуй — французский овощной ужин без мяса',
-      twitterDescription: 'Классический рататуй с баклажанами, кабачками и томатами.',
-      twitterImage: '/static/recipes/supper/ratatui-s-baklazhanami.jpeg',
+      twitterDescription: 'Классический рататуй с баклажанами, кабачками и томатами. Вкусно, просто и полезно!',
+      twitterImage: '/static/recipes/supper/ratatui-s-baklazhanami.jpg',
       twitterUrl: 'https://food-paradise.ru/recipe/ratatui-s-baklazhanami',
       'twitter:card': 'summary_large_image',
       canonicalUrl: 'https://food-paradise.ru/recipe/ratatui-s-baklazhanami',
@@ -927,9 +929,10 @@ export const SUPPER = [
     categories: [{ name: 'supper' }, { name: 'vegan' }, { name: 'vegetarian' }],
     key: 'ratatui-s-baklazhanami',
     name: 'ratatui-s-baklazhanami',
-    img: '/static/recipes/supper/ratatui-s-baklazhanami.jpeg',
+    img: '/static/recipes/supper/ratatui-s-baklazhanami.jpg',
     title: 'Рататуй с баклажанами',
-    description: 'Ароматное рагу из баклажанов, кабачков, томатов и перцев с прованскими травами. Подается с зеленью.',
+    description:
+      'Ароматное овощное рагу с баклажанами, кабачками, томатами и сладким перцем, приправленное прованскими травами. Лёгкое, но сытное блюдо, которое наполнит дом ароматом французской деревни. Подаётся тёплым с зеленью и ломтиком хрустящего хлеба.',
     calories: 220,
     preparation: 20,
     time: 40,
@@ -938,157 +941,60 @@ export const SUPPER = [
     portions: 4,
     used: [25, 20, 15],
     ingredients: [
-      {
-        name: 'Баклажан',
-        gauge: 'шт',
-        count: 1,
-        img: null,
-      },
-      {
-        name: 'Кабачок',
-        gauge: 'шт',
-        count: 1,
-        img: null,
-      },
-      {
-        name: 'Помидоры',
-        gauge: 'шт',
-        count: 3,
-        img: null,
-      },
-      {
-        name: 'Сладкий перец',
-        gauge: 'шт',
-        count: 2,
-        img: null,
-      },
-      {
-        name: 'Лук репчатый',
-        gauge: 'шт',
-        count: 1,
-        img: null,
-      },
-      {
-        name: 'Чеснок',
-        gauge: 'зубчик',
-        count: 3,
-        img: null,
-      },
-      {
-        name: 'Оливковое масло',
-        gauge: 'ст.л',
-        count: 3,
-        img: null,
-      },
-      {
-        name: 'Прованские травы',
-        gauge: 'ч.л',
-        count: 1,
-        img: null,
-      },
-      {
-        name: 'Соль и перец',
-        gauge: 'по вкусу',
-        count: 1,
-        img: null,
-      },
+      { ...INGREDIENTS.eggplant, count: 1 },
+      { ...INGREDIENTS.zucchini, count: 1 },
+      { ...INGREDIENTS.tomato, count: 3 },
+      { ...INGREDIENTS.bellPepper, count: 2 },
+      { ...INGREDIENTS.onion, count: 1 },
+      { ...INGREDIENTS.garlic, count: 3 },
+      { ...INGREDIENTS.oliveOil, count: 3 },
+      { ...INGREDIENTS.provencalHerbs, count: 1 },
+      { ...INGREDIENTS.salt, count: 1 },
+      { ...INGREDIENTS.groundBlackPepper, count: 1 },
     ],
-    equipments: [
-      {
-        name: 'Духовка',
-        img: null,
-      },
-      {
-        name: 'Чугунная сковорода',
-        img: null,
-      },
-    ],
+    equipments: [{ ...EQUIPMENTS.oven }, { ...EQUIPMENTS.pan }, { ...EQUIPMENTS.knife }, { ...EQUIPMENTS.cutBoard }],
     cookingRecipe: [
       {
         img: null,
         video: null,
-        description: 'Баклажаны и кабачки нарежьте кружочками, посолите и оставьте на 10 минут (чтобы ушла горечь).',
+        description: 'Баклажаны и кабачки нарежьте кружочками, посолите и оставьте на 10 минут, чтобы ушла горечь.',
         ingredients: [
-          {
-            name: 'Баклажан',
-            gauge: 'шт',
-            count: 1,
-            img: null,
-          },
-          {
-            name: 'Кабачок',
-            gauge: 'шт',
-            count: 1,
-            img: null,
-          },
+          { ...INGREDIENTS.eggplant, count: 1 },
+          { ...INGREDIENTS.zucchini, count: 1 },
         ],
       },
       {
         img: null,
         video: null,
         description:
-          'Лук и чеснок обжарьте на оливковом масле. Добавьте нарезанные кубиками помидоры и перец, тушите 10 минут.',
+          'Лук и чеснок обжарьте на оливковом масле. Добавьте нарезанные кубиками помидоры и сладкий перец, тушите 10 минут на среднем огне.',
         ingredients: [
-          {
-            name: 'Лук репчатый',
-            gauge: 'шт',
-            count: 1,
-            img: null,
-          },
-          {
-            name: 'Чеснок',
-            gauge: 'зубчик',
-            count: 3,
-            img: null,
-          },
-          {
-            name: 'Помидоры',
-            gauge: 'шт',
-            count: 3,
-            img: null,
-          },
-          {
-            name: 'Сладкий перец',
-            gauge: 'шт',
-            count: 2,
-            img: null,
-          },
-          {
-            name: 'Оливковое масло',
-            gauge: 'ст.л',
-            count: 1,
-            img: null,
-          },
+          { ...INGREDIENTS.onion, count: 1 },
+          { ...INGREDIENTS.garlic, count: 3 },
+          { ...INGREDIENTS.tomato, count: 3 },
+          { ...INGREDIENTS.bellPepper, count: 2 },
+          { ...INGREDIENTS.oliveOil, count: 1 },
         ],
       },
       {
         img: null,
         video: null,
         description:
-          'В форму для запекания выложите овощи слоями, посыпьте травами, полейте маслом. Запекайте 30 минут при 180°C.',
+          'Выложите овощи слоями в форму для запекания: сначала соус из томатов, затем чередуйте кружочки кабачков, баклажанов и перца. Посыпьте прованскими травами, полейте маслом и запекайте 30 минут при 180°C.',
         ingredients: [
-          {
-            name: 'Прованские травы',
-            gauge: 'ч.л',
-            count: 1,
-            img: null,
-          },
-          {
-            name: 'Оливковое масло',
-            gauge: 'ст.л',
-            count: 2,
-            img: null,
-          },
+          { ...INGREDIENTS.provencalHerbs, count: 1 },
+          { ...INGREDIENTS.oliveOil, count: 2 },
         ],
       },
     ],
-    tips: ['Подавайте с рикоттой или фетой для сытности.', 'Можно добавить кабачки цукини для цвета.'],
-    variations: [
-      {
-        name: 'С сыром',
-        changes: 'Посыпьте тертым пармезаном перед подачей.',
-      },
+    tips: [
+      'Подавайте с рикоттой или фетой для большей сытности.',
+      'Добавьте немного свежего базилика перед подачей — аромат станет ещё ярче.',
+      'Если хотите более насыщенный вкус, оставьте готовый рататуй настояться под крышкой 10–15 минут.',
     ],
+    variations: [{ name: 'С сыром', changes: 'Посыпьте тертым пармезаном или моцареллой перед подачей.' }],
+    historyDescription:
+      'Рататуй — символ французской домашней кухни. Это блюдо родом из Прованса, где солнечные овощи собирают в разгар лета. Первоначально его готовили крестьяне из того, что оставалось после сбора урожая — простое, но невероятно ароматное рагу, полное свежих трав и любви к земле. Сегодня рататуй — не только визитная карточка французской гастрономии, но и вдохновение для шеф-поваров по всему миру: простота ингредиентов соединяется с гармонией вкусов и ароматов. Подобно живописному пейзажу Прованса, он объединяет цвета, запахи и тепло юга Франции в одной тарелке.',
   },
   {
     metaSeo: {
@@ -1970,6 +1876,199 @@ export const SUPPER = [
       },
     ],
   },
+  // {
+  //   metaSeo: {
+  //     title: 'Рататуй по-домашнему — французский ужин в одной форме',
+  //     description: 'Классический рататуй с баклажанами, кабачками и томатами. Ароматный, сытный и красивый.',
+  //     keywords: [
+  //       'рататуй рецепт',
+  //       'французская кухня',
+  //       'овощное блюдо',
+  //       'вегетарианский ужин',
+  //       'рататуй в духовке',
+  //       'баклажаны и кабачки',
+  //       'ужин за 1 час',
+  //       'постное блюдо',
+  //       'рецепт с овощами',
+  //       'вкусно и полезно',
+  //       'домашний рататуй',
+  //       'французские блюда',
+  //       'овощи в духовке',
+  //       'ужин для семьи',
+  //       'пп рецепт',
+  //       'рататуй как в мультфильме',
+  //       'простое блюдо',
+  //       'овощная запеканка',
+  //       'рецепт с томатами',
+  //       'вкусный ужин',
+  //     ],
+  //     'og:title': 'Рататуй по-домашнему — французский ужин в одной форме',
+  //     'og:description': 'Классический рататуй с баклажанами, кабачками и томатами. Ароматный, сытный и красивый.',
+  //     'og:url': 'https://food-paradise.ru/recipe/ratatuy-po-domashnemu',
+  //     'og:image': '/static/recipes/supper/ratatuy-po-domashnemu.jpeg',
+  //     twitterTitle: 'Рататуй по-домашнему — французский ужин в одной форме',
+  //     twitterDescription: 'Классический рататуй с баклажанами, кабачками и томатами.',
+  //     twitterImage: '/static/recipes/supper/ratatuy-po-domashnemu.jpeg',
+  //     twitterUrl: 'https://food-paradise.ru/recipe/ratatuy-po-domashnemu',
+  //     'twitter:card': 'summary_large_image',
+  //     canonicalUrl: 'https://food-paradise.ru/recipe/ratatuy-po-domashnemu',
+  //     robots: 'index, follow',
+  //     viewport: 'width=device-width, initial-scale=1',
+  //     googlebot: 'index, follow',
+  //     yandex: 'index, follow',
+  //     selfwork: 'index, follow',
+  //     'max-image-preview': 'large',
+  //     author: 'food-paradise',
+  //     'theme-color': '#ffffff',
+  //   },
+  //   searchRequests: ['рататуй рецепт', 'французская кухня', 'овощное блюдо', 'вегетарианский ужин'],
+  //   categories: [{ name: 'supper' }, { name: 'vegetarian' }, { name: 'french' }],
+  //   key: 'ratatuy-po-domashnemu',
+  //   name: 'ratatuy-po-domashnemu',
+  //   img: '/static/recipes/supper/ratatuy-po-domashnemu.jpeg',
+  //   title: 'Рататуй по-домашнему',
+  //   description:
+  //     'Тонко нарезанные баклажаны, кабачки и томаты, запеченные с прованскими травами. Французская классика!',
+  //   calories: 220,
+  //   preparation: 20,
+  //   time: 60,
+  //   level: 2,
+  //   rating: 4.7,
+  //   portions: 4,
+  //   used: [10, 11],
+  //   ingredients: [
+  //     {
+  //       name: 'Баклажан',
+  //       gauge: 'шт',
+  //       count: 1,
+  //       img: null,
+  //     },
+  //     {
+  //       name: 'Кабачок',
+  //       gauge: 'шт',
+  //       count: 1,
+  //       img: null,
+  //     },
+  //     {
+  //       name: 'Помидоры',
+  //       gauge: 'шт',
+  //       count: 3,
+  //       img: null,
+  //     },
+  //     {
+  //       name: 'Лук',
+  //       gauge: 'шт',
+  //       count: 1,
+  //       img: null,
+  //     },
+  //     {
+  //       name: 'Чеснок',
+  //       gauge: 'зубчик',
+  //       count: 2,
+  //       img: null,
+  //     },
+  //     {
+  //       name: 'Оливковое масло',
+  //       gauge: 'ст.л',
+  //       count: 3,
+  //       img: null,
+  //     },
+  //     {
+  //       name: 'Прованские травы',
+  //       gauge: 'ч.л',
+  //       count: 1,
+  //       img: null,
+  //     },
+  //     {
+  //       name: 'Соль и перец',
+  //       gauge: 'по вкусу',
+  //       count: 1,
+  //       img: null,
+  //     },
+  //   ],
+  //   equipments: [
+  //     {
+  //       name: 'Форма для запекания',
+  //       img: null,
+  //     },
+  //     {
+  //       name: 'Острый нож',
+  //       img: null,
+  //     },
+  //   ],
+  //   cookingRecipe: [
+  //     {
+  //       img: null,
+  //       video: null,
+  //       description: 'Лук и чеснок обжарьте до прозрачности. Выложите на дно формы.',
+  //       ingredients: [
+  //         {
+  //           name: 'Лук',
+  //           gauge: 'шт',
+  //           count: 1,
+  //           img: null,
+  //         },
+  //         {
+  //           name: 'Чеснок',
+  //           gauge: 'зубчик',
+  //           count: 2,
+  //           img: null,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       img: null,
+  //       video: null,
+  //       description: 'Баклажаны, кабачки и помидоры нарежьте кружочками. Выложите слоями в форму.',
+  //       ingredients: [
+  //         {
+  //           name: 'Баклажан',
+  //           gauge: 'шт',
+  //           count: 1,
+  //           img: null,
+  //         },
+  //         {
+  //           name: 'Кабачок',
+  //           gauge: 'шт',
+  //           count: 1,
+  //           img: null,
+  //         },
+  //         {
+  //           name: 'Помидоры',
+  //           gauge: 'шт',
+  //           count: 3,
+  //           img: null,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       img: null,
+  //       video: null,
+  //       description: 'Посыпьте травами, полейте маслом и запекайте 40 минут при 180°C.',
+  //       ingredients: [
+  //         {
+  //           name: 'Прованские травы',
+  //           gauge: 'ч.л',
+  //           count: 1,
+  //           img: null,
+  //         },
+  //         {
+  //           name: 'Оливковое масло',
+  //           gauge: 'ст.л',
+  //           count: 3,
+  //           img: null,
+  //         },
+  //       ],
+  //     },
+  //   ],
+  //   tips: ['Для красоты чередуйте овощи по цвету.', 'Подавайте с хлебом или как гарнир к мясу.'],
+  //   variations: [
+  //     {
+  //       name: 'С сыром',
+  //       changes: 'Посыпьте тертой моцареллой за 10 минут до готовности.',
+  //     },
+  //   ],
+  // },
   {
     metaSeo: {
       title: 'Рататуй по-домашнему — французский ужин в одной форме',
@@ -2021,8 +2120,17 @@ export const SUPPER = [
     name: 'ratatuy-po-domashnemu',
     img: '/static/recipes/supper/ratatuy-po-domashnemu.jpeg',
     title: 'Рататуй по-домашнему',
-    description:
-      'Тонко нарезанные баклажаны, кабачки и томаты, запеченные с прованскими травами. Французская классика!',
+    description: `Рататуй — это не просто овощная запеканка, а настоящий гимн летним овощам. 
+Тонкие кружочки баклажанов, кабачков и томатов чередуются в яркой мозаике, 
+впитывая аромат чеснока, лука и прованских трав. 
+Лёгкий, но насыщенный вкус делает это блюдо идеальным вариантом для уютного ужина: 
+постного, ароматного и по-настоящему французского.`,
+    historyDescription: `Рататуй родился на юге Франции, в солнечной Провансе. 
+Изначально это было простое блюдо крестьян, которые использовали спелые овощи, собранные с огорода. 
+Название “ratatouille” происходит от французского “rata” — тушёное рагу. 
+Со временем скромный рататуй стал кулинарным символом Прованса и предметом гордости французов. 
+После выхода одноимённого мультфильма блюдо обрело мировую славу, превратившись в образец 
+изысканной простоты: когда из повседневных ингредиентов рождается настоящее искусство.`,
     calories: 220,
     preparation: 20,
     time: 60,
@@ -2031,83 +2139,25 @@ export const SUPPER = [
     portions: 4,
     used: [10, 11],
     ingredients: [
-      {
-        name: 'Баклажан',
-        gauge: 'шт',
-        count: 1,
-        img: null,
-      },
-      {
-        name: 'Кабачок',
-        gauge: 'шт',
-        count: 1,
-        img: null,
-      },
-      {
-        name: 'Помидоры',
-        gauge: 'шт',
-        count: 3,
-        img: null,
-      },
-      {
-        name: 'Лук',
-        gauge: 'шт',
-        count: 1,
-        img: null,
-      },
-      {
-        name: 'Чеснок',
-        gauge: 'зубчик',
-        count: 2,
-        img: null,
-      },
-      {
-        name: 'Оливковое масло',
-        gauge: 'ст.л',
-        count: 3,
-        img: null,
-      },
-      {
-        name: 'Прованские травы',
-        gauge: 'ч.л',
-        count: 1,
-        img: null,
-      },
-      {
-        name: 'Соль и перец',
-        gauge: 'по вкусу',
-        count: 1,
-        img: null,
-      },
+      { ...INGREDIENTS.eggplant, count: 1 },
+      { ...INGREDIENTS.zucchini, count: 1 },
+      { ...INGREDIENTS.tomato, count: 3 },
+      { ...INGREDIENTS.onion, count: 1 },
+      { ...INGREDIENTS.garlic, count: 2 },
+      { ...INGREDIENTS.oliveOil, count: 3 },
+      { ...INGREDIENTS.provencalHerbs, count: 1 },
+      { ...INGREDIENTS.salt, count: 1 },
+      { ...INGREDIENTS.groundBlackPepper, count: 1 },
     ],
-    equipments: [
-      {
-        name: 'Форма для запекания',
-        img: null,
-      },
-      {
-        name: 'Острый нож',
-        img: null,
-      },
-    ],
+    equipments: [{ ...EQUIPMENTS.oven }, { ...EQUIPMENTS.pan }, { ...EQUIPMENTS.knife }, { ...EQUIPMENTS.cutBoard }],
     cookingRecipe: [
       {
         img: null,
         video: null,
         description: 'Лук и чеснок обжарьте до прозрачности. Выложите на дно формы.',
         ingredients: [
-          {
-            name: 'Лук',
-            gauge: 'шт',
-            count: 1,
-            img: null,
-          },
-          {
-            name: 'Чеснок',
-            gauge: 'зубчик',
-            count: 2,
-            img: null,
-          },
+          { ...INGREDIENTS.onion, count: 1 },
+          { ...INGREDIENTS.garlic, count: 2 },
         ],
       },
       {
@@ -2115,24 +2165,9 @@ export const SUPPER = [
         video: null,
         description: 'Баклажаны, кабачки и помидоры нарежьте кружочками. Выложите слоями в форму.',
         ingredients: [
-          {
-            name: 'Баклажан',
-            gauge: 'шт',
-            count: 1,
-            img: null,
-          },
-          {
-            name: 'Кабачок',
-            gauge: 'шт',
-            count: 1,
-            img: null,
-          },
-          {
-            name: 'Помидоры',
-            gauge: 'шт',
-            count: 3,
-            img: null,
-          },
+          { ...INGREDIENTS.eggplant, count: 1 },
+          { ...INGREDIENTS.zucchini, count: 1 },
+          { ...INGREDIENTS.tomato, count: 3 },
         ],
       },
       {
@@ -2140,28 +2175,20 @@ export const SUPPER = [
         video: null,
         description: 'Посыпьте травами, полейте маслом и запекайте 40 минут при 180°C.',
         ingredients: [
-          {
-            name: 'Прованские травы',
-            gauge: 'ч.л',
-            count: 1,
-            img: null,
-          },
-          {
-            name: 'Оливковое масло',
-            gauge: 'ст.л',
-            count: 3,
-            img: null,
-          },
+          { ...INGREDIENTS.provencalHerbs, count: 1 },
+          { ...INGREDIENTS.oliveOil, count: 3 },
+          { ...INGREDIENTS.salt, count: 1 },
+          { ...INGREDIENTS.groundBlackPepper, count: 1 },
         ],
       },
     ],
-    tips: ['Для красоты чередуйте овощи по цвету.', 'Подавайте с хлебом или как гарнир к мясу.'],
-    variations: [
-      {
-        name: 'С сыром',
-        changes: 'Посыпьте тертой моцареллой за 10 минут до готовности.',
-      },
+
+    tips: [
+      'Для красоты чередуйте овощи по цвету — блюдо получится особенно эффектным.',
+      'Рататуй вкусен как горячим, так и холодным — дайте ему настояться перед подачей.',
     ],
+
+    variations: [{ name: 'С сыром', changes: 'Посыпьте тертой моцареллой за 10 минут до готовности.' }],
   },
   {
     metaSeo: {
@@ -3102,7 +3129,8 @@ export const SUPPER = [
   {
     metaSeo: {
       title: 'Фаршированные перцы — сытный ужин в духовке',
-      description: 'Перцы, начиненные мясным фаршем с рисом и томатным соусом. Аппетитная классика советской кухни.',
+      description:
+        'Классические фаршированные перцы с мясным фаршем, рисом и ароматным томатным соусом, запечённые до мягкости в духовке. Это уютное, домашнее блюдо, которое возвращает во вкус детства и наполняет дом ароматом комфорта. Подайте со сметаной и свежей зеленью — и наслаждайтесь!',
       keywords: [
         'фаршированные перцы',
         'перцы с фаршем',
@@ -3127,11 +3155,12 @@ export const SUPPER = [
       ],
       'og:title': 'Фаршированные перцы — сытный ужин в духовке',
       'og:description':
-        'Перцы, начиненные мясным фаршем с рисом и томатным соусом. Аппетитная классика советской кухни.',
+        'Сочные болгарские перцы, наполненные фаршем с рисом и томатным соусом. Домашняя классика, любимая всей семьёй.',
       'og:url': 'https://food-paradise.ru/recipe/farshirovannye-pertsy',
       'og:image': '/static/recipes/supper/farshirovannye-pertsy.jpeg',
       twitterTitle: 'Фаршированные перцы — сытный ужин в духовке',
-      twitterDescription: 'Перцы, начиненные мясным фаршем с рисом и томатным соусом.',
+      twitterDescription:
+        'Классические фаршированные перцы с мясным фаршем, рисом и томатным соусом. Домашняя еда, проверенная временем.',
       twitterImage: '/static/recipes/supper/farshirovannye-pertsy.jpeg',
       twitterUrl: 'https://food-paradise.ru/recipe/farshirovannye-pertsy',
       'twitter:card': 'summary_large_image',
@@ -3151,7 +3180,8 @@ export const SUPPER = [
     name: 'farshirovannye-pertsy',
     img: '/static/recipes/supper/farshirovannye-pertsy.jpeg',
     title: 'Фаршированные перцы',
-    description: 'Сочные болгарские перцы с мясным фаршем, рисом и томатной подливой. Идеально со сметаной и зеленью!',
+    description:
+      'Сочные болгарские перцы, наполненные говяжьим фаршем с рисом и морковью, запечённые под густым томатно-сметанным соусом. Классика домашней кухни, которая всегда собирает семью за столом. Особенно вкусно со сметаной, зеленью и свежим хлебом.',
     calories: 380,
     preparation: 30,
     time: 80,
@@ -3160,145 +3190,67 @@ export const SUPPER = [
     portions: 6,
     used: [15, 16],
     ingredients: [
-      {
-        name: 'Болгарский перец',
-        gauge: 'шт',
-        count: 6,
-        img: null,
-      },
-      {
-        name: 'Говяжий фарш',
-        gauge: 'г',
-        count: 500,
-        img: null,
-      },
-      {
-        name: 'Рис',
-        gauge: 'г',
-        count: 100,
-        img: null,
-      },
-      {
-        name: 'Лук',
-        gauge: 'шт',
-        count: 1,
-        img: null,
-      },
-      {
-        name: 'Морковь',
-        gauge: 'шт',
-        count: 1,
-        img: null,
-      },
-      {
-        name: 'Томатная паста',
-        gauge: 'ст.л',
-        count: 2,
-        img: null,
-      },
-      {
-        name: 'Сметана',
-        gauge: 'мл',
-        count: 100,
-        img: null,
-      },
-      {
-        name: 'Растительное масло',
-        gauge: 'ст.л',
-        count: 2,
-        img: null,
-      },
-      {
-        name: 'Соль и перец',
-        gauge: 'по вкусу',
-        count: 1,
-        img: null,
-      },
+      { ...INGREDIENTS.bellPepper, count: 6 },
+      { ...INGREDIENTS.groundBeef, count: 0.5 },
+      { ...INGREDIENTS.rice, count: 100 },
+      { ...INGREDIENTS.onion, count: 1 },
+      { ...INGREDIENTS.carrot, count: 1 },
+      { ...INGREDIENTS.tomatoPaste, count: 2, gauge: 'ст.л' },
+      { ...INGREDIENTS.sourCream, count: 100 },
+      { ...INGREDIENTS.vegetableOil, count: 2 },
+      { ...INGREDIENTS.salt, gauge: 'по вкусу' },
+      { ...INGREDIENTS.groundBlackPepper, gauge: 'по вкусу' },
+      { ...INGREDIENTS.water, count: 200, gauge: 'мл' },
     ],
     equipments: [
-      {
-        name: 'Глубокая форма для запекания',
-        img: null,
-      },
-      {
-        name: 'Кастрюля',
-        img: null,
-      },
+      { ...EQUIPMENTS.bakingTray },
+      { ...EQUIPMENTS.pot },
+      { ...EQUIPMENTS.knife },
+      { ...EQUIPMENTS.grater },
     ],
     cookingRecipe: [
       {
         img: null,
         video: null,
-        description: 'Рис отварите до полуготовности. Смешайте с фаршем, тертой морковью, луком, солью и перцем.',
+        description:
+          'Рис отварите до полуготовности. Смешайте с фаршем, тертой морковью, мелко нарезанным луком, солью и перцем.',
         ingredients: [
-          {
-            name: 'Рис',
-            gauge: 'г',
-            count: 100,
-            img: null,
-          },
-          {
-            name: 'Говяжий фарш',
-            gauge: 'г',
-            count: 500,
-            img: null,
-          },
-          {
-            name: 'Морковь',
-            gauge: 'шт',
-            count: 1,
-            img: null,
-          },
-          {
-            name: 'Лук',
-            gauge: 'шт',
-            count: 1,
-            img: null,
-          },
+          { ...INGREDIENTS.rice, count: 100 },
+          { ...INGREDIENTS.groundBeef, count: 0.5 },
+          { ...INGREDIENTS.carrot, count: 1 },
+          { ...INGREDIENTS.onion, count: 1 },
+          { ...INGREDIENTS.salt, gauge: 'по вкусу' },
+          { ...INGREDIENTS.groundBlackPepper, gauge: 'по вкусу' },
         ],
       },
       {
         img: null,
         video: null,
-        description: 'Перцы очистите от семян, наполните фаршем. Уложите в форму.',
-        ingredients: [
-          {
-            name: 'Болгарский перец',
-            gauge: 'шт',
-            count: 6,
-            img: null,
-          },
-        ],
+        description:
+          'Перцы очистите от семян, аккуратно наполните фаршем, не утрамбовывая слишком плотно, и уложите в форму для запекания.',
+        ingredients: [{ ...INGREDIENTS.bellPepper, count: 6 }],
       },
       {
         img: null,
         video: null,
-        description: 'Смешайте томатную пасту, сметану и 200 мл воды. Залейте перцы и тушите 50 минут при 180°C.',
+        description:
+          'Смешайте томатную пасту, сметану и 200 мл воды. Залейте перцы и тушите в духовке 50 минут при 180°C, пока они не станут мягкими.',
         ingredients: [
-          {
-            name: 'Томатная паста',
-            gauge: 'ст.л',
-            count: 2,
-            img: null,
-          },
-          {
-            name: 'Сметана',
-            gauge: 'мл',
-            count: 100,
-            img: null,
-          },
+          { ...INGREDIENTS.water, count: 200, gauge: 'мл' },
+          { ...INGREDIENTS.tomatoPaste, count: 2, gauge: 'ст.л' },
+          { ...INGREDIENTS.sourCream, count: 100 },
         ],
       },
     ],
     tips: [
-      'Выбирайте перцы с плотными стенками — они не развалятся при готовке.',
-      'Можно добавить в соус лавровый лист и чеснок для аромата.',
+      'Выбирайте перцы среднего размера с плотными стенками — они сохранят форму после запекания.',
+      'Для более насыщенного вкуса добавьте немного чеснока и лавровый лист в соус.',
+      'Если хотите диетический вариант — используйте индейку вместо говядины и замените сметану на йогурт.',
     ],
     variations: [
-      {
-        name: 'С грибами',
-        changes: 'Замените половину фарша на обжаренные шампиньоны.',
-      },
+      { name: 'С грибами', changes: 'Замените половину фарша на обжаренные шампиньоны для лёгкого грибного аромата.' },
     ],
+    historyDescription:
+      'Фаршированные перцы — одно из самых узнаваемых и любимых блюд советской и восточноевропейской кухни. Его готовили в каждой семье, особенно летом, когда перцы были свежими и сочными. Блюдо имеет болгарские корни, но в советские годы стало настоящей классикой. Сочетание сладости перца, насыщенного мясного фарша и мягкости риса создаёт уютный, домашний вкус, знакомый с детства. Сегодня фаршированные перцы — символ семейного уюта и традиционного домашнего ужина, который никогда не выходит из моды.',
   },
 ]
