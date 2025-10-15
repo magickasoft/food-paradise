@@ -79,6 +79,7 @@ import croutons from '../jsons/ingredients/bakery/croutons.json'
 import ciabatta from '../jsons/ingredients/bakery/ciabatta.json'
 import oatmeal from '../jsons/ingredients/cereals/oatmeal.json'
 import riceNoodles from '../jsons/ingredients/cereals/rice-noodles.json'
+import rice from '../jsons/ingredients/cereals/rice.json'
 import eggNoodles from '../jsons/ingredients/cereals/egg-noodles.json'
 import soda from '../jsons/ingredients/seasoning/soda.json'
 import redPepperFlakes from '../jsons/ingredients/seasoning/red-pepper-flakes.json'
@@ -90,6 +91,7 @@ import thyme from '../jsons/ingredients/seasoning/thyme.json'
 import starAnise from '../jsons/ingredients/seasoning/star-anise.json'
 import cinnamonStick from '../jsons/ingredients/seasoning/cinnamon-stick.json'
 import cloves from '../jsons/ingredients/seasoning/cloves.json'
+import provencalHerbs from '../jsons/ingredients/seasoning/provencal-herbs.json'
 import cumin from '../jsons/ingredients/seasoning/cumin.json'
 import tomatoPaste from '../jsons/ingredients/vegetables/tomato-paste.json'
 import chiliPepper from '../jsons/ingredients/vegetables/chili-pepper.json'
@@ -101,12 +103,14 @@ import beef from '../jsons/ingredients/meat/beef.json'
 import beefBones from '../jsons/ingredients/meat/beef-bones.json'
 import beefOnTheBone from '../jsons/ingredients/meat/beef-on-the-bone.json'
 import beefBrisket from '../jsons/ingredients/meat/beef-brisket.json'
+import groundBeef from '../jsons/ingredients/meat/ground-beef.json'
 import beefTenderloin from '../jsons/ingredients/meat/beef-tenderloin.json'
 import cannedBeans from '../jsons/ingredients/vegetables/canned-beans.json'
 import lard from '../jsons/ingredients/meat/lard.json'
 import pumpkin from '../jsons/ingredients/vegetables/pumpkin.json'
 import sweetPotato from '../jsons/ingredients/vegetables/sweet-potato.json'
 import arugula from '../jsons/ingredients/grean/arugula.json'
+import eggplant from '../jsons/ingredients/vegetables/eggplant.json'
 import beanSprouts from '../jsons/ingredients/grean/bean-sprouts.json'
 import lime from '../jsons/ingredients/vegetables/lime.json'
 import salmonFillet from '../jsons/ingredients/fish/salmon-fillet.json'
@@ -126,6 +130,7 @@ const MEAT = {
   beefBones,
   beefBrisket,
   beefTenderloin,
+  groundBeef,
 }
 
 const FISH = {
@@ -145,10 +150,11 @@ const GREANS = {
 }
 
 const VEGATABLES = {
+  eggplant,
+  zucchini,
   tomato,
   cucumber,
   bellPepper,
-  zucchini,
   beet,
   carrot,
   onion,
@@ -243,6 +249,7 @@ const SEASONING = {
   cinnamonStick,
   driedPorcini,
   cloves,
+  provencalHerbs,
 }
 
 const SEEDS = {
@@ -259,6 +266,7 @@ const CEREALS = {
   oatmeal,
   riceNoodles,
   eggNoodles,
+  rice,
 }
 
 export const INGREDIENTS = {
