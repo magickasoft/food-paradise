@@ -1,3 +1,4 @@
+import { MAIL_HOST, MAIL_PASS, MAIL_PORT, MAIL_USER } from '@/variables/MAIL'
 import { NextResponse } from 'next/server'
 import nodemailer from 'nodemailer'
 
@@ -6,12 +7,12 @@ export async function POST(req: Request) {
     const { recipe, rating, comment } = await req.json()
 
     const transporter = nodemailer.createTransport({
-      ...(process.env.MAIL_HOST && { host: process.env.MAIL_HOST }),
-      port: process.env.MAIL_PORT,
+      ...(MAIL_HOST && { host: MAIL_HOST }),
+      port: MAIL_PORT,
       secure: true,
       auth: {
-        user: process.env.MAIL_USER,
-        pass: process.env.MAIL_PASS,
+        user: MAIL_USER,
+        pass: MAIL_PASS,
       },
     } as nodemailer.TransportOptions)
 

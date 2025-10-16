@@ -18,6 +18,7 @@ import { VariationsBlock } from './VariationsBlock'
 import { maxDevice } from '@/styles/device'
 import { HistoryBlock } from './HistoryBlock'
 import CommentSection from '../CommentSection'
+import CommentsList from '../CommentsList'
 
 const DetailsContainer = styled.section`
   width: 100%;
@@ -253,6 +254,7 @@ const RecipePage = ({ recipe }: { recipe: Recipe | null }) => {
                     )}
                   </div>
                 ))}
+                <CommentsList list={recipe?.comments || []} />
                 <CommentSection recipe={recipe.title} />
               </RecipeStepBlock>
             </RecipeStepsContainer>
