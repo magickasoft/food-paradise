@@ -72,6 +72,7 @@ export interface Recipe {
   historyDescription?: string
   tips?: string[]
   variations?: { name: string; changes: string }[]
+  comments?: string[]
 }
 
 export const RECIPES_OBJ: {
