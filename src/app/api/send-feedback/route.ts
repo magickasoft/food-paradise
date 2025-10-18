@@ -1,4 +1,4 @@
-import { MAIL_HOST, MAIL_PASS, MAIL_PORT, MAIL_USER } from '@/variables/MAIL'
+import { MAIL_HOST, MAIL_PASS, MAIL_PORT, MAIL_USER } from '@/variables'
 import { NextResponse } from 'next/server'
 import nodemailer from 'nodemailer'
 
