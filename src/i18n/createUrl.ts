@@ -1,6 +1,6 @@
 import type { Locale } from 'next-intl'
 import { getPathname } from '@/i18n/navigation'
-import { URL } from '@/variables/url'
+import { URL } from '@/public_variables'
 
 export type Href = Parameters<typeof getPathname>[0]['href']
 
