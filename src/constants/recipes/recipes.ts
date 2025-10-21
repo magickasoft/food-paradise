@@ -71,6 +71,7 @@ export interface Recipe {
   }[]
   historyDescription?: string
   tips?: string[]
+  serving?: string
   variations?: { name: string; changes: string }[]
   comments?: string[]
 }
