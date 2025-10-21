@@ -114,6 +114,8 @@ import eggplant from '../jsons/ingredients/vegetables/eggplant.json'
 import beanSprouts from '../jsons/ingredients/grean/bean-sprouts.json'
 import lime from '../jsons/ingredients/vegetables/lime.json'
 import salmonFillet from '../jsons/ingredients/fish/salmon-fillet.json'
+import apple from '../jsons/ingredients/fruits/apple.json'
+import cinnamon from '../jsons/ingredients/seasoning/cinnamon.json'
 
 const MEAT = {
   porkNeck,
@@ -180,6 +182,10 @@ const VEGATABLES = {
   freshPorcini,
 }
 
+const FRUITS = {
+  apple,
+}
+
 const LIQUIDS = {
   water,
   hotWater,
@@ -237,6 +243,7 @@ const SEASONING = {
   whitePepper,
   salt,
   sugar,
+  cinnamon,
   bayLeaf,
   soda,
   redPepperFlakes,
@@ -274,6 +281,7 @@ export const INGREDIENTS = {
   ...MEAT,
   ...GREANS,
   ...VEGATABLES,
+  ...FRUITS,
   ...LIQUIDS,
   ...SAUCES,
   ...OILS,
