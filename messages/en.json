@@ -23,5 +23,8 @@
   "notFoundPage": {
     "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
     "title": "Page not found"
+  },
+  "header": {
+    "btn": "Suggest a recipe"
   }
 }
