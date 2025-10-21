@@ -3,6 +3,7 @@
 import styled from 'styled-components'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
+import { useTranslations } from 'next-intl'
 import { maxDevice } from '@/styles/device'
 import { Link } from '@/i18n/navigation'
 import { FiMenu, FiX } from 'react-icons/fi'
@@ -130,6 +131,7 @@ const StyledButton = styled.a`
 `
 
 export const Header = () => {
+  const t = useTranslations('header')
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
 
@@ -162,7 +164,7 @@ export const Header = () => {
       <RightBlock>
         <LocaleSelect />
         <StyledButton href="https://forms.gle/n6mF4WvC64UKyEW37" target="_blank" rel="noopener noreferrer nofollow">
-          Предложить рецепт
+          {t('btn')}
         </StyledButton>
         <BurgerMenu onClick={() => setMenuOpen(prev => !prev)}>{menuOpen ? <FiX /> : <FiMenu />}</BurgerMenu>
       </RightBlock>
