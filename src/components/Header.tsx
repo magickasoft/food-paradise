@@ -161,7 +161,7 @@ export const Header = () => {
 
       <RightBlock>
         <LocaleSelect />
-        <StyledButton href="https://example.com" target="_blank" rel="noopener noreferrer">
+        <StyledButton href="https://forms.gle/n6mF4WvC64UKyEW37" target="_blank" rel="noopener noreferrer nofollow">
           Предложить рецепт
         </StyledButton>
         <BurgerMenu onClick={() => setMenuOpen(prev => !prev)}>{menuOpen ? <FiX /> : <FiMenu />}</BurgerMenu>
