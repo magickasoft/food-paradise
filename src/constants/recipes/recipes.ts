@@ -61,13 +61,13 @@ export interface Recipe {
   rating: number
   portions: number
   used: number[] | null
-  ingredients: { name: string; count?: number; gauge: string; img?: string | null }[]
+  ingredients: { name: string; count?: number | string; gauge: string; img?: string | null; note?: string }[]
   equipments: { name: string; img?: string | null }[]
   cookingRecipe: {
     img?: string | null
     video?: string | null
     description: string
-    ingredients: { name: string; count?: number; gauge: string; img?: string | null; optional?: boolean }[]
+    ingredients: { name: string; count?: number | string; gauge: string; img?: string | null; optional?: boolean }[]
   }[]
   historyDescription?: string
   tips?: string[]
