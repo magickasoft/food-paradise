@@ -4587,7 +4587,7 @@ export const GRILL = [
       },
       {
         name: 'Лук репчатый',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 2,
         img: null,
       },
@@ -4695,7 +4695,7 @@ export const GRILL = [
           },
           {
             name: 'Лук репчатый',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 2,
             img: null,
           },
@@ -5758,7 +5758,7 @@ export const GRILL = [
       },
       {
         name: 'Зеленый лук',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 3,
         img: null,
       },
@@ -5881,7 +5881,7 @@ export const GRILL = [
           },
           {
             name: 'Зеленый лук',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 3,
             img: null,
           },
@@ -6907,7 +6907,7 @@ export const GRILL = [
       },
       {
         name: 'Лук репчатый',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 3,
         img: null,
       },
@@ -6949,7 +6949,7 @@ export const GRILL = [
       },
       {
         name: 'Лимон',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 0.5,
         img: null,
       },
@@ -7009,7 +7009,7 @@ export const GRILL = [
           },
           {
             name: 'Лук репчатый',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 3,
             img: null,
           },
@@ -7066,7 +7066,7 @@ export const GRILL = [
         ingredients: [
           {
             name: 'Лимон',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
@@ -7998,7 +7998,7 @@ export const GRILL = [
       },
       {
         name: 'Лимон',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -8022,13 +8022,13 @@ export const GRILL = [
       },
       {
         name: 'Болгарский перец',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 2,
         img: null,
       },
       {
         name: 'Красный лук',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 2,
         img: null,
       },
@@ -8100,7 +8100,7 @@ export const GRILL = [
           },
           {
             name: 'Лимон',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
@@ -8146,13 +8146,13 @@ export const GRILL = [
         ingredients: [
           {
             name: 'Болгарский перец',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 2,
             img: null,
           },
           {
             name: 'Красный лук',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 2,
             img: null,
           },
@@ -8165,7 +8165,7 @@ export const GRILL = [
         ingredients: [
           {
             name: 'Лимон',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
@@ -9291,13 +9291,13 @@ export const GRILL = [
       },
       {
         name: 'Кабачок',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
       {
         name: 'Красный лук',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -9413,13 +9413,13 @@ export const GRILL = [
         ingredients: [
           {
             name: 'Кабачок',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
           {
             name: 'Красный лук',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -10970,25 +10970,25 @@ export const GRILL = [
     ingredients: [
       {
         name: 'Кабачок',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
       {
         name: 'Баклажан',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
       {
         name: 'Красный лук',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
       {
         name: 'Болгарский перец',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 2,
         img: null,
       },
@@ -11104,25 +11104,25 @@ export const GRILL = [
         ingredients: [
           {
             name: 'Кабачок',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
           {
             name: 'Баклажан',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
           {
             name: 'Болгарский перец',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 2,
             img: null,
           },
           {
             name: 'Красный лук',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -11295,7 +11295,7 @@ export const GRILL = [
       },
       {
         name: 'Кедровая доска',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -11337,7 +11337,7 @@ export const GRILL = [
       },
       {
         name: 'Лимон',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 0.5,
         img: null,
       },
@@ -11374,7 +11374,7 @@ export const GRILL = [
         ingredients: [
           {
             name: 'Кедровая доска',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -11456,7 +11456,7 @@ export const GRILL = [
         ingredients: [
           {
             name: 'Лимон',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
@@ -11774,7 +11774,7 @@ export const GRILL = [
       },
       {
         name: 'Лимон',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -11792,7 +11792,7 @@ export const GRILL = [
       },
       {
         name: 'Деревянные шпажки',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 8,
         img: null,
       },
@@ -11855,7 +11855,7 @@ export const GRILL = [
           },
           {
             name: 'Лимон',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
@@ -11880,7 +11880,7 @@ export const GRILL = [
         ingredients: [
           {
             name: 'Деревянные шпажки',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 8,
             img: null,
           },
@@ -11900,7 +11900,7 @@ export const GRILL = [
         ingredients: [
           {
             name: 'Лимон',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
@@ -12404,7 +12404,7 @@ export const GRILL = [
     ingredients: [
       {
         name: 'Хлеб чиабатта',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -12416,13 +12416,13 @@ export const GRILL = [
       },
       {
         name: 'Кабачок',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 0.5,
         img: null,
       },
       {
         name: 'Красный лук',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 0.5,
         img: null,
       },
@@ -12490,13 +12490,13 @@ export const GRILL = [
         ingredients: [
           {
             name: 'Кабачок',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
           {
             name: 'Красный лук',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
@@ -12542,7 +12542,7 @@ export const GRILL = [
         ingredients: [
           {
             name: 'Хлеб чиабатта',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },

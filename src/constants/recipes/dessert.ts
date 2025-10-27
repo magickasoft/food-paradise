@@ -292,7 +292,7 @@ export const DESSERT = [
       },
       {
         name: 'Яйца',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 4,
         img: null,
       },
@@ -420,7 +420,7 @@ export const DESSERT = [
         ingredients: [
           {
             name: 'Яйца',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 4,
             img: null,
           },
@@ -586,7 +586,7 @@ export const DESSERT = [
       },
       {
         name: 'Ванильный стручок',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
       },
       {
@@ -648,7 +648,7 @@ export const DESSERT = [
           },
           {
             name: 'Ванильный стручок',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
           },
           {
@@ -1033,7 +1033,7 @@ export const DESSERT = [
     ingredients: [
       {
         name: 'Яичные белки',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 4,
       },
       {
@@ -1053,7 +1053,7 @@ export const DESSERT = [
       },
       {
         name: 'Яичные желтки',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 3,
       },
       {
@@ -1107,7 +1107,7 @@ export const DESSERT = [
         ingredients: [
           {
             name: 'Яичные белки',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 4,
           },
           {
@@ -1136,7 +1136,7 @@ export const DESSERT = [
         ingredients: [
           {
             name: 'Яичные желтки',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 3,
           },
           {
@@ -1467,12 +1467,12 @@ export const DESSERT = [
       },
       {
         name: 'Ванильный стручок',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
       },
       {
         name: 'Яичные желтки',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 6,
       },
       {
@@ -1520,12 +1520,12 @@ export const DESSERT = [
           },
           {
             name: 'Ванильный стручок',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
           },
           {
             name: 'Яичные желтки',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 6,
           },
           {
@@ -1867,7 +1867,7 @@ export const DESSERT = [
       },
       {
         name: 'Яйца',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 3,
       },
       {
@@ -1978,7 +1978,7 @@ export const DESSERT = [
           },
           {
             name: 'Яйца',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 3,
           },
           {
@@ -2511,7 +2511,7 @@ export const DESSERT = [
       },
       {
         name: 'Яйца',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 3,
       },
       {
@@ -2603,7 +2603,7 @@ export const DESSERT = [
         ingredients: [
           {
             name: 'Яйца',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 3,
           },
           {
@@ -2723,7 +2723,7 @@ export const DESSERT = [
     ingredients: [
       {
         name: 'Яичные белки',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 4,
       },
       {
@@ -2778,7 +2778,7 @@ export const DESSERT = [
         ingredients: [
           {
             name: 'Яичные белки',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 4,
           },
           {
@@ -3112,7 +3112,7 @@ export const DESSERT = [
       },
       {
         name: 'Яйца',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 2,
       },
       {
@@ -3182,7 +3182,7 @@ export const DESSERT = [
           },
           {
             name: 'Яйца',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 2,
           },
           {
@@ -3327,7 +3327,7 @@ export const DESSERT = [
       },
       {
         name: 'Яйца',
-        gauge: 'шт',
+        gauge: 'шт.',
         img: null,
         count: 4,
       },
@@ -3345,7 +3345,7 @@ export const DESSERT = [
       },
       {
         name: 'Яичные желтки',
-        gauge: 'шт',
+        gauge: 'шт.',
         img: null,
         count: 4,
       },
@@ -3451,7 +3451,7 @@ export const DESSERT = [
         ingredients: [
           {
             name: 'Яйца',
-            gauge: 'шт',
+            gauge: 'шт.',
             img: null,
             count: 4,
           },
@@ -3476,7 +3476,7 @@ export const DESSERT = [
           },
           {
             name: 'Яичные желтки',
-            gauge: 'шт',
+            gauge: 'шт.',
             img: null,
             count: 4,
           },
@@ -3839,7 +3839,7 @@ export const DESSERT = [
       },
       {
         name: 'Яйцо',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -3933,7 +3933,7 @@ export const DESSERT = [
           },
           {
             name: 'Яйцо',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -4155,7 +4155,7 @@ export const DESSERT = [
       },
       {
         name: 'Яйцо',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -4227,7 +4227,7 @@ export const DESSERT = [
           },
           {
             name: 'Яйцо',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },

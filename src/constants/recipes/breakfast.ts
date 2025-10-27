@@ -1221,7 +1221,7 @@ export const BREAKFAST = [
     ingredients: [
       { ...INGREDIENTS.oatmeal, count: 200, gauge: 'г' },
       { ...INGREDIENTS.milk, count: 500, gauge: 'мл' },
-      { ...INGREDIENTS.apple, count: 2, gauge: 'шт' },
+      { ...INGREDIENTS.apple, count: 2, gauge: 'шт.' },
       { ...INGREDIENTS.cinnamon, count: 1, gauge: 'ч.л.' },
       { ...INGREDIENTS.honey, count: 1, gauge: 'ст.л.' },
       { ...INGREDIENTS.butter, count: 20, gauge: 'г' },
@@ -1254,7 +1254,7 @@ export const BREAKFAST = [
         video: null,
         description:
           'Пока овсянка варится, очистите яблоки от кожуры и сердцевины, нарежьте небольшими дольками. Добавьте их в кашу и варите ещё 5–7 минут до мягкости.',
-        ingredients: [{ ...INGREDIENTS.apple, count: 2, gauge: 'шт' }],
+        ingredients: [{ ...INGREDIENTS.apple, count: 2, gauge: 'шт.' }],
       },
       {
         img: null,

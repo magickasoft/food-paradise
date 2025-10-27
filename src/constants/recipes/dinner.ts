@@ -1,4 +1,3 @@
-import { count } from 'console'
 import { EQUIPMENTS } from '../equipments'
 import { INGREDIENTS } from '../ingredients'
 
@@ -760,7 +759,7 @@ export const DINNER = [
       { ...INGREDIENTS.flour, count: 250, gauge: 'г.' },
       { ...INGREDIENTS.yeast, count: 6, gauge: 'г.' },
       { ...INGREDIENTS.sesameSeeds, gauge: 'по вкусу' },
-      { ...INGREDIENTS.milk, count: 250, gauge: 'мл.' },
+      { ...INGREDIENTS.milk, count: 250, gauge: 'мл' },
       { ...INGREDIENTS.eggs, count: 1, gauge: 'шт.' },
       { ...INGREDIENTS.garlic, count: 6, gauge: 'зуб.' },
     ],
@@ -833,7 +832,7 @@ export const DINNER = [
         ingredients: [
           { ...INGREDIENTS.flour, count: 250, gauge: 'г.' },
           { ...INGREDIENTS.yeast, count: 6, gauge: 'г.' },
-          { ...INGREDIENTS.milk, count: 250, gauge: 'мл.' },
+          { ...INGREDIENTS.milk, count: 250, gauge: 'мл' },
           { ...INGREDIENTS.sugar, count: 5, gauge: 'г.' },
           { ...INGREDIENTS.salt, count: 3, gauge: 'г.' },
           { ...INGREDIENTS.refinedVegetableOil, count: 2, gauge: 'ст.л.' },
@@ -2342,7 +2341,7 @@ export const DINNER = [
           'В глубокой миске соедините все нарезанные ингредиенты. Посолите по вкусу, добавьте немного горчицы для остроты. Залейте смесью кефира и минеральной воды, хорошо перемешайте. Подавайте охлаждённой.',
         ingredients: [
           { ...INGREDIENTS.kefir32, count: 1, gauge: 'л.' },
-          { ...INGREDIENTS.carbonatedMineralWater, count: 500, gauge: 'мл.' },
+          { ...INGREDIENTS.carbonatedMineralWater, count: 500, gauge: 'мл' },
           { ...INGREDIENTS.mustard, count: 1, gauge: 'ч.л.' },
           { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
         ],
@@ -3951,7 +3950,7 @@ export const DINNER = [
       { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
       { ...INGREDIENTS.ginger, count: 20, gauge: 'г.' },
       { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
-      { ...INGREDIENTS.coconutCream, count: 200, gauge: 'мл.' },
+      { ...INGREDIENTS.coconutCream, count: 200, gauge: 'мл' },
       { ...INGREDIENTS.oliveOil, count: 2, gauge: 'ст.л.' },
       { ...INGREDIENTS.muscatNut, count: 2, gauge: 'г.' },
       { ...INGREDIENTS.pumpkinSeeds, count: 30, gauge: 'г.' },
@@ -4019,7 +4018,7 @@ export const DINNER = [
         description:
           'Добавьте запечённые овощи, овощной бульон, кокосовые сливки, мускатный орех, соль и перец. Доведите до кипения и пюрируйте блендером до гладкости. При желании процедите через сито для шелковистой текстуры.',
         ingredients: [
-          { ...INGREDIENTS.coconutCream, count: 200, gauge: 'мл.' },
+          { ...INGREDIENTS.coconutCream, count: 200, gauge: 'мл' },
           { ...INGREDIENTS.muscatNut, count: 2, gauge: 'г.' },
           { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
           { ...INGREDIENTS.groundBlackPepper, count: 1, gauge: 'ч.л.' },
@@ -5018,7 +5017,7 @@ export const DINNER = [
       { ...INGREDIENTS.onion, count: 0.5, gauge: 'шт.' },
       { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
       { ...INGREDIENTS.whiteBread, count: 100, gauge: 'г.' },
-      { ...INGREDIENTS.water, count: 100, gauge: 'мл.' },
+      { ...INGREDIENTS.water, count: 100, gauge: 'мл' },
       { ...INGREDIENTS.oliveOil, count: 8, gauge: 'ст.л.' },
       { ...INGREDIENTS.sherryVinegar, count: 3, gauge: 'ст.л.' },
       { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
@@ -5046,7 +5045,7 @@ export const DINNER = [
           { ...INGREDIENTS.cucumber, count: 1.5, gauge: 'шт.' },
           { ...INGREDIENTS.bellPepper, count: 2, gauge: 'шт.' },
           { ...INGREDIENTS.onion, count: 0.5, gauge: 'шт.' },
-          { ...INGREDIENTS.water, count: 100, gauge: 'мл.' },
+          { ...INGREDIENTS.water, count: 100, gauge: 'мл' },
         ],
       },
       {
@@ -5554,13 +5553,13 @@ export const DINNER = [
       { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
       { ...INGREDIENTS.butter, count: 50, gauge: 'г.' },
       { ...INGREDIENTS.thyme, count: 3, gauge: 'г.' },
-      { ...INGREDIENTS.cream33, count: 250, gauge: 'мл.' },
+      { ...INGREDIENTS.cream33, count: 250, gauge: 'мл' },
       { ...INGREDIENTS.truffleOil, count: 1, gauge: 'ст.л.' },
       { ...INGREDIENTS.sunflowerOil, count: 1, gauge: 'ст.л.' },
       { ...INGREDIENTS.whitePepper, count: 1, gauge: 'г.' },
       { ...INGREDIENTS.salt, count: 5, gauge: 'ч.л.' },
       { ...INGREDIENTS.ciabatta, count: 60, gauge: 'г.' },
-      { ...INGREDIENTS.water, count: 600, gauge: 'мл.' },
+      { ...INGREDIENTS.water, count: 600, gauge: 'мл' },
     ],
     equipments: [
       EQUIPMENTS.pot,
@@ -5579,7 +5578,7 @@ export const DINNER = [
           'Залейте сушёные белые грибы 600 мл кипятка, накройте крышкой и настаивайте 30 минут. Процедите, отожмите грибы (их можно добавить в суп позже). Полученный бульон доведите до кипения и уварите до 500 мл для насыщенного вкуса.',
         ingredients: [
           { ...INGREDIENTS.driedPorcini, count: 20, gauge: 'г.' },
-          { ...INGREDIENTS.water, count: 600, gauge: 'мл.' },
+          { ...INGREDIENTS.water, count: 600, gauge: 'мл' },
         ],
       },
       {
@@ -5606,7 +5605,7 @@ export const DINNER = [
         description:
           'Соедините все грибы с обжаренным луком, добавьте грибной бульон и сливки. Посолите, приправьте белым перцем. Доведите до лёгкого кипения и варите 10 минут.',
         ingredients: [
-          { ...INGREDIENTS.cream33, count: 250, gauge: 'мл.' },
+          { ...INGREDIENTS.cream33, count: 250, gauge: 'мл' },
           { ...INGREDIENTS.whitePepper, count: 1, gauge: 'г.' },
           { ...INGREDIENTS.salt, count: 5, gauge: 'ч.л.' },
         ],
