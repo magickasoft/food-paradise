@@ -3583,7 +3583,7 @@ export const SALADS = [
       },
       {
         name: 'Авокадо',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -3595,7 +3595,7 @@ export const SALADS = [
       },
       {
         name: 'Помидоры черри',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 10,
         img: null,
       },
@@ -3674,13 +3674,13 @@ export const SALADS = [
         ingredients: [
           {
             name: 'Авокадо',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
           {
             name: 'Помидоры черри',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 10,
             img: null,
           },
@@ -4414,7 +4414,7 @@ export const SALADS = [
     ingredients: [
       {
         name: 'Помидоры',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 2,
         img: null,
       },
@@ -4467,7 +4467,7 @@ export const SALADS = [
         ingredients: [
           {
             name: 'Помидоры',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 2,
             img: null,
           },
@@ -5197,13 +5197,13 @@ export const SALADS = [
       },
       {
         name: 'Яйца',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 3,
         img: null,
       },
       {
         name: 'Огурец',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -5257,13 +5257,13 @@ export const SALADS = [
         ingredients: [
           {
             name: 'Яйца',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 3,
             img: null,
           },
           {
             name: 'Огурец',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -6091,7 +6091,7 @@ export const SALADS = [
       },
       {
         name: 'Помидоры черри',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 10,
         img: null,
       },
@@ -6183,7 +6183,7 @@ export const SALADS = [
           },
           {
             name: 'Помидоры черри',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 10,
             img: null,
           },
@@ -7127,7 +7127,7 @@ export const SALADS = [
       },
       {
         name: 'Картофель',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 2,
         img: null,
       },
@@ -7139,13 +7139,13 @@ export const SALADS = [
       },
       {
         name: 'Яйца',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 2,
         img: null,
       },
       {
         name: 'Помидоры черри',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 8,
         img: null,
       },
@@ -7199,7 +7199,7 @@ export const SALADS = [
         ingredients: [
           {
             name: 'Картофель',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 2,
             img: null,
           },
@@ -7232,13 +7232,13 @@ export const SALADS = [
         ingredients: [
           {
             name: 'Яйца',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 2,
             img: null,
           },
           {
             name: 'Помидоры черри',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 8,
             img: null,
           },
@@ -8571,13 +8571,13 @@ export const SALADS = [
       },
       {
         name: 'Яблоко',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
       {
         name: 'Сельдерей (стебли)',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 2,
         img: null,
       },
@@ -8649,13 +8649,13 @@ export const SALADS = [
         ingredients: [
           {
             name: 'Яблоко',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
           {
             name: 'Сельдерей (стебли)',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 2,
             img: null,
           },
@@ -9767,13 +9767,13 @@ export const SALADS = [
       },
       {
         name: 'Яйца',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 4,
         img: null,
       },
       {
         name: 'Огурец свежий',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -9815,7 +9815,7 @@ export const SALADS = [
         ingredients: [
           {
             name: 'Яйца',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 4,
             img: null,
           },
@@ -9834,7 +9834,7 @@ export const SALADS = [
         ingredients: [
           {
             name: 'Огурец свежий',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -11009,25 +11009,25 @@ export const SALADS = [
       },
       {
         name: 'Картофель',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 4,
         img: null,
       },
       {
         name: 'Морковь',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 2,
         img: null,
       },
       {
         name: 'Яйца',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 4,
         img: null,
       },
       {
         name: 'Огурцы маринованные',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 3,
         img: null,
       },
@@ -11075,19 +11075,19 @@ export const SALADS = [
         ingredients: [
           {
             name: 'Картофель',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 4,
             img: null,
           },
           {
             name: 'Морковь',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 2,
             img: null,
           },
           {
             name: 'Яйца',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 4,
             img: null,
           },
@@ -11106,7 +11106,7 @@ export const SALADS = [
           },
           {
             name: 'Огурцы маринованные',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 3,
             img: null,
           },
@@ -12492,7 +12492,7 @@ export const SALADS = [
       },
       {
         name: 'Лук красный',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -12545,7 +12545,7 @@ export const SALADS = [
           },
           {
             name: 'Лук красный',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },

@@ -1252,19 +1252,19 @@ export const SNACKS = [
     ingredients: [
       {
         name: 'Хлеб чиабатта',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
       {
         name: 'Авокадо',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 0.5,
         img: null,
       },
       {
         name: 'Яйцо',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -1328,7 +1328,7 @@ export const SNACKS = [
           },
           {
             name: 'Авокадо',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
@@ -1348,13 +1348,13 @@ export const SNACKS = [
         ingredients: [
           {
             name: 'Хлеб чиабатта',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
           {
             name: 'Яйцо',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -1850,7 +1850,7 @@ export const SNACKS = [
     ingredients: [
       {
         name: 'Пита или чиабатта',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -1868,19 +1868,19 @@ export const SNACKS = [
       },
       {
         name: 'Помидор',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 0.5,
         img: null,
       },
       {
         name: 'Огурец',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 0.5,
         img: null,
       },
       {
         name: 'Красный лук',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 0.25,
         img: null,
       },
@@ -1921,19 +1921,19 @@ export const SNACKS = [
         ingredients: [
           {
             name: 'Огурец',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
           {
             name: 'Помидор',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
           {
             name: 'Красный лук',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.25,
             img: null,
           },
@@ -1977,7 +1977,7 @@ export const SNACKS = [
         ingredients: [
           {
             name: 'Пита или чиабатта',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -2479,7 +2479,7 @@ export const SNACKS = [
     ingredients: [
       {
         name: 'Багет или чиабатта',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -2503,7 +2503,7 @@ export const SNACKS = [
       },
       {
         name: 'Помидор',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 0.5,
         img: null,
       },
@@ -2571,7 +2571,7 @@ export const SNACKS = [
         ingredients: [
           {
             name: 'Багет или чиабатта',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -2589,7 +2589,7 @@ export const SNACKS = [
           },
           {
             name: 'Помидор',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },

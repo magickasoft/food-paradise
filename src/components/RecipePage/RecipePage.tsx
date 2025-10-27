@@ -247,7 +247,6 @@ const RecipePage = ({ recipe }: { recipe: Recipe | null }) => {
                             text={ingredient.count && ingredient.gauge ? `${ingredient.count} ${ingredient.gauge}` : ''}
                             img={ingredient?.img || null}
                             backgroundColor="#f9f9f9"
-                            variant="short"
                           />
                         ))}
                       </DetailsCardsContainer>

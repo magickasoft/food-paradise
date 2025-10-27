@@ -2509,7 +2509,7 @@ export const SUPPER = [
       },
       {
         name: 'Морковь',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -2611,7 +2611,7 @@ export const SUPPER = [
           },
           {
             name: 'Морковь',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -3761,13 +3761,13 @@ export const SUPPER = [
       },
       {
         name: 'Кабачок',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
       {
         name: 'Томаты черри',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 10,
         img: null,
       },
@@ -3847,13 +3847,13 @@ export const SUPPER = [
         ingredients: [
           {
             name: 'Кабачок',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
           {
             name: 'Томаты черри',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 10,
             img: null,
           },
@@ -5166,7 +5166,7 @@ export const SUPPER = [
       },
       {
         name: 'Лук',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -5214,7 +5214,7 @@ export const SUPPER = [
           },
           {
             name: 'Лук',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -5600,7 +5600,7 @@ export const SUPPER = [
       },
       {
         name: 'Лук',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -5660,7 +5660,7 @@ export const SUPPER = [
           },
           {
             name: 'Лук',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -6217,7 +6217,7 @@ export const SUPPER = [
       },
       {
         name: 'Лук',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -6276,7 +6276,7 @@ export const SUPPER = [
           },
           {
             name: 'Лук',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -7216,7 +7216,7 @@ export const SUPPER = [
       },
       {
         name: 'Лимон',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 0.5,
         img: null,
       },
@@ -7295,7 +7295,7 @@ export const SUPPER = [
         ingredients: [
           {
             name: 'Лимон',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
@@ -7379,25 +7379,25 @@ export const SUPPER = [
   //   ingredients: [
   //     {
   //       name: 'Баклажан',
-  //       gauge: 'шт',
+  //       gauge: 'шт.',
   //       count: 1,
   //       img: null,
   //     },
   //     {
   //       name: 'Кабачок',
-  //       gauge: 'шт',
+  //       gauge: 'шт.',
   //       count: 1,
   //       img: null,
   //     },
   //     {
   //       name: 'Помидоры',
-  //       gauge: 'шт',
+  //       gauge: 'шт.',
   //       count: 3,
   //       img: null,
   //     },
   //     {
   //       name: 'Лук',
-  //       gauge: 'шт',
+  //       gauge: 'шт.',
   //       count: 1,
   //       img: null,
   //     },
@@ -7444,7 +7444,7 @@ export const SUPPER = [
   //       ingredients: [
   //         {
   //           name: 'Лук',
-  //           gauge: 'шт',
+  //           gauge: 'шт.',
   //           count: 1,
   //           img: null,
   //         },
@@ -7463,19 +7463,19 @@ export const SUPPER = [
   //       ingredients: [
   //         {
   //           name: 'Баклажан',
-  //           gauge: 'шт',
+  //           gauge: 'шт.',
   //           count: 1,
   //           img: null,
   //         },
   //         {
   //           name: 'Кабачок',
-  //           gauge: 'шт',
+  //           gauge: 'шт.',
   //           count: 1,
   //           img: null,
   //         },
   //         {
   //           name: 'Помидоры',
-  //           gauge: 'шт',
+  //           gauge: 'шт.',
   //           count: 3,
   //           img: null,
   //         },
@@ -8943,13 +8943,13 @@ export const SUPPER = [
       },
       {
         name: 'Лук',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 2,
         img: null,
       },
       {
         name: 'Морковь',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -9028,13 +9028,13 @@ export const SUPPER = [
           },
           {
             name: 'Лук',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 2,
             img: null,
           },
           {
             name: 'Морковь',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -9402,7 +9402,7 @@ export const SUPPER = [
       },
       {
         name: 'Лимон',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 0.5,
         img: null,
       },
@@ -9466,7 +9466,7 @@ export const SUPPER = [
           },
           {
             name: 'Лимон',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
@@ -10298,7 +10298,7 @@ export const SUPPER = [
       },
       {
         name: 'Лук',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -10322,7 +10322,7 @@ export const SUPPER = [
       },
       {
         name: 'Яйцо',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -10369,13 +10369,13 @@ export const SUPPER = [
           },
           {
             name: 'Лук',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
           {
             name: 'Яйцо',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -11554,7 +11554,7 @@ export const SUPPER = [
       },
       {
         name: 'Лук',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -11566,7 +11566,7 @@ export const SUPPER = [
       },
       {
         name: 'Яйцо',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -11619,7 +11619,7 @@ export const SUPPER = [
           },
           {
             name: 'Лук',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },

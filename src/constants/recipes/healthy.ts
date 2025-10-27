@@ -2963,19 +2963,19 @@ export const HEALTHY = [
       },
       {
         name: 'Авокадо',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
       {
         name: 'Огурец',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
       {
         name: 'Помидоры черри',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 10,
         img: null,
       },
@@ -3042,19 +3042,19 @@ export const HEALTHY = [
         ingredients: [
           {
             name: 'Авокадо',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
           {
             name: 'Огурец',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
           {
             name: 'Помидоры черри',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 10,
             img: null,
           },
@@ -3846,7 +3846,7 @@ export const HEALTHY = [
       },
       {
         name: 'Лук репчатый',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -3893,7 +3893,7 @@ export const HEALTHY = [
           },
           {
             name: 'Лук репчатый',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -5179,7 +5179,7 @@ export const HEALTHY = [
     ingredients: [
       {
         name: 'Болгарские перцы',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 4,
         img: null,
       },
@@ -5197,13 +5197,13 @@ export const HEALTHY = [
       },
       {
         name: 'Помидоры',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 2,
         img: null,
       },
       {
         name: 'Лук репчатый',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -5263,7 +5263,7 @@ export const HEALTHY = [
           },
           {
             name: 'Лук репчатый',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -5282,7 +5282,7 @@ export const HEALTHY = [
         ingredients: [
           {
             name: 'Помидоры',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 2,
             img: null,
           },
@@ -5301,7 +5301,7 @@ export const HEALTHY = [
         ingredients: [
           {
             name: 'Болгарские перцы',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 4,
             img: null,
           },

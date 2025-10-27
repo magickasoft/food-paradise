@@ -209,18 +209,22 @@ export const BREAKFAST = [
       {
         ...INGREDIENTS.eggs,
         count: 4,
+        gauge: 'шт.',
       },
       {
         ...INGREDIENTS.refinedVegetableOil,
         count: 2,
+        gauge: 'ст.л.',
       },
       {
         ...INGREDIENTS.groundBlackPepper,
-        count: 0.5,
+        count: ' ',
+        gauge: 'щепотка',
       },
       {
         ...INGREDIENTS.salt,
-        count: 0.5,
+        count: ' ',
+        gauge: 'щепотка',
       },
     ],
     equipments: [EQUIPMENTS.pan, EQUIPMENTS.spatula, EQUIPMENTS.bowl, EQUIPMENTS.whisk, EQUIPMENTS.plate],
@@ -234,14 +238,17 @@ export const BREAKFAST = [
           {
             ...INGREDIENTS.eggs,
             count: 4,
+            gauge: 'шт.',
           },
           {
             ...INGREDIENTS.groundBlackPepper,
-            count: 0.5,
+            count: ' ',
+            gauge: 'щепотка',
           },
           {
             ...INGREDIENTS.salt,
-            count: 0.5,
+            count: ' ',
+            gauge: 'щепотка',
           },
         ],
       },
@@ -254,6 +261,7 @@ export const BREAKFAST = [
           {
             ...INGREDIENTS.refinedVegetableOil,
             count: 2,
+            gauge: 'ст.л.',
           },
         ],
       },
@@ -272,7 +280,6 @@ export const BREAKFAST = [
       'Добавьте кусочек сливочного масла в конце приготовления — болтунья станет особенно шелковистой.',
       'Подавайте с хрустящим хлебом, свежими овощами или зеленью — идеально для завтрака.',
     ],
-
     variations: [
       {
         name: 'Болтунья со сливками',
@@ -481,30 +488,37 @@ export const BREAKFAST = [
       {
         ...INGREDIENTS.water,
         count: 500,
+        gauge: 'мл',
       },
       {
         ...INGREDIENTS.eggs,
         count: 3,
+        gauge: 'шт.',
       },
       {
         ...INGREDIENTS.refinedVegetableOil,
         count: 2,
+        gauge: 'ст.л.',
       },
       {
         ...INGREDIENTS.groundBlackPepper,
-        count: 0.5,
+        count: ' ',
+        gauge: 'щепотка',
       },
       {
         ...INGREDIENTS.salt,
-        count: 0.5,
+        count: ' ',
+        gauge: 'щепотка',
       },
       {
         ...INGREDIENTS.broccoli,
         count: 150,
+        gauge: 'г',
       },
       {
         ...INGREDIENTS.hardCheese,
         count: 30,
+        gauge: 'г',
       },
     ],
     equipments: [
@@ -527,13 +541,12 @@ export const BREAKFAST = [
           {
             ...INGREDIENTS.water,
             count: 500,
-          },
-          {
-            ...INGREDIENTS.salt,
+            gauge: 'мл',
           },
           {
             ...INGREDIENTS.broccoli,
             count: 150,
+            gauge: 'г',
           },
         ],
       },
@@ -546,6 +559,7 @@ export const BREAKFAST = [
           {
             ...INGREDIENTS.refinedVegetableOil,
             count: 2,
+            gauge: 'ст.л.',
           },
         ],
       },
@@ -558,14 +572,17 @@ export const BREAKFAST = [
           {
             ...INGREDIENTS.eggs,
             count: 2,
+            gauge: 'шт.',
           },
           {
             ...INGREDIENTS.groundBlackPepper,
-            count: 0.5,
+            count: ' ',
+            gauge: 'щепотка',
           },
           {
             ...INGREDIENTS.salt,
-            count: 0.5,
+            count: ' ',
+            gauge: 'щепотка',
           },
         ],
       },
@@ -585,6 +602,7 @@ export const BREAKFAST = [
           {
             ...INGREDIENTS.hardCheese,
             count: 30,
+            gauge: 'г',
           },
         ],
       },
@@ -1201,14 +1219,14 @@ export const BREAKFAST = [
     portions: 4,
     used: [],
     ingredients: [
-      { ...INGREDIENTS.oatmeal, count: 200, measure: 'г' },
-      { ...INGREDIENTS.milk, count: 500 },
-      { ...INGREDIENTS.apple, count: 2, measure: 'шт' },
+      { ...INGREDIENTS.oatmeal, count: 200, gauge: 'г' },
+      { ...INGREDIENTS.milk, count: 500, gauge: 'мл' },
+      { ...INGREDIENTS.apple, count: 2, gauge: 'шт.' },
       { ...INGREDIENTS.cinnamon, count: 1, gauge: 'ч.л.' },
-      { ...INGREDIENTS.honey, count: 1, measure: 'ст.л.' },
-      { ...INGREDIENTS.butter, count: 20 },
-      { ...INGREDIENTS.salt, count: 1 },
-      { ...INGREDIENTS.water, count: 100 },
+      { ...INGREDIENTS.honey, count: 1, gauge: 'ст.л.' },
+      { ...INGREDIENTS.butter, count: 20, gauge: 'г' },
+      { ...INGREDIENTS.salt, count: ' ', gauge: 'щепотка' },
+      { ...INGREDIENTS.water, count: 100, gauge: 'мл' },
     ],
     equipments: [
       EQUIPMENTS.pot,
@@ -1224,21 +1242,30 @@ export const BREAKFAST = [
         video: null,
         description:
           'В кастрюле смешайте овсяные хлопья, молоко и воду. Добавьте щепотку соли. Поставьте на средний огонь и, постоянно помешивая, доведите до лёгкого кипения.',
-        ingredients: [INGREDIENTS.oatmeal, INGREDIENTS.milk, INGREDIENTS.water, INGREDIENTS.salt],
+        ingredients: [
+          { ...INGREDIENTS.oatmeal, count: 200, gauge: 'г' },
+          { ...INGREDIENTS.milk, count: 500, gauge: 'мл' },
+          { ...INGREDIENTS.water, count: 100, gauge: 'мл' },
+          { ...INGREDIENTS.salt, count: ' ', gauge: 'щепотка' },
+        ],
       },
       {
         img: null,
         video: null,
         description:
           'Пока овсянка варится, очистите яблоки от кожуры и сердцевины, нарежьте небольшими дольками. Добавьте их в кашу и варите ещё 5–7 минут до мягкости.',
-        ingredients: [INGREDIENTS.apple],
+        ingredients: [{ ...INGREDIENTS.apple, count: 2, gauge: 'шт.' }],
       },
       {
         img: null,
         video: null,
         description:
           'Снимите кашу с огня, добавьте корицу, мёд и сливочное масло. Перемешайте, накройте крышкой и дайте настояться 3–5 минут. Подавайте тёплой, можно украсить свежими яблочными ломтиками и орешками.',
-        ingredients: [INGREDIENTS.cinnamon, INGREDIENTS.honey, INGREDIENTS.butter],
+        ingredients: [
+          { ...INGREDIENTS.cinnamon, count: 1, gauge: 'ч.л.' },
+          { ...INGREDIENTS.honey, count: 1, gauge: 'ст.л.' },
+          { ...INGREDIENTS.butter, count: 20, gauge: 'г' },
+        ],
       },
     ],
     tips: [
@@ -1540,24 +1567,32 @@ export const BREAKFAST = [
       {
         ...INGREDIENTS.eggs,
         count: 2,
+        gauge: 'шт.',
       },
       {
         ...INGREDIENTS.milk,
         count: 120,
+        gauge: 'мл',
       },
       {
         ...INGREDIENTS.vegetableOil,
         count: 1,
+        gauge: 'ст.л.',
       },
       {
         ...INGREDIENTS.butter,
         count: 5,
+        gauge: 'г',
       },
       {
         ...INGREDIENTS.salt,
+        count: ' ',
+        gauge: 'щепотка',
       },
       {
         ...INGREDIENTS.groundBlackPepper,
+        count: ' ',
+        gauge: 'щепотка',
       },
     ],
     equipments: [EQUIPMENTS.pan, EQUIPMENTS.bowl, EQUIPMENTS.plate, EQUIPMENTS.fork, EQUIPMENTS.spatula],
@@ -1567,14 +1602,20 @@ export const BREAKFAST = [
         video: null,
         description:
           'В глубокой миске аккуратно соедините яйца с молоком. Важно: взбалтывайте смесь вилкой круговыми движениями, а не взбивайте. Это принципиальный момент — так омлет получится слоистым, а не пористым. Французские шеф-повара считают, что венчик или миксер убивают нежность текстуры.',
-        ingredients: [{ ...INGREDIENTS.eggs }, { ...INGREDIENTS.milk }],
+        ingredients: [
+          { ...INGREDIENTS.eggs, count: 2, gauge: 'шт.' },
+          { ...INGREDIENTS.milk, count: 120, gauge: 'мл' },
+        ],
       },
       {
         img: null,
         video: null,
         description:
           'Возьмите сковороду с толстым дном диаметром 18-22 см. Разогрейте на среднем огне 1 минуту — правильный температурный режим ключевой момент. Добавьте растительное и сливочное масло, распределите по поверхности. Смесь масел даст идеальную текстуру — без пригорания, но с тонким сливочным ароматом.',
-        ingredients: [{ ...INGREDIENTS.vegetableOil }, { ...INGREDIENTS.butter }],
+        ingredients: [
+          { ...INGREDIENTS.vegetableOil, count: 1, gauge: 'ст.л.' },
+          { ...INGREDIENTS.butter, count: 5, gauge: 'г' },
+        ],
       },
       {
         img: null,
@@ -1588,17 +1629,18 @@ export const BREAKFAST = [
         video: null,
         description:
           'Через 40 секунд после начала готовки, когда середина останется слегка влажной, снимите с огня. Посолите и поперчите по вкусу. Французы называют это состояние "baveuse" — когда омлет остается кремовым внутри. Подавайте немедленно — идеальный омлет не терпит ожидания!',
-        ingredients: [{ ...INGREDIENTS.salt }, { ...INGREDIENTS.groundBlackPepper }],
+        ingredients: [
+          { ...INGREDIENTS.salt, count: ' ', gauge: 'щепотка' },
+          { ...INGREDIENTS.groundBlackPepper, count: ' ', gauge: 'щепотка' },
+        ],
       },
     ],
-
     tips: [
       'Чтобы омлет получился особенно нежным, используйте сковороду с толстым дном и не перегревайте масло.',
       'Не взбивайте яйца миксером — только вилкой, иначе масса станет слишком воздушной и потеряет бархатистость.',
       'Можно добавить щепотку сахара — это подчеркнёт сливочный вкус.',
       'Если хотите более плотную текстуру — накройте крышкой на последние 30 секунд готовки.',
     ],
-
     variations: [
       {
         name: 'С сыром и зеленью',
@@ -2426,34 +2468,42 @@ export const BREAKFAST = [
       {
         ...INGREDIENTS.milk,
         count: 500,
+        gauge: 'мл',
       },
       {
         ...INGREDIENTS.eggs,
         count: 3,
+        gauge: 'шт.',
       },
       {
         ...INGREDIENTS.flour,
         count: 200,
+        gauge: 'г',
       },
       {
         ...INGREDIENTS.sugar,
-        count: 30,
+        count: 3,
+        gauge: 'ч.л.',
       },
       {
         ...INGREDIENTS.salt,
         count: 3,
+        gauge: 'г',
       },
       {
         ...INGREDIENTS.vegetableOil,
         count: 4,
+        gauge: 'ст.л.',
       },
       {
         ...INGREDIENTS.soda,
         count: 2,
+        gauge: 'ч.л.',
       },
       {
         ...INGREDIENTS.vinegar,
         count: 1,
+        gauge: 'ст.л.',
       },
     ],
     equipments: [
@@ -2471,10 +2521,10 @@ export const BREAKFAST = [
         description:
           'В глубокой миске взбейте яйца с сахаром и солью до легкой пены. Постепенно вливайте теплое молоко, продолжая взбивать. Важно: молоко должно быть именно горячим (не кипяток!) — это активирует клейковину муки.',
         ingredients: [
-          { ...INGREDIENTS.milk },
-          { ...INGREDIENTS.eggs },
-          { ...INGREDIENTS.sugar },
-          { ...INGREDIENTS.salt },
+          { ...INGREDIENTS.milk, count: 500, gauge: 'мл' },
+          { ...INGREDIENTS.eggs, count: 3, gauge: 'шт.' },
+          { ...INGREDIENTS.sugar, count: 3, gauge: 'ч.л.' },
+          { ...INGREDIENTS.salt, count: 3, gauge: 'г' },
         ],
       },
       {
@@ -2483,10 +2533,10 @@ export const BREAKFAST = [
         description:
           'Муку просеивайте дважды — сначала в отдельную миску, затем в яично-молочную смесь. Добавляйте небольшими порциями, тщательно размешивая венчиком. В конце введите гашеную соду (сода с уксом) и растительное масло. Тесто должно стекать с ложки «лентой».',
         ingredients: [
-          { ...INGREDIENTS.flour },
-          { ...INGREDIENTS.soda },
-          { ...INGREDIENTS.vegetableOil },
-          { ...INGREDIENTS.vinegar },
+          { ...INGREDIENTS.flour, count: 200, gauge: 'г' },
+          { ...INGREDIENTS.soda, count: 2, gauge: 'ч.л.' },
+          { ...INGREDIENTS.vegetableOil, count: 4, gauge: 'ст.л.' },
+          { ...INGREDIENTS.vinegar, count: 1, gauge: 'ст.л.' },
         ],
       },
       {
@@ -3205,11 +3255,12 @@ export const BREAKFAST = [
       {
         ...INGREDIENTS.eggs,
         count: 4,
+        gauge: 'шт.',
       },
       {
         ...INGREDIENTS.milkSausages,
         count: 4,
-        note: 'лучше молочные высшего сорта',
+        gauge: 'шт.',
       },
       {
         ...INGREDIENTS.cannedBeans,
@@ -3220,24 +3271,32 @@ export const BREAKFAST = [
       {
         ...INGREDIENTS.vegetableOil,
         count: 2,
+        gauge: 'ст.л.',
       },
       {
         ...INGREDIENTS.butter,
         count: 10,
+        gauge: 'г',
       },
       {
         ...INGREDIENTS.worcestershireSauce,
         count: 1,
+        gauge: 'ст.л.',
       },
       {
         ...INGREDIENTS.smokedPaprika,
         count: 0.5,
+        gauge: 'ч.л.',
       },
       {
         ...INGREDIENTS.salt,
+        count: ' ',
+        gauge: 'по вкусу',
       },
       {
         ...INGREDIENTS.groundBlackPepper,
+        count: ' ',
+        gauge: 'по вкусу',
       },
     ],
     equipments: [EQUIPMENTS.pan, EQUIPMENTS.spatula, EQUIPMENTS.pot, EQUIPMENTS.tongs, EQUIPMENTS.plate],
@@ -3248,9 +3307,9 @@ export const BREAKFAST = [
         description:
           'Нарежьте сосиски на кусочки по 3 см. Разогрейте сковороду с 1 ст.л. растительного масла на среднем огне. Обжаривайте сосиски 5-7 минут до румяной корочки, периодически переворачивая щипцами. В конце добавьте 1 ч.л. вустерского соуса и перемешайте.',
         ingredients: [
-          { ...INGREDIENTS.milkSausages },
-          { ...INGREDIENTS.vegetableOil },
-          { ...INGREDIENTS.worcestershireSauce },
+          { ...INGREDIENTS.milkSausages, count: 4, gauge: 'шт.' },
+          { ...INGREDIENTS.vegetableOil, count: 2, gauge: 'ст.л.' },
+          { ...INGREDIENTS.worcestershireSauce, count: 1, gauge: 'ч.л.' },
         ],
       },
       {
@@ -3258,7 +3317,11 @@ export const BREAKFAST = [
         video: null,
         description:
           'В отдельной кастрюльке разогрейте фасоль в томатном соусе на слабом огне. Добавьте копченую паприку и 1 ч.л. сливочного масла для мягкости вкуса. Томите под крышкой 5 минут, периодически помешивая.',
-        ingredients: [{ ...INGREDIENTS.cannedBeans }, { ...INGREDIENTS.smokedPaprika }, { ...INGREDIENTS.butter }],
+        ingredients: [
+          { ...INGREDIENTS.cannedBeans, count: 200, gauge: 'г' },
+          { ...INGREDIENTS.smokedPaprika, count: 0.5, gauge: 'ч.л.' },
+          { ...INGREDIENTS.butter, count: 10, gauge: 'г' },
+        ],
       },
       {
         img: '/static/steps/english-breakfast3.webp',
@@ -3266,11 +3329,11 @@ export const BREAKFAST = [
         description:
           'В чистой сковороде растопите оставшееся сливочное масло с 1 ст.л. растительного. Взбейте яйца вилкой с щепоткой соли и перца. Вылейте на сковороду и готовьте на среднем огне 2-3 минуты, аккуратно помешивая лопаткой для получения нежной текстуры.',
         ingredients: [
-          { ...INGREDIENTS.eggs },
-          { ...INGREDIENTS.butter },
-          { ...INGREDIENTS.vegetableOil },
-          { ...INGREDIENTS.salt },
-          { ...INGREDIENTS.groundBlackPepper },
+          { ...INGREDIENTS.eggs, count: 4, gauge: 'шт.' },
+          { ...INGREDIENTS.butter, count: 10, gauge: 'г' },
+          { ...INGREDIENTS.vegetableOil, count: 2, gauge: 'ст.л.' },
+          { ...INGREDIENTS.salt, count: ' ', gauge: 'по вкусу' },
+          { ...INGREDIENTS.groundBlackPepper, count: ' ', gauge: 'по вкусу' },
         ],
       },
       {
@@ -3780,19 +3843,19 @@ export const BREAKFAST = [
     portions: 2,
     used: [22.1, 18.7, 9.3],
     ingredients: [
-      { ...INGREDIENTS.eggs, count: 4 },
-      { ...INGREDIENTS.tomato, count: 3, note: 'или 400 г консервированных' },
-      { ...INGREDIENTS.bellPepper, count: 2 },
-      { ...INGREDIENTS.onion, count: 1 },
-      { ...INGREDIENTS.garlic, count: 3, unit: 'зубчика' },
+      { ...INGREDIENTS.eggs, count: 4, gauge: 'шт.' },
+      { ...INGREDIENTS.tomato, count: 3, gauge: 'шт.', note: 'или 400 г консервированных' },
+      { ...INGREDIENTS.bellPepper, count: 2, gauge: 'шт.' },
+      { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.garlic, count: 3, gauge: 'зуб.' },
       { ...INGREDIENTS.tomatoPaste, count: 1, gauge: 'ст.л' },
       { ...INGREDIENTS.vegetableOil, count: 2, guage: 'ст.л' },
-      { ...INGREDIENTS.smokedPaprika, count: 1 },
-      { ...INGREDIENTS.cumin, count: 0.5 },
-      { ...INGREDIENTS.chiliPepper, count: 0.5, note: 'по желанию' },
-      { ...INGREDIENTS.salt },
-      { ...INGREDIENTS.groundBlackPepper },
-      { ...INGREDIENTS.parsley, count: 10 },
+      { ...INGREDIENTS.smokedPaprika, count: 1, gauge: 'ч.л.' },
+      { ...INGREDIENTS.cumin, count: 0.5, gauge: 'ч.л.' },
+      { ...INGREDIENTS.chiliPepper, count: 0.5, gauge: 'шт.', note: 'по желанию' },
+      { ...INGREDIENTS.salt, count: ' ', gauge: 'щепотка' },
+      { ...INGREDIENTS.groundBlackPepper, count: ' ', gauge: 'щепотка' },
+      { ...INGREDIENTS.parsley, count: ' ', gauge: 'по вкусу' },
     ],
     equipments: [
       EQUIPMENTS.pan,
@@ -3810,10 +3873,10 @@ export const BREAKFAST = [
         description:
           'Нарежьте лук полукольцами, перец — соломкой, чеснок — тонкими пластинками. Помидоры ошпарьте кипятком, снимите кожицу и нарежьте кубиками. (Консервированные просто разомните вилкой.)',
         ingredients: [
-          { ...INGREDIENTS.onion },
-          { ...INGREDIENTS.bellPepper },
-          { ...INGREDIENTS.garlic },
-          { ...INGREDIENTS.tomato },
+          { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.bellPepper, count: 2, gauge: 'шт.' },
+          { ...INGREDIENTS.garlic, count: 3, gauge: 'зуб.' },
+          { ...INGREDIENTS.tomato, count: 3, gauge: 'шт.' },
         ],
       },
       {
@@ -3822,11 +3885,11 @@ export const BREAKFAST = [
         description:
           'Разогрейте масло в глубокой сковороде. Обжарьте лук 3 минуты до прозрачности, добавьте перец и готовьте ещё 5 минут. Затем положите чеснок, томатную пасту и специи — прогрейте 1 минуту до появления аромата.',
         ingredients: [
-          { ...INGREDIENTS.vegetableOil },
-          { ...INGREDIENTS.tomatoPaste },
-          { ...INGREDIENTS.smokedPaprika },
-          { ...INGREDIENTS.cumin },
-          { ...INGREDIENTS.chiliPepper },
+          { ...INGREDIENTS.vegetableOil, count: 2, guage: 'ст.л.' },
+          { ...INGREDIENTS.tomatoPaste, count: 1, gauge: 'ст.л' },
+          { ...INGREDIENTS.smokedPaprika, count: 1, gauge: 'ч.л.' },
+          { ...INGREDIENTS.cumin, count: 0.5, gauge: 'ч.л.' },
+          { ...INGREDIENTS.chiliPepper, count: 0.5, gauge: 'шт.', note: 'по желанию' },
         ],
       },
       {
@@ -3834,14 +3897,20 @@ export const BREAKFAST = [
         video: null,
         description:
           'Добавьте помидоры, посолите и поперчите. Тушите под крышкой 15 минут на слабом огне, пока соус не загустеет. Ложкой сделайте 4 небольших углубления.',
-        ingredients: [{ ...INGREDIENTS.salt }, { ...INGREDIENTS.groundBlackPepper }],
+        ingredients: [
+          { ...INGREDIENTS.salt, count: ' ', gauge: 'щепотка' },
+          { ...INGREDIENTS.groundBlackPepper, count: ' ', gauge: 'щепотка' },
+        ],
       },
       {
         img: '/static/steps/shakshuka4.webp',
         video: null,
         description:
           'Разбейте яйца в углубления, накройте крышкой и готовьте 5–7 минут до желаемой степени прожарки желтков. Посыпьте рубленой петрушкой и подавайте прямо в сковороде с хлебом или питой.',
-        ingredients: [{ ...INGREDIENTS.eggs }, { ...INGREDIENTS.parsley }],
+        ingredients: [
+          { ...INGREDIENTS.eggs, count: 4, gauge: 'шт.' },
+          { ...INGREDIENTS.parsley, count: ' ', gauge: 'по вкусу' },
+        ],
       },
     ],
     serving:
@@ -3905,7 +3974,6 @@ export const BREAKFAST = [
       author: 'food-paradise',
       'theme-color': '#ffffff',
     },
-
     searchRequests: [
       '100 омлета',
       '2 куриных яйца',
@@ -4580,18 +4648,18 @@ export const BREAKFAST = [
     used: [15.8, 20.4, 8.2],
 
     ingredients: [
-      { ...INGREDIENTS.eggs, count: 4 },
-      { ...INGREDIENTS.tomato, count: 3 },
-      { ...INGREDIENTS.greenPepper, count: 2 },
-      { ...INGREDIENTS.onion, count: 1, note: 'красный' },
-      { ...INGREDIENTS.garlic, count: 2, unit: 'зубчика' },
-      { ...INGREDIENTS.oliveOil, count: 3 },
-      { ...INGREDIENTS.redPepperFlakes, count: 0.5 },
-      { ...INGREDIENTS.driedMint, count: 0.5 },
-      { ...INGREDIENTS.salt },
-      { ...INGREDIENTS.groundBlackPepper },
+      { ...INGREDIENTS.eggs, count: 4, gauge: 'шт.' },
+      { ...INGREDIENTS.tomato, count: 3, gauge: 'шт.', note: 'или 400 г консервированных' },
+      { ...INGREDIENTS.greenPepper, count: 2, gauge: 'шт.' },
+      { ...INGREDIENTS.onion, count: 1, gauge: 'шт.', note: 'красный' },
+      { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
+      { ...INGREDIENTS.oliveOil, count: 3, gauge: 'ст.л.' },
+      { ...INGREDIENTS.redPepperFlakes, count: 0.5, gauge: 'ч.л.' },
+      { ...INGREDIENTS.driedMint, count: 0.5, gauge: 'ч.л.' },
+      { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+      { ...INGREDIENTS.groundBlackPepper, count: 0.5, gauge: 'ч.л.' },
       { ...INGREDIENTS.fetaCheese, count: 50, note: 'по желанию' },
-      { ...INGREDIENTS.parsley, count: 10 },
+      { ...INGREDIENTS.parsley, count: 10, gauge: 'г', note: 'для подачи' },
     ],
 
     equipments: [EQUIPMENTS.pan, EQUIPMENTS.woodenSpoon, EQUIPMENTS.knife, EQUIPMENTS.cutBoard, EQUIPMENTS.lid],
@@ -4603,10 +4671,10 @@ export const BREAKFAST = [
         description:
           'Нарежьте перец тонкими полукольцами, лук — кубиками, помидоры — дольками (предварительно ошпарьте и снимите кожицу). Чеснок мелко порубите. Все овощи должны быть примерно одинакового размера для равномерного приготовления.',
         ingredients: [
-          { ...INGREDIENTS.greenPepper },
-          { ...INGREDIENTS.onion },
-          { ...INGREDIENTS.tomato },
-          { ...INGREDIENTS.garlic },
+          { ...INGREDIENTS.greenPepper, count: 2, gauge: 'шт.' },
+          { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.tomato, count: 3, gauge: 'шт.' },
+          { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
         ],
       },
       {
@@ -4614,31 +4682,40 @@ export const BREAKFAST = [
         video: null,
         description:
           'Разогрейте оливковое масло в сковороде. Обжарьте лук 2 минуты до мягкости, добавьте перец и готовьте ещё 5 минут. В конце положите чеснок, хлопья перца и сушёную мяту, прогрейте полминуты.',
-        ingredients: [{ ...INGREDIENTS.oliveOil }, { ...INGREDIENTS.redPepperFlakes }, { ...INGREDIENTS.driedMint }],
+        ingredients: [
+          { ...INGREDIENTS.oliveOil, count: 3, gauge: 'ст.л.' },
+          { ...INGREDIENTS.redPepperFlakes, count: 0.5, gauge: 'ч.л.' },
+          { ...INGREDIENTS.driedMint, count: 0.5, gauge: 'ч.л.' },
+        ],
       },
       {
         img: null,
         video: null,
         description:
           'Добавьте помидоры, посолите и поперчите. Тушите на среднем огне около 10 минут без крышки, пока жидкость не выпарится и соус не станет густым.',
-        ingredients: [{ ...INGREDIENTS.salt }, { ...INGREDIENTS.groundBlackPepper }],
+        ingredients: [
+          { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+          { ...INGREDIENTS.groundBlackPepper, count: 0.5, gauge: 'ч.л.' },
+        ],
       },
       {
         img: null,
         video: null,
         description:
           'Убавьте огонь до минимума. Сделайте ложкой 4 углубления и вбейте в каждое яйцо. Накройте крышкой и готовьте 3–5 минут до желаемой степени готовности. Посыпьте фетой и зеленью, подавайте сразу в сковороде.',
-        ingredients: [{ ...INGREDIENTS.eggs }, { ...INGREDIENTS.parsley }, { ...INGREDIENTS.fetaCheese }],
+        ingredients: [
+          { ...INGREDIENTS.eggs, count: 4, gauge: 'шт.' },
+          { ...INGREDIENTS.parsley, count: 10, gauge: 'г', note: 'для подачи' },
+          { ...INGREDIENTS.fetaCheese, count: 50, note: 'по желанию' },
+        ],
       },
     ],
-
     tips: [
       'Для аутентичного вкуса используйте длинные турецкие зелёные перцы.',
       'Перед подачей можно сбрызнуть свежим лимонным соком.',
       'Подавайте менемен прямо в сковороде с теплым хлебом питой или лавашем.',
       'Если нет свежих помидоров, подойдут консервированные в собственном соку.',
     ],
-
     variations: [
       {
         name: 'Менемен с сыром фета',

@@ -224,7 +224,7 @@ export const REFRESHING_DRINKS = [
     ingredients: [
       {
         name: 'Лимон',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 2,
         img: null,
       },
@@ -277,7 +277,7 @@ export const REFRESHING_DRINKS = [
         ingredients: [
           {
             name: 'Лимон',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 2,
             img: null,
           },
@@ -516,13 +516,13 @@ export const REFRESHING_DRINKS = [
     ingredients: [
       {
         name: 'Огурец',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
       {
         name: 'Лайм',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -569,13 +569,13 @@ export const REFRESHING_DRINKS = [
         ingredients: [
           {
             name: 'Огурец',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
           {
             name: 'Лайм',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -1088,7 +1088,7 @@ export const REFRESHING_DRINKS = [
       },
       {
         name: 'Лайм',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 0.5,
         img: null,
       },
@@ -1135,7 +1135,7 @@ export const REFRESHING_DRINKS = [
           },
           {
             name: 'Лайм',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
@@ -1363,13 +1363,13 @@ export const REFRESHING_DRINKS = [
     ingredients: [
       {
         name: 'Огурец',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
       {
         name: 'Лимон',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 0.5,
         img: null,
       },
@@ -1416,13 +1416,13 @@ export const REFRESHING_DRINKS = [
         ingredients: [
           {
             name: 'Огурец',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
           {
             name: 'Лимон',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
@@ -1708,7 +1708,7 @@ export const REFRESHING_DRINKS = [
       },
       {
         name: 'Лимон',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 2,
         img: null,
       },
@@ -1762,7 +1762,7 @@ export const REFRESHING_DRINKS = [
           },
           {
             name: 'Лимон',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 2,
             img: null,
           },
@@ -1947,7 +1947,7 @@ export const REFRESHING_DRINKS = [
       },
       {
         name: 'Лимон',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -2007,7 +2007,7 @@ export const REFRESHING_DRINKS = [
         ingredients: [
           {
             name: 'Лимон',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -2265,7 +2265,7 @@ export const REFRESHING_DRINKS = [
       },
       {
         name: 'Банан',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -2312,7 +2312,7 @@ export const REFRESHING_DRINKS = [
           },
           {
             name: 'Банан',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -2540,13 +2540,13 @@ export const REFRESHING_DRINKS = [
     ingredients: [
       {
         name: 'Огурец',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 0.5,
         img: null,
       },
       {
         name: 'Лайм',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 1,
         img: null,
       },
@@ -2593,13 +2593,13 @@ export const REFRESHING_DRINKS = [
         ingredients: [
           {
             name: 'Огурец',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
           {
             name: 'Лайм',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 1,
             img: null,
           },
@@ -2775,7 +2775,7 @@ export const REFRESHING_DRINKS = [
       },
       {
         name: 'Лайм',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 0.5,
         img: null,
       },
@@ -2835,7 +2835,7 @@ export const REFRESHING_DRINKS = [
           },
           {
             name: 'Лайм',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 0.5,
             img: null,
           },
@@ -2987,7 +2987,7 @@ export const REFRESHING_DRINKS = [
     ingredients: [
       {
         name: 'Персики',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 2,
         img: null,
       },
@@ -3040,7 +3040,7 @@ export const REFRESHING_DRINKS = [
         ingredients: [
           {
             name: 'Персики',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 2,
             img: null,
           },
@@ -3316,7 +3316,7 @@ export const REFRESHING_DRINKS = [
     ingredients: [
       {
         name: 'Инжир свежий',
-        gauge: 'шт',
+        gauge: 'шт.',
         count: 4,
         img: null,
       },
@@ -3363,7 +3363,7 @@ export const REFRESHING_DRINKS = [
         ingredients: [
           {
             name: 'Инжир свежий',
-            gauge: 'шт',
+            gauge: 'шт.',
             count: 4,
             img: null,
           },

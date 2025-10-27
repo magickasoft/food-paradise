@@ -744,87 +744,24 @@ export const DINNER = [
     portions: 6,
     used: [12.37, 28.55, 60.08],
     ingredients: [
-      {
-        ...INGREDIENTS.beet,
-        count: 2,
-      },
-      {
-        ...INGREDIENTS.carrot,
-        count: 1,
-      },
-      {
-        ...INGREDIENTS.potato,
-        count: 2,
-      },
-      {
-        ...INGREDIENTS.onion,
-        count: 1,
-      },
-      {
-        ...INGREDIENTS.garlic,
-        count: 2,
-      },
-      {
-        ...INGREDIENTS.vegetableOil,
-        count: 6,
-      },
-      {
-        ...INGREDIENTS.salt,
-      },
-      {
-        ...INGREDIENTS.sugar,
-      },
-      {
-        ...INGREDIENTS.vinegar,
-      },
-      {
-        ...INGREDIENTS.bayLeaf,
-      },
-      {
-        ...INGREDIENTS.tomato,
-        count: 2,
-      },
-      {
-        ...INGREDIENTS.cabbage,
-        count: 0.5,
-      },
-      {
-        ...INGREDIENTS.groundBlackPepper,
-      },
-      {
-        ...INGREDIENTS.refinedVegetableOil,
-      },
-      {
-        ...INGREDIENTS.flour,
-        count: 250,
-      },
-      {
-        ...INGREDIENTS.yeast,
-        count: 6,
-      },
-
-      {
-        ...INGREDIENTS.sesameSeeds,
-      },
-      {
-        ...INGREDIENTS.milk,
-      },
-      {
-        ...INGREDIENTS.refinedVegetableOil,
-        count: 1.5,
-      },
-      {
-        ...INGREDIENTS.eggs,
-        count: 1,
-      },
-      {
-        ...INGREDIENTS.sesameSeeds,
-        count: 1,
-      },
-      {
-        ...INGREDIENTS.garlic,
-        count: 4,
-      },
+      { ...INGREDIENTS.beet, count: 2, gauge: 'шт.' }, // 1 в зажарку, 1 для настоя
+      { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.potato, count: 3, gauge: 'шт.' },
+      { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.refinedVegetableOil, count: 6, gauge: 'ст.л.' }, // унифицировано масло
+      { ...INGREDIENTS.salt, count: 13, gauge: 'г.' }, // 10 г в борщ + 3 г в тесто
+      { ...INGREDIENTS.sugar, count: 10, gauge: 'г.' }, // 5 г в борщ + 5 г в тесто
+      { ...INGREDIENTS.vinegar, count: 2, gauge: 'ст.л.' },
+      { ...INGREDIENTS.bayLeaf, count: 2, gauge: 'шт.' },
+      { ...INGREDIENTS.tomato, count: 2, gauge: 'шт.' },
+      { ...INGREDIENTS.cabbage, count: 1, gauge: 'пол.головки' },
+      { ...INGREDIENTS.groundBlackPepper, count: 2, gauge: 'г.' },
+      { ...INGREDIENTS.flour, count: 250, gauge: 'г.' },
+      { ...INGREDIENTS.yeast, count: 6, gauge: 'г.' },
+      { ...INGREDIENTS.sesameSeeds, gauge: 'по вкусу' },
+      { ...INGREDIENTS.milk, count: 250, gauge: 'мл' },
+      { ...INGREDIENTS.eggs, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.garlic, count: 6, gauge: 'зуб.' },
     ],
     equipments: [
       EQUIPMENTS.pot,
@@ -843,70 +780,74 @@ export const DINNER = [
         img: null,
         video: null,
         description:
-          'Подготовьте овощи: вымойте, очистите и нарежьте их тонкой соломкой, а помидоры — кубиками. Закипятите воду в кастрюле, посолите, добавьте капусту и картофель. Пока они варятся, обжарьте на сковороде лук и морковь, затем добавьте половину свеклы, уксус и сахар — получится ароматная зажарка.',
+          'Подготовьте овощи: вымойте, очистите и нарежьте их тонкой соломкой, а помидоры — кубиками. Закипятите воду в кастрюле, посолите, добавьте капусту и картофель. Пока они варятся, обжарьте на сковороде лук и морковь, затем добавьте половину натёртой свёклы, уксус и сахар — получится ароматная зажарка. Оставшуюся свёклу отложите для свекольного настоя.',
         ingredients: [
-          { ...INGREDIENTS.beet, count: 2 },
-          { ...INGREDIENTS.carrot, count: 1 },
-          { ...INGREDIENTS.potato, count: 3 },
-          { ...INGREDIENTS.onion, count: 1 },
-          { ...INGREDIENTS.cabbage, count: 0.5 },
-          { ...INGREDIENTS.tomato, count: 2 },
-          { ...INGREDIENTS.garlic, count: 3 },
-          { ...INGREDIENTS.refinedVegetableOil, count: 2 },
-          { ...INGREDIENTS.vinegar, count: 1 },
-          { ...INGREDIENTS.sugar, count: 1 },
-          { ...INGREDIENTS.salt, count: 1 },
+          { ...INGREDIENTS.beet, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.potato, count: 3, gauge: 'шт.' },
+          { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.cabbage, count: 1, gauge: 'пол.головки' },
+          { ...INGREDIENTS.tomato, count: 2, gauge: 'шт.' },
+          { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
+          { ...INGREDIENTS.refinedVegetableOil, count: 2, gauge: 'ст.л.' },
+          { ...INGREDIENTS.vinegar, count: 1, gauge: 'ст.л.' },
+          { ...INGREDIENTS.sugar, count: 2, gauge: 'г.' },
+          { ...INGREDIENTS.salt, count: 2, gauge: 'г.' },
         ],
       },
       {
         img: null,
         video: null,
         description:
-          'Перемешайте овощи и тушите их под крышкой 10 минут. Оставшуюся свеклу залейте кипятком с уксусом — она настоится и отдаст красивый цвет. Добавьте к овощам помидоры, приправьте и тушите еще 20 минут до мягкости и насыщенного вкуса.',
+          'Перемешайте овощи и тушите их под крышкой 10 минут. Оставшуюся свёклу залейте стаканом кипятка с 1 ст.л. уксуса и дайте настояться 10–15 минут — она отдаст красивый цвет. Добавьте к овощам помидоры, приправьте перцем и тушите ещё 10–15 минут до мягкости.',
         ingredients: [
-          { ...INGREDIENTS.vinegar, count: 1 },
-          { ...INGREDIENTS.groundBlackPepper, count: 0.5 },
-          { ...INGREDIENTS.salt, count: 0.5 },
+          { ...INGREDIENTS.beet, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.vinegar, count: 1, gauge: 'ст.л.' },
+          { ...INGREDIENTS.groundBlackPepper, count: 1, gauge: 'г.' },
+          { ...INGREDIENTS.salt, count: 1, gauge: 'г.' },
         ],
       },
       {
         img: null,
         video: null,
         description:
-          'Когда картофель и капуста будут почти готовы, добавьте к ним тушёные овощи и лавровый лист. Доведите до кипения, снимите пену. Добавьте чеснок, накройте крышкой и сразу уберите с огня — борщ должен настояться и раскрыть аромат.',
-        ingredients: [{ ...INGREDIENTS.bayLeaf, count: 2 }],
+          'Когда картофель и капуста будут почти готовы, добавьте к ним тушёные овощи и лавровый лист. Доведите до кипения, снимите пену. Добавьте измельчённый чеснок, накройте крышкой и сразу уберите с огня — борщ должен настояться и раскрыть аромат.',
+        ingredients: [
+          { ...INGREDIENTS.bayLeaf, count: 2, gauge: 'шт.' },
+          { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
+        ],
       },
       {
         img: null,
         video: null,
         description:
-          'Добавьте в борщ настоянный свекольный сок, чтобы придать супу яркий, насыщенный цвет. Аккуратно перемешайте и оставьте под крышкой.',
+          'Добавьте в борщ настоянный свекольный сок, чтобы придать супу яркий, насыщенный цвет. Аккуратно перемешайте и оставьте под крышкой на 10 минут.',
         ingredients: [],
       },
       {
         img: null,
         video: null,
         description:
-          'Разогрейте духовку и приготовьте тесто для пампушек: разведите дрожжи в молоке, добавьте муку, масло, сахар и соль. Замесите тесто, оставьте подойти. Сформируйте шарики и выложите на противень. Смажьте яйцом, присыпьте кунжутом и выпекайте до золотистой корочки.',
+          'Разогрейте духовку до 180°C и приготовьте тесто для пампушек: разведите дрожжи в тёплом молоке, добавьте муку, масло, сахар и соль. Замесите мягкое тесто. Накройте полотенцем и оставьте в тёплом месте на 1 час, пока оно не увеличится в объёме. Сформируйте шарики и выложите на противень. Смажьте взбитым яйцом, присыпьте кунжутом и выпекайте 20–25 минут до золотистой корочки.',
         ingredients: [
-          { ...INGREDIENTS.flour, count: 400 },
-          { ...INGREDIENTS.yeast, count: 1 },
-          { ...INGREDIENTS.milk, count: 250 },
-          { ...INGREDIENTS.sugar, count: 1 },
-          { ...INGREDIENTS.salt, count: 1 },
-          { ...INGREDIENTS.refinedVegetableOil, count: 2 },
-          { ...INGREDIENTS.eggs, count: 1 },
-          { ...INGREDIENTS.sesameSeeds, count: 1 },
+          { ...INGREDIENTS.flour, count: 250, gauge: 'г.' },
+          { ...INGREDIENTS.yeast, count: 6, gauge: 'г.' },
+          { ...INGREDIENTS.milk, count: 250, gauge: 'мл' },
+          { ...INGREDIENTS.sugar, count: 5, gauge: 'г.' },
+          { ...INGREDIENTS.salt, count: 3, gauge: 'г.' },
+          { ...INGREDIENTS.refinedVegetableOil, count: 2, gauge: 'ст.л.' },
+          { ...INGREDIENTS.eggs, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.sesameSeeds, gauge: 'по вкусу' },
         ],
       },
       {
         img: null,
         video: null,
         description:
-          'Измельчите чеснок и взбейте его с маслом в блендере. Горячие пампушки смажьте ароматным чесночным маслом с помощью кисточки. Подавайте свежие и тёплые пампушки к борщу — это идеальное дополнение.',
+          'Измельчите чеснок и взбейте его с маслом в блендере. Горячие пампушки смажьте ароматным чесночным маслом с помощью кисточки. По желанию добавьте щепотку соли или зелени. Подавайте свежие и тёплые пампушки к борщу — это идеальное дополнение.',
         ingredients: [
-          { ...INGREDIENTS.garlic, count: 3 },
-          { ...INGREDIENTS.refinedVegetableOil, count: 2 },
+          { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
+          { ...INGREDIENTS.refinedVegetableOil, count: 2, gauge: 'ст.л.' },
         ],
       },
     ],
@@ -1574,49 +1515,62 @@ export const DINNER = [
       {
         ...INGREDIENTS.potato,
         count: 6,
+        gauge: 'шт.',
       },
       {
         ...INGREDIENTS.eggs,
         count: 3,
+        gauge: 'шт.',
       },
       {
         ...INGREDIENTS.radish,
         count: 6,
+        gauge: 'шт.',
       },
       {
         ...INGREDIENTS.cucumber,
         count: 3,
+        gauge: 'шт.',
       },
       {
         ...INGREDIENTS.greenOnion,
         count: 1,
+        gauge: 'пуч.',
       },
       {
         ...INGREDIENTS.dill,
         count: 1,
+        gauge: 'пуч.',
       },
       {
         ...INGREDIENTS.parsley,
         count: 1,
+        gauge: 'пуч.',
       },
       {
         ...INGREDIENTS.boiledSausage,
-        count: 0.3,
+        count: 300,
+        gauge: 'г.',
       },
       {
         ...INGREDIENTS.breadKvass,
         count: 1.5,
+        gauge: 'л.',
       },
       {
         ...INGREDIENTS.sourCream,
-        count: 0.2,
+        count: 20,
+        gauge: 'г.',
       },
       {
         ...INGREDIENTS.salt,
+        count: 'по вкусу',
+        gauge: ' ',
       },
-
       {
         ...INGREDIENTS.groundBlackPepper,
+        count: 'по вкусу',
+        gauge: ' ',
       },
     ],
     equipments: [
@@ -1633,14 +1587,14 @@ export const DINNER = [
         video: null,
         description:
           'Начните с подготовки всех компонентов. Тщательно вымойте картофель щеткой и отварите его в кожуре до мягкости — это займет примерно 15–20 минут в зависимости от размера клубней.',
-        ingredients: [{ ...INGREDIENTS.potato, count: 6 }],
+        ingredients: [{ ...INGREDIENTS.potato, count: 6, gauge: 'шт.' }],
       },
       {
         img: null,
         video: null,
         description:
           'Яйца аккуратно положите в кастрюлю, залейте холодной водой и доведите до кипения. Затем убавьте огонь и варите около 10 минут. После этого остудите яйца под струей холодной воды и очистите от скорлупы.',
-        ingredients: [{ ...INGREDIENTS.eggs, count: 3 }],
+        ingredients: [{ ...INGREDIENTS.eggs, count: 3, gauge: 'шт.' }],
       },
       {
         img: null,
@@ -1648,8 +1602,8 @@ export const DINNER = [
         description:
           'Редис хорошо промойте и нарежьте тонкими кружочками. Огурцы также вымойте, обсушите и разрежьте вдоль, затем нарежьте тонкими полукружиями или ломтиками.',
         ingredients: [
-          { ...INGREDIENTS.radish, count: 6 },
-          { ...INGREDIENTS.cucumber, count: 3 },
+          { ...INGREDIENTS.radish, count: 6, gauge: 'шт.' },
+          { ...INGREDIENTS.cucumber, count: 3, gauge: 'шт.' },
         ],
       },
       {
@@ -1658,10 +1612,10 @@ export const DINNER = [
         description:
           'Промойте свежую зелень — лук, укроп и петрушку. Разложите на бумажных полотенцах, чтобы избавиться от влаги, затем мелко нашинкуйте. Колбасу нарежьте небольшими аккуратными кубиками.',
         ingredients: [
-          { ...INGREDIENTS.greenOnion, count: 1 },
-          { ...INGREDIENTS.dill, count: 1 },
-          { ...INGREDIENTS.parsley, count: 1 },
-          { ...INGREDIENTS.boiledSausage, count: 0.3 },
+          { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
+          { ...INGREDIENTS.dill, count: 1, gauge: 'пуч.' },
+          { ...INGREDIENTS.parsley, count: 1, gauge: 'пуч.' },
+          { ...INGREDIENTS.boiledSausage, count: 300, gauge: 'г.' },
         ],
       },
       {
@@ -1677,8 +1631,8 @@ export const DINNER = [
         description:
           'Готовую смесь залейте охлаждённым квасом и снова перемешайте. Разлейте окрошку по тарелкам, добавьте по ложке сметаны в каждую порцию и подавайте охлаждённой к столу.',
         ingredients: [
-          { ...INGREDIENTS.breadKvass, count: 1.5 },
-          { ...INGREDIENTS.sourCream, count: 0.2 },
+          { ...INGREDIENTS.breadKvass, count: 1.5, gauge: 'л.' },
+          { ...INGREDIENTS.sourCream, count: 20, gauge: 'г.' },
         ],
       },
     ],
@@ -2338,16 +2292,16 @@ export const DINNER = [
     portions: 4,
     used: [24.82, 34.27, 25.22],
     ingredients: [
-      { ...INGREDIENTS.potato, count: 3 },
-      { ...INGREDIENTS.eggs, count: 4 },
-      { ...INGREDIENTS.cucumber, count: 3 },
-      { ...INGREDIENTS.greenOnion, count: 1 },
-      { ...INGREDIENTS.dill, count: 1 },
-      { ...INGREDIENTS.mustard },
-      { ...INGREDIENTS.carbonatedMineralWater, count: 500 },
-      { ...INGREDIENTS.boiledPorkSausage, count: 300 },
-      { ...INGREDIENTS.kefir32, count: 1000 },
-      { ...INGREDIENTS.salt },
+      { ...INGREDIENTS.potato, count: 3, gauge: 'шт.' },
+      { ...INGREDIENTS.eggs, count: 4, gauge: 'шт.' },
+      { ...INGREDIENTS.cucumber, count: 3, gauge: 'шт.' },
+      { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
+      { ...INGREDIENTS.dill, count: 1, gauge: 'пуч.' },
+      { ...INGREDIENTS.mustard, count: 1, gauge: 'ч.л.' },
+      { ...INGREDIENTS.carbonatedMineralWater, count: 500, gauge: 'мл' },
+      { ...INGREDIENTS.boiledPorkSausage, count: 300, gauge: 'г' },
+      { ...INGREDIENTS.kefir32, count: 1, gauge: 'л.' },
+      { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
     ],
     equipments: [
       EQUIPMENTS.pot,
@@ -2364,8 +2318,8 @@ export const DINNER = [
         description:
           'Отварите картофель в мундире до мягкости (около 15–20 минут) и яйца вкрутую (примерно 10 минут). После варки остудите, очистите и дайте им полностью остыть.',
         ingredients: [
-          { ...INGREDIENTS.potato, count: 3 },
-          { ...INGREDIENTS.eggs, count: 4 },
+          { ...INGREDIENTS.potato, count: 3, gauge: 'шт.' },
+          { ...INGREDIENTS.eggs, count: 4, gauge: 'шт.' },
         ],
       },
       {
@@ -2374,10 +2328,10 @@ export const DINNER = [
         description:
           'Нарежьте варёную колбасу, картофель и яйца небольшими кубиками. Огурцы нарежьте полукружьями или мелкими кубиками. Мелко порубите зелёный лук и укроп.',
         ingredients: [
-          { ...INGREDIENTS.boiledPorkSausage, count: 300 },
-          { ...INGREDIENTS.cucumber, count: 3 },
-          { ...INGREDIENTS.greenOnion, count: 1 },
-          { ...INGREDIENTS.dill, count: 1 },
+          { ...INGREDIENTS.boiledPorkSausage, count: 300, gauge: 'г.' },
+          { ...INGREDIENTS.cucumber, count: 3, gauge: 'шт.' },
+          { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
+          { ...INGREDIENTS.dill, count: 1, gauge: 'пуч.' },
         ],
       },
       {
@@ -2386,10 +2340,10 @@ export const DINNER = [
         description:
           'В глубокой миске соедините все нарезанные ингредиенты. Посолите по вкусу, добавьте немного горчицы для остроты. Залейте смесью кефира и минеральной воды, хорошо перемешайте. Подавайте охлаждённой.',
         ingredients: [
-          { ...INGREDIENTS.kefir32, count: 1000 },
-          { ...INGREDIENTS.carbonatedMineralWater, count: 500 },
-          { ...INGREDIENTS.mustard },
-          { ...INGREDIENTS.salt },
+          { ...INGREDIENTS.kefir32, count: 1, gauge: 'л.' },
+          { ...INGREDIENTS.carbonatedMineralWater, count: 500, gauge: 'мл' },
+          { ...INGREDIENTS.mustard, count: 1, gauge: 'ч.л.' },
+          { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
         ],
       },
     ],
@@ -3160,26 +3114,26 @@ export const DINNER = [
     portions: 6,
     used: [45.2, 60.1, 25.3],
     ingredients: [
-      { ...INGREDIENTS.beef, count: 0.6 },
-      { ...INGREDIENTS.porkRibs, count: 0.3 },
-      { ...INGREDIENTS.beet, count: 3 },
-      { ...INGREDIENTS.potato, count: 4 },
-      { ...INGREDIENTS.cabbage, count: 300 },
-      { ...INGREDIENTS.carrot, count: 2 },
-      { ...INGREDIENTS.onion, count: 2 },
-      { ...INGREDIENTS.tomatoPaste, count: 1 },
-      { ...INGREDIENTS.vinegar, count: 1 },
-      { ...INGREDIENTS.sugar, count: 1 },
-      { ...INGREDIENTS.garlic, count: 4 },
-      { ...INGREDIENTS.salt },
-      { ...INGREDIENTS.groundBlackPepper },
-      { ...INGREDIENTS.bayLeaf },
-      { ...INGREDIENTS.butter, count: 20 },
-      { ...INGREDIENTS.vegetableOil, count: 3 },
-      { ...INGREDIENTS.lard, count: 30 },
-      { ...INGREDIENTS.sourCream, count: 100 },
-      { ...INGREDIENTS.greenOnion, count: 1 },
-      { ...INGREDIENTS.dill, count: 1 },
+      { ...INGREDIENTS.beef, count: 600, gauge: 'г.' },
+      { ...INGREDIENTS.porkRibs, count: 300, gauge: 'г.' },
+      { ...INGREDIENTS.beet, count: 300, gauge: 'г.' },
+      { ...INGREDIENTS.potato, count: 4, gauge: 'шт.' },
+      { ...INGREDIENTS.cabbage, count: 300, gauge: 'г.' },
+      { ...INGREDIENTS.carrot, count: 2, gauge: 'шт.' },
+      { ...INGREDIENTS.onion, count: 2, gauge: 'шт.' },
+      { ...INGREDIENTS.tomatoPaste, count: 2, gauge: 'ст.л.' },
+      { ...INGREDIENTS.vinegar, count: 1, gauge: 'ст.л.' },
+      { ...INGREDIENTS.sugar, count: 1, gauge: 'ч.л.' },
+      { ...INGREDIENTS.garlic, count: 4, gauge: 'зуб.' },
+      { ...INGREDIENTS.salt, count: 2, gauge: 'ч.л.' },
+      { ...INGREDIENTS.groundBlackPepper, count: 1, gauge: 'ч.л.' },
+      { ...INGREDIENTS.bayLeaf, count: 2, gauge: 'шт.' },
+      { ...INGREDIENTS.butter, count: 20, gauge: 'г.' },
+      { ...INGREDIENTS.vegetableOil, count: 3, gauge: 'ст.л.' },
+      { ...INGREDIENTS.lard, count: 30, gauge: 'г.' },
+      { ...INGREDIENTS.sourCream, count: 100, gauge: 'г.' },
+      { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
+      { ...INGREDIENTS.dill, count: 1, gauge: 'пуч.' },
     ],
     equipments: [
       EQUIPMENTS.pot,
@@ -3194,54 +3148,53 @@ export const DINNER = [
     cookingRecipe: [
       {
         description:
-          'Приготовьте бульон: залейте говядину 3 литрами холодной воды, доведите до кипения и снимите пену. Добавьте целую луковицу, морковь, лавровый лист и соль. Варите на медленном огне 1,5 часа. За 30 минут до готовности положите свиные ребрышки.',
+          'Приготовьте бульон: залейте говядину 3 л холодной воды, доведите до кипения и снимите пену. Добавьте целую луковицу, морковь, лавровый лист и соль. Варите на медленном огне 1,5 часа. За 30 минут до готовности положите свиные рёбрышки.',
         ingredients: [
-          { ...INGREDIENTS.beef, count: 600 },
-          { ...INGREDIENTS.porkRibs, count: 300 },
-          { ...INGREDIENTS.onion, count: 1 },
-          { ...INGREDIENTS.carrot, count: 1 },
-          { ...INGREDIENTS.bayLeaf },
-          { ...INGREDIENTS.salt },
+          { ...INGREDIENTS.beef, count: 600, gauge: 'г.' },
+          { ...INGREDIENTS.porkRibs, count: 300, gauge: 'г.' },
+          { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.bayLeaf, count: 2, gauge: 'шт.' },
+          { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
         ],
       },
       {
         description:
-          'Подготовьте свеклу: две свеклы натрите на крупной тёрке, одну нарежьте соломкой. Обжарьте свёклу на смеси растительного и сливочного масла с томатной пастой 10 минут. Добавьте уксус и сахар, тушите ещё 5 минут до насыщенного цвета.',
+          'Подготовьте свёклу: натрите на крупной тёрке. Обжарьте её на смеси растительного и сливочного масла с томатной пастой около 7 минут. Добавьте уксус и сахар, тушите ещё 5 минут до насыщенного цвета.',
         ingredients: [
-          { ...INGREDIENTS.beet, count: 3 },
-          { ...INGREDIENTS.tomatoPaste, count: 1 },
-          { ...INGREDIENTS.vinegar, count: 1 },
-          { ...INGREDIENTS.sugar, count: 1 },
-          { ...INGREDIENTS.vegetableOil, count: 2 },
-          { ...INGREDIENTS.butter, count: 20 },
+          { ...INGREDIENTS.beet, count: 300, gauge: 'г.' },
+          { ...INGREDIENTS.tomatoPaste, count: 2, gauge: 'ст.л.' },
+          { ...INGREDIENTS.vinegar, count: 1, gauge: 'ст.л.' },
+          { ...INGREDIENTS.sugar, count: 1, gauge: 'ч.л.' },
+          { ...INGREDIENTS.vegetableOil, count: 2, gauge: 'ст.л.' },
+          { ...INGREDIENTS.butter, count: 20, gauge: 'г.' },
         ],
       },
       {
         description:
-          'В кипящий бульон добавьте нарезанный картофель. Через 10 минут — шинкованную капусту. Отдельно обжарьте лук и морковь на сковороде до золотистости и переложите к овощам в кастрюлю. Затем добавьте тушёную свёклу и варите ещё 10–15 минут.',
+          'В кипящий бульон добавьте нарезанный картофель. Через 10 минут — шинкованную капусту. Отдельно обжарьте лук и морковь до золотистости и добавьте в кастрюлю. Затем выложите тушёную свёклу и варите ещё 10–15 минут до готовности овощей.',
         ingredients: [
-          { ...INGREDIENTS.potato, count: 4 },
-          { ...INGREDIENTS.cabbage, count: 300 },
-          { ...INGREDIENTS.onion, count: 1 },
-          { ...INGREDIENTS.carrot, count: 1 },
-          { ...INGREDIENTS.vegetableOil, count: 1 },
+          { ...INGREDIENTS.potato, count: 4, gauge: 'шт.' },
+          { ...INGREDIENTS.cabbage, count: 300, gauge: 'г.' },
+          { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.vegetableOil, count: 1, gauge: 'ст.л.' },
         ],
       },
       {
         description:
-          'Приготовьте заправку: растолките чеснок с солью, салом и чёрным перцем до состояния пасты. Добавьте в борщ за 5 минут до готовности. Снимите с огня, накройте крышкой и дайте настояться 20 минут. Подавайте борщ со сметаной, зелёным луком и укропом.',
+          'Приготовьте заправку: растолките чеснок с солью, салом и перцем до состояния пасты. Добавьте заправку в горячий борщ, перемешайте и сразу снимите с огня. Накройте крышкой и дайте настояться 20 минут. Подавайте со сметаной, зелёным луком и укропом.',
         ingredients: [
-          { ...INGREDIENTS.lard, count: 30 },
-          { ...INGREDIENTS.garlic, count: 4 },
-          { ...INGREDIENTS.salt },
-          { ...INGREDIENTS.groundBlackPepper },
-          { ...INGREDIENTS.sourCream, count: 100 },
-          { ...INGREDIENTS.greenOnion, count: 1 },
-          { ...INGREDIENTS.dill, count: 1 },
+          { ...INGREDIENTS.lard, count: 30, gauge: 'г.' },
+          { ...INGREDIENTS.garlic, count: 4, gauge: 'зуб.' },
+          { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+          { ...INGREDIENTS.groundBlackPepper, count: 1, gauge: 'ч.л.' },
+          { ...INGREDIENTS.sourCream, count: 100, gauge: 'г.' },
+          { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
+          { ...INGREDIENTS.dill, count: 1, gauge: 'пуч.' },
         ],
       },
     ],
-
     tips: [
       'Чтобы борщ сохранил яркий цвет, добавляйте свеклу в самом конце варки.',
       'Для насыщенного вкуса используйте смесь мяса: говядина + свиные ребра.',
@@ -3989,21 +3942,21 @@ export const DINNER = [
     portions: 4,
     used: [30.5, 45.2, 12.3],
     ingredients: [
-      { ...INGREDIENTS.water, count: 1000 },
-      { ...INGREDIENTS.carrot, count: 1 },
-      { ...INGREDIENTS.celery, count: 1 },
-      { ...INGREDIENTS.pumpkin, count: 700 },
-      { ...INGREDIENTS.sweetPotato, count: 200 },
-      { ...INGREDIENTS.onion, count: 1 },
-      { ...INGREDIENTS.ginger, count: 20 },
-      { ...INGREDIENTS.garlic, count: 2 },
-      { ...INGREDIENTS.coconutCream, count: 200 },
-      { ...INGREDIENTS.oliveOil, count: 2 },
-      { ...INGREDIENTS.muscatNut, count: 1 },
-      { ...INGREDIENTS.pumpkinSeeds, count: 30 },
-      { ...INGREDIENTS.thyme, count: 2 },
-      { ...INGREDIENTS.salt },
-      { ...INGREDIENTS.groundBlackPepper },
+      { ...INGREDIENTS.water, count: 1, gauge: 'л.' },
+      { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.celery, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.pumpkin, count: 700, gauge: 'г.' },
+      { ...INGREDIENTS.sweetPotato, count: 200, gauge: 'г.' },
+      { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.ginger, count: 20, gauge: 'г.' },
+      { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
+      { ...INGREDIENTS.coconutCream, count: 200, gauge: 'мл' },
+      { ...INGREDIENTS.oliveOil, count: 2, gauge: 'ст.л.' },
+      { ...INGREDIENTS.muscatNut, count: 2, gauge: 'г.' },
+      { ...INGREDIENTS.pumpkinSeeds, count: 30, gauge: 'г.' },
+      { ...INGREDIENTS.thyme, count: 2, gauge: 'г.' },
+      { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+      { ...INGREDIENTS.groundBlackPepper, count: 1, gauge: 'ч.л.' },
     ],
     equipments: [
       EQUIPMENTS.oven,
@@ -4025,35 +3978,61 @@ export const DINNER = [
         video: null,
         description:
           'Вскипятите 1 литр воды с морковью, луком и стеблем сельдерея. Варите 15 минут, затем удалите овощи — получится лёгкий овощной бульон для супа.',
-        ingredients: [INGREDIENTS.water, INGREDIENTS.carrot, INGREDIENTS.onion, INGREDIENTS.celery],
+        ingredients: [
+          { ...INGREDIENTS.water, count: 1, gauge: 'л.' },
+          { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.celery, count: 1, gauge: 'шт.' },
+        ],
       },
       {
         img: null,
         video: null,
         description:
           'Разогрейте духовку до 200°C. Тыкву и батат нарежьте крупными кубиками (можно с кожурой). Выложите на противень, сбрызните 1 ст. л. оливкового масла, запекайте 25 минут до мягкости.',
-        ingredients: [INGREDIENTS.pumpkin, INGREDIENTS.sweetPotato, INGREDIENTS.oliveOil],
+        ingredients: [
+          { ...INGREDIENTS.pumpkin, count: 700, gauge: 'г.' },
+          { ...INGREDIENTS.sweetPotato, count: 200, gauge: 'г.' },
+          { ...INGREDIENTS.oliveOil, count: 2, gauge: 'ст.л.' },
+        ],
       },
       {
         img: null,
         video: null,
         description:
           'В кастрюле разогрейте оставшееся оливковое масло, обжарьте мелко нарезанный лук до прозрачности (3 минуты). Добавьте тёртый имбирь и раздавленный чеснок, готовьте 1 минуту до появления аромата.',
-        ingredients: [INGREDIENTS.onion, INGREDIENTS.ginger, INGREDIENTS.garlic, INGREDIENTS.oliveOil],
+        ingredients: [
+          {
+            ...INGREDIENTS.onion,
+            count: 1,
+            gauge: 'шт.',
+          },
+          { ...INGREDIENTS.ginger, count: 20, gauge: 'г.' },
+          { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
+          { ...INGREDIENTS.oliveOil, count: 2, gauge: 'ст.л.' },
+        ],
       },
       {
         img: null,
         video: null,
         description:
           'Добавьте запечённые овощи, овощной бульон, кокосовые сливки, мускатный орех, соль и перец. Доведите до кипения и пюрируйте блендером до гладкости. При желании процедите через сито для шелковистой текстуры.',
-        ingredients: [INGREDIENTS.coconutCream, INGREDIENTS.muscatNut, INGREDIENTS.salt, INGREDIENTS.groundBlackPepper],
+        ingredients: [
+          { ...INGREDIENTS.coconutCream, count: 200, gauge: 'мл' },
+          { ...INGREDIENTS.muscatNut, count: 2, gauge: 'г.' },
+          { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+          { ...INGREDIENTS.groundBlackPepper, count: 1, gauge: 'ч.л.' },
+        ],
       },
       {
         img: null,
         video: null,
         description:
           'На сухой сковороде обжарьте тыквенные семечки до лёгкого потрескивания. Подавайте суп, украсив семечками, каплей сливок и веточкой тимьяна.',
-        ingredients: [INGREDIENTS.pumpkinSeeds, INGREDIENTS.thyme],
+        ingredients: [
+          { ...INGREDIENTS.pumpkinSeeds, count: 30, gauge: 'г.' },
+          { ...INGREDIENTS.thyme, count: 1, gauge: 'веточка' },
+        ],
       },
     ],
     tips: [
@@ -4208,27 +4187,26 @@ export const DINNER = [
       'Фо бо — символ Вьетнама. Он появился в начале XX века, когда местные повара адаптировали французские мясные бульоны, добавив восточные специи, рисовую лапшу и свежие травы. Сегодня фо готовят повсюду — от уличных лавок до ресторанов.',
 
     ingredients: [
-      { ...INGREDIENTS.beefBones, count: 1.5 },
-      { ...INGREDIENTS.beefBrisket, count: 0.4 },
-      { ...INGREDIENTS.water, count: 4000 },
-      { ...INGREDIENTS.onion, count: 2 },
-      { ...INGREDIENTS.ginger, count: 60 },
-      { ...INGREDIENTS.starAnise, count: 2 },
-      { ...INGREDIENTS.cinnamonStick, count: 1 },
-      { ...INGREDIENTS.cloves, count: 4 },
-      { ...INGREDIENTS.corianderSeeds, count: 1 },
-      { ...INGREDIENTS.fishSauce, count: 40 },
-      { ...INGREDIENTS.sugar, count: 10 },
-      { ...INGREDIENTS.salt },
-      { ...INGREDIENTS.riceNoodles, count: 300 },
-      { ...INGREDIENTS.beefTenderloin, count: 0.3 },
-      { ...INGREDIENTS.lime, count: 1 },
-      { ...INGREDIENTS.chiliPepper, count: 1 },
-      { ...INGREDIENTS.beanSprouts, count: 1 },
-      { ...INGREDIENTS.cilantro, count: 1 },
-      { ...INGREDIENTS.greenOnion, count: 1 },
+      { ...INGREDIENTS.beefBones, count: 1.5, gauge: 'кг.' },
+      { ...INGREDIENTS.beefBrisket, count: 0.4, gauge: 'кг.' },
+      { ...INGREDIENTS.water, count: 6, gauge: 'л.' },
+      { ...INGREDIENTS.onion, count: 2, gauge: 'шт.' },
+      { ...INGREDIENTS.ginger, count: 60, gauge: 'г.' },
+      { ...INGREDIENTS.starAnise, count: 2, gauge: 'шт.' },
+      { ...INGREDIENTS.cinnamonStick, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.cloves, count: 4, gauge: 'шт.' },
+      { ...INGREDIENTS.corianderSeeds, count: 1, gauge: 'ч.л.' },
+      { ...INGREDIENTS.fishSauce, count: 3, gauge: 'ст.л.' },
+      { ...INGREDIENTS.sugar, count: 1, gauge: 'ст.л.' },
+      { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+      { ...INGREDIENTS.riceNoodles, count: 300, gauge: 'г.' },
+      { ...INGREDIENTS.beefTenderloin, count: 0.3, gauge: 'кг.' },
+      { ...INGREDIENTS.lime, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.chiliPepper, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.beanSprouts, count: 1, gauge: 'горсть' },
+      { ...INGREDIENTS.cilantro, count: 1, gauge: 'горсть' },
+      { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
     ],
-
     equipments: [
       EQUIPMENTS.pot,
       EQUIPMENTS.sieve,
@@ -4239,65 +4217,76 @@ export const DINNER = [
       EQUIPMENTS.bowl,
       EQUIPMENTS.spoon,
     ],
-
     cookingRecipe: [
       {
         description:
           'Подготовьте кости: залейте холодной водой, доведите до кипения, варите 5 минут. Слейте, промойте кости и кастрюлю — это уберёт запах и лишнюю пену.',
-        ingredients: [INGREDIENTS.beefBones, INGREDIENTS.water],
+        ingredients: [
+          { ...INGREDIENTS.beefBones, count: 1.5, gauge: 'кг.' },
+          { ...INGREDIENTS.water, count: 2, gauge: 'л.' },
+        ],
       },
       {
         description:
           'Залейте кости заново 4 л воды, добавьте грудинку. Доведите до кипения, снимите пену и варите на минимальном огне 3 часа.',
-        ingredients: [INGREDIENTS.beefBones, INGREDIENTS.beefBrisket, INGREDIENTS.water],
+        ingredients: [
+          { ...INGREDIENTS.beefBones, count: 1.5, gauge: 'кг.' },
+          { ...INGREDIENTS.beefBrisket, count: 0.4, gauge: 'кг.' },
+          { ...INGREDIENTS.water, count: 4, gauge: 'л.' },
+        ],
       },
       {
         description:
           'На сухой сковороде обуглите лук и имбирь до чёрных подпалин (около 10 минут). Очистите и добавьте в бульон вместе со специями: звёздчатым анисом, корицей, гвоздикой и кориандром. Варите ещё 1 час.',
         ingredients: [
-          INGREDIENTS.onion,
-          INGREDIENTS.ginger,
-          INGREDIENTS.starAnise,
-          INGREDIENTS.cinnamonStick,
-          INGREDIENTS.cloves,
-          INGREDIENTS.corianderSeeds,
+          { ...INGREDIENTS.onion, count: 2, gauge: 'шт.' },
+          { ...INGREDIENTS.ginger, count: 60, gauge: 'г.' },
+          { ...INGREDIENTS.starAnise, count: 2, gauge: 'шт.' },
+          { ...INGREDIENTS.cinnamonStick, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.cloves, count: 4, gauge: 'шт.' },
+          { ...INGREDIENTS.corianderSeeds, count: 1, gauge: 'ч.л.' },
         ],
       },
       {
         description:
           'Процедите бульон через сито, верните на слабый огонь. Добавьте рыбный соус, сахар и щепоть соли. Попробуйте — вкус должен быть солоновато-сладким с ярким умами.',
-        ingredients: [INGREDIENTS.fishSauce, INGREDIENTS.sugar, INGREDIENTS.salt],
+        ingredients: [
+          { ...INGREDIENTS.fishSauce, count: 3, gauge: 'ст.л.' },
+          { ...INGREDIENTS.sugar, count: 1, gauge: 'cт.л.' },
+          { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+        ],
       },
       {
         description:
           'Достаньте грудинку, остудите и нарежьте ломтиками. Замочите рисовую лапшу в горячей воде на 1 минуту, откиньте на дуршлаг и разложите по глубоким мискам.',
-        ingredients: [INGREDIENTS.beefBrisket, INGREDIENTS.riceNoodles],
+        ingredients: [
+          { ...INGREDIENTS.beefBrisket, count: 0.4, gauge: 'кг.' },
+          { ...INGREDIENTS.riceNoodles, count: 300, gauge: 'г.' },
+        ],
       },
       {
         description:
           'Сырую вырезку нарежьте тончайшими ломтиками (удобнее, если мясо слегка подморожено). Выложите поверх лапши и ломтиков грудинки.',
-        ingredients: [INGREDIENTS.beefTenderloin],
+        ingredients: [{ ...INGREDIENTS.beefTenderloin, count: 0.3, gauge: 'кг.' }],
       },
       {
         description:
           'Залейте всё кипящим бульоном. Украсьте ростками бобов, зелёным луком, кинзой, дольками лайма и перцем чили. Подавайте сразу — мясо должно оставаться розовым.',
         ingredients: [
-          INGREDIENTS.beanSprouts,
-          INGREDIENTS.greenOnion,
-          INGREDIENTS.cilantro,
-          INGREDIENTS.lime,
-          INGREDIENTS.chiliPepper,
+          { ...INGREDIENTS.beanSprouts, count: 1, gauge: 'горсть' },
+          { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
+          { ...INGREDIENTS.cilantro, count: 1, gauge: 'горсть' },
+          { ...INGREDIENTS.lime, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.chiliPepper, count: 1, gauge: 'шт.' },
         ],
       },
     ],
-
     tips: [
       'Используйте кости с костным мозгом — бульон получится насыщенным.',
       'Не добавляйте соль — вкус регулируйте рыбным соусом.',
       'Подморозьте говядину перед нарезкой, чтобы получить тонкие ломтики.',
       'Подавайте сразу — мясо готовится от горячего бульона и должно быть розовым.',
     ],
-
     variations: [
       {
         name: 'Фо Га',
@@ -4351,7 +4340,6 @@ export const DINNER = [
       author: 'food-paradise',
       'theme-color': '#ffffff',
     },
-
     searchRequests: [
       '1 помидор рецепт',
       'аджика из помидор и чеснока рецепт варка',
@@ -5006,17 +4994,13 @@ export const DINNER = [
       'чеснок',
       'чеснок на зиму',
     ],
-
     categories: [{ name: 'dinner' }, { name: 'soups' }, { name: 'cold' }],
-
     key: 'gazpacho',
     name: 'gazpacho',
     img: '/static/recipes/dinner/gazpacho.jpeg',
     title: 'Гаспачо андалуз (холодный томатный суп)',
-
     description:
       "Аутентичный рецепт гаспачо из Андалусии — освежающего холодного супа, который когда-то был пищей испанских жнецов. В основе — спелые томаты 'бычье сердце', сладкий перец, огурец, чеснок, хлеб для густоты и немного хересного уксуса. Важно: настоящий гаспачо готовится вручную в ступке, а не в блендере, чтобы сохранить шелковистую, но слегка текстурную консистенцию.",
-
     calories: 180,
     preparation: 15,
     time: 135,
@@ -5024,27 +5008,24 @@ export const DINNER = [
     rating: 4.7,
     portions: 4,
     used: [25.3, 30.1, 10.2],
-
     historyDescription:
       'Гаспачо — гордость Андалусии и символ испанского лета. Первоначально он готовился крестьянами из хлеба, воды, чеснока и оливкового масла. После открытия Америки в рецепт вошли томаты и перцы, превратив блюдо в легендарный красный суп, который сегодня подают в лучших ресторанах Испании.',
-
     ingredients: [
-      { ...INGREDIENTS.tomato, count: 3 },
-      { ...INGREDIENTS.cucumber, count: 1.5 },
-      { ...INGREDIENTS.bellPepper, count: 2 },
-      { ...INGREDIENTS.onion, count: 0.5 },
-      { ...INGREDIENTS.garlic, count: 2 },
-      { ...INGREDIENTS.whiteBread, count: 100 },
-      { ...INGREDIENTS.water, count: 100 },
-      { ...INGREDIENTS.oliveOil, count: 8 },
-      { ...INGREDIENTS.sherryVinegar, count: 3 },
-      { ...INGREDIENTS.salt, count: 5 },
-      { ...INGREDIENTS.groundBlackPepper, count: 1 },
-      { ...INGREDIENTS.greenOnion, count: 1 },
-      { ...INGREDIENTS.parsley, count: 0.5 },
-      { ...INGREDIENTS.croutons, count: 30 },
+      { ...INGREDIENTS.tomato, count: 3, gauge: 'шт.' },
+      { ...INGREDIENTS.cucumber, count: 1.5, gauge: 'шт.' },
+      { ...INGREDIENTS.bellPepper, count: 2, gauge: 'шт.' },
+      { ...INGREDIENTS.onion, count: 0.5, gauge: 'шт.' },
+      { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
+      { ...INGREDIENTS.whiteBread, count: 100, gauge: 'г.' },
+      { ...INGREDIENTS.water, count: 100, gauge: 'мл' },
+      { ...INGREDIENTS.oliveOil, count: 8, gauge: 'ст.л.' },
+      { ...INGREDIENTS.sherryVinegar, count: 3, gauge: 'ст.л.' },
+      { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+      { ...INGREDIENTS.groundBlackPepper, count: 2, gauge: 'г.' },
+      { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
+      { ...INGREDIENTS.parsley, count: 0.5, gauge: 'пуч.' },
+      { ...INGREDIENTS.croutons, count: 30, gauge: 'г.' },
     ],
-
     equipments: [
       EQUIPMENTS.mortar,
       EQUIPMENTS.knife,
@@ -5054,59 +5035,59 @@ export const DINNER = [
       EQUIPMENTS.spoon,
       EQUIPMENTS.fridge,
     ],
-
     cookingRecipe: [
       {
         description:
           'Подготовьте хлеб: удалите корки, залейте водой на 5 минут, затем отожмите. Томаты ошпарьте, снимите кожицу и удалите семена. Очистите огурец и перец от кожуры и семян, лук нарежьте крупно.',
         ingredients: [
-          INGREDIENTS.whiteBread,
-          INGREDIENTS.tomato,
-          INGREDIENTS.cucumber,
-          INGREDIENTS.bellPepper,
-          INGREDIENTS.onion,
-          INGREDIENTS.water,
+          { ...INGREDIENTS.whiteBread, count: 100, gauge: 'г.' },
+          { ...INGREDIENTS.tomato, count: 3, gauge: 'шт.' },
+          { ...INGREDIENTS.cucumber, count: 1.5, gauge: 'шт.' },
+          { ...INGREDIENTS.bellPepper, count: 2, gauge: 'шт.' },
+          { ...INGREDIENTS.onion, count: 0.5, gauge: 'шт.' },
+          { ...INGREDIENTS.water, count: 100, gauge: 'мл' },
         ],
       },
       {
         description:
           'В ступке растолките чеснок с солью до пасты. Добавляйте по очереди томаты, перец, огурец и лук, продолжая толочь до получения густой массы. В конце добавьте размоченный хлеб.',
         ingredients: [
-          INGREDIENTS.garlic,
-          INGREDIENTS.salt,
-          INGREDIENTS.tomato,
-          INGREDIENTS.bellPepper,
-          INGREDIENTS.cucumber,
-          INGREDIENTS.onion,
-          INGREDIENTS.whiteBread,
+          { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
+          { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+          { ...INGREDIENTS.tomato, count: 3, gauge: 'шт.' },
+          { ...INGREDIENTS.bellPepper, count: 2, gauge: 'шт.' },
+          { ...INGREDIENTS.cucumber, count: 1.5, gauge: 'шт.' },
+          { ...INGREDIENTS.onion, count: 0.5, gauge: 'шт.' },
+          { ...INGREDIENTS.whiteBread, count: 100, gauge: 'г.' },
         ],
       },
       {
         description:
           'Медленно влейте оливковое масло и хересный уксус, перемешивая до шелковистой текстуры. При желании добавьте немного холодной воды для нужной густоты. Процедите через сито, чтобы удалить крупные частицы.',
-        ingredients: [INGREDIENTS.oliveOil, INGREDIENTS.sherryVinegar, INGREDIENTS.water],
+        ingredients: [
+          { ...INGREDIENTS.oliveOil, count: 8, gauge: 'ст.л.' },
+          { ...INGREDIENTS.sherryVinegar, count: 3, gauge: 'ст.л.' },
+        ],
       },
       {
         description:
           'Разлейте гаспачо по мискам, добавьте немного свежемолотого перца. Украсьте мелко нарезанным огурцом, перцем, зелёным луком, петрушкой и гренками. Охладите в холодильнике не менее 2 часов перед подачей.',
         ingredients: [
-          INGREDIENTS.groundBlackPepper,
-          INGREDIENTS.cucumber,
-          INGREDIENTS.bellPepper,
-          INGREDIENTS.greenOnion,
-          INGREDIENTS.parsley,
-          INGREDIENTS.croutons,
+          { ...INGREDIENTS.groundBlackPepper, count: 2, gauge: 'г.' },
+          { ...INGREDIENTS.cucumber, count: 1.5, gauge: 'шт.' },
+          { ...INGREDIENTS.bellPepper, count: 2, gauge: 'шт.' },
+          { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
+          { ...INGREDIENTS.parsley, count: 0.5, gauge: 'пуч.' },
+          { ...INGREDIENTS.croutons, count: 30, gauge: 'г.' },
         ],
       },
     ],
-
     tips: [
       'Выбирайте переспелые мясистые томаты — от них зависит вкус.',
       'Не используйте блендер — ступка придаёт правильную текстуру.',
       'Можно добавить пару капель соуса Табаско для остроты.',
       'Подавайте гаспачо очень холодным, но не со льдом — он разбавляет вкус.',
     ],
-
     variations: [
       {
         name: 'Зелёный гаспачо',
@@ -5160,7 +5141,6 @@ export const DINNER = [
       author: 'food-paradise',
       'theme-color': '#ffffff',
     },
-
     searchRequests: [
       'варим грибной суп из грибов',
       'вкусный грибной суп',
@@ -5546,17 +5526,13 @@ export const DINNER = [
       'сырный суп с курицей и грибами',
       'чеснок',
     ],
-
     categories: [{ name: 'dinner' }, { name: 'soups' }, { name: 'cream' }],
-
     key: 'cream-mushroom-soup',
     name: 'cream-mushroom-soup',
     img: '/static/recipes/dinner/cream-mushroom-soup.jpeg',
     title: 'Сливочный грибной суп с трюфельным маслом',
-
     description:
       'Ресторанный вариант сливочного грибного супа с трюфельным акцентом. Готовится на насыщенном грибном бульоне из сушёных белых грибов, с добавлением шампиньонов, лисичек и свежих трав. Секрет вкуса — раздельная обжарка грибов и доведение консистенции до кремовой гладкости. Подаётся с каплей трюфельного масла и гренками из чиабатты.',
-
     calories: 350,
     preparation: 20,
     time: 45,
@@ -5569,23 +5545,22 @@ export const DINNER = [
       'Грибные крем-супы появились во французской кухне в XIX веке, как изысканный способ использовать лесные грибы. Позже рецепты распространились по Европе, а добавление сливок и трюфельного масла сделало их символом гастрономической элегантности. В Италии и Франции подобные супы подают в ресторанах высокой кухни.',
 
     ingredients: [
-      { ...INGREDIENTS.driedPorcini, count: 20 },
-      { ...INGREDIENTS.champignons, count: 300 },
-      { ...INGREDIENTS.chanterelles, count: 150 },
-      { ...INGREDIENTS.freshPorcini, count: 100 },
-      { ...INGREDIENTS.onion, count: 1 },
-      { ...INGREDIENTS.garlic, count: 2 },
-      { ...INGREDIENTS.butter, count: 50 },
-      { ...INGREDIENTS.thyme, count: 3 },
-      { ...INGREDIENTS.cream33, count: 250 },
-      { ...INGREDIENTS.truffleOil, count: 1 },
-      { ...INGREDIENTS.sunflowerOil, count: 1 },
-      { ...INGREDIENTS.whitePepper, count: 1 },
-      { ...INGREDIENTS.salt, count: 5 },
-      { ...INGREDIENTS.ciabatta, count: 60 },
-      { ...INGREDIENTS.water, count: 600 },
+      { ...INGREDIENTS.driedPorcini, count: 20, gauge: 'г.' },
+      { ...INGREDIENTS.champignons, count: 300, gauge: 'г.' },
+      { ...INGREDIENTS.chanterelles, count: 150, gauge: 'г.' },
+      { ...INGREDIENTS.freshPorcini, count: 100, gauge: 'г.' },
+      { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
+      { ...INGREDIENTS.butter, count: 50, gauge: 'г.' },
+      { ...INGREDIENTS.thyme, count: 3, gauge: 'г.' },
+      { ...INGREDIENTS.cream33, count: 250, gauge: 'мл' },
+      { ...INGREDIENTS.truffleOil, count: 1, gauge: 'ст.л.' },
+      { ...INGREDIENTS.sunflowerOil, count: 1, gauge: 'ст.л.' },
+      { ...INGREDIENTS.whitePepper, count: 1, gauge: 'г.' },
+      { ...INGREDIENTS.salt, count: 5, gauge: 'ч.л.' },
+      { ...INGREDIENTS.ciabatta, count: 60, gauge: 'г.' },
+      { ...INGREDIENTS.water, count: 600, gauge: 'мл' },
     ],
-
     equipments: [
       EQUIPMENTS.pot,
       EQUIPMENTS.pan,
@@ -5596,48 +5571,60 @@ export const DINNER = [
       EQUIPMENTS.spoon,
       EQUIPMENTS.bowl,
     ],
-
     cookingRecipe: [
       {
         img: '/static/steps/mushroom-soup1.webp',
         description:
           'Залейте сушёные белые грибы 600 мл кипятка, накройте крышкой и настаивайте 30 минут. Процедите, отожмите грибы (их можно добавить в суп позже). Полученный бульон доведите до кипения и уварите до 500 мл для насыщенного вкуса.',
-        ingredients: [INGREDIENTS.driedPorcini, INGREDIENTS.water],
+        ingredients: [
+          { ...INGREDIENTS.driedPorcini, count: 20, gauge: 'г.' },
+          { ...INGREDIENTS.water, count: 600, gauge: 'мл' },
+        ],
       },
       {
         description:
           'В кастрюле растопите сливочное масло. Добавьте нарезанный лук и обжарьте до прозрачности. Введите чеснок и тимьян, готовьте 1 минуту до появления аромата.',
-        ingredients: [INGREDIENTS.butter, INGREDIENTS.onion, INGREDIENTS.garlic, INGREDIENTS.thyme],
+        ingredients: [
+          { ...INGREDIENTS.butter, count: 50, gauge: 'г.' },
+          { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
+          { ...INGREDIENTS.thyme, count: 3, gauge: 'г.' },
+        ],
       },
       {
         description:
           'Шампиньоны нарежьте пластинами и обжарьте на отдельной сковороде до лёгкой румяности. То же проделайте с лисичками и свежими белыми грибами. Это придаст супу многослойный вкус.',
         ingredients: [
-          INGREDIENTS.champignons,
-          INGREDIENTS.chanterelles,
-          INGREDIENTS.freshPorcini,
-          INGREDIENTS.sunflowerOil,
+          { ...INGREDIENTS.champignons, count: 300, gauge: 'г.' },
+          { ...INGREDIENTS.chanterelles, count: 150, gauge: 'г.' },
+          { ...INGREDIENTS.freshPorcini, count: 100, gauge: 'г.' },
+          { ...INGREDIENTS.sunflowerOil, count: 1, gauge: 'ст.л.' },
         ],
       },
       {
         description:
           'Соедините все грибы с обжаренным луком, добавьте грибной бульон и сливки. Посолите, приправьте белым перцем. Доведите до лёгкого кипения и варите 10 минут.',
-        ingredients: [INGREDIENTS.cream33, INGREDIENTS.whitePepper, INGREDIENTS.salt],
+        ingredients: [
+          { ...INGREDIENTS.cream33, count: 250, gauge: 'мл' },
+          { ...INGREDIENTS.whitePepper, count: 1, gauge: 'г.' },
+          { ...INGREDIENTS.salt, count: 5, gauge: 'ч.л.' },
+        ],
       },
       {
         description:
           'Пюрируйте суп блендером до гладкости. Процедите через сито для шелковистой текстуры. Разлейте по тарелкам, украсьте каплей трюфельного масла и подавайте с гренками из чиабатты.',
-        ingredients: [INGREDIENTS.truffleOil, INGREDIENTS.ciabatta],
+        ingredients: [
+          { ...INGREDIENTS.truffleOil, count: 1, gauge: 'ст.л.' },
+          { ...INGREDIENTS.ciabatta, count: 60, gauge: 'г.' },
+        ],
       },
     ],
-
     tips: [
       'Используйте смесь грибов — это даёт сложный аромат.',
       'Не кипятите сливки слишком долго, чтобы не потерять нежность вкуса.',
       'Трюфельное масло добавляйте только перед подачей.',
       'Для вегетарианской версии замените сливочное масло и сливки на растительные аналоги.',
     ],
-
     variations: [
       {
         name: 'С курицей',
@@ -5689,7 +5676,6 @@ export const DINNER = [
       robots: 'index, follow',
       viewport: 'width=device-width, initial-scale=1',
     },
-
     searchRequests: [
       'белые щи рецепт',
       'болгарские щи рецепт',
@@ -6104,7 +6090,6 @@ export const DINNER = [
     rating: 4.7,
     portions: 6,
     used: [12, 14],
-
     historyDescription: `Щи — одно из древнейших блюд русской кухни. Первые упоминания о них встречаются ещё в XI веке, 
   а выражение «щи да каша — пища наша» стало народным символом домашнего уюта. 
   В старину щи варили в русской печи на мясном бульоне, а в пост — на грибном отваре. 
@@ -6112,19 +6097,18 @@ export const DINNER = [
   Щи из свежей капусты особенно популярны летом и осенью, когда капуста молодая и сочная, а на столе — аромат зелени и свежего хлеба.`,
 
     ingredients: [
-      { ...INGREDIENTS.beefOnTheBone, count: 0.5 },
-      { ...INGREDIENTS.cabbage, count: 0.5 },
-      { ...INGREDIENTS.potato, count: 4 },
-      { ...INGREDIENTS.carrot, count: 1 },
-      { ...INGREDIENTS.onion, count: 1 },
-      { ...INGREDIENTS.tomatoPaste, count: 40 },
-      { ...INGREDIENTS.bayLeaf, count: 3 },
-      { ...INGREDIENTS.blackPepper, count: 5 },
-      { ...INGREDIENTS.salt, count: 1 },
-      { ...INGREDIENTS.sourCream, count: 30 },
-      { ...INGREDIENTS.water, count: 3000 },
+      { ...INGREDIENTS.beefOnTheBone, count: 0.5, gauge: 'кг.' },
+      { ...INGREDIENTS.cabbage, count: 1, gauge: 'пол.головки' },
+      { ...INGREDIENTS.potato, count: 4, gauge: 'шт.' },
+      { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.tomatoPaste, count: 40, gauge: 'г.' },
+      { ...INGREDIENTS.bayLeaf, count: 3, gauge: 'шт.' },
+      { ...INGREDIENTS.blackPepper, count: 5, gauge: 'г.' },
+      { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+      { ...INGREDIENTS.sourCream, count: 30, gauge: 'г.' },
+      { ...INGREDIENTS.water, count: 3, gauge: 'л.' },
     ],
-
     equipments: [
       { ...EQUIPMENTS.pot, count: 1 },
       { ...EQUIPMENTS.pan, count: 1 },
@@ -6140,8 +6124,8 @@ export const DINNER = [
         description:
           'Подготовьте мясо: говядину на кости промойте, залейте 3 литрами холодной воды и доведите до кипения. Снимите пену, убавьте огонь и варите 1.5 часа до мягкости. Бульон станет прозрачным и ароматным — это основа будущих щей.',
         ingredients: [
-          { ...INGREDIENTS.beefOnTheBone, count: 0.5 },
-          { ...INGREDIENTS.water, count: 3000 },
+          { ...INGREDIENTS.beefOnTheBone, count: 0.5, gauge: 'кг.' },
+          { ...INGREDIENTS.water, count: 3, gauge: 'л.' },
         ],
       },
       {
@@ -6150,9 +6134,9 @@ export const DINNER = [
         description:
           'Пока варится мясо, подготовьте овощи: очистите и мелко нарежьте лук и морковь. На сковороде с маслом обжарьте лук до прозрачности, затем добавьте морковь и жарьте до золотистого оттенка. Добавьте томатную пасту и тушите 5 минут, пока не появится насыщенный аромат.',
         ingredients: [
-          { ...INGREDIENTS.onion, count: 1 },
-          { ...INGREDIENTS.carrot, count: 1 },
-          { ...INGREDIENTS.tomatoPaste, count: 40 },
+          { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.tomatoPaste, count: 40, gauge: 'г.' },
         ],
       },
       {
@@ -6161,11 +6145,11 @@ export const DINNER = [
         description:
           'Готовое мясо выньте из бульона, нарежьте порционными кусочками и верните обратно. Добавьте нарезанный картофель и капусту. Варите 15 минут до мягкости овощей. Затем введите зажарку с томатной пастой, добавьте лавровый лист, перец горошком и немного соли. Варите ещё 10–15 минут на слабом огне, чтобы все вкусы соединились.',
         ingredients: [
-          { ...INGREDIENTS.potato, count: 4 },
-          { ...INGREDIENTS.cabbage, count: 0.5 },
-          { ...INGREDIENTS.bayLeaf, count: 3 },
-          { ...INGREDIENTS.blackPepper, count: 5 },
-          { ...INGREDIENTS.salt, count: 1 },
+          { ...INGREDIENTS.potato, count: 4, gauge: 'шт.' },
+          { ...INGREDIENTS.cabbage, count: 1, gauge: 'пол.головки' },
+          { ...INGREDIENTS.bayLeaf, count: 3, gauge: 'шт.' },
+          { ...INGREDIENTS.blackPepper, count: 5, gauge: 'г.' },
+          { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
         ],
       },
       {
@@ -6173,16 +6157,14 @@ export const DINNER = [
         video: null,
         description:
           'Снимите щи с огня, накройте крышкой и дайте настояться 20–30 минут — это позволит раскрыться вкусу бульона и специям. Подавайте горячими, добавив ложку сметаны и посыпав свежей зеленью. Идеальное дополнение — ржаной хлеб или чесночные гренки.',
-        ingredients: [{ ...INGREDIENTS.sourCream, count: 30 }],
+        ingredients: [{ ...INGREDIENTS.sourCream, count: 30, gauge: 'г.' }],
       },
     ],
-
     tips: [
       'Для более насыщенного вкуса дайте щам настояться 1–2 часа перед подачей.',
       'Можно добавить немного кислой капусты для лёгкой кислинки и более старинного вкуса.',
       'Если используете молодую капусту — уменьшите время варки на 5–7 минут, чтобы сохранить хруст.',
     ],
-
     variations: [
       {
         name: 'Постные щи',
@@ -6236,7 +6218,6 @@ export const DINNER = [
       robots: 'index, follow',
       viewport: 'width=device-width, initial-scale=1',
     },
-
     searchRequests: [
       'блюдо с картофелем суп',
       'вкусные рецепты рыбы',
@@ -6521,19 +6502,16 @@ export const DINNER = [
     name: 'uha-po-finski',
     img: '/static/recipes/dinner/uha-po-finski.jpeg',
     title: 'Уха по-фински (Лохикейтто)',
-
     description: `Уха по-фински, или Лохикейтто, — это мягкий сливочный суп с лососем, картофелем и свежим укропом, 
   в котором простота соединяется с изысканностью. Он обладает удивительно нежным вкусом: 
   сладость сливок и лёгкая солоноватость рыбы создают гармонию, которая будто переносит вас на побережье Балтийского моря. 
   Это идеальный обед для прохладных дней — сытный, ароматный и согревающий.`,
-
     historyDescription: `Лохикейтто (lohikeitto) — одно из самых популярных блюд Финляндии, где рыбу уважают и готовят круглый год. 
   Название буквально переводится как “рыбный суп из лосося”. 
   Первые упоминания о нём встречаются в старинных скандинавских кулинарных книгах, где сливки добавлялись, 
   чтобы сделать блюдо более питательным в суровую северную зиму. 
   Сегодня уха по-фински — неотъемлемая часть финской кухни, подаётся как в домашних трапезах, так и в ресторанах Хельсинки и Турку. 
   Её секрет — в балансе: немного сливок, немного рыбы, немного тепла и максимум уюта.`,
-
     calories: 320,
     preparation: 20,
     time: 40,
@@ -6542,17 +6520,17 @@ export const DINNER = [
     portions: 4,
     used: [10, 12],
     ingredients: [
-      { ...INGREDIENTS.salmonFillet, count: 0.4 },
-      { ...INGREDIENTS.potato, count: 4 },
-      { ...INGREDIENTS.onion, count: 1 },
-      { ...INGREDIENTS.carrot, count: 1 },
-      { ...INGREDIENTS.cream20, count: 200 },
-      { ...INGREDIENTS.butter, count: 20 },
-      { ...INGREDIENTS.dill, count: 1 },
-      { ...INGREDIENTS.bayLeaf, count: 1 },
-      { ...INGREDIENTS.blackPepper, count: 5 },
-      { ...INGREDIENTS.salt, count: 1 },
-      { ...INGREDIENTS.water, count: 1500 },
+      { ...INGREDIENTS.salmonFillet, count: 400, gauge: 'г.' },
+      { ...INGREDIENTS.potato, count: 4, gauge: 'шт.' },
+      { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.cream20, count: 200, gauge: 'г.' },
+      { ...INGREDIENTS.butter, count: 20, gauge: 'г.' },
+      { ...INGREDIENTS.dill, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.bayLeaf, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.blackPepper, count: 5, gauge: 'г.' },
+      { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+      { ...INGREDIENTS.water, count: 1.5, gauge: 'л.' },
     ],
     equipments: [
       { ...EQUIPMENTS.pot, count: 1 },
@@ -6568,10 +6546,10 @@ export const DINNER = [
         description: `Очистите и нарежьте картофель, морковь и лук. В кастрюле растопите сливочное масло, 
       слегка обжарьте овощи 2–3 минуты, чтобы появился лёгкий аромат.`,
         ingredients: [
-          { ...INGREDIENTS.potato, count: 4 },
-          { ...INGREDIENTS.carrot, count: 1 },
-          { ...INGREDIENTS.onion, count: 1 },
-          { ...INGREDIENTS.butter, count: 20 },
+          { ...INGREDIENTS.potato, count: 4, gauge: 'шт.' },
+          { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.butter, count: 20, gauge: 'г.' },
         ],
       },
       {
@@ -6579,16 +6557,16 @@ export const DINNER = [
         video: null,
         description: `Добавьте 1.5 литра воды, лавровый лист и перец горошком. Варите овощи 10–12 минут до полуготовности.`,
         ingredients: [
-          { ...INGREDIENTS.water, count: 1500 },
-          { ...INGREDIENTS.bayLeaf, count: 1 },
-          { ...INGREDIENTS.blackPepper, count: 5 },
+          { ...INGREDIENTS.water, count: 1.5, gauge: 'л.' },
+          { ...INGREDIENTS.bayLeaf, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.blackPepper, count: 5, gauge: 'г.' },
         ],
       },
       {
         img: null,
         video: null,
         description: `Нарежьте лосося кубиками, добавьте в суп и варите ещё 7–10 минут до мягкости рыбы.`,
-        ingredients: [{ ...INGREDIENTS.salmonFillet, count: 0.4 }],
+        ingredients: [{ ...INGREDIENTS.salmonFillet, count: 400, gauge: 'г.' }],
       },
       {
         img: null,
@@ -6596,19 +6574,17 @@ export const DINNER = [
         description: `Влейте сливки, добавьте мелко нарезанный укроп и аккуратно прогрейте суп 2–3 минуты, не доводя до кипения. 
       Посолите по вкусу и дайте настояться 5 минут под крышкой.`,
         ingredients: [
-          { ...INGREDIENTS.cream20, count: 200 },
-          { ...INGREDIENTS.dill, count: 1 },
-          { ...INGREDIENTS.salt, count: 1 },
+          { ...INGREDIENTS.cream20, count: 200, gauge: 'г.' },
+          { ...INGREDIENTS.dill, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
         ],
       },
     ],
-
     tips: [
       'Не кипятите сливки — это может испортить текстуру и вкус супа.',
       'Для насыщенности можно заменить часть воды рыбным бульоном.',
       'Подавайте с ломтиком ржаного хлеба или хрустящими гренками.',
     ],
-
     variations: [
       {
         name: 'С копчёным лососем',
@@ -7373,16 +7349,16 @@ export const DINNER = [
     portions: 4,
     used: [8, 9],
     ingredients: [
-      { ...INGREDIENTS.pumpkin, count: 600 },
-      { ...INGREDIENTS.carrot, count: 1 },
-      { ...INGREDIENTS.onion, count: 1 },
-      { ...INGREDIENTS.cream20, count: 200 },
-      { ...INGREDIENTS.ginger, count: 10 },
-      { ...INGREDIENTS.oliveOil, count: 1 },
-      { ...INGREDIENTS.salt, count: 1 },
-      { ...INGREDIENTS.blackPepper, count: 1 },
-      { ...INGREDIENTS.water, count: 1000 },
-      { ...INGREDIENTS.pumpkinSeeds, count: 20 },
+      { ...INGREDIENTS.pumpkin, count: 600, gauge: 'г.' },
+      { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.cream20, count: 200, gauge: 'г.' },
+      { ...INGREDIENTS.ginger, count: 10, gauge: 'г.' },
+      { ...INGREDIENTS.oliveOil, count: 1, gauge: 'ст.л.' },
+      { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+      { ...INGREDIENTS.blackPepper, count: 1, gauge: 'ч.л.' },
+      { ...INGREDIENTS.water, count: 1, gauge: 'л.' },
+      { ...INGREDIENTS.pumpkinSeeds, count: 20, gauge: 'г.' },
     ],
     equipments: [
       { ...EQUIPMENTS.bakingTray, count: 1 },
@@ -7398,9 +7374,9 @@ export const DINNER = [
         description: `Разогрейте духовку до 200°C. Нарежьте тыкву и морковь кубиками, выложите на противень, 
       сбрызните оливковым маслом, посолите и запекайте 20 минут до мягкости.`,
         ingredients: [
-          { ...INGREDIENTS.pumpkin, count: 600 },
-          { ...INGREDIENTS.carrot, count: 1 },
-          { ...INGREDIENTS.oliveOil, count: 1 },
+          { ...INGREDIENTS.pumpkin, count: 600, gauge: 'г.' },
+          { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.oliveOil, count: 1, gauge: 'ст.л.' },
         ],
       },
       {
@@ -7409,9 +7385,9 @@ export const DINNER = [
         description: `В кастрюле обжарьте мелко нарезанные лук и тёртый имбирь на оставшемся масле 2–3 минуты. 
       Добавьте запечённые овощи, влейте воду и варите под крышкой 10 минут.`,
         ingredients: [
-          { ...INGREDIENTS.onion, count: 1 },
-          { ...INGREDIENTS.ginger, count: 10 },
-          { ...INGREDIENTS.water, count: 1000 },
+          { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.ginger, count: 10, gauge: 'г.' },
+          { ...INGREDIENTS.water, count: 1, gauge: 'л.' },
         ],
       },
       {
@@ -7420,9 +7396,9 @@ export const DINNER = [
         description: `Измельчите суп блендером до однородной текстуры, верните на плиту, добавьте сливки, 
       приправьте солью и перцем и прогрейте 2 минуты, не доводя до кипения.`,
         ingredients: [
-          { ...INGREDIENTS.cream20, count: 200 },
-          { ...INGREDIENTS.salt, count: 1 },
-          { ...INGREDIENTS.blackPepper, count: 1 },
+          { ...INGREDIENTS.cream20, count: 200, gauge: 'г.' },
+          { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+          { ...INGREDIENTS.blackPepper, count: 1, gauge: 'ч.л.' },
         ],
       },
     ],
@@ -8287,15 +8263,15 @@ export const DINNER = [
     portions: 4,
     used: [7, 8],
     ingredients: [
-      { ...INGREDIENTS.chickenBreastFillet, count: 0.4 },
-      { ...INGREDIENTS.carrot, count: 1 },
-      { ...INGREDIENTS.onion, count: 1 },
-      { ...INGREDIENTS.eggNoodles, count: 100 },
-      { ...INGREDIENTS.dill, count: 1 },
-      { ...INGREDIENTS.bayLeaf, count: 1 },
-      { ...INGREDIENTS.blackPepper, count: 5 },
-      { ...INGREDIENTS.salt, count: 1 },
-      { ...INGREDIENTS.water, count: 2000 },
+      { ...INGREDIENTS.chickenBreastFillet, count: 0.4, gauge: 'кг.' },
+      { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.eggNoodles, count: 100, gauge: 'г.' },
+      { ...INGREDIENTS.dill, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.bayLeaf, count: 1, gauge: 'шт.' },
+      { ...INGREDIENTS.blackPepper, count: 5, gauge: 'г.' },
+      { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+      { ...INGREDIENTS.water, count: 2, gauge: 'л.' },
     ],
     equipments: [
       { ...EQUIPMENTS.pot, count: 1 },
@@ -8311,12 +8287,12 @@ export const DINNER = [
       Доведите до кипения, снимите пену, добавьте целые морковь, лук, лавровый лист и перец горошком. 
       Варите на слабом огне 40 минут, не допуская бурного кипения.`,
         ingredients: [
-          { ...INGREDIENTS.water, count: 2000 },
-          { ...INGREDIENTS.chickenBreastFillet, count: 0.4 },
-          { ...INGREDIENTS.carrot, count: 1 },
-          { ...INGREDIENTS.onion, count: 1 },
-          { ...INGREDIENTS.bayLeaf, count: 1 },
-          { ...INGREDIENTS.blackPepper, count: 5 },
+          { ...INGREDIENTS.water, count: 2, gauge: 'л.' },
+          { ...INGREDIENTS.chickenBreastFillet, count: 0.4, gauge: 'кг.' },
+          { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.bayLeaf, count: 1, gauge: 'шт.' },
+          { ...INGREDIENTS.blackPepper, count: 5, gauge: 'г.' },
         ],
       },
       {
@@ -8324,14 +8300,14 @@ export const DINNER = [
         video: null,
         description: `Достаньте курицу и овощи, бульон аккуратно процедите через сито. 
       Верните его на огонь, добавьте лапшу и варите 5–7 минут до готовности.`,
-        ingredients: [{ ...INGREDIENTS.eggNoodles, count: 100 }],
+        ingredients: [{ ...INGREDIENTS.eggNoodles, count: 100, gauge: 'г.' }],
       },
       {
         img: null,
         video: null,
         description: `Курицу нарежьте кусочками, морковь — кружочками. 
       Разложите по тарелкам, залейте горячим бульоном с лапшой и посыпьте свежим укропом.`,
-        ingredients: [{ ...INGREDIENTS.dill, count: 1 }],
+        ingredients: [{ ...INGREDIENTS.dill, count: 1, gauge: 'шт.' }],
       },
     ],
     tips: [
