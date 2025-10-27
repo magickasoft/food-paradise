@@ -2,33 +2,33 @@
 // See: https://next-intl.dev/docs/workflows/typescript#messages-arguments
 
 declare const messages: {
-  "btn": {
-    "default": {
-      "label": "Кнопка default"
-    },
-    "primary": {
-      "label": "Кнопка primary"
+  btn: {
+    default: {
+      label: 'Кнопка default'
     }
-  },
-  "localeSelect": {
-    "label": "Выберите язык",
-    "locale": {
-      "ru": "Рус",
-      "en": "Англ"
+    primary: {
+      label: 'Кнопка primary'
     }
-  },
-  "manifest": {
-    "name": "next-intl example"
-  },
-  "localeLayout": {
-    "title": "next-intl example"
-  },
-  "notFoundPage": {
-    "description": "Пожалуйста, еще раз проверьте адресную строку браузера или воспользуйтесь навигацией, чтобы перейти на известную страницу.",
-    "title": "Страница не найдена"
-  },
-  "header": {
-    "btn": "Предложить рецепт"
   }
-};
-export default messages;
+  localeSelect: {
+    label: 'Выберите язык'
+    locale: {
+      ru: 'Рус'
+      en: 'Англ'
+    }
+  }
+  manifest: {
+    name: 'next-intl example'
+  }
+  localeLayout: {
+    title: 'next-intl example'
+  }
+  notFoundPage: {
+    description: 'Пожалуйста, еще раз проверьте адресную строку браузера или воспользуйтесь навигацией, чтобы перейти на известную страницу.'
+    title: 'Страница не найдена'
+  }
+  header: {
+    btn: 'Предложить рецепт'
+  }
+}
+export default messages
