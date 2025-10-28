@@ -28,17 +28,34 @@ export const CATEGORIES_ARR = [
     color: '#D9E7D0',
   },
   {
-    key: 'dessert',
-    name: 'dessert',
-    label: 'Десерты',
-    img: '/static/categories-imgs/desserts.jpeg',
-    color: '#FAE7C9',
+    key: 'salads',
+    name: 'salads',
+    label: 'Салаты',
+    img: '/static/categories-imgs/salads.jpeg',
+    color: '#C1E1C1',
   },
   {
     key: 'snacks',
     name: 'snacks',
     label: 'Закуски',
     img: '/static/categories-imgs/snacks.jpeg',
+    color: '#ECEBE7',
+  },
+]
+
+export const OTHER_CATEGORIES_ARR = [
+  {
+    key: 'grill',
+    name: 'grill',
+    label: 'На мангале',
+    img: '/static/categories-imgs/grill.jpeg',
+    color: '#FFD8D8',
+  },
+  {
+    key: 'refreshingDrinks',
+    name: 'refreshingDrinks',
+    label: 'Освежающие напитки',
+    img: '/static/categories-imgs/refreshingDrinks.jpeg',
     color: '#ECEBE7',
   },
 ]

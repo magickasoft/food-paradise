@@ -1,23 +1,24 @@
 export const SEASONAL_CATEGORIES_ARR = [
   {
-    key: 'grill',
-    name: 'grill',
-    label: 'На мангале',
-    img: '/static/categories-imgs/grill.jpeg',
+    key: 'newYear',
+    name: 'newYear',
+    label: 'Новый Год',
+    img: '/static/categories-imgs/newYear.jpeg',
     color: '#FFD8D8',
   },
+
   {
-    key: 'salads',
-    name: 'salads',
-    label: 'Салаты',
-    img: '/static/categories-imgs/salads.jpeg',
-    color: '#C1E1C1',
+    key: 'dessert',
+    name: 'dessert',
+    label: 'Десерты',
+    img: '/static/categories-imgs/desserts.jpeg',
+    color: '#FAE7C9',
   },
   {
-    key: 'refreshingDrinks',
-    name: 'refreshingDrinks',
-    label: 'Напитки',
-    img: '/static/categories-imgs/refreshingDrinks.jpeg',
+    key: 'alcoholicDrinks',
+    name: 'alcoholicDrinks',
+    label: 'Алкогольные напитки',
+    img: '/static/categories-imgs/alcoholicDrinks.jpeg',
     color: '#ECEBE7',
   },
 ]
