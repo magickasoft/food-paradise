@@ -19,6 +19,7 @@ import { maxDevice } from '@/styles/device'
 import { HistoryBlock } from './HistoryBlock'
 import CommentSection from '../CommentSection'
 import CommentsList from '../CommentsList'
+import { WarningBlock } from './WarningBlock'
 
 const DetailsContainer = styled.section`
   width: 100%;
@@ -186,6 +187,7 @@ const RecipePage = ({ recipe }: { recipe: Recipe | null }) => {
   return (
     <main>
       <PageWrapper>
+        {recipe?.warning ? <WarningBlock text={recipe.warning} /> : null}
         <HeaderBlock recipe={recipe} />
         {recipe && (
           <>

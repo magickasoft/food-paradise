@@ -6,7 +6,6 @@ export const SEASONAL_CATEGORIES_ARR = [
     img: '/static/categories-imgs/newYear.jpeg',
     color: '#FFD8D8',
   },
-
   {
     key: 'dessert',
     name: 'dessert',
@@ -15,10 +14,10 @@ export const SEASONAL_CATEGORIES_ARR = [
     color: '#FAE7C9',
   },
   {
-    key: 'alcoholicDrinks',
-    name: 'alcoholicDrinks',
-    label: 'Алкогольные напитки',
-    img: '/static/categories-imgs/alcoholicDrinks.jpeg',
+    key: 'homemadeAlcohol',
+    name: 'homemadeAlcohol',
+    label: 'Домашние настойки',
+    img: '/static/categories-imgs/homemadeAlcohol.jpeg',
     color: '#ECEBE7',
   },
 ]

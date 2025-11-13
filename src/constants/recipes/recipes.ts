@@ -11,7 +11,7 @@ import { SNACKS } from './snacks'
 
 import { SUPPER } from './supper'
 import { NEW_YEAR } from './newYear'
-import { ALCOHOLIC_DRINKS } from './alcoholicDrinks'
+import { HOMEMADE_ALCOHOL } from './homemadeAlcohol'
 
 export enum RecipeCategories {
   BREAKFAST = 'breakfast',
@@ -25,6 +25,7 @@ export enum RecipeCategories {
   SALADS = 'salads',
   REFRESHING_DRINKS = 'refreshingDrinks',
   ALCOHOLIC_DRINKS = 'alcoholicDrinks',
+  HOMEMADE_ALCOHOL = 'homemadeAlcohol',
 }
 
 export interface MetaSeo {
@@ -60,6 +61,7 @@ export interface Recipe {
   img: string | null
   title: string
   description: string
+  warning?: string
   calories: number | null
   preparation: number | null
   time: number
@@ -94,6 +96,6 @@ export const RECIPES_OBJ: {
   grill: [...GRILL],
   newYear: [...NEW_YEAR],
   salads: [...SALADS],
-  alcoholicDrinks: [...ALCOHOLIC_DRINKS],
+  homemadeAlcohol: [...HOMEMADE_ALCOHOL],
   refreshingDrinks: [...REFRESHING_DRINKS],
 }

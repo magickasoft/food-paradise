@@ -26,6 +26,7 @@ import sourCream from '../jsons/ingredients/liquid/sour-cream.json'
 import vinegar from '../jsons/ingredients/liquid/vinegar.json'
 import sherryVinegar from '../jsons/ingredients/liquid/sherry-vinegar.json'
 import water from '../jsons/ingredients/liquid/water.json'
+import vodka from '../jsons/ingredients/liquid/vodka.json'
 import yogurt from '../jsons/ingredients/liquid/yogurt.json'
 import boiledPorkSausage from '../jsons/ingredients/meat/boiled-pork-sausage.json'
 import boiledSausage from '../jsons/ingredients/meat/boiled-sausage.json'
@@ -73,6 +74,7 @@ import celery from '../jsons/ingredients/vegetables/celery.json'
 import champignons from '../jsons/ingredients/vegetables/champignons.json'
 import chanterelles from '../jsons/ingredients/vegetables/chanterelles.json'
 import freshPorcini from '../jsons/ingredients/vegetables/fresh-porcini.json'
+import horseradishRoot from '../jsons/ingredients/vegetables/horseradish-root.json'
 import zucchini from '../jsons/ingredients/vegetables/zucchini.json'
 import bakingPowder from '../jsons/ingredients/bakery/baking-powder.json'
 import croutons from '../jsons/ingredients/bakery/croutons.json'
@@ -115,6 +117,8 @@ import beanSprouts from '../jsons/ingredients/grean/bean-sprouts.json'
 import lime from '../jsons/ingredients/vegetables/lime.json'
 import salmonFillet from '../jsons/ingredients/fish/salmon-fillet.json'
 import apple from '../jsons/ingredients/fruits/apple.json'
+import cranberry from '../jsons/ingredients/fruits/cranberry.json'
+import cherry from '../jsons/ingredients/fruits/cherry.json'
 import cinnamon from '../jsons/ingredients/seasoning/cinnamon.json'
 
 const MEAT = {
@@ -180,14 +184,18 @@ const VEGATABLES = {
   champignons,
   chanterelles,
   freshPorcini,
+  horseradishRoot,
 }
 
 const FRUITS = {
   apple,
+  cranberry,
+  cherry,
 }
 
 const LIQUIDS = {
   water,
+  vodka,
   hotWater,
   carbonatedMineralWater,
   lemonJuice,
