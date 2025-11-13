@@ -27,6 +27,8 @@ import woodenSpoon from '../jsons/equipments/wooden-spoon.json'
 import mortar from '../jsons/equipments/dishes/mortar.json'
 import fridge from '../jsons/equipments/appliances/fridge.json'
 import skimmer from '../jsons/equipments/skimmer.json'
+import bottle from '../jsons/equipments/dishes/bottle.json'
+import jar from '../jsons/equipments/dishes/jar.json'
 
 const APPLIANCES = {
   microwave,
@@ -46,6 +48,8 @@ const DISHES = {
   sieve,
   ladle,
   mortar,
+  bottle,
+  jar,
 }
 
 export const EQUIPMENTS = {

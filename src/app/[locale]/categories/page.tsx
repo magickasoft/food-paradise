@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 import { maxDevice } from '@/styles/device'
 import { SEASONAL_CATEGORIES_ARR } from '@/components/SeasonalCategories/constants'
-import { CATEGORIES_ARR } from '@/components/PopularCategories/constants'
+import { CATEGORIES_ARR, OTHER_CATEGORIES_ARR } from '@/components/PopularCategories/constants'
 import { CategoryCard } from '@/components/Cards/CategoryCard'
 import { PageWrapper } from '@/components/PageWrapper'
 
@@ -32,7 +32,7 @@ const Grid = styled.div`
 `
 
 const CategoriesPage = () => {
-  const allCategories = [...SEASONAL_CATEGORIES_ARR, ...CATEGORIES_ARR]
+  const allCategories = [...SEASONAL_CATEGORIES_ARR, ...OTHER_CATEGORIES_ARR, ...CATEGORIES_ARR]
 
   return (
     <PageWrapper>
