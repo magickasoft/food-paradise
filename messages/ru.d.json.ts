@@ -29,6 +29,7 @@ declare const messages: {
   }
   header: {
     btn: 'Предложить рецепт'
+    href: 'https://forms.yandex.ru/u/691ac78c9029026ef94eb5d4'
   }
 }
 export default messages

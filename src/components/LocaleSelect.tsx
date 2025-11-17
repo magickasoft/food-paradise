@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useTransition } from 'react'
+import React, { memo, useState, useTransition } from 'react'
 import { useParams } from 'next/navigation'
 import { usePathname, useRouter } from '@/i18n/navigation'
 import { locales } from '@/i18n/constants'
@@ -66,7 +66,7 @@ const localeLabels: Record<Locale, { label: string; flag: string }> = {
   en: { label: 'Eng', flag: '🇬🇧' },
 }
 
-export const LocaleSelect = React.memo(function LocaleSelect() {
+export const LocaleSelect = memo(function LocaleSelect() {
   const currentLocale = useLocale()
   const router = useRouter()
   const [disabled, startTransition] = useTransition()
