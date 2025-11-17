@@ -2,11 +2,13 @@
 
 import styled from 'styled-components'
 import Image from 'next/image'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, memo } from 'react'
 import { useTranslations } from 'next-intl'
 import { maxDevice } from '@/styles/device'
 import { Link } from '@/i18n/navigation'
 import { FiMenu, FiX } from 'react-icons/fi'
+import { type Locale, useLocale } from 'next-intl'
+import { defaultLocale, en } from '@/i18n/constants'
 
 import { LocaleSelect } from '@/components/LocaleSelect'
 
@@ -130,8 +132,14 @@ const StyledButton = styled.a`
   }
 `
 
-export const Header = () => {
+const externalForm: Record<Locale, string> = {
+  [defaultLocale]: 'https://forms.yandex.ru/u/691ac78c9029026ef94eb5d4',
+  [en]: 'https://forms.gle/n6mF4WvC64UKyEW37',
+}
+
+export const Header = memo(function Header() {
   const t = useTranslations('header')
+  const currentLocale = useLocale()
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
 
@@ -163,11 +171,11 @@ export const Header = () => {
 
       <RightBlock>
         <LocaleSelect />
-        <StyledButton href="https://forms.gle/n6mF4WvC64UKyEW37" target="_blank" rel="noopener noreferrer nofollow">
+        <StyledButton href={externalForm[currentLocale]} target="_blank" rel="noopener noreferrer nofollow">
           {t('btn')}
         </StyledButton>
         <BurgerMenu onClick={() => setMenuOpen(prev => !prev)}>{menuOpen ? <FiX /> : <FiMenu />}</BurgerMenu>
       </RightBlock>
     </Container>
   )
-}
+})
