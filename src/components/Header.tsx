@@ -7,6 +7,8 @@ import { useTranslations } from 'next-intl'
 import { maxDevice } from '@/styles/device'
 import { Link } from '@/i18n/navigation'
 import { FiMenu, FiX } from 'react-icons/fi'
+import { type Locale, useLocale } from 'next-intl'
+import { defaultLocale, en } from '@/i18n/constants'
 
 import { LocaleSelect } from '@/components/LocaleSelect'
 
@@ -132,6 +134,7 @@ const StyledButton = styled.a`
 
 export const Header = memo(function Header() {
   const t = useTranslations('header')
+  const currentLocale = useLocale()
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
 
