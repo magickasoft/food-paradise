@@ -25,6 +25,7 @@
     "title": "Page not found"
   },
   "header": {
-    "btn": "Suggest a recipe"
+    "btn": "Suggest a recipe",
+    "href": "https://forms.gle/n6mF4WvC64UKyEW37"
   }
 }
