@@ -5,6 +5,7 @@ import { memo, useCallback } from 'react'
 import { useTranslations } from 'next-intl'
 import { useMetrica } from '@artginzburg/next-ym'
 import { maxDevice } from '@/styles/device'
+import { debounce } from '@/helpers/debounce'
 
 const BUTTON_STYLES = {
   height: { default: 42, laptop: 36 },
@@ -55,9 +56,12 @@ export const SuggestRecipeButton = memo(function SuggestRecipeButton() {
   const t = useTranslations('suggestRecipe')
   const { reachGoal } = useMetrica()
 
-  const handleClick = useCallback(() => {
-    reachGoal?.('suggest_recipe')
-  }, [reachGoal])
+  const handleClick = useCallback(
+    debounce(() => {
+      reachGoal?.('suggest_recipe')
+    }, 5000),
+    [reachGoal],
+  )
 
   const titleText = t('title')
   const href = t('href')
