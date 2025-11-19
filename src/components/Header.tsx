@@ -3,12 +3,12 @@
 import styled from 'styled-components'
 import Image from 'next/image'
 import { useEffect, useState, memo } from 'react'
-import { useTranslations } from 'next-intl'
 import { maxDevice } from '@/styles/device'
 import { Link } from '@/i18n/navigation'
 import { FiMenu, FiX } from 'react-icons/fi'
 
 import { LocaleSelect } from '@/components/LocaleSelect'
+import { SuggestRecipeButton } from '@/components/SuggestRecipeButton'
 
 const Container = styled.header<{ $scrolled: boolean }>`
   background: #ffffff;
@@ -90,48 +90,8 @@ const RightBlock = styled.div`
   align-items: center;
   gap: 20px;
 `
-const StyledButton = styled.a`
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  height: 42px;
-  padding: 0 20px;
-  font-size: 16px;
-  font-weight: 500;
-  color: #ffffff;
-  background: linear-gradient(90deg, #ff6f61 0%, #ff8a7a 50%, #ff6f61 100%);
-  border-radius: 6px;
-  transition: all 0.25s ease;
-  text-decoration: none;
-  cursor: pointer;
-  white-space: nowrap;
-  position: relative;
-  overflow: hidden;
-  background-size: 200% 100%;
-
-  &:hover {
-    background-position: 100% 0;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(255, 111, 97, 0.4);
-  }
-
-  /* Альтернативный вариант с более выраженным градиентом */
-  /* background: linear-gradient(90deg, #ff5e4d 0%, #ff7c6b 50%, #ff5e4d 100%); */
-
-  @media ${maxDevice.laptop} {
-    height: 36px;
-    font-size: 14px;
-    padding: 0 16px;
-  }
-
-  @media ${maxDevice.mobileL} {
-    width: 100%;
-    justify-content: center;
-  }
-`
 
 export const Header = memo(function Header() {
-  const t = useTranslations('header')
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
 
@@ -163,9 +123,7 @@ export const Header = memo(function Header() {
 
       <RightBlock>
         <LocaleSelect />
-        <StyledButton href={t('href')} target="_blank" rel="noopener noreferrer nofollow">
-          {t('btn')}
-        </StyledButton>
+        <SuggestRecipeButton />
         <BurgerMenu onClick={() => setMenuOpen(prev => !prev)}>{menuOpen ? <FiX /> : <FiMenu />}</BurgerMenu>
       </RightBlock>
     </Container>
