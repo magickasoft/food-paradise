@@ -9,7 +9,7 @@ import { getMessages, setRequestLocale } from 'next-intl/server'
 import { YandexMetricaProvider } from '@artginzburg/next-ym'
 import { routing } from '@/i18n/routing'
 import { Header } from '@/components/Header'
-import { Footer } from '@/components/Footer'
+import { Footer } from '@/components/footer'
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] })
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] })
