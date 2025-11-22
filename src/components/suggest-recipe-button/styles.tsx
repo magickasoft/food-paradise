@@ -1,11 +1,7 @@
 'use client'
 
 import styled from 'styled-components'
-import { memo, useCallback } from 'react'
-import { useTranslations } from 'next-intl'
-import { useMetrica } from '@artginzburg/next-ym'
 import { maxDevice } from '@/styles/device'
-import { debounce } from '@/helpers/debounce'
 
 const BUTTON_STYLES = {
   height: { default: 42, laptop: 36 },
@@ -15,7 +11,7 @@ const BUTTON_STYLES = {
   shadow: '0 4px 12px rgba(255, 111, 97, 0.4)',
 } as const
 
-const StyledButton = styled.a`
+export const StyledButton = styled.a`
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -51,31 +47,3 @@ const StyledButton = styled.a`
     justify-content: center;
   }
 `
-
-export const SuggestRecipeButton = memo(function SuggestRecipeButton() {
-  const t = useTranslations('suggestRecipe')
-  const { reachGoal } = useMetrica()
-
-  const handleClick = useCallback(
-    debounce(() => {
-      reachGoal?.('suggest_recipe')
-    }, 5000),
-    [reachGoal],
-  )
-
-  const titleText = t('title')
-  const href = t('href')
-
-  return (
-    <StyledButton
-      onClick={handleClick}
-      href={href}
-      title={titleText}
-      aria-label={titleText}
-      target="_blank"
-      rel="noopener noreferrer nofollow"
-    >
-      {titleText}
-    </StyledButton>
-  )
-})

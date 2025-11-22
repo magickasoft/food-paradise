@@ -1,7 +1,8 @@
 'use client'
 
-import { RECIPES_OBJ } from '@/constants/recipes/recipes'
+import { memo } from 'react'
 import styled from 'styled-components'
+import { TotalRecipes } from '@/components/TotalRecipes'
 
 const Container = styled.footer`
   background: #ffffff;
@@ -42,21 +43,7 @@ const Links = styled.nav`
   }
 `
 
-const FooterCounter = styled.div`
-  font-size: 12px;
-  color: #333;
-  margin-top: 4px;
-
-  @media (min-width: 600px) {
-    margin-top: 0;
-  }
-`
-
-export const Footer = () => {
-  const recipesCount = Object.values(RECIPES_OBJ).reduce((acc, recipes) => {
-    return acc + recipes.length
-  }, 0)
-
+export const Footer = memo(function Footer() {
   const policyLinks = [
     {
       label: 'Политика в отношении обработки персональных данных',
@@ -86,7 +73,7 @@ export const Footer = () => {
           )
         })}
       </Links>
-      <FooterCounter>{`Всего рецептов: ${recipesCount}`}</FooterCounter>
+      <TotalRecipes />
     </Container>
   )
-}
+})
