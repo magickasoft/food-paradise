@@ -27,5 +27,8 @@
   "suggestRecipe": {
     "title": "Suggest a recipe",
     "href": "https://forms.gle/n6mF4WvC64UKyEW37"
+  },
+  "totalRecipes": {
+    "title": "Total recipes: {count}"
   }
 }

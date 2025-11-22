@@ -8,7 +8,7 @@ import { Link } from '@/i18n/navigation'
 import { FiMenu, FiX } from 'react-icons/fi'
 
 import { LocaleSelect } from '@/components/LocaleSelect'
-import { SuggestRecipeButton } from '@/components/SuggestRecipeButton'
+import { SuggestRecipeButton } from '@/components/suggest-recipe-button'
 
 const Container = styled.header<{ $scrolled: boolean }>`
   background: #ffffff;
