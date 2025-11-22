@@ -27,5 +27,11 @@
   "suggestRecipe": {
     "title": "Suggest a recipe",
     "href": "https://forms.gle/n6mF4WvC64UKyEW37"
+  },
+  "totalRecipes": {
+    "title": "Total recipes: {count}"
+  },
+  "copyright": {
+    "text": "©, {text} {url} Any use of content without written permission from {url} is prohibited. Age restriction 16+"
   }
 }

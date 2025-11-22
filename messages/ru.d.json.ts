@@ -31,5 +31,11 @@ declare const messages: {
     title: 'Предложить рецепт'
     href: 'https://forms.yandex.ru/u/691ac78c9029026ef94eb5d4'
   }
+  totalRecipes: {
+    title: 'Всего рецептов: {count}'
+  }
+  copyright: {
+    text: '©, {text} {url} Любое использование контента без письменного разрешения {url} запрещено. Возрастное ограничение 16+'
+  }
 }
 export default messages
