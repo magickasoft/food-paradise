@@ -19,12 +19,11 @@ export const SuggestRecipeButton = memo(function SuggestRecipeButton() {
   )
 
   const title = t('title')
-  const href = t('href')
 
   return (
     <StyledButton
       onClick={handleClick}
-      href={href}
+      href={t('href')}
       title={title}
       aria-label={title}
       target="_blank"

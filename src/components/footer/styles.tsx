@@ -15,38 +15,11 @@ export const StyledFooter = styled.footer`
   color: #181818;
   min-height: 100px;
 
-  padding: 0 100px;
+  padding: 8px 100px;
   font-size: 14px;
   border-top: 1px solid #eaeaea;
 
   @media ${maxDevice.laptop} {
-    padding: 0 20px;
-  }
-`
-
-export const StyledNav = styled.nav`
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 16px;
-`
-
-export const Link = styled.a`
-  color: #181818;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 1rem;
-  padding: 8px 0;
-  line-height: 1.5;
-  display: inline-block;
-
-  @media (pointer: coarse) {
-    a {
-      padding: 10px 6px;
-    }
-  }
-
-  &:hover {
-    text-decoration: underline;
+    padding: 8px 20px;
   }
 `

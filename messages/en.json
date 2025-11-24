@@ -33,5 +33,19 @@
   },
   "copyright": {
     "text": "©, {text} {url} Any use of content without written permission from {url} is prohibited. Age restriction 16+"
+  },
+  "docs": {
+    "doc1": {
+      "title": "Personal Data Processing Policy",
+      "href": "https://docs.google.com/document/d/1cpOXQMNeexyKuseOEj7wemK7fRfGrccXJLRmgiDGfUA"
+    },
+    "doc2": {
+      "title": "User Agreement",
+      "href": "https://docs.google.com/document/d/1V7UjGl5E73HLNgArQi8uUGCxVUiH1_56g28HEB_ZwYU"
+    },
+    "doc3": {
+      "title": "Cookie Policy",
+      "href": "https://docs.google.com/document/d/1fyIAFDSN-4LnDZbdQq4r82ghddvpsZkwO49Sb4Yga_Y"
+    }
   }
 }
