@@ -16,8 +16,6 @@ const AnotherRecipesContainer = styled.section`
 `
 
 export function AnotherRecipesBlock({ recipes }: { recipes: Recipe[] }) {
-  console.log('AnotherRecipesBlock render', recipes)
-
   if (recipes === undefined || recipes?.length === 0) {
     return null
   }
