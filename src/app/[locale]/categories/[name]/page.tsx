@@ -1,4 +1,4 @@
-import { use } from 'react' // Import the use hook
+import { use } from 'react'
 import { PageWrapper } from '@/components/PageWrapper'
 import { RECIPES_OBJ } from '@/constants/recipes/recipes'
 import { AdaptiveRecipeCard } from '@/components/Cards/AdaptiveRecipeCard'
