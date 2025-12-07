@@ -1,38 +1,28 @@
-'use client'
-
 import { PageWrapper } from '@/components/PageWrapper'
 import { RECIPES_OBJ } from '@/constants/recipes/recipes'
-import { RecipeCard } from '@/components/Cards/RecipeCard'
-import { use } from 'react' // Import the use hook
-import styled from 'styled-components'
-import { useIsMobile } from '@/components/hooks/useIsMobile.client'
+import { AdaptiveRecipeCard } from '@/components/Cards/AdaptiveRecipeCard'
+import { Grid } from '@/components/Cards/Grid'
+import { use } from 'react'
 
-const Cards = styled.div`
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  justify-items: center;
-  width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 10px;
-  box-sizing: border-box;
-  overflow-x: hidden;
-`
+export async function generateStaticParams() {
+  const categoryNames = Object.keys(RECIPES_OBJ)
+
+  return categoryNames.map(name => ({
+    name,
+  }))
+}
 
 export default function CategoryPage({ params }: { params: Promise<{ name: string }> }) {
   const resolvedParams = use(params) // Unwrap the Promise
   const recipes = resolvedParams.name ? RECIPES_OBJ[resolvedParams.name] : []
-  const isMobile = useIsMobile()
-  const variant = isMobile ? 'full' : 'base'
 
   return (
     <PageWrapper>
-      <Cards>
+      <Grid>
         {recipes?.map(({ key, ...current }) => {
-          return <RecipeCard key={key} {...current} variant={variant} />
+          return <AdaptiveRecipeCard key={key} {...current} />
         })}
-      </Cards>
+      </Grid>
     </PageWrapper>
   )
 }

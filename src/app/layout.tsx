@@ -12,14 +12,16 @@ export interface RootLayoutProps {
 
 export default function RootLayout({ children }: Readonly<RootLayoutProps>) {
   return (
-    <>
-      <CookiesProvider>
-        <GlobalStyle />
-        <StyledComponentsRegistry>
-          <>{children}</>
-          <CookieNotice />
-        </StyledComponentsRegistry>
-      </CookiesProvider>
-    </>
+    <html suppressHydrationWarning>
+      <body suppressHydrationWarning>
+        <CookiesProvider>
+          <GlobalStyle />
+          <StyledComponentsRegistry>
+            <>{children}</>
+            <CookieNotice />
+          </StyledComponentsRegistry>
+        </CookiesProvider>
+      </body>
+    </html>
   )
 }

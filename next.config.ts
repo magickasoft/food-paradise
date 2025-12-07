@@ -10,20 +10,30 @@ const withNextIntl = createNextIntlPlugin({
 })
 
 const config: NextConfig = {
+  // Включаем статический экспорт
+  output: 'export',
+  // Опциональные настройки для чистых URL
+  trailingSlash: true, // @5
+  // Отключаем оптимизацию изображений для статического экспорта
+  images: {
+    unoptimized: true, // @5
+  },
+
   reactStrictMode: true,
   compiler: {
     removeConsole: !isDevelopment ? { exclude: ['error', 'warn'] } : false,
     reactRemoveProperties: { properties: ['^data-test$'] },
     styledComponents: {
-      ssr: true,
+      ssr: false,
       displayName: isDevelopment,
       minify: true,
     },
   },
-  onDemandEntries: {
-    maxInactiveAge: 1000 * 60 * 60,
-    pagesBufferLength: 5,
-  },
+  // onDemandEntries несовместим со статическим экспортом
+  // onDemandEntries: {
+  //   maxInactiveAge: 1000 * 60 * 60,
+  //   pagesBufferLength: 5,
+  // },
 }
 
 export default withNextIntl(config)
