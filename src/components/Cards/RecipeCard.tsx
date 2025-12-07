@@ -86,7 +86,7 @@ const CharItem = styled.div`
   gap: 4px;
 `
 
-type RecipeCardProps = {
+export type RecipeCardProps = {
   name: string
   img: string | null
   title: string
