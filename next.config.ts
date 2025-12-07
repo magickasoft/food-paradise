@@ -24,7 +24,7 @@ const config: NextConfig = {
     removeConsole: !isDevelopment ? { exclude: ['error', 'warn'] } : false,
     reactRemoveProperties: { properties: ['^data-test$'] },
     styledComponents: {
-      ssr: false,
+      ssr: true,
       displayName: isDevelopment,
       minify: true,
     },
