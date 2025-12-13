@@ -4,6 +4,8 @@ import { paths } from '@/i18n/paths'
 import type { Href } from '@/i18n/createUrl'
 import { createEntity } from '@/i18n/createEntity'
 
+export const dynamic = 'force-static'
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const values = Object.values(paths)
 
