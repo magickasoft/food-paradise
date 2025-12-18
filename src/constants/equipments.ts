@@ -1,4 +1,5 @@
 import blender from '../jsons/equipments/appliances/blender.json'
+import handMixer from '../jsons/equipments/appliances/hand-mixer.json'
 import microwave from '../jsons/equipments/appliances/microwave.json'
 import oven from '../jsons/equipments/appliances/oven.json'
 import cutBoard from '../jsons/equipments/cut-board.json'
@@ -13,9 +14,11 @@ import fork from '../jsons/equipments/fork.json'
 import grater from '../jsons/equipments/grater.json'
 import grill from '../jsons/equipments/grill.json'
 import knife from '../jsons/equipments/knife.json'
+import parchment from '../jsons/equipments/parchment.json'
+import rollingPin from '../jsons/equipments/rolling-pin.json'
 import measuringSpoon from '../jsons/equipments/measuring-spoon.json'
 import paperTowel from '../jsons/equipments/paper-towel.json'
-import pastryBrush from '../jsons/equipments/pastry-brush.json'
+import brush from '../jsons/equipments/brush.json'
 import skewers from '../jsons/equipments/skewers.json'
 import spatula from '../jsons/equipments/spatula.json'
 import spoon from '../jsons/equipments/spoon.json'
@@ -29,12 +32,14 @@ import fridge from '../jsons/equipments/appliances/fridge.json'
 import skimmer from '../jsons/equipments/skimmer.json'
 import bottle from '../jsons/equipments/dishes/bottle.json'
 import jar from '../jsons/equipments/dishes/jar.json'
+import cookieCutters from '../jsons/equipments/dishes/cookie-cutters.json'
 
 const APPLIANCES = {
   microwave,
   blender,
   oven,
   fridge,
+  handMixer,
 }
 
 const DISHES = {
@@ -50,6 +55,7 @@ const DISHES = {
   mortar,
   bottle,
   jar,
+  cookieCutters,
 }
 
 export const EQUIPMENTS = {
@@ -59,8 +65,10 @@ export const EQUIPMENTS = {
   whisk,
   fork,
   knife,
+  rollingPin,
+  parchment,
   grater,
-  pastryBrush,
+  brush,
   cutBoard,
   spoon,
   woodenSpoon,
