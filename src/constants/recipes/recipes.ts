@@ -1,7 +1,7 @@
 import { BREAKFAST } from './breakfast'
 import { DESSERT } from './dessert'
 import { DINNER } from './dinner'
-import { REFRESHING_DRINKS } from './refreshingDrinks'
+import { REFRESHING_DRINKS } from './refreshing-drinks'
 
 import { GRILL } from './grill'
 
@@ -10,8 +10,8 @@ import { SALADS } from './salads'
 import { SNACKS } from './snacks'
 
 import { SUPPER } from './supper'
-import { NEW_YEAR } from './newYear'
-import { HOMEMADE_ALCOHOL } from './homemadeAlcohol'
+import { NEW_YEAR } from './new-year'
+import { HOMEMADE_ALCOHOL } from './homemade-alcohol'
 
 export enum RecipeCategories {
   BREAKFAST = 'breakfast',
@@ -23,9 +23,9 @@ export enum RecipeCategories {
   GRILL = 'grill',
   NEW_YEAR = 'newYear',
   SALADS = 'salads',
-  REFRESHING_DRINKS = 'refreshingDrinks',
-  ALCOHOLIC_DRINKS = 'alcoholicDrinks',
-  HOMEMADE_ALCOHOL = 'homemadeAlcohol',
+  REFRESHING_DRINKS = 'refreshing-drinks',
+  ALCOHOLIC_DRINKS = 'alcoholic-drinks',
+  HOMEMADE_ALCOHOL = 'homemade-alcohol',
 }
 
 export interface MetaSeo {
@@ -94,8 +94,8 @@ export const RECIPES_OBJ: {
   dessert: [...DESSERT],
   snacks: [...SNACKS],
   grill: [...GRILL],
-  newYear: [...NEW_YEAR],
+  'new-year': [...NEW_YEAR],
   salads: [...SALADS],
-  homemadeAlcohol: [...HOMEMADE_ALCOHOL],
-  refreshingDrinks: [...REFRESHING_DRINKS],
+  'homemade-alcohol': [...HOMEMADE_ALCOHOL],
+  'refreshing-drinks': [...REFRESHING_DRINKS],
 }
