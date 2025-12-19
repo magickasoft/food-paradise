@@ -11,7 +11,7 @@ type Props = {
 }
 
 export async function generateStaticParams() {
-  return locales.map(locale => ({ locale, rest: [] }))
+  return locales.map(locale => ({ locale }))
 }
 
 export default function IndexPage({ params }: Props) {
