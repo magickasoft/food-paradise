@@ -6,6 +6,8 @@ import StyledComponentsRegistry from '@/components/styled-components/registry'
 import { CookieNotice } from '@/components/CookieNotice'
 import { CookiesProvider } from 'react-cookie'
 
+export const dynamic = 'force-static'
+
 export interface RootLayoutProps {
   children: ReactNode
 }
