@@ -2,6 +2,9 @@ import type { NextConfig } from 'next'
 import createNextIntlPlugin from 'next-intl/plugin'
 
 const isDevelopment = process.env.NODE_ENV === 'development'
+const isGithubActions = process.env.GITHUB_ACTIONS === 'true'
+
+const repoName = 'food-paradise'
 
 const withNextIntl = createNextIntlPlugin({
   experimental: {
@@ -10,13 +13,12 @@ const withNextIntl = createNextIntlPlugin({
 })
 
 const config: NextConfig = {
-  // Включаем статический экспорт
-  output: 'export',
-  // Опциональные настройки для чистых URL
-  trailingSlash: true, // @5
-  // Отключаем оптимизацию изображений для статического экспорта
+  output: 'export', // Включаем статический экспорт
+  basePath: isGithubActions ? `/${repoName}` : '', // Задает путь для GitHub Pages
+  assetPrefix: isGithubActions ? `/${repoName}/` : '', // Гарантирует правильную загрузку ресурсов
+  trailingSlash: true, // Опциональные настройки для чистых URL
   images: {
-    unoptimized: true, // @5
+    unoptimized: true, // Отключаем оптимизацию изображений для статического экспорта
   },
 
   reactStrictMode: true,
