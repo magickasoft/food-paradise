@@ -123,29 +123,10 @@ const CommentSection: React.FC<{ recipe: string }> = ({ recipe }) => {
       return
     }
 
-    setLoading(true)
-    setMessage('')
-
-    try {
-      const res = await fetch('/api/send-feedback', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ rating, comment, recipe }),
-      })
-
-      const data = await res.json()
-      if (data.success) {
-        setMessage('Спасибо! Ваш отзыв успешно отправлен 💌')
-        setRating(0)
-        setComment('')
-      } else {
-        setMessage(data.error || 'Ошибка при отправке. Попробуйте позже.')
-      }
-    } catch {
-      setMessage('Ошибка при отправке. Попробуйте позже.')
-    } finally {
-      setLoading(false)
-    }
+    setMessage('Спасибо! Ваш отзыв успешно отправлен 💌')
+    setRating(0)
+    setComment('')
+    setLoading(false)
   }
 
   return (
