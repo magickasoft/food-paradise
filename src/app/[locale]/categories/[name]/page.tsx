@@ -1,8 +1,16 @@
+import { use } from 'react'
 import { PageWrapper } from '@/components/PageWrapper'
 import { RECIPES_OBJ } from '@/constants/recipes/recipes'
-import { use } from 'react' // Import the use hook
 import { AdaptiveRecipeCard } from '@/components/Cards/AdaptiveRecipeCard'
 import { Grid } from '@/components/Cards/Grid'
+
+export async function generateStaticParams() {
+  const categoryNames = Object.keys(RECIPES_OBJ)
+
+  return categoryNames.map(name => ({
+    name,
+  }))
+}
 
 export default function CategoryPage({ params }: { params: Promise<{ name: string }> }) {
   const resolvedParams = use(params) // Unwrap the Promise
