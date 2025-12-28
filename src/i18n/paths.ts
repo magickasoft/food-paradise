@@ -113,6 +113,22 @@ const recipePaths = {
   '/recipe/sendvich-s-avokado-i-yaitsom-pashot': createPaths('/recipe/sendvich-s-avokado-i-yaitsom-pashot'),
   '/recipe/grecheskiy-sendvich-s-fetoy': createPaths('/recipe/grecheskiy-sendvich-s-fetoy'),
   '/recipe/sendvich-s-kuritsey-i-pesto': createPaths('/recipe/sendvich-s-kuritsey-i-pesto'),
+  '/recipe/lemoncello-vodka': createPaths('/recipe/lemoncello-vodka'),
+  '/recipe/cranberry-vodka': createPaths('/recipe/cranberry-vodka'),
+  '/recipe/cherry-vodka': createPaths('/recipe/cherry-vodka'),
+  '/recipe/hrenovukha': createPaths('/recipe/hrenovukha'),
+  '/recipe/salat-olivye': createPaths('/recipe/salat-olivye'),
+  '/recipe/krabovyy-salat': createPaths('/recipe/krabovyy-salat'),
+  '/recipe/selodka-pod-shuboy': createPaths('/recipe/selodka-pod-shuboy'),
+  '/recipe/salat-mimosa': createPaths('/recipe/salat-mimosa'),
+  '/recipe/salat-s-kuritsey-i-ananasami': createPaths('/recipe/salat-s-kuritsey-i-ananasami'),
+  '/recipe/salat-obzhorka': createPaths('/recipe/salat-obzhorka'),
+  '/recipe/salat-s-yazykom-i-gribami': createPaths('/recipe/salat-s-yazykom-i-gribami'),
+  '/recipe/salat-s-krasnoy-ryboy-i-avokado': createPaths('/recipe/salat-s-krasnoy-ryboy-i-avokado'),
+  '/recipe/zapechonnaya-kuritsa-tselikom': createPaths('/recipe/zapechonnaya-kuritsa-tselikom'),
+  '/recipe/tartaletki-s-ikroy': createPaths('/recipe/tartaletki-s-ikroy'),
+  '/recipe/tartaletki-s-kuritsey-i-gribami': createPaths('/recipe/tartaletki-s-kuritsey-i-gribami'),
+  '/recipe/novogodneye-pechenye-s-glazuryu': createPaths('/recipe/novogodneye-pechenye-s-glazuryu'),
 } as const
 
 export const paths = {

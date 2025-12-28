@@ -773,7 +773,7 @@ export const DINNER = [
       EQUIPMENTS.blender,
       EQUIPMENTS.oven,
       EQUIPMENTS.bakingTray,
-      EQUIPMENTS.pastryBrush,
+      EQUIPMENTS.brush,
     ],
     cookingRecipe: [
       {

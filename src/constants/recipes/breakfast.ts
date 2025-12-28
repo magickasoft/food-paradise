@@ -2512,7 +2512,7 @@ export const BREAKFAST = [
       EQUIPMENTS.sieve,
       EQUIPMENTS.pan,
       EQUIPMENTS.ladle,
-      EQUIPMENTS.pastryBrush,
+      EQUIPMENTS.brush,
     ],
     cookingRecipe: [
       {

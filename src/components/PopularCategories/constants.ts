@@ -52,8 +52,8 @@ export const OTHER_CATEGORIES_ARR = [
     color: '#FFD8D8',
   },
   {
-    key: 'refreshingDrinks',
-    name: 'refreshingDrinks',
+    key: 'refreshing-drinks',
+    name: 'refreshing-drinks',
     label: 'Освежающие напитки',
     img: '/static/categories-imgs/refreshingDrinks.jpeg',
     color: '#ECEBE7',

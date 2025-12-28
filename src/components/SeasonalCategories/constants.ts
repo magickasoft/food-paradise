@@ -1,7 +1,7 @@
 export const SEASONAL_CATEGORIES_ARR = [
   {
-    key: 'newYear',
-    name: 'newYear',
+    key: 'new-year',
+    name: 'new-year',
     label: 'Новый Год',
     img: '/static/categories-imgs/newYear.jpeg',
     color: '#FFD8D8',
@@ -14,8 +14,8 @@ export const SEASONAL_CATEGORIES_ARR = [
     color: '#FAE7C9',
   },
   {
-    key: 'homemadeAlcohol',
-    name: 'homemadeAlcohol',
+    key: 'homemade-alcohol',
+    name: 'homemade-alcohol',
     label: 'Домашние настойки',
     img: '/static/categories-imgs/homemadeAlcohol.jpeg',
     color: '#ECEBE7',
