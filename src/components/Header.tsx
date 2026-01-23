@@ -82,10 +82,6 @@ const DesktopNav = styled.nav`
       transform: scaleX(1);
     }
 
-    &.active {
-      color: #ff6f61;
-    }
-
     &.active::after {
       transform: scaleX(1);
     }
