@@ -110,42 +110,49 @@ const CommentSection: React.FC<{ recipe: string }> = ({ recipe }) => {
   const [message, setMessage] = useState('')
   const maxChars = 300
 
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault()
+
+  //   if (!rating || !comment.trim()) {
+  //     setMessage('Пожалуйста, укажите оценку и комментарий.')
+  //     return
+  //   }
+
+  //   if (comment.length < 5) {
+  //     setMessage('Комментарий должен содержать хотя бы 5 символов.')
+  //     return
+  //   }
+
+  //   setLoading(true)
+  //   setMessage('')
+
+  //   try {
+  //     const res = await fetch('/api/send-feedback', {
+  //       method: 'POST',
+  //       headers: { 'Content-Type': 'application/json' },
+  //       body: JSON.stringify({ rating, comment, recipe }),
+  //     })
+
+  //     const data = await res.json()
+  //     if (data.success) {
+  //       setMessage('Спасибо! Ваш отзыв успешно отправлен 💌')
+  //       setRating(0)
+  //       setComment('')
+  //     } else {
+  //       setMessage(data.error || 'Ошибка при отправке. Попробуйте позже.')
+  //     }
+  //   } catch {
+  //     setMessage('Ошибка при отправке. Попробуйте позже.')
+  //   } finally {
+  //     setLoading(false)
+  //   }
+  // }
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-
-    if (!rating || !comment.trim()) {
-      setMessage('Пожалуйста, укажите оценку и комментарий.')
-      return
-    }
-
-    if (comment.length < 5) {
-      setMessage('Комментарий должен содержать хотя бы 5 символов.')
-      return
-    }
-
-    setLoading(true)
-    setMessage('')
-
-    try {
-      const res = await fetch('/api/send-feedback', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ rating, comment, recipe }),
-      })
-
-      const data = await res.json()
-      if (data.success) {
-        setMessage('Спасибо! Ваш отзыв успешно отправлен 💌')
-        setRating(0)
-        setComment('')
-      } else {
-        setMessage(data.error || 'Ошибка при отправке. Попробуйте позже.')
-      }
-    } catch {
-      setMessage('Ошибка при отправке. Попробуйте позже.')
-    } finally {
-      setLoading(false)
-    }
+    setRating(0)
+    setComment('')
+    setMessage('Спасибо за ваш отзыв.')
   }
 
   return (
