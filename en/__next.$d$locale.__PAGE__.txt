@@ -1,0 +1,7 @@
+1:"$Sreact.fragment"
+2:I[15866,["/food-paradise/_next/static/chunks/5f89808e28cb236e.js","/food-paradise/_next/static/chunks/a0c8fb43baf1a50f.js","/food-paradise/_next/static/chunks/c41639831008b131.js","/food-paradise/_next/static/chunks/71fa84bdcb9a556a.js","/food-paradise/_next/static/chunks/8d2db41f27894740.js","/food-paradise/_next/static/chunks/72b839dcb5d5f79b.js","/food-paradise/_next/static/chunks/19cc65517635cd3b.js","/food-paradise/_next/static/chunks/e7315989d941f964.js"],"SeasonalCategories"]
+3:I[89938,["/food-paradise/_next/static/chunks/5f89808e28cb236e.js","/food-paradise/_next/static/chunks/a0c8fb43baf1a50f.js","/food-paradise/_next/static/chunks/c41639831008b131.js","/food-paradise/_next/static/chunks/71fa84bdcb9a556a.js","/food-paradise/_next/static/chunks/8d2db41f27894740.js","/food-paradise/_next/static/chunks/72b839dcb5d5f79b.js","/food-paradise/_next/static/chunks/19cc65517635cd3b.js","/food-paradise/_next/static/chunks/e7315989d941f964.js"],"PopularCategories"]
+4:I[97367,["/food-paradise/_next/static/chunks/208d109d56c94dec.js","/food-paradise/_next/static/chunks/23a789117d71beba.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+0:{"buildId":"B2nSJL7KbBGZB3H41w1yA","rsc":["$","$1","c",{"children":[[["$","$L2",null,{}],["$","$L3",null,{}]],[["$","script","script-0",{"src":"/food-paradise/_next/static/chunks/e7315989d941f964.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null
