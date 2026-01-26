@@ -9,7 +9,7 @@ import { FiMenu, FiX } from 'react-icons/fi'
 
 import { LocaleSelect } from '@/components/LocaleSelect'
 import { SuggestRecipeButton } from '@/components/suggest-recipe-btn'
-import { SupportProjectButton } from './support-project-btn/suggest-recipe-btn'
+// import { SupportProjectButton } from './support-project-btn/suggest-recipe-btn'
 
 const Container = styled.header<{ $scrolled: boolean }>`
   background: #ffffff;
@@ -196,7 +196,7 @@ export const Header = memo(function Header() {
         <RightBlock>
           <LocaleSelect />
           <SuggestRecipeButton />
-          <SupportProjectButton />
+          {/* <SupportProjectButton /> */}
         </RightBlock>
 
         <BurgerButton onClick={() => setMenuOpen(prev => !prev)}>{menuOpen ? <FiX /> : <FiMenu />}</BurgerButton>
@@ -216,7 +216,7 @@ export const Header = memo(function Header() {
         <Section>
           <SectionTitle>Действия</SectionTitle>
           <SuggestRecipeButton />
-          <SupportProjectButton />
+          {/* <SupportProjectButton /> */}
         </Section>
 
         <Section>

@@ -106,7 +106,7 @@ const CommentSection: React.FC<{ recipe: string }> = ({ recipe }) => {
   const [rating, setRating] = useState(0)
   const [hover, setHover] = useState<number | null>(null)
   const [comment, setComment] = useState('')
-  const [loading, setLoading] = useState(false)
+  // const [loading, setLoading] = useState(false)
   const [message, setMessage] = useState('')
   const maxChars = 300
 
@@ -181,9 +181,11 @@ const CommentSection: React.FC<{ recipe: string }> = ({ recipe }) => {
         />
         <CharCounter>Осталось {maxChars - comment.length} символов</CharCounter>
 
-        <SubmitButton type="submit" disabled={loading}>
+        {/* <SubmitButton type="submit" disabled={loading}>
           {loading ? 'Отправка...' : 'Отправить'}
-        </SubmitButton>
+        </SubmitButton> */}
+
+        <SubmitButton type="submit">'Отправить'</SubmitButton>
 
         {message && <Message>{message}</Message>}
       </Form>
