@@ -2,5 +2,5 @@
 2:"$Sreact.suspense"
 3:I[81445,["/food-paradise/_next/static/chunks/5f89808e28cb236e.js","/food-paradise/_next/static/chunks/a0c8fb43baf1a50f.js","/food-paradise/_next/static/chunks/244ebe1fe8a69498.js"],"default"]
 4:I[97367,["/food-paradise/_next/static/chunks/208d109d56c94dec.js","/food-paradise/_next/static/chunks/23a789117d71beba.js"],"OutletBoundary"]
-0:{"buildId":"Q7T9D7rrcp-_nXRB1rCXh","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"children":"Loading..."}],"children":["$","$L3",null,{}]}],[["$","script","script-0",{"src":"/food-paradise/_next/static/chunks/244ebe1fe8a69498.js","async":true}]],["$","$L4",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"uqCUlJxfE8v1CcNBJHWcY","rsc":["$","$1","c",{"children":[["$","$2",null,{"fallback":["$","div",null,{"children":"Loading..."}],"children":["$","$L3",null,{}]}],[["$","script","script-0",{"src":"/food-paradise/_next/static/chunks/244ebe1fe8a69498.js","async":true}]],["$","$L4",null,{"children":["$","$2",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
 5:null
