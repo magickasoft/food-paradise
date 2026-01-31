@@ -1,4 +1,4 @@
 1:"$Sreact.fragment"
 2:I[39756,["/food-paradise/_next/static/chunks/208d109d56c94dec.js","/food-paradise/_next/static/chunks/23a789117d71beba.js"],"default"]
 3:I[37457,["/food-paradise/_next/static/chunks/208d109d56c94dec.js","/food-paradise/_next/static/chunks/23a789117d71beba.js"],"default"]
-0:{"buildId":"uqCUlJxfE8v1CcNBJHWcY","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"NJtu4cwH2qAj7WZeqWmMk","rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"loading":null,"isPartial":false}
