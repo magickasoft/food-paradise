@@ -9,7 +9,7 @@ import { FiMenu, FiX } from 'react-icons/fi'
 
 import { LocaleSelect } from '@/components/LocaleSelect'
 import { SuggestRecipeButton } from '@/components/suggest-recipe-btn'
-// import { SupportProjectButton } from './support-project-btn/suggest-recipe-btn'
+import { SupportProjectButton } from './support-project-btn/suggest-recipe-btn'
 
 const Container = styled.header<{ $scrolled: boolean }>`
   background: #ffffff;
@@ -158,6 +158,26 @@ const SectionTitle = styled.span`
   letter-spacing: 0.05em;
 `
 
+const Text = styled.span`
+  font-family: 'PT Serif', 'Times New Roman', serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  color: #4a1f0f;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+
+  span:last-child {
+    color: #f28c28;
+  }
+
+  @media ${maxDevice.laptop} {
+    font-size: 20px;
+  }
+`
+
 export const Header = memo(function Header() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
@@ -179,7 +199,10 @@ export const Header = memo(function Header() {
       <Container $scrolled={scrolled}>
         <LeftBlock>
           <Link href="/" locale="ru">
-            <Image src="/static/logo.png" alt="logo" width={42} height={42} priority />
+            <Image src="/static/logo.png" alt="logo" width={120} height={60} priority />
+            <Text>
+              Всегда Готов<span>Ъ</span>
+            </Text>
           </Link>
         </LeftBlock>
 
@@ -196,7 +219,7 @@ export const Header = memo(function Header() {
         <RightBlock>
           <LocaleSelect />
           <SuggestRecipeButton />
-          {/* <SupportProjectButton /> */}
+          <SupportProjectButton />
         </RightBlock>
 
         <BurgerButton onClick={() => setMenuOpen(prev => !prev)}>{menuOpen ? <FiX /> : <FiMenu />}</BurgerButton>
@@ -216,7 +239,7 @@ export const Header = memo(function Header() {
         <Section>
           <SectionTitle>Действия</SectionTitle>
           <SuggestRecipeButton />
-          {/* <SupportProjectButton /> */}
+          <SupportProjectButton />
         </Section>
 
         <Section>
