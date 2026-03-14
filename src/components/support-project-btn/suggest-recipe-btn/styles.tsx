@@ -1,6 +1,5 @@
 'use client'
 
-import { memo, useState } from 'react'
 import styled from 'styled-components'
 import { maxDevice } from '@/styles/device'
 
