@@ -3,7 +3,6 @@
 import { memo, useState } from 'react'
 import styled from 'styled-components'
 import { maxDevice } from '@/styles/device'
-import { StyledButton as OriginalStyledButton } from './styles'
 
 const BUTTON_STYLES = {
   height: { default: 42, laptop: 36 },
