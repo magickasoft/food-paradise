@@ -179,7 +179,7 @@
     font-size: 20px;
     text-align: center;
   }
-`;e.s(["SeasonalCategories",0,()=>(0,i.jsx)(r,{id:"techStacks",children:(0,i.jsxs)(l,{children:[(0,i.jsx)(c,{children:"СЕЗОННЫЕ КАТЕГОРИИ"}),(0,i.jsx)(s,{children:o.SEASONAL_CATEGORIES_ARR.map(({key:e,...t})=>(0,i.jsx)(a.CategoryCard,{...t,variant:"large"},e))})]})})])},89938,e=>{"use strict";var i=e.i(43476),t=e.i(97053),a=e.i(50506),o=e.i(37828),n=e.i(1958),r=e.i(95631),s=e.i(4529),l=e.i(60777);let c=t.default.section.withConfig({componentId:"sc-5c000b8d-0"})`
+`;e.s(["SeasonalCategories",0,()=>(0,i.jsx)(r,{children:(0,i.jsxs)(l,{children:[(0,i.jsx)(c,{children:"СЕЗОННЫЕ КАТЕГОРИИ"}),(0,i.jsx)(s,{children:o.SEASONAL_CATEGORIES_ARR.map(({key:e,...t})=>(0,i.jsx)(a.CategoryCard,{...t,variant:"large"},e))})]})})])},89938,e=>{"use strict";var i=e.i(43476),t=e.i(97053),a=e.i(50506),o=e.i(37828),n=e.i(1958),r=e.i(95631),s=e.i(4529),l=e.i(60777);let c=t.default.section.withConfig({componentId:"sc-5c000b8d-0"})`
   min-height: 300px;
   max-width: 1920px;
   overflow: hidden;
@@ -219,4 +219,4 @@
   @media ${s.maxDevice.tablet} {
     width: 100%;
   }
-`;e.s(["PopularCategories",0,()=>(0,i.jsx)(c,{id:"techStacks",children:(0,i.jsxs)(d,{children:[(0,i.jsx)(p,{children:"ПОПУЛЯРНЫЕ КАТЕГОРИИ"}),o.CATEGORIES_ARR.map(({name:e,key:t,...o})=>{let s=r.RECIPES_OBJ[e]?.slice(0,10)||[];return(0,i.jsxs)(g,{children:[(0,i.jsx)(x,{children:(0,i.jsx)(n.CategoryCard,{name:e,...o,variant:"slider"},t||e)}),s.length>0&&(0,i.jsx)(l.RecipesScroll,{children:s.map(({key:e,name:t,...o})=>(0,i.jsx)(a.RecipeCard,{name:t,...o},e||t))})]},t||e)})]})})])}]);
+`;e.s(["PopularCategories",0,()=>(0,i.jsx)(c,{children:(0,i.jsxs)(d,{children:[(0,i.jsx)(p,{children:"ПОПУЛЯРНЫЕ КАТЕГОРИИ"}),o.CATEGORIES_ARR.map(({name:e,key:t,...o})=>{let s=r.RECIPES_OBJ[e]?.slice(0,10)||[];return(0,i.jsxs)(g,{children:[(0,i.jsx)(x,{children:(0,i.jsx)(n.CategoryCard,{name:e,...o,variant:"slider"},t||e)}),s.length>0&&(0,i.jsx)(l.RecipesScroll,{children:s.map(({key:e,name:t,...o})=>(0,i.jsx)(a.RecipeCard,{name:t,...o},e||t))})]},t||e)})]})})])}]);
