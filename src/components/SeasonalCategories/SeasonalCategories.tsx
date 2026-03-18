@@ -41,7 +41,7 @@ const Title = styled.h2`
 
 export const SeasonalCategories = () => {
   return (
-    <Container id="techStacks">
+    <Container>
       <Content>
         <Title>СЕЗОННЫЕ КАТЕГОРИИ</Title>
         <Grid>
