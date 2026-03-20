@@ -185,7 +185,7 @@ const CommentSection: React.FC<{ recipe: string }> = ({ recipe }) => {
           {loading ? 'Отправка...' : 'Отправить'}
         </SubmitButton> */}
 
-        <SubmitButton type="submit">'Отправить'</SubmitButton>
+        <SubmitButton type="submit">Отправить</SubmitButton>
 
         {message && <Message>{message}</Message>}
       </Form>

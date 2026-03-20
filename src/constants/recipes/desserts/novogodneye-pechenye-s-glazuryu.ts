@@ -1,0 +1,273 @@
+import { EQUIPMENTS } from '@/constants/equipments'
+import { INGREDIENTS } from '@/constants/ingredients'
+
+export const NOVOGODNEYE_PECHENYE_S_GLAZURYU = {
+  metaSeo: {
+    title: 'Новогоднее печенье с глазурью',
+    description:
+      'Новогоднее печенье с глазурью — традиционное праздничное угощение, которое наполняет дом ароматом специй и уюта. Его пекут в форме ёлок, звёзд, снежинок и украшают сахарной глазурью. Такое печенье подходит и для праздничного стола, и в качестве съедобного подарка.',
+    keywords: [
+      'новогоднее печенье',
+      'печенье с глазурью',
+      'имбирное печенье',
+      'печенье на новый год',
+      'рождественское печенье',
+      'печенье с сахарной глазурью',
+      'праздничная выпечка',
+    ],
+    'og:title': 'Новогоднее печенье с глазурью',
+    'og:description': 'Ароматное новогоднее печенье с сахарной глазурью.',
+    'og:url': 'https://food-paradise.ru/recipe/novogodneye-pechenye-s-glazuryu',
+    'og:image': '/static/recipes/new-year/novogodneye-pechenye-s-glazuryu.jpeg',
+    twitterTitle: 'Новогоднее печенье с глазурью',
+    twitterDescription: 'Праздничное печенье, украшенное глазурью.',
+    twitterImage: '/static/recipes/new-year/novogodneye-pechenye-s-glazuryu.jpeg',
+    twitterUrl: 'https://food-paradise.ru/recipe/novogodneye-pechenye-s-glazuryu',
+    'twitter:card': 'summary_large_image',
+    canonicalUrl: 'https://food-paradise.ru/recipe/novogodneye-pechenye-s-glazuryu',
+    robots: 'index, follow',
+    googlebot: 'index, follow',
+    yandex: 'index, follow',
+    selfwork: 'index, follow',
+    'max-image-preview': 'large',
+    viewport: 'width=device-width, initial-scale=1',
+    author: 'food-paradise',
+    'theme-color': '#ffffff',
+  },
+  searchRequests: [
+    'новогоднее печенье',
+    'печенье с глазурью',
+    'имбирное печенье',
+    'печенье на новый год',
+    'рождественское печенье',
+    'печенье с сахарной глазурью',
+    'печенье для украшения',
+    'печенье с айсингом',
+    'новогодняя выпечка',
+    'печенье в форме ёлочек',
+    'печенье с пряностями',
+    'печенье с корицей',
+    'домашнее новогоднее печенье',
+    'печенье на праздничный стол',
+    'печенье детям на новый год',
+    'печенье в подарок',
+    'печенье новогоднее фото',
+    'как украсить печенье глазурью',
+    'рецепт печенья с глазурью',
+  ],
+  categories: [{ name: 'new-year' }, { name: 'desserts' }],
+  key: 'novogodneye-pechenye-s-glazuryu',
+  name: 'novogodneye-pechenye-s-glazuryu',
+  img: '/static/recipes/new-year/novogodneye-pechenye-s-glazuryu.jpeg',
+  title: 'Новогоднее печенье с глазурью',
+  description: 'Ароматное песочное печенье со специями, украшенное сахарной глазурью.',
+  calories: 420,
+  preparation: 30,
+  time: 40,
+  level: 2,
+  rating: 5,
+  portions: 6,
+  used: [6.1, 9.4, 21.8],
+  ingredients: [
+    {
+      ...INGREDIENTS.flour,
+      count: 400,
+      gauge: 'г',
+    },
+    {
+      ...INGREDIENTS.butter,
+      count: 200,
+      gauge: 'г',
+    },
+    {
+      ...INGREDIENTS.sugar,
+      count: 150,
+      gauge: 'г',
+    },
+    {
+      ...INGREDIENTS.eggs,
+      count: 1,
+      gauge: 'шт.',
+    },
+    {
+      ...INGREDIENTS.honey,
+      count: 2,
+      gauge: 'ст.л.',
+    },
+    {
+      ...INGREDIENTS.bakingPowder,
+      count: 1,
+      gauge: 'ч.л.',
+    },
+    {
+      ...INGREDIENTS.cinnamon,
+      count: 1,
+      gauge: 'ч.л.',
+    },
+    {
+      ...INGREDIENTS.gingerGround,
+      count: 0.5,
+      gauge: 'ч.л.',
+    },
+    {
+      ...INGREDIENTS.vanillaSugar,
+      count: 1,
+      gauge: 'ч.л.',
+    },
+    {
+      ...INGREDIENTS.powderedSugar,
+      count: 200,
+      gauge: 'г',
+    },
+    {
+      ...INGREDIENTS.eggWhite,
+      count: 1,
+      gauge: 'шт.',
+    },
+    {
+      ...INGREDIENTS.lemonJuice,
+      count: 1,
+      gauge: 'ч.л.',
+    },
+  ],
+  equipments: [
+    EQUIPMENTS.oven,
+    EQUIPMENTS.bowl,
+    EQUIPMENTS.handMixer,
+    EQUIPMENTS.rollingPin,
+    EQUIPMENTS.cookieCutters,
+    EQUIPMENTS.bakingTray,
+    EQUIPMENTS.parchment,
+  ],
+  cookingRecipe: [
+    {
+      img: null,
+      video: null,
+      description:
+        'Мягкое сливочное масло взбейте с сахаром и ванильным сахаром до пышной массы. Добавьте яйцо и мёд, перемешайте.',
+      ingredients: [
+        {
+          ...INGREDIENTS.butter,
+          count: 200,
+          gauge: 'г',
+        },
+        {
+          ...INGREDIENTS.sugar,
+          count: 150,
+          gauge: 'г',
+        },
+        {
+          ...INGREDIENTS.vanillaSugar,
+          count: 1,
+          gauge: 'ч.л.',
+        },
+        {
+          ...INGREDIENTS.eggs,
+          count: 1,
+          gauge: 'шт.',
+        },
+        {
+          ...INGREDIENTS.honey,
+          count: 2,
+          gauge: 'ст.л.',
+        },
+      ],
+    },
+    {
+      img: null,
+      video: null,
+      description:
+        'Добавьте муку, разрыхлитель и специи. Замесите мягкое тесто и уберите его в холодильник на 30 минут.',
+      ingredients: [
+        {
+          ...INGREDIENTS.flour,
+          count: 400,
+          gauge: 'г',
+        },
+        {
+          ...INGREDIENTS.bakingPowder,
+          count: 1,
+          gauge: 'ч.л.',
+        },
+        {
+          ...INGREDIENTS.cinnamon,
+          count: 1,
+          gauge: 'ч.л.',
+        },
+        {
+          ...INGREDIENTS.gingerGround,
+          count: 0.5,
+          gauge: 'ч.л.',
+        },
+      ],
+    },
+    {
+      img: null,
+      video: null,
+      description: 'Раскатайте тесто толщиной 4–5 мм и вырежьте печенье формочками.',
+      ingredients: [],
+    },
+    {
+      img: null,
+      video: null,
+      description:
+        'Выложите печенье на противень с пергаментом и выпекайте при 180 °C 10–12 минут до лёгкого золотистого цвета.',
+      ingredients: [],
+    },
+    {
+      img: null,
+      video: null,
+      description:
+        'Для глазури взбейте яичный белок с сахарной пудрой и лимонным соком до густоты. Украсьте полностью остывшее печенье.',
+      ingredients: [
+        {
+          ...INGREDIENTS.powderedSugar,
+          count: 200,
+          gauge: 'г',
+        },
+        {
+          ...INGREDIENTS.eggWhite,
+          count: 1,
+          gauge: 'шт.',
+        },
+        {
+          ...INGREDIENTS.lemonJuice,
+          count: 1,
+          gauge: 'ч.л.',
+        },
+      ],
+    },
+  ],
+
+  tips: [
+    'Не передерживайте печенье в духовке — оно должно остаться мягким.',
+    'Украшайте печенье только после полного остывания.',
+    'Для цветной глазури добавьте пищевые красители.',
+    'Храните печенье в герметичном контейнере до 2 недель.',
+    'Отлично подходит для подарков в красивых коробках.',
+  ],
+
+  variations: [
+    {
+      name: 'Имбирное печенье',
+      changes: 'Добавьте больше имбиря и немного мускатного ореха.',
+    },
+    {
+      name: 'Печенье без мёда',
+      changes: 'Замените мёд дополнительным сахаром.',
+    },
+    {
+      name: 'Шоколадное печенье',
+      changes: 'Добавьте 2 ст. л. какао в тесто.',
+    },
+    {
+      name: 'Печенье с орехами',
+      changes: 'Добавьте измельчённые орехи в тесто.',
+    },
+  ],
+
+  historyDescription:
+    'Новогоднее и рождественское печенье имеет давние традиции в европейской культуре. Его выпекали в форме символов праздника и украшали глазурью, превращая выпечку в семейный ритуал. Со временем традиция прижилась и в России, став неотъемлемой частью новогоднего угощения.',
+
+  comments: ['Очень ароматное и красивое', 'Дети были в восторге', 'Идеально для новогоднего настроения'],
+}
