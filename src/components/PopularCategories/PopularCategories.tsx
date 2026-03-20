@@ -61,7 +61,7 @@ const CategoryCardWrapper = styled.div`
 
 export const PopularCategories = () => {
   return (
-    <Container id="techStacks">
+    <Container>
       <Wrapper>
         <Title>ПОПУЛЯРНЫЕ КАТЕГОРИИ</Title>
 
