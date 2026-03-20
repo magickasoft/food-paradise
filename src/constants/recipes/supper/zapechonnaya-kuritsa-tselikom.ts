@@ -1,0 +1,212 @@
+import { EQUIPMENTS } from '@/constants/equipments'
+import { INGREDIENTS } from '@/constants/ingredients'
+
+export const ZAPECHONNAYA_KURITSA_TSELIKOM = {
+  metaSeo: {
+    title: 'Запечённая курица целиком в духовке',
+    description:
+      'Запечённая курица целиком — классическое горячее блюдо для семейного ужина и праздничного стола. Ароматная румяная корочка, сочное мясо и простота приготовления делают её универсальным выбором. Курицу запекают с пряностями, чесноком и травами, подавая с овощами или картофелем.',
+    keywords: [
+      'курица целиком',
+      'курица целиком в духовке',
+      'запечённая курица',
+      'курица запечённая целиком',
+      'курица в духовке целиком рецепт',
+      'курица с хрустящей корочкой',
+      'курица праздничная',
+      'горячее блюдо из курицы',
+    ],
+    'og:title': 'Запечённая курица целиком',
+    'og:description': 'Ароматная курица целиком, запечённая в духовке с пряностями.',
+    'og:url': 'https://food-paradise.ru/recipe/zapechonnaya-kuritsa-tselikom',
+    'og:image': '/static/recipes/new-year/zapechonnaya-kuritsa-tselikom.jpeg',
+    twitterTitle: 'Запечённая курица целиком',
+    twitterDescription: 'Классическая курица целиком с румяной корочкой.',
+    twitterImage: '/static/recipes/new-year/zapechonnaya-kuritsa-tselikom.jpeg',
+    twitterUrl: 'https://food-paradise.ru/recipe/zapechonnaya-kuritsa-tselikom',
+    'twitter:card': 'summary_large_image',
+    canonicalUrl: 'https://food-paradise.ru/recipe/zapechonnaya-kuritsa-tselikom',
+    robots: 'index, follow',
+    googlebot: 'index, follow',
+    yandex: 'index, follow',
+    selfwork: 'index, follow',
+    'max-image-preview': 'large',
+    viewport: 'width=device-width, initial-scale=1',
+    author: 'food-paradise',
+    'theme-color': '#ffffff',
+  },
+  searchRequests: [
+    'курица целиком в духовке',
+    'курица запечённая целиком',
+    'курица целиком рецепт',
+    'как запечь курицу целиком',
+    'курица в духовке с корочкой',
+    'курица целиком с хрустящей корочкой',
+    'курица целиком на праздник',
+    'курица целиком на новый год',
+    'курица целиком на ужин',
+    'курица в духовке простая',
+    'курица в духовке сочная',
+    'курица целиком с чесноком',
+    'курица целиком с приправами',
+    'курица целиком в фольге',
+    'курица целиком в рукаве',
+    'курица гриль в духовке',
+    'запечь курицу вкусно',
+    'курица домашняя в духовке',
+    'сколько запекать курицу целиком',
+    'температура запекания курицы',
+    'курица запечённая фото',
+    'курица горячее блюдо',
+  ],
+  categories: [{ name: 'new-year' }],
+  key: 'zapechonnaya-kuritsa-tselikom',
+  name: 'zapechonnaya-kuritsa-tselikom',
+  img: '/static/recipes/new-year/zapechonnaya-kuritsa-tselikom.jpeg',
+  title: 'Запечённая курица целиком',
+  description: 'Сочная курица целиком, запечённая в духовке с пряностями и чесноком.',
+  calories: 295,
+  preparation: 15,
+  time: 90,
+  level: 2,
+  rating: 5,
+  portions: 6,
+  used: [18.2, 22.5, 2.1],
+  ingredients: [
+    {
+      ...INGREDIENTS.chickenWhole,
+      count: 1.8,
+      gauge: 'кг',
+    },
+    {
+      ...INGREDIENTS.garlic,
+      count: 5,
+      gauge: 'зубчиков',
+    },
+    {
+      ...INGREDIENTS.refinedVegetableOil,
+      count: 3,
+      gauge: 'ст.л.',
+    },
+    {
+      ...INGREDIENTS.salt,
+      count: ' ',
+      gauge: 'по вкусу',
+    },
+    {
+      ...INGREDIENTS.groundBlackPepper,
+      count: ' ',
+      gauge: 'по вкусу',
+    },
+    {
+      ...INGREDIENTS.smokedPaprika,
+      count: 1,
+      gauge: 'ч.л.',
+    },
+    {
+      ...INGREDIENTS.driedHerbs,
+      count: 1,
+      gauge: 'ч.л.',
+    },
+  ],
+  equipments: [EQUIPMENTS.oven, EQUIPMENTS.bakingTray, EQUIPMENTS.knife, EQUIPMENTS.cutBoard, EQUIPMENTS.brush],
+  cookingRecipe: [
+    {
+      img: null,
+      video: null,
+      description:
+        'Курицу тщательно промойте и обсушите бумажными полотенцами. Удалите остатки перьев при необходимости.',
+      ingredients: [
+        {
+          ...INGREDIENTS.chickenWhole,
+          count: 1.8,
+          gauge: 'кг',
+        },
+      ],
+    },
+    {
+      img: null,
+      video: null,
+      description: 'Смешайте растительное масло, соль, чёрный перец, паприку и сушёные травы. Чеснок мелко измельчите.',
+      ingredients: [
+        {
+          ...INGREDIENTS.refinedVegetableOil,
+          count: 3,
+          gauge: 'ст.л.',
+        },
+        {
+          ...INGREDIENTS.garlic,
+          count: 5,
+          gauge: 'зубчиков',
+        },
+        {
+          ...INGREDIENTS.salt,
+          count: ' ',
+          gauge: 'по вкусу',
+        },
+        {
+          ...INGREDIENTS.groundBlackPepper,
+          count: ' ',
+          gauge: 'по вкусу',
+        },
+        {
+          ...INGREDIENTS.smokedPaprika,
+          count: 1,
+          gauge: 'ч.л.',
+        },
+        {
+          ...INGREDIENTS.driedHerbs,
+          count: 1,
+          gauge: 'ч.л.',
+        },
+      ],
+    },
+    {
+      img: null,
+      video: null,
+      description: 'Натрите курицу маринадом снаружи и внутри. Оставьте мариноваться минимум на 30 минут.',
+      ingredients: [],
+    },
+    {
+      img: null,
+      video: null,
+      description:
+        'Выложите курицу в форму для запекания грудкой вверх. Запекайте при 180 °C около 80–90 минут до золотистой корочки.',
+      ingredients: [],
+    },
+    {
+      img: null,
+      video: null,
+      description: 'Достаньте курицу из духовки, дайте ей «отдохнуть» 10–15 минут перед подачей.',
+      ingredients: [],
+    },
+  ],
+  tips: [
+    'Чтобы курица была сочной, не пересушивайте её — ориентируйтесь на вес.',
+    'Можно связать ножки кулинарной нитью для равномерного запекания.',
+    'Если корочка румянится слишком быстро, накройте фольгой.',
+    'Добавьте лимон или яблоко внутрь курицы для аромата.',
+    'Подавайте с запечёнными овощами или картофелем.',
+  ],
+  variations: [
+    {
+      name: 'Курица с лимоном и тимьяном',
+      changes: 'Положите внутрь курицы лимон и свежий тимьян.',
+    },
+    {
+      name: 'Курица в рукаве',
+      changes: 'Запекайте курицу в рукаве — она получится особенно сочной.',
+    },
+    {
+      name: 'Курица с картофелем',
+      changes: 'Запекайте курицу вместе с картофелем в одной форме.',
+    },
+    {
+      name: 'Пряная курица',
+      changes: 'Добавьте куркуму, зиру и копчёную паприку.',
+    },
+  ],
+  historyDescription:
+    'Запекание курицы целиком — один из самых древних способов приготовления птицы. Во многих культурах такое блюдо считалось праздничным и символизировало достаток и семейное единство. В русской кухне запечённая курица стала популярным горячим блюдом для воскресных обедов и торжеств.',
+  comments: ['Курица получилась очень сочной', 'Идеальное горячее на праздник', 'Готовлю по этому рецепту постоянно'],
+}
