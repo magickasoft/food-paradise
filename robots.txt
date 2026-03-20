@@ -3,4 +3,4 @@ Allow: /
 Disallow: /api/*
 Disallow: /_next/*
 
-Sitemap: https://food-paradise.ru/sitemap.xml
+Sitemap: https://undefined/sitemap.xml
