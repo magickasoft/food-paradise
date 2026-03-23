@@ -37,7 +37,7 @@
     "@types/react": "19.2.10",
     "@types/react-dom": "19.2.3",
     "eslint": "^9",
-    "eslint-config-next": "16.1.6",
+    "eslint-config-next": "16.2.1",
     "prettier": "^3.6.2",
     "serve": "^14.2.5",
     "typescript": "^5"
