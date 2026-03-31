@@ -81,7 +81,13 @@ export interface Recipe {
   tips?: string[]
   serving?: string
   variations?: { name: string; changes: string }[]
-  comments?: string[]
+  comments?: {
+    id: string
+    name: string
+    text: string
+    rating: number
+    avatar: string | null
+  }[]
 }
 
 export const RECIPES_OBJ: {
