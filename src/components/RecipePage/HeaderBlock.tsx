@@ -5,6 +5,8 @@ import styled from 'styled-components'
 import { InfoBlock } from '@/components/RecipePage'
 import { Recipe } from '@/constants/recipes/recipes'
 import { maxDevice } from '@/styles/device'
+import { FaStar } from 'react-icons/fa'
+import { ControlBlock } from './ControlBlock'
 
 const HeaderContainer = styled.div`
   max-width: 1800px;
@@ -84,7 +86,7 @@ const Placeholder = styled.article`
 `
 
 const Title = styled.h1`
-  width: 80%;
+  width: 90%;
   margin-bottom: 10px;
   line-height: 1.2;
   text-align: left;
@@ -97,7 +99,7 @@ const Title = styled.h1`
 `
 
 const Description = styled.article`
-  width: 80%;
+  width: 90%;
   margin-bottom: 10px;
   font-size: 1rem;
   line-height: 1.6;
@@ -106,20 +108,6 @@ const Description = styled.article`
   @media ${maxDevice.laptop} {
     width: 100%;
     font-size: 0.9rem;
-  }
-`
-
-const InfoContainer = styled.article`
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  justify-content: center;
-
-  @media ${maxDevice.laptop} {
-    flex-direction: row;
-    gap: 8px;
   }
 `
 
@@ -132,12 +120,15 @@ export function HeaderBlock({ recipe }: { recipe: Recipe | null }) {
         <Header>
           <TitleContainer>
             <Title>{recipe.title}</Title>
+            <InfoBlock
+              rating={recipe.rating}
+              commentsCount={recipe.comments ? recipe.comments.length : 0}
+              preparation={recipe.preparation}
+              time={recipe.time}
+              calories={recipe.calories}
+            />
+            <ControlBlock />
             <Description>{recipe.description}</Description>
-            <InfoContainer>
-              {recipe.preparation && <InfoBlock name="Подготовка" value={recipe.preparation} gauge="мин" />}
-              <InfoBlock name="Готовка" value={recipe.time} gauge="мин" />
-              {recipe.calories && <InfoBlock name="Калорийность" value={recipe.calories} gauge="ккал" />}
-            </InfoContainer>
           </TitleContainer>
           <ImageContainer>
             {recipe.img ? <Image src={recipe.img} alt={recipe.name} /> : <Placeholder>Нет изображения</Placeholder>}

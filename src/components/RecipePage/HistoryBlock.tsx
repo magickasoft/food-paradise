@@ -10,7 +10,9 @@ const DetailsContainer = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-color: #f9f9f9;
+  background: #fffbe6;
+  border: 1px solid #ffcc00;
+  border-radius: 12px;
   margin-bottom: 20px;
   font-size: 1rem;
   line-height: 1.6;

@@ -7,24 +7,26 @@ import { FiAlertCircle } from 'react-icons/fi'
 const List = styled.ul`
   display: flex;
   flex-direction: column;
-  padding: 0;
+  padding: 20px;
+  padding-top: 0;
   margin: 0;
   list-style: none;
-  background: #fffbe6;
   width: 100%;
-  border: 1px solid #ffcc00;
-  border-radius: 6px;
 `
 
 const Item = styled.li`
   display: flex;
   align-items: flex-start;
+  border-bottom: 1px solid #f0f0f0;
   gap: 10px;
-
-  padding: 12px 16px;
+  padding: 12px 4px;
   border-radius: 6px;
   font-size: 1rem;
   line-height: 1.4;
+
+  &:last-child {
+    border-bottom: none;
+  }
 `
 
 export function TipsList({ tips }: { tips: string[] }) {
@@ -33,10 +35,7 @@ export function TipsList({ tips }: { tips: string[] }) {
       <DetailsTitle>Советы</DetailsTitle>
       <List>
         {tips.map((tip, index) => (
-          <Item key={index}>
-            <FiAlertCircle size={18} color="#ffcc00" />
-            {tip}
-          </Item>
+          <Item key={index}>{tip}</Item>
         ))}
       </List>
     </>

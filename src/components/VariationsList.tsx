@@ -7,17 +7,20 @@ import styled from 'styled-components'
 const List = styled.ul`
   display: flex;
   flex-direction: column;
-  padding: 0;
+  padding: 20px;
+  padding-top: 0;
   margin: 0;
   list-style: none;
   width: 100%;
-  background: #f3f7ff;
-  border: 1px solid #d0e1ff;
-  border-radius: 6px;
 `
 
 const Item = styled.li`
-  padding: 12px 16px;
+  padding: 12px 4px;
+  border-bottom: 1px solid #f0f0f0;
+
+  &:last-child {
+    border-bottom: none;
+  }
 `
 
 const Title = styled.strong`

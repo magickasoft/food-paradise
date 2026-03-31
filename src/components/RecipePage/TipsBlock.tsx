@@ -4,15 +4,17 @@ import styled from 'styled-components'
 import { TipsList } from '../TipsList'
 import { maxDevice } from '@/styles/device'
 
-const DetailsContainer = styled.section`
+const TipsContainer = styled.section`
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-color: #f9f9f9;
   margin-bottom: 20px;
   font-size: 1rem;
+  background: #fffbe6;
+  border: 1px solid #ffcc00;
+  border-radius: 12px;
   line-height: 1.6;
   color: #333;
 
@@ -26,9 +28,9 @@ const DetailsContainer = styled.section`
 export function TipsBlock({ tips }: { tips: string[] }) {
   if (tips && tips.length > 0) {
     return (
-      <DetailsContainer>
+      <TipsContainer>
         <TipsList tips={tips} />
-      </DetailsContainer>
+      </TipsContainer>
     )
   }
 

@@ -9,11 +9,10 @@ const Description = styled.li`
   flex-direction: column;
   padding: 0;
   margin: 0;
-  padding: 12px 16px;
+  padding: 12px 24px;
+  padding-bottom: 24px;
   list-style: none;
-  background: #fffbe6;
   width: 100%;
-  border: 1px solid #ffcc00;
   border-radius: 6px;
 `
 
