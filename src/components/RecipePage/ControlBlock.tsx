@@ -141,7 +141,7 @@ export const ControlBlock = () => {
       <IconButton onClick={handleBookmark} title="Добавить в закладки" aria-label="Добавить в закладки" disabled={true}>
         <IoMdHeartEmpty />
       </IconButton>
-      <IconButton onClick={handleShare} title="Поделиться" aria-label="Поделиться">
+      <IconButton onClick={handleShare} title="Поделиться" aria-label="Поделиться" disabled={true}>
         <LuExternalLink />
       </IconButton>
     </InfoContainer>

@@ -1,13 +1,13 @@
 'use client'
 
 import styled from 'styled-components'
-import { DetailsTitle } from './DetailsTitle'
-import { FiAlertCircle } from 'react-icons/fi'
 
-const List = styled.ul`
+const List = styled.div<{ $isOpen: boolean }>`
+  max-height: ${({ $isOpen }) => ($isOpen ? '2000px' : '0')};
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: ${({ $isOpen }) => ($isOpen ? '20px' : '0')};
   padding-top: 0;
   margin: 0;
   list-style: none;
@@ -29,11 +29,10 @@ const Item = styled.li`
   }
 `
 
-export function TipsList({ tips }: { tips: string[] }) {
+export function TipsList({ tips, isOpen }: { tips: string[]; isOpen: boolean }) {
   return (
     <>
-      <DetailsTitle>Советы</DetailsTitle>
-      <List>
+      <List $isOpen={isOpen}>
         {tips.map((tip, index) => (
           <Item key={index}>{tip}</Item>
         ))}

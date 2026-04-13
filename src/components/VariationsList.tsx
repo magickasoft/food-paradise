@@ -4,10 +4,12 @@ import { DetailsTitle } from './DetailsTitle'
 
 import styled from 'styled-components'
 
-const List = styled.ul`
+const List = styled.ul<{ $isOpen: boolean }>`
+  max-height: ${({ $isOpen }) => ($isOpen ? '2000px' : '0')};
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: ${({ $isOpen }) => ($isOpen ? '20px' : '0')};
   padding-top: 0;
   margin: 0;
   list-style: none;
@@ -32,11 +34,16 @@ const Title = styled.strong`
   font-size: 0.9rem;
 `
 
-export function VariationsList({ variations }: { variations: { name: string; changes: string }[] }) {
+export function VariationsList({
+  variations,
+  isOpen,
+}: {
+  variations: { name: string; changes: string }[]
+  isOpen: boolean
+}) {
   return (
     <>
-      <DetailsTitle>Вариации</DetailsTitle>
-      <List>
+      <List $isOpen={isOpen}>
         {variations.map((variation, index) => (
           <Item key={index}>
             <Title>{variation.name}</Title>
