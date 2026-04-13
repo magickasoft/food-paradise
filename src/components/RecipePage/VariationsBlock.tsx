@@ -3,7 +3,8 @@
 import styled from 'styled-components'
 import { VariationsList } from '../VariationsList'
 import { maxDevice } from '@/styles/device'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import useDeviceDetector from 'nice-react-device-detector'
 
 const DetailsContainer = styled.section`
   width: 100%;
@@ -24,7 +25,7 @@ const DetailsContainer = styled.section`
   @media ${maxDevice.laptop} {
     flex-direction: column;
     padding: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 `
 
@@ -67,7 +68,12 @@ const Arrow = styled.span<{ $isOpen: boolean }>`
 `
 
 export function VariationsBlock({ variations }: { variations: { name: string; changes: string }[] }) {
+  const isMobile = useDeviceDetector()
   const [isOpen, setIsOpen] = useState(false)
+
+  useEffect(() => {
+    setIsOpen(!isMobile)
+  }, [isMobile])
 
   if (variations && variations.length > 0) {
     return (

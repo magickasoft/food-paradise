@@ -3,7 +3,8 @@
 import styled from 'styled-components'
 import { maxDevice } from '@/styles/device'
 import { DishHistory } from '../DishHistory'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import useDeviceDetector from 'nice-react-device-detector'
 
 const DetailsContainer = styled.section`
   width: 100%;
@@ -22,7 +23,7 @@ const DetailsContainer = styled.section`
   @media ${maxDevice.laptop} {
     flex-direction: column;
     padding: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 `
 
@@ -65,7 +66,12 @@ const Arrow = styled.span<{ $isOpen: boolean }>`
 `
 
 export function HistoryBlock({ history }: { history: string | undefined }) {
+  const isMobile = useDeviceDetector()
   const [isOpen, setIsOpen] = useState(false)
+
+  useEffect(() => {
+    setIsOpen(!isMobile)
+  }, [isMobile])
 
   if (history) {
     return (

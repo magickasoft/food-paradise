@@ -3,7 +3,8 @@
 import styled from 'styled-components'
 import { TipsList } from '../TipsList'
 import { maxDevice } from '@/styles/device'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { useDeviceDetector } from 'nice-react-device-detector'
 
 const TipsContainer = styled.section`
   width: 100%;
@@ -22,7 +23,7 @@ const TipsContainer = styled.section`
   @media ${maxDevice.laptop} {
     flex-direction: column;
     padding: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 `
 
@@ -65,7 +66,12 @@ const Arrow = styled.span<{ $isOpen: boolean }>`
 `
 
 export function TipsBlock({ tips }: { tips: string[] }) {
+  const isMobile = useDeviceDetector()
   const [isOpen, setIsOpen] = useState(false)
+
+  useEffect(() => {
+    setIsOpen(!isMobile)
+  }, [isMobile])
 
   if (tips && tips.length > 0) {
     return (

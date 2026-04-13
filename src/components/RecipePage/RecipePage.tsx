@@ -79,7 +79,7 @@ const RecipePage = ({ recipe }: { recipe: Recipe | null }) => {
         {recipe?.warning ? <WarningBlock text={recipe.warning} /> : null}
         <HeaderBlock recipe={recipe} />
         {recipe && (
-          <RecipeContainer>
+          <RecipeContainer id="cooking-steps">
             <RecipeDetailsContainer>
               <IngredientsBlock data={recipe.ingredients} />
               <TipsBlock tips={recipe?.tips || []} />

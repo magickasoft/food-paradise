@@ -30,6 +30,8 @@ const Item = styled.li`
 `
 
 export function TipsList({ tips, isOpen }: { tips: string[]; isOpen: boolean }) {
+  console.log('TipsList isOpen', isOpen)
+
   return (
     <>
       <List $isOpen={isOpen}>

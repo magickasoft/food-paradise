@@ -131,9 +131,9 @@ export const ControlBlock = () => {
   return (
     <InfoContainer>
       <StyledButton
+        href="#cooking-steps"
         title={'Начать готовить'}
         aria-label={'Начать готовить'}
-        target="_blank"
         rel="noopener noreferrer nofollow"
       >
         {'Начать готовить'}

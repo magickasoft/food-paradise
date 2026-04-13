@@ -215,7 +215,7 @@ const AddButton = styled.button<{ $disabled: boolean }>`
 `
 
 export const IngredientsBlock = ({ data }: { data: Recipe['ingredients'] }) => {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(true)
   const [portions, setPortions] = useState(2) // Начальное количество порций
   const [checkedItems, setCheckedItems] = useState<boolean[]>(new Array(data.length).fill(false))
 
