@@ -5,7 +5,6 @@ import styled from 'styled-components'
 import { InfoBlock } from '@/components/RecipePage'
 import { Recipe } from '@/constants/recipes/recipes'
 import { maxDevice } from '@/styles/device'
-import { FaStar } from 'react-icons/fa'
 import { ControlBlock } from './ControlBlock'
 
 const HeaderContainer = styled.div`
@@ -15,6 +14,7 @@ const HeaderContainer = styled.div`
   font-family: 'Arial', sans-serif;
   overflow: hidden;
   padding-top: 20px;
+  margin-bottom: 20px;
 `
 
 const Header = styled.header`

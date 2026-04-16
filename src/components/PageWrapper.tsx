@@ -13,7 +13,7 @@ const Container = styled.header`
   }
 
   @media ${maxDevice.mobileL} {
-    margin: 90px 0px 50px 0px;
+    margin: 40px 0px 50px 0px;
   }
 
   @media ${maxDevice.laptopL} {

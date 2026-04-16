@@ -74,14 +74,14 @@ const RecipePage = ({ recipe }: { recipe: Recipe | null }) => {
         {recipe?.warning ? <WarningBlock text={recipe.warning} /> : null}
         <HeaderBlock recipe={recipe} />
         {recipe && (
-          <RecipeContainer id="cooking-steps">
+          <RecipeContainer>
             <RecipeDetailsContainer>
               <IngredientsBlock data={recipe.ingredients} />
               <TipsBlock tips={recipe?.tips || []} />
               <VariationsBlock variations={recipe?.variations || []} />
               <HistoryBlock history={recipe?.historyDescription} />
             </RecipeDetailsContainer>
-            <RecipeStepsContainer>
+            <RecipeStepsContainer id="cooking-steps">
               <EquipmentsBlock data={recipe.equipments} />
               <RecipeCookingStepsBlock stepsData={recipe.cookingRecipe} />
               <CommentsList list={recipe?.comments || []} />

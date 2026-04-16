@@ -15,6 +15,10 @@ const InfoContainer = styled.div`
   gap: 12px;
   padding: 12px 0;
   margin: 8px 0;
+
+  @media ${maxDevice.laptop} {
+    width: 100%;
+  }
 `
 
 const BUTTON_STYLES = {
