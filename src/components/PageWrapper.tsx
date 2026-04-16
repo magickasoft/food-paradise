@@ -5,6 +5,7 @@ import styled from 'styled-components'
 
 const Container = styled.header`
   display: flex;
+  min-width: 0;
   margin: 76px 140px 60px 140px;
 
   @media ${maxDevice.tablet} {
@@ -48,6 +49,7 @@ const Text = styled.div`
 
 const Content = styled.div<{ backgroundColor?: string }>`
   width: 100%;
+  min-width: 0;
   background-color: ${props => props.backgroundColor || 'transparent'};
 `
 

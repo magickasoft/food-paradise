@@ -160,7 +160,6 @@ const CommentSection: React.FC<{ recipe: string }> = ({ recipe }) => {
   return (
     <Container>
       <Title>Оцените рецепт</Title>
-
       <Card>
         <Stars>
           {[1, 2, 3, 4, 5].map(star => (

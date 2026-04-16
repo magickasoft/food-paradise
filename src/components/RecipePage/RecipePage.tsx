@@ -4,8 +4,6 @@ import styled from 'styled-components'
 
 import { PageWrapper } from '@/components/PageWrapper'
 
-import { DetailCard } from '@/components/Cards'
-
 import { type Recipe, RECIPES_OBJ } from '@/constants/recipes/recipes'
 
 import { HeaderBlock } from './HeaderBlock'
@@ -25,27 +23,24 @@ const RecipeContainer = styled.div`
   display: flex;
   gap: 24px;
   width: 100%;
-
   margin: 0 auto;
-  padding: 24px 0;
   align-items: flex-start;
 
   @media ${maxDevice.laptop} {
     flex-direction: column;
-    padding: 16px;
   }
 `
 
 const RecipeDetailsContainer = styled.section`
   flex: 0 0 400px;
   max-width: 400px;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 16px;
   padding: 0;
 
   @media ${maxDevice.laptop} {
-    max-width: 100%;
     width: 100%;
   }
 `
@@ -60,7 +55,7 @@ const RecipeStepsContainer = styled.section`
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 
   @media ${maxDevice.laptop} {
-    padding: 16px;
+    max-width: 100vw;
   }
 `
 
