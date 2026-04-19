@@ -63,7 +63,7 @@ ${e.stack}`:e+"")}})})});let m=d;function g(){let e=o.default.useContext(l.Route
   &:hover {
     background: #f5f5f5;
   }
-`,m={ru:{label:"Руc",flag:"🇷🇺"},en:{label:"Eng",flag:"🇬🇧"}},g=(0,a.memo)(function(){let e=(0,u.useLocale)(),r=(0,o.useRouter)(),[n,i]=(0,a.useTransition)(),g=(0,o.usePathname)(),_=(0,l.useParams)(),[y,b]=(0,a.useState)(!1);return(0,t.jsxs)(d,{children:[(0,t.jsxs)(f,{onClick:()=>b(e=>!e),children:[(0,t.jsx)(s.FiGlobe,{size:18}),m[e]?.flag," ",m[e]?.label]}),y&&(0,t.jsx)(p,{children:c.locales.filter(t=>t!==e).map(a=>(0,t.jsxs)(h,{onClick:()=>{a===e||n||(i(()=>{localStorage.setItem("user-locale",a),r.replace({pathname:g,params:_},{locale:a})}),b(!1))},children:[m[a]?.flag," ",m[a]?.label]},a))})]})});var _=e.i(48148),y=e.i(57270);function b(e,...t){if(!e)return;if(!(e in window))return void console.error(`[next-yandex-metrica] window.${e} is not defined. Make sure to use YandexMetricaProvider, and add 'ecommerce' field in initParameters`);let r=window[e];r&&r.push(...t)}e.s(["dataLayerPush",()=>b],68230);var E=e.i(4651);e.i(68230);let v=42,x=36,P="0 20px",R="0 16px",w=16,O=14,j=r.default.a.withConfig({componentId:"sc-b954d335-0"})`
+`,m={ru:{label:"Руc",flag:"🇷🇺"},en:{label:"Eng",flag:"🇬🇧"}},g=(0,a.memo)(function(){let e=(0,u.useLocale)(),r=(0,o.useRouter)(),[n,i]=(0,a.useTransition)(),g=(0,o.usePathname)(),_=(0,l.useParams)(),[y,b]=(0,a.useState)(!1);return(0,t.jsxs)(d,{children:[(0,t.jsxs)(f,{onClick:()=>b(e=>!e),children:[(0,t.jsx)(s.FiGlobe,{size:18}),m[e]?.label]}),y&&(0,t.jsx)(p,{style:{minWidth:"40px"},children:c.locales.filter(t=>t!==e).map(a=>(0,t.jsx)(h,{onClick:()=>{a===e||n||(i(()=>{localStorage.setItem("user-locale",a),r.replace({pathname:g,params:_},{locale:a})}),b(!1))},children:m[a]?.label},a))})]})});var _=e.i(48148),y=e.i(57270);function b(e,...t){if(!e)return;if(!(e in window))return void console.error(`[next-yandex-metrica] window.${e} is not defined. Make sure to use YandexMetricaProvider, and add 'ecommerce' field in initParameters`);let r=window[e];r&&r.push(...t)}e.s(["dataLayerPush",()=>b],68230);var E=e.i(4651);e.i(68230);let v=42,x=36,P="0 20px",R="0 16px",w=16,O=14,j=r.default.a.withConfig({componentId:"sc-b954d335-0"})`
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -301,7 +301,6 @@ ${e.stack}`:e+"")}})})});let m=d;function g(){let e=o.default.useContext(l.Route
     font-weight: 600;
     color: #333;
     text-decoration: none;
-    padding-bottom: 6px;
     transition: color 0.2s ease;
 
     &::after {

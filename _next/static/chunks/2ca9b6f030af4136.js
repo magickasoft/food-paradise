@@ -1,5 +1,6 @@
 (globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,41582,e=>{"use strict";var i=e.i(43476),t=e.i(4529),n=e.i(97053);let o=n.default.header.withConfig({componentId:"sc-f6510fb7-0"})`
   display: flex;
+  min-width: 0;
   margin: 76px 140px 60px 140px;
 
   @media ${t.maxDevice.tablet} {
@@ -7,7 +8,7 @@
   }
 
   @media ${t.maxDevice.mobileL} {
-    margin: 90px 0px 50px 0px;
+    margin: 40px 0px 50px 0px;
   }
 
   @media ${t.maxDevice.laptopL} {
@@ -37,6 +38,7 @@
   max-width: 760px;
 `,l=n.default.div.withConfig({componentId:"sc-f6510fb7-3"})`
   width: 100%;
+  min-width: 0;
   background-color: ${e=>e.backgroundColor||"transparent"};
 `;e.s(["PageWrapper",0,({label:e,text:t,children:n,backgroundColor:d})=>(0,i.jsx)(o,{children:(0,i.jsxs)(l,{backgroundColor:d,children:[e&&(0,i.jsx)(a,{children:e}),t&&(0,i.jsx)(r,{children:t}),n]})})])},50506,e=>{"use strict";var i=e.i(43476),t=e.i(97053),n=e.i(57688),o=e.i(20133),a=e.i(4529),r=e.i(92199);let l=t.default.div.withConfig({componentId:"sc-3ce889b2-0"})`
   background: #fffdfa;
