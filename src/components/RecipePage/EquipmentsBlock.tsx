@@ -44,8 +44,6 @@ const DetailsCardsContainer = styled.section<{
 `
 
 export const EquipmentsBlock = ({ data }: { data: Recipe['equipments'] }) => {
-  const [isOpen, setIsOpen] = useState(false)
-
   return (
     <EquipmentsContainer>
       <DetailsTitle>Оборудование</DetailsTitle>

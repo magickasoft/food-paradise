@@ -43,6 +43,7 @@ const RecipeDetailsContainer = styled.section`
   @media ${maxDevice.laptop} {
     width: 100%;
     padding: 10px;
+    max-width: 100%;
   }
 `
 
@@ -56,6 +57,7 @@ const RecipeStepsContainer = styled.section`
 
   @media ${maxDevice.laptop} {
     max-width: 100vw;
+    width: inherit;
     padding: 0 10px;
   }
 `

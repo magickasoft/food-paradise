@@ -24,6 +24,7 @@ const TipsContainer = styled.section`
     flex-direction: column;
     padding: 0px;
     margin-bottom: 0px;
+    max-width: 100%;
   }
 `
 
