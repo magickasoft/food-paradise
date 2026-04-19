@@ -94,16 +94,17 @@ export const LocaleSelect = memo(function LocaleSelect() {
     <Wrapper>
       <CurrentLocaleButton onClick={() => setOpen(prev => !prev)}>
         <FiGlobe size={18} />
-        {localeLabels[currentLocale as Locale]?.flag} {localeLabels[currentLocale as Locale]?.label}
+        {/* {localeLabels[currentLocale as Locale]?.flag} */}
+        {localeLabels[currentLocale as Locale]?.label}
       </CurrentLocaleButton>
-
       {open && (
-        <Dropdown>
+        <Dropdown style={{ minWidth: '40px' }}>
           {locales
             .filter(locale => locale !== currentLocale)
             .map(locale => (
               <LocaleOption key={locale} onClick={() => handleChange(locale as Locale)}>
-                {localeLabels[locale as Locale]?.flag} {localeLabels[locale as Locale]?.label}
+                {/* {localeLabels[locale as Locale]?.flag}  */}
+                {localeLabels[locale as Locale]?.label}
               </LocaleOption>
             ))}
         </Dropdown>

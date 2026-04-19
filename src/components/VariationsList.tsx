@@ -4,20 +4,25 @@ import { DetailsTitle } from './DetailsTitle'
 
 import styled from 'styled-components'
 
-const List = styled.ul`
+const List = styled.ul<{ $isOpen: boolean }>`
+  max-height: ${({ $isOpen }) => ($isOpen ? '2000px' : '0')};
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  padding: 0;
+  padding: ${({ $isOpen }) => ($isOpen ? '20px' : '0')};
+  padding-top: 0;
   margin: 0;
   list-style: none;
   width: 100%;
-  background: #f3f7ff;
-  border: 1px solid #d0e1ff;
-  border-radius: 6px;
 `
 
 const Item = styled.li`
-  padding: 12px 16px;
+  padding: 12px 4px;
+  border-bottom: 1px solid #f0f0f0;
+
+  &:last-child {
+    border-bottom: none;
+  }
 `
 
 const Title = styled.strong`
@@ -29,11 +34,16 @@ const Title = styled.strong`
   font-size: 0.9rem;
 `
 
-export function VariationsList({ variations }: { variations: { name: string; changes: string }[] }) {
+export function VariationsList({
+  variations,
+  isOpen,
+}: {
+  variations: { name: string; changes: string }[]
+  isOpen: boolean
+}) {
   return (
     <>
-      <DetailsTitle>Вариации</DetailsTitle>
-      <List>
+      <List $isOpen={isOpen}>
         {variations.map((variation, index) => (
           <Item key={index}>
             <Title>{variation.name}</Title>

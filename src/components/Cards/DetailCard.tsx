@@ -8,16 +8,16 @@ const Card = styled.div<{
 }>`
   width: 120px;
   min-width: 120px;
-  height: ${({ variant }) => (variant === 'short' ? '140px' : '180px')};
-  min-height: ${({ variant }) => (variant === 'short' ? '140px' : '180px')};
+  height: ${({ variant }) => (variant === 'short' ? '130px' : '150px')};
+  min-height: ${({ variant }) => (variant === 'short' ? '130px' : '150px')};
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   padding: 8px;
-  padding-top: 16px;
+  padding-top: 8px;
   border-radius: 8px;
-  gap: 10px;
+  gap: 6px;
   background-color: ${({ $backgroundColor }) => $backgroundColor || '#ffffff'};
 `
 
@@ -29,8 +29,8 @@ const ImageBlock = styled.div`
 `
 
 const Image = styled.img`
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   object-fit: cover;
   border-radius: 50%;
 `
@@ -74,7 +74,7 @@ const Title = styled.h2<{ $variant?: 'default' | 'short' }>`
     $variant === 'short' &&
     `
       display: -webkit-box;
-      -webkit-line-clamp: 2; /* количество строк */
+      -webkit-line-clamp: 2;
       -webkit-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;

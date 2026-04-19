@@ -58,7 +58,6 @@ const DesktopNav = styled.nav`
     font-weight: 600;
     color: #333;
     text-decoration: none;
-    padding-bottom: 6px;
     transition: color 0.2s ease;
 
     &::after {
