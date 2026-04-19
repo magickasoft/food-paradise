@@ -175,40 +175,10 @@ export const CloseButton = styled.button`
 `
 
 export const QRContainer = styled.div`
-  width: 100%;
-  max-width: 280px;
-  margin: 0 auto;
-  aspect-ratio: 1;
-  background: #f8f8f8;
-  border-radius: 16px;
-  padding: 16px;
-  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+`
 
-  & > div {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    font-size: 14px;
-    color: #999;
-  }
-
-  @media ${maxDevice.laptop} {
-    max-width: 240px;
-    padding: 14px;
-  }
-
-  @media ${maxDevice.mobileL} {
-    max-width: 200px;
-    padding: 12px;
-  }
-
-  @media ${maxDevice.mobileM} {
-    max-width: 180px;
-    padding: 10px;
-  }
+export const QRLink = styled.div`
+  text-align: center;
 `
