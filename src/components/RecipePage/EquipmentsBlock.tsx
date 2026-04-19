@@ -17,7 +17,6 @@ const EquipmentsContainer = styled.section`
 
   @media ${maxDevice.laptop} {
     width: 100%;
-    border-left: none;
     padding-left: 0;
     text-align: start;
   }

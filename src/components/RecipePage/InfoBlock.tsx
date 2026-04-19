@@ -1,8 +1,8 @@
 'use client'
 
+import { maxDevice } from '@/styles/device'
 import styled from 'styled-components'
 
-// Общий контейнер для всего блока
 const InfoWrapper = styled.div`
   width: 90%;
   border-top: 1px solid #e0e0e0;
@@ -13,6 +13,10 @@ const InfoWrapper = styled.div`
   align-items: center;
   padding: 12px 0;
   margin: 8px 0;
+
+  @media ${maxDevice.laptop} {
+    width: 100%;
+  }
 `
 
 const InfoContainer = styled.div`

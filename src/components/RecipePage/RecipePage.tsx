@@ -32,7 +32,7 @@ const RecipeContainer = styled.div`
 `
 
 const RecipeDetailsContainer = styled.section`
-  flex: 0 0 400px;
+  flex: 0 0 300px;
   max-width: 400px;
   min-width: 0;
   display: flex;
@@ -42,6 +42,7 @@ const RecipeDetailsContainer = styled.section`
 
   @media ${maxDevice.laptop} {
     width: 100%;
+    padding: 10px;
   }
 `
 
@@ -52,10 +53,10 @@ const RecipeStepsContainer = styled.section`
   flex-direction: column;
   border-radius: 12px;
   gap: 16px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 
   @media ${maxDevice.laptop} {
     max-width: 100vw;
+    padding: 0 10px;
   }
 `
 
