@@ -1,7 +1,6 @@
 import { maxDevice } from '@/styles/device'
 import styled from 'styled-components'
 import { DetailsTitle } from '../DetailsTitle'
-import { useState } from 'react'
 import { Recipe } from '@/constants/recipes/recipes'
 import { DetailCard } from '../Cards'
 import { NoList } from '../NoList'
