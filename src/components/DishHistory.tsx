@@ -1,7 +1,5 @@
 'use client'
 
-import { DetailsTitle } from './DetailsTitle'
-
 import styled from 'styled-components'
 
 const Description = styled.li<{ $isOpen: boolean }>`
