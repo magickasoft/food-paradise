@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Recipe } from '@/constants/recipes/recipes'
+import type { Recipe } from '@/constants/recipes/recipes'
 import styled from 'styled-components'
 import { useShoppingListStore } from '@/store/shoppingList'
 import type { ShoppingListItemInput } from '@/store/shoppingList'
@@ -219,7 +219,7 @@ const AddButton = styled.button<{ $disabled: boolean }>`
 export const IngredientsBlock = ({ data, recipeName }: { data: Recipe['ingredients']; recipeName: string }) => {
   const [isOpen, setIsOpen] = useState(true)
   const [portions, setPortions] = useState(2) // Начальное количество порций
-  const [checkedItems, setCheckedItems] = useState<boolean[]>(new Array(data.length).fill(false))
+  const [checkedItems, setCheckedItems] = useState<boolean[]>(Array.from({ length: data.length }, () => false))
   const addItems = useShoppingListStore(state => state.addItems)
 
   // Функция для расчета количества ингредиента
@@ -228,7 +228,7 @@ export const IngredientsBlock = ({ data, recipeName }: { data: Recipe['ingredien
 
     const baseCount = typeof ingredient.count === 'string' ? parseFloat(ingredient.count) : ingredient.count
 
-    if (isNaN(baseCount)) return ingredient.gauge
+    if (Number.isNaN(baseCount)) return ingredient.gauge
 
     const newCount = (baseCount / 2) * portions // Исходное количество на 2 порции
     const formattedCount = Number.isInteger(newCount) ? newCount : newCount.toFixed(1)
@@ -257,18 +257,17 @@ export const IngredientsBlock = ({ data, recipeName }: { data: Recipe['ingredien
     const selectedItems = data.reduce<ShoppingListItemInput[]>((items, ingredient, index) => {
       if (!checkedItems[index]) return items
 
-      return [
-        ...items,
-        {
-          name: ingredient.name,
-          amount: createAmount(ingredient),
-          recipeName,
-        },
-      ]
+      items.push({
+        name: ingredient.name,
+        amount: createAmount(ingredient),
+        recipeName,
+      })
+
+      return items
     }, [])
 
     addItems(selectedItems)
-    setCheckedItems(new Array(data.length).fill(false))
+    setCheckedItems(Array.from({ length: data.length }, () => false))
   }
 
   const isAnyChecked = checkedItems.some(checked => checked)
@@ -301,7 +300,9 @@ export const IngredientsBlock = ({ data, recipeName }: { data: Recipe['ingredien
 
           <IngredientsList>
             {data.map((ingredient, index) => (
-              <IngredientItem key={index}>
+              <IngredientItem
+                key={`${ingredient.name}-${ingredient.count ?? ''}-${ingredient.gauge}-${ingredient.note ?? ''}`}
+              >
                 <CheckboxContainer>
                   <HiddenCheckbox checked={checkedItems[index]} onChange={() => handleCheckboxChange(index)} />
                   <StyledCheckbox $checked={checkedItems[index]}>
