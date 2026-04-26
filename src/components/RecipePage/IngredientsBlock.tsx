@@ -3,6 +3,8 @@
 import { useState } from 'react'
 import { Recipe } from '@/constants/recipes/recipes'
 import styled from 'styled-components'
+import { useShoppingListStore } from '@/store/shoppingList'
+import type { ShoppingListItemInput } from '@/store/shoppingList'
 
 interface Ingredient {
   name: string
@@ -214,10 +216,11 @@ const AddButton = styled.button<{ $disabled: boolean }>`
   }
 `
 
-export const IngredientsBlock = ({ data }: { data: Recipe['ingredients'] }) => {
+export const IngredientsBlock = ({ data, recipeName }: { data: Recipe['ingredients']; recipeName: string }) => {
   const [isOpen, setIsOpen] = useState(true)
   const [portions, setPortions] = useState(2) // Начальное количество порций
   const [checkedItems, setCheckedItems] = useState<boolean[]>(new Array(data.length).fill(false))
+  const addItems = useShoppingListStore(state => state.addItems)
 
   // Функция для расчета количества ингредиента
   const calculateAmount = (ingredient: Ingredient) => {
@@ -242,6 +245,30 @@ export const IngredientsBlock = ({ data }: { data: Recipe['ingredients'] }) => {
     const newChecked = [...checkedItems]
     newChecked[index] = !newChecked[index]
     setCheckedItems(newChecked)
+  }
+
+  const createAmount = (ingredient: Ingredient) => {
+    const amount = calculateAmount(ingredient)
+
+    return ingredient.note ? `${amount} (${ingredient.note})` : amount
+  }
+
+  const handleAddToShoppingList = () => {
+    const selectedItems = data.reduce<ShoppingListItemInput[]>((items, ingredient, index) => {
+      if (!checkedItems[index]) return items
+
+      return [
+        ...items,
+        {
+          name: ingredient.name,
+          amount: createAmount(ingredient),
+          recipeName,
+        },
+      ]
+    }, [])
+
+    addItems(selectedItems)
+    setCheckedItems(new Array(data.length).fill(false))
   }
 
   const isAnyChecked = checkedItems.some(checked => checked)
@@ -277,7 +304,7 @@ export const IngredientsBlock = ({ data }: { data: Recipe['ingredients'] }) => {
               <IngredientItem key={index}>
                 <CheckboxContainer>
                   <HiddenCheckbox checked={checkedItems[index]} onChange={() => handleCheckboxChange(index)} />
-                  <StyledCheckbox $checked={checkedItems[index]} onClick={() => handleCheckboxChange(index)}>
+                  <StyledCheckbox $checked={checkedItems[index]}>
                     {checkedItems[index] && (
                       <Checkmark viewBox="0 0 24 24">
                         <polyline points="20 6 9 17 4 12" />
@@ -287,16 +314,15 @@ export const IngredientsBlock = ({ data }: { data: Recipe['ingredients'] }) => {
                 </CheckboxContainer>
                 <IngredientInfo>
                   <IngredientName>{ingredient.name}</IngredientName>
-                  <IngredientAmount>
-                    {calculateAmount(ingredient)}
-                    {ingredient.note && ` (${ingredient.note})`}
-                  </IngredientAmount>
+                  <IngredientAmount>{createAmount(ingredient)}</IngredientAmount>
                 </IngredientInfo>
               </IngredientItem>
             ))}
           </IngredientsList>
 
-          <AddButton $disabled={!isAnyChecked}>Добавить в список покупок</AddButton>
+          <AddButton type="button" $disabled={!isAnyChecked} disabled={!isAnyChecked} onClick={handleAddToShoppingList}>
+            Добавить в список покупок
+          </AddButton>
         </InnerContent>
       </Content>
     </Container>
