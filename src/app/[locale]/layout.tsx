@@ -10,6 +10,7 @@ import { routing } from '@/i18n/routing'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/footer'
 import { YANDEX_METRICA_ID } from '@/public_variables'
+import { ShoppingListWidget } from '@/components/ShoppingListWidget'
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] })
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] })
@@ -74,6 +75,7 @@ export default async function LocaleLayout({ children, params }: Readonly<Locale
             <Header />
             {children}
             <Footer />
+            <ShoppingListWidget />
           </YandexMetricaProvider>
         </NextIntlClientProvider>
       </body>
