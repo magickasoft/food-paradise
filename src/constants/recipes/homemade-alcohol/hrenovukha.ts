@@ -1,0 +1,101 @@
+import { EQUIPMENTS } from '@/constants/equipments'
+import { INGREDIENTS } from '@/constants/ingredients'
+
+export const HRENOVUKHA = {
+  metaSeo: {
+    title: 'Хреновуха — классическая настойка на хрене на водке',
+    description:
+      'Настоящая хреновуха — крепкая, жгучая и ароматная настойка на водке. Простой рецепт для любителей русских традиций.',
+    keywords: ['хреновуха', 'настойка на хрене', 'домашняя настойка', 'водка с хреном', 'русская настойка'],
+    'og:title': 'Хреновуха — классическая настойка на хрене',
+    'og:description': 'Домашняя хреновуха на водке — бодрящий напиток с ярким вкусом и согревающим эффектом.',
+    'og:url': 'https://food-paradise.ru/recipe/hrenovukha',
+    'og:image': '/static/recipes/homemadeAlcohol/hrenovukha-vodka.jpeg',
+    twitterTitle: 'Хреновуха — домашняя настойка на водке',
+    twitterDescription: 'Русская классика — простая и мощная хреновуха, как делали наши предки.',
+    twitterImage: '/static/recipes/homemadeAlcohol/hrenovukha-vodka.jpeg',
+    twitterUrl: 'https://food-paradise.ru/recipe/hrenovukha',
+    'twitter:card': 'summary_large_image',
+    canonicalUrl: 'https://food-paradise.ru/recipe/hrenovukha',
+    robots: 'index, follow',
+    author: 'food-paradise',
+  },
+  categories: [{ name: 'homemade-alcohol' }, { name: 'drinks' }],
+  key: 'hrenovukha',
+  name: 'hrenovukha',
+  img: '/static/recipes/homemadeAlcohol/hrenovukha-vodka.jpeg',
+  title: 'Настойка на хрене (хреновуха)',
+  description:
+    'Хреновуха — легендарная русская настойка с характером. Острая, ароматная и бодрящая, она согреет в холод и придаст сил.',
+  warning: 'Чрезмерное употребление алкоголя вредит вашему здоровью!',
+  calories: 210,
+  preparation: 10,
+  time: 5040,
+  level: 1,
+  used: [],
+  rating: 4.7,
+  portions: 15,
+  ingredients: [
+    { ...INGREDIENTS.horseradishRoot, count: 40, gauge: 'г' },
+    { ...INGREDIENTS.honey, count: 1, gauge: 'ст. л.' },
+    { ...INGREDIENTS.vodka, count: 500, gauge: 'мл' },
+  ],
+  equipments: [EQUIPMENTS.jar, EQUIPMENTS.grater, EQUIPMENTS.sieve, EQUIPMENTS.bottle],
+  historyDescription:
+    'Хреновуха известна на Руси с XVI века. Её готовили к зимним праздникам и охотничьим застольям — считалось, что она укрепляет дух и тело.',
+  cookingRecipe: [
+    {
+      img: null,
+      video: null,
+      description: 'Очистите корень хрена и натрите на мелкой тёрке.',
+      ingredients: [{ ...INGREDIENTS.horseradishRoot, count: 40, gauge: 'г' }],
+    },
+    {
+      img: null,
+      video: null,
+      description: 'Положите хрен в банку, добавьте мёд и залейте водкой. Перемешайте.',
+      ingredients: [
+        { ...INGREDIENTS.honey, count: 1, gauge: 'ст. л.' },
+        { ...INGREDIENTS.vodka, count: 500, gauge: 'мл' },
+      ],
+    },
+    {
+      img: null,
+      video: null,
+      description: 'Накройте крышкой и оставьте в тёмном месте на 3–5 дней. Встряхивайте ежедневно.',
+      ingredients: [],
+    },
+    {
+      img: null,
+      video: null,
+      description: 'Процедите, разлейте по бутылкам и охладите. Перед подачей дайте настояться ещё сутки.',
+      ingredients: [],
+    },
+  ],
+  serving: 'Подавайте сильно охлаждённой, из стопок. Идеально подходит к соленьям, мясу и холодцу.',
+  tips: [
+    'Не передержите хрен — больше 5 дней даст горечь.',
+    'Можно добавить немного чеснока или перца для пикантности.',
+    'Если хотите мягче — увеличьте количество мёда.',
+  ],
+  variations: [
+    { name: 'Хреновуха с лимоном', changes: 'Добавьте немного лимонной цедры для свежести.' },
+    { name: 'Острая хреновуха', changes: 'Положите щепотку красного перца вместе с хреном.' },
+  ],
+  comments: [
+    {
+      id: '1',
+      name: 'Анна',
+      text: 'Делала с ложкой мёда — вкус сбалансированный, без лишней резкости.',
+      rating: 5,
+      avatar: null,
+    },
+    {
+      id: '2',
+      name: 'Мария',
+      text: 'Супер! Жжёт как надо, но мягкая. Настоящая мужская настойка.',
+      rating: 5,
+      avatar: null,
+    },
+  ],
+}

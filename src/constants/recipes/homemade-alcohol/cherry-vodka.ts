@@ -1,0 +1,105 @@
+import { EQUIPMENTS } from '@/constants/equipments'
+import { INGREDIENTS } from '@/constants/ingredients'
+
+export const CHERRY_VODKA = {
+  metaSeo: {
+    title: 'Вишнёвка — настойка на вишне на водке',
+    description:
+      'Домашняя вишнёвка на водке — сладкая, ароматная настойка с насыщенным вкусом и цветом. Отличный десертный напиток.',
+    keywords: ['вишнёвка', 'настойка на вишне', 'вишня на водке', 'домашняя настойка', 'вишневая водка'],
+    'og:title': 'Вишнёвка — классическая настойка на вишне',
+    'og:description': 'Простой рецепт ароматной вишнёвки на водке — идеальный домашний ликёр для праздничного стола.',
+    'og:url': 'https://food-paradise.ru/recipe/cherry-vodka',
+    'og:image': '/static/recipes/homemadeAlcohol/cherry-vodka.jpeg',
+    twitterTitle: 'Домашняя вишнёвка — настойка на вишне на водке',
+    twitterDescription:
+      'Насыщенная, сладкая и красивая вишнёвка — традиционный русский ликёр, который легко приготовить дома.',
+    twitterImage: '/static/recipes/homemadeAlcohol/cherry-vodka.jpeg',
+    twitterUrl: 'https://food-paradise.ru/recipe/cherry-vodka',
+    'twitter:card': 'summary_large_image',
+    canonicalUrl: 'https://food-paradise.ru/recipe/cherry-vodka',
+    robots: 'index, follow',
+    author: 'food-paradise',
+  },
+  categories: [{ name: 'homemade-alcohol' }, { name: 'drinks' }],
+  key: 'cherry-vodka',
+  name: 'cherry-vodka',
+  img: '/static/recipes/homemadeAlcohol/cherry-vodka.jpeg',
+  title: 'Настойка на вишне (вишнёвка на водке)',
+  description:
+    'Вишнёвка — мягкий, сладковатый напиток с насыщенным ароматом спелой вишни. Легко готовится и идеально подходит для праздничного стола.',
+  warning: 'Чрезмерное употребление алкоголя вредит вашему здоровью!',
+  calories: 200,
+  preparation: 20,
+  time: 10080,
+  level: 1,
+  used: [],
+  rating: 4.9,
+  portions: 25,
+  ingredients: [
+    { ...INGREDIENTS.cherry, count: 500, gauge: 'г' },
+    { ...INGREDIENTS.sugar, count: 250, gauge: 'г' },
+    { ...INGREDIENTS.vodka, count: 700, gauge: 'мл' },
+  ],
+  equipments: [EQUIPMENTS.jar, EQUIPMENTS.sieve, EQUIPMENTS.bottle],
+  historyDescription:
+    'Вишнёвку делали ещё в купеческих домах — считалось, что вишня символизирует достаток и тепло. Её вкус — баланс сладости и терпкости, который невозможно спутать ни с чем.',
+  cookingRecipe: [
+    {
+      img: null,
+      description: 'Промойте вишню и удалите косточки.',
+      ingredients: [{ ...INGREDIENTS.cherry, count: 500, gauge: 'г' }],
+    },
+    {
+      img: null,
+      description: 'Переложите ягоды в банку, засыпьте сахаром и залейте водкой.',
+      ingredients: [
+        { ...INGREDIENTS.sugar, count: 250, gauge: 'г' },
+        { ...INGREDIENTS.vodka, count: 700, gauge: 'мл' },
+      ],
+    },
+    {
+      img: null,
+      description: 'Накройте крышкой и оставьте в тёмном месте на 3–4 недели. Раз в несколько дней встряхивайте банку.',
+      ingredients: [],
+    },
+    {
+      img: null,
+      description: 'Процедите настойку, разлейте по бутылкам и дайте постоять ещё 5–7 дней перед подачей.',
+      ingredients: [],
+    },
+  ],
+  serving: 'Подавайте охлаждённой. Вишнёвка отлично подходит к десертам, сырам и лёгким закускам.',
+  tips: [
+    'Не выбрасывайте вишни после процеживания — их можно добавить в десерт или выпечку.',
+    'Для аромата добавьте немного ванили или корицы.',
+    'Храните настойку в тёмном прохладном месте до года.',
+  ],
+  variations: [
+    { name: 'Вишнёвка с коньяком', changes: 'Замените часть водки (100 мл) коньяком для более глубокого вкуса.' },
+    { name: 'Пряная вишнёвка', changes: 'Добавьте палочку корицы и пару гвоздик.' },
+  ],
+  comments: [
+    {
+      id: '1',
+      name: 'Анна',
+      text: 'Вкус просто божественный! Стояла 4 недели, результат превзошёл ожидания.',
+      rating: 5,
+      avatar: null,
+    },
+    {
+      id: '2',
+      name: 'Мария',
+      text: 'Делала на свежей вишне — получилось шикарно, аромат как у ликёра!',
+      rating: 5,
+      avatar: null,
+    },
+    {
+      id: '3',
+      name: 'Елена',
+      text: 'Стояла месяц, вкус просто божественный. Не терпится повторить!',
+      rating: 5,
+      avatar: null,
+    },
+  ],
+}
