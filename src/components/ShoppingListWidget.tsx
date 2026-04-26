@@ -196,6 +196,10 @@ export const ShoppingListWidget = () => {
   const isModalOpen = isOpen && hasItems
 
   useEffect(() => {
+    if (items.length === 0 && isOpen) setIsOpen(false)
+  }, [items.length, isOpen])
+
+  useEffect(() => {
     if (!isModalOpen) return
 
     const onKeyDown = (event: KeyboardEvent) => {
@@ -211,6 +215,11 @@ export const ShoppingListWidget = () => {
       window.removeEventListener('keydown', onKeyDown)
     }
   }, [isModalOpen])
+
+  const handleClearItems = () => {
+    clearItems()
+    setIsOpen(false)
+  }
 
   if (!hasItems) return null
 
@@ -233,7 +242,12 @@ export const ShoppingListWidget = () => {
             <ModalHeader>
               <ModalTitle id="shopping-list-title">Список покупок</ModalTitle>
               <HeaderActions>
-                <IconButton type="button" onClick={clearItems} aria-label="Очистить список" title="Очистить список">
+                <IconButton
+                  type="button"
+                  onClick={handleClearItems}
+                  aria-label="Очистить список"
+                  title="Очистить список"
+                >
                   <LuTrash2 />
                 </IconButton>
                 <IconButton type="button" onClick={() => setIsOpen(false)} aria-label="Закрыть список" title="Закрыть">
