@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const SALAT_CEZAR_S_KURITSEY = {
   metaSeo: {
     title: 'Классический салат «Цезарь» с курицей — рецепт с хрустящими крутонами',

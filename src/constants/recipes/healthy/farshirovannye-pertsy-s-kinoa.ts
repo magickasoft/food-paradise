@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const FARSHIROVANNYE_PERTSY_S_KINOA = {
   metaSeo: {
     title: 'Фаршированные перцы с киноа и тофу — веганский ужин',

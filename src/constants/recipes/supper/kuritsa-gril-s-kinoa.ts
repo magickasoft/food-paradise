@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const KURITSA_GRIL_S_KINOA = {
   metaSeo: {
     title: 'Курица-гриль с киноа — белковый ужин за 30 минут',

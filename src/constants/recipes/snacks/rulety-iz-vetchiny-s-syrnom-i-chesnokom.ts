@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM = {
   metaSeo: {
     title: 'Рулетики из ветчины с сыром и чесноком',

@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const SALAT_NISUAZ_S_TUNTSOM = {
   metaSeo: {
     title: 'Салат «Нисуаз» с тунцом — французская классика',

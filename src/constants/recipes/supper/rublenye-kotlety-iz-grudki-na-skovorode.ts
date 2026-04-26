@@ -1,4 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
 import { INGREDIENTS } from '@/constants/ingredients'
 
 export const RUBLENYE_KOTLETY_IZ_GRUDKI_NA_SKOVORODE = {

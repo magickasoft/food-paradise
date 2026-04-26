@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const LETNII_SALAT_S_KLUBNIKOI = {
   metaSeo: {
     title: 'Летний салат с клубникой и шпинатом — легкий и свежий',

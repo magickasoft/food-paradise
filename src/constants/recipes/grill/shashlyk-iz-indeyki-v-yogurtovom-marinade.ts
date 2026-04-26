@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const SHASHLYK_IZ_INDEYKI_V_YOGURTOVOM_MARINADE = {
   metaSeo: {
     title: 'Шашлык из индейки в йогуртовом маринаде — диетический вариант',

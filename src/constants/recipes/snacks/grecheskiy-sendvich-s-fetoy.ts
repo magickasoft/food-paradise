@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const GRECHESKIY_SENDVICH_S_FETOY = {
   metaSeo: {
     title: 'Греческий сэндвич с фетой — средиземноморский вкус',

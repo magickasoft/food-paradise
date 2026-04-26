@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const TYKVENNYJ_SUP_S_IMBIREM = {
   metaSeo: {
     title: 'Тыквенный суп-пюре с имбирем — витаминный обед',

@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const SALAT_KAPREZE = {
   metaSeo: {
     title: 'Салат «Капрезе» — итальянская классика с моцареллой и базиликом',

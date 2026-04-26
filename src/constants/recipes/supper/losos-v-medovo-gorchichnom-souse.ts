@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const LOSOS_V_MEDOVO_GORCHICHNOM_SOUSE = {
   metaSeo: {
     title: 'Лосось в медово-горчичном соусе — полезный ужин за 20 минут',

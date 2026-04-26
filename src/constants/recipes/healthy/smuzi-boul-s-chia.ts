@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const SMUZI_BOUL_S_CHIA = {
   metaSeo: {
     title: 'Смузи-боул с чиа и ягодами — полезный завтрак',

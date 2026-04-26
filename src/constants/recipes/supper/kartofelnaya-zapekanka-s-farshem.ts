@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const KARTOFELNAYA_ZAPEKANKA_S_FARSHEM = {
   metaSeo: {
     title: 'Картофельная запеканка с фаршем — сытный ужин за час',

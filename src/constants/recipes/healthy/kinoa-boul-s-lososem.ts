@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const KINOA_BOUL_S_LOSOSEM = {
   metaSeo: {
     title: 'Киноа-боул с лососем — полезный обед за 20 минут',

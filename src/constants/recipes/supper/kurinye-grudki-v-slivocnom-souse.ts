@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const KURINYE_GRUDKI_V_SLIVOCNOM_SOUSE = {
   metaSeo: {
     title: 'Куриные грудки в сливочном соусе — нежный ужин за 30 минут',

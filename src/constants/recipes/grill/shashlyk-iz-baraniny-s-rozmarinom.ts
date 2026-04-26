@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const SHASHLYK_IZ_BARANINY_S_ROZMARINOM = {
   metaSeo: {
     title: 'Шашлык из баранины с розмарином — средиземноморский стиль',

@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const OVOSCHI_GRIL_S_BALZAMISCESKOY_GLAZURYU = {
   metaSeo: {
     title: 'Овощи-гриль с бальзамической глазурью — летний веганский гарнир',

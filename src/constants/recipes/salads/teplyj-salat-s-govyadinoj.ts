@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const TEPLYJ_SALAT_S_GOVYADINOJ = {
   metaSeo: {
     title: 'Теплый салат с говядиной и рукколой — ресторанный рецепт',

@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const SALAT_S_TUNTSOM_I_YAITSOM = {
   metaSeo: {
     title: 'Салат с тунцом и яйцом — сытный белковый обед',

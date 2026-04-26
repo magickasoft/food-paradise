@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const GRECHKA_S_GRIBAMI_I_LUKOM = {
   metaSeo: {
     title: 'Гречневая каша с грибами и луком — простой и сытный ужин',

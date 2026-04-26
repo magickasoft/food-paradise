@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const SALAT_OLIVYE_KLASSICHESKII = {
   metaSeo: {
     title: 'Салат «Оливье» классический — рецепт на Новый год',

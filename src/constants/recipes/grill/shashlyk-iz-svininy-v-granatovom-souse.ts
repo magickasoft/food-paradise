@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const SHASHLYK_IZ_SVININY_V_GRANATOVOM_SOUSE = {
   metaSeo: {
     title: 'Шашлык из свинины в гранатовом соусе — кавказская классика',

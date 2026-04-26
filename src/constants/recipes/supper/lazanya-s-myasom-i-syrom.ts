@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const LAZANYA_S_MYASOM_I_SYROM = {
   metaSeo: {
     title: 'Лазанья с мясом и сыром — вкусный ужин для всей семьи',

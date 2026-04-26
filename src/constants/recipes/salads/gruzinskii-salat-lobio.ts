@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const GRUZINSKII_SALAT_LOBIO = {
   metaSeo: {
     title: 'Грузинский салат с фасолью (Лобио) — острое и сытное блюдо',

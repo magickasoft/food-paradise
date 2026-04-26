@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const GOVYADINA_PO_BURGUNDSKI = {
   metaSeo: {
     title: 'Говядина по-бургундски — французский ужин с вином',

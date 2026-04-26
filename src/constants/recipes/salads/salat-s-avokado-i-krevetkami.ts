@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const SALAT_S_AVOKADO_I_KREVETKAMI = {
   metaSeo: {
     title: 'Салат с авокадо и креветками — легкий и изысканный ужин',

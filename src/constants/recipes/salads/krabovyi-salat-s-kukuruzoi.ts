@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const KRABOVYI_SALAT_S_KUKURUZOI = {
   metaSeo: {
     title: 'Крабовый салат с кукурузой — легкий и вкусный рецепт',

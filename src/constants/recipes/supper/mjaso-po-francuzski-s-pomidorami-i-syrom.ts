@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const MJASO_PO_FRANCUZSKI_S_POMIDORAMI_I_SYROM = {
   metaSeo: {
     title: 'Мясо по-французски с помидорами и сыром',

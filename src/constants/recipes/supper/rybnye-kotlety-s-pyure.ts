@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const RYBNYE_KOTLETY_S_PYURE = {
   metaSeo: {
     title: 'Рыбные котлеты с пюре — нежный ужин за 40 минут',

@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const SALAT_VALDORF_S_KURITSEY = {
   metaSeo: {
     title: 'Салат «Вальдорф» с курицей — классика с орехами и сельдереем',

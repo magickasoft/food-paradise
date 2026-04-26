@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const SHASHLYK_IZ_KURITSY_V_SOEVOM_MARINADE = {
   metaSeo: {
     title: 'Шашлык из курицы в соевом маринаде — азиатский акцент',

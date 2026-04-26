@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const STEJK_RIBAJ_NA_ELEKTROGRILE = {
   metaSeo: {
     title: 'Стейк рибай на электрогриле',
