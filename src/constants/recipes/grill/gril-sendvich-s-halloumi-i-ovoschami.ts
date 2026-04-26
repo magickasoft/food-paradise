@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const GRIL_SENDVICH_S_HALLOUMI_I_OVOSCHAMI = {
   metaSeo: {
     title: 'Гриль-сэндвич с сыром халуми — хрустящий вегетарианский обед',

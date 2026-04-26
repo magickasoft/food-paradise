@@ -1,6 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM = {
   metaSeo: {
     title: 'Креветки на гриле с чесночным маслом — средиземноморский деликатес',
