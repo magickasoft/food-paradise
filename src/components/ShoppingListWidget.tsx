@@ -192,24 +192,27 @@ export const ShoppingListWidget = () => {
   const toggleItem = useShoppingListStore(state => state.toggleItem)
   const removeItem = useShoppingListStore(state => state.removeItem)
   const clearItems = useShoppingListStore(state => state.clearItems)
+  const hasItems = items.length > 0
+  const isModalOpen = isOpen && hasItems
 
   useEffect(() => {
-    if (!isOpen) return
+    if (!isModalOpen) return
 
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') setIsOpen(false)
     }
 
+    const previousBodyOverflow = document.body.style.overflow
     document.body.style.overflow = 'hidden'
     window.addEventListener('keydown', onKeyDown)
 
     return () => {
-      document.body.style.overflow = 'auto'
+      document.body.style.overflow = previousBodyOverflow
       window.removeEventListener('keydown', onKeyDown)
     }
-  }, [isOpen])
+  }, [isModalOpen])
 
-  if (items.length === 0) return null
+  if (!hasItems) return null
 
   return (
     <>
@@ -219,7 +222,7 @@ export const ShoppingListWidget = () => {
         <Counter>{items.length}</Counter>
       </FloatingButton>
 
-      {isOpen && (
+      {isModalOpen && (
         <Overlay onClick={() => setIsOpen(false)}>
           <Modal
             aria-modal="true"
