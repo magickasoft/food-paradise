@@ -27,11 +27,11 @@ export const OMLET_S_MOLOKOM = {
     'og:description':
       'Пошаговый рецепт воздушного омлета с молоком на сковороде. Узнайте секреты приготовления нежного завтрака без корочки за 15 минут. Французская технология с русским акцентом - взбиваем только вилкой!',
     'og:url': 'https://food-paradise.ru/recipe/omlet-s-molokom',
-    'og:image': '/static/recipes/breakfast/omlet-s-molokom.jpeg',
+    'og:image': '/optimize/recipes/breakfast/omlet-s-molokom.webp',
     twitterTitle: 'Идеальный омлет с молоком — простой рецепт вкусного завтрака',
     twitterDescription:
       'Пошаговый рецепт воздушного омлета с молоком на сковороде. Узнайте секреты приготовления нежного завтрака без корочки за 15 минут. Французская технология с русским акцентом - взбиваем только вилкой!',
-    twitterImage: '/static/recipes/breakfast/omlet-s-molokom.jpeg',
+    twitterImage: '/optimize/recipes/breakfast/omlet-s-molokom.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/omlet-s-molokom',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/omlet-s-molokom',
@@ -257,7 +257,7 @@ export const OMLET_S_MOLOKOM = {
   categories: [{ name: 'breakfast' }],
   key: 'omlet-s-molokom',
   name: 'omlet-s-molokom',
-  img: '/static/recipes/breakfast/omlet-s-molokom.jpeg',
+  img: '/optimize/recipes/breakfast/omlet-s-molokom.webp',
   title: 'Омлет с молоком по-французски',
   description:
     'Уникальный рецепт омлета с молоком, сочетающий французские традиции и русские привычки. Главный секрет — особый способ взбивания вилкой, который гарантирует нежную текстуру без комочков. В отличие от классического французского варианта, мы добавляем молоко для более воздушной консистенции. Рецепт проверен временем — такой омлет получается идеальным в 99% случаев!',

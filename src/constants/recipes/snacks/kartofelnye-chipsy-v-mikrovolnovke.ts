@@ -11,11 +11,11 @@ export const KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE = {
     'og:description':
       'Любите домашние чипсы, но не хотите возиться с фритюром? Попробуйте этот простой рецепт картофельных чипсов в микроволновке — хрустящие, ароматные и гораздо полезнее магазинных! Всего 3 ингредиента, 5 минут — и вкусная закуска готова.',
     'og:url': 'https://food-paradise.ru/recipe/kartofelnye-chipsy-v-mikrovolnovke',
-    'og:image': '/static/recipes/snacks/kartofelnye-chipsy-v-mikrovolnovke.jpeg',
+    'og:image': '/optimize/recipes/snacks/kartofelnye-chipsy-v-mikrovolnovke.webp',
     twitterTitle: 'Картофельные чипсы в микроволновке',
     twitterDescription:
       'Любите домашние чипсы, но не хотите возиться с фритюром? Попробуйте этот простой рецепт картофельных чипсов в микроволновке — хрустящие, ароматные и гораздо полезнее магазинных! Всего 3 ингредиента, 5 минут — и вкусная закуска готова.',
-    twitterImage: '/static/recipes/snacks/kartofelnye-chipsy-v-mikrovolnovke.jpeg',
+    twitterImage: '/optimize/recipes/snacks/kartofelnye-chipsy-v-mikrovolnovke.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/kartofelnye-chipsy-v-mikrovolnovke',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/kartofelnye-chipsy-v-mikrovolnovke',
@@ -224,7 +224,7 @@ export const KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE = {
   categories: [{ name: 'snacks' }],
   key: 'kartofelnye-chipsy-v-mikrovolnovke',
   name: 'kartofelnye-chipsy-v-mikrovolnovke',
-  img: '/static/recipes/snacks/kartofelnye-chipsy-v-mikrovolnovke.jpeg',
+  img: '/optimize/recipes/snacks/kartofelnye-chipsy-v-mikrovolnovke.webp',
   title: 'Картофельные чипсы в микроволновке',
   description:
     'Любите домашние чипсы, но не хотите возиться с фритюром? Попробуйте этот простой рецепт картофельных чипсов в микроволновке — хрустящие, ароматные и гораздо полезнее магазинных! Всего 3 ингредиента, 5 минут — и вкусная закуска готова.',

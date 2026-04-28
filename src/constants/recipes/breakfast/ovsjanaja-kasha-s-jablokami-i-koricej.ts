@@ -11,11 +11,11 @@ export const OVSJANAJA_KASHA_S_JABLOKAMI_I_KORICEJ = {
     'og:description':
       'Начните день с ароматной овсянки — нежной, сытной и с витаминным зарядом! Этот простой рецепт сочетает полезные злаки, сладкие яблоки и согревающую корицу. Без сахара, на молоке или воде — идеально для правильного питания и худеющих.',
     'og:url': 'https://food-paradise.ru/recipe/ovsyanaya-kasha-s-yablokami-i-koritsej',
-    'og:image': '/static/recipes/breakfast/ovsyanaya-kasha-s-yablokami-i-koritsej.webp',
+    'og:image': '/optimize/recipes/breakfast/ovsyanaya-kasha-s-yablokami-i-koritsej.webp',
     twitterTitle: 'Овсяная каша с яблоками и корицей',
     twitterDescription:
       'Начните день с ароматной овсянки — нежной, сытной и с витаминным зарядом! Этот простой рецепт сочетает полезные злаки, сладкие яблоки и согревающую корицу. Без сахара, на молоке или воде — идеально для правильного питания и худеющих.',
-    twitterImage: '/static/recipes/breakfast/ovsyanaya-kasha-s-yablokami-i-koritsej.webp',
+    twitterImage: '/optimize/recipes/breakfast/ovsyanaya-kasha-s-yablokami-i-koritsej.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/ovsyanaya-kasha-s-yablokami-i-koritsej',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/ovsyanaya-kasha-s-yablokami-i-koritsej',
@@ -568,7 +568,7 @@ export const OVSJANAJA_KASHA_S_JABLOKAMI_I_KORICEJ = {
   categories: [{ name: 'breakfast' }],
   key: 'ovsjanaja-kasha-s-jablokami-i-koricej',
   name: 'ovsjanaja-kasha-s-jablokami-i-koricej',
-  img: '/static/recipes/breakfast/ovsyanaya-kasha-s-yablokami-i-koritsej.jpeg',
+  img: '/optimize/recipes/breakfast/ovsyanaya-kasha-s-yablokami-i-koritsej.webp',
   title: 'Овсяная каша с яблоками и корицей',
   description:
     'Начните день с ароматной овсянки — нежной, сытной и с витаминным зарядом! Этот простой рецепт сочетает полезные злаки, сладкие яблоки и согревающую корицу. Без сахара, на молоке или воде — идеально для правильного питания и худеющих.',

@@ -32,10 +32,10 @@ export const RATATUI_S_BAKLAZHANAMI = {
     'og:description':
       'Классический рататуй с баклажанами, кабачками и томатами под ароматными травами. Лёгкое и полезное блюдо французской кухни.',
     'og:url': 'https://food-paradise.ru/recipe/ratatui-s-baklazhanami',
-    'og:image': '/static/recipes/supper/ratatui-s-baklazhanami.jpg',
+    'og:image': '/optimize/recipes/supper/ratatui-s-baklazhanami.webp',
     twitterTitle: 'Рататуй — французский овощной ужин без мяса',
     twitterDescription: 'Классический рататуй с баклажанами, кабачками и томатами. Вкусно, просто и полезно!',
-    twitterImage: '/static/recipes/supper/ratatui-s-baklazhanami.jpg',
+    twitterImage: '/optimize/recipes/supper/ratatui-s-baklazhanami.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/ratatui-s-baklazhanami',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/ratatui-s-baklazhanami',
@@ -859,7 +859,7 @@ export const RATATUI_S_BAKLAZHANAMI = {
   categories: [{ name: 'supper' }, { name: 'vegan' }, { name: 'vegetarian' }],
   key: 'ratatui-s-baklazhanami',
   name: 'ratatui-s-baklazhanami',
-  img: '/static/recipes/supper/ratatui-s-baklazhanami.jpg',
+  img: '/optimize/recipes/supper/ratatui-s-baklazhanami.webp',
   title: 'Рататуй с баклажанами',
   description:
     'Ароматное овощное рагу с баклажанами, кабачками, томатами и сладким перцем, приправленное прованскими травами. Лёгкое, но сытное блюдо, которое наполнит дом ароматом французской деревни. Подаётся тёплым с зеленью и ломтиком хрустящего хлеба.',

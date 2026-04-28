@@ -27,10 +27,10 @@ export const CREAM_MUSHROOM_SOUP = {
     'og:description':
       'Изысканный грибной крем-суп с трюфельными нотками: сочетание лесных грибов, сливок и правильных специй.',
     'og:url': 'https://food-paradise.ru/recipe/cream-mushroom-soup',
-    'og:image': '/static/recipes/dinner/cream-mushroom-soup.jpeg',
+    'og:image': '/optimize/recipes/dinner/cream-mushroom-soup.webp',
     twitterTitle: 'Сливочный грибной суп с трюфельным маслом — ресторанный рецепт',
     twitterDescription: 'Научитесь готовить грибной суп как в мишленовских ресторанах!',
-    twitterImage: '/static/recipes/dinner/cream-mushroom-soup.jpeg',
+    twitterImage: '/optimize/recipes/dinner/cream-mushroom-soup.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/cream-mushroom-soup',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/cream-mushroom-soup',
@@ -431,7 +431,7 @@ export const CREAM_MUSHROOM_SOUP = {
   categories: [{ name: 'dinner' }, { name: 'soups' }, { name: 'cream' }],
   key: 'cream-mushroom-soup',
   name: 'cream-mushroom-soup',
-  img: '/static/recipes/dinner/cream-mushroom-soup.jpeg',
+  img: '/optimize/recipes/dinner/cream-mushroom-soup.webp',
   title: 'Сливочный грибной суп с трюфельным маслом',
   description:
     'Ресторанный вариант сливочного грибного супа с трюфельным акцентом. Готовится на насыщенном грибном бульоне из сушёных белых грибов, с добавлением шампиньонов, лисичек и свежих трав. Секрет вкуса — раздельная обжарка грибов и доведение консистенции до кремовой гладкости. Подаётся с каплей трюфельного масла и гренками из чиабатты.',

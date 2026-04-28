@@ -29,10 +29,10 @@ export const SMUZI_BOUL_S_CHIA = {
     'og:description':
       'Энергетический завтрак с семенами чиа, греческим йогуртом и свежими ягодами. Без сахара, богат клетчаткой.',
     'og:url': 'https://food-paradise.ru/recipe/smuzi-boul-s-chia',
-    'og:image': '/static/recipes/healthy/smuzi-boul-s-chia.jpeg',
+    'og:image': '/optimize/recipes/healthy/smuzi-boul-s-chia.webp',
     twitterTitle: 'Смузи-боул с чиа и ягодами — полезный завтрак',
     twitterDescription: 'Энергетический завтрак с семенами чиа, греческим йогуртом и свежими ягодами.',
-    twitterImage: '/static/recipes/healthy/smuzi-boul-s-chia.jpeg',
+    twitterImage: '/optimize/recipes/healthy/smuzi-boul-s-chia.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/smuzi-boul-s-chia',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/smuzi-boul-s-chia',
@@ -316,7 +316,7 @@ export const SMUZI_BOUL_S_CHIA = {
   categories: [{ name: 'healthy' }, { name: 'breakfast' }, { name: 'vegan' }],
   key: 'smuzi-boul-s-chia',
   name: 'smuzi-boul-s-chia',
-  img: '/static/recipes/healthy/smuzi-boul-s-chia.jpeg',
+  img: '/optimize/recipes/healthy/smuzi-boul-s-chia.webp',
   title: 'Смузи-боул с чиа и ягодами',
   description:
     'Питательный завтрак с пудингом из чиа, греческим йогуртом, свежими ягодами и мёдом. Готовится с вечера!',

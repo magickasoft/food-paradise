@@ -10,11 +10,11 @@ export const RUBLENYE_KOTLETY_IZ_GRUDKI_NA_SKOVORODE = {
     'og:description':
       'Рубленые котлеты из куриного филе, обжаренные на сковороде, — это настоящее удовольствие! По-настоящему домашнее, уютное блюдо, которое просто просится на тарелку рядом с пышным картофельным пюре. Если вы готовите большую порцию, советуем сначала обжарить котлетки до золотистой корочки, а затем довести их до готовности в духовке — это ускорит процесс. Предлагаем вам проверенный способ приготовления нежных и сочных куриных котлет из грудки — готовьте с удовольствием!',
     'og:url': 'https://food-paradise.ru/recipe/rublenye-kotlety-iz-grudki-na-skovorode',
-    'og:image': '/static/recipes/supper/rublenye-kotlety-iz-grudki-na-skovorode.jpeg',
+    'og:image': '/optimize/recipes/supper/rublenye-kotlety-iz-grudki-na-skovorode.webp',
     twitterTitle: 'Рубленые котлеты из куриного филе на сковороде',
     twitterDescription:
       'Рубленые котлеты из куриного филе, обжаренные на сковороде, — это настоящее удовольствие! По-настоящему домашнее, уютное блюдо, которое просто просится на тарелку рядом с пышным картофельным пюре. Если вы готовите большую порцию, советуем сначала обжарить котлетки до золотистой корочки, а затем довести их до готовности в духовке — это ускорит процесс. Предлагаем вам проверенный способ приготовления нежных и сочных куриных котлет из грудки — готовьте с удовольствием!',
-    twitterImage: '/static/recipes/supper/rublenye-kotlety-iz-grudki-na-skovorode.jpeg',
+    twitterImage: '/optimize/recipes/supper/rublenye-kotlety-iz-grudki-na-skovorode.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/rublenye-kotlety-iz-grudki-na-skovorode',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/rublenye-kotlety-iz-grudki-na-skovorode',
@@ -579,7 +579,7 @@ export const RUBLENYE_KOTLETY_IZ_GRUDKI_NA_SKOVORODE = {
   categories: [{ name: 'supper' }],
   key: 'rublenye-kotlety-iz-grudki-na-skovorode',
   name: 'rublenye-kotlety-iz-grudki-na-skovorode',
-  img: '/static/recipes/supper/rublenye-kotlety-iz-grudki-na-skovorode.jpeg',
+  img: '/optimize/recipes/supper/rublenye-kotlety-iz-grudki-na-skovorode.webp',
   title: 'Рубленые котлеты из куриного филе на сковороде',
   description:
     'Рубленые котлеты из куриного филе, обжаренные на сковороде, — это настоящее удовольствие! По-настоящему домашнее, уютное блюдо, которое просто просится на тарелку рядом с пышным картофельным пюре. Если вы готовите большую порцию, советуем сначала обжарить котлетки до золотистой корочки, а затем довести их до готовности в духовке — это ускорит процесс. Предлагаем вам проверенный способ приготовления нежных и сочных куриных котлет из грудки — готовьте с удовольствием!',

@@ -11,11 +11,11 @@ export const SHASHLYK_IZ_KURINOGO_BEDRA = {
     'og:description':
       'Если вы хотите приготовить действительно сочный и ароматный шашлык из курицы — не нужно изобретать велосипед. Достаточно воспользоваться проверенным рецептом с простым, но эффективным маринадом на основе газированной воды. Такой способ маринования давно используют опытные кулинары: он придаёт мясу мягкость, делает его нежным и сохраняет сочность при жарке. Минимум усилий — максимум вкуса!',
     'og:url': 'https://food-paradise.ru/recipe/shashlyk-iz-kurinogo-bedra',
-    'og:image': '/static/recipes/grill/shashlyk-iz-kurinogo-bedra.jpeg',
+    'og:image': '/optimize/recipes/grill/shashlyk-iz-kurinogo-bedra.webp',
     twitterTitle: 'Шашлык из куриного бедра',
     twitterDescription:
       'Если вы хотите приготовить действительно сочный и ароматный шашлык из курицы — не нужно изобретать велосипед. Достаточно воспользоваться проверенным рецептом с простым, но эффективным маринадом на основе газированной воды. Такой способ маринования давно используют опытные кулинары: он придаёт мясу мягкость, делает его нежным и сохраняет сочность при жарке. Минимум усилий — максимум вкуса!',
-    twitterImage: '/static/recipes/grill/shashlyk-iz-kurinogo-bedra.jpeg',
+    twitterImage: '/optimize/recipes/grill/shashlyk-iz-kurinogo-bedra.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/shashlyk-iz-kurinogo-bedra',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/shashlyk-iz-kurinogo-bedra',
@@ -1181,7 +1181,7 @@ export const SHASHLYK_IZ_KURINOGO_BEDRA = {
   categories: [{ name: 'grill' }],
   key: 'shashlyk-iz-kurinogo-bedra',
   name: 'shashlyk-iz-kurinogo-bedra',
-  img: '/static/recipes/grill/shashlyk-iz-kurinogo-bedra.jpeg',
+  img: '/optimize/recipes/grill/shashlyk-iz-kurinogo-bedra.webp',
   title: 'Шашлык из куриного бедра',
   description:
     'Если вы хотите приготовить действительно сочный и ароматный шашлык из курицы — не нужно изобретать велосипед. Достаточно воспользоваться проверенным рецептом с простым, но эффективным маринадом на основе газированной воды. Такой способ маринования давно используют опытные кулинары: он придаёт мясу мягкость, делает его нежным и сохраняет сочность при жарке. Минимум усилий — максимум вкуса!',

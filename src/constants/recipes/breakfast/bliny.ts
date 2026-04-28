@@ -27,11 +27,11 @@ export const BLINY = {
     'og:description':
       'Проверенный рецепт тонких блинчиков на молоке с дырочками. Секреты мягкости, 5 вариантов начинки и правила хранения. Готовим за 30 минут без комочков!',
     'og:url': 'https://food-paradise.ru/recipe/bliny',
-    'og:image': '/static/recipes/breakfast/bliny.jpg',
+    'og:image': '/optimize/recipes/breakfast/bliny.webp',
     twitterTitle: 'Идеальные блины на молоке — пошаговый рецепт с фото | Густые и воздушные',
     twitterDescription:
       'Проверенный рецепт тонких блинчиков на молоке с дырочками. Секреты мягкости, 5 вариантов начинки и правила хранения. Готовим за 30 минут без комочков!',
-    twitterImage: '/static/recipes/breakfast/bliny.jpg',
+    twitterImage: '/optimize/recipes/breakfast/bliny.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/bliny',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/bliny',
@@ -791,7 +791,7 @@ export const BLINY = {
   categories: [{ name: 'breakfast' }, { name: 'dessert' }],
   key: 'bliny',
   name: 'bliny',
-  img: '/static/recipes/breakfast/bliny.jpg',
+  img: '/optimize/recipes/breakfast/bliny.webp',
   title: 'Блины классические на молоке',
   description:
     'Легендарные русские блины с кружевными краями и золотистой корочкой. Этот рецепт передается в нашей семье три поколения — тесто замешивается на горячем молоке для особой эластичности. Секрет в двойном просеивании муки и правильной температуре сковороды. Получаются тонкие, но прочные блины для любых начинок!',

@@ -11,11 +11,11 @@ export const GRECHESKIJ_SALAT = {
     'og:description':
       'Это классика средиземноморской кухни: сочные помидоры, хрустящие огурцы, сладкий болгарский перец, красный лук, маслины и нежный сыр фета. Всё заправляется ароматным оливковым маслом и щепоткой орегано. Лёгкий, освежающий и невероятно вкусный салат, который идеально подходит как к мясным блюдам, так и в качестве самостоятельного приёма пищи.',
     'og:url': 'https://food-paradise.ru/recipe/grecheskij-salat',
-    'og:image': '/static/recipes/salads/grecheskij-salat.jpeg',
+    'og:image': '/optimize/recipes/salads/grecheskij-salat.webp',
     twitterTitle: 'Греческий салат',
     twitterDescription:
       'Это классика средиземноморской кухни: сочные помидоры, хрустящие огурцы, сладкий болгарский перец, красный лук, маслины и нежный сыр фета. Всё заправляется ароматным оливковым маслом и щепоткой орегано. Лёгкий, освежающий и невероятно вкусный салат, который идеально подходит как к мясным блюдам, так и в качестве самостоятельного приёма пищи.',
-    twitterImage: '/static/recipes/salads/grecheskij-salat.jpeg',
+    twitterImage: '/optimize/recipes/salads/grecheskij-salat.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/grecheskij-salat',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/grecheskij-salat',
@@ -810,7 +810,7 @@ export const GRECHESKIJ_SALAT = {
   categories: [{ name: 'salads' }],
   key: 'grecheskij-salat',
   name: 'grecheskij-salat',
-  img: '/static/recipes/salads/grecheskij-salat.jpeg',
+  img: '/optimize/recipes/salads/grecheskij-salat.webp',
   title: 'Греческий салат',
   description:
     'Это классика средиземноморской кухни: сочные помидоры, хрустящие огурцы, сладкий болгарский перец, красный лук, маслины и нежный сыр фета. Всё заправляется ароматным оливковым маслом и щепоткой орегано. Лёгкий, освежающий и невероятно вкусный салат, который идеально подходит как к мясным блюдам, так и в качестве самостоятельного приёма пищи.',

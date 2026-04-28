@@ -20,11 +20,11 @@ export const LEMONCELLO_VODKA = {
     'og:description':
       'Простой рецепт лимончелло без спирта — только лимоны, водка, сахар и вода. Мягкий, ароматный и натуральный ликёр для дома.',
     'og:url': 'https://food-paradise.ru/recipe/lemoncello-vodka',
-    'og:image': '/static/recipes/homemadeAlcohol/lemoncello-vodka.jpeg',
+    'og:image': '/optimize/recipes/homemadeAlcohol/lemoncello-vodka.webp',
     twitterTitle: 'Домашний лимончелло на водке — пошаговый рецепт с фото',
     twitterDescription:
       'Лимончелло без спирта — нежный и ароматный напиток, который легко приготовить дома. Настоящее итальянское солнце в бутылке!',
-    twitterImage: '/static/recipes/homemadeAlcohol/lemoncello-vodka.jpeg',
+    twitterImage: '/optimize/recipes/homemadeAlcohol/lemoncello-vodka.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/lemoncello-vodka',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/lemoncello-vodka',
@@ -48,7 +48,7 @@ export const LEMONCELLO_VODKA = {
   categories: [{ name: 'homemade-alcohol' }, { name: 'drinks' }],
   key: 'lemoncello-vodka',
   name: 'lemoncello-vodka',
-  img: '/static/recipes/homemadeAlcohol/lemoncello-vodka.jpeg',
+  img: '/optimize/recipes/homemadeAlcohol/lemoncello-vodka.webp',
   title: 'Настойка на лимоне (лимончелло на водке)',
   description:
     'Лимончелло на водке — адаптированный вариант знаменитого итальянского ликёра. Напиток получается мягким, с ярким лимонным ароматом и сбалансированной сладостью. Идеален в качестве дижестива или подарка ручной работы.',

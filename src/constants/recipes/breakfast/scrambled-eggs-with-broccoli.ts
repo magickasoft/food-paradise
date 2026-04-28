@@ -11,11 +11,11 @@ export const SCRAMBLED_EGGS_WITH_BROCCOLI = {
     'og:description':
       'Яичница с брокколи — отличный способ начать утро с порции витаминов. Хрустящие соцветия и мягкие яйца создают интересный контраст текстур, а зелень и перец добавляют свежести. Готовится за считанные минуты и выглядит как настоящее ресторанное блюдо.',
     'og:url': 'https://food-paradise.ru/recipe/scrambled-eggs-with-broccoli',
-    'og:image': '/static/recipes/breakfast/scrambled-eggs-with-broccoli.webp',
+    'og:image': '/optimize/recipes/breakfast/scrambled-eggs-with-broccoli.webp',
     twitterTitle: 'Яичница с брокколи',
     twitterDescription:
       'Яичница с брокколи — отличный способ начать утро с порции витаминов. Хрустящие соцветия и мягкие яйца создают интересный контраст текстур, а зелень и перец добавляют свежести. Готовится за считанные минуты и выглядит как настоящее ресторанное блюдо.',
-    twitterImage: '/static/recipes/breakfast/scrambled-eggs-with-broccoli.webp',
+    twitterImage: '/optimize/recipes/breakfast/scrambled-eggs-with-broccoli.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/scrambled-eggs-with-broccoli',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/scrambled-eggs-with-broccoli',
@@ -172,7 +172,7 @@ export const SCRAMBLED_EGGS_WITH_BROCCOLI = {
   categories: [{ name: 'breakfast' }],
   key: 'scrambled-eggs-with-broccoli',
   name: 'scrambled-eggs-with-broccoli',
-  img: '/static/recipes/breakfast/scrambled-eggs-with-broccoli.jpeg',
+  img: '/optimize/recipes/breakfast/scrambled-eggs-with-broccoli.webp',
   title: 'Яичница с брокколи',
   description:
     'Яичница с брокколи — отличный способ начать утро с порции витаминов. Хрустящие соцветия и мягкие яйца создают интересный контраст текстур, а зелень и перец добавляют свежести. Готовится за считанные минуты и выглядит как настоящее ресторанное блюдо.',

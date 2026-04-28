@@ -32,10 +32,10 @@ export const SUP_PYURE_IZ_TYKVY = {
     'og:description':
       'Кремовый суп-пюре с запечённой тыквой, морковью и сливками. Согревающий, полезный и очень простой.',
     'og:url': 'https://food-paradise.ru/recipe/sup-pyure-iz-tykvy',
-    'og:image': '/static/recipes/dinner/sup-pyure-iz-tykvy.jpeg',
+    'og:image': '/optimize/recipes/dinner/sup-pyure-iz-tykvy.webp',
     twitterTitle: 'Суп-пюре из тыквы — нежный обед за 30 минут',
     twitterDescription: 'Кремовый суп-пюре с тыквой, морковью и сливками. Простой, ароматный и полезный рецепт.',
-    twitterImage: '/static/recipes/dinner/sup-pyure-iz-tykvy.jpeg',
+    twitterImage: '/optimize/recipes/dinner/sup-pyure-iz-tykvy.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/sup-pyure-iz-tykvy',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/sup-pyure-из-tykvy',
@@ -733,7 +733,7 @@ export const SUP_PYURE_IZ_TYKVY = {
   categories: [{ name: 'dinner' }, { name: 'soup' }, { name: 'vegetarian' }],
   key: 'sup-pyure-iz-tykvy',
   name: 'sup-pyure-iz-tykvy',
-  img: '/static/recipes/dinner/sup-pyure-iz-tykvy.jpeg',
+  img: '/optimize/recipes/dinner/sup-pyure-iz-tykvy.webp',
   title: 'Суп-пюре из тыквы',
   description: `Этот суп-пюре из тыквы — воплощение уюта в тарелке. 
   Мягкий, бархатистый и слегка сладковатый, он идеально согревает в холодное время года. 

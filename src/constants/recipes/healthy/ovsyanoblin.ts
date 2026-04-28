@@ -27,11 +27,11 @@ export const OVSYANOBLIN = {
     'og:description':
       'Правильный рецепт овсяноблина — вкусный, низкокалорийный завтрак за 10 минут. Секреты идеальной текстуры, 3 варианта начинки и советы по приготовлению.',
     'og:url': 'https://food-paradise.ru/recipe/ovsyanoblin',
-    'og:image': '/static/recipes/healthy/ovsyanoblin.jpeg',
+    'og:image': '/optimize/recipes/healthy/ovsyanoblin.webp',
     twitterTitle: 'Овсяноблин — идеальный завтрак для ПП | Рецепт с фото',
     twitterDescription:
       'Правильный рецепт овсяноблина — вкусный, низкокалорийный завтрак за 10 минут. Секреты идеальной текстуры, 3 варианта начинки и советы по приготовлению.',
-    twitterImage: '/static/recipes/healthy/ovsyanoblin.jpeg',
+    twitterImage: '/optimize/recipes/healthy/ovsyanoblin.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/ovsyanoblin',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/ovsyanoblin',
@@ -460,7 +460,7 @@ export const OVSYANOBLIN = {
   categories: [{ name: 'healthy' }, { name: 'breakfast' }],
   key: 'ovsyanoblin',
   name: 'ovsyanoblin',
-  img: '/static/recipes/healthy/ovsyanoblin.jpeg',
+  img: '/optimize/recipes/healthy/ovsyanoblin.webp',
   title: 'Овсяноблин классический',
   description:
     'Легендарный овсяноблин — золотая середина между блинчиком и омлетом. Идеальный завтрак для тех, кто следит за питанием: без муки, сахара и масла. Готовится за 10 минут, дарит чувство сытости на 3-4 часа и позволяет экспериментировать с начинками. В этом рецепте — базовый вариант с секретом идеальной эластичности!',

@@ -8,11 +8,11 @@ export const MJASO_PO_FRANCUZSKI_S_POMIDORAMI_I_SYROM = {
     'og:description':
       'Если вы привыкли к «классическому» варианту этого блюда со слоями картофеля, майонезом и сыром, приготовьтесь к приятному сюрпризу. Настоящее мясо по-французски (или, как его называют во Франции, «эскалопы по-орли») — это нежная свинина или телятина под сливочным соусом бешамель с аппетитной сырной корочкой.',
     'og:url': 'https://food-paradise.ru/recipe/mjaso-po-francuzski-s-pomidorami-i-syrom',
-    'og:image': '/static/recipes/supper/mjaso-po-francuzski-s-pomidorami-i-syrom.jpeg',
+    'og:image': '/optimize/recipes/supper/mjaso-po-francuzski-s-pomidorami-i-syrom.webp',
     twitterTitle: 'Мясо по-французски с помидорами и сыром',
     twitterDescription:
       'Если вы привыкли к «классическому» варианту этого блюда со слоями картофеля, майонезом и сыром, приготовьтесь к приятному сюрпризу. Настоящее мясо по-французски (или, как его называют во Франции, «эскалопы по-орли») — это нежная свинина или телятина под сливочным соусом бешамель с аппетитной сырной корочкой.',
-    twitterImage: '/static/recipes/supper/mjaso-po-francuzski-s-pomidorami-i-syrom.jpeg',
+    twitterImage: '/optimize/recipes/supper/mjaso-po-francuzski-s-pomidorami-i-syrom.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/mjaso-po-francuzski-s-pomidorami-i-syrom',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/mjaso-po-francuzski-s-pomidorami-i-syrom',
@@ -570,7 +570,7 @@ export const MJASO_PO_FRANCUZSKI_S_POMIDORAMI_I_SYROM = {
   categories: [{ name: 'supper' }],
   key: 'mjaso-po-francuzski-s-pomidorami-i-syrom',
   name: 'mjaso-po-francuzski-s-pomidorami-i-syrom',
-  img: '/static/recipes/supper/mjaso-po-francuzski-s-pomidorami-i-syrom.jpeg',
+  img: '/optimize/recipes/supper/mjaso-po-francuzski-s-pomidorami-i-syrom.webp',
   title: 'Мясо по-французски с помидорами и сыром',
   description:
     'Если вы привыкли к «классическому» варианту этого блюда со слоями картофеля, майонезом и сыром, приготовьтесь к приятному сюрпризу. Настоящее мясо по-французски (или, как его называют во Франции, «эскалопы по-орли») — это нежная свинина или телятина под сливочным соусом бешамель с аппетитной сырной корочкой.',

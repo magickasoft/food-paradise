@@ -32,10 +32,10 @@ export const KURINYY_BULON_S_LAPSHOY = {
     'og:description':
       'Прозрачный ароматный бульон с домашней лапшой, морковью и зеленью. Идеален для восстановления сил.',
     'og:url': 'https://food-paradise.ru/recipe/kurinyy-bulon-s-lapshoy',
-    'og:image': '/static/recipes/dinner/kurinyy-bulon-s-lapshoy.jpeg',
+    'og:image': '/optimize/recipes/dinner/kurinyy-bulon-s-lapshoy.webp',
     twitterTitle: 'Куриный бульон с лапшой — легкий обед при простуде',
     twitterDescription: 'Прозрачный бульон с лапшой, морковью и зеленью. Классический рецепт домашнего уюта.',
-    twitterImage: '/static/recipes/dinner/kurinyy-bulon-s-lapshoy.jpeg',
+    twitterImage: '/optimize/recipes/dinner/kurinyy-bulon-s-lapshoy.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/kurinyy-bulon-s-lapshoy',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/kurinyy-bulon-s-lapshoy',
@@ -828,7 +828,7 @@ export const KURINYY_BULON_S_LAPSHOY = {
   categories: [{ name: 'dinner' }, { name: 'soup' }, { name: 'russian' }],
   key: 'kurinyy-bulon-s-lapshoy',
   name: 'kurinyy-bulon-s-lapshoy',
-  img: '/static/recipes/dinner/kurinyy-bulon-s-lapshoy.jpeg',
+  img: '/optimize/recipes/dinner/kurinyy-bulon-s-lapshoy.webp',
   title: 'Куриный бульон с лапшой',
   description: `Классический куриный бульон с лапшой — это вкус детства и заботы. 
   Прозрачный, насыщенный ароматами курицы, моркови и лаврового листа, он согревает изнутри и возвращает силы после долгого дня. 

@@ -27,10 +27,10 @@ export const PHO_BO = {
     'og:description':
       'Настоящий вьетнамский фо: прозрачный бульон, тонкая говядина и правильная лапша. Секреты приготовления за 4 часа.',
     'og:url': 'https://food-paradise.ru/recipe/pho-bo',
-    'og:image': '/static/recipes/dinner/pho-bo.jpeg',
+    'og:image': '/optimize/recipes/dinner/pho-bo.webp',
     twitterTitle: 'Фо Бо — вьетнамский суп с говядиной | Аутентичный рецепт',
     twitterDescription: 'Научитесь готовить настоящий фо как в уличных кафе Ханоя!',
-    twitterImage: '/static/recipes/dinner/pho-bo.jpeg',
+    twitterImage: '/optimize/recipes/dinner/pho-bo.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/pho-bo',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/pho-bo',
@@ -118,7 +118,7 @@ export const PHO_BO = {
   categories: [{ name: 'dinner' }, { name: 'soups' }, { name: 'asian' }],
   key: 'pho-bo',
   name: 'pho-bo',
-  img: '/static/recipes/dinner/pho-bo.jpeg',
+  img: '/optimize/recipes/dinner/pho-bo.webp',
   title: 'Фо Бо (вьетнамский суп с говядиной)',
 
   description:

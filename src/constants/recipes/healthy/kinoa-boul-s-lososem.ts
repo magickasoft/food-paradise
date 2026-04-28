@@ -28,10 +28,10 @@ export const KINOA_BOUL_S_LOSOSEM = {
     'og:description':
       'Сбалансированный боул с киноа, запеченным лососем, авокадо и овощами. Без глютена, богат омега-3.',
     'og:url': 'https://food-paradise.ru/recipe/kinoa-boul-s-lososem',
-    'og:image': '/static/recipes/healthy/kinoa-boul-s-lososem.jpeg',
+    'og:image': '/optimize/recipes/healthy/kinoa-boul-s-lososem.webp',
     twitterTitle: 'Киноа-боул с лососем — полезный обед за 20 минут',
     twitterDescription: 'Сбалансированный боул с киноа, запеченным лососем и овощами. Без глютена, богат омега-3.',
-    twitterImage: '/static/recipes/healthy/kinoa-boul-s-lososem.jpeg',
+    twitterImage: '/optimize/recipes/healthy/kinoa-boul-s-lososem.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/kinoa-boul-s-lososem',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/kinoa-boul-s-lososem',
@@ -865,7 +865,7 @@ export const KINOA_BOUL_S_LOSOSEM = {
   categories: [{ name: 'healthy' }, { name: 'protein' }, { name: 'gluten-free' }],
   key: 'kinoa-boul-s-lososem',
   name: 'kinoa-boul-s-lososem',
-  img: '/static/recipes/healthy/kinoa-boul-s-lososem.jpeg',
+  img: '/optimize/recipes/healthy/kinoa-boul-s-lososem.webp',
   title: 'Киноа-боул с лососем',
   description:
     'Питательный боул с киноа, запеченным лососем, авокадо и сезонными овощами. Идеальный баланс белков и полезных жиров.',

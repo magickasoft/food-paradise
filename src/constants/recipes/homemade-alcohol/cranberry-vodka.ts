@@ -18,10 +18,10 @@ export const CRANBERRY_VODKA = {
     'og:description':
       'Простой рецепт клюквовой настойки на водке: только ягоды, сахар и терпение. Насыщенный вкус и яркий цвет без химии.',
     'og:url': 'https://food-paradise.ru/recipe/cranberry-vodka',
-    'og:image': '/static/recipes/homemadeAlcohol/cranberry-vodka.jpeg',
+    'og:image': '/optimize/recipes/homemadeAlcohol/cranberry-vodka.webp',
     twitterTitle: 'Домашняя клюквовка на водке — яркий вкус зимы',
     twitterDescription: 'Кисло-сладкая настойка на клюкве — яркая классика домашнего бара.',
-    twitterImage: '/static/recipes/homemadeAlcohol/cranberry-vodka.jpeg',
+    twitterImage: '/optimize/recipes/homemadeAlcohol/cranberry-vodka.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/cranberry-vodka',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/cranberry-vodka',
@@ -34,7 +34,7 @@ export const CRANBERRY_VODKA = {
   categories: [{ name: 'homemade-alcohol' }, { name: 'drinks' }],
   key: 'cranberry-vodka',
   name: 'cranberry-vodka',
-  img: '/static/recipes/homemadeAlcohol/cranberry-vodka.jpeg',
+  img: '/optimize/recipes/homemadeAlcohol/cranberry-vodka.webp',
   title: 'Настойка на клюкве (клюквовка на водке)',
   description:
     'Клюквовка на водке — один из самых популярных домашних напитков. Яркий цвет, свежая кислинка и лёгкая сладость делают её идеальной для зимних застолий.',

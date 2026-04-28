@@ -22,11 +22,11 @@ export const CLASSIC_BORSCHT = {
     'og:description':
       'Как приготовить настоящий борщ с говядиной: насыщенный бульон, сочная свекла и ароматная заправка. Полный пошаговый рецепт с фото!',
     'og:url': 'https://food-paradise.ru/recipe/classic-borscht',
-    'og:image': '/static/recipes/dinner/classic-borscht.jpeg',
+    'og:image': '/optimize/recipes/dinner/classic-borscht.webp',
     twitterTitle: 'Классический борщ с говядиной — рецепт с фото',
     twitterDescription:
       'Настоящий борщ: говядина, свинина, свёкла, томаты и чеснок. Как добиться идеального цвета и густоты.',
-    twitterImage: '/static/recipes/dinner/classic-borscht.jpeg',
+    twitterImage: '/optimize/recipes/dinner/classic-borscht.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/classic-borscht',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/classic-borscht',
@@ -729,7 +729,7 @@ export const CLASSIC_BORSCHT = {
   categories: [{ name: 'dinner' }, { name: 'soups' }],
   key: 'classic-borscht',
   name: 'classic-borscht',
-  img: '/static/recipes/dinner/classic-borscht.jpeg',
+  img: '/optimize/recipes/dinner/classic-borscht.webp',
   title: 'Борщ классический с говядиной',
   description:
     'Легендарный борщ — это больше, чем суп. Это традиция, вкус детства и аромат домашнего уюта. В этом рецепте — говядина, свиные ребрышки и богатая овощная заправка со свеклой, морковью и капустой. Правильная технология приготовления сохраняет насыщенный рубиновый цвет и насыщенный мясной вкус.',

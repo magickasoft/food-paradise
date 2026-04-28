@@ -10,11 +10,11 @@ export const CHERRY_VODKA = {
     'og:title': 'Вишнёвка — классическая настойка на вишне',
     'og:description': 'Простой рецепт ароматной вишнёвки на водке — идеальный домашний ликёр для праздничного стола.',
     'og:url': 'https://food-paradise.ru/recipe/cherry-vodka',
-    'og:image': '/static/recipes/homemadeAlcohol/cherry-vodka.jpeg',
+    'og:image': '/optimize/recipes/homemadeAlcohol/cherry-vodka.webp',
     twitterTitle: 'Домашняя вишнёвка — настойка на вишне на водке',
     twitterDescription:
       'Насыщенная, сладкая и красивая вишнёвка — традиционный русский ликёр, который легко приготовить дома.',
-    twitterImage: '/static/recipes/homemadeAlcohol/cherry-vodka.jpeg',
+    twitterImage: '/optimize/recipes/homemadeAlcohol/cherry-vodka.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/cherry-vodka',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/cherry-vodka',
@@ -24,7 +24,7 @@ export const CHERRY_VODKA = {
   categories: [{ name: 'homemade-alcohol' }, { name: 'drinks' }],
   key: 'cherry-vodka',
   name: 'cherry-vodka',
-  img: '/static/recipes/homemadeAlcohol/cherry-vodka.jpeg',
+  img: '/optimize/recipes/homemadeAlcohol/cherry-vodka.webp',
   title: 'Настойка на вишне (вишнёвка на водке)',
   description:
     'Вишнёвка — мягкий, сладковатый напиток с насыщенным ароматом спелой вишни. Легко готовится и идеально подходит для праздничного стола.',
