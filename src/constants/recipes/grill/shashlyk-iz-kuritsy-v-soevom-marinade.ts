@@ -30,11 +30,11 @@ export const SHASHLYK_IZ_KURITSY_V_SOEVOM_MARINADE = {
     'og:description':
       'Ароматный шашлык с ярким азиатским характером: соевый соус, свежий имбирь и чеснок создают идеальный баланс вкусов.',
     'og:url': 'https://food-paradise.ru/recipe/shashlyk-iz-kuritsy-v-soevom-marinade',
-    'og:image': '/static/recipes/grill/shashlyk-iz-kuritsy-v-soevom-marinade.jpeg',
+    'og:image': '/optimize/recipes/grill/shashlyk-iz-kuritsy-v-soevom-marinade.webp',
     twitterTitle: 'Шашлык из курицы в соевом маринаде — азиатский акцент',
     twitterDescription:
       'Ароматный шашлык с ярким азиатским характером: соевый соус, свежий имбирь и чеснок создают идеальный баланс вкусов.',
-    twitterImage: '/static/recipes/grill/shashlyk-iz-kuritsy-v-soevom-marinade.jpeg',
+    twitterImage: '/optimize/recipes/grill/shashlyk-iz-kuritsy-v-soevom-marinade.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/shashlyk-iz-kuritsy-v-soevom-marinade',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/shashlyk-iz-kuritsy-v-soevom-marinade',
@@ -915,7 +915,7 @@ export const SHASHLYK_IZ_KURITSY_V_SOEVOM_MARINADE = {
   categories: [{ name: 'grill' }, { name: 'meat' }],
   key: 'shashlyk-iz-kuritsy-v-soevom-marinade',
   name: 'shashlyk-iz-kuritsy-v-soevom-marinade',
-  img: '/static/recipes/grill/shashlyk-iz-kuritsy-v-soevom-marinade.jpeg',
+  img: '/optimize/recipes/grill/shashlyk-iz-kuritsy-v-soevom-marinade.webp',
   title: 'Шашлык из курицы в соевом маринаде',
   description:
     'Азиатская версия шашлыка: соевый маринад с имбирем и медом придает курице насыщенный вкус с кисло-сладкими нотками. Быстрое маринование и аппетитная корочка.',

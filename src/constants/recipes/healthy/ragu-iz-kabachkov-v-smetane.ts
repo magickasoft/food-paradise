@@ -8,11 +8,11 @@ export const RAGU_IZ_KABACHKOV_V_SMETANE = {
     'og:description':
       'Рагу из кабачков в сметане — это легкое и питательное блюдо, которое идеально подходит для летнего обеда или ужина. Кабачки, богатые витаминами и минералами, готовятся в нежном соусе из сметаны, что придает блюду особую кремовую текстуру и вкус. Это рагу можно подавать как самостоятельное блюдо или в качестве гарнира к мясу или рыбе.',
     'og:url': 'https://food-paradise.ru/recipe/ragu-iz-kabachkov-v-smetane',
-    'og:image': '/static/recipes/healthy/ragu-iz-kabachkov-v-smetane.jpeg',
+    'og:image': '/optimize/recipes/healthy/ragu-iz-kabachkov-v-smetane.webp',
     twitterTitle: 'Рубленые котлеты из куриного филе на сковороде',
     twitterDescription:
       'Рагу из кабачков в сметане — это легкое и питательное блюдо, которое идеально подходит для летнего обеда или ужина. Кабачки, богатые витаминами и минералами, готовятся в нежном соусе из сметаны, что придает блюду особую кремовую текстуру и вкус. Это рагу можно подавать как самостоятельное блюдо или в качестве гарнира к мясу или рыбе.',
-    twitterImage: '/static/recipes/healthy/ragu-iz-kabachkov-v-smetane.jpeg',
+    twitterImage: '/optimize/recipes/healthy/ragu-iz-kabachkov-v-smetane.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/ragu-iz-kabachkov-v-smetane',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/ragu-iz-kabachkov-v-smetane',
@@ -1462,7 +1462,7 @@ export const RAGU_IZ_KABACHKOV_V_SMETANE = {
   categories: [{ name: 'healthy' }, { name: 'supper' }],
   key: 'ragu-iz-kabachkov-v-smetane',
   name: 'ragu-iz-kabachkov-v-smetane',
-  img: '/static/recipes/healthy/ragu-iz-kabachkov-v-smetane.jpeg',
+  img: '/optimize/recipes/healthy/ragu-iz-kabachkov-v-smetane.webp',
   title: 'Рагу из кабачков в сметане',
   description:
     'Рагу из кабачков в сметане — это легкое и питательное блюдо, которое идеально подходит для летнего обеда или ужина. Кабачки, богатые витаминами и минералами, готовятся в нежном соусе из сметаны, что придает блюду особую кремовую текстуру и вкус. Это рагу можно подавать как самостоятельное блюдо или в качестве гарнира к мясу или рыбе.',

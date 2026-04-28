@@ -27,11 +27,11 @@ export const SCRAMBLED_EGGS_WITH_SAUSAGES_AND_BEANS = {
     'og:description':
       'Классический английский завтрак в домашних условиях: яичница с фасолью в томатном соусе и жареными сосисками. Пошаговый рецепт с фото и советами по выбору ингредиентов.',
     'og:url': 'https://food-paradise.ru/recipe/scrambled-eggs-with-sausages-and-beans',
-    'og:image': '/static/recipes/breakfast/scrambled-eggs-with-sausages-and-beans.jpeg',
+    'og:image': '/optimize/recipes/breakfast/scrambled-eggs-with-sausages-and-beans.webp',
     twitterTitle: 'Яичница с сосисками и фасолью — сытный английский завтрак за 25 минут',
     twitterDescription:
       'Классический английский завтрак в домашних условиях: яицa с фасолью и сосисками. Полноценный белковый завтрак за 25 минут!',
-    twitterImage: '/static/recipes/breakfast/scrambled-eggs-with-sausages-and-beans.jpeg',
+    twitterImage: '/optimize/recipes/breakfast/scrambled-eggs-with-sausages-and-beans.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/scrambled-eggs-with-sausages-and-beans',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/scrambled-eggs-with-sausages-and-beans',
@@ -661,7 +661,7 @@ export const SCRAMBLED_EGGS_WITH_SAUSAGES_AND_BEANS = {
   categories: [{ name: 'breakfast' }, { name: 'protein' }],
   key: 'scrambled-eggs-with-sausages-and-beans',
   name: 'scrambled-eggs-with-sausages-and-beans',
-  img: '/static/recipes/breakfast/scrambled-eggs-with-sausages-and-beans.jpeg',
+  img: '/optimize/recipes/breakfast/scrambled-eggs-with-sausages-and-beans.webp',
   title: 'Яичница с сосисками и фасолью',
   description:
     'Аутентичный английский завтрак в русской интерпретации: золотистая яичница с поджаристыми молочными сосисками и фасолью в густом томатном соусе. Это блюдо — идеальный баланс белков и сложных углеводов для энергичного начала дня. Особый секрет — добавление вустерского соуса и копченой паприки для глубины вкуса.',

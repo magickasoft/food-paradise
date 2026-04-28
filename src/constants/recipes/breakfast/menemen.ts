@@ -27,10 +27,10 @@ export const MENEMEN = {
     'og:description':
       'Настоящий турецкий менемен: нежная яичница с сочными овощами и специями. Секреты правильной текстуры и варианты подачи. Готовим за 25 минут!',
     'og:url': 'https://food-paradise.ru/recipe/menemen',
-    'og:image': '/static/recipes/breakfast/menemen.jpeg',
+    'og:image': '/optimize/recipes/breakfast/menemen.webp',
     twitterTitle: 'Менемен — турецкая яичница с перцем и помидорами | Пошаговый рецепт',
     twitterDescription: 'Научитесь готовить менемен как в стамбульских кафе! Солнечный завтрак за 25 минут.',
-    twitterImage: '/static/recipes/breakfast/menemen.jpeg',
+    twitterImage: '/optimize/recipes/breakfast/menemen.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/menemen',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/menemen',
@@ -692,7 +692,7 @@ export const MENEMEN = {
   categories: [{ name: 'breakfast' }, { name: 'vegetarian' }],
   key: 'menemen',
   name: 'menemen',
-  img: '/static/recipes/breakfast/menemen.jpeg',
+  img: '/optimize/recipes/breakfast/menemen.webp',
   title: 'Менемен (турецкая яичница)',
 
   description: `Менемен — это больше, чем просто яичница. 

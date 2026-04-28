@@ -27,10 +27,10 @@ export const PUMPKIN_CREAM_SOUP = {
     'og:description':
       'Идеальный осенний суп: шелковистая текстура, согревающий имбирь и сливочные нотки. 3 секрета бархатистости.',
     'og:url': 'https://food-paradise.ru/recipe/pumpkin-cream-soup',
-    'og:image': '/static/recipes/dinner/pumpkin-cream-soup.jpeg',
+    'og:image': '/optimize/recipes/dinner/pumpkin-cream-soup.webp',
     twitterTitle: 'Крем-суп из тыквы с имбирем — рецепт с фото',
     twitterDescription: 'Шелковистый тыквенный суп с имбирной ноткой — осеннее наслаждение в тарелке!',
-    twitterImage: '/static/recipes/dinner/pumpkin-cream-soup.jpeg',
+    twitterImage: '/optimize/recipes/dinner/pumpkin-cream-soup.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/pumpkin-cream-soup',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/pumpkin-cream-soup',
@@ -715,7 +715,7 @@ export const PUMPKIN_CREAM_SOUP = {
   categories: [{ name: 'dinner' }, { name: 'soups' }, { name: 'vegetarian' }],
   key: 'pumpkin-cream-soup',
   name: 'pumpkin-cream-soup',
-  img: '/static/recipes/dinner/pumpkin-cream-soup.jpeg',
+  img: '/optimize/recipes/dinner/pumpkin-cream-soup.webp',
   title: 'Крем-суп из тыквы с имбирем',
   description:
     'Шеф-версия тыквенного супа от мишленовских поваров: бархатистая текстура достигается сочетанием запеченной тыквы сорта Хоккайдо и сладкого картофеля. Имбирь и мускатный орех добавляют согревающие нотки, а кокосовые сливки делают вкус объемным. Секрет — тройное пюрирование и подача с карамелизированными тыквенными семечками.',

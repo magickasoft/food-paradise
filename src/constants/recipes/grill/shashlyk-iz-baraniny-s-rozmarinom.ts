@@ -29,11 +29,11 @@ export const SHASHLYK_IZ_BARANINY_S_ROZMARINOM = {
     'og:description':
       'Нежный шашлык из молодой баранины: маринад с розмарином, чесноком и лимоном придает мясу изысканный аромат.',
     'og:url': 'https://food-paradise.ru/recipe/shashlyk-iz-baraniny-s-rozmarinom',
-    'og:image': '/static/recipes/grill/shashlyk-iz-baraniny-s-rozmarinom.jpeg',
+    'og:image': '/optimize/recipes/grill/shashlyk-iz-baraniny-s-rozmarinom.webp',
     twitterTitle: 'Шашлык из баранины с розмарином — средиземноморский стиль',
     twitterDescription:
       'Нежный шашлык из молодой баранины: маринад с розмарином, чесноком и лимоном придает мясу изысканный аромат.',
-    twitterImage: '/static/recipes/grill/shashlyk-iz-baraniny-s-rozmarinom.jpeg',
+    twitterImage: '/optimize/recipes/grill/shashlyk-iz-baraniny-s-rozmarinom.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/shashlyk-iz-baraniny-s-rozmarinom',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/shashlyk-iz-baraniny-s-rozmarinom',
@@ -878,7 +878,7 @@ export const SHASHLYK_IZ_BARANINY_S_ROZMARINOM = {
   categories: [{ name: 'grill' }, { name: 'meat' }],
   key: 'shashlyk-iz-baraniny-s-rozmarinom',
   name: 'shashlyk-iz-baraniny-s-rozmarinom',
-  img: '/static/recipes/grill/shashlyk-iz-baraniny-s-rozmarinom.jpeg',
+  img: '/optimize/recipes/grill/shashlyk-iz-baraniny-s-rozmarinom.webp',
   title: 'Шашлык из баранины с розмарином',
   description:
     'Средиземноморская версия шашлыка: молодая баранина в маринаде с розмарином, чесноком и лимоном приобретает нежный вкус и аппетитную корочку.',

@@ -20,11 +20,11 @@ export const OKROSHKA_NA_KEFIRE = {
     'og:description':
       'Как приготовить окрошку на кефире: освежающий суп с колбасой, огурцами, яйцами и зеленью. Идеальное блюдо для жаркого дня!',
     'og:url': 'https://food-paradise.ru/recipe/okroshka-na-kefire',
-    'og:image': '/static/recipes/dinner/okroshka-na-kefire.jpg',
+    'og:image': '/optimize/recipes/dinner/okroshka-na-kefire.webp',
     twitterTitle: 'Окрошка на кефире – классический летний суп',
     twitterDescription:
       'Освежающая окрошка на кефире с колбасой, яйцами и зеленью – лёгкий и вкусный холодный суп для жарких дней.',
-    twitterImage: '/static/recipes/dinner/okroshka-na-kefire.jpg',
+    twitterImage: '/optimize/recipes/dinner/okroshka-na-kefire.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/okroshka-na-kefire',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/okroshka-na-kefire',
@@ -620,7 +620,7 @@ export const OKROSHKA_NA_KEFIRE = {
   categories: [{ name: 'dinner' }],
   key: 'okroshka-na-kefire',
   name: 'okroshka-na-kefire',
-  img: '/static/recipes/dinner/okroshka-na-kefire.jpg',
+  img: '/optimize/recipes/dinner/okroshka-na-kefire.webp',
   title: 'Окрошка на кефире',
   description:
     'Окрошка на кефире — это лёгкий, освежающий и питательный холодный суп, который спасает от жары. Сочетание варёного картофеля, яиц, свежих огурцов, колбасы и зелени с нежным кисломолочным вкусом кефира делает это блюдо любимым во многих семьях. Простой рецепт, который создаёт ощущение домашнего уюта и лета.',

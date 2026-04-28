@@ -30,11 +30,11 @@ export const SHASHLYK_IZ_KURITSY_V_KEFIRNOM_MARINADE = {
     'og:description':
       'Идеальный шашлык из курицы: нежный кефирный маринад с чесноком и специями делает мясо удивительно сочным.',
     'og:url': 'https://food-paradise.ru/recipe/shashlyk-iz-kuritsy-v-kefirnom-marinade',
-    'og:image': '/static/recipes/grill/shashlyk-iz-kuritsy-v-kefirnom-marinade.jpeg',
+    'og:image': '/optimize/recipes/grill/shashlyk-iz-kuritsy-v-kefirnom-marinade.webp',
     twitterTitle: 'Шашлык из курицы в кефирном маринаде — сочный и ароматный',
     twitterDescription:
       'Идеальный шашлык из курицы: нежный кефирный маринад с чесноком и специями делает мясо удивительно сочным.',
-    twitterImage: '/static/recipes/grill/shashlyk-iz-kuritsy-v-kefirnom-marinade.jpeg',
+    twitterImage: '/optimize/recipes/grill/shashlyk-iz-kuritsy-v-kefirnom-marinade.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/shashlyk-iz-kuritsy-v-kefirnom-marinade',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/shashlyk-iz-kuritsy-v-kefirnom-marinade',
@@ -867,7 +867,7 @@ export const SHASHLYK_IZ_KURITSY_V_KEFIRNOM_MARINADE = {
   categories: [{ name: 'grill' }, { name: 'meat' }],
   key: 'shashlyk-iz-kuritsy-v-kefirnom-marinade',
   name: 'shashlyk-iz-kuritsy-v-kefirnom-marinade',
-  img: '/static/recipes/grill/shashlyk-iz-kuritsy-v-kefirnom-marinade.jpeg',
+  img: '/optimize/recipes/grill/shashlyk-iz-kuritsy-v-kefirnom-marinade.webp',
   title: 'Шашлык из курицы в кефирном маринаде',
   description:
     'Невероятно сочный шашлык из курицы: кефирный маринад с чесноком и пряностями делает мясо мягким и ароматным. Идеальный вариант для пикника.',

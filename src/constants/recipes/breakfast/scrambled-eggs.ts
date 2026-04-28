@@ -11,11 +11,11 @@ export const SCRAMBLED_EGGS = {
     'og:description':
       'Яичница-болтунья — одно из самых простых и при этом изысканных блюд. Её история уходит корнями во французскую кухню, где под названием “œufs brouillés” её подают на завтрак в лучших бистро Парижа. В России же болтунья прочно закрепилась как символ уютного домашнего утра. Главный секрет — нежное, почти кремовое состояние яиц, которые нужно готовить на слабом огне, не пересушивая. Она прекрасно сочетается с хрустящим хлебом, свежими овощами или ломтиком слабосолёного лосося.',
     'og:url': 'https://food-paradise.ru/recipe/scrambled-eggs',
-    'og:image': '/static/recipes/breakfast/scrambled-eggs.jpeg',
+    'og:image': '/optimize/recipes/breakfast/scrambled-eggs.webp',
     twitterTitle: 'Яичница-болтунья',
     twitterDescription:
       'Яичница-болтунья — одно из самых простых и при этом изысканных блюд. Её история уходит корнями во французскую кухню, где под названием “œufs brouillés” её подают на завтрак в лучших бистро Парижа. В России же болтунья прочно закрепилась как символ уютного домашнего утра. Главный секрет — нежное, почти кремовое состояние яиц, которые нужно готовить на слабом огне, не пересушивая. Она прекрасно сочетается с хрустящим хлебом, свежими овощами или ломтиком слабосолёного лосося.',
-    twitterImage: '/static/recipes/breakfast/scrambled-eggs.jpeg',
+    twitterImage: '/optimize/recipes/breakfast/scrambled-eggs.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/scrambled-eggs',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/scrambled-eggs',
@@ -193,7 +193,7 @@ export const SCRAMBLED_EGGS = {
   categories: [{ name: 'breakfast' }],
   key: 'scrambled-eggs',
   name: 'scrambled-eggs',
-  img: '/static/recipes/breakfast/scrambled-eggs.jpeg',
+  img: '/optimize/recipes/breakfast/scrambled-eggs.webp',
   title: 'Яичница-болтунья',
   description:
     'Яичница-болтунья — одно из самых простых и при этом изысканных блюд. Её история уходит корнями во французскую кухню, где под названием “œufs brouillés” её подают на завтрак в лучших бистро Парижа. В России же болтунья прочно закрепилась как символ уютного домашнего утра. Главный секрет — нежное, почти кремовое состояние яиц, которые нужно готовить на слабом огне, не пересушивая. Она прекрасно сочетается с хрустящим хлебом, свежими овощами или ломтиком слабосолёного лосося.',

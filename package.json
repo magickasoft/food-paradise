@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "bun run optimize:images && next build",
     "start": "next start",
     "serve": "serve out",
     "lint": "next lint",
+    "optimize:images": "bun scripts/optimizeImages.ts",
     "tsc:check": "tsc --noEmit",
     "prettier:check": "prettier --check \"**/*.{ts,tsx,md}\"",
     "prettier:fix": "prettier --write \"**/*.{ts,tsx,md}\"",
@@ -43,6 +44,7 @@
     "eslint-config-next": "16.1.6",
     "prettier": "^3.6.2",
     "serve": "^14.2.5",
+    "sharp": "^0.34.5",
     "typescript": "^5"
   },
   "trustedDependencies": [

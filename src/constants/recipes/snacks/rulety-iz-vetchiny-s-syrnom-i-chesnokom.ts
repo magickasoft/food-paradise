@@ -1,3 +1,6 @@
+import { EQUIPMENTS } from '@/constants/equipments'
+import { INGREDIENTS } from '@/constants/ingredients'
+
 export const RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM = {
   metaSeo: {
     title: 'Рулетики из ветчины с сыром и чесноком',
@@ -8,11 +11,11 @@ export const RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM = {
     'og:description':
       'Рулетики из ветчины с сырно-чесночной начинкой — отличная идея для закуски на фуршет или праздничный стол. Они эффектно выглядят, получаются сытными и яркими на вкус, а готовятся очень просто. Такой рецепт легко адаптировать под свой вкус — вариантов начинки множество. Мы предлагаем попробовать майонез с добавлением карри — он придаёт рулетикам красивый цвет и оригинальную нотку. А немного мелко нарезанного белого лука добавит пикантности и легкую свежесть. Если времени в обрез, можно ограничиться классикой — натертым сыром, чесноком и обычным майонезом. А если добавить ещё и отварные яйца, измельчённые на мелкой тёрке, начинка получится особенно нежной и в то же время выразительной.',
     'og:url': 'https://food-paradise.ru/recipe/rulety-iz-vetchiny-s-syrnom-i-chesnokom',
-    'og:image': '/static/recipes/snacks/rulety-iz-vetchiny-s-syrnom-i-chesnokom.jpeg',
+    'og:image': '/optimize/recipes/snacks/rulety-iz-vetchiny-s-syrnom-i-chesnokom.webp',
     twitterTitle: 'Рулетики из ветчины с сыром и чесноком',
     twitterDescription:
       'Рулетики из ветчины с сырно-чесночной начинкой — отличная идея для закуски на фуршет или праздничный стол. Они эффектно выглядят, получаются сытными и яркими на вкус, а готовятся очень просто. Такой рецепт легко адаптировать под свой вкус — вариантов начинки множество. Мы предлагаем попробовать майонез с добавлением карри — он придаёт рулетикам красивый цвет и оригинальную нотку. А немного мелко нарезанного белого лука добавит пикантности и легкую свежесть. Если времени в обрез, можно ограничиться классикой — натертым сыром, чесноком и обычным майонезом. А если добавить ещё и отварные яйца, измельчённые на мелкой тёрке, начинка получится особенно нежной и в то же время выразительной.',
-    twitterImage: '/static/recipes/snacks/rulety-iz-vetchiny-s-syrnom-i-chesnokom.jpeg',
+    twitterImage: '/optimize/recipes/snacks/rulety-iz-vetchiny-s-syrnom-i-chesnokom.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/rulety-iz-vetchiny-s-syrnom-i-chesnokom',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/rulety-iz-vetchiny-s-syrnom-i-chesnokom',
@@ -438,7 +441,7 @@ export const RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM = {
   categories: [{ name: 'snacks' }],
   key: 'rulety-iz-vetchiny-s-syrnom-i-chesnokom',
   name: 'rulety-iz-vetchiny-s-syrnom-i-chesnokom',
-  img: '/static/recipes/snacks/rulety-iz-vetchiny-s-syrnom-i-chesnokom.jpeg',
+  img: '/optimize/recipes/snacks/rulety-iz-vetchiny-s-syrnom-i-chesnokom.webp',
   title: 'Рулетики из ветчины с сыром и чесноком',
   description:
     'Рулетики из ветчины с сырно-чесночной начинкой — отличная идея для закуски на фуршет или праздничный стол. Они эффектно выглядят, получаются сытными и яркими на вкус, а готовятся очень просто. Такой рецепт легко адаптировать под свой вкус — вариантов начинки множество. Мы предлагаем попробовать майонез с добавлением карри — он придаёт рулетикам красивый цвет и оригинальную нотку. А немного мелко нарезанного белого лука добавит пикантности и легкую свежесть. Если времени в обрез, можно ограничиться классикой — натертым сыром, чесноком и обычным майонезом. А если добавить ещё и отварные яйца, измельчённые на мелкой тёрке, начинка получится особенно нежной и в то же время выразительной.',
@@ -449,29 +452,133 @@ export const RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM = {
   rating: 4.75,
   portions: 24,
   used: [8.6, 5, 0.7],
-  ingredients: [],
-  equipments: [],
+  ingredients: [
+    {
+      name: 'Ветчина',
+      gauge: 'г',
+      count: 300,
+      img: null,
+    },
+    {
+      ...INGREDIENTS.hardCheese,
+      gauge: 'г',
+      count: 200,
+    },
+    {
+      ...INGREDIENTS.eggs,
+      gauge: 'шт.',
+      count: 3,
+    },
+    {
+      ...INGREDIENTS.garlic,
+      gauge: 'зубчика',
+      count: 2,
+    },
+    {
+      ...INGREDIENTS.mayonnaise,
+      gauge: 'ст.л.',
+      count: 3,
+    },
+    {
+      ...INGREDIENTS.groundBlackPepper,
+      gauge: 'по вкусу',
+    },
+    {
+      ...INGREDIENTS.smokedPaprika,
+      gauge: 'ч.л.',
+      count: 0.5,
+    },
+    {
+      ...INGREDIENTS.greens,
+      gauge: 'по вкусу',
+    },
+  ],
+  equipments: [
+    {
+      ...EQUIPMENTS.pot,
+    },
+    {
+      ...EQUIPMENTS.grater,
+    },
+    {
+      ...EQUIPMENTS.bowl,
+    },
+    {
+      ...EQUIPMENTS.knife,
+    },
+    {
+      ...EQUIPMENTS.spoon,
+    },
+    {
+      ...EQUIPMENTS.plate,
+    },
+    {
+      ...EQUIPMENTS.fridge,
+    },
+  ],
   cookingRecipe: [
     {
       img: null,
       video: null,
       description:
         'Начните с приготовления начинки: сварите яйца вкрутую, остудите их под холодной водой и очистите. Мелко нарежьте яйца, а сыр натрите на крупной терке. Смешайте оба ингредиента в глубокой миске.',
-      ingredients: [],
+      ingredients: [
+        {
+          ...INGREDIENTS.eggs,
+          gauge: 'шт.',
+          count: 3,
+        },
+        {
+          ...INGREDIENTS.hardCheese,
+          gauge: 'г',
+          count: 200,
+        },
+      ],
     },
     {
       img: null,
       video: null,
       description:
-        'Очистите чеснок и натрите его на мелкой терке. Добавьте его к майонезу или натуральному йогурту, если хотите более легкий вариант. Приправьте черным перцем и паприкой, затем заправьте сырно-яичную смесь, тщательно перемешав до однородности.',
-      ingredients: [],
+        'Очистите чеснок и натрите его на мелкой терке. Добавьте его к майонезу, приправьте черным перцем и паприкой, затем заправьте сырно-яичную смесь и тщательно перемешайте до однородности.',
+      ingredients: [
+        {
+          ...INGREDIENTS.garlic,
+          gauge: 'зубчика',
+          count: 2,
+        },
+        {
+          ...INGREDIENTS.mayonnaise,
+          gauge: 'ст.л.',
+          count: 3,
+        },
+        {
+          ...INGREDIENTS.groundBlackPepper,
+          gauge: 'по вкусу',
+        },
+        {
+          ...INGREDIENTS.smokedPaprika,
+          gauge: 'ч.л.',
+          count: 0.5,
+        },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Разложите ломтики ветчины и выложите на каждый немного начинки. Аккуратно сверните в рулетики. Выложите рулеты на сервировочную тарелку, украсьте зеленью или овощами по вкусу. Перед подачей уберите в холодильник минимум на 20 минут — так они станут плотнее и вкуснее.',
-      ingredients: [],
+      ingredients: [
+        {
+          name: 'Ветчина',
+          gauge: 'г',
+          count: 300,
+          img: null,
+        },
+        {
+          ...INGREDIENTS.greens,
+          gauge: 'по вкусу',
+        },
+      ],
     },
   ],
 }

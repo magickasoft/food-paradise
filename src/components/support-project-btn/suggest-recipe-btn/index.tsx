@@ -54,7 +54,7 @@ export const SupportProjectButton = memo(function SupportProjectButton() {
               {isImageLoading && <div>Загрузка QR кода...</div>}
               <Image
                 onLoad={() => setIsImageLoading(false)}
-                src="/static/qr-sber.jpg"
+                src="/optimize/qr-sber.webp"
                 alt="QR код для перевода в Сбербанк"
                 width={300}
                 height={300}

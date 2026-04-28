@@ -27,11 +27,11 @@ export const SCRAMBLED_EGGS_SHAKSHUKA = {
     'og:description':
       'Настоящая шакшука — ароматная яичница с томатами, сладким перцем и специями. Аутентичный рецепт, адаптированный под российские ингредиенты.',
     'og:url': 'https://food-paradise.ru/recipe/scrambled-eggs-shakshuka',
-    'og:image': '/static/recipes/breakfast/scrambled-eggs-shakshuka.jpeg',
+    'og:image': '/optimize/recipes/breakfast/scrambled-eggs-shakshuka.webp',
     twitterTitle: 'Шакшука — израильская яичница с помидорами и перцем | Рецепт с фото',
     twitterDescription:
       'Научитесь готовить шакшуку как на Ближнем Востоке — с тмином, паприкой и правильной текстурой соуса.',
-    twitterImage: '/static/recipes/breakfast/scrambled-eggs-shakshuka.jpeg',
+    twitterImage: '/optimize/recipes/breakfast/scrambled-eggs-shakshuka.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/scrambled-eggs-shakshuka',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/scrambled-eggs-shakshuka',
@@ -455,7 +455,7 @@ export const SCRAMBLED_EGGS_SHAKSHUKA = {
   categories: [{ name: 'breakfast' }, { name: 'vegetarian' }],
   key: 'scrambled-eggs-shakshuka',
   name: 'scrambled-eggs-shakshuka',
-  img: '/static/recipes/breakfast/scrambled-eggs-shakshuka.jpeg',
+  img: '/optimize/recipes/breakfast/scrambled-eggs-shakshuka.webp',
   title: 'Шакшука (израильская яичница)',
   description:
     'Блюдо ближневосточной кухни, завоевавшее популярность по всему миру. Яйца томятся в насыщенном соусе из помидоров и сладкого перца с копченой паприкой, тмином и зеленью. Наш рецепт сохраняет аутентичность, но адаптирован под привычные ингредиенты. Главное — готовить на слабом огне и вовремя добавить яйца, чтобы сохранить нежность желтков.',

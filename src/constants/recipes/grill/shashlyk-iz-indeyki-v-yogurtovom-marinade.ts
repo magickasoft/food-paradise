@@ -29,11 +29,11 @@ export const SHASHLYK_IZ_INDEYKI_V_YOGURTOVOM_MARINADE = {
     'og:description':
       'Нежный шашлык из филе индейки: йогуртовый маринад с куркумой и чесноком делает мясо сочным и ароматным.',
     'og:url': 'https://food-paradise.ru/recipe/shashlyk-iz-indeyki-v-yogurtovom-marinade',
-    'og:image': '/static/recipes/grill/shashlyk-iz-indeyki-v-yogurtovom-marinade.jpeg',
+    'og:image': '/optimize/recipes/grill/shashlyk-iz-indeyki-v-yogurtovom-marinade.webp',
     twitterTitle: 'Шашлык из индейки в йогуртовом маринаде — диетический вариант',
     twitterDescription:
       'Нежный шашлык из филе индейки: йогуртовый маринад с куркумой и чесноком делает мясо сочным и ароматным.',
-    twitterImage: '/static/recipes/grill/shashlyk-iz-indeyki-v-yogurtovom-marinade.jpeg',
+    twitterImage: '/optimize/recipes/grill/shashlyk-iz-indeyki-v-yogurtovom-marinade.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/shashlyk-iz-indeyki-v-yogurtovom-marinade',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/shashlyk-iz-indeyki-v-yogurtovom-marinade',
@@ -1054,7 +1054,7 @@ export const SHASHLYK_IZ_INDEYKI_V_YOGURTOVOM_MARINADE = {
   categories: [{ name: 'grill' }, { name: 'meat' }],
   key: 'shashlyk-iz-indeyki-v-yogurtovom-marinade',
   name: 'shashlyk-iz-indeyki-v-yogurtovom-marinade',
-  img: '/static/recipes/grill/shashlyk-iz-indeyki-v-yogurtovom-marinade.jpeg',
+  img: '/optimize/recipes/grill/shashlyk-iz-indeyki-v-yogurtovom-marinade.webp',
   title: 'Шашлык из индейки в йогуртовом маринаде',
   description:
     'Диетический вариант шашлыка: филе индейки в йогуртовом маринаде с куркумой и чесноком остается удивительно сочным и нежным при жарке.',

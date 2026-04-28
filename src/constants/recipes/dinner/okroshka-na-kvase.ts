@@ -21,11 +21,11 @@ export const OKROSHKA_NA_KVASE = {
     'og:description':
       'Классическая окрошка на квасе с колбасой, картофелем, свежими овощами и зеленью. Пошаговый рецепт освежающего супа для жарких дней.',
     'og:url': 'https://food-paradise.ru/recipe/okroshka-na-kvase',
-    'og:image': '/static/recipes/dinner/okroshka-na-kvase.jpeg',
+    'og:image': '/optimize/recipes/dinner/okroshka-na-kvase.webp',
     twitterTitle: 'Окрошка на квасе – традиционный рецепт',
     twitterDescription:
       'Как приготовить окрошку на квасе: классический рецепт холодного супа с колбасой, овощами и сметаной. Лучшее летнее блюдо!',
-    twitterImage: '/static/recipes/dinner/okroshka-na-kvase.jpeg',
+    twitterImage: '/optimize/recipes/dinner/okroshka-na-kvase.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/okroshka-na-kvase',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/okroshka-na-kvase',
@@ -627,7 +627,7 @@ export const OKROSHKA_NA_KVASE = {
   categories: [{ name: 'dinner' }],
   key: 'okroshka-na-kvase',
   name: 'okroshka-na-kvase',
-  img: '/static/recipes/dinner/okroshka-na-kvase.jpeg',
+  img: '/optimize/recipes/dinner/okroshka-na-kvase.webp',
   title: 'Окрошка на квасе',
   description:
     'Классическая окрошка на квасе – символ лета и освежающий холодный суп, без которого трудно представить жаркие дни. Простая в приготовлении, она сочетает в себе свежесть огурцов и редиса, насыщенность зелени и яиц, а хлебный квас придаёт ей особую кислинку. Лёгкая, питательная и невероятно вкусная – окрошка на квасе станет главным блюдом вашего летнего обеда.',

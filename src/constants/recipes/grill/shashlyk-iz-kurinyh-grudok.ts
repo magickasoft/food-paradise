@@ -11,11 +11,11 @@ export const SHASHLYK_IZ_KURINYH_GRUDOK = {
     'og:description':
       'Нежный и сочный шашлык из куриной грудки с медово-лимонным маринадом. Простой способ приготовления, но результат — мясо с золотистой корочкой и насыщенным вкусом.',
     'og:url': 'https://food-paradise.ru/recipe/shashlyk-iz-kurinyh-grudok',
-    'og:image': '/static/recipes/grill/shashlyk-iz-kurinyh-grudok.jpeg',
+    'og:image': '/optimize/recipes/grill/shashlyk-iz-kurinyh-grudok.webp',
     twitterTitle: 'Шашлык из куриных грудок в лимонно-медовом маринаде',
     twitterDescription:
       'Нежный и сочный шашлык из куриной грудки с медово-лимонным маринадом. Простой способ приготовления, но результат — мясо с золотистой корочкой и насыщенным вкусом.',
-    twitterImage: '/static/recipes/grill/shashlyk-iz-kurinyh-grudok.jpeg',
+    twitterImage: '/optimize/recipes/grill/shashlyk-iz-kurinyh-grudok.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/shashlyk-iz-kurinyh-grudok',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/shashlyk-iz-kurinyh-grudok',
@@ -1202,7 +1202,7 @@ export const SHASHLYK_IZ_KURINYH_GRUDOK = {
   categories: [{ name: 'grill' }],
   key: 'shashlyk-iz-kurinyh-grudok',
   name: 'shashlyk-iz-kurinyh-grudok',
-  img: '/static/recipes/grill/shashlyk-iz-kurinyh-grudok.jpeg',
+  img: '/optimize/recipes/grill/shashlyk-iz-kurinyh-grudok.webp',
   title: 'Шашлык из куриных грудок в лимонно-медовом маринаде',
   description:
     'Нежный и сочный шашлык из куриной грудки с медово-лимонным маринадом. Простой способ приготовления, но результат — мясо с золотистой корочкой и насыщенным вкусом.',

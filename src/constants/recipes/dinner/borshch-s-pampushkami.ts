@@ -21,11 +21,11 @@ export const BORSHCH_S_PAMPUSHKAMI = {
     'og:description':
       'Как приготовить настоящий борщ с пампушками? Пошаговый рецепт: насыщенный борщ со свеклой и пышные чесночные пампушки – идеальное сочетание для сытного обеда.',
     'og:url': 'https://food-paradise.ru/recipe/borshch-s-pampushkami',
-    'og:image': '/static/recipes/dinner/borshch-s-pampushkami.jpeg',
+    'og:image': '/optimize/recipes/dinner/borshch-s-pampushkami.webp',
     twitterTitle: 'Борщ с пампушками – классический рецепт',
     twitterDescription:
       'Секреты приготовления борща с пампушками: насыщенный суп со свеклой и чесночные булочки. Готовим дома по пошаговому рецепту!',
-    twitterImage: '/static/recipes/dinner/borshch-s-pampushkami.jpeg',
+    twitterImage: '/optimize/recipes/dinner/borshch-s-pampushkami.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/borshch-s-pampushkami',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/borshch-s-pampushkami',
@@ -727,7 +727,7 @@ export const BORSHCH_S_PAMPUSHKAMI = {
   categories: [{ name: 'dinner' }],
   key: 'borshch-s-pampushkami',
   name: 'borshch-s-pampushkami',
-  img: '/static/recipes/dinner/borshch-s-pampushkami.jpeg',
+  img: '/optimize/recipes/dinner/borshch-s-pampushkami.webp',
   title: 'Борщ с пампушками',
   description:
     'Классический борщ со свеклой в сочетании с мягкими и ароматными пампушками – это блюдо, которое стало символом домашнего уюта и настоящей кухни. Благодаря пошаговому рецепту вы легко приготовите насыщенный борщ с чесночными булочками, которые идеально дополняют вкус супа.',

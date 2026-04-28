@@ -32,11 +32,11 @@ export const FARSHIROVANNYE_PERTSY = {
     'og:description':
       'Сочные болгарские перцы, наполненные фаршем с рисом и томатным соусом. Домашняя классика, любимая всей семьёй.',
     'og:url': 'https://food-paradise.ru/recipe/farshirovannye-pertsy',
-    'og:image': '/static/recipes/supper/farshirovannye-pertsy.jpeg',
+    'og:image': '/optimize/recipes/supper/farshirovannye-pertsy.webp',
     twitterTitle: 'Фаршированные перцы — сытный ужин в духовке',
     twitterDescription:
       'Классические фаршированные перцы с мясным фаршем, рисом и томатным соусом. Домашняя еда, проверенная временем.',
-    twitterImage: '/static/recipes/supper/farshirovannye-pertsy.jpeg',
+    twitterImage: '/optimize/recipes/supper/farshirovannye-pertsy.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/farshirovannye-pertsy',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/farshirovannye-pertsy',
@@ -792,7 +792,7 @@ export const FARSHIROVANNYE_PERTSY = {
   categories: [{ name: 'supper' }, { name: 'meat' }, { name: 'russian' }],
   key: 'farshirovannye-pertsy',
   name: 'farshirovannye-pertsy',
-  img: '/static/recipes/supper/farshirovannye-pertsy.jpeg',
+  img: '/optimize/recipes/supper/farshirovannye-pertsy.webp',
   title: 'Фаршированные перцы',
   description:
     'Сочные болгарские перцы, наполненные говяжьим фаршем с рисом и морковью, запечённые под густым томатно-сметанным соусом. Классика домашней кухни, которая всегда собирает семью за столом. Особенно вкусно со сметаной, зеленью и свежим хлебом.',

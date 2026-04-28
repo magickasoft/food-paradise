@@ -27,10 +27,10 @@ export const GAZPACHO = {
     'og:description':
       'Настоящий гаспачо из Севильи: освежающий, с идеальным балансом кислоты и сладости. Секреты шеф-повара.',
     'og:url': 'https://food-paradise.ru/recipe/gazpacho',
-    'og:image': '/static/recipes/dinner/gazpacho.jpeg',
+    'og:image': '/optimize/recipes/dinner/gazpacho.webp',
     twitterTitle: 'Гаспачо андалуз — холодный испанский суп',
     twitterDescription: 'Научитесь готовить настоящий гаспачо как в андалузских тавернах!',
-    twitterImage: '/static/recipes/dinner/gazpacho.jpeg',
+    twitterImage: '/optimize/recipes/dinner/gazpacho.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/gazpacho',
     'twitter:card': 'summary_large_image',
     canonicalUrl: 'https://food-paradise.ru/recipe/gazpacho',
@@ -700,7 +700,7 @@ export const GAZPACHO = {
   categories: [{ name: 'dinner' }, { name: 'soups' }, { name: 'cold' }],
   key: 'gazpacho',
   name: 'gazpacho',
-  img: '/static/recipes/dinner/gazpacho.jpeg',
+  img: '/optimize/recipes/dinner/gazpacho.webp',
   title: 'Гаспачо андалуз (холодный томатный суп)',
   description:
     "Аутентичный рецепт гаспачо из Андалусии — освежающего холодного супа, который когда-то был пищей испанских жнецов. В основе — спелые томаты 'бычье сердце', сладкий перец, огурец, чеснок, хлеб для густоты и немного хересного уксуса. Важно: настоящий гаспачо готовится вручную в ступке, а не в блендере, чтобы сохранить шелковистую, но слегка текстурную консистенцию.",

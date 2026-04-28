@@ -198,7 +198,7 @@ export const Header = memo(function Header() {
       <Container $scrolled={scrolled}>
         <LeftBlock>
           <Link href="/" locale="ru">
-            <Image src="/static/logo.png" alt="logo" width={120} height={60} priority />
+            <Image src="/optimize/logo.webp" alt="logo" width={120} height={60} priority />
             <Text>
               Всегда Готов<span>Ъ</span>
             </Text>
