@@ -41,9 +41,9 @@ export const CRANBERRY_VODKA = {
   warning: 'Чрезмерное употребление алкоголя вредит вашему здоровью!',
   calories: 180,
   preparation: 15,
-  time: 20160,
+  time: 36000,
   level: 1,
-  used: [],
+  used: null,
   rating: 4.9,
   portions: 20,
   ingredients: [

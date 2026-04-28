@@ -31,9 +31,9 @@ export const CHERRY_VODKA = {
   warning: 'Чрезмерное употребление алкоголя вредит вашему здоровью!',
   calories: 200,
   preparation: 20,
-  time: 10080,
+  time: 50400,
   level: 1,
-  used: [],
+  used: null,
   rating: 4.9,
   portions: 25,
   ingredients: [

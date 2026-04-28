@@ -32,7 +32,7 @@ export const HRENOVUKHA = {
   preparation: 10,
   time: 5040,
   level: 1,
-  used: [],
+  used: null,
   rating: 4.7,
   portions: 15,
   ingredients: [

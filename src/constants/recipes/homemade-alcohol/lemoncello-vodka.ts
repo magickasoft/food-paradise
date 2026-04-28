@@ -18,12 +18,12 @@ export const LEMONCELLO_VODKA = {
     ],
     'og:title': 'Лимончелло на водке — домашняя лимонная настойка | Пошаговый рецепт с фото',
     'og:description':
-      'Простой рецепт лимончелло без спирта — только лимоны, водка, сахар и вода. Мягкий, ароматный и натуральный ликёр для дома.',
+      'Простой рецепт лимончелло на водке — только лимоны, водка, сахар и вода. Мягкий, ароматный и натуральный ликёр для дома.',
     'og:url': 'https://food-paradise.ru/recipe/lemoncello-vodka',
     'og:image': '/optimize/recipes/homemadeAlcohol/lemoncello-vodka.webp',
     twitterTitle: 'Домашний лимончелло на водке — пошаговый рецепт с фото',
     twitterDescription:
-      'Лимончелло без спирта — нежный и ароматный напиток, который легко приготовить дома. Настоящее итальянское солнце в бутылке!',
+      'Лимончелло на водке — нежный и ароматный напиток, который легко приготовить дома. Настоящее итальянское солнце в бутылке!',
     twitterImage: '/optimize/recipes/homemadeAlcohol/lemoncello-vodka.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/lemoncello-vodka',
     'twitter:card': 'summary_large_image',
@@ -59,7 +59,7 @@ export const LEMONCELLO_VODKA = {
   level: 1,
   rating: 4.8,
   portions: 25,
-  used: [4.2, 2.7, 6.5],
+  used: null,
   ingredients: [
     { ...INGREDIENTS.lemon, count: 6, gauge: 'шт.' },
     { ...INGREDIENTS.vodka, count: 700, gauge: 'мл' },
@@ -129,7 +129,7 @@ export const LEMONCELLO_VODKA = {
     {
       id: '2',
       name: 'Мария',
-      text: 'Классическая домашняя клюквовка на водке. Очень нежный и вкусный напиток.',
+      text: 'Получился яркий лимонный ликёр, без резкой спиртовой ноты. После охлаждения особенно хорош.',
       rating: 5,
       avatar: null,
     },
