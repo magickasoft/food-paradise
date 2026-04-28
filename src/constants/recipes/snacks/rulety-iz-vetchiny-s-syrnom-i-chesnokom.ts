@@ -1,3 +1,6 @@
+import { EQUIPMENTS } from '@/constants/equipments'
+import { INGREDIENTS } from '@/constants/ingredients'
+
 export const RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM = {
   metaSeo: {
     title: 'Рулетики из ветчины с сыром и чесноком',
@@ -449,29 +452,133 @@ export const RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM = {
   rating: 4.75,
   portions: 24,
   used: [8.6, 5, 0.7],
-  ingredients: [],
-  equipments: [],
+  ingredients: [
+    {
+      name: 'Ветчина',
+      gauge: 'г',
+      count: 300,
+      img: null,
+    },
+    {
+      ...INGREDIENTS.hardCheese,
+      gauge: 'г',
+      count: 200,
+    },
+    {
+      ...INGREDIENTS.eggs,
+      gauge: 'шт.',
+      count: 3,
+    },
+    {
+      ...INGREDIENTS.garlic,
+      gauge: 'зубчика',
+      count: 2,
+    },
+    {
+      ...INGREDIENTS.mayonnaise,
+      gauge: 'ст.л.',
+      count: 3,
+    },
+    {
+      ...INGREDIENTS.groundBlackPepper,
+      gauge: 'по вкусу',
+    },
+    {
+      ...INGREDIENTS.smokedPaprika,
+      gauge: 'ч.л.',
+      count: 0.5,
+    },
+    {
+      ...INGREDIENTS.greens,
+      gauge: 'по вкусу',
+    },
+  ],
+  equipments: [
+    {
+      ...EQUIPMENTS.pot,
+    },
+    {
+      ...EQUIPMENTS.grater,
+    },
+    {
+      ...EQUIPMENTS.bowl,
+    },
+    {
+      ...EQUIPMENTS.knife,
+    },
+    {
+      ...EQUIPMENTS.spoon,
+    },
+    {
+      ...EQUIPMENTS.plate,
+    },
+    {
+      ...EQUIPMENTS.fridge,
+    },
+  ],
   cookingRecipe: [
     {
       img: null,
       video: null,
       description:
         'Начните с приготовления начинки: сварите яйца вкрутую, остудите их под холодной водой и очистите. Мелко нарежьте яйца, а сыр натрите на крупной терке. Смешайте оба ингредиента в глубокой миске.',
-      ingredients: [],
+      ingredients: [
+        {
+          ...INGREDIENTS.eggs,
+          gauge: 'шт.',
+          count: 3,
+        },
+        {
+          ...INGREDIENTS.hardCheese,
+          gauge: 'г',
+          count: 200,
+        },
+      ],
     },
     {
       img: null,
       video: null,
       description:
-        'Очистите чеснок и натрите его на мелкой терке. Добавьте его к майонезу или натуральному йогурту, если хотите более легкий вариант. Приправьте черным перцем и паприкой, затем заправьте сырно-яичную смесь, тщательно перемешав до однородности.',
-      ingredients: [],
+        'Очистите чеснок и натрите его на мелкой терке. Добавьте его к майонезу, приправьте черным перцем и паприкой, затем заправьте сырно-яичную смесь и тщательно перемешайте до однородности.',
+      ingredients: [
+        {
+          ...INGREDIENTS.garlic,
+          gauge: 'зубчика',
+          count: 2,
+        },
+        {
+          ...INGREDIENTS.mayonnaise,
+          gauge: 'ст.л.',
+          count: 3,
+        },
+        {
+          ...INGREDIENTS.groundBlackPepper,
+          gauge: 'по вкусу',
+        },
+        {
+          ...INGREDIENTS.smokedPaprika,
+          gauge: 'ч.л.',
+          count: 0.5,
+        },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Разложите ломтики ветчины и выложите на каждый немного начинки. Аккуратно сверните в рулетики. Выложите рулеты на сервировочную тарелку, украсьте зеленью или овощами по вкусу. Перед подачей уберите в холодильник минимум на 20 минут — так они станут плотнее и вкуснее.',
-      ingredients: [],
+      ingredients: [
+        {
+          name: 'Ветчина',
+          gauge: 'г',
+          count: 300,
+          img: null,
+        },
+        {
+          ...INGREDIENTS.greens,
+          gauge: 'по вкусу',
+        },
+      ],
     },
   ],
 }

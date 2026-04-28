@@ -506,6 +506,12 @@ export const SENDVICH_S_AVOKADO_I_YAITSOM_PASHOT = {
       count: 1,
       img: null,
     },
+    {
+      name: 'Уксус',
+      gauge: 'ч.л',
+      count: 1,
+      img: null,
+    },
   ],
   equipments: [
     {
@@ -563,6 +569,12 @@ export const SENDVICH_S_AVOKADO_I_YAITSOM_PASHOT = {
         {
           name: 'Яйцо',
           gauge: 'шт.',
+          count: 1,
+          img: null,
+        },
+        {
+          name: 'Уксус',
+          gauge: 'ч.л',
           count: 1,
           img: null,
         },

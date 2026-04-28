@@ -51,7 +51,7 @@ export const TARTALETKI_S_KURITSEY_I_GRIBAMI = {
     'что приготовить в тарталетках',
     'тарталетки со сливочным соусом',
   ],
-  categories: [{ name: 'new-year' }],
+  categories: [{ name: 'new-year' }, { name: 'snacks' }],
   key: 'tartaletki-s-kuritsey-i-gribami',
   name: 'tartaletki-s-kuritsey-i-gribami',
   img: '/optimize/recipes/new-year/tartaletki-s-kuritsey-i-gribami.webp',

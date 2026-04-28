@@ -3,6 +3,8 @@ import { KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE } from './snacks/kartofelnye-chipsy-
 import { SENDVICH_S_AVOKADO_I_YAITSOM_PASHOT } from './snacks/sendvich-s-avokado-i-yaitsom-pashot'
 import { GRECHESKIY_SENDVICH_S_FETOY } from './snacks/grecheskiy-sendvich-s-fetoy'
 import { SENDVICH_S_KURITSEY_I_PESTO } from './snacks/sendvich-s-kuritsey-i-pesto'
+import { TARTALETKI_S_IKROY } from './snacks/tartaletki-s-ikroy'
+import { TARTALETKI_S_KURITSEY_I_GRIBAMI } from './snacks/tartaletki-s-kuritsey-i-gribami'
 
 export const SNACKS = [
   RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM,
@@ -10,4 +12,6 @@ export const SNACKS = [
   SENDVICH_S_AVOKADO_I_YAITSOM_PASHOT,
   GRECHESKIY_SENDVICH_S_FETOY,
   SENDVICH_S_KURITSEY_I_PESTO,
+  TARTALETKI_S_IKROY,
+  TARTALETKI_S_KURITSEY_I_GRIBAMI,
 ]

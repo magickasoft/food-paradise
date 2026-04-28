@@ -54,7 +54,7 @@ export const TARTALETKI_S_IKROY = {
     'что приготовить с икрой',
     'икра на новый год',
   ],
-  categories: [{ name: 'new-year' }],
+  categories: [{ name: 'new-year' }, { name: 'snacks' }],
   key: 'tartaletki-s-ikroy',
   name: 'tartaletki-s-ikroy',
   img: '/optimize/recipes/new-year/tartaletki-s-ikroy.webp',
