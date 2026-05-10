@@ -72,7 +72,7 @@
   @media (max-width: 768px) {
     font-size: ${({variant:e})=>{switch(e){case"large":case"slider":return"20px";case"medium":default:return"18px";case"small":return"16px"}}};
   }
-`;e.s(["CategoryCard",0,({img:e,label:t,color:n,name:s,variant:l="large",backgroundSize:d="cover"})=>(0,i.jsx)(a.Link,{href:{pathname:"/categories/[name]",params:{name:s}},locale:"ru",style:{textDecoration:"none"},children:(0,i.jsx)(o,{role:"link",color:n,variant:l,bgimage:e||void 0,bgsize:d,children:(0,i.jsx)(r,{className:"card-title",variant:l,children:t})})})])},5800,37828,e=>{"use strict";e.s(["SEASONAL_CATEGORIES_ARR",0,[{key:"grill",name:"grill",label:"На мангале",img:"/optimize/categories-imgs/grill.webp",color:"#FFE0C2"},{key:"dessert",name:"dessert",label:"Десерты",img:"/optimize/categories-imgs/desserts.webp",color:"#FAE7C9"},{key:"homemade-alcohol",name:"homemade-alcohol",label:"Домашние настойки",img:"/optimize/categories-imgs/homemadeAlcohol.webp",color:"#ECEBE7"}]],5800),e.s(["CATEGORIES_ARR",0,[{key:"breakfast",name:"breakfast",label:"Завтрак",img:"/optimize/categories-imgs/breakfast.webp",color:"#DCE6F2"},{key:"dinner",name:"dinner",label:"Обед",img:"/optimize/categories-imgs/dinner.webp",color:"#E9E4DF"},{key:"supper",name:"supper",label:"Ужин",img:"/optimize/categories-imgs/supper.webp",color:"#D8E0E3"},{key:"healthy",name:"healthy",label:"Здоровая еда",img:"/optimize/categories-imgs/healthy.webp",color:"#D9E7D0"},{key:"salads",name:"salads",label:"Салаты",img:"/optimize/categories-imgs/salads.webp",color:"#C1E1C1"},{key:"snacks",name:"snacks",label:"Закуски",img:"/optimize/categories-imgs/snacks.webp",color:"#ECEBE7"}],"OTHER_CATEGORIES_ARR",0,[{key:"grill",name:"grill",label:"На мангале",img:"/optimize/categories-imgs/grill.webp",color:"#FFD8D8"},{key:"refreshing-drinks",name:"refreshing-drinks",label:"Освежающие напитки",img:"/optimize/categories-imgs/refreshingDrinks.webp",color:"#ECEBE7"}]],37828)},50506,e=>{"use strict";var i=e.i(43476),t=e.i(97053),a=e.i(57688),n=e.i(20133),o=e.i(4529),r=e.i(92199);let s=t.default.div.withConfig({componentId:"sc-3ce889b2-0"})`
+`;e.s(["CategoryCard",0,({img:e,label:t,color:n,name:s,variant:d="large",backgroundSize:l="cover"})=>(0,i.jsx)(a.Link,{href:{pathname:"/categories/[name]",params:{name:s}},style:{textDecoration:"none"},children:(0,i.jsx)(o,{role:"link",color:n,variant:d,bgimage:e||void 0,bgsize:l,children:(0,i.jsx)(r,{className:"card-title",variant:d,children:t})})})])},5800,37828,e=>{"use strict";e.s(["SEASONAL_CATEGORIES_ARR",0,[{key:"grill",name:"grill",label:"На мангале",img:"/optimize/categories-imgs/grill.webp",color:"#FFE0C2"},{key:"dessert",name:"dessert",label:"Десерты",img:"/optimize/categories-imgs/desserts.webp",color:"#FAE7C9"},{key:"homemade-alcohol",name:"homemade-alcohol",label:"Домашние настойки",img:"/optimize/categories-imgs/homemadeAlcohol.webp",color:"#ECEBE7"}]],5800),e.s(["CATEGORIES_ARR",0,[{key:"breakfast",name:"breakfast",label:"Завтрак",img:"/optimize/categories-imgs/breakfast.webp",color:"#DCE6F2"},{key:"dinner",name:"dinner",label:"Обед",img:"/optimize/categories-imgs/dinner.webp",color:"#E9E4DF"},{key:"supper",name:"supper",label:"Ужин",img:"/optimize/categories-imgs/supper.webp",color:"#D8E0E3"},{key:"healthy",name:"healthy",label:"Здоровая еда",img:"/optimize/categories-imgs/healthy.webp",color:"#D9E7D0"},{key:"salads",name:"salads",label:"Салаты",img:"/optimize/categories-imgs/salads.webp",color:"#C1E1C1"},{key:"snacks",name:"snacks",label:"Закуски",img:"/optimize/categories-imgs/snacks.webp",color:"#ECEBE7"}],"OTHER_CATEGORIES_ARR",0,[{key:"grill",name:"grill",label:"На мангале",img:"/optimize/categories-imgs/grill.webp",color:"#FFD8D8"},{key:"refreshing-drinks",name:"refreshing-drinks",label:"Освежающие напитки",img:"/optimize/categories-imgs/refreshingDrinks.webp",color:"#ECEBE7"}]],37828)},50506,e=>{"use strict";var i=e.i(43476),t=e.i(97053),a=e.i(57688),n=e.i(20133),o=e.i(4529),r=e.i(92199);let s=t.default.div.withConfig({componentId:"sc-3ce889b2-0"})`
   background: #fffdfa;
   border-radius: 18px;
   overflow: hidden;
@@ -89,13 +89,13 @@
     transform: translateY(-4px) scale(1.015);
     box-shadow: 0 18px 42px rgba(44, 31, 20, 0.14);
   }
-`,l=t.default.div.withConfig({componentId:"sc-3ce889b2-1"})`
+`,d=t.default.div.withConfig({componentId:"sc-3ce889b2-1"})`
   position: relative;
   width: 100%;
   height: ${({variant:e})=>"full"===e?"140px":"auto"};
   aspect-ratio: 1.35 / 1;
   background: #f5f3f3;
-`,d=t.default.div.withConfig({componentId:"sc-3ce889b2-2"})`
+`,l=t.default.div.withConfig({componentId:"sc-3ce889b2-2"})`
   width: 100%;
   height: 100%;
   color: #a08367;
@@ -144,7 +144,7 @@
   display: flex;
   align-items: center;
   gap: 4px;
-`,f=["Легко","Средне","Сложно"];e.s(["RecipeCard",0,({name:e,img:t,title:o,description:h,time:b,level:u,variant:w="base"})=>(0,i.jsx)(n.Link,{href:{pathname:"/recipe/[name]",params:{name:e}},locale:"ru",style:{textDecoration:"none",color:"inherit"},children:(0,i.jsxs)(s,{variant:w,children:[(0,i.jsx)(l,{variant:w,children:t?(0,i.jsx)(a.default,{src:t,alt:o,fill:!0,style:{objectFit:"cover"},sizes:"220px"}):(0,i.jsx)(d,{children:"Нет изображения"})}),(0,i.jsxs)(c,{children:[(0,i.jsx)(p,{children:o}),(0,i.jsx)(m,{children:h}),(0,i.jsxs)(g,{children:[(0,i.jsxs)(x,{children:[(0,i.jsx)(r.FiClock,{size:14})," ",b," мин"]}),(0,i.jsxs)(x,{children:[(0,i.jsx)(r.FiStar,{size:14,color:"#f6a623"})," ",f[u-1]]})]})]})]})})])},60777,e=>{"use strict";var i=e.i(43476),t=e.i(97053);let a=t.default.div.withConfig({componentId:"sc-64c242a1-0"})`
+`,f=["Легко","Средне","Сложно"];e.s(["RecipeCard",0,({name:e,img:t,title:o,description:h,time:b,level:u,variant:w="base"})=>(0,i.jsx)(n.Link,{href:{pathname:"/recipe/[name]",params:{name:e}},style:{textDecoration:"none",color:"inherit"},children:(0,i.jsxs)(s,{variant:w,children:[(0,i.jsx)(d,{variant:w,children:t?(0,i.jsx)(a.default,{src:t,alt:o,fill:!0,style:{objectFit:"cover"},sizes:"220px"}):(0,i.jsx)(l,{children:"Нет изображения"})}),(0,i.jsxs)(c,{children:[(0,i.jsx)(p,{children:o}),(0,i.jsx)(m,{children:h}),(0,i.jsxs)(g,{children:[(0,i.jsxs)(x,{children:[(0,i.jsx)(r.FiClock,{size:14})," ",b," мин"]}),(0,i.jsxs)(x,{children:[(0,i.jsx)(r.FiStar,{size:14,color:"#f6a623"})," ",f[u-1]]})]})]})]})})])},60777,e=>{"use strict";var i=e.i(43476),t=e.i(97053);let a=t.default.div.withConfig({componentId:"sc-64c242a1-0"})`
   display: flex;
   overflow-x: auto;
   gap: 16px;
@@ -181,7 +181,7 @@
     padding: 0 16px;
     margin-bottom: 42px;
   }
-`,l=t.default.div.withConfig({componentId:"sc-6ea18ef5-1"})`
+`,d=t.default.div.withConfig({componentId:"sc-6ea18ef5-1"})`
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 18px;
@@ -189,7 +189,7 @@
   @media ${n.maxDevice.laptop} {
     grid-template-columns: 1fr;
   }
-`,d=t.default.div.withConfig({componentId:"sc-6ea18ef5-2"})`
+`,l=t.default.div.withConfig({componentId:"sc-6ea18ef5-2"})`
   padding: 0;
 `,c=t.default.h2.withConfig({componentId:"sc-6ea18ef5-3"})`
   margin: 0 0 10px;
@@ -207,7 +207,7 @@
   color: #6d6258;
   font-size: 0.98rem;
   line-height: 1.65;
-`,m=()=>(0,i.jsx)(s,{children:(0,i.jsxs)(d,{children:[(0,i.jsx)(c,{children:"Сезонные категории"}),(0,i.jsx)(p,{children:"Подборки, которые особенно хочется открыть прямо сейчас."}),(0,i.jsx)(l,{children:r.SEASONAL_CATEGORIES_ARR.map(({key:e,...t})=>(0,i.jsx)(o.CategoryCard,{...t,variant:"large"},e))})]})});var g=e.i(50506),x=e.i(37828),f=e.i(95631),h=e.i(60777);let b=t.default.section.withConfig({componentId:"sc-5c000b8d-0"})`
+`,m=()=>(0,i.jsx)(s,{children:(0,i.jsxs)(l,{children:[(0,i.jsx)(c,{children:"Сезонные категории"}),(0,i.jsx)(p,{children:"Подборки, которые особенно хочется открыть прямо сейчас."}),(0,i.jsx)(d,{children:r.SEASONAL_CATEGORIES_ARR.map(({key:e,...t})=>(0,i.jsx)(o.CategoryCard,{...t,variant:"large"},e))})]})});var g=e.i(50506),x=e.i(37828),f=e.i(95631),h=e.i(60777);let b=t.default.section.withConfig({componentId:"sc-5c000b8d-0"})`
   max-width: 1280px;
   overflow: hidden;
   padding: 0;
@@ -398,4 +398,4 @@
   margin: 0;
   color: #6d6258;
   line-height: 1.65;
-`;e.s(["HomePage",0,()=>(0,i.jsxs)(E,{children:[(0,i.jsxs)(R,{children:[(0,i.jsxs)($,{children:[(0,i.jsx)(D,{children:"Домашняя кухня без суеты"}),(0,i.jsx)(A,{children:"Рецепты, к которым хочется возвращаться"}),(0,i.jsx)(S,{children:"Собираем понятные пошаговые рецепты для завтраков, ужинов, десертов и сезонных блюд. Выбирайте категорию, открывайте рецепт и готовьте в своем темпе."}),(0,i.jsxs)(O,{children:[(0,i.jsx)(F,{href:"/categories",locale:"ru",children:"Смотреть категории"}),(0,i.jsx)(z.SuggestRecipeButton,{})]})]}),(0,i.jsxs)(T,{children:[(0,i.jsx)(_,{children:"Блины, салаты, гриль и домашние напитки"}),(0,i.jsx)(B,{children:"Подборки для будней, выходных и тех самых “что бы приготовить?” моментов."})]})]}),(0,i.jsx)(m,{}),(0,i.jsx)(I,{}),(0,i.jsxs)(L,{children:[(0,i.jsxs)("div",{children:[(0,i.jsx)(G,{children:"Не нашли любимый рецепт?"}),(0,i.jsx)(P,{children:"Предложите блюдо, которое стоит добавить на сайт."})]}),(0,i.jsx)(z.SuggestRecipeButton,{})]})]})],71359)}]);
+`;e.s(["HomePage",0,()=>(0,i.jsxs)(E,{children:[(0,i.jsxs)(R,{children:[(0,i.jsxs)($,{children:[(0,i.jsx)(D,{children:"Домашняя кухня без суеты"}),(0,i.jsx)(A,{children:"Рецепты, к которым хочется возвращаться"}),(0,i.jsx)(S,{children:"Собираем понятные пошаговые рецепты для завтраков, ужинов, десертов и сезонных блюд. Выбирайте категорию, открывайте рецепт и готовьте в своем темпе."}),(0,i.jsxs)(O,{children:[(0,i.jsx)(F,{href:"/categories",children:"Смотреть категории"}),(0,i.jsx)(z.SuggestRecipeButton,{})]})]}),(0,i.jsxs)(T,{children:[(0,i.jsx)(_,{children:"Блины, салаты, гриль и домашние напитки"}),(0,i.jsx)(B,{children:"Подборки для будней, выходных и тех самых “что бы приготовить?” моментов."})]})]}),(0,i.jsx)(m,{}),(0,i.jsx)(I,{}),(0,i.jsxs)(L,{children:[(0,i.jsxs)("div",{children:[(0,i.jsx)(G,{children:"Не нашли любимый рецепт?"}),(0,i.jsx)(P,{children:"Предложите блюдо, которое стоит добавить на сайт."})]}),(0,i.jsx)(z.SuggestRecipeButton,{})]})]})],71359)}]);

@@ -112,7 +112,7 @@
   display: flex;
   align-items: center;
   gap: 4px;
-`,b=["Легко","Средне","Сложно"];e.s(["RecipeCard",0,({name:e,img:t,title:a,description:m,time:g,level:u,variant:w="base"})=>(0,i.jsx)(n.Link,{href:{pathname:"/recipe/[name]",params:{name:e}},locale:"ru",style:{textDecoration:"none",color:"inherit"},children:(0,i.jsxs)(r,{variant:w,children:[(0,i.jsx)(c,{variant:w,children:t?(0,i.jsx)(o.default,{src:t,alt:a,fill:!0,style:{objectFit:"cover"},sizes:"220px"}):(0,i.jsx)(s,{children:"Нет изображения"})}),(0,i.jsxs)(d,{children:[(0,i.jsx)(p,{children:a}),(0,i.jsx)(x,{children:m}),(0,i.jsxs)(f,{children:[(0,i.jsxs)(h,{children:[(0,i.jsx)(l.FiClock,{size:14})," ",g," мин"]}),(0,i.jsxs)(h,{children:[(0,i.jsx)(l.FiStar,{size:14,color:"#f6a623"})," ",b[u-1]]})]})]})]})})])},60777,e=>{"use strict";var i=e.i(43476),t=e.i(97053);let o=t.default.div.withConfig({componentId:"sc-64c242a1-0"})`
+`,b=["Легко","Средне","Сложно"];e.s(["RecipeCard",0,({name:e,img:t,title:a,description:m,time:g,level:u,variant:w="base"})=>(0,i.jsx)(n.Link,{href:{pathname:"/recipe/[name]",params:{name:e}},style:{textDecoration:"none",color:"inherit"},children:(0,i.jsxs)(r,{variant:w,children:[(0,i.jsx)(c,{variant:w,children:t?(0,i.jsx)(o.default,{src:t,alt:a,fill:!0,style:{objectFit:"cover"},sizes:"220px"}):(0,i.jsx)(s,{children:"Нет изображения"})}),(0,i.jsxs)(d,{children:[(0,i.jsx)(p,{children:a}),(0,i.jsx)(x,{children:m}),(0,i.jsxs)(f,{children:[(0,i.jsxs)(h,{children:[(0,i.jsx)(l.FiClock,{size:14})," ",g," мин"]}),(0,i.jsxs)(h,{children:[(0,i.jsx)(l.FiStar,{size:14,color:"#f6a623"})," ",b[u-1]]})]})]})]})})])},60777,e=>{"use strict";var i=e.i(43476),t=e.i(97053);let o=t.default.div.withConfig({componentId:"sc-64c242a1-0"})`
   display: flex;
   overflow-x: auto;
   gap: 16px;
