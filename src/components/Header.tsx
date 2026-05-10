@@ -230,7 +230,7 @@ export const Header = memo(function Header() {
     <>
       <Container $scrolled={scrolled}>
         <LeftBlock>
-          <Link href="/" locale="ru">
+          <Link href="/">
             <Image src="/optimize/logo.webp" alt="logo" width={120} height={60} priority />
             <Text>
               Всегда Готов<span>Ъ</span>
@@ -239,11 +239,11 @@ export const Header = memo(function Header() {
         </LeftBlock>
 
         <DesktopNav>
-          <Link href="/" locale="ru" className={pathname === '/' ? 'active' : ''}>
+          <Link href="/" className={pathname === '/' ? 'active' : ''}>
             Главная
           </Link>
 
-          <Link href="/categories" locale="ru" className={pathname.startsWith('/categories') ? 'active' : ''}>
+          <Link href="/categories" className={pathname.startsWith('/categories') ? 'active' : ''}>
             Категории
           </Link>
         </DesktopNav>
@@ -260,10 +260,10 @@ export const Header = memo(function Header() {
       <MobileMenu $open={menuOpen}>
         <Section>
           <SectionTitle>Навигация</SectionTitle>
-          <Link href="/" locale="ru" onClick={() => setMenuOpen(false)}>
+          <Link href="/" onClick={() => setMenuOpen(false)}>
             Главная
           </Link>
-          <Link href="/categories" locale="ru" onClick={() => setMenuOpen(false)}>
+          <Link href="/categories" onClick={() => setMenuOpen(false)}>
             Категории
           </Link>
         </Section>

@@ -179,9 +179,7 @@ export const HomePage = () => {
             открывайте рецепт и готовьте в своем темпе.
           </Description>
           <Actions>
-            <PrimaryLink href="/categories" locale="ru">
-              Смотреть категории
-            </PrimaryLink>
+            <PrimaryLink href="/categories">Смотреть категории</PrimaryLink>
             <SuggestRecipeButton />
           </Actions>
         </HeroContent>

@@ -117,7 +117,6 @@ export const RecipeCard = ({ name, img, title, description, time, level, variant
         pathname: '/recipe/[name]',
         params: { name },
       }}
-      locale="ru"
       style={{ textDecoration: 'none', color: 'inherit' }}
     >
       <Card variant={variant}>

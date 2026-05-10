@@ -138,7 +138,6 @@ export const CategoryCard = ({
         pathname: '/categories/[name]',
         params: { name },
       }}
-      locale="ru"
       style={{ textDecoration: 'none' }}
     >
       <Card role="link" color={color} variant={variant} bgimage={img || undefined} bgsize={backgroundSize}>
