@@ -1,79 +1,68 @@
 'use client'
 
 import { maxDevice } from '@/styles/device'
+import { FiClock, FiStar, FiZap } from 'react-icons/fi'
+import { LuChefHat } from 'react-icons/lu'
 import styled from 'styled-components'
 
 const InfoWrapper = styled.div`
-  width: 90%;
-  border-top: 1px solid #e0e0e0;
-  border-bottom: 1px solid #e0e0e0;
+  width: 100%;
+  max-width: 680px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
-  padding: 12px 0;
-  margin: 8px 0;
+  gap: 12px;
+  margin: 0 0 10px;
 
   @media ${maxDevice.laptop} {
-    width: 100%;
+    gap: 8px;
   }
 `
 
 const InfoContainer = styled.div`
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-  gap: 4px;
-  position: relative;
-
-  &:not(:last-child)::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 1px;
-    height: 70%;
-    background-color: #e0e0e0;
-  }
-`
-
-const InfoBlockTitle = styled.span`
-  font-size: 0.9rem;
-  height: 20px;
-  line-height: 20px;
-  color: #999;
-
-  @media (max-width: 768px) {
-    font-size: 0.8rem;
-  }
-`
-
-const InfoBlockValue = styled.span`
-  font-size: 1.1rem;
-  line-height: 16px;
-  font-weight: bold;
-  color: #333;
+  min-height: 44px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  gap: 8px;
+  padding: 10px 13px;
+  border-radius: 999px;
+  background: #fffaf5;
+  box-shadow: inset 0 0 0 1px rgba(255, 132, 2, 0.12);
+  color: #6b3d08;
+`
 
-  @media (max-width: 768px) {
-    font-size: 0.9rem;
+const InfoBlockTitle = styled.span`
+  width: 18px;
+  height: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff8402;
+
+  svg {
+    width: 17px;
+    height: 17px;
   }
 `
 
-const InfoBlockGauge = styled.span`
-  font-size: 0.9rem;
-  line-height: 14px;
-  color: #999;
+const InfoBlockValue = styled.span`
+  font-size: 0.92rem;
+  line-height: 1;
+  font-weight: 700;
+  color: #2c2118;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+`
 
-  @media (max-width: 768px) {
-    font-size: 0.8rem;
-  }
+const InfoBlockGauge = styled.span`
+  font-size: 0.82rem;
+  line-height: 1;
+  color: #8b7662;
 `
 
 export const InfoBlock = ({
@@ -91,22 +80,22 @@ export const InfoBlock = ({
 }) => {
   const infoItems = [
     {
-      icon: '⭐',
+      icon: <FiStar />,
       value: rating,
       gauge: `(${commentsCount})`,
     },
     {
-      icon: '🔪',
+      icon: <LuChefHat />,
       value: preparation ? `${preparation}` : '—',
-      gauge: 'мин',
+      gauge: 'мин подготовки',
     },
     {
-      icon: '⏱️',
+      icon: <FiClock />,
       value: `${time}`,
-      gauge: 'мин',
+      gauge: 'мин всего',
     },
     {
-      icon: '🔥',
+      icon: <FiZap />,
       value: calories ? `${calories}` : '—',
       gauge: 'ккал',
     },

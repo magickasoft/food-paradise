@@ -4,11 +4,11 @@ import styled from 'styled-components'
 import { maxDevice } from '@/styles/device'
 
 const BUTTON_STYLES = {
-  height: { default: 42, laptop: 36 },
-  padding: { default: '0 20px', laptop: '0 16px' },
-  fontSize: { default: 16, laptop: 14 },
-  gradient: 'linear-gradient(90deg, #ff6f61 0%, #ff8a7a 50%, #ff6f61 100%)',
-  shadow: '0 4px 12px rgba(255, 111, 97, 0.4)',
+  height: { default: 42, laptop: 44 },
+  padding: { default: '0 18px', laptop: '0 16px' },
+  fontSize: { default: 14, laptop: 14 },
+  gradient: 'linear-gradient(135deg, #e75e02 0%, #ff8402 58%, #ffad3d 100%)',
+  shadow: '0 12px 26px rgba(231, 94, 2, 0.22)',
 } as const
 
 export const StyledButton = styled.a`
@@ -18,10 +18,10 @@ export const StyledButton = styled.a`
   height: ${BUTTON_STYLES.height.default}px;
   padding: ${BUTTON_STYLES.padding.default};
   font-size: ${BUTTON_STYLES.fontSize.default}px;
-  font-weight: 500;
+  font-weight: 700;
   color: #ffffff;
   background: ${BUTTON_STYLES.gradient};
-  border-radius: 6px;
+  border-radius: 999px;
   transition: all 0.25s ease;
   text-decoration: none;
   cursor: pointer;

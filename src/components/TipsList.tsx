@@ -8,7 +8,7 @@ const List = styled.div<{ $isOpen: boolean }>`
   display: flex;
   flex-direction: column;
   padding: ${({ $isOpen }) => ($isOpen ? '20px' : '0')};
-  padding-top: 0;
+  padding-top: ${({ $isOpen }) => ($isOpen ? '8px' : '0')};
   margin: 0;
   list-style: none;
   width: 100%;
@@ -21,8 +21,9 @@ const Item = styled.li`
   gap: 10px;
   padding: 12px 4px;
   border-radius: 6px;
-  font-size: 1rem;
-  line-height: 1.4;
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: #5f554d;
 
   &:last-child {
     border-bottom: none;

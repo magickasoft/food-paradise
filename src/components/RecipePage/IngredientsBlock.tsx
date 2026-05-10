@@ -15,11 +15,10 @@ interface Ingredient {
 }
 
 const Container = styled.div`
-  border: 1px solid #e0e0e0;
-  border-radius: 12px;
+  border-radius: 18px;
   background: white;
   overflow: hidden;
-  margin-bottom: 20px;
+  box-shadow: 0 12px 36px rgba(44, 31, 20, 0.07);
 `
 
 const Header = styled.button`
@@ -27,17 +26,18 @@ const Header = styled.button`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 20px;
+  min-height: 56px;
+  padding: 16px 18px;
   background: none;
   border: none;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   text-align: left;
   transition: background 0.2s;
 
   &:hover {
-    background: #f5f5f5;
+    background: #fffaf5;
   }
 `
 
@@ -48,7 +48,7 @@ const HeaderLeft = styled.div`
 `
 
 const Title = styled.span`
-  color: #333;
+  color: #241b14;
 `
 
 const Arrow = styled.span<{ $isOpen: boolean }>`
@@ -65,36 +65,37 @@ const Content = styled.div<{ $isOpen: boolean }>`
 `
 
 const InnerContent = styled.div`
-  padding: 20px;
-  border-top: 1px solid #e0e0e0;
+  padding: 18px;
+  border-top: 1px solid #f1e8df;
 `
 
 const PortionControl = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 24px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 18px;
+  padding: 12px;
+  border-radius: 14px;
+  background: #fffaf5;
 `
 
 const PortionLabel = styled.span`
   font-size: 14px;
-  color: #666;
+  color: #7c6958;
 `
 
 const Counter = styled.div`
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 4px;
 `
 
 const CounterButton = styled.button<{ $disabled?: boolean }>`
   width: 32px;
   height: 32px;
-  border-radius: 8px;
-  border: 1px solid #e0e0e0;
-  color: #333;
+  border-radius: 10px;
+  border: 1px solid #eadfd4;
+  color: #6b3d08;
   background: white;
   cursor: ${({ $disabled }) => ($disabled ? 'not-allowed' : 'pointer')};
   font-size: 18px;
@@ -103,8 +104,8 @@ const CounterButton = styled.button<{ $disabled?: boolean }>`
   opacity: ${({ $disabled }) => ($disabled ? 0.5 : 1)};
 
   &:hover {
-    background: ${({ $disabled }) => ($disabled ? 'white' : '#f5f5f5')};
-    border-color: ${({ $disabled }) => ($disabled ? '#e0e0e0' : '#ccc')};
+    background: ${({ $disabled }) => ($disabled ? 'white' : '#fff0dc')};
+    border-color: ${({ $disabled }) => ($disabled ? '#eadfd4' : '#ffbf78')};
   }
 
   &:active {
@@ -114,7 +115,7 @@ const CounterButton = styled.button<{ $disabled?: boolean }>`
 
 const PortionValue = styled.span`
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   min-width: 40px;
   text-align: center;
 `
@@ -122,8 +123,8 @@ const PortionValue = styled.span`
 const IngredientsList = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  margin-bottom: 24px;
+  gap: 6px;
+  margin-bottom: 18px;
 `
 
 const IngredientItem = styled.label`
@@ -132,13 +133,13 @@ const IngredientItem = styled.label`
   gap: 12px;
   cursor: pointer;
   font-size: 14px;
-  color: #333;
-  padding: 8px;
-  border-radius: 8px;
+  color: #3d352d;
+  padding: 10px 6px;
+  border-radius: 10px;
   transition: background 0.2s;
 
   &:hover {
-    background: #f9f9f9;
+    background: #fffaf5;
   }
 `
 
@@ -160,7 +161,7 @@ const StyledCheckbox = styled.div<{ $checked: boolean }>`
   width: 18px;
   height: 18px;
   border: 2px solid #ff8402;
-  border-radius: 4px;
+  border-radius: 6px;
   background: ${({ $checked }) => ($checked ? '#ff8402' : 'white')};
   transition: all 0.2s;
   cursor: pointer;
@@ -201,18 +202,19 @@ const IngredientAmount = styled.span`
 
 const AddButton = styled.button<{ $disabled: boolean }>`
   width: 100%;
+  min-height: 46px;
   padding: 12px;
-  background: ${({ $disabled }) => ($disabled ? '#f0f0f0' : '#4caf50')};
-  color: ${({ $disabled }) => ($disabled ? '#999' : 'white')};
+  background: ${({ $disabled }) => ($disabled ? '#f2ece6' : '#2f8f54')};
+  color: ${({ $disabled }) => ($disabled ? '#9d8d80' : 'white')};
   border: none;
-  border-radius: 8px;
+  border-radius: 14px;
   cursor: ${({ $disabled }) => ($disabled ? 'not-allowed' : 'pointer')};
   font-size: 14px;
   font-weight: 500;
   transition: background 0.2s;
 
   &:hover {
-    background: ${({ $disabled }) => ($disabled ? '#f0f0f0' : '#45a049')};
+    background: ${({ $disabled }) => ($disabled ? '#f2ece6' : '#287a48')};
   }
 `
 

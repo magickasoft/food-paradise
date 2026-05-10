@@ -1,10 +1,10 @@
 export const SEASONAL_CATEGORIES_ARR = [
   {
-    key: 'new-year',
-    name: 'new-year',
-    label: 'Новый Год',
-    img: '/optimize/categories-imgs/newYear.webp',
-    color: '#FFD8D8',
+    key: 'grill',
+    name: 'grill',
+    label: 'На мангале',
+    img: '/optimize/categories-imgs/grill.webp',
+    color: '#FFE0C2',
   },
   {
     key: 'dessert',

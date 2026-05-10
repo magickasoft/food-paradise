@@ -12,18 +12,16 @@ const DetailsContainer = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background: #fffbe6;
-  border: 1px solid #ffcc00;
-  border-radius: 12px;
-  margin-bottom: 20px;
+  background: #fbf7f1;
+  border-radius: 18px;
+  box-shadow: inset 0 0 0 1px rgba(91, 70, 47, 0.1);
   font-size: 1rem;
   line-height: 1.6;
-  color: #333;
+  color: #5f554d;
 
   @media ${maxDevice.laptop} {
     flex-direction: column;
     padding: 0px;
-    margin-bottom: 0px;
   }
 `
 
@@ -32,7 +30,8 @@ const Header = styled.button<{ $isOpen: boolean }>`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 20px;
+  min-height: 54px;
+  padding: 15px 18px;
   background: none;
   border: none;
   cursor: pointer;
@@ -40,11 +39,11 @@ const Header = styled.button<{ $isOpen: boolean }>`
   font-weight: 600;
   text-align: left;
   transition: background 0.2s;
-  border-bottom: ${({ $isOpen }) => ($isOpen ? '1px solid #ffcc00' : 'none')};
+  border-bottom: ${({ $isOpen }) => ($isOpen ? '1px solid rgba(91, 70, 47, 0.1)' : 'none')};
 
   &:hover {
-    background: #f5f5f5;
-    border-radius: ${({ $isOpen }) => ($isOpen ? '12px 12px 0 0' : '12px')};
+    background: rgba(255, 255, 255, 0.45);
+    border-radius: ${({ $isOpen }) => ($isOpen ? '18px 18px 0 0' : '18px')};
   }
 `
 
@@ -55,7 +54,7 @@ const HeaderLeft = styled.div`
 `
 
 const Title = styled.span`
-  color: #333;
+  color: #463322;
 `
 
 const Arrow = styled.span<{ $isOpen: boolean }>`

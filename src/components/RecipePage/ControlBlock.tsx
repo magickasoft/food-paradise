@@ -2,31 +2,34 @@
 
 import { maxDevice } from '@/styles/device'
 
+import { useEffect, useState } from 'react'
+import { FiCheck } from 'react-icons/fi'
 import { IoMdHeartEmpty } from 'react-icons/io'
-import { LuExternalLink } from 'react-icons/lu'
+import { LuShare2 } from 'react-icons/lu'
 import styled from 'styled-components'
 
 const InfoContainer = styled.div`
-  width: 90%;
+  width: 100%;
+  max-width: 680px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   gap: 12px;
-  padding: 12px 0;
-  margin: 8px 0;
+  padding: 8px 0 14px;
+  margin: 0;
 
   @media ${maxDevice.laptop} {
-    width: 100%;
+    align-items: stretch;
   }
 `
 
 const BUTTON_STYLES = {
-  height: { default: 42, laptop: 36 },
-  padding: { default: '0 20px', laptop: '0 16px' },
+  height: { default: 54, laptop: 50 },
+  padding: { default: '0 28px', laptop: '0 22px' },
   fontSize: { default: 16, laptop: 14 },
-  gradient: 'linear-gradient(90deg, #e75e02 0%, #ff8402 50%, #ff8302 100%);',
-  shadow: '0 4px 12px rgba(123, 123, 123, 0.4)',
+  gradient: 'linear-gradient(135deg, #e75e02 0%, #ff8402 58%, #ffad3d 100%);',
+  shadow: '0 16px 30px rgba(231, 94, 2, 0.24)',
 } as const
 
 export const StyledButton = styled.a`
@@ -37,10 +40,10 @@ export const StyledButton = styled.a`
   height: ${BUTTON_STYLES.height.default}px;
   padding: ${BUTTON_STYLES.padding.default};
   font-size: ${BUTTON_STYLES.fontSize.default}px;
-  font-weight: 500;
+  font-weight: 700;
   color: #ffffff;
   background: ${BUTTON_STYLES.gradient};
-  border-radius: 6px;
+  border-radius: 16px;
   transition: all 0.25s ease;
   text-decoration: none;
   cursor: pointer;
@@ -51,7 +54,7 @@ export const StyledButton = styled.a`
 
   &:hover {
     background-position: 100% 0;
-    transform: translateY(-2px);
+    transform: translateY(-2px) scale(1.01);
     box-shadow: ${BUTTON_STYLES.shadow};
   }
 
@@ -71,14 +74,15 @@ export const IconButton = styled.button`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
-  background: #ffffff;
-  border: 1px solid #e0e0e0;
-  border-radius: 6px;
+  flex: 0 0 auto;
+  width: 54px;
+  height: 54px;
+  background: #fffaf5;
+  border: 1px solid rgba(255, 132, 2, 0.16);
+  border-radius: 16px;
   cursor: pointer;
   transition: all 0.25s ease;
-  color: #666;
+  color: #7c6958;
 
   &:hover:not(:disabled) {
     transform: translateY(-2px);
@@ -102,8 +106,8 @@ export const IconButton = styled.button`
   }
 
   @media ${maxDevice.laptop} {
-    width: 36px;
-    height: 36px;
+    width: 50px;
+    height: 50px;
 
     svg {
       width: 18px;
@@ -112,23 +116,100 @@ export const IconButton = styled.button`
   }
 `
 
+const Toast = styled.div<{ $visible: boolean }>`
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1000;
+  max-width: min(320px, calc(100vw - 32px));
+  padding: 12px 16px;
+  border-radius: 14px;
+  background: #241b14;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.4;
+  box-shadow: 0 16px 34px rgba(36, 27, 20, 0.22);
+  opacity: ${({ $visible }) => ($visible ? 1 : 0)};
+  pointer-events: none;
+  transform: translateY(${({ $visible }) => ($visible ? '0' : '10px')});
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+
+  @media ${maxDevice.mobileL} {
+    right: 16px;
+    bottom: 16px;
+    left: 16px;
+  }
+`
+
 export const ControlBlock = () => {
-  const handleBookmark = () => {
-    // Логика добавления в закладки
-    console.log('Added to bookmarks')
+  const [message, setMessage] = useState('')
+  const [isLinkCopied, setIsLinkCopied] = useState(false)
+
+  useEffect(() => {
+    if (!message) return
+
+    const timer = window.setTimeout(() => {
+      setMessage('')
+      setIsLinkCopied(false)
+    }, 2500)
+
+    return () => window.clearTimeout(timer)
+  }, [message])
+
+  const copyCurrentUrl = async () => {
+    if (!navigator.clipboard) return false
+
+    await navigator.clipboard.writeText(window.location.href)
+
+    return true
   }
 
-  const handleShare = () => {
-    // Логика шаринга
+  const handleBookmark = async () => {
+    const userAgent = navigator.userAgent
+    const platform = navigator.platform || userAgent
+    const isIOS = /iPhone|iPad|iPod/i.test(platform) || (/Mac/i.test(platform) && navigator.maxTouchPoints > 1)
+    const isAndroid = /Android/i.test(userAgent)
+    const isMobile = isIOS || isAndroid || /Mobi/i.test(userAgent)
+    const isAppleDesktop = /Mac/i.test(platform)
+    const shortcut = isAppleDesktop ? '⌘D' : 'Ctrl+D'
+    const instruction = isIOS
+      ? 'Нажмите «Поделиться» и выберите «Добавить в закладки».'
+      : isAndroid
+        ? 'Откройте меню браузера и выберите «Добавить в закладки».'
+        : isMobile
+          ? 'Откройте меню браузера и добавьте страницу в закладки.'
+          : `Нажмите ${shortcut}, чтобы добавить рецепт в закладки браузера.`
+
+    try {
+      await copyCurrentUrl()
+      setMessage(`Ссылка скопирована. ${instruction}`)
+    } catch {
+      setMessage(instruction)
+    }
+  }
+
+  const handleShare = async () => {
     if (navigator.share) {
-      navigator.share({
-        title: document.title,
-        url: window.location.href,
-      })
-    } else {
-      // Fallback для браузеров, не поддерживающих Web Share API
-      navigator.clipboard.writeText(window.location.href)
-      alert('Ссылка скопирована в буфер обмена')
+      try {
+        await navigator.share({
+          title: document.title,
+          url: window.location.href,
+        })
+      } catch {
+        return
+      }
+
+      return
+    }
+
+    try {
+      await copyCurrentUrl()
+      setIsLinkCopied(true)
+      setMessage('Ссылка скопирована в буфер обмена.')
+    } catch {
+      setMessage('Не удалось скопировать ссылку. Скопируйте адрес страницы из браузера.')
     }
   }
 
@@ -142,12 +223,15 @@ export const ControlBlock = () => {
       >
         {'Начать готовить'}
       </StyledButton>
-      <IconButton onClick={handleBookmark} title="Добавить в закладки" aria-label="Добавить в закладки" disabled={true}>
+      <IconButton onClick={handleBookmark} title="Добавить в закладки" aria-label="Добавить в закладки">
         <IoMdHeartEmpty />
       </IconButton>
-      <IconButton onClick={handleShare} title="Поделиться" aria-label="Поделиться" disabled={true}>
-        <LuExternalLink />
+      <IconButton onClick={handleShare} title="Поделиться" aria-label="Поделиться">
+        {isLinkCopied ? <FiCheck /> : <LuShare2 />}
       </IconButton>
+      <Toast $visible={!!message} role="status" aria-live="polite">
+        {message}
+      </Toast>
     </InfoContainer>
   )
 }

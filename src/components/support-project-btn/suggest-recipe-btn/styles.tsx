@@ -4,11 +4,11 @@ import styled from 'styled-components'
 import { maxDevice } from '@/styles/device'
 
 const BUTTON_STYLES = {
-  height: { default: 42, laptop: 36 },
-  padding: { default: '0 20px', laptop: '0 16px' },
-  fontSize: { default: 16, laptop: 14 },
-  gradient: 'linear-gradient(90deg, #646464 0%, #86807f 50%, #bc9a97 100%)',
-  shadow: '0 4px 12px rgba(123, 123, 123, 0.4)',
+  height: { default: 42, laptop: 44 },
+  padding: { default: '0 18px', laptop: '0 16px' },
+  fontSize: { default: 14, laptop: 14 },
+  gradient: '#fffaf5',
+  shadow: '0 12px 26px rgba(44, 31, 20, 0.12)',
 } as const
 
 export const StyledButton = styled.a`
@@ -18,10 +18,11 @@ export const StyledButton = styled.a`
   height: ${BUTTON_STYLES.height.default}px;
   padding: ${BUTTON_STYLES.padding.default};
   font-size: ${BUTTON_STYLES.fontSize.default}px;
-  font-weight: 500;
-  color: #ffffff;
+  font-weight: 700;
+  color: #6b3d08;
   background: ${BUTTON_STYLES.gradient};
-  border-radius: 6px;
+  border: 1px solid rgba(255, 132, 2, 0.16);
+  border-radius: 999px;
   transition: all 0.25s ease;
   text-decoration: none;
   cursor: pointer;
@@ -31,7 +32,7 @@ export const StyledButton = styled.a`
   background-size: 200% 100%;
 
   &:hover {
-    background-position: 100% 0;
+    background: #fff0dc;
     transform: translateY(-2px);
     box-shadow: ${BUTTON_STYLES.shadow};
   }
@@ -59,7 +60,7 @@ export const ModalOverlay = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1000;
+  z-index: 10000;
   padding: 16px;
   animation: fadeIn 0.2s ease;
 
@@ -181,4 +182,35 @@ export const QRContainer = styled.div`
 
 export const QRLink = styled.div`
   text-align: center;
+  margin-top: 20px;
+
+  a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 18px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 132, 2, 0.28);
+    background: #fffaf5;
+    color: #6b3d08;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-decoration: none;
+    transition:
+      background 0.2s ease,
+      border-color 0.2s ease,
+      color 0.2s ease,
+      box-shadow 0.2s ease,
+      transform 0.2s ease;
+
+    &:hover {
+      background: #fff0dc;
+      border-color: #ff8402;
+      color: #e75e02;
+      box-shadow: 0 10px 24px rgba(255, 132, 2, 0.14);
+      transform: translateY(-1px);
+    }
+  }
 `
