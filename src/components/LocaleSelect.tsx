@@ -14,19 +14,27 @@ const Wrapper = styled.div`
 `
 
 const CurrentLocaleButton = styled.button`
-  background: none;
-  border: 1px solid #e0e0e0;
+  min-height: 42px;
+  background: #fffaf5;
+  border: 1px solid rgba(255, 132, 2, 0.16);
   border-radius: 9999px;
-  padding: 6px 10px;
-  color: #333;
+  padding: 0 12px;
+  color: #6b3d08;
   cursor: pointer;
   font-size: 14px;
+  font-weight: 700;
   display: flex;
   align-items: center;
   gap: 6px;
+  transition:
+    color 0.2s ease,
+    background 0.2s ease,
+    transform 0.2s ease;
 
   &:hover {
-    background: #f8f8f8;
+    background: #fff0dc;
+    color: #ff8402;
+    transform: translateY(-1px);
   }
 `
 
@@ -35,12 +43,12 @@ const Dropdown = styled.div`
   top: calc(100% + 8px);
   right: 0;
   background: white;
-  border-radius: 8px;
+  border-radius: 14px;
   padding: 6px 0;
   display: flex;
   flex-direction: column;
   min-width: 80px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 14px 32px rgba(44, 31, 20, 0.12);
   z-index: 20;
 `
 

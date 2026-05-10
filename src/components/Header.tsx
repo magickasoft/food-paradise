@@ -12,7 +12,8 @@ import { SuggestRecipeButton } from '@/components/suggest-recipe-btn'
 import { SupportProjectButton } from './support-project-btn/suggest-recipe-btn'
 
 const Container = styled.header<{ $scrolled: boolean }>`
-  background: #ffffff;
+  background: ${({ $scrolled }) => ($scrolled ? 'rgba(255, 255, 255, 0.92)' : 'rgba(255, 255, 255, 0.78)')};
+  backdrop-filter: blur(18px);
   z-index: 9998;
   position: fixed;
   top: 0;
@@ -23,11 +24,11 @@ const Container = styled.header<{ $scrolled: boolean }>`
   align-items: center;
   justify-content: space-between;
 
-  height: 4.75rem;
+  height: 4.5rem;
   padding: 0 100px;
 
-  border-bottom: ${({ $scrolled }) => ($scrolled ? '1px solid #e5e5e5' : 'transparent')};
-  box-shadow: ${({ $scrolled }) => ($scrolled ? '0 2px 6px rgba(0,0,0,0.05)' : 'none')};
+  border-bottom: ${({ $scrolled }) => ($scrolled ? '1px solid rgba(241, 232, 223, 0.9)' : '1px solid transparent')};
+  box-shadow: ${({ $scrolled }) => ($scrolled ? '0 12px 32px rgba(44, 31, 20, 0.08)' : 'none')};
 
   transition: all 0.3s ease;
 
@@ -44,45 +45,50 @@ const LeftBlock = styled.div`
   a {
     display: flex;
     align-items: center;
+    gap: 8px;
+    text-decoration: none;
+  }
+
+  img {
+    width: 62px;
+    height: auto;
   }
 `
 
 const DesktopNav = styled.nav`
   display: flex;
-  gap: 24px;
+  gap: 8px;
   align-items: center;
+  padding: 5px;
+  border-radius: 999px;
+  background: #fffaf5;
+  box-shadow: inset 0 0 0 1px rgba(255, 132, 2, 0.1);
 
   a {
     position: relative;
-    font-size: 18px;
-    font-weight: 600;
-    color: #333;
+    min-height: 38px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #59483a;
     text-decoration: none;
-    transition: color 0.2s ease;
-
-    &::after {
-      content: '';
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      height: 2px;
-      background-color: #ff6f61;
-      transform: scaleX(0);
-      transform-origin: left;
-      transition: transform 0.25s ease;
-    }
+    transition:
+      color 0.2s ease,
+      background 0.2s ease,
+      box-shadow 0.2s ease;
 
     &:hover {
-      color: #ff6f61;
+      color: #e75e02;
+      background: #fff0dc;
     }
 
-    &:hover::after {
-      transform: scaleX(1);
-    }
-
-    &.active::after {
-      transform: scaleX(1);
+    &.active {
+      color: #e75e02;
+      background: #ffffff;
+      box-shadow: 0 6px 18px rgba(44, 31, 20, 0.08);
     }
   }
 
@@ -103,14 +109,29 @@ const RightBlock = styled.div`
 
 const BurgerButton = styled.button`
   display: none;
-  background: none;
-  border: none;
-  font-size: 1.8rem;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  background: #fffaf5;
+  border: 1px solid rgba(255, 132, 2, 0.14);
+  border-radius: 14px;
+  font-size: 1.5rem;
   cursor: pointer;
-  color: #333;
+  color: #4a1f0f;
+  transition:
+    color 0.2s ease,
+    background 0.2s ease,
+    transform 0.2s ease;
+
+  &:hover {
+    color: #ff8402;
+    background: #fff0dc;
+    transform: translateY(-1px);
+  }
 
   @media ${maxDevice.laptop} {
-    display: block;
+    display: inline-flex;
   }
 `
 
@@ -121,14 +142,15 @@ const MobileMenu = styled.div<{ $open: boolean }>`
   right: 0;
   bottom: 0;
 
-  background: #ffffff;
+  background: rgba(255, 250, 245, 0.96);
+  backdrop-filter: blur(18px);
   z-index: 9997;
 
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 18px;
 
-  padding: 24px;
+  padding: 20px 16px 28px;
 
   transform: ${({ $open }) => ($open ? 'translateY(0)' : 'translateY(-10px)')};
   opacity: ${({ $open }) => ($open ? 1 : 0)};
@@ -137,9 +159,12 @@ const MobileMenu = styled.div<{ $open: boolean }>`
   transition: all 0.25s ease;
 
   a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
     font-size: 18px;
-    font-weight: 600;
-    color: #333;
+    font-weight: 700;
+    color: #241b14;
     text-decoration: none;
   }
 `
@@ -147,21 +172,25 @@ const MobileMenu = styled.div<{ $open: boolean }>`
 const Section = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 18px;
+  background: #ffffff;
+  box-shadow: 0 12px 30px rgba(44, 31, 20, 0.07);
 `
 
 const SectionTitle = styled.span`
   font-size: 12px;
   text-transform: uppercase;
-  color: #999;
+  color: #9a7954;
   letter-spacing: 0.05em;
 `
 
 const Text = styled.span`
   font-family: 'PT Serif', 'Times New Roman', serif;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
-  letter-spacing: 0.5px;
+  letter-spacing: 0;
   white-space: nowrap;
   color: #4a1f0f;
   display: flex;
@@ -173,7 +202,11 @@ const Text = styled.span`
   }
 
   @media ${maxDevice.laptop} {
-    font-size: 20px;
+    font-size: 19px;
+  }
+
+  @media ${maxDevice.mobileL} {
+    font-size: 18px;
   }
 `
 

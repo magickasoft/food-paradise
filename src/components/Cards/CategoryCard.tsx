@@ -8,7 +8,7 @@ type VariantType = 'large' | 'medium' | 'small' | 'slider'
 
 const CardHeight: Record<VariantType, string> = {
   large: '250px',
-  medium: '200px',
+  medium: '220px',
   small: '180px',
   slider: '290px',
 }
@@ -19,14 +19,14 @@ const Card = styled.div<{ color?: string; variant: VariantType; bgimage?: string
   background-size: ${({ bgsize }) => bgsize || 'cover'};
   background-position: center;
   background-repeat: no-repeat;
-  padding: ${({ variant }) => (variant === 'large' ? '20px' : '12px')};
+  padding: ${({ variant }) => (variant === 'large' ? '22px' : '18px')};
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   height: ${({ variant }) => CardHeight[variant]};
   min-width: 250px;
-  border-radius: 16px;
+  border-radius: 22px;
   overflow: hidden;
   transition:
     background-color 0.3s ease,
@@ -35,6 +35,7 @@ const Card = styled.div<{ color?: string; variant: VariantType; bgimage?: string
     opacity 0.3s ease;
   cursor: pointer;
   flex-shrink: 0;
+  box-shadow: 0 12px 34px rgba(44, 31, 20, 0.1);
 
   &::before {
     content: '';
@@ -43,24 +44,30 @@ const Card = styled.div<{ color?: string; variant: VariantType; bgimage?: string
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.1) 100%);
+    background: linear-gradient(
+      180deg,
+      rgba(28, 18, 10, 0.05) 0%,
+      rgba(28, 18, 10, 0.18) 46%,
+      rgba(28, 18, 10, 0.68) 100%
+    );
     z-index: 1;
   }
 
   &:hover {
     opacity: 1;
-    transform: translateY(-6px) scale(1.02);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: 0 22px 48px rgba(44, 31, 20, 0.16);
 
     .card-title {
       font-weight: 700;
-      transform: scale(1.05);
+      transform: translateY(-2px);
     }
   }
 
   @media (max-width: 768px) {
     min-width: 220px;
-    height: ${({ variant }) => (variant === 'slider' ? '260px' : variant === 'large' ? '220px' : '180px')};
+    min-width: 0;
+    height: ${({ variant }) => (variant === 'slider' ? '260px' : variant === 'large' ? '220px' : '190px')};
   }
 `
 
@@ -89,8 +96,8 @@ const Title = styled.div<{ variant: VariantType }>`
   transition:
     transform 0.3s ease,
     font-weight 0.3s ease;
-  padding: 20px;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  padding: 0;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.32);
 
   @media (max-width: 768px) {
     font-size: ${({ variant }) => {
@@ -107,7 +114,6 @@ const Title = styled.div<{ variant: VariantType }>`
           return '18px'
       }
     }};
-    padding: 15px;
   }
 `
 
@@ -133,6 +139,7 @@ export const CategoryCard = ({
         params: { name },
       }}
       locale="ru"
+      style={{ textDecoration: 'none' }}
     >
       <Card role="link" color={color} variant={variant} bgimage={img || undefined} bgsize={backgroundSize}>
         <Title className="card-title" variant={variant}>
