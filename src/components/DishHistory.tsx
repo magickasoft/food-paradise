@@ -3,9 +3,9 @@
 import styled from 'styled-components'
 
 const Description = styled.li<{ $isOpen: boolean }>`
-  max-height: ${({ $isOpen }) => ($isOpen ? '2000px' : '0')};
+  max-height: ${({ $isOpen }) => ($isOpen ? '260px' : '0')};
   display: flex;
-  overflow: hidden;
+  overflow: auto;
   flex-direction: column;
   padding: 0;
   margin: 0;
@@ -14,6 +14,9 @@ const Description = styled.li<{ $isOpen: boolean }>`
   list-style: none;
   width: 100%;
   border-radius: 6px;
+  color: #5f554d;
+  font-size: 0.92rem;
+  line-height: 1.65;
 `
 
 export function DishHistory({ isOpen, history }: { isOpen: boolean; history: string }) {

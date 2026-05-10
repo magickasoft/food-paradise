@@ -10,20 +10,20 @@ const Card = styled.div<{
   variant?: string
 }>`
   background: #fffdfa;
-  border-radius: 12px;
-  border: 1px solid #eee;
+  border-radius: 18px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   width: ${({ variant }) => (variant === 'base' ? '220px' : '100%')};
-  min-height: 280px;
+  min-height: 300px;
   cursor: pointer;
   transition: all 0.25s ease;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 28px rgba(44, 31, 20, 0.08);
+  scroll-snap-align: start;
 
   &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px) scale(1.015);
+    box-shadow: 0 18px 42px rgba(44, 31, 20, 0.14);
   }
 `
 
@@ -33,14 +33,26 @@ const ImageBlock = styled.div<{
   position: relative;
   width: 100%;
   height: ${({ variant }) => (variant === 'full' ? '140px' : 'auto')};
-  aspect-ratio: 1.3 / 1;
+  aspect-ratio: 1.35 / 1;
   background: #f5f3f3;
+`
+
+const Placeholder = styled.div`
+  width: 100%;
+  height: 100%;
+  color: #a08367;
+  background: #fff7ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
 `
 
 const Content = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 12px;
+  padding: 14px;
   flex: 1;
 `
 
@@ -60,10 +72,10 @@ const Title = styled.div`
 `
 
 const Description = styled.div`
-  margin-top: 4px;
+  margin-top: 6px;
   font-size: 12px;
-  line-height: 1.4;
-  color: #666;
+  line-height: 1.5;
+  color: #6d6258;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -77,7 +89,7 @@ const Characteristic = styled.div`
   align-items: center;
   gap: 12px;
   font-size: 12px;
-  color: #444;
+  color: #5f554d;
 `
 
 const CharItem = styled.div`
@@ -113,20 +125,7 @@ export const RecipeCard = ({ name, img, title, description, time, level, variant
           {img ? (
             <Image src={img} alt={title} fill style={{ objectFit: 'cover' }} sizes="220px" />
           ) : (
-            <div
-              style={{
-                width: '100%',
-                height: '100%',
-                color: '#aaa',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontSize: '14px',
-                fontWeight: 500,
-              }}
-            >
-              Нет изображения
-            </div>
+            <Placeholder>Нет изображения</Placeholder>
           )}
         </ImageBlock>
         <Content>

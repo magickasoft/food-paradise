@@ -20,45 +20,49 @@ import { EquipmentsBlock } from './EquipmentsBlock'
 import { RecipeCookingStepsBlock } from './RecipeCookingStepsBlock'
 
 const RecipeContainer = styled.div`
-  display: flex;
-  gap: 24px;
+  display: grid;
+  grid-template-columns: minmax(280px, 340px) minmax(0, 1fr);
+  gap: 36px;
   width: 100%;
+  max-width: 1280px;
   margin: 0 auto;
   align-items: flex-start;
 
   @media ${maxDevice.laptop} {
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    gap: 28px;
   }
 `
 
+const RecipePageShell = styled.main`
+  background:
+    radial-gradient(circle at top left, rgba(255, 132, 2, 0.08), transparent 34rem),
+    linear-gradient(180deg, #fffaf5 0, #fff 420px);
+`
+
 const RecipeDetailsContainer = styled.section`
-  flex: 0 0 300px;
-  max-width: 400px;
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 14px;
   padding: 0;
+  position: sticky;
+  top: 96px;
 
   @media ${maxDevice.laptop} {
     width: 100%;
-    padding: 10px;
-    max-width: 100%;
+    position: static;
   }
 `
 
 const RecipeStepsContainer = styled.section`
-  flex: 1;
   display: flex;
   min-width: 0;
   flex-direction: column;
-  border-radius: 12px;
-  gap: 16px;
+  gap: 30px;
 
   @media ${maxDevice.laptop} {
-    max-width: 100vw;
-    width: inherit;
-    padding: 0 10px;
+    width: 100%;
   }
 `
 
@@ -72,7 +76,7 @@ const RecipePage = ({ recipe }: { recipe: Recipe | null }) => {
   const recipes = category ? RECIPES_OBJ[category]?.slice(0, 10) : []
 
   return (
-    <main>
+    <RecipePageShell>
       <PageWrapper>
         {recipe?.warning ? <WarningBlock text={recipe.warning} /> : null}
         <HeaderBlock recipe={recipe} />
@@ -99,7 +103,7 @@ const RecipePage = ({ recipe }: { recipe: Recipe | null }) => {
           return <p key={query}>{query}</p>
         })}
       </Zero>
-    </main>
+    </RecipePageShell>
   )
 }
 export default RecipePage

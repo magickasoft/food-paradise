@@ -10,8 +10,8 @@ const EquipmentsContainer = styled.section`
   flex-direction: column;
   text-align: start;
   background: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 12px;
+  border-radius: 18px;
+  box-shadow: 0 12px 36px rgba(44, 31, 20, 0.07);
 
   @media ${maxDevice.laptop} {
     width: 100%;
@@ -34,8 +34,8 @@ const DetailsCardsContainer = styled.section<{
   gap: 8px;
   background: ${props => props.$background || 'transparent'};
   justify-content: ${props => props.$justifyContent || 'flex-start'};
-  margin-bottom: 20px;
-  padding: 10px 20px;
+  margin-bottom: 0;
+  padding: 12px 18px 18px;
   border-radius: 6px;
 `
 

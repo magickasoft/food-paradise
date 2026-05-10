@@ -8,10 +8,12 @@ import { RecipeCard } from '../Cards/RecipeCard'
 
 const AnotherRecipesContainer = styled.section`
   width: 100%;
+  max-width: 1280px;
+  margin: 44px auto 0;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 20px;
+  gap: 18px;
+  padding: 28px 0 30px;
   padding-bottom: 30px;
 `
 

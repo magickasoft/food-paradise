@@ -3,37 +3,44 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import { FaStar } from 'react-icons/fa'
+import { maxDevice } from '@/styles/device'
 
 const Container = styled.div`
   width: 100%;
-  margin-top: 20px;
+  margin-top: 12px;
 `
 
 const Title = styled.h3`
   font-size: 20px;
   font-weight: 700;
-  color: #1c1c1c;
+  color: #241b14;
   margin-bottom: 16px;
+
+  @media ${maxDevice.laptop} {
+    padding: 0 4px;
+  }
 `
 
 const Card = styled.div`
   background: #ffffff;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 14px 40px rgba(44, 31, 20, 0.08);
 `
 
 const Stars = styled.div`
   display: flex;
   gap: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 `
 
 const Star = styled.button<{ active: boolean }>`
   background: none;
   border: none;
   cursor: pointer;
-  padding: 0;
+  padding: 8px;
+  min-width: 44px;
+  min-height: 44px;
 
   svg {
     font-size: 22px;
@@ -54,14 +61,15 @@ const Form = styled.form`
 
 const Textarea = styled.textarea`
   width: 100%;
-  height: 120px;
-  background: #f7f7f7;
-  border: 1px solid transparent;
-  border-radius: 10px;
-  padding: 14px;
+  min-height: 132px;
+  background: #fffaf5;
+  border: 1px solid #efe2d6;
+  border-radius: 16px;
+  padding: 16px;
   font-size: 14px;
+  line-height: 1.6;
   color: #333;
-  resize: none;
+  resize: vertical;
   outline: none;
   transition: all 0.2s ease;
 
@@ -71,7 +79,8 @@ const Textarea = styled.textarea`
 
   &:focus {
     background: #fff;
-    border-color: #e0e0e0;
+    border-color: #ffbd76;
+    box-shadow: 0 0 0 4px rgba(255, 132, 2, 0.1);
   }
 `
 
@@ -79,7 +88,13 @@ const BottomRow = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 8px;
+  gap: 14px;
+  margin-top: 12px;
+
+  @media (max-width: 768px) {
+    align-items: stretch;
+    flex-direction: column;
+  }
 `
 
 const CharCounter = styled.div`
@@ -88,18 +103,20 @@ const CharCounter = styled.div`
 `
 
 const SubmitButton = styled.button`
-  background-color: #ff6f61;
+  min-height: 44px;
+  background: linear-gradient(135deg, #e75e02, #ff8402);
   color: white;
   font-size: 14px;
   font-weight: 600;
   border: none;
-  border-radius: 20px;
-  padding: 10px 20px;
+  border-radius: 14px;
+  padding: 10px 22px;
   cursor: pointer;
   transition: all 0.2s ease;
 
   &:hover:not(:disabled) {
-    background-color: #ff8a7a;
+    transform: translateY(-1px);
+    box-shadow: 0 12px 26px rgba(231, 94, 2, 0.2);
   }
 
   &:disabled {

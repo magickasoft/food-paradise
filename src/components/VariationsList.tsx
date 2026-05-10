@@ -8,7 +8,7 @@ const List = styled.ul<{ $isOpen: boolean }>`
   display: flex;
   flex-direction: column;
   padding: ${({ $isOpen }) => ($isOpen ? '20px' : '0')};
-  padding-top: 0;
+  padding-top: ${({ $isOpen }) => ($isOpen ? '8px' : '0')};
   margin: 0;
   list-style: none;
   width: 100%;
@@ -17,6 +17,9 @@ const List = styled.ul<{ $isOpen: boolean }>`
 const Item = styled.li`
   padding: 12px 4px;
   border-bottom: 1px solid #f0f0f0;
+  color: #4c5563;
+  font-size: 0.92rem;
+  line-height: 1.55;
 
   &:last-child {
     border-bottom: none;
@@ -25,11 +28,12 @@ const Item = styled.li`
 
 const Title = styled.strong`
   display: inline-block;
-  background: #d0e1ff;
-  padding: 2px 8px;
-  border-radius: 4px;
+  background: #e9f0ff;
+  padding: 3px 8px;
+  border-radius: 999px;
   margin-bottom: 4px;
   font-size: 0.9rem;
+  color: #233553;
 `
 
 export function VariationsList({

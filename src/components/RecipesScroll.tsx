@@ -5,10 +5,11 @@ import styled from 'styled-components'
 const ScrollBlock = styled.div`
   display: flex;
   overflow-x: auto;
-  gap: 12px;
-  padding-bottom: 8px;
-  max-width: 94vw;
+  gap: 16px;
+  padding: 4px 0 14px;
+  max-width: 100%;
   align-items: stretch;
+  scroll-snap-type: x proximity;
 
   &::-webkit-scrollbar {
     height: 4px;

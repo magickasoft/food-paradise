@@ -7,26 +7,27 @@ import { LuExternalLink } from 'react-icons/lu'
 import styled from 'styled-components'
 
 const InfoContainer = styled.div`
-  width: 90%;
+  width: 100%;
+  max-width: 680px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   gap: 12px;
-  padding: 12px 0;
-  margin: 8px 0;
+  padding: 8px 0 14px;
+  margin: 0;
 
   @media ${maxDevice.laptop} {
-    width: 100%;
+    align-items: stretch;
   }
 `
 
 const BUTTON_STYLES = {
-  height: { default: 42, laptop: 36 },
-  padding: { default: '0 20px', laptop: '0 16px' },
+  height: { default: 54, laptop: 50 },
+  padding: { default: '0 28px', laptop: '0 22px' },
   fontSize: { default: 16, laptop: 14 },
-  gradient: 'linear-gradient(90deg, #e75e02 0%, #ff8402 50%, #ff8302 100%);',
-  shadow: '0 4px 12px rgba(123, 123, 123, 0.4)',
+  gradient: 'linear-gradient(135deg, #e75e02 0%, #ff8402 58%, #ffad3d 100%);',
+  shadow: '0 16px 30px rgba(231, 94, 2, 0.24)',
 } as const
 
 export const StyledButton = styled.a`
@@ -37,10 +38,10 @@ export const StyledButton = styled.a`
   height: ${BUTTON_STYLES.height.default}px;
   padding: ${BUTTON_STYLES.padding.default};
   font-size: ${BUTTON_STYLES.fontSize.default}px;
-  font-weight: 500;
+  font-weight: 700;
   color: #ffffff;
   background: ${BUTTON_STYLES.gradient};
-  border-radius: 6px;
+  border-radius: 16px;
   transition: all 0.25s ease;
   text-decoration: none;
   cursor: pointer;
@@ -51,7 +52,7 @@ export const StyledButton = styled.a`
 
   &:hover {
     background-position: 100% 0;
-    transform: translateY(-2px);
+    transform: translateY(-2px) scale(1.01);
     box-shadow: ${BUTTON_STYLES.shadow};
   }
 
@@ -71,14 +72,15 @@ export const IconButton = styled.button`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
-  background: #ffffff;
-  border: 1px solid #e0e0e0;
-  border-radius: 6px;
+  flex: 0 0 auto;
+  width: 54px;
+  height: 54px;
+  background: #fffaf5;
+  border: 1px solid rgba(255, 132, 2, 0.16);
+  border-radius: 16px;
   cursor: pointer;
   transition: all 0.25s ease;
-  color: #666;
+  color: #7c6958;
 
   &:hover:not(:disabled) {
     transform: translateY(-2px);
@@ -102,8 +104,8 @@ export const IconButton = styled.button`
   }
 
   @media ${maxDevice.laptop} {
-    width: 36px;
-    height: 36px;
+    width: 50px;
+    height: 50px;
 
     svg {
       width: 18px;
@@ -142,10 +144,10 @@ export const ControlBlock = () => {
       >
         {'Начать готовить'}
       </StyledButton>
-      <IconButton onClick={handleBookmark} title="Добавить в закладки" aria-label="Добавить в закладки" disabled={true}>
+      <IconButton onClick={handleBookmark} title="Добавить в закладки" aria-label="Добавить в закладки">
         <IoMdHeartEmpty />
       </IconButton>
-      <IconButton onClick={handleShare} title="Поделиться" aria-label="Поделиться" disabled={true}>
+      <IconButton onClick={handleShare} title="Поделиться" aria-label="Поделиться">
         <LuExternalLink />
       </IconButton>
     </InfoContainer>
