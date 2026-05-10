@@ -86,7 +86,7 @@ const PortionLabel = styled.span`
 const Counter = styled.div`
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 4px;
 `
 
 const CounterButton = styled.button<{ $disabled?: boolean }>`

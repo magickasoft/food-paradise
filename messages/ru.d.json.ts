@@ -2,54 +2,54 @@
 // See: https://next-intl.dev/docs/workflows/typescript#messages-arguments
 
 declare const messages: {
-  btn: {
-    default: {
-      label: 'Кнопка default'
+  "btn": {
+    "default": {
+      "label": "Кнопка default"
+    },
+    "primary": {
+      "label": "Кнопка primary"
     }
-    primary: {
-      label: 'Кнопка primary'
+  },
+  "localeSelect": {
+    "label": "Выберите язык",
+    "locale": {
+      "ru": "Рус",
+      "en": "Англ"
+    }
+  },
+  "manifest": {
+    "name": "next-intl example"
+  },
+  "localeLayout": {
+    "title": "next-intl example"
+  },
+  "notFoundPage": {
+    "description": "Пожалуйста, еще раз проверьте адресную строку браузера или воспользуйтесь навигацией, чтобы перейти на известную страницу.",
+    "title": "Страница не найдена"
+  },
+  "suggestRecipe": {
+    "title": "Предложить рецепт",
+    "href": "https://forms.yandex.ru/u/691ac78c9029026ef94eb5d4"
+  },
+  "totalRecipes": {
+    "title": "Всего рецептов: {count}"
+  },
+  "copyright": {
+    "text": "©, {text} {url} Любое использование контента без письменного разрешения {url} запрещено. Возрастное ограничение 16+"
+  },
+  "docs": {
+    "doc1": {
+      "title": "Политика в отношении обработки персональных данных",
+      "href": "https://docs.google.com/document/d/1cpOXQMNeexyKuseOEj7wemK7fRfGrccXJLRmgiDGfUA"
+    },
+    "doc2": {
+      "title": "Пользовательское соглашение",
+      "href": "https://docs.google.com/document/d/1V7UjGl5E73HLNgArQi8uUGCxVUiH1_56g28HEB_ZwYU"
+    },
+    "doc3": {
+      "title": "Политика обработки файлов cookie",
+      "href": "https://docs.google.com/document/d/1fyIAFDSN-4LnDZbdQq4r82ghddvpsZkwO49Sb4Yga_Y"
     }
   }
-  localeSelect: {
-    label: 'Выберите язык'
-    locale: {
-      ru: 'Рус'
-      en: 'Англ'
-    }
-  }
-  manifest: {
-    name: 'next-intl example'
-  }
-  localeLayout: {
-    title: 'next-intl example'
-  }
-  notFoundPage: {
-    description: 'Пожалуйста, еще раз проверьте адресную строку браузера или воспользуйтесь навигацией, чтобы перейти на известную страницу.'
-    title: 'Страница не найдена'
-  }
-  suggestRecipe: {
-    title: 'Предложить рецепт'
-    href: 'https://forms.yandex.ru/u/691ac78c9029026ef94eb5d4'
-  }
-  totalRecipes: {
-    title: 'Всего рецептов: {count}'
-  }
-  copyright: {
-    text: '©, {text} {url} Любое использование контента без письменного разрешения {url} запрещено. Возрастное ограничение 16+'
-  }
-  docs: {
-    doc1: {
-      title: 'Политика в отношении обработки персональных данных'
-      href: 'https://docs.google.com/document/d/1cpOXQMNeexyKuseOEj7wemK7fRfGrccXJLRmgiDGfUA'
-    }
-    doc2: {
-      title: 'Пользовательское соглашение'
-      href: 'https://docs.google.com/document/d/1V7UjGl5E73HLNgArQi8uUGCxVUiH1_56g28HEB_ZwYU'
-    }
-    doc3: {
-      title: 'Политика обработки файлов cookie'
-      href: 'https://docs.google.com/document/d/1fyIAFDSN-4LnDZbdQq4r82ghddvpsZkwO49Sb4Yga_Y'
-    }
-  }
-}
-export default messages
+};
+export default messages;
