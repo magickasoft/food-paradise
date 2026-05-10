@@ -1,7 +1,7 @@
 import { maxDevice } from '@/styles/device'
 import styled from 'styled-components'
 import { Recipe } from '@/constants/recipes/recipes'
-import { DetailCard } from '../Cards'
+import { formatStepIngredient } from './recipeStepIngredientUtils'
 
 const RecipeCookingStepsContainer = styled.section`
   width: 100%;
@@ -64,15 +64,39 @@ const DetailsCardsContainer = styled.section<{
   max-width: 100%;
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 8px;
   background: ${props => props.$background || 'transparent'};
   justify-content: ${props => props.$justifyContent || 'flex-start'};
-  overflow-x: auto;
   margin-bottom: 20px;
   border-radius: 6px;
 
   @media ${maxDevice.laptop} {
     height: auto;
+  }
+`
+
+const StepIngredientChip = styled.span`
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 12px;
+  border: 1px solid #e6dfd6;
+  border-radius: 10px;
+  background: #fffaf5;
+  color: #3d352d;
+  font-size: 0.85rem;
+  line-height: 1.2;
+  white-space: nowrap;
+
+  &::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    flex: 0 0 auto;
+    border-radius: 50%;
+    background: #ff8402;
+    opacity: 0.65;
   }
 `
 
@@ -117,13 +141,9 @@ export const RecipeCookingStepsBlock = ({ stepsData }: { stepsData: Recipe['cook
             {step.ingredients?.length > 0 && (
               <DetailsCardsContainer>
                 {step.ingredients.map(ingredient => (
-                  <DetailCard
-                    key={`${index}-ingredient-${ingredient.name}`}
-                    name={ingredient.name}
-                    text={ingredient.count && ingredient.gauge ? `${ingredient.count} ${ingredient.gauge}` : ''}
-                    img={ingredient?.img || null}
-                    backgroundColor="#f9f9f9"
-                  />
+                  <StepIngredientChip key={`${index}-ingredient-${ingredient.name}`}>
+                    {formatStepIngredient(ingredient)}
+                  </StepIngredientChip>
                 ))}
               </DetailsCardsContainer>
             )}

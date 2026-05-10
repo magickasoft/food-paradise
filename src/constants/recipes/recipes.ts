@@ -75,7 +75,7 @@ export interface Recipe {
     img?: string | null
     video?: string | null
     description: string
-    ingredients: { name: string; count?: number | string; gauge: string; img?: string | null; optional?: boolean }[]
+    ingredients: { name: string; count?: number | string; gauge: string; optional?: boolean }[]
   }[]
   historyDescription?: string
   tips?: string[]
