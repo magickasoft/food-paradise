@@ -3,8 +3,7 @@ import type { Locale } from 'next-intl'
 import { locales } from '@/i18n/constants'
 
 import { use } from 'react'
-import { SeasonalCategories } from '@/components/SeasonalCategories'
-import { PopularCategories } from '@/components/PopularCategories'
+import { HomePage } from '@/components/HomePage/HomePage'
 
 type Props = {
   params: Promise<{ locale: Locale }>
@@ -19,10 +18,5 @@ export default function IndexPage({ params }: Props) {
 
   setRequestLocale(locale)
 
-  return (
-    <>
-      <SeasonalCategories />
-      <PopularCategories />
-    </>
-  )
+  return <HomePage />
 }
