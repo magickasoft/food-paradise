@@ -1,7 +1,7 @@
 export const OGURECHNYJ_DETOKS_NAPITOK = {
   metaSeo: {
-    title: 'Огуречный детокс-напиток — свежесть и лёгкость',
-    description: 'Освежающий напиток с огурцом, лаймом и мятой. Выводит токсины, идеален для жарких дней.',
+    title: 'Огуречный напиток с лаймом — свежесть и лёгкость',
+    description: 'Освежающий напиток с огурцом, лаймом и мятой. Лёгкий вкус для жарких дней.',
     keywords: [
       'огуречный напиток',
       'детокс-напиток',
@@ -24,12 +24,12 @@ export const OGURECHNYJ_DETOKS_NAPITOK = {
       'тонизирующий напиток',
       'рецепт для тонуса',
     ],
-    'og:title': 'Огуречный детокс-напиток — свежесть и лёгкость',
-    'og:description': 'Освежающий напиток с огурцом, лаймом и мятой. Выводит токсины, идеален для жарких дней.',
+    'og:title': 'Огуречный напиток с лаймом — свежесть и лёгкость',
+    'og:description': 'Освежающий напиток с огурцом, лаймом и мятой. Лёгкий вкус для жарких дней.',
     'og:url': 'https://food-paradise.ru/recipe/ogurechnyj-detoks-napitok',
     'og:image': '/optimize/recipes/refreshingDrinks/ogurechnyj-detoks-napitok.webp',
-    twitterTitle: 'Огуречный детокс-напиток — свежесть и лёгкость',
-    twitterDescription: 'Освежающий напиток с огурцом, лаймом и мятой. Выводит токсины.',
+    twitterTitle: 'Огуречный напиток с лаймом — свежесть и лёгкость',
+    twitterDescription: 'Освежающий напиток с огурцом, лаймом и мятой.',
     twitterImage: '/optimize/recipes/refreshingDrinks/ogurechnyj-detoks-napitok.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/ogurechnyj-detoks-napitok',
     'twitter:card': 'summary_large_image',
@@ -162,12 +162,12 @@ export const OGURECHNYJ_DETOKS_NAPITOK = {
     'цитрусов или цитрусовых',
     'чай с лимоном',
   ],
-  categories: [{ name: 'refreshingDrinks' }, { name: 'detox' }],
+  categories: [{ name: 'refreshingDrinks' }, { name: 'low-calorie' }],
   key: 'ogurechnyj-detoks-napitok',
   name: 'ogurechnyj-detoks-napitok',
   img: '/optimize/recipes/refreshingDrinks/ogurechnyj-detoks-napitok.webp',
-  title: 'Огуречный детокс-напиток',
-  description: 'Лёгкий напиток с огурцом, лаймом и мятой для восстановления водного баланса и очищения организма.',
+  title: 'Огуречный напиток с лаймом',
+  description: 'Лёгкий напиток с огурцом, лаймом и мятой для жарких дней.',
   calories: 20,
   preparation: 5,
   time: 10,
@@ -214,6 +214,12 @@ export const OGURECHNYJ_DETOKS_NAPITOK = {
     {
       equipmentKey: 'sieve',
     },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
+    },
   ],
   cookingRecipe: [
     {
@@ -242,7 +248,23 @@ export const OGURECHNYJ_DETOKS_NAPITOK = {
       img: null,
       video: null,
       description: 'В блендере измельчите огурец, мяту и сок лайма. Процедите через сито.',
-      ingredients: [],
+      ingredients: [
+        {
+          ingredientKey: 'cucumber',
+          gauge: 'шт.',
+          count: 1,
+        },
+        {
+          ingredientKey: 'lime',
+          gauge: 'шт.',
+          count: 1,
+        },
+        {
+          ingredientKey: 'myataSvezhaya',
+          gauge: 'г',
+          count: 10,
+        },
+      ],
     },
     {
       img: null,

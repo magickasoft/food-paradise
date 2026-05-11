@@ -240,6 +240,12 @@ export const TROPICHESKIJ_SMUZI_S_MANGO = {
     {
       equipmentKey: 'stakanyDlyaPodachi',
     },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
+    },
   ],
   cookingRecipe: [
     {

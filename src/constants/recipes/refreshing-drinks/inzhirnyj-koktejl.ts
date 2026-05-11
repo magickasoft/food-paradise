@@ -229,9 +229,9 @@ export const INZHIRNYJ_KOKTEJL = {
       count: 0.5,
     },
     {
-      ingredientKey: 'honey',
+      ingredientKey: 'steviya',
       gauge: 'ч.л',
-      count: 1,
+      count: 0.5,
     },
     {
       ingredientKey: 'led',
@@ -245,6 +245,12 @@ export const INZHIRNYJ_KOKTEJL = {
     },
     {
       equipmentKey: 'kokteylnyeStakany',
+    },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
     },
   ],
   cookingRecipe: [
@@ -263,7 +269,7 @@ export const INZHIRNYJ_KOKTEJL = {
     {
       img: null,
       video: null,
-      description: 'В блендере смешайте инжир, миндальное молоко, кардамон и мёд до однородности.',
+      description: 'В блендере смешайте инжир, миндальное молоко, кардамон и стевию до однородности.',
       ingredients: [
         {
           ingredientKey: 'mindalnoeMoloko',
@@ -276,9 +282,9 @@ export const INZHIRNYJ_KOKTEJL = {
           count: 0.5,
         },
         {
-          ingredientKey: 'honey',
+          ingredientKey: 'steviya',
           gauge: 'ч.л',
-          count: 1,
+          count: 0.5,
         },
       ],
     },
@@ -299,7 +305,7 @@ export const INZHIRNYJ_KOKTEJL = {
   variations: [
     {
       name: 'С финиками',
-      changes: 'Замените мёд на 2 финика.',
+      changes: 'Для более плотной сладости добавьте 1–2 финика.',
     },
   ],
   historyDescription:

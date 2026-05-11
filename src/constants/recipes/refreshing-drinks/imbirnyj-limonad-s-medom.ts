@@ -1,7 +1,7 @@
 export const IMBIRNYJ_LIMONAD_S_MEDOM = {
   metaSeo: {
-    title: 'Имбирный лимонад с мёдом — согревающий и освежающий',
-    description: 'Полезный лимонад с имбирём, мёдом и лимоном. Идеален для иммунитета и освежения в жару.',
+    title: 'Имбирный лимонад с мёдом — пряный и освежающий',
+    description: 'Пряный лимонад с имбирём, мёдом и лимоном. Идеален для подачи со льдом в жару.',
     keywords: [
       'имбирный лимонад',
       'напиток с имбирём',
@@ -24,12 +24,12 @@ export const IMBIRNYJ_LIMONAD_S_MEDOM = {
       'антипростудный напиток',
       'рецепт для здоровья',
     ],
-    'og:title': 'Имбирный лимонад с мёдом — согревающий и освежающий',
-    'og:description': 'Полезный лимонад с имбирём, мёдом и лимоном. Идеален для иммунитета и освежения в жару.',
+    'og:title': 'Имбирный лимонад с мёдом — пряный и освежающий',
+    'og:description': 'Пряный лимонад с имбирём, мёдом и лимоном. Идеален для подачи со льдом в жару.',
     'og:url': 'https://food-paradise.ru/recipe/imbirnyj-limonad-s-medom',
     'og:image': '/optimize/recipes/refreshingDrinks/imbirnyj-limonad-s-medom.webp',
-    twitterTitle: 'Имбирный лимонад с мёдом — согревающий и освежающий',
-    twitterDescription: 'Полезный лимонад с имбирём, мёдом и лимоном для иммунитета.',
+    twitterTitle: 'Имбирный лимонад с мёдом — пряный и освежающий',
+    twitterDescription: 'Пряный лимонад с имбирём, мёдом и лимоном.',
     twitterImage: '/optimize/recipes/refreshingDrinks/imbirnyj-limonad-s-medom.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/imbirnyj-limonad-s-medom',
     'twitter:card': 'summary_large_image',
@@ -209,15 +209,15 @@ export const IMBIRNYJ_LIMONAD_S_MEDOM = {
     'чай с лимоном',
     'чем полезен имбирь',
   ],
-  categories: [{ name: 'refreshingDrinks' }, { name: 'immunity' }],
+  categories: [{ name: 'refreshingDrinks' }, { name: 'summer' }],
   key: 'imbirnyj-limonad-s-medom',
   name: 'imbirnyj-limonad-s-medom',
   img: '/optimize/recipes/refreshingDrinks/imbirnyj-limonad-s-medom.webp',
   title: 'Имбирный лимонад с мёдом',
-  description: 'Ароматный лимонад с имбирём, мёдом и лимоном. Освежает в жару и укрепляет иммунитет.',
+  description: 'Ароматный лимонад с имбирём, мёдом и лимоном. Освежает в жару и хорошо подаётся со льдом.',
   calories: 80,
   preparation: 10,
-  time: 20,
+  time: 50,
   level: 1,
   rating: 4.7,
   portions: 4,
@@ -260,6 +260,12 @@ export const IMBIRNYJ_LIMONAD_S_MEDOM = {
     },
     {
       equipmentKey: 'kuvshin',
+    },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
     },
   ],
   cookingRecipe: [

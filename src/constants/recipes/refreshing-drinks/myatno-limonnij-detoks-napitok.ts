@@ -1,7 +1,7 @@
 export const MYATNO_LIMONNIJ_DETOKS_NAPITOK = {
   metaSeo: {
-    title: 'Мятно-лимонный детокс-напиток с огурцом — очищение и свежесть',
-    description: 'Освежающий напиток с мятой, лимоном и огурцом для детокса и восстановления водного баланса.',
+    title: 'Мятно-лимонный напиток с огурцом — свежесть в стакане',
+    description: 'Освежающий напиток с мятой, лимоном и огурцом для жарких дней.',
     keywords: [
       'детокс-напиток',
       'напиток с огурцом',
@@ -24,12 +24,12 @@ export const MYATNO_LIMONNIJ_DETOKS_NAPITOK = {
       'напиток с мятой и лимоном',
       'рецепт для здоровья',
     ],
-    'og:title': 'Мятно-лимонный детокс-напиток с огурцом — очищение и свежесть',
-    'og:description': 'Освежающий напиток с мятой, лимоном и огурцом для детокса и восстановления водного баланса.',
+    'og:title': 'Мятно-лимонный напиток с огурцом — свежесть в стакане',
+    'og:description': 'Освежающий напиток с мятой, лимоном и огурцом для жарких дней.',
     'og:url': 'https://food-paradise.ru/recipe/myatno-limonnij-detoks-napitok',
     'og:image': '/optimize/recipes/refreshingDrinks/myatno-limonnij-detoks-napitok.webp',
-    twitterTitle: 'Мятно-лимонный детокс-напиток с огурцом — очищение и свежесть',
-    twitterDescription: 'Освежающий напиток с мятой, лимоном и огурцом для детокса.',
+    twitterTitle: 'Мятно-лимонный напиток с огурцом — свежесть в стакане',
+    twitterDescription: 'Освежающий напиток с мятой, лимоном и огурцом.',
     twitterImage: '/optimize/recipes/refreshingDrinks/myatno-limonnij-detoks-napitok.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/myatno-limonnij-detoks-napitok',
     'twitter:card': 'summary_large_image',
@@ -161,12 +161,12 @@ export const MYATNO_LIMONNIJ_DETOKS_NAPITOK = {
     'цитрусов или цитрусовых',
     'чай с лимоном',
   ],
-  categories: [{ name: 'refreshingDrinks' }, { name: 'detox' }],
+  categories: [{ name: 'refreshingDrinks' }, { name: 'low-calorie' }],
   key: 'myatno-limonnij-detoks-napitok',
   name: 'myatno-limonnij-detoks-napitok',
   img: '/optimize/recipes/refreshingDrinks/myatno-limonnij-detoks-napitok.webp',
-  title: 'Мятно-лимонный детокс-напиток',
-  description: 'Освежающий напиток с мятой, лимоном и огурцом. Идеален для детокса и жарких дней.',
+  title: 'Мятно-лимонный напиток',
+  description: 'Освежающий напиток с мятой, лимоном и огурцом. Идеален для жарких дней.',
   calories: 15,
   preparation: 5,
   time: 10,
@@ -212,6 +212,12 @@ export const MYATNO_LIMONNIJ_DETOKS_NAPITOK = {
     },
     {
       equipmentKey: 'woodenSpoon',
+    },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
     },
   ],
   cookingRecipe: [
@@ -267,7 +273,7 @@ export const MYATNO_LIMONNIJ_DETOKS_NAPITOK = {
       ],
     },
   ],
-  tips: ['Для усиления детокс-эффекта добавьте 1 ч.л. тёртого имбиря.', 'Подавайте с соломинкой и долькой лимона.'],
+  tips: ['Для более пряного вкуса добавьте 1 ч.л. тёртого имбиря.', 'Подавайте с соломинкой и долькой лимона.'],
   variations: [
     {
       name: 'С лаймом',

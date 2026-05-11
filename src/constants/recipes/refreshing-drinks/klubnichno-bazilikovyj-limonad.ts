@@ -1,7 +1,7 @@
 export const KLUBNICHNO_BAZILIKOVYJ_LIMONAD = {
   metaSeo: {
     title: 'Клубнично-базиликовый лимонад — летний освежающий напиток',
-    description: 'Нежный лимонад с клубникой, базиликом и лимоном. Без сахара, с натуральной сладостью ягод.',
+    description: 'Нежный лимонад с клубникой, базиликом и лимоном. Без белого сахара, с натуральной сладостью ягод.',
     keywords: [
       'клубничный лимонад',
       'напиток с клубникой',
@@ -25,11 +25,12 @@ export const KLUBNICHNO_BAZILIKOVYJ_LIMONAD = {
       'рецепт для здоровья',
     ],
     'og:title': 'Клубнично-базиликовый лимонад — летний освежающий напиток',
-    'og:description': 'Нежный лимонад с клубникой, базиликом и лимоном. Без сахара, с натуральной сладостью ягод.',
+    'og:description':
+      'Нежный лимонад с клубникой, базиликом и лимоном. Без белого сахара, с натуральной сладостью ягод.',
     'og:url': 'https://food-paradise.ru/recipe/klubnichno-bazilikovyj-limonad',
     'og:image': '/optimize/recipes/refreshingDrinks/klubnichno-bazilikovyj-limonad.webp',
     twitterTitle: 'Клубнично-базиликовый лимонад — летний освежающий напиток',
-    twitterDescription: 'Нежный лимонад с клубникой, базиликом и лимоном. Без сахара.',
+    twitterDescription: 'Нежный лимонад с клубникой, базиликом и лимоном. Без белого сахара.',
     twitterImage: '/optimize/recipes/refreshingDrinks/klubnichno-bazilikovyj-limonad.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/klubnichno-bazilikovyj-limonad',
     'twitter:card': 'summary_large_image',
@@ -151,6 +152,12 @@ export const KLUBNICHNO_BAZILIKOVYJ_LIMONAD = {
     },
     {
       equipmentKey: 'sieve',
+    },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
     },
   ],
   cookingRecipe: [

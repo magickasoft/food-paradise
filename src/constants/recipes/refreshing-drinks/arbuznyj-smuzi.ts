@@ -181,6 +181,12 @@ export const ARBUZNYJ_SMUZI = {
     {
       equipmentKey: 'stakanyDlyaPodachi',
     },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
+    },
   ],
   cookingRecipe: [
     {

@@ -1,7 +1,7 @@
 export const MALINOVYJ_CHAJNYJ_FRESH = {
   metaSeo: {
     title: 'Малиновый чайный фреш с базиликом — ягодное наслаждение',
-    description: 'Ароматный холодный чай с малиной, базиликом и лаймом. Натуральный энергетик без кофеина!',
+    description: 'Ароматный холодный зелёный чай с малиной, базиликом и лаймом.',
     keywords: [
       'малиновый чай',
       'холодный чай',
@@ -25,11 +25,11 @@ export const MALINOVYJ_CHAJNYJ_FRESH = {
       'рецепт для здоровья',
     ],
     'og:title': 'Малиновый чайный фреш с базиликом — ягодное наслаждение',
-    'og:description': 'Ароматный холодный чай с малиной, базиликом и лаймом. Натуральный энергетик без кофеина!',
+    'og:description': 'Ароматный холодный зелёный чай с малиной, базиликом и лаймом.',
     'og:url': 'https://food-paradise.ru/recipe/malinovyj-chajnyj-fresh',
     'og:image': '/optimize/recipes/refreshingDrinks/malinovyj-chajnyj-fresh.webp',
     twitterTitle: 'Малиновый чайный фреш с базиликом — ягодное наслаждение',
-    twitterDescription: 'Холодный чай с малиной и базиликом — вкусно и полезно!',
+    twitterDescription: 'Холодный зелёный чай с малиной и базиликом.',
     twitterImage: '/optimize/recipes/refreshingDrinks/malinovyj-chajnyj-fresh.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/malinovyj-chajnyj-fresh',
     'twitter:card': 'summary_large_image',
@@ -92,7 +92,7 @@ export const MALINOVYJ_CHAJNYJ_FRESH = {
   name: 'malinovyj-chajnyj-fresh',
   img: '/optimize/recipes/refreshingDrinks/malinovyj-chajnyj-fresh.webp',
   title: 'Малиновый чайный фреш',
-  description: 'Изысканный холодный чай с малиной, свежим базиликом и цитрусовыми нотами лайма. Бодрит без кофеина!',
+  description: 'Изысканный холодный зелёный чай с малиной, свежим базиликом и цитрусовыми нотами лайма.',
   calories: 40,
   preparation: 10,
   time: 30,
@@ -131,6 +131,11 @@ export const MALINOVYJ_CHAJNYJ_FRESH = {
       gauge: 'стакан',
       count: 1,
     },
+    {
+      ingredientKey: 'voda4',
+      gauge: 'мл',
+      count: 500,
+    },
   ],
   equipments: [
     {
@@ -138,6 +143,9 @@ export const MALINOVYJ_CHAJNYJ_FRESH = {
     },
     {
       equipmentKey: 'kuvshin',
+    },
+    {
+      equipmentKey: 'sieve',
     },
   ],
   cookingRecipe: [
@@ -150,6 +158,11 @@ export const MALINOVYJ_CHAJNYJ_FRESH = {
           ingredientKey: 'zelenyyChay',
           gauge: 'ч.л',
           count: 2,
+        },
+        {
+          ingredientKey: 'voda4',
+          gauge: 'мл',
+          count: 500,
         },
       ],
     },

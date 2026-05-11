@@ -130,9 +130,9 @@ export const PERSIKOVYJ_LATTE = {
       count: 0.5,
     },
     {
-      ingredientKey: 'honey',
+      ingredientKey: 'steviya',
       gauge: 'ч.л',
-      count: 2,
+      count: 0.5,
     },
     {
       ingredientKey: 'led',
@@ -152,6 +152,12 @@ export const PERSIKOVYJ_LATTE = {
     {
       equipmentKey: 'stakanyDlyaPodachi',
     },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
+    },
   ],
   cookingRecipe: [
     {
@@ -169,7 +175,7 @@ export const PERSIKOVYJ_LATTE = {
     {
       img: null,
       video: null,
-      description: 'В блендере смешайте персиковое пюре, кокосовое молоко, куркуму и мёд.',
+      description: 'В блендере смешайте персиковое пюре, кокосовое молоко, куркуму и стевию.',
       ingredients: [
         {
           ingredientKey: 'kokosovoeMoloko',
@@ -182,9 +188,9 @@ export const PERSIKOVYJ_LATTE = {
           count: 0.5,
         },
         {
-          ingredientKey: 'honey',
+          ingredientKey: 'steviya',
           gauge: 'ч.л',
-          count: 2,
+          count: 0.5,
         },
       ],
     },

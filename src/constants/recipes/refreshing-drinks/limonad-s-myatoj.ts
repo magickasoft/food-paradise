@@ -1,7 +1,7 @@
 export const LIMONAD_S_MYATOJ = {
   metaSeo: {
     title: 'Домашний лимонад с мятой и имбирём — витаминный заряд',
-    description: 'Освежающий лимонад с натуральными ингредиентами: лимон, мята и имбирь. Без сахара, с мёдом.',
+    description: 'Освежающий лимонад с натуральными ингредиентами: лимон, мята и имбирь. Без белого сахара, с мёдом.',
     keywords: [
       'домашний лимонад',
       'рецепт лимонада',
@@ -25,7 +25,7 @@ export const LIMONAD_S_MYATOJ = {
       'рецепт для тонуса',
     ],
     'og:title': 'Домашний лимонад с мятой и имбирём — витаминный заряд',
-    'og:description': 'Освежающий лимонад с лимоном, мятой и имбирём. Без сахара, с мёдом.',
+    'og:description': 'Освежающий лимонад с лимоном, мятой и имбирём. Без белого сахара, с мёдом.',
     'og:url': 'https://food-paradise.ru/recipe/limonad-s-myatoj',
     'og:image': '/optimize/recipes/refreshingDrinks/limonad-s-myatoj.webp',
     twitterTitle: 'Домашний лимонад с мятой и имбирём — витаминный заряд',
@@ -258,6 +258,15 @@ export const LIMONAD_S_MYATOJ = {
     },
     {
       equipmentKey: 'woodenSpoon',
+    },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
+    },
+    {
+      equipmentKey: 'grater',
     },
   ],
   cookingRecipe: [
