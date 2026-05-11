@@ -1,13 +1,13 @@
 export const SUP_PYURE_IZ_TYKVY = {
   metaSeo: {
-    title: 'Суп-пюре из тыквы — нежный обед за 30 минут',
+    title: 'Суп-пюре из тыквы — нежный осенний обед',
     description:
       'Кремовый суп-пюре с запечённой тыквой, морковью и сливками. Согревающий, ароматный и очень простой рецепт на каждый день.',
     keywords: [
       'суп-пюре из тыквы',
       'тыквенный суп',
       'крем-суп',
-      'обед за 30 минут',
+      'осенний обед',
       'рецепт с тыквой',
       'вегетарианский суп',
       'сливочный суп',
@@ -21,16 +21,16 @@ export const SUP_PYURE_IZ_TYKVY = {
       'простой рецепт',
       'суп с имбирем',
       'тыква со сливками',
-      'быстрый обед',
+      'несложный обед',
       'ароматный суп',
       'здоровый обед',
     ],
-    'og:title': 'Суп-пюре из тыквы — нежный обед за 30 минут',
+    'og:title': 'Суп-пюре из тыквы — нежный осенний обед',
     'og:description':
       'Кремовый суп-пюре с запечённой тыквой, морковью и сливками. Согревающий, полезный и очень простой.',
     'og:url': 'https://food-paradise.ru/recipe/sup-pyure-iz-tykvy',
     'og:image': '/optimize/recipes/dinner/sup-pyure-iz-tykvy.webp',
-    twitterTitle: 'Суп-пюре из тыквы — нежный обед за 30 минут',
+    twitterTitle: 'Суп-пюре из тыквы — нежный осенний обед',
     twitterDescription: 'Кремовый суп-пюре с тыквой, морковью и сливками. Простой, ароматный и полезный рецепт.',
     twitterImage: '/optimize/recipes/dinner/sup-pyure-iz-tykvy.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/sup-pyure-iz-tykvy',
@@ -736,7 +736,7 @@ export const SUP_PYURE_IZ_TYKVY = {
   Мягкий, бархатистый и слегка сладковатый, он идеально согревает в холодное время года. 
   Сочетание запечённой тыквы, моркови, сливок и лёгкой пряности имбиря делает вкус ярким и многослойным. 
   Это блюдо не только вкусное, но и полезное — богато витаминами A и C, поддерживает иммунитет и улучшает настроение. 
-  Подавайте с ржаными гренками, ложкой сливок и щепоткой тыквенных семечек — и у вас получится ресторанный результат за 30 минут.`,
+  Подавайте с ржаными гренками, ложкой сливок и щепоткой тыквенных семечек — получится простой домашний суп с ресторанной подачей.`,
   historyDescription: `Тыквенный суп-пюре — одно из самых популярных блюд осени. 
   Его родиной считают Францию, где крем-супы стали неотъемлемой частью изысканной кухни. 
   Однако в наши широты рецепт пришёл из северной Европы — там тыкву варили с овощами и растительным маслом, 
@@ -744,7 +744,7 @@ export const SUP_PYURE_IZ_TYKVY = {
   Главное в нём — естественная сладость тыквы и её нежная текстура.`,
   calories: 250,
   preparation: 15,
-  time: 30,
+  time: 45,
   level: 1,
   rating: 4.6,
   portions: 4,
@@ -755,18 +755,18 @@ export const SUP_PYURE_IZ_TYKVY = {
     { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
     { ingredientKey: 'cream20', count: 200, gauge: 'г.' },
     { ingredientKey: 'ginger', count: 10, gauge: 'г.' },
-    { ingredientKey: 'oliveOil', count: 1, gauge: 'ст.л.' },
+    { ingredientKey: 'oliveOil', count: 2, gauge: 'ст.л.' },
     { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
     { ingredientKey: 'blackPepper', count: 1, gauge: 'ч.л.' },
     { ingredientKey: 'water', count: 1, gauge: 'л.' },
     { ingredientKey: 'pumpkinSeeds', count: 20, gauge: 'г.' },
   ],
   equipments: [
-    { ...{ equipmentKey: 'bakingTray' }, count: 1 },
-    { ...{ equipmentKey: 'pot' }, count: 1 },
-    { ...{ equipmentKey: 'blender' }, count: 1 },
-    { ...{ equipmentKey: 'knife' }, count: 1 },
-    { ...{ equipmentKey: 'cutBoard' }, count: 1 },
+    { equipmentKey: 'bakingTray' },
+    { equipmentKey: 'pot' },
+    { equipmentKey: 'blender' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
   ],
   cookingRecipe: [
     {
@@ -788,6 +788,7 @@ export const SUP_PYURE_IZ_TYKVY = {
       ingredients: [
         { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
         { ingredientKey: 'ginger', count: 10, gauge: 'г.' },
+        { ingredientKey: 'oliveOil', count: 1, gauge: 'ст.л.' },
         { ingredientKey: 'water', count: 1, gauge: 'л.' },
       ],
     },
@@ -795,11 +796,12 @@ export const SUP_PYURE_IZ_TYKVY = {
       img: null,
       video: null,
       description: `Измельчите суп блендером до однородной текстуры, верните на плиту, добавьте сливки, 
-      приправьте солью и перцем и прогрейте 2 минуты, не доводя до кипения.`,
+      приправьте солью и перцем и прогрейте 2 минуты, не доводя до кипения. Подавайте, посыпав тыквенными семечками.`,
       ingredients: [
         { ingredientKey: 'cream20', count: 200, gauge: 'г.' },
         { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
         { ingredientKey: 'blackPepper', count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'pumpkinSeeds', count: 20, gauge: 'г.' },
       ],
     },
   ],

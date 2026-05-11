@@ -854,10 +854,10 @@ export const KURINYY_BULON_S_LAPSHOY = {
     { ingredientKey: 'water', count: 2, gauge: 'л.' },
   ],
   equipments: [
-    { ...{ equipmentKey: 'pot' }, count: 1 },
-    { ...{ equipmentKey: 'knife' }, count: 1 },
-    { ...{ equipmentKey: 'cutBoard' }, count: 1 },
-    { ...{ equipmentKey: 'skimmer' }, count: 1 },
+    { equipmentKey: 'pot' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'skimmer' },
   ],
   cookingRecipe: [
     {

@@ -471,11 +471,11 @@ export const SCHI_IZ_SVEZHEY_KAPUSTY = {
     { ingredientKey: 'water', count: 3, gauge: 'л.' },
   ],
   equipments: [
-    { ...{ equipmentKey: 'pot' }, count: 1 },
-    { ...{ equipmentKey: 'pan' }, count: 1 },
-    { ...{ equipmentKey: 'woodenSpoon' }, count: 1 },
-    { ...{ equipmentKey: 'knife' }, count: 1 },
-    { ...{ equipmentKey: 'cutBoard' }, count: 1 },
+    { equipmentKey: 'pot' },
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'woodenSpoon' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
   ],
 
   cookingRecipe: [

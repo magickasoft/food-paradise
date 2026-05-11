@@ -456,7 +456,7 @@ export const CREAM_MUSHROOM_SOUP = {
     { ingredientKey: 'truffleOil', count: 1, gauge: 'ст.л.' },
     { ingredientKey: 'sunflowerOil', count: 1, gauge: 'ст.л.' },
     { ingredientKey: 'whitePepper', count: 1, gauge: 'г.' },
-    { ingredientKey: 'salt', count: 5, gauge: 'ч.л.' },
+    { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
     { ingredientKey: 'ciabatta', count: 60, gauge: 'г.' },
     { ingredientKey: 'water', count: 600, gauge: 'мл' },
   ],
@@ -506,7 +506,7 @@ export const CREAM_MUSHROOM_SOUP = {
       ingredients: [
         { ingredientKey: 'cream33', count: 250, gauge: 'мл' },
         { ingredientKey: 'whitePepper', count: 1, gauge: 'г.' },
-        { ingredientKey: 'salt', count: 5, gauge: 'ч.л.' },
+        { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
       ],
     },
     {

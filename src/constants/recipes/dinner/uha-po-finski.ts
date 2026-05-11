@@ -353,10 +353,10 @@ export const UHA_PO_FINSKI = {
     { ingredientKey: 'water', count: 1.5, gauge: 'л.' },
   ],
   equipments: [
-    { ...{ equipmentKey: 'pot' }, count: 1 },
-    { ...{ equipmentKey: 'knife' }, count: 1 },
-    { ...{ equipmentKey: 'cutBoard' }, count: 1 },
-    { ...{ equipmentKey: 'woodenSpoon' }, count: 1 },
+    { equipmentKey: 'pot' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'woodenSpoon' },
   ],
 
   cookingRecipe: [

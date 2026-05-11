@@ -775,7 +775,7 @@ export const PUMPKIN_CREAM_SOUP = {
       ingredients: [
         { ingredientKey: 'pumpkin', count: 700, gauge: 'г.' },
         { ingredientKey: 'sweetPotato', count: 200, gauge: 'г.' },
-        { ingredientKey: 'oliveOil', count: 2, gauge: 'ст.л.' },
+        { ingredientKey: 'oliveOil', count: 1, gauge: 'ст.л.' },
       ],
     },
     {
@@ -791,7 +791,7 @@ export const PUMPKIN_CREAM_SOUP = {
         },
         { ingredientKey: 'ginger', count: 20, gauge: 'г.' },
         { ingredientKey: 'garlic', count: 2, gauge: 'зуб.' },
-        { ingredientKey: 'oliveOil', count: 2, gauge: 'ст.л.' },
+        { ingredientKey: 'oliveOil', count: 1, gauge: 'ст.л.' },
       ],
     },
     {

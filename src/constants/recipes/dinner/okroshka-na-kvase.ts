@@ -685,7 +685,7 @@ export const OKROSHKA_NA_KVASE = {
     },
     {
       ingredientKey: 'sourCream',
-      count: 20,
+      count: 200,
       gauge: 'г.',
     },
     {
@@ -758,7 +758,7 @@ export const OKROSHKA_NA_KVASE = {
         'Готовую смесь залейте охлаждённым квасом и снова перемешайте. Разлейте окрошку по тарелкам, добавьте по ложке сметаны в каждую порцию и подавайте охлаждённой к столу.',
       ingredients: [
         { ingredientKey: 'breadKvass', count: 1.5, gauge: 'л.' },
-        { ingredientKey: 'sourCream', count: 20, gauge: 'г.' },
+        { ingredientKey: 'sourCream', count: 200, gauge: 'г.' },
       ],
     },
   ],
