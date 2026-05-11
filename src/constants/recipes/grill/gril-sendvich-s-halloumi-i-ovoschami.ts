@@ -556,6 +556,12 @@ export const GRIL_SENDVICH_S_HALLOUMI_I_OVOSCHAMI = {
     {
       equipmentKey: 'kistochkaDlyaMasla',
     },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
+    },
   ],
   cookingRecipe: [
     {

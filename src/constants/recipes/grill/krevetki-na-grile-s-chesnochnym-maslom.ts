@@ -317,11 +317,6 @@ export const KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM = {
       gauge: 'ч.л',
       count: 0.5,
     },
-    {
-      ingredientKey: 'derevyannyeShpazhki',
-      gauge: 'шт.',
-      count: 8,
-    },
   ],
   equipments: [
     {
@@ -335,6 +330,9 @@ export const KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM = {
     },
     {
       equipmentKey: 'chesnokodavilka',
+    },
+    {
+      equipmentKey: 'derevyannyeShpazhki',
     },
   ],
   cookingRecipe: [
@@ -391,14 +389,9 @@ export const KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM = {
     {
       img: null,
       video: null,
-      description: 'Замаринуйте креветки в чесночном масле на 10 минут. Нанижите на шпажки (по 3-4 штуки).',
-      ingredients: [
-        {
-          ingredientKey: 'derevyannyeShpazhki',
-          gauge: 'шт.',
-          count: 8,
-        },
-      ],
+      description:
+        'Деревянные шпажки замочите в воде на 20–30 минут. Замаринуйте креветки в чесночном масле на 10 минут и нанижите на шпажки по 3-4 штуки.',
+      ingredients: [],
     },
     {
       img: null,

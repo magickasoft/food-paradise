@@ -1097,7 +1097,7 @@ export const SHASHLYK_IZ_SVININY_NA_KEFIRE = {
       video: null,
       description:
         'Подготовьте ингредиенты: хорошо промойте мясо и обсушите бумажным полотенцем. Удалите лишний жир и плёнки, чтобы шашлык получился мягким и не имел лишней жирности.',
-      ingredients: [{ ingredientKey: 'porkNeck' }],
+      ingredients: [{ ingredientKey: 'porkNeck', count: 2, gauge: 'кг' }],
     },
     {
       img: null,
@@ -1111,14 +1111,18 @@ export const SHASHLYK_IZ_SVININY_NA_KEFIRE = {
       video: null,
       description:
         'Промойте зелень — укроп, базилик и петрушку — в холодной воде, затем обсушите. Разберите зелень руками и выложите в чашу блендера вместе с черешками.',
-      ingredients: [{ ingredientKey: 'dill' }, { ingredientKey: 'basil' }, { ingredientKey: 'parsley' }],
+      ingredients: [
+        { ingredientKey: 'dill', count: 0.5, gauge: 'пуч.' },
+        { ingredientKey: 'basil', count: 1, gauge: 'пуч.' },
+        { ingredientKey: 'parsley', count: 0.5, gauge: 'пуч.' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Добавьте к зелени оливковое масло. Измельчите до состояния пасты — она придаст маринаду яркий аромат и насыщенный вкус.',
-      ingredients: [{ ingredientKey: 'oliveOil' }],
+      ingredients: [{ ingredientKey: 'oliveOil', count: 4, gauge: 'ст.л.' }],
     },
     {
       img: null,
@@ -1126,10 +1130,10 @@ export const SHASHLYK_IZ_SVININY_NA_KEFIRE = {
       description:
         'В глубокой миске соедините куски мяса, кефир, луковые кольца, зелёную пасту, соль и перец. Всё хорошо перемешайте руками, чтобы маринад равномерно покрывал мясо.',
       ingredients: [
-        { ingredientKey: 'kefir32' },
-        { ingredientKey: 'onion' },
-        { ingredientKey: 'salt' },
-        { ingredientKey: 'groundBlackPepper' },
+        { ingredientKey: 'kefir32', count: 600, gauge: 'мл' },
+        { ingredientKey: 'onion', count: 8, gauge: 'шт.' },
+        { ingredientKey: 'salt', count: 5, gauge: 'г' },
+        { ingredientKey: 'groundBlackPepper', count: 5, gauge: 'г' },
       ],
     },
     {

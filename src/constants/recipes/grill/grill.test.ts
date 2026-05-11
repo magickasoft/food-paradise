@@ -2,7 +2,10 @@ import { describe, expect, test } from 'bun:test'
 
 import { GRILL } from '../grill'
 import { LOSOS_NA_KEDROVOY_DOSKE_S_MEDOVO_GORCHICHNYM_SOUSOM } from './losos-na-kedrovoy-doske-s-medovo-gorchichnym-sousom'
+import { KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM } from './krevetki-na-grile-s-chesnochnym-maslom'
 import { SHASHLYK_IZ_BARANINY_S_ROZMARINOM } from './shashlyk-iz-baraniny-s-rozmarinom'
+import { SHASHLYK_IZ_KURINOGO_BEDRA } from './shashlyk-iz-kurinogo-bedra'
+import { SHASHLYK_IZ_KURINYH_GRUDOK } from './shashlyk-iz-kurinyh-grudok'
 
 const getIngredientKey = (ingredient: { ingredientKey?: string; name?: string }) =>
   ingredient.ingredientKey ?? ingredient.name
@@ -32,6 +35,20 @@ describe('grill recipes', () => {
 
   test('lamb skewer timing includes long marinating', () => {
     expect(SHASHLYK_IZ_BARANINY_S_ROZMARINOM.preparation).toBeGreaterThanOrEqual(240)
+  })
+
+  test('long chicken marinating happens in the fridge', () => {
+    expect(SHASHLYK_IZ_KURINYH_GRUDOK.cookingRecipe[1].description).toContain('уберите в холодильник')
+    expect(SHASHLYK_IZ_KURINOGO_BEDRA.cookingRecipe[2].description).toContain('в холодильник')
+  })
+
+  test('wooden shrimp skewers are equipment and are soaked before grilling', () => {
+    const ingredientKeys = KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM.ingredients.map(getIngredientKey)
+    const equipmentKeys = KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM.equipments.map(equipment => equipment.equipmentKey)
+
+    expect(ingredientKeys).not.toContain('derevyannyeShpazhki')
+    expect(equipmentKeys).toContain('derevyannyeShpazhki')
+    expect(KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM.cookingRecipe[2].description).toContain('замочите в воде')
   })
 
   test('main ingredient lists stay synchronized with cooking step ingredient lists', () => {

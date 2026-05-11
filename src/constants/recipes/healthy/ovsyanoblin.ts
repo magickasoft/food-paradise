@@ -483,6 +483,8 @@ export const OVSYANOBLIN = {
     },
     {
       ingredientKey: 'salt',
+      count: ' ',
+      gauge: 'щепотка',
     },
     {
       ingredientKey: 'bakingPowder',
@@ -505,6 +507,8 @@ export const OVSYANOBLIN = {
       ingredients: [
         {
           ingredientKey: 'oatmeal',
+          count: 30,
+          gauge: 'г',
         },
       ],
     },
@@ -516,15 +520,23 @@ export const OVSYANOBLIN = {
       ingredients: [
         {
           ingredientKey: 'eggs',
+          count: 1,
+          gauge: 'шт.',
         },
         {
           ingredientKey: 'milk',
+          count: 50,
+          gauge: 'мл',
         },
         {
           ingredientKey: 'salt',
+          count: ' ',
+          gauge: 'щепотка',
         },
         {
           ingredientKey: 'bakingPowder',
+          count: 5,
+          gauge: 'г',
         },
       ],
     },

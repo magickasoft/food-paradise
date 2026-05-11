@@ -946,7 +946,7 @@ export const SHASHLYK_IZ_BARANINY_S_ROZMARINOM = {
       equipmentKey: 'grill',
     },
     {
-      equipmentKey: 'derevyannyeShampury',
+      equipmentKey: 'skewers',
     },
     {
       equipmentKey: 'stupkaDlyaSpetsiy',

@@ -1235,21 +1235,21 @@ export const SHASHLYK_IZ_KURINYH_GRUDOK = {
       video: null,
       description: 'Куриную грудку нарежьте кубиками 4–5 см. Посолите, поперчите.',
       ingredients: [
-        { ingredientKey: 'chickenBreastFillet' },
-        { ingredientKey: 'salt' },
-        { ingredientKey: 'groundBlackPepper' },
+        { ingredientKey: 'chickenBreastFillet', count: 1, gauge: 'кг' },
+        { ingredientKey: 'salt', count: 10, gauge: 'г' },
+        { ingredientKey: 'groundBlackPepper', count: 2, gauge: 'г' },
       ],
     },
     {
       img: null,
       video: null,
       description:
-        'Смешайте сок лимона, мёд, измельчённый чеснок и оливковое масло. Залейте маринадом курицу, перемешайте, накройте и оставьте на 3 часа.',
+        'Смешайте сок лимона, мёд, измельчённый чеснок и оливковое масло. Залейте маринадом курицу, перемешайте, накройте и уберите в холодильник на 3 часа. Перед жаркой достаньте мясо за 20–30 минут.',
       ingredients: [
-        { ingredientKey: 'lemon' },
-        { ingredientKey: 'honey' },
-        { ingredientKey: 'garlic' },
-        { ingredientKey: 'oliveOil' },
+        { ingredientKey: 'lemon', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'honey', count: 30, gauge: 'г' },
+        { ingredientKey: 'garlic', count: 3, gauge: 'зуб.' },
+        { ingredientKey: 'oliveOil', count: 30, gauge: 'мл' },
       ],
     },
     {

@@ -861,9 +861,13 @@ export const GRECHESKIJ_SALAT = {
     },
     {
       ingredientKey: 'salt',
+      count: ' ',
+      gauge: 'по вкусу',
     },
     {
       ingredientKey: 'groundBlackPepper',
+      count: ' ',
+      gauge: 'по вкусу',
     },
   ],
   equipments: [{ equipmentKey: 'bowl' }, { equipmentKey: 'knife' }, { equipmentKey: 'cutBoard' }],
@@ -874,10 +878,10 @@ export const GRECHESKIJ_SALAT = {
       description:
         'Огурцы и помидоры нарежьте крупными дольками, чтобы сохранить их сочность. Красный лук нарежьте тонкими кольцами. Переложите всё в глубокую миску.',
       ingredients: [
-        { ingredientKey: 'tomato' },
-        { ingredientKey: 'cucumber' },
-        { ingredientKey: 'redOnion' },
-        { ingredientKey: 'bellPepper' },
+        { ingredientKey: 'tomato', count: 2, gauge: 'шт.' },
+        { ingredientKey: 'cucumber', count: 2, gauge: 'шт.' },
+        { ingredientKey: 'redOnion', count: 0.5, gauge: 'шт.' },
+        { ingredientKey: 'bellPepper', count: 1, gauge: 'шт.' },
       ],
     },
     {
@@ -886,12 +890,12 @@ export const GRECHESKIJ_SALAT = {
       description:
         'Чеснок измельчите с помощью пресса. Смешайте с лимонным соком, орегано, солью и перцем. Постепенно влейте оливковое масло, взбивая вилкой до получения однородной заправки.',
       ingredients: [
-        { ingredientKey: 'garlic' },
-        { ingredientKey: 'lemonJuice' },
-        { ingredientKey: 'oreganoDry' },
-        { ingredientKey: 'salt' },
-        { ingredientKey: 'groundBlackPepper' },
-        { ingredientKey: 'oliveOil' },
+        { ingredientKey: 'garlic', count: 1, gauge: 'зуб.' },
+        { ingredientKey: 'lemonJuice', count: 15, gauge: 'мл' },
+        { ingredientKey: 'oreganoDry', count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'salt', count: ' ', gauge: 'по вкусу' },
+        { ingredientKey: 'groundBlackPepper', count: ' ', gauge: 'по вкусу' },
+        { ingredientKey: 'oliveOil', count: 20, gauge: 'мл' },
       ],
     },
     {
@@ -905,14 +909,18 @@ export const GRECHESKIJ_SALAT = {
       video: null,
       description:
         'Добавьте в салат маслины, предварительно удалив косточки. Перемешивать не нужно — просто распределите их по поверхности.',
-      ingredients: [{ ingredientKey: 'olives' }],
+      ingredients: [{ ingredientKey: 'olives', count: 100, gauge: 'г' }],
     },
     {
       img: null,
       video: null,
       description:
         'Выложите сверху крупные кусочки феты. Посыпьте сушёным орегано и слегка сбрызните ещё немного оливковым маслом для аромата.',
-      ingredients: [{ ingredientKey: 'fetaCheese' }, { ingredientKey: 'oreganoDry' }, { ingredientKey: 'oliveOil' }],
+      ingredients: [
+        { ingredientKey: 'fetaCheese', count: 100, gauge: 'г' },
+        { ingredientKey: 'oreganoDry', count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'oliveOil', count: 10, gauge: 'мл' },
+      ],
     },
   ],
   historyDescription:

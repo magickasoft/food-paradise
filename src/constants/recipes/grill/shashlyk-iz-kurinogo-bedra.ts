@@ -1241,9 +1241,9 @@ export const SHASHLYK_IZ_KURINOGO_BEDRA = {
       description:
         'Филе куриного бедра тщательно промойте, обсушите бумажными полотенцами. Нарежьте мясо на крупные куски размером около 5–7 см. Посыпьте солью и молотым перцем, аккуратно перемешайте.',
       ingredients: [
-        { ingredientKey: 'chickenThighFillet' },
-        { ingredientKey: 'salt' },
-        { ingredientKey: 'groundBlackPepper' },
+        { ingredientKey: 'chickenThighFillet', count: 1, gauge: 'кг' },
+        { ingredientKey: 'salt', count: 12, gauge: 'г' },
+        { ingredientKey: 'groundBlackPepper', count: 2, gauge: 'г' },
       ],
     },
     {
@@ -1251,14 +1251,17 @@ export const SHASHLYK_IZ_KURINOGO_BEDRA = {
       video: null,
       description:
         'Очистите лук и нарежьте его полукольцами толщиной около 0.5–1 см. Добавьте его к мясу вместе с растительным маслом. Всё тщательно перемешайте ложкой или руками.',
-      ingredients: [{ ingredientKey: 'onion' }, { ingredientKey: 'vegetableOil' }],
+      ingredients: [
+        { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'vegetableOil', count: 2, gauge: 'ст.л.' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
-        'Влейте в мясо с луком газированную минеральную воду. Перемешайте всё ещё раз, накройте миску крышкой и оставьте мариноваться минимум на 2 часа.',
-      ingredients: [{ ingredientKey: 'carbonatedMineralWater' }],
+        'Влейте в мясо с луком газированную минеральную воду. Перемешайте всё ещё раз, накройте миску крышкой и уберите мариноваться в холодильник минимум на 2 часа. Перед жаркой достаньте мясо за 20–30 минут.',
+      ingredients: [{ ingredientKey: 'carbonatedMineralWater', count: 100, gauge: 'мл' }],
     },
     {
       img: null,
@@ -1272,7 +1275,10 @@ export const SHASHLYK_IZ_KURINOGO_BEDRA = {
       video: null,
       description:
         'Готовый шашлык подавайте с рубленой зеленью и свежим лавашом. Блюдо особенно вкусно в горячем виде прямо с огня.',
-      ingredients: [{ ingredientKey: 'greens' }, { ingredientKey: 'lavash' }],
+      ingredients: [
+        { ingredientKey: 'greens', count: 16, gauge: 'г' },
+        { ingredientKey: 'lavash', count: 2, gauge: 'шт.' },
+      ],
     },
   ],
   historyDescription:

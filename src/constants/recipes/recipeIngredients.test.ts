@@ -63,4 +63,27 @@ describe('resolveRecipeIngredient', () => {
 
     expect(recipesWithoutStepIngredients).toEqual([])
   })
+
+  test('recipe ingredient links include amount metadata', () => {
+    for (const recipe of getAllRecipes()) {
+      const allIngredients = [
+        ...recipe.ingredients.map((ingredient, index) => ({ ingredient, location: `ingredients[${index}]` })),
+        ...recipe.cookingRecipe.flatMap((step, stepIndex) =>
+          step.ingredients.map((ingredient, ingredientIndex) => ({
+            ingredient,
+            location: `cookingRecipe[${stepIndex}].ingredients[${ingredientIndex}]`,
+          })),
+        ),
+      ]
+
+      const bareIngredients = allIngredients
+        .filter(
+          ({ ingredient }) =>
+            getIngredientKey(ingredient) && ingredient.count === undefined && ingredient.gauge === undefined,
+        )
+        .map(({ ingredient, location }) => `${location}: ${getIngredientKey(ingredient)}`)
+
+      expect(bareIngredients, `${recipe.key}: ingredient links must include count and/or gauge`).toEqual([])
+    }
+  })
 })

@@ -749,7 +749,10 @@ export const OKROSHKA_NA_KVASE = {
       video: null,
       description:
         'В глубокой миске соедините нарезанные огурцы, редис, зелень и колбасу. Остывшие картофель и яйца порежьте мелкими кубиками и добавьте к остальным ингредиентам. Приправьте солью и перцем по вкусу, тщательно перемешайте.',
-      ingredients: [{ ingredientKey: 'salt' }, { ingredientKey: 'groundBlackPepper' }],
+      ingredients: [
+        { ingredientKey: 'salt', count: ' ', gauge: 'по вкусу' },
+        { ingredientKey: 'groundBlackPepper', count: ' ', gauge: 'по вкусу' },
+      ],
     },
     {
       img: null,

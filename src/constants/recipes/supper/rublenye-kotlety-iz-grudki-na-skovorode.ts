@@ -620,12 +620,18 @@ export const RUBLENYE_KOTLETY_IZ_GRUDKI_NA_SKOVORODE = {
     },
     {
       ingredientKey: 'meltedButter',
+      count: 30,
+      gauge: 'г',
     },
     {
       ingredientKey: 'salt',
+      count: ' ',
+      gauge: 'по вкусу',
     },
     {
       ingredientKey: 'groundBlackPepper',
+      count: ' ',
+      gauge: 'по вкусу',
     },
   ],
   equipments: [
@@ -654,8 +660,8 @@ export const RUBLENYE_KOTLETY_IZ_GRUDKI_NA_SKOVORODE = {
         'Для домашнего фарша нарежьте куриные грудки сначала пластами, затем мелкими кубиками. Используйте тяжелый нож и большую разделочную доску. Порубите мясо в фарш, приправьте солью и перцем — это основа для вкусных котлет.',
       ingredients: [
         { ingredientKey: 'chickenBreast', count: 0.6 },
-        { ingredientKey: 'salt' },
-        { ingredientKey: 'groundBlackPepper' },
+        { ingredientKey: 'salt', count: ' ', gauge: 'по вкусу' },
+        { ingredientKey: 'groundBlackPepper', count: ' ', gauge: 'по вкусу' },
       ],
     },
     {
@@ -666,7 +672,7 @@ export const RUBLENYE_KOTLETY_IZ_GRUDKI_NA_SKOVORODE = {
       ingredients: [
         { ingredientKey: 'onion', count: 1 },
         { ingredientKey: 'garlic', count: 2 },
-        { ingredientKey: 'meltedButter' },
+        { ingredientKey: 'meltedButter', count: 30, gauge: 'г' },
         { ingredientKey: 'whiteBread', count: 150 },
         { ingredientKey: 'cream20', count: 100 },
       ],
@@ -686,7 +692,7 @@ export const RUBLENYE_KOTLETY_IZ_GRUDKI_NA_SKOVORODE = {
       ingredients: [
         { ingredientKey: 'vegetableOil', count: 2, gauge: 'ст.л.' },
         { ingredientKey: 'flour', count: 60 },
-        { ingredientKey: 'salt' },
+        { ingredientKey: 'salt', count: ' ', gauge: 'по вкусу' },
       ],
     },
     {

@@ -1595,6 +1595,15 @@ export const OVOSCHI_GRIL_S_BALZAMISCESKOY_GLAZURYU = {
     {
       equipmentKey: 'silikonovayaLopatka',
     },
+    {
+      equipmentKey: 'soteynik',
+    },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
+    },
   ],
   cookingRecipe: [
     {
