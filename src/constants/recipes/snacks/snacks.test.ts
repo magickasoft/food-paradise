@@ -8,6 +8,19 @@ import { TARTALETKI_S_IKROY } from './tartaletki-s-ikroy'
 import { TARTALETKI_S_KURITSEY_I_GRIBAMI } from './tartaletki-s-kuritsey-i-gribami'
 import { resolveRecipeIngredient } from '../recipeIngredients'
 
+const NEW_SNACK_KEYS = [
+  'brusketta-s-tomatami-i-bazilikom',
+  'ruletiki-iz-lavasha-s-lososem',
+  'farshirovannye-yajtsa-s-gorchicej',
+  'kanape-iz-ogurtsa-s-lososem',
+  'tartaletki-s-krabovymi-palochkami',
+  'shampinony-s-syrom-v-duhovke',
+  'ruletiki-iz-baklazhanov-s-fetoy',
+  'syrnye-shariki-s-kunzhutom',
+  'kanape-s-seldyu-i-svekloy',
+  'kabachkovye-oladi-s-syrom',
+] as const
+
 describe('snack recipes', () => {
   test('keeps microwave chips text, time and ingredients synchronized', () => {
     const stepDescriptions = KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE.cookingRecipe
@@ -49,5 +62,19 @@ describe('snack recipes', () => {
     expect(TARTALETKI_S_KURITSEY_I_GRIBAMI.categories.map(({ name }) => name)).toContain('snacks')
     expect(snackKeys).toContain(TARTALETKI_S_IKROY.key)
     expect(snackKeys).toContain(TARTALETKI_S_KURITSEY_I_GRIBAMI.key)
+  })
+
+  test('new snack recipes are visible with placeholder images', () => {
+    const snacksByKey = new Map(SNACKS.map(recipe => [recipe.key, recipe]))
+
+    for (const key of NEW_SNACK_KEYS) {
+      const recipe = snacksByKey.get(key)
+
+      expect(recipe).toBeDefined()
+      expect(recipe?.categories.map(({ name }) => name)).toContain('snacks')
+      expect(recipe?.img).toBeNull()
+      expect(recipe?.ingredients.length).toBeGreaterThan(0)
+      expect(recipe?.equipments.length).toBeGreaterThan(0)
+    }
   })
 })
