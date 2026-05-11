@@ -1,6 +1,6 @@
 export const KINOA_BOUL_S_LOSOSEM = {
   metaSeo: {
-    title: 'Киноа-боул с лососем — полезный обед за 20 минут',
+    title: 'Киноа-боул с лососем — полезный обед',
     description: 'Сбалансированный боул с киноа, запеченным лососем, авокадо и овощами. Без глютена, богат омега-3.',
     keywords: [
       'киноа боул',
@@ -24,12 +24,12 @@ export const KINOA_BOUL_S_LOSOSEM = {
       'протеиновый обед',
       'средиземноморская диета',
     ],
-    'og:title': 'Киноа-боул с лососем — полезный обед за 20 минут',
+    'og:title': 'Киноа-боул с лососем — полезный обед',
     'og:description':
       'Сбалансированный боул с киноа, запеченным лососем, авокадо и овощами. Без глютена, богат омега-3.',
     'og:url': 'https://food-paradise.ru/recipe/kinoa-boul-s-lososem',
     'og:image': '/optimize/recipes/healthy/kinoa-boul-s-lososem.webp',
-    twitterTitle: 'Киноа-боул с лососем — полезный обед за 20 минут',
+    twitterTitle: 'Киноа-боул с лососем — полезный обед',
     twitterDescription: 'Сбалансированный боул с киноа, запеченным лососем и овощами. Без глютена, богат омега-3.',
     twitterImage: '/optimize/recipes/healthy/kinoa-boul-s-lososem.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/kinoa-boul-s-lososem',
@@ -928,7 +928,16 @@ export const KINOA_BOUL_S_LOSOSEM = {
       equipmentKey: 'oven',
     },
     {
-      equipmentKey: 'skovorodaGril',
+      equipmentKey: 'pot',
+    },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
+    },
+    {
+      equipmentKey: 'bakingTray',
     },
   ],
   cookingRecipe: [
@@ -947,6 +956,16 @@ export const KINOA_BOUL_S_LOSOSEM = {
           ingredientKey: 'losos',
           gauge: 'г',
           count: 200,
+        },
+        {
+          ingredientKey: 'olivkovoeMaslo',
+          gauge: 'ст.л',
+          count: 1,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
+          count: 1,
         },
       ],
     },
@@ -985,7 +1004,7 @@ export const KINOA_BOUL_S_LOSOSEM = {
         {
           ingredientKey: 'olivkovoeMaslo',
           gauge: 'ст.л',
-          count: 2,
+          count: 1,
         },
         {
           ingredientKey: 'lemonJuice',

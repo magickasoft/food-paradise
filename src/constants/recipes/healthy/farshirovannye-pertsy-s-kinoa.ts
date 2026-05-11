@@ -832,6 +832,18 @@ export const FARSHIROVANNYE_PERTSY_S_KINOA = {
     {
       equipmentKey: 'pan',
     },
+    {
+      equipmentKey: 'pot',
+    },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
+    },
+    {
+      equipmentKey: 'bakingTray',
+    },
   ],
   cookingRecipe: [
     {
@@ -859,6 +871,11 @@ export const FARSHIROVANNYE_PERTSY_S_KINOA = {
           gauge: 'зубчик',
           count: 2,
         },
+        {
+          ingredientKey: 'olivkovoeMaslo',
+          gauge: 'ст.л',
+          count: 2,
+        },
       ],
     },
     {
@@ -875,6 +892,11 @@ export const FARSHIROVANNYE_PERTSY_S_KINOA = {
           ingredientKey: 'zira',
           gauge: 'ч.л',
           count: 0.5,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
+          count: 1,
         },
       ],
     },

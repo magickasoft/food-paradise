@@ -494,6 +494,7 @@ export const OVSYANOBLIN = {
     { equipmentKey: 'pan' },
     { equipmentKey: 'spatula' },
     { equipmentKey: 'bowl' },
+    { equipmentKey: 'whisk' },
   ],
   cookingRecipe: [
     {

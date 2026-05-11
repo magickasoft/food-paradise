@@ -734,6 +734,11 @@ export const TYKVENNYJ_SUP_S_IMBIREM = {
       count: 200,
     },
     {
+      ingredientKey: 'water',
+      gauge: 'мл',
+      count: 500,
+    },
+    {
       ingredientKey: 'ginger',
       gauge: 'см',
       count: 3,
@@ -762,6 +767,11 @@ export const TYKVENNYJ_SUP_S_IMBIREM = {
       ingredientKey: 'solIPerets',
       gauge: 'по вкусу',
       count: 1,
+    },
+    {
+      ingredientKey: 'pumpkinSeeds',
+      gauge: 'г',
+      count: 20,
     },
   ],
   equipments: [
@@ -798,6 +808,11 @@ export const TYKVENNYJ_SUP_S_IMBIREM = {
           gauge: 'см',
           count: 3,
         },
+        {
+          ingredientKey: 'olivkovoeMaslo',
+          gauge: 'ст.л',
+          count: 1,
+        },
       ],
     },
     {
@@ -809,6 +824,11 @@ export const TYKVENNYJ_SUP_S_IMBIREM = {
           ingredientKey: 'kurkuma',
           gauge: 'ч.л',
           count: 0.5,
+        },
+        {
+          ingredientKey: 'water',
+          gauge: 'мл',
+          count: 500,
         },
       ],
     },
@@ -822,6 +842,16 @@ export const TYKVENNYJ_SUP_S_IMBIREM = {
           ingredientKey: 'kokosovoeMoloko',
           gauge: 'мл',
           count: 200,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
+          count: 1,
+        },
+        {
+          ingredientKey: 'pumpkinSeeds',
+          gauge: 'г',
+          count: 20,
         },
       ],
     },
