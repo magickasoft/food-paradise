@@ -227,7 +227,7 @@ export const SCRAMBLED_EGGS = {
     { equipmentKey: 'pan' },
     { equipmentKey: 'spatula' },
     { equipmentKey: 'bowl' },
-    { equipmentKey: 'whisk' },
+    { equipmentKey: 'fork' },
     { equipmentKey: 'plate' },
   ],
   cookingRecipe: [

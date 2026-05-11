@@ -470,7 +470,7 @@ export const SCRAMBLED_EGGS_SHAKSHUKA = {
     { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
     { ingredientKey: 'garlic', count: 3, gauge: 'зуб.' },
     { ingredientKey: 'tomatoPaste', count: 1, gauge: 'ст.л' },
-    { ingredientKey: 'vegetableOil', count: 2, guage: 'ст.л' },
+    { ingredientKey: 'vegetableOil', count: 2, gauge: 'ст.л.' },
     { ingredientKey: 'smokedPaprika', count: 1, gauge: 'ч.л.' },
     { ingredientKey: 'cumin', count: 0.5, gauge: 'ч.л.' },
     { ingredientKey: 'chiliPepper', count: 0.5, gauge: 'шт.', note: 'по желанию' },
@@ -506,7 +506,7 @@ export const SCRAMBLED_EGGS_SHAKSHUKA = {
       description:
         'Разогрейте масло в глубокой сковороде. Обжарьте лук 3 минуты до прозрачности, добавьте перец и готовьте ещё 5 минут. Затем положите чеснок, томатную пасту и специи — прогрейте 1 минуту до появления аромата.',
       ingredients: [
-        { ingredientKey: 'vegetableOil', count: 2, guage: 'ст.л.' },
+        { ingredientKey: 'vegetableOil', count: 2, gauge: 'ст.л.' },
         { ingredientKey: 'tomatoPaste', count: 1, gauge: 'ст.л' },
         { ingredientKey: 'smokedPaprika', count: 1, gauge: 'ч.л.' },
         { ingredientKey: 'cumin', count: 0.5, gauge: 'ч.л.' },

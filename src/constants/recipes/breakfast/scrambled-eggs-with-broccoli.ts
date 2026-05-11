@@ -267,7 +267,7 @@ export const SCRAMBLED_EGGS_WITH_BROCCOLI = {
       ingredients: [
         {
           ingredientKey: 'eggs',
-          count: 2,
+          count: 3,
           gauge: 'шт.',
         },
         {

@@ -699,7 +699,7 @@ export const SCRAMBLED_EGGS_WITH_SAUSAGES_AND_BEANS = {
     {
       ingredientKey: 'worcestershireSauce',
       count: 1,
-      gauge: 'ст.л.',
+      gauge: 'ч.л.',
     },
     {
       ingredientKey: 'smokedPaprika',
@@ -732,7 +732,7 @@ export const SCRAMBLED_EGGS_WITH_SAUSAGES_AND_BEANS = {
         'Нарежьте сосиски на кусочки по 3 см. Разогрейте сковороду с 1 ст.л. растительного масла на среднем огне. Обжаривайте сосиски 5-7 минут до румяной корочки, периодически переворачивая щипцами. В конце добавьте 1 ч.л. вустерского соуса и перемешайте.',
       ingredients: [
         { ingredientKey: 'milkSausages', count: 4, gauge: 'шт.' },
-        { ingredientKey: 'vegetableOil', count: 2, gauge: 'ст.л.' },
+        { ingredientKey: 'vegetableOil', count: 1, gauge: 'ст.л.' },
         { ingredientKey: 'worcestershireSauce', count: 1, gauge: 'ч.л.' },
       ],
     },
@@ -740,22 +740,22 @@ export const SCRAMBLED_EGGS_WITH_SAUSAGES_AND_BEANS = {
       img: '/static/steps/english-breakfast2.webp',
       video: null,
       description:
-        'В отдельной кастрюльке разогрейте фасоль в томатном соусе на слабом огне. Добавьте копченую паприку и 1 ч.л. сливочного масла для мягкости вкуса. Томите под крышкой 5 минут, периодически помешивая.',
+        'В отдельной кастрюльке разогрейте фасоль в томатном соусе на слабом огне. Добавьте копченую паприку и 5 г сливочного масла для мягкости вкуса. Томите под крышкой 5 минут, периодически помешивая.',
       ingredients: [
         { ingredientKey: 'cannedBeans', count: 200, gauge: 'г' },
         { ingredientKey: 'smokedPaprika', count: 0.5, gauge: 'ч.л.' },
-        { ingredientKey: 'butter', count: 10, gauge: 'г' },
+        { ingredientKey: 'butter', count: 5, gauge: 'г' },
       ],
     },
     {
       img: '/static/steps/english-breakfast3.webp',
       video: null,
       description:
-        'В чистой сковороде растопите оставшееся сливочное масло с 1 ст.л. растительного. Взбейте яйца вилкой с щепоткой соли и перца. Вылейте на сковороду и готовьте на среднем огне 2-3 минуты, аккуратно помешивая лопаткой для получения нежной текстуры.',
+        'В чистой сковороде растопите оставшиеся 5 г сливочного масла с 1 ст.л. растительного. Взбейте яйца вилкой с щепоткой соли и перца. Вылейте на сковороду и готовьте на среднем огне 2-3 минуты, аккуратно помешивая лопаткой для получения нежной текстуры.',
       ingredients: [
         { ingredientKey: 'eggs', count: 4, gauge: 'шт.' },
-        { ingredientKey: 'butter', count: 10, gauge: 'г' },
-        { ingredientKey: 'vegetableOil', count: 2, gauge: 'ст.л.' },
+        { ingredientKey: 'butter', count: 5, gauge: 'г' },
+        { ingredientKey: 'vegetableOil', count: 1, gauge: 'ст.л.' },
         { ingredientKey: 'salt', count: ' ', gauge: 'по вкусу' },
         { ingredientKey: 'groundBlackPepper', count: ' ', gauge: 'по вкусу' },
       ],
