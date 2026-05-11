@@ -5,11 +5,11 @@ export const HRENOVUKHA = {
       'Настоящая хреновуха — крепкая, жгучая и ароматная настойка на водке. Простой рецепт для любителей русских традиций.',
     keywords: ['хреновуха', 'настойка на хрене', 'домашняя настойка', 'водка с хреном', 'русская настойка'],
     'og:title': 'Хреновуха — классическая настойка на хрене',
-    'og:description': 'Домашняя хреновуха на водке — бодрящий напиток с ярким вкусом и согревающим эффектом.',
+    'og:description': 'Домашняя хреновуха на водке — крепкая настойка с ярким вкусом хрена и мягкой медовой нотой.',
     'og:url': 'https://food-paradise.ru/recipe/hrenovukha',
     'og:image': '/optimize/recipes/homemadeAlcohol/hrenovukha-vodka.webp',
     twitterTitle: 'Хреновуха — домашняя настойка на водке',
-    twitterDescription: 'Русская классика — простая и мощная хреновуха, как делали наши предки.',
+    twitterDescription: 'Русская классика домашнего бара — хреновуха на водке с мёдом и выразительной остротой.',
     twitterImage: '/optimize/recipes/homemadeAlcohol/hrenovukha-vodka.webp',
     twitterUrl: 'https://food-paradise.ru/recipe/hrenovukha',
     'twitter:card': 'summary_large_image',
@@ -23,11 +23,11 @@ export const HRENOVUKHA = {
   img: '/optimize/recipes/homemadeAlcohol/hrenovukha-vodka.webp',
   title: 'Настойка на хрене (хреновуха)',
   description:
-    'Хреновуха — легендарная русская настойка с характером. Острая, ароматная и бодрящая, она согреет в холод и придаст сил.',
+    'Хреновуха — русская настойка с характером. Острая, ароматная и плотная по вкусу, она хорошо подходит к соленьям, мясным закускам и холодцу.',
   warning: 'Чрезмерное употребление алкоголя вредит вашему здоровью!',
   calories: 210,
   preparation: 10,
-  time: 5040,
+  time: 8640,
   level: 1,
   used: null,
   rating: 4.7,
@@ -44,7 +44,7 @@ export const HRENOVUKHA = {
     { equipmentKey: 'bottle' },
   ],
   historyDescription:
-    'Хреновуха известна на Руси с XVI века. Её готовили к зимним праздникам и охотничьим застольям — считалось, что она укрепляет дух и тело.',
+    'Хреновуха известна на Руси с XVI века. Её готовили к зимним праздникам и застольям: корень хрена давал напитку резкий аромат, а мёд смягчал вкус.',
   cookingRecipe: [
     {
       img: null,

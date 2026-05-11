@@ -2,7 +2,7 @@ export const CRANBERRY_VODKA = {
   metaSeo: {
     title: 'Настойка на клюкве на водке — рецепт домашней клюквовки',
     description:
-      'Домашняя клюквовая настойка на водке — насыщенная, слегка кислая и ароматная. Идеальный зимний напиток, готовится просто и быстро.',
+      'Домашняя клюквовая настойка на водке — насыщенная, слегка кислая и ароматная. Идеальный зимний напиток, который готовится просто и требует терпения.',
     keywords: [
       'клюквовка',
       'настойка на клюкве',
@@ -48,7 +48,12 @@ export const CRANBERRY_VODKA = {
     { ingredientKey: 'sugar', count: 200, gauge: 'г' },
     { ingredientKey: 'vodka', count: 700, gauge: 'мл' },
   ],
-  equipments: [{ equipmentKey: 'jar' }, { equipmentKey: 'sieve' }, { equipmentKey: 'bottle' }],
+  equipments: [
+    { equipmentKey: 'jar' },
+    { equipmentKey: 'spoon' },
+    { equipmentKey: 'sieve' },
+    { equipmentKey: 'bottle' },
+  ],
 
   historyDescription:
     'Клюквовка — старинная русская настойка, которую готовили ещё в XIX веке. Клюква придаёт напитку насыщенный рубиновый цвет и приятную кислинку, а водка смягчает вкус и раскрывает аромат.',
