@@ -209,12 +209,10 @@ export const OGURECHNYJ_DETOKS_NAPITOK = {
   ],
   equipments: [
     {
-      name: 'Блендер',
-      img: null,
+      equipmentKey: 'blender',
     },
     {
-      name: 'Сито',
-      img: null,
+      equipmentKey: 'sieve',
     },
   ],
   cookingRecipe: [

@@ -208,12 +208,10 @@ export const MYATNO_LIMONNIJ_DETOKS_NAPITOK = {
   ],
   equipments: [
     {
-      name: 'Кувшин',
-      img: null,
+      equipmentKey: 'kuvshin',
     },
     {
-      name: 'Деревянная ложка',
-      img: null,
+      equipmentKey: 'woodenSpoon',
     },
   ],
   cookingRecipe: [

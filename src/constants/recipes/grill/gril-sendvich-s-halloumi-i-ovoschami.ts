@@ -545,20 +545,16 @@ export const GRIL_SENDVICH_S_HALLOUMI_I_OVOSCHAMI = {
   ],
   equipments: [
     {
-      name: 'Пресс для сэндвичей (опционально)',
-      img: null,
+      equipmentKey: 'pressDlyaSendvichey',
     },
     {
-      name: 'Решетка гриль',
-      img: null,
+      equipmentKey: 'reshetkaGril',
     },
     {
-      name: 'Кухонные щипцы',
-      img: null,
+      equipmentKey: 'kuhonnyeSchiptsy',
     },
     {
-      name: 'Кисточка для масла',
-      img: null,
+      equipmentKey: 'kistochkaDlyaMasla',
     },
   ],
   cookingRecipe: [

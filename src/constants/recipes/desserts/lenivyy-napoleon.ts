@@ -319,22 +319,22 @@ export const LENIVYY_NAPOLEON = {
   ],
   equipments: [
     {
-      name: 'Противень',
+      equipmentKey: 'bakingTray',
     },
     {
-      name: 'Пергаментная бумага',
+      equipmentKey: 'pergamentnayaBumaga',
     },
     {
-      name: 'Кастрюля для крема',
+      equipmentKey: 'kastryulyaDlyaKrema',
     },
     {
-      name: 'Венчик',
+      equipmentKey: 'whisk',
     },
     {
-      name: 'Кондитерская лопатка',
+      equipmentKey: 'konditerskayaLopatka',
     },
     {
-      name: 'Кухонные весы',
+      equipmentKey: 'kuhonnyeVesy',
     },
   ],
   cookingRecipe: [

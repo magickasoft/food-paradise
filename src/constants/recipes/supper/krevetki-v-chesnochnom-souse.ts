@@ -337,8 +337,7 @@ export const KREVETKI_V_CHESNOCHNOM_SOUSE = {
   ],
   equipments: [
     {
-      name: 'Сковорода',
-      img: null,
+      equipmentKey: 'pan',
     },
   ],
   cookingRecipe: [

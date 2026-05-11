@@ -797,12 +797,10 @@ export const TEPLYJ_SALAT_S_GOVYADINOJ = {
   ],
   equipments: [
     {
-      name: 'Сковорода-гриль',
-      img: null,
+      equipmentKey: 'skovorodaGril',
     },
     {
-      name: 'Кухонные щипцы',
-      img: null,
+      equipmentKey: 'kuhonnyeSchiptsy',
     },
   ],
   cookingRecipe: [

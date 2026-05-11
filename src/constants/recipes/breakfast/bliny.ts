@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const BLINY = {
   metaSeo: {
     title: 'Идеальные блины на молоке — пошаговый рецепт с фото | Густые и воздушные',
@@ -843,7 +841,14 @@ export const BLINY = {
       gauge: 'ст.л.',
     },
   ],
-  equipments: [EQUIPMENTS.whisk, EQUIPMENTS.bowl, EQUIPMENTS.sieve, EQUIPMENTS.pan, EQUIPMENTS.ladle, EQUIPMENTS.brush],
+  equipments: [
+    { equipmentKey: 'whisk' },
+    { equipmentKey: 'bowl' },
+    { equipmentKey: 'sieve' },
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'ladle' },
+    { equipmentKey: 'brush' },
+  ],
   cookingRecipe: [
     {
       img: null,

@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const KURINYY_BULON_S_LAPSHOY = {
   metaSeo: {
     title: 'Куриный бульон с лапшой — легкий обед при простуде',
@@ -856,10 +854,10 @@ export const KURINYY_BULON_S_LAPSHOY = {
     { ingredientKey: 'water', count: 2, gauge: 'л.' },
   ],
   equipments: [
-    { ...EQUIPMENTS.pot, count: 1 },
-    { ...EQUIPMENTS.knife, count: 1 },
-    { ...EQUIPMENTS.cutBoard, count: 1 },
-    { ...EQUIPMENTS.skimmer, count: 1 },
+    { ...{ equipmentKey: 'pot' }, count: 1 },
+    { ...{ equipmentKey: 'knife' }, count: 1 },
+    { ...{ equipmentKey: 'cutBoard' }, count: 1 },
+    { ...{ equipmentKey: 'skimmer' }, count: 1 },
   ],
   cookingRecipe: [
     {

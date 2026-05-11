@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const SCRAMBLED_EGGS = {
   metaSeo: {
     title: 'Яичница-болтунья',
@@ -225,7 +223,13 @@ export const SCRAMBLED_EGGS = {
       gauge: 'щепотка',
     },
   ],
-  equipments: [EQUIPMENTS.pan, EQUIPMENTS.spatula, EQUIPMENTS.bowl, EQUIPMENTS.whisk, EQUIPMENTS.plate],
+  equipments: [
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'spatula' },
+    { equipmentKey: 'bowl' },
+    { equipmentKey: 'whisk' },
+    { equipmentKey: 'plate' },
+  ],
   cookingRecipe: [
     {
       img: null,

@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const OMLET_S_MOLOKOM = {
   metaSeo: {
     title: 'Идеальный омлет с молоком — простой рецепт вкусного завтрака',
@@ -299,7 +297,13 @@ export const OMLET_S_MOLOKOM = {
       gauge: 'щепотка',
     },
   ],
-  equipments: [EQUIPMENTS.pan, EQUIPMENTS.bowl, EQUIPMENTS.plate, EQUIPMENTS.fork, EQUIPMENTS.spatula],
+  equipments: [
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'bowl' },
+    { equipmentKey: 'plate' },
+    { equipmentKey: 'fork' },
+    { equipmentKey: 'spatula' },
+  ],
   cookingRecipe: [
     {
       img: null,

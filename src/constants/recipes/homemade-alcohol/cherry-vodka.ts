@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const CHERRY_VODKA = {
   metaSeo: {
     title: 'Вишнёвка — настойка на вишне на водке',
@@ -40,7 +38,7 @@ export const CHERRY_VODKA = {
     { ingredientKey: 'sugar', count: 250, gauge: 'г' },
     { ingredientKey: 'vodka', count: 700, gauge: 'мл' },
   ],
-  equipments: [EQUIPMENTS.jar, EQUIPMENTS.sieve, EQUIPMENTS.bottle],
+  equipments: [{ equipmentKey: 'jar' }, { equipmentKey: 'sieve' }, { equipmentKey: 'bottle' }],
   historyDescription:
     'Вишнёвку делали ещё в купеческих домах — считалось, что вишня символизирует достаток и тепло. Её вкус — баланс сладости и терпкости, который невозможно спутать ни с чем.',
   cookingRecipe: [

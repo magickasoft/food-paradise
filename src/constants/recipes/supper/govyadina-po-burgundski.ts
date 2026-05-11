@@ -530,12 +530,10 @@ export const GOVYADINA_PO_BURGUNDSKI = {
   ],
   equipments: [
     {
-      name: 'Чугунный казан',
-      img: null,
+      equipmentKey: 'chugunnyyKazan',
     },
     {
-      name: 'Деревянная ложка',
-      img: null,
+      equipmentKey: 'woodenSpoon',
     },
   ],
   cookingRecipe: [

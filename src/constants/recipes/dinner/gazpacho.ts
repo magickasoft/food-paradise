@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const GAZPACHO = {
   metaSeo: {
     title: 'Гаспачо андалуз — холодный испанский суп | Классический рецепт с фото',
@@ -729,13 +727,13 @@ export const GAZPACHO = {
     { ingredientKey: 'croutons', count: 30, gauge: 'г.' },
   ],
   equipments: [
-    EQUIPMENTS.mortar,
-    EQUIPMENTS.knife,
-    EQUIPMENTS.cutBoard,
-    EQUIPMENTS.sieve,
-    EQUIPMENTS.bowl,
-    EQUIPMENTS.spoon,
-    EQUIPMENTS.fridge,
+    { equipmentKey: 'mortar' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'sieve' },
+    { equipmentKey: 'bowl' },
+    { equipmentKey: 'spoon' },
+    { equipmentKey: 'fridge' },
   ],
   cookingRecipe: [
     {

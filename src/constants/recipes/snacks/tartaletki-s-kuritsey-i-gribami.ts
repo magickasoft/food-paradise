@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const TARTALETKI_S_KURITSEY_I_GRIBAMI = {
   metaSeo: {
     title: 'Тарталетки с курицей и грибами',
@@ -115,12 +113,12 @@ export const TARTALETKI_S_KURITSEY_I_GRIBAMI = {
   ],
 
   equipments: [
-    EQUIPMENTS.pan,
-    EQUIPMENTS.knife,
-    EQUIPMENTS.cutBoard,
-    EQUIPMENTS.bowl,
-    EQUIPMENTS.spatula,
-    EQUIPMENTS.plate,
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'bowl' },
+    { equipmentKey: 'spatula' },
+    { equipmentKey: 'plate' },
   ],
 
   cookingRecipe: [

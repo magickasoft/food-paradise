@@ -366,28 +366,28 @@ export const MORKOVNYY_TORT_S_GRETSKIMI_OREKHAMI = {
   ],
   equipments: [
     {
-      name: 'Две круглые формы (22 см)',
+      equipmentKey: 'dveKruglyeFormy',
     },
     {
-      name: 'Миксер',
+      equipmentKey: 'mikser',
     },
     {
-      name: 'Терка для моркови',
+      equipmentKey: 'terkaDlyaMorkovi',
     },
     {
-      name: 'Силиконовая лопатка',
+      equipmentKey: 'silikonovayaLopatka',
     },
     {
-      name: 'Кухонные весы',
+      equipmentKey: 'kuhonnyeVesy',
     },
     {
-      name: 'Противень',
+      equipmentKey: 'bakingTray',
     },
     {
-      name: 'Пергаментная бумага',
+      equipmentKey: 'pergamentnayaBumaga',
     },
     {
-      name: 'Кондитерский мешок',
+      equipmentKey: 'konditerskiyMeshok',
     },
   ],
   cookingRecipe: [

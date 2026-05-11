@@ -164,24 +164,19 @@ export const CHERRY_PIE = {
   ],
   equipments: [
     {
-      name: 'Форма для выпечки (24 см)',
-      img: null,
+      equipmentKey: 'formaDlyaVypechki',
     },
     {
-      name: 'Блендер',
-      img: null,
+      equipmentKey: 'blender',
     },
     {
-      name: 'Миска для смешивания',
-      img: null,
+      equipmentKey: 'miskaDlyaSmeshivaniya',
     },
     {
-      name: 'Скалка',
-      img: null,
+      equipmentKey: 'rollingPin',
     },
     {
-      name: 'Кухонные весы',
-      img: null,
+      equipmentKey: 'kuhonnyeVesy',
     },
   ],
   cookingRecipe: [

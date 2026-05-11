@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const FARSHIROVANNYE_PERTSY = {
   metaSeo: {
     title: 'Фаршированные перцы — сытный ужин в духовке',
@@ -815,7 +813,12 @@ export const FARSHIROVANNYE_PERTSY = {
     { ingredientKey: 'groundBlackPepper', gauge: 'по вкусу' },
     { ingredientKey: 'water', count: 200, gauge: 'мл' },
   ],
-  equipments: [{ ...EQUIPMENTS.bakingTray }, { ...EQUIPMENTS.pot }, { ...EQUIPMENTS.knife }, { ...EQUIPMENTS.grater }],
+  equipments: [
+    { equipmentKey: 'bakingTray' },
+    { equipmentKey: 'pot' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'grater' },
+  ],
   cookingRecipe: [
     {
       img: null,

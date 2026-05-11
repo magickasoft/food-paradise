@@ -1079,12 +1079,10 @@ export const KRABOVYI_SALAT_S_KUKURUZOI = {
   ],
   equipments: [
     {
-      name: 'Кастрюля для яиц',
-      img: null,
+      equipmentKey: 'kastryulyaDlyaYaits',
     },
     {
-      name: 'Нож',
-      img: null,
+      equipmentKey: 'knife',
     },
   ],
   cookingRecipe: [

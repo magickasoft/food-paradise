@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const MENEMEN = {
   metaSeo: {
     title: 'Менемен — турецкая яичница с перцем и помидорами | Пошаговый рецепт',
@@ -730,7 +728,13 @@ export const MENEMEN = {
     { ingredientKey: 'parsley', count: 10, gauge: 'г', note: 'для подачи' },
   ],
 
-  equipments: [EQUIPMENTS.pan, EQUIPMENTS.woodenSpoon, EQUIPMENTS.knife, EQUIPMENTS.cutBoard, EQUIPMENTS.lid],
+  equipments: [
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'woodenSpoon' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'lid' },
+  ],
 
   cookingRecipe: [
     {

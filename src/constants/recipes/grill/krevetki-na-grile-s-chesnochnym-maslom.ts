@@ -325,20 +325,16 @@ export const KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM = {
   ],
   equipments: [
     {
-      name: 'Решетка гриль',
-      img: null,
+      equipmentKey: 'reshetkaGril',
     },
     {
-      name: 'Кухонные щипцы',
-      img: null,
+      equipmentKey: 'kuhonnyeSchiptsy',
     },
     {
-      name: 'Миска для маринования',
-      img: null,
+      equipmentKey: 'miskaDlyaMarinovaniya',
     },
     {
-      name: 'Чеснокодавилка',
-      img: null,
+      equipmentKey: 'chesnokodavilka',
     },
   ],
   cookingRecipe: [

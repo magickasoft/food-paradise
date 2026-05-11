@@ -211,12 +211,10 @@ export const OGURECHNO_LAJMOVYJ_SPRITSER = {
   ],
   equipments: [
     {
-      name: 'Кувшин',
-      img: null,
+      equipmentKey: 'kuvshin',
     },
     {
-      name: 'Деревянная ложка',
-      img: null,
+      equipmentKey: 'woodenSpoon',
     },
   ],
   cookingRecipe: [

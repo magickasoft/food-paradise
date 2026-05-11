@@ -827,12 +827,10 @@ export const FARSHIROVANNYE_PERTSY_S_KINOA = {
   ],
   equipments: [
     {
-      name: 'Духовка',
-      img: null,
+      equipmentKey: 'oven',
     },
     {
-      name: 'Сковорода',
-      img: null,
+      equipmentKey: 'pan',
     },
   ],
   cookingRecipe: [

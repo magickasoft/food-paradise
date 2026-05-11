@@ -658,12 +658,10 @@ export const RYBNYE_KOTLETY_S_PYURE = {
   ],
   equipments: [
     {
-      name: 'Сковорода',
-      img: null,
+      equipmentKey: 'pan',
     },
     {
-      name: 'Блендер',
-      img: null,
+      equipmentKey: 'blender',
     },
   ],
   cookingRecipe: [

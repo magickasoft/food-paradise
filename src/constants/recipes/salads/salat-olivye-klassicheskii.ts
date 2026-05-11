@@ -1173,12 +1173,10 @@ export const SALAT_OLIVYE_KLASSICHESKII = {
   ],
   equipments: [
     {
-      name: 'Кастрюля для варки овощей',
-      img: null,
+      equipmentKey: 'kastryulyaDlyaVarkiOvoschey',
     },
     {
-      name: 'Нож',
-      img: null,
+      equipmentKey: 'knife',
     },
   ],
   cookingRecipe: [

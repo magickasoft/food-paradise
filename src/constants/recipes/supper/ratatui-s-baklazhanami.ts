@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const RATATUI_S_BAKLAZHANAMI = {
   metaSeo: {
     title: 'Рататуй — французский овощной ужин без мяса',
@@ -881,7 +879,12 @@ export const RATATUI_S_BAKLAZHANAMI = {
     { ingredientKey: 'salt', count: 1 },
     { ingredientKey: 'groundBlackPepper', count: 1 },
   ],
-  equipments: [{ ...EQUIPMENTS.oven }, { ...EQUIPMENTS.pan }, { ...EQUIPMENTS.knife }, { ...EQUIPMENTS.cutBoard }],
+  equipments: [
+    { equipmentKey: 'oven' },
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+  ],
   cookingRecipe: [
     {
       img: null,

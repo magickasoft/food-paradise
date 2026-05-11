@@ -171,25 +171,25 @@ export const MERINGUE_ROLL_S_LEMON_CURD = {
   ],
   equipments: [
     {
-      name: 'Миксер',
+      equipmentKey: 'mikser',
     },
     {
-      name: 'Противень',
+      equipmentKey: 'bakingTray',
     },
     {
-      name: 'Пергаментная бумага',
+      equipmentKey: 'pergamentnayaBumaga',
     },
     {
-      name: 'Кастрюля для водяной бани',
+      equipmentKey: 'kastryulyaDlyaVodyanoyBani',
     },
     {
-      name: 'Силиконовая лопатка',
+      equipmentKey: 'silikonovayaLopatka',
     },
     {
-      name: 'Кухонные весы',
+      equipmentKey: 'kuhonnyeVesy',
     },
     {
-      name: 'Термометр',
+      equipmentKey: 'termometr',
     },
   ],
   cookingRecipe: [

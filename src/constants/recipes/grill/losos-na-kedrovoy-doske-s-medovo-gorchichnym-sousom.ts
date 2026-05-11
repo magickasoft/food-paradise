@@ -162,20 +162,16 @@ export const LOSOS_NA_KEDROVOY_DOSKE_S_MEDOVO_GORCHICHNYM_SOUSOM = {
   ],
   equipments: [
     {
-      name: 'Гриль или мангал',
-      img: null,
+      equipmentKey: 'grilIliMangal',
     },
     {
-      name: 'Кулинарные щипцы',
-      img: null,
+      equipmentKey: 'kulinarnyeSchiptsy',
     },
     {
-      name: 'Кисточка для глазури',
-      img: null,
+      equipmentKey: 'kistochkaDlyaGlazuri',
     },
     {
-      name: 'Миска для смешивания',
-      img: null,
+      equipmentKey: 'miskaDlyaSmeshivaniya',
     },
   ],
   cookingRecipe: [

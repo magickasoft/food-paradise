@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const CREAM_MUSHROOM_SOUP = {
   metaSeo: {
     title: 'Сливочный грибной суп с трюфельным маслом — ресторанный рецепт',
@@ -463,14 +461,14 @@ export const CREAM_MUSHROOM_SOUP = {
     { ingredientKey: 'water', count: 600, gauge: 'мл' },
   ],
   equipments: [
-    EQUIPMENTS.pot,
-    EQUIPMENTS.pan,
-    EQUIPMENTS.knife,
-    EQUIPMENTS.cutBoard,
-    EQUIPMENTS.sieve,
-    EQUIPMENTS.blender,
-    EQUIPMENTS.spoon,
-    EQUIPMENTS.bowl,
+    { equipmentKey: 'pot' },
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'sieve' },
+    { equipmentKey: 'blender' },
+    { equipmentKey: 'spoon' },
+    { equipmentKey: 'bowl' },
   ],
   cookingRecipe: [
     {

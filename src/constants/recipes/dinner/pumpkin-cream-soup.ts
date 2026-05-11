@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const PUMPKIN_CREAM_SOUP = {
   metaSeo: {
     title: 'Крем-суп из тыквы с имбирем — рецепт с фото | Нежный и полезный',
@@ -743,16 +741,16 @@ export const PUMPKIN_CREAM_SOUP = {
     { ingredientKey: 'groundBlackPepper', count: 1, gauge: 'ч.л.' },
   ],
   equipments: [
-    EQUIPMENTS.oven,
-    EQUIPMENTS.bakingTray,
-    EQUIPMENTS.knife,
-    EQUIPMENTS.cutBoard,
-    EQUIPMENTS.pot,
-    EQUIPMENTS.blender,
-    EQUIPMENTS.sieve,
-    EQUIPMENTS.pan,
-    EQUIPMENTS.spoon,
-    EQUIPMENTS.bowl,
+    { equipmentKey: 'oven' },
+    { equipmentKey: 'bakingTray' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'pot' },
+    { equipmentKey: 'blender' },
+    { equipmentKey: 'sieve' },
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'spoon' },
+    { equipmentKey: 'bowl' },
   ],
   historyDescription:
     'История тыквенного супа уходит корнями в европейскую кухню XVII века, когда тыква стала популярным осенним продуктом. Первые рецепты супов-пюре появились во Франции, где повара начали сочетать запечённую тыкву с маслом и сливками. Сегодня тыквенный крем-суп известен во всём мире — в Италии его подают с пармезаном, в Азии — с имбирём и кокосом, а в России он стал любимым осенним блюдом, символом уюта и мягкого тепла.',

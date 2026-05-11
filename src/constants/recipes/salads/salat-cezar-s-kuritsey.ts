@@ -1237,16 +1237,13 @@ export const SALAT_CEZAR_S_KURITSEY = {
   ],
   equipments: [
     {
-      name: 'Сковорода',
-      img: null,
+      equipmentKey: 'pan',
     },
     {
-      name: 'Духовка',
-      img: null,
+      equipmentKey: 'oven',
     },
     {
-      name: 'Салатница',
-      img: null,
+      equipmentKey: 'salatnitsa',
     },
   ],
   cookingRecipe: [

@@ -519,12 +519,10 @@ export const GRECHESKIY_SENDVICH_S_FETOY = {
   ],
   equipments: [
     {
-      name: 'Нож для нарезки',
-      img: null,
+      equipmentKey: 'nozhDlyaNarezki',
     },
     {
-      name: 'Доска для нарезки',
-      img: null,
+      equipmentKey: 'doskaDlyaNarezki',
     },
   ],
   cookingRecipe: [

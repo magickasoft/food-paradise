@@ -766,12 +766,10 @@ export const TYKVENNYJ_SUP_S_IMBIREM = {
   ],
   equipments: [
     {
-      name: 'Блендер',
-      img: null,
+      equipmentKey: 'blender',
     },
     {
-      name: 'Кастрюля',
-      img: null,
+      equipmentKey: 'pot',
     },
   ],
   cookingRecipe: [

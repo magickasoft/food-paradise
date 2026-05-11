@@ -147,12 +147,10 @@ export const KLUBNICHNO_BAZILIKOVYJ_LIMONAD = {
   ],
   equipments: [
     {
-      name: 'Блендер',
-      img: null,
+      equipmentKey: 'blender',
     },
     {
-      name: 'Сито',
-      img: null,
+      equipmentKey: 'sieve',
     },
   ],
   cookingRecipe: [

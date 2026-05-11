@@ -104,25 +104,25 @@ export const BEZE = {
   ],
   equipments: [
     {
-      name: 'Миксер',
+      equipmentKey: 'mikser',
     },
     {
-      name: 'Чистая сухая миска',
+      equipmentKey: 'chistayaSuhayaMiska',
     },
     {
-      name: 'Кондитерский мешок',
+      equipmentKey: 'konditerskiyMeshok',
     },
     {
-      name: "Насадка 'Звезда'",
+      equipmentKey: 'nasadkaZvezda',
     },
     {
-      name: 'Противень',
+      equipmentKey: 'bakingTray',
     },
     {
-      name: 'Пергаментная бумага',
+      equipmentKey: 'pergamentnayaBumaga',
     },
     {
-      name: 'Кухонный термометр',
+      equipmentKey: 'kuhonnyyTermometr',
     },
   ],
   cookingRecipe: [

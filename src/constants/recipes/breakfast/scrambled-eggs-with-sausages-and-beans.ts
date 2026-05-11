@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const SCRAMBLED_EGGS_WITH_SAUSAGES_AND_BEANS = {
   metaSeo: {
     title: 'Яичница с сосисками и фасолью — сытный английский завтрак за 25 минут',
@@ -719,7 +717,13 @@ export const SCRAMBLED_EGGS_WITH_SAUSAGES_AND_BEANS = {
       gauge: 'по вкусу',
     },
   ],
-  equipments: [EQUIPMENTS.pan, EQUIPMENTS.spatula, EQUIPMENTS.pot, EQUIPMENTS.tongs, EQUIPMENTS.plate],
+  equipments: [
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'spatula' },
+    { equipmentKey: 'pot' },
+    { equipmentKey: 'tongs' },
+    { equipmentKey: 'plate' },
+  ],
   cookingRecipe: [
     {
       img: '/static/steps/english-breakfast1.webp',

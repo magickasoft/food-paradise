@@ -209,12 +209,10 @@ export const LOSOS_V_MEDOVO_GORCHICHNOM_SOUSE = {
   ],
   equipments: [
     {
-      name: 'Духовка',
-      img: null,
+      equipmentKey: 'oven',
     },
     {
-      name: 'Противень',
-      img: null,
+      equipmentKey: 'bakingTray',
     },
   ],
   cookingRecipe: [

@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const SHASHLYK_IZ_KURINYH_GRUDOK = {
   metaSeo: {
     title: 'Шашлык из куриных грудок в лимонно-медовом маринаде',
@@ -1222,14 +1220,14 @@ export const SHASHLYK_IZ_KURINYH_GRUDOK = {
     { ingredientKey: 'groundBlackPepper', count: 2 },
   ],
   equipments: [
-    EQUIPMENTS.knife,
-    EQUIPMENTS.cutBoard,
-    EQUIPMENTS.bowl,
-    EQUIPMENTS.spoon,
-    EQUIPMENTS.lid,
-    EQUIPMENTS.tongs,
-    EQUIPMENTS.grill,
-    EQUIPMENTS.skewers,
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'bowl' },
+    { equipmentKey: 'spoon' },
+    { equipmentKey: 'lid' },
+    { equipmentKey: 'tongs' },
+    { equipmentKey: 'grill' },
+    { equipmentKey: 'skewers' },
   ],
   cookingRecipe: [
     {

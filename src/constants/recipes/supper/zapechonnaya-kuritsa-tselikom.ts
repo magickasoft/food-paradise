@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const ZAPECHONNAYA_KURITSA_TSELIKOM = {
   metaSeo: {
     title: 'Запечённая курица целиком в духовке',
@@ -108,7 +106,13 @@ export const ZAPECHONNAYA_KURITSA_TSELIKOM = {
       gauge: 'ч.л.',
     },
   ],
-  equipments: [EQUIPMENTS.oven, EQUIPMENTS.bakingTray, EQUIPMENTS.knife, EQUIPMENTS.cutBoard, EQUIPMENTS.brush],
+  equipments: [
+    { equipmentKey: 'oven' },
+    { equipmentKey: 'bakingTray' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'brush' },
+  ],
   cookingRecipe: [
     {
       img: null,

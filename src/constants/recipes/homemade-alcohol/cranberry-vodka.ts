@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const CRANBERRY_VODKA = {
   metaSeo: {
     title: 'Настойка на клюкве на водке — рецепт домашней клюквовки',
@@ -50,7 +48,7 @@ export const CRANBERRY_VODKA = {
     { ingredientKey: 'sugar', count: 200, gauge: 'г' },
     { ingredientKey: 'vodka', count: 700, gauge: 'мл' },
   ],
-  equipments: [EQUIPMENTS.jar, EQUIPMENTS.sieve, EQUIPMENTS.bottle],
+  equipments: [{ equipmentKey: 'jar' }, { equipmentKey: 'sieve' }, { equipmentKey: 'bottle' }],
 
   historyDescription:
     'Клюквовка — старинная русская настойка, которую готовили ещё в XIX веке. Клюква придаёт напитку насыщенный рубиновый цвет и приятную кислинку, а водка смягчает вкус и раскрывает аромат.',

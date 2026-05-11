@@ -849,12 +849,10 @@ export const KOTLETY_S_PYURE = {
   ],
   equipments: [
     {
-      name: 'Сковорода',
-      img: null,
+      equipmentKey: 'pan',
     },
     {
-      name: 'Картофелемялка',
-      img: null,
+      equipmentKey: 'kartofelemyalka',
     },
   ],
   cookingRecipe: [

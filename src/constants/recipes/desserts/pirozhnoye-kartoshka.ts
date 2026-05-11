@@ -121,19 +121,19 @@ export const PIROZHNOYE_KARTOSHKA = {
   ],
   equipments: [
     {
-      name: 'Блендер или скалка',
+      equipmentKey: 'blenderIliSkalka',
     },
     {
-      name: 'Миска для смешивания',
+      equipmentKey: 'miskaDlyaSmeshivaniya',
     },
     {
-      name: 'Лопатка',
+      equipmentKey: 'spatula',
     },
     {
-      name: 'Пищевая пленка',
+      equipmentKey: 'pischevayaPlenka',
     },
     {
-      name: 'Мерный стакан',
+      equipmentKey: 'mernyyStakan',
     },
   ],
   cookingRecipe: [

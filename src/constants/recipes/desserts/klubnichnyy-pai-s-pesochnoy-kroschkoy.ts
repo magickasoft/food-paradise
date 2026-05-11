@@ -126,22 +126,22 @@ export const KLUBNICHNYY_PAI_S_PESOCHNOY_KROSCHKOY = {
   ],
   equipments: [
     {
-      name: 'Форма для выпечки (24 см)',
+      equipmentKey: 'formaDlyaVypechki',
     },
     {
-      name: 'Блендер',
+      equipmentKey: 'blender',
     },
     {
-      name: 'Миска для смешивания',
+      equipmentKey: 'miskaDlyaSmeshivaniya',
     },
     {
-      name: 'Противень',
+      equipmentKey: 'bakingTray',
     },
     {
-      name: 'Кухонные весы',
+      equipmentKey: 'kuhonnyeVesy',
     },
     {
-      name: 'Пищевая пленка',
+      equipmentKey: 'pischevayaPlenka',
     },
   ],
   cookingRecipe: [

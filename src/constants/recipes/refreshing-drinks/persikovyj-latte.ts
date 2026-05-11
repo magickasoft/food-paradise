@@ -147,12 +147,10 @@ export const PERSIKOVYJ_LATTE = {
   ],
   equipments: [
     {
-      name: 'Блендер',
-      img: null,
+      equipmentKey: 'blender',
     },
     {
-      name: 'Стаканы для подачи',
-      img: null,
+      equipmentKey: 'stakanyDlyaPodachi',
     },
   ],
   cookingRecipe: [

@@ -224,12 +224,10 @@ export const YAGODNYJ_MORS = {
   ],
   equipments: [
     {
-      name: 'Блендер',
-      img: null,
+      equipmentKey: 'blender',
     },
     {
-      name: 'Марля или сито',
-      img: null,
+      equipmentKey: 'marlyaIliSito',
     },
   ],
   cookingRecipe: [

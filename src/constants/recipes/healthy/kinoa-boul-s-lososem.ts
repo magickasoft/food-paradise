@@ -925,12 +925,10 @@ export const KINOA_BOUL_S_LOSOSEM = {
   ],
   equipments: [
     {
-      name: 'Духовка',
-      img: null,
+      equipmentKey: 'oven',
     },
     {
-      name: 'Сковорода-гриль',
-      img: null,
+      equipmentKey: 'skovorodaGril',
     },
   ],
   cookingRecipe: [

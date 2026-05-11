@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const OVSJANAJA_KASHA_S_JABLOKAMI_I_KORICEJ = {
   metaSeo: {
     title: 'Овсяная каша с яблоками и корицей',
@@ -589,12 +587,12 @@ export const OVSJANAJA_KASHA_S_JABLOKAMI_I_KORICEJ = {
     { ingredientKey: 'water', count: 100, gauge: 'мл' },
   ],
   equipments: [
-    EQUIPMENTS.pot,
-    EQUIPMENTS.spoon,
-    EQUIPMENTS.measuringSpoon,
-    EQUIPMENTS.cutBoard,
-    EQUIPMENTS.knife,
-    EQUIPMENTS.plate,
+    { equipmentKey: 'pot' },
+    { equipmentKey: 'spoon' },
+    { equipmentKey: 'measuringSpoon' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'plate' },
   ],
   cookingRecipe: [
     {

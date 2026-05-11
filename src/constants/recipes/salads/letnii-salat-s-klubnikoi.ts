@@ -596,12 +596,10 @@ export const LETNII_SALAT_S_KLUBNIKOI = {
   ],
   equipments: [
     {
-      name: 'Нож',
-      img: null,
+      equipmentKey: 'knife',
     },
     {
-      name: 'Салатница',
-      img: null,
+      equipmentKey: 'salatnitsa',
     },
   ],
   cookingRecipe: [

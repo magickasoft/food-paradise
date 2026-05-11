@@ -525,12 +525,10 @@ export const SENDVICH_S_KURITSEY_I_PESTO = {
   ],
   equipments: [
     {
-      name: 'Гриль или сковорода',
-      img: null,
+      equipmentKey: 'grilIliSkovoroda',
     },
     {
-      name: 'Кухонные щипцы',
-      img: null,
+      equipmentKey: 'kuhonnyeSchiptsy',
     },
   ],
   cookingRecipe: [

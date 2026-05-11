@@ -1322,12 +1322,10 @@ export const SALAT_VALDORF_S_KURITSEY = {
   ],
   equipments: [
     {
-      name: 'Кастрюля для курицы',
-      img: null,
+      equipmentKey: 'kastryulyaDlyaKuritsy',
     },
     {
-      name: 'Нож',
-      img: null,
+      equipmentKey: 'knife',
     },
   ],
   cookingRecipe: [

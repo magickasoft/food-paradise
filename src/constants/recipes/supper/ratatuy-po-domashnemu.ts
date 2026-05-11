@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const RATATUY_PO_DOMASHNEMU = {
   metaSeo: {
     title: 'Рататуй по-домашнему — французский ужин в одной форме',
@@ -889,7 +887,12 @@ export const RATATUY_PO_DOMASHNEMU = {
     { ingredientKey: 'salt', count: 1 },
     { ingredientKey: 'groundBlackPepper', count: 1 },
   ],
-  equipments: [{ ...EQUIPMENTS.oven }, { ...EQUIPMENTS.pan }, { ...EQUIPMENTS.knife }, { ...EQUIPMENTS.cutBoard }],
+  equipments: [
+    { equipmentKey: 'oven' },
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+  ],
   cookingRecipe: [
     {
       img: null,

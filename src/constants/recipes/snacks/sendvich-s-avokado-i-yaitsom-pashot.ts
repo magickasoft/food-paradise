@@ -506,16 +506,13 @@ export const SENDVICH_S_AVOKADO_I_YAITSOM_PASHOT = {
   ],
   equipments: [
     {
-      name: 'Тостер',
-      img: null,
+      equipmentKey: 'toster',
     },
     {
-      name: 'Сковорода',
-      img: null,
+      equipmentKey: 'pan',
     },
     {
-      name: 'Кастрюля для яйца пашот',
-      img: null,
+      equipmentKey: 'kastryulyaDlyaYaytsaPashot',
     },
   ],
   cookingRecipe: [

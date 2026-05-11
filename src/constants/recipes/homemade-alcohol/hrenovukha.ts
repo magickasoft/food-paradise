@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const HRENOVUKHA = {
   metaSeo: {
     title: 'Хреновуха — классическая настойка на хрене на водке',
@@ -39,7 +37,12 @@ export const HRENOVUKHA = {
     { ingredientKey: 'honey', count: 1, gauge: 'ст. л.' },
     { ingredientKey: 'vodka', count: 500, gauge: 'мл' },
   ],
-  equipments: [EQUIPMENTS.jar, EQUIPMENTS.grater, EQUIPMENTS.sieve, EQUIPMENTS.bottle],
+  equipments: [
+    { equipmentKey: 'jar' },
+    { equipmentKey: 'grater' },
+    { equipmentKey: 'sieve' },
+    { equipmentKey: 'bottle' },
+  ],
   historyDescription:
     'Хреновуха известна на Руси с XVI века. Её готовили к зимним праздникам и охотничьим застольям — считалось, что она укрепляет дух и тело.',
   cookingRecipe: [

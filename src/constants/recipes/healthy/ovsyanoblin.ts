@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const OVSYANOBLIN = {
   metaSeo: {
     title: 'Овсяноблин — идеальный завтрак для ПП | Рецепт с фото',
@@ -491,7 +489,12 @@ export const OVSYANOBLIN = {
       count: 5,
     },
   ],
-  equipments: [EQUIPMENTS.blender, EQUIPMENTS.pan, EQUIPMENTS.spatula, EQUIPMENTS.bowl],
+  equipments: [
+    { equipmentKey: 'blender' },
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'spatula' },
+    { equipmentKey: 'bowl' },
+  ],
   cookingRecipe: [
     {
       img: null,

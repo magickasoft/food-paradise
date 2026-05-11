@@ -134,12 +134,10 @@ export const MALINOVYJ_CHAJNYJ_FRESH = {
   ],
   equipments: [
     {
-      name: 'Чайник',
-      img: null,
+      equipmentKey: 'chaynik',
     },
     {
-      name: 'Кувшин',
-      img: null,
+      equipmentKey: 'kuvshin',
     },
   ],
   cookingRecipe: [

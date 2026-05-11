@@ -1155,12 +1155,10 @@ export const KURITSA_GRIL_S_KINOA = {
   ],
   equipments: [
     {
-      name: 'Духовка',
-      img: null,
+      equipmentKey: 'oven',
     },
     {
-      name: 'Сковорода-гриль',
-      img: null,
+      equipmentKey: 'skovorodaGril',
     },
   ],
   cookingRecipe: [

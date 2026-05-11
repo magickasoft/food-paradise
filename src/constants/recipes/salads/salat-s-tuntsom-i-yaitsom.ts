@@ -717,12 +717,10 @@ export const SALAT_S_TUNTSOM_I_YAITSOM = {
   ],
   equipments: [
     {
-      name: 'Кастрюля для яиц',
-      img: null,
+      equipmentKey: 'kastryulyaDlyaYaits',
     },
     {
-      name: 'Нож',
-      img: null,
+      equipmentKey: 'knife',
     },
   ],
   cookingRecipe: [

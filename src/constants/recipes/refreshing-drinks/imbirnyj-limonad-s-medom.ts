@@ -256,12 +256,10 @@ export const IMBIRNYJ_LIMONAD_S_MEDOM = {
   ],
   equipments: [
     {
-      name: 'Кастрюля',
-      img: null,
+      equipmentKey: 'pot',
     },
     {
-      name: 'Кувшин',
-      img: null,
+      equipmentKey: 'kuvshin',
     },
   ],
   cookingRecipe: [

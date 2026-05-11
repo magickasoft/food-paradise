@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const SCRAMBLED_EGGS_SHAKSHUKA = {
   metaSeo: {
     title: 'Шакшука — израильская яичница с помидорами и перцем | Пошаговый рецепт с фото',
@@ -481,12 +479,12 @@ export const SCRAMBLED_EGGS_SHAKSHUKA = {
     { ingredientKey: 'parsley', count: ' ', gauge: 'по вкусу' },
   ],
   equipments: [
-    EQUIPMENTS.pan,
-    EQUIPMENTS.spatula,
-    EQUIPMENTS.woodenSpoon,
-    EQUIPMENTS.knife,
-    EQUIPMENTS.cutBoard,
-    EQUIPMENTS.lid,
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'spatula' },
+    { equipmentKey: 'woodenSpoon' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'lid' },
   ],
   historyDescription: `Шакшука — блюдо с яркой историей, родом из Северной Африки. Её придумали в Магрибе: там хозяйки готовили пряный томатный соус с перцем, луком и специями, а затем разбивали в него яйца — быстро, сытно и ароматно. Позже шакшука перекочевала в Израиль вместе с иммигрантами и стала символом утреннего уюта, домашнего тепла и неспешных выходных. Сегодня шакшука — одно из самых любимых блюд на завтрак во всём мире: простая в приготовлении, но всегда впечатляющая своим ароматом и вкусом.`,
   cookingRecipe: [

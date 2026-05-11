@@ -1366,12 +1366,10 @@ export const SALAT_S_AVOKADO_I_KREVETKAMI = {
   ],
   equipments: [
     {
-      name: 'Сковорода',
-      img: null,
+      equipmentKey: 'pan',
     },
     {
-      name: 'Салатница',
-      img: null,
+      equipmentKey: 'salatnitsa',
     },
   ],
   cookingRecipe: [

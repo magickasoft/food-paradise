@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM = {
   metaSeo: {
     title: 'Рулетики из ветчины с сыром и чесноком',
@@ -493,25 +491,25 @@ export const RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM = {
   ],
   equipments: [
     {
-      ...EQUIPMENTS.pot,
+      ...{ equipmentKey: 'pot' },
     },
     {
-      ...EQUIPMENTS.grater,
+      ...{ equipmentKey: 'grater' },
     },
     {
-      ...EQUIPMENTS.bowl,
+      ...{ equipmentKey: 'bowl' },
     },
     {
-      ...EQUIPMENTS.knife,
+      ...{ equipmentKey: 'knife' },
     },
     {
-      ...EQUIPMENTS.spoon,
+      ...{ equipmentKey: 'spoon' },
     },
     {
-      ...EQUIPMENTS.plate,
+      ...{ equipmentKey: 'plate' },
     },
     {
-      ...EQUIPMENTS.fridge,
+      ...{ equipmentKey: 'fridge' },
     },
   ],
   cookingRecipe: [

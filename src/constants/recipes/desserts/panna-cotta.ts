@@ -127,22 +127,22 @@ export const PANNA_COTTA = {
   ],
   equipments: [
     {
-      name: 'Сотейник',
+      equipmentKey: 'soteynik',
     },
     {
-      name: 'Формы для панна котты (4 шт.)',
+      equipmentKey: 'formyDlyaPannaKotty',
     },
     {
-      name: 'Сито',
+      equipmentKey: 'sieve',
     },
     {
-      name: 'Кухонный термометр',
+      equipmentKey: 'kuhonnyyTermometr',
     },
     {
-      name: 'Миска для замачивания желатина',
+      equipmentKey: 'miskaDlyaZamachivaniyaZhelatina',
     },
     {
-      name: 'Венчик',
+      equipmentKey: 'whisk',
     },
   ],
   cookingRecipe: [

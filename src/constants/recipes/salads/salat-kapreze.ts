@@ -714,12 +714,10 @@ export const SALAT_KAPREZE = {
   ],
   equipments: [
     {
-      name: 'Нож',
-      img: null,
+      equipmentKey: 'knife',
     },
     {
-      name: 'Салатница',
-      img: null,
+      equipmentKey: 'salatnitsa',
     },
   ],
   cookingRecipe: [

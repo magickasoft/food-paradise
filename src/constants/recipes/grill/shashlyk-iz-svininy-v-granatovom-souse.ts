@@ -1055,28 +1055,22 @@ export const SHASHLYK_IZ_SVININY_V_GRANATOVOM_SOUSE = {
   ],
   equipments: [
     {
-      name: 'Мангал',
-      img: null,
+      equipmentKey: 'grill',
     },
     {
-      name: 'Шампуры',
-      img: null,
+      equipmentKey: 'skewers',
     },
     {
-      name: 'Глубокая миска для маринования',
-      img: null,
+      equipmentKey: 'glubokayaMiskaDlyaMarinovaniya',
     },
     {
-      name: 'Нож для мяса',
-      img: null,
+      equipmentKey: 'nozhDlyaMyasa',
     },
     {
-      name: 'Пресс для чеснока',
-      img: null,
+      equipmentKey: 'pressDlyaChesnoka',
     },
     {
-      name: 'Кулинарные щипцы',
-      img: null,
+      equipmentKey: 'kulinarnyeSchiptsy',
     },
   ],
   cookingRecipe: [

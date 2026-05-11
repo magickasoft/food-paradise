@@ -937,28 +937,22 @@ export const SHASHLYK_IZ_KURITSY_V_KEFIRNOM_MARINADE = {
   ],
   equipments: [
     {
-      name: 'Мангал или гриль',
-      img: null,
+      equipmentKey: 'mangalIliGril',
     },
     {
-      name: 'Шампуры или решетка',
-      img: null,
+      equipmentKey: 'shampuryIliReshetka',
     },
     {
-      name: 'Глубокая миска для маринования',
-      img: null,
+      equipmentKey: 'glubokayaMiskaDlyaMarinovaniya',
     },
     {
-      name: 'Нож шеф-повара',
-      img: null,
+      equipmentKey: 'nozhShefPovara',
     },
     {
-      name: 'Разделочная доска',
-      img: null,
+      equipmentKey: 'cutBoard',
     },
     {
-      name: 'Щипцы для гриля',
-      img: null,
+      equipmentKey: 'schiptsyDlyaGrilya',
     },
   ],
   cookingRecipe: [

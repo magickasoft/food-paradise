@@ -938,12 +938,10 @@ export const SALAT_NISUAZ_S_TUNTSOM = {
   ],
   equipments: [
     {
-      name: 'Сковорода-гриль',
-      img: null,
+      equipmentKey: 'skovorodaGril',
     },
     {
-      name: 'Кастрюля',
-      img: null,
+      equipmentKey: 'pot',
     },
   ],
   cookingRecipe: [

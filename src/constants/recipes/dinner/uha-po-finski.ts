@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const UHA_PO_FINSKI = {
   metaSeo: {
     title: 'Уха по-фински с лососем — сливочный суп Лохикейтто',
@@ -355,10 +353,10 @@ export const UHA_PO_FINSKI = {
     { ingredientKey: 'water', count: 1.5, gauge: 'л.' },
   ],
   equipments: [
-    { ...EQUIPMENTS.pot, count: 1 },
-    { ...EQUIPMENTS.knife, count: 1 },
-    { ...EQUIPMENTS.cutBoard, count: 1 },
-    { ...EQUIPMENTS.woodenSpoon, count: 1 },
+    { ...{ equipmentKey: 'pot' }, count: 1 },
+    { ...{ equipmentKey: 'knife' }, count: 1 },
+    { ...{ equipmentKey: 'cutBoard' }, count: 1 },
+    { ...{ equipmentKey: 'woodenSpoon' }, count: 1 },
   ],
 
   cookingRecipe: [

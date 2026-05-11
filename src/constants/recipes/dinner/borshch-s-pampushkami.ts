@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const BORSHCH_S_PAMPUSHKAMI = {
   metaSeo: {
     title: 'Борщ с пампушками',
@@ -760,16 +758,16 @@ export const BORSHCH_S_PAMPUSHKAMI = {
     { ingredientKey: 'garlic', count: 6, gauge: 'зуб.' },
   ],
   equipments: [
-    EQUIPMENTS.pot,
-    EQUIPMENTS.pan,
-    EQUIPMENTS.bowl,
-    EQUIPMENTS.knife,
-    EQUIPMENTS.cutBoard,
-    EQUIPMENTS.grater,
-    EQUIPMENTS.blender,
-    EQUIPMENTS.oven,
-    EQUIPMENTS.bakingTray,
-    EQUIPMENTS.brush,
+    { equipmentKey: 'pot' },
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'bowl' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'grater' },
+    { equipmentKey: 'blender' },
+    { equipmentKey: 'oven' },
+    { equipmentKey: 'bakingTray' },
+    { equipmentKey: 'brush' },
   ],
   cookingRecipe: [
     {

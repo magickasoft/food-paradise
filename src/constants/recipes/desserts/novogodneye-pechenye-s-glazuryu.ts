@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const NOVOGODNEYE_PECHENYE_S_GLAZURYU = {
   metaSeo: {
     title: 'Новогоднее печенье с глазурью',
@@ -130,13 +128,13 @@ export const NOVOGODNEYE_PECHENYE_S_GLAZURYU = {
     },
   ],
   equipments: [
-    EQUIPMENTS.oven,
-    EQUIPMENTS.bowl,
-    EQUIPMENTS.handMixer,
-    EQUIPMENTS.rollingPin,
-    EQUIPMENTS.cookieCutters,
-    EQUIPMENTS.bakingTray,
-    EQUIPMENTS.parchment,
+    { equipmentKey: 'oven' },
+    { equipmentKey: 'bowl' },
+    { equipmentKey: 'handMixer' },
+    { equipmentKey: 'rollingPin' },
+    { equipmentKey: 'cookieCutters' },
+    { equipmentKey: 'bakingTray' },
+    { equipmentKey: 'parchment' },
   ],
   cookingRecipe: [
     {

@@ -124,22 +124,22 @@ export const CHOCOLATE_TRUFFLES = {
   ],
   equipments: [
     {
-      name: 'Кастрюля для водяной бани',
+      equipmentKey: 'kastryulyaDlyaVodyanoyBani',
     },
     {
-      name: 'Силиконовая лопатка',
+      equipmentKey: 'silikonovayaLopatka',
     },
     {
-      name: 'Пергаментная бумага',
+      equipmentKey: 'pergamentnayaBumaga',
     },
     {
-      name: 'Кондитерский мешок (опционально)',
+      equipmentKey: 'konditerskiyMeshok2',
     },
     {
-      name: 'Форма для конфет (опционально)',
+      equipmentKey: 'formaDlyaKonfet',
     },
     {
-      name: 'Кухонные весы',
+      equipmentKey: 'kuhonnyeVesy',
     },
   ],
   cookingRecipe: [

@@ -706,8 +706,7 @@ export const KURINYE_GRUDKI_V_SLIVOCNOM_SOUSE = {
   ],
   equipments: [
     {
-      name: 'Сковорода с крышкой',
-      img: null,
+      equipmentKey: 'skovorodaSKryshkoy',
     },
   ],
   cookingRecipe: [

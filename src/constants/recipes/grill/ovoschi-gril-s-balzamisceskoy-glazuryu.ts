@@ -1581,24 +1581,19 @@ export const OVOSCHI_GRIL_S_BALZAMISCESKOY_GLAZURYU = {
   ],
   equipments: [
     {
-      name: 'Решетка для гриля',
-      img: null,
+      equipmentKey: 'reshetkaDlyaGrilya',
     },
     {
-      name: 'Кулинарная кисть',
-      img: null,
+      equipmentKey: 'brush',
     },
     {
-      name: 'Миска для смешивания',
-      img: null,
+      equipmentKey: 'miskaDlyaSmeshivaniya',
     },
     {
-      name: 'Кухонные щипцы',
-      img: null,
+      equipmentKey: 'kuhonnyeSchiptsy',
     },
     {
-      name: 'Силиконовая лопатка',
-      img: null,
+      equipmentKey: 'silikonovayaLopatka',
     },
   ],
   cookingRecipe: [

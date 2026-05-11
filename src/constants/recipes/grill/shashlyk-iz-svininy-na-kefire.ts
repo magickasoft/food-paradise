@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const SHASHLYK_IZ_SVININY_NA_KEFIRE = {
   metaSeo: {
     title: 'Шашлык из свинины на кефире',
@@ -1082,16 +1080,16 @@ export const SHASHLYK_IZ_SVININY_NA_KEFIRE = {
     },
   ],
   equipments: [
-    EQUIPMENTS.bowl,
-    EQUIPMENTS.knife,
-    EQUIPMENTS.cutBoard,
-    EQUIPMENTS.blender,
-    EQUIPMENTS.spoon,
-    EQUIPMENTS.grill,
-    EQUIPMENTS.tongs,
-    EQUIPMENTS.lid,
-    EQUIPMENTS.paperTowel,
-    EQUIPMENTS.skewers,
+    { equipmentKey: 'bowl' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'blender' },
+    { equipmentKey: 'spoon' },
+    { equipmentKey: 'grill' },
+    { equipmentKey: 'tongs' },
+    { equipmentKey: 'lid' },
+    { equipmentKey: 'paperTowel' },
+    { equipmentKey: 'skewers' },
   ],
   cookingRecipe: [
     {

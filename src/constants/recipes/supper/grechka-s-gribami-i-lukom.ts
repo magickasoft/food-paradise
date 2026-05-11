@@ -341,12 +341,10 @@ export const GRECHKA_S_GRIBAMI_I_LUKOM = {
   ],
   equipments: [
     {
-      name: 'Кастрюля',
-      img: null,
+      equipmentKey: 'pot',
     },
     {
-      name: 'Сковорода',
-      img: null,
+      equipmentKey: 'pan',
     },
   ],
   cookingRecipe: [

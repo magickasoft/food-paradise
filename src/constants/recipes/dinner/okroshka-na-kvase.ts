@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const OKROSHKA_NA_KVASE = {
   metaSeo: {
     title: 'Окрошка на квасе – классический рецепт холодного супа',
@@ -702,12 +700,12 @@ export const OKROSHKA_NA_KVASE = {
     },
   ],
   equipments: [
-    EQUIPMENTS.pot,
-    EQUIPMENTS.knife,
-    EQUIPMENTS.cutBoard,
-    EQUIPMENTS.bowl,
-    EQUIPMENTS.spoon,
-    EQUIPMENTS.sieve,
+    { equipmentKey: 'pot' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'bowl' },
+    { equipmentKey: 'spoon' },
+    { equipmentKey: 'sieve' },
   ],
   cookingRecipe: [
     {

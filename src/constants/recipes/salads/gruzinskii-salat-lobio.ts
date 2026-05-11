@@ -669,12 +669,10 @@ export const GRUZINSKII_SALAT_LOBIO = {
   ],
   equipments: [
     {
-      name: 'Сковорода для орехов',
-      img: null,
+      equipmentKey: 'skovorodaDlyaOrehov',
     },
     {
-      name: 'Ступка для чеснока',
-      img: null,
+      equipmentKey: 'stupkaDlyaChesnoka',
     },
   ],
   cookingRecipe: [

@@ -432,12 +432,10 @@ export const MAKARONY_S_SYROM = {
   ],
   equipments: [
     {
-      name: 'Кастрюля',
-      img: null,
+      equipmentKey: 'pot',
     },
     {
-      name: 'Форма для запекания',
-      img: null,
+      equipmentKey: 'formaDlyaZapekaniya',
     },
   ],
   cookingRecipe: [

@@ -241,12 +241,10 @@ export const INZHIRNYJ_KOKTEJL = {
   ],
   equipments: [
     {
-      name: 'Блендер',
-      img: null,
+      equipmentKey: 'blender',
     },
     {
-      name: 'Коктейльные стаканы',
-      img: null,
+      equipmentKey: 'kokteylnyeStakany',
     },
   ],
   cookingRecipe: [

@@ -324,28 +324,28 @@ export const TORT_MEDOVIK = {
   ],
   equipments: [
     {
-      name: 'Кастрюля для водяной бани',
+      equipmentKey: 'kastryulyaDlyaVodyanoyBani',
     },
     {
-      name: 'Миксер',
+      equipmentKey: 'mikser',
     },
     {
-      name: 'Скалка',
+      equipmentKey: 'rollingPin',
     },
     {
-      name: 'Форма для выпечки (24 см)',
+      equipmentKey: 'formaDlyaVypechki',
     },
     {
-      name: 'Кухонные весы',
+      equipmentKey: 'kuhonnyeVesy',
     },
     {
-      name: 'Кондитерская лопатка',
+      equipmentKey: 'konditerskayaLopatka',
     },
     {
-      name: 'Противень',
+      equipmentKey: 'bakingTray',
     },
     {
-      name: 'Пергаментная бумага',
+      equipmentKey: 'pergamentnayaBumaga',
     },
   ],
   cookingRecipe: [

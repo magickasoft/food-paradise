@@ -1124,28 +1124,22 @@ export const SHASHLYK_IZ_INDEYKI_V_YOGURTOVOM_MARINADE = {
   ],
   equipments: [
     {
-      name: 'Гриль или мангал',
-      img: null,
+      equipmentKey: 'grilIliMangal',
     },
     {
-      name: 'Деревянные шпажки',
-      img: null,
+      equipmentKey: 'derevyannyeShpazhki',
     },
     {
-      name: 'Миска для маринования',
-      img: null,
+      equipmentKey: 'miskaDlyaMarinovaniya',
     },
     {
-      name: 'Кухонные щипцы',
-      img: null,
+      equipmentKey: 'kuhonnyeSchiptsy',
     },
     {
-      name: 'Кулинарная кисть',
-      img: null,
+      equipmentKey: 'brush',
     },
     {
-      name: 'Овощечистка',
-      img: null,
+      equipmentKey: 'ovoschechistka',
     },
   ],
   cookingRecipe: [

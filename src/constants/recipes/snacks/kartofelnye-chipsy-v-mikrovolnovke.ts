@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE = {
   metaSeo: {
     title: 'Картофельные чипсы в микроволновке',
@@ -252,19 +250,19 @@ export const KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE = {
   ],
   equipments: [
     {
-      ...EQUIPMENTS.microwave,
+      ...{ equipmentKey: 'microwave' },
     },
     {
-      ...EQUIPMENTS.plate,
+      ...{ equipmentKey: 'plate' },
     },
     {
-      ...EQUIPMENTS.knife,
+      ...{ equipmentKey: 'knife' },
     },
     {
-      ...EQUIPMENTS.grater,
+      ...{ equipmentKey: 'grater' },
     },
     {
-      ...EQUIPMENTS.cutBoard,
+      ...{ equipmentKey: 'cutBoard' },
     },
   ],
   cookingRecipe: [

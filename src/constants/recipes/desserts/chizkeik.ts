@@ -308,36 +308,28 @@ export const CHIZKEIK = {
   ],
   equipments: [
     {
-      name: 'Разъемная форма (24 см)',
-      img: null,
+      equipmentKey: 'razemnayaForma',
     },
     {
-      name: 'Блендер',
-      img: null,
+      equipmentKey: 'blender',
     },
     {
-      name: 'Миксер',
-      img: null,
+      equipmentKey: 'mikser',
     },
     {
-      name: 'Противень для водяной бани',
-      img: null,
+      equipmentKey: 'protivenDlyaVodyanoyBani',
     },
     {
-      name: 'Фольга',
-      img: null,
+      equipmentKey: 'folga',
     },
     {
-      name: 'Пергаментная бумага',
-      img: null,
+      equipmentKey: 'pergamentnayaBumaga',
     },
     {
-      name: 'Силиконовая лопатка',
-      img: null,
+      equipmentKey: 'silikonovayaLopatka',
     },
     {
-      name: 'Термометр кухонный',
-      img: null,
+      equipmentKey: 'termometrKuhonnyy',
     },
   ],
   cookingRecipe: [

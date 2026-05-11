@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const SUP_PYURE_IZ_TYKVY = {
   metaSeo: {
     title: 'Суп-пюре из тыквы — нежный обед за 30 минут',
@@ -764,11 +762,11 @@ export const SUP_PYURE_IZ_TYKVY = {
     { ingredientKey: 'pumpkinSeeds', count: 20, gauge: 'г.' },
   ],
   equipments: [
-    { ...EQUIPMENTS.bakingTray, count: 1 },
-    { ...EQUIPMENTS.pot, count: 1 },
-    { ...EQUIPMENTS.blender, count: 1 },
-    { ...EQUIPMENTS.knife, count: 1 },
-    { ...EQUIPMENTS.cutBoard, count: 1 },
+    { ...{ equipmentKey: 'bakingTray' }, count: 1 },
+    { ...{ equipmentKey: 'pot' }, count: 1 },
+    { ...{ equipmentKey: 'blender' }, count: 1 },
+    { ...{ equipmentKey: 'knife' }, count: 1 },
+    { ...{ equipmentKey: 'cutBoard' }, count: 1 },
   ],
   cookingRecipe: [
     {

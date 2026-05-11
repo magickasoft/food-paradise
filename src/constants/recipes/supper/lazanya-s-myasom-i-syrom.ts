@@ -355,12 +355,10 @@ export const LAZANYA_S_MYASOM_I_SYROM = {
   ],
   equipments: [
     {
-      name: 'Форма для запекания',
-      img: null,
+      equipmentKey: 'formaDlyaZapekaniya',
     },
     {
-      name: 'Сковорода',
-      img: null,
+      equipmentKey: 'pan',
     },
   ],
   cookingRecipe: [

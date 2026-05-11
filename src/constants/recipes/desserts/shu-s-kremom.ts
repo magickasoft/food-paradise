@@ -149,40 +149,31 @@ export const SHU_S_KREMOM = {
   ],
   equipments: [
     {
-      img: null,
-      name: 'Кастрюля среднего размера',
+      equipmentKey: 'kastryulyaSrednegoRazmera',
     },
     {
-      img: null,
-      name: 'Деревянная лопатка',
+      equipmentKey: 'derevyannayaLopatka',
     },
     {
-      img: null,
-      name: 'Кондитерский мешок',
+      equipmentKey: 'konditerskiyMeshok',
     },
     {
-      img: null,
-      name: 'Насадка для мешка (круглая)',
+      equipmentKey: 'nasadkaDlyaMeshka',
     },
     {
-      img: null,
-      name: 'Противень',
+      equipmentKey: 'bakingTray',
     },
     {
-      img: null,
-      name: 'Пергаментная бумага',
+      equipmentKey: 'pergamentnayaBumaga',
     },
     {
-      img: null,
-      name: 'Миксер',
+      equipmentKey: 'mikser',
     },
     {
-      img: null,
-      name: 'Кухонные весы',
+      equipmentKey: 'kuhonnyeVesy',
     },
     {
-      img: null,
-      name: 'Термометр кухонный',
+      equipmentKey: 'termometrKuhonnyy',
     },
   ],
   cookingRecipe: [

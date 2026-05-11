@@ -254,12 +254,10 @@ export const LIMONAD_S_MYATOJ = {
   ],
   equipments: [
     {
-      name: 'Кувшин',
-      img: null,
+      equipmentKey: 'kuvshin',
     },
     {
-      name: 'Деревянная ложка',
-      img: null,
+      equipmentKey: 'woodenSpoon',
     },
   ],
   cookingRecipe: [

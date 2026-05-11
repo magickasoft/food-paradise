@@ -943,28 +943,22 @@ export const SHASHLYK_IZ_BARANINY_S_ROZMARINOM = {
   ],
   equipments: [
     {
-      name: 'Мангал',
-      img: null,
+      equipmentKey: 'grill',
     },
     {
-      name: 'Деревянные шампуры',
-      img: null,
+      equipmentKey: 'derevyannyeShampury',
     },
     {
-      name: 'Ступка для специй',
-      img: null,
+      equipmentKey: 'stupkaDlyaSpetsiy',
     },
     {
-      name: 'Нож шеф-повара',
-      img: null,
+      equipmentKey: 'nozhShefPovara',
     },
     {
-      name: 'Кулинарная кисть',
-      img: null,
+      equipmentKey: 'brush',
     },
     {
-      name: 'Разделочная доска',
-      img: null,
+      equipmentKey: 'cutBoard',
     },
   ],
   cookingRecipe: [

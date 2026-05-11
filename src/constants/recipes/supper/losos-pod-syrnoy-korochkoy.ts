@@ -138,12 +138,10 @@ export const LOSOS_POD_SYRNOY_KOROCHKOY = {
   ],
   equipments: [
     {
-      name: 'Противень',
-      img: null,
+      equipmentKey: 'bakingTray',
     },
     {
-      name: 'Мелкая терка',
-      img: null,
+      equipmentKey: 'melkayaTerka',
     },
   ],
   cookingRecipe: [

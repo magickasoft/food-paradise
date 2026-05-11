@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const PHO_BO = {
   metaSeo: {
     title: 'Фо Бо — вьетнамский суп с говядиной | Аутентичный рецепт с фото',
@@ -156,14 +154,14 @@ export const PHO_BO = {
     { ingredientKey: 'greenOnion', count: 1, gauge: 'пуч.' },
   ],
   equipments: [
-    EQUIPMENTS.pot,
-    EQUIPMENTS.sieve,
-    EQUIPMENTS.knife,
-    EQUIPMENTS.cutBoard,
-    EQUIPMENTS.pan,
-    EQUIPMENTS.tongs,
-    EQUIPMENTS.bowl,
-    EQUIPMENTS.spoon,
+    { equipmentKey: 'pot' },
+    { equipmentKey: 'sieve' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'tongs' },
+    { equipmentKey: 'bowl' },
+    { equipmentKey: 'spoon' },
   ],
   cookingRecipe: [
     {

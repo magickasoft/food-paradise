@@ -361,28 +361,22 @@ export const APPLE_STRUDEL = {
   ],
   equipments: [
     {
-      name: 'Скалка',
-      img: null,
+      equipmentKey: 'rollingPin',
     },
     {
-      name: 'Кухонное полотенце',
-      img: null,
+      equipmentKey: 'kuhonnoePolotentse',
     },
     {
-      name: 'Противень',
-      img: null,
+      equipmentKey: 'bakingTray',
     },
     {
-      name: 'Пергаментная бумага',
-      img: null,
+      equipmentKey: 'pergamentnayaBumaga',
     },
     {
-      name: 'Кисточка для смазывания',
-      img: null,
+      equipmentKey: 'kistochkaDlyaSmazyvaniya',
     },
     {
-      name: 'Миска для замеса',
-      img: null,
+      equipmentKey: 'miskaDlyaZamesa',
     },
   ],
   cookingRecipe: [

@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const SCRAMBLED_EGGS_WITH_BROCCOLI = {
   metaSeo: {
     title: 'Яичница с брокколи',
@@ -220,14 +218,14 @@ export const SCRAMBLED_EGGS_WITH_BROCCOLI = {
     },
   ],
   equipments: [
-    EQUIPMENTS.pan,
-    EQUIPMENTS.spatula,
-    EQUIPMENTS.bowl,
-    EQUIPMENTS.whisk,
-    EQUIPMENTS.plate,
-    EQUIPMENTS.colander,
-    EQUIPMENTS.pot,
-    EQUIPMENTS.lid,
+    { equipmentKey: 'pan' },
+    { equipmentKey: 'spatula' },
+    { equipmentKey: 'bowl' },
+    { equipmentKey: 'whisk' },
+    { equipmentKey: 'plate' },
+    { equipmentKey: 'colander' },
+    { equipmentKey: 'pot' },
+    { equipmentKey: 'lid' },
   ],
   cookingRecipe: [
     {

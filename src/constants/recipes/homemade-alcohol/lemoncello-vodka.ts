@@ -1,5 +1,3 @@
-import { EQUIPMENTS } from '@/constants/equipments'
-
 export const LEMONCELLO_VODKA = {
   metaSeo: {
     title: 'Лимончелло на водке — домашняя лимонная настойка | Рецепт с фото',
@@ -65,7 +63,13 @@ export const LEMONCELLO_VODKA = {
     { ingredientKey: 'water', count: 300, gauge: 'мл' },
     { ingredientKey: 'sugar', count: 250, gauge: 'г' },
   ],
-  equipments: [EQUIPMENTS.jar, EQUIPMENTS.knife, EQUIPMENTS.sieve, EQUIPMENTS.pot, EQUIPMENTS.bottle],
+  equipments: [
+    { equipmentKey: 'jar' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'sieve' },
+    { equipmentKey: 'pot' },
+    { equipmentKey: 'bottle' },
+  ],
   historyDescription:
     'Легендарный ликёр лимончелло родом из солнечного побережья Амальфи. Его традиционно готовят из лимонов сорта Сорренто, но в домашних условиях прекрасно получается и с обычными цитрусами. На водке напиток выходит чуть мягче, чем на спирту, но не менее ароматный и освежающий.',
   cookingRecipe: [

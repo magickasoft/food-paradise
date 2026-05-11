@@ -548,12 +548,10 @@ export const KARTOFELNAYA_ZAPEKANKA_S_FARSHEM = {
   ],
   equipments: [
     {
-      name: 'Форма для запекания',
-      img: null,
+      equipmentKey: 'formaDlyaZapekaniya',
     },
     {
-      name: 'Сковорода',
-      img: null,
+      equipmentKey: 'pan',
     },
   ],
   cookingRecipe: [

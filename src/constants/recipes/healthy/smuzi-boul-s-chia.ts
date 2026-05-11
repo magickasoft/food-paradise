@@ -366,12 +366,10 @@ export const SMUZI_BOUL_S_CHIA = {
   ],
   equipments: [
     {
-      name: 'Блендер',
-      img: null,
+      equipmentKey: 'blender',
     },
     {
-      name: 'Прозрачный стакан или боул',
-      img: null,
+      equipmentKey: 'prozrachnyyStakanIliBoul',
     },
   ],
   cookingRecipe: [

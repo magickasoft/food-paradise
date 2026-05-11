@@ -108,25 +108,25 @@ export const KREM_BRYULE_S_VANILYU = {
   ],
   equipments: [
     {
-      name: 'Рамекины (4 шт.)',
+      equipmentKey: 'ramekiny',
     },
     {
-      name: 'Кастрюля для водяной бани',
+      equipmentKey: 'kastryulyaDlyaVodyanoyBani',
     },
     {
-      name: 'Кухонный термометр',
+      equipmentKey: 'kuhonnyyTermometr',
     },
     {
-      name: 'Миксер',
+      equipmentKey: 'mikser',
     },
     {
-      name: 'Сито',
+      equipmentKey: 'sieve',
     },
     {
-      name: 'Газовая горелка для карамелизации',
+      equipmentKey: 'gazovayaGorelkaDlyaKaramelizatsii',
     },
     {
-      name: 'Противень для духовки',
+      equipmentKey: 'protivenDlyaDuhovki',
     },
   ],
   cookingRecipe: [
