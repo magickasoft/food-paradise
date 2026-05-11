@@ -1473,50 +1473,90 @@ export const RAGU_IZ_KABACHKOV_V_SMETANE = {
   rating: 5,
   portions: 4,
   used: [5.7, 22.7, 34.1],
-  ingredients: [],
-  equipments: [],
+  ingredients: [
+    { ingredientKey: 'zucchini', count: 800, gauge: 'г' },
+    { ingredientKey: 'garlic', count: 3, gauge: 'зубчика' },
+    { ingredientKey: 'parsley', count: 1, gauge: 'пучок' },
+    { ingredientKey: 'tomato', count: 3, gauge: 'шт.' },
+    { ingredientKey: 'meltedButter', count: 2, gauge: 'ст.л.' },
+    { ingredientKey: 'flour', count: 1, gauge: 'ст.л.' },
+    { ingredientKey: 'sourCream', count: 200, gauge: 'г' },
+    { ingredientKey: 'salt', gauge: 'по вкусу' },
+    { ingredientKey: 'groundBlackPepper', gauge: 'по вкусу' },
+  ],
+  equipments: [
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'paperTowel' },
+    { equipmentKey: 'skovorodaSKryshkoy' },
+    { equipmentKey: 'spatula' },
+  ],
   cookingRecipe: [
     {
       img: null,
       video: null,
       description:
         'Тщательно промойте кабачки, удалите кончики с обеих сторон. Молодые кабачки очищать не нужно — кожура у них нежная. Разрежьте вдоль на половинки, затем на четвертинки, после чего нарежьте поперек брусками длиной до 3 см.',
-      ingredients: [],
+      ingredients: [{ ingredientKey: 'zucchini', count: 800, gauge: 'г' }],
     },
     {
       img: null,
       video: null,
       description:
         'Раздавите зубчики чеснока плоской стороной ножа, чтобы легко снять кожицу — она сойдёт сама. Затем мелко нарубите чеснок — он придаст блюду насыщенный аромат.',
-      ingredients: [],
+      ingredients: [{ ingredientKey: 'garlic', count: 3, gauge: 'зубчика' }],
     },
     {
       img: null,
       video: null,
       description:
         'Промойте свежую петрушку, обсушите бумажными салфетками. Удалите жесткие стебли, а листья мелко нарежьте. Соедините зелень с чесноком и еще раз пройдитесь ножом для более равномерного вкуса.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'parsley', count: 1, gauge: 'пучок' },
+        { ingredientKey: 'garlic', count: 3, gauge: 'зубчика' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Помидоры вымойте, удалите плодоножки. Кожицу оставьте — она сохранит форму томатов в рагу. Нарежьте помидоры средними кусочками, чтобы они не развалились при тепловой обработке.',
-      ingredients: [],
+      ingredients: [{ ingredientKey: 'tomato', count: 3, gauge: 'шт.' }],
     },
     {
       img: null,
       video: null,
       description:
         'В глубокой сковороде или сотейнике разогрейте топленое масло. Добавьте кабачки и обжарьте на сильном огне до золотистой корочки — около 4–5 минут. Затем посыпьте мукой, приправьте солью и молотым перцем, готовьте еще минуту.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'meltedButter', count: 2, gauge: 'ст.л.' },
+        { ingredientKey: 'zucchini', count: 800, gauge: 'г' },
+        { ingredientKey: 'flour', count: 1, gauge: 'ст.л.' },
+        { ingredientKey: 'salt', gauge: 'по вкусу' },
+        { ingredientKey: 'groundBlackPepper', gauge: 'по вкусу' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Добавьте в кабачки сметану, убавьте огонь до среднего и перемешайте. Когда смесь закипит, всыпьте нарезанные помидоры и чесночно-зелёную смесь. Прогрейте 2 минуты, снимите с огня и сразу подавайте сочное овощное рагу на стол.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'sourCream', count: 200, gauge: 'г' },
+        { ingredientKey: 'tomato', count: 3, gauge: 'шт.' },
+        { ingredientKey: 'garlic', count: 3, gauge: 'зубчика' },
+        { ingredientKey: 'parsley', count: 1, gauge: 'пучок' },
+      ],
     },
+  ],
+  historyDescription:
+    'Рагу из кабачков в сметане появился в домашнем меню вместе с интересом к более легкой и сбалансированной еде. В таких рецептах важна не диетическая строгость, а понятный состав: овощи, крупы, белковые продукты и мягкие способы приготовления, которые сохраняют вкус без лишней тяжести.',
+  tips: [
+    'Для более сытной версии рагу из кабачков в сметане добавьте источник белка: яйцо, рыбу, курицу, нут или творожный сыр.',
+    'Соль добавляйте ближе к концу приготовления — так легче сохранить естественный вкус овощей и круп.',
+  ],
+  variations: [
+    { name: 'Более сытный вариант', changes: 'Добавьте к рагу из кабачков в сметане курицу, рыбу, яйцо, нут или сыр.' },
+    { name: 'Овощной акцент', changes: 'Увеличьте долю свежих или запеченных овощей и добавьте зелень.' },
   ],
 }

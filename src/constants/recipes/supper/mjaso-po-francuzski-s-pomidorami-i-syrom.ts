@@ -581,71 +581,119 @@ export const MJASO_PO_FRANCUZSKI_S_POMIDORAMI_I_SYROM = {
   time: 60,
   level: 3,
   rating: 5,
-  ingredients: [],
-  equipments: [],
+  ingredients: [
+    { ingredientKey: 'govyazhiOtbivnye', count: 800, gauge: 'г' },
+    { ingredientKey: 'butter', count: 50, gauge: 'г' },
+    { ingredientKey: 'flour', count: 50, gauge: 'г' },
+    { ingredientKey: 'milk', count: 500, gauge: 'мл' },
+    { ingredientKey: 'muscatNut', gauge: 'щепотка' },
+    { ingredientKey: 'oliveOil', count: 4, gauge: 'ст.л.' },
+    { ingredientKey: 'onion', count: 2, gauge: 'шт.' },
+    { ingredientKey: 'tomato', count: 3, gauge: 'шт.' },
+    { ingredientKey: 'hardCheese', count: 150, gauge: 'г' },
+    { ingredientKey: 'salt', gauge: 'по вкусу' },
+    { ingredientKey: 'groundBlackPepper', gauge: 'по вкусу' },
+  ],
+  equipments: [
+    { equipmentKey: 'soteynik' },
+    { equipmentKey: 'spatula' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'paperTowel' },
+    { equipmentKey: 'skovorodaSKryshkoy' },
+    { equipmentKey: 'formaDlyaZapekaniya' },
+    { equipmentKey: 'grater' },
+  ],
   cookingRecipe: [
     {
       img: null,
       video: null,
       description:
         'Начните приготовление мяса по-французски с классического соуса бешамель. В сотейнике растопите сливочное масло на среднем огне. Постепенно добавьте пшеничную муку и перемешивайте, пока не получится однородная масса светлого цвета. Обжаривайте 2–3 минуты до легкого орехового аромата — это основа будущего соуса.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'butter', count: 50, gauge: 'г' },
+        { ingredientKey: 'flour', count: 50, gauge: 'г' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Влейте холодное молоко тонкой струйкой, постоянно помешивая соус венчиком, чтобы избежать комков. Доведите смесь до кипения и варите 5 минут, пока соус не загустеет. В завершение приправьте по вкусу солью и щепоткой мускатного ореха. Домашний бешамель идеально дополнит вкус запеченного мяса.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'milk', count: 500, gauge: 'мл' },
+        { ingredientKey: 'salt', gauge: 'по вкусу' },
+        { ingredientKey: 'muscatNut', gauge: 'щепотка' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Разогрейте духовку до 180°С. Подготовьте форму для запекания — смажьте её оливковым маслом. Используйте керамическую, стеклянную или металлическую форму, подходящую для духовки. Это обеспечит равномерное пропекание мяса по-французски.',
-      ingredients: [],
+      ingredients: [{ ingredientKey: 'oliveOil', count: 1, gauge: 'ст.л.' }],
     },
     {
       img: null,
       video: null,
       description:
         'Говяжьи отбивные тщательно промойте, обсушите бумажными полотенцами. Накройте каждый кусок пленкой или пергаментом и аккуратно отбейте до толщины около 6–7 мм. Не забудьте посолить и поперчить мясо с обеих сторон. Это залог сочной и ароматной основы блюда.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'govyazhiOtbivnye', count: 800, gauge: 'г' },
+        { ingredientKey: 'salt', gauge: 'по вкусу' },
+        { ingredientKey: 'groundBlackPepper', gauge: 'по вкусу' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'На сковороде разогрейте немного оливкового масла и обжарьте отбивные с двух сторон по 2 минуты до румяной корочки. Это придаст мясу аппетитный внешний вид и запечатает соки внутри. Главное — не передержать, чтобы мясо осталось мягким.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'oliveOil', count: 1, gauge: 'ст.л.' },
+        { ingredientKey: 'govyazhiOtbivnye', count: 800, gauge: 'г' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Переложите обжаренное мясо в форму для запекания, выложив его в один слой. Если куски не помещаются, лучше взять форму побольше — мясо должно запекаться равномерно, а не внахлёст.',
-      ingredients: [],
+      ingredients: [{ ingredientKey: 'govyazhiOtbivnye', count: 800, gauge: 'г' }],
     },
     {
       img: null,
       video: null,
       description:
         'Очистите лук и нарежьте тонкими полукольцами. Разогрейте в сковороде 2 столовые ложки оливкового масла, обжаривайте лук на среднем огне до мягкости и золотистого оттенка. Приправьте в конце солью и перцем — это добавит глубину вкусу.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'onion', count: 2, gauge: 'шт.' },
+        { ingredientKey: 'oliveOil', count: 2, gauge: 'ст.л.' },
+        { ingredientKey: 'salt', gauge: 'по вкусу' },
+        { ingredientKey: 'groundBlackPepper', gauge: 'по вкусу' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Равномерно выложите обжаренный лук поверх мяса в форме. Сверху залейте всё тёплым (или остывшим) соусом бешамель. Разгладьте поверхность с помощью кулинарной лопатки — это обеспечит равномерное распределение соуса по всей поверхности будущей запеканки.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'onion', count: 2, gauge: 'шт.' },
+        { ingredientKey: 'milk', count: 500, gauge: 'мл' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Помидоры нарежьте тонкими кольцами и выложите их поверх мясного слоя с соусом. Немного посолите, поперчите, и присыпьте сверху тёртым сыром. Используйте твёрдые сорта, которые хорошо плавятся и образуют румяную корочку при запекании.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'tomato', count: 3, gauge: 'шт.' },
+        { ingredientKey: 'hardCheese', count: 150, gauge: 'г' },
+        { ingredientKey: 'salt', gauge: 'по вкусу' },
+        { ingredientKey: 'groundBlackPepper', gauge: 'по вкусу' },
+      ],
     },
     {
       img: null,
@@ -654,5 +702,18 @@ export const MJASO_PO_FRANCUZSKI_S_POMIDORAMI_I_SYROM = {
         'Поставьте форму с мясом по-французски в заранее разогретую духовку. Запекайте при температуре 180°C около 30 минут, пока сыр не расплавится и не подрумянится. Готовое блюдо можно подавать прямо в форме — это удобно и красиво смотрится на столе.',
       ingredients: [],
     },
+  ],
+  historyDescription:
+    'Мясо по-французски с помидорами и сыром — блюдо из повседневной домашней кухни, где важны понятные продукты, насыщенный вкус и надежный результат. Такие рецепты обычно складываются из практики: хозяйки и повара подбирают удобную технологию, уточняют пропорции и оставляют только те приемы, которые действительно помогают сделать ужин вкуснее.',
+  tips: [
+    'Дайте готовому блюду немного постоять перед подачей — вкус станет ровнее и насыщеннее.',
+    'Пробуйте блюдо в конце приготовления и корректируйте соль, кислоту и специи по своему вкусу.',
+  ],
+  variations: [
+    {
+      name: 'Более легкий вариант',
+      changes: 'Используйте меньше майонеза или замените его сметаной, а слой овощей сделайте чуть толще.',
+    },
+    { name: 'Пикантная версия', changes: 'Добавьте чеснок, острый перец, копченую паприку или любимую смесь специй.' },
   ],
 }

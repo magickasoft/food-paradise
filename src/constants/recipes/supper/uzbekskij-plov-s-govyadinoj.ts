@@ -371,85 +371,130 @@ export const UZBEKSKIJ_PLOV_S_GOVYADINOJ = {
   time: 150,
   level: 2,
   rating: 5,
-  ingredients: [],
-  equipments: [],
+  ingredients: [
+    { ingredientKey: 'rice', count: 1, gauge: 'кг' },
+    { ingredientKey: 'beef', count: 1, gauge: 'кг' },
+    { ingredientKey: 'govyazhiyZhir', count: 150, gauge: 'г' },
+    { ingredientKey: 'vegetableOil', count: 200, gauge: 'мл' },
+    { ingredientKey: 'carrot', count: 1, gauge: 'кг' },
+    { ingredientKey: 'onion', count: 3, gauge: 'шт.' },
+    { ingredientKey: 'garlic', count: 1, gauge: 'головка' },
+    { ingredientKey: 'chiliPepper', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'zira', count: 2, gauge: 'ч.л.' },
+    { ingredientKey: 'salt', count: 2, gauge: 'ст.л.' },
+    { ingredientKey: 'hotWater', count: 2, gauge: 'л' },
+  ],
+  equipments: [
+    { equipmentKey: 'chugunnyyKazan' },
+    { equipmentKey: 'knife' },
+    { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'skimmer' },
+    { equipmentKey: 'lid' },
+    { equipmentKey: 'woodenSpoon' },
+  ],
   cookingRecipe: [
     {
       img: null,
       video: null,
       description:
         'Для начала приготовления плова с говядиной промойте рис и замочите его в солёной воде (2 ст. ложки соли на 2 литра воды) примерно на 30–40 минут. Это обеспечит рассыпчатость готового блюда.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'rice', count: 1, gauge: 'кг' },
+        { ingredientKey: 'salt', count: 2, gauge: 'ст.л.' },
+        { ingredientKey: 'hotWater', count: 2, gauge: 'л' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Возьмите говядину, срежьте лишний жир и мелко его нарежьте. Само мясо порубите на равномерные куски размером 3–4 см — это оптимальный формат для плова.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'beef', count: 1, gauge: 'кг' },
+        { ingredientKey: 'govyazhiyZhir', count: 150, gauge: 'г' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Разогрейте масло в казане до кипения и выложите нарезанный говяжий жир. Это базовый этап для создания насыщенной основы настоящего узбекского плова.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'vegetableOil', count: 200, gauge: 'мл' },
+        { ingredientKey: 'govyazhiyZhir', count: 150, gauge: 'г' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Обжаривайте жир на среднем огне, пока он не превратится в хрустящие шкварки. Удалите их шумовкой. Затем партиями обжарьте куски говядины до золотистой корочки, чтобы мясо стало сочным и ароматным.',
-      ingredients: [],
+      ingredients: [{ ingredientKey: 'beef', count: 1, gauge: 'кг' }],
     },
     {
       img: null,
       video: null,
       description:
         'Для овощной основы очистите морковь и нарежьте её крупной соломкой (3–4 мм толщиной). Лук нарежьте толстыми кольцами — они придадут блюду сладость и аромат.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'carrot', count: 1, gauge: 'кг' },
+        { ingredientKey: 'onion', count: 3, gauge: 'шт.' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Верните обжаренное мясо в казан, добавьте подготовленный лук и морковь. Посыпьте половиной зиры — традиционной приправы, которая создаёт фирменный вкус плова.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'beef', count: 1, gauge: 'кг' },
+        { ingredientKey: 'onion', count: 3, gauge: 'шт.' },
+        { ingredientKey: 'carrot', count: 1, gauge: 'кг' },
+        { ingredientKey: 'zira', count: 1, gauge: 'ч.л.' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Томите ингредиенты на среднем огне, аккуратно помешивая. Когда мясо почти приготовится, а овощи станут мягкими и золотистыми, по необходимости добавьте немного кипятка. Крышку не используйте — важен испарительный процесс.',
-      ingredients: [],
+      ingredients: [{ ingredientKey: 'hotWater', gauge: 'по необходимости' }],
     },
     {
       img: null,
       video: null,
       description:
         'Когда мясо дойдёт до нужной кондиции, добавьте оставшуюся зиру. Головку чеснока слегка обрежьте и снимите верхнюю шелуху. Обжарьте её 3–4 минуты в горячем масле, чтобы придать блюду насыщенный аромат.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'zira', count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'garlic', count: 1, gauge: 'головка' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Тщательно промойте рис под проточной водой, не трогая его руками. Аккуратная промывка помогает сохранить зёрна целыми — это ключ к идеальной текстуре плова.',
-      ingredients: [],
+      ingredients: [{ ingredientKey: 'rice', count: 1, gauge: 'кг' }],
     },
     {
       img: null,
       video: null,
       description:
         'Выложите рис на мясо, разровняйте его. В центре утопите обжаренный чеснок и острый перец. Затем залейте рис кипятком так, чтобы вода покрывала крупу на 1–1,5 см.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'rice', count: 1, gauge: 'кг' },
+        { ingredientKey: 'garlic', count: 1, gauge: 'головка' },
+        { ingredientKey: 'chiliPepper', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'hotWater', gauge: 'чтобы покрыть рис' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Уменьшите огонь до минимума, закройте казан крышкой и готовьте плов 50–60 минут. Важно не перемешивать рис. При необходимости подливайте кипяток, чтобы избежать пригорания.',
-      ingredients: [],
+      ingredients: [{ ingredientKey: 'hotWater', gauge: 'по необходимости' }],
     },
     {
       img: null,
@@ -458,5 +503,18 @@ export const UZBEKSKIJ_PLOV_S_GOVYADINOJ = {
         'Когда рис почти готов, увеличьте огонь на 2–3 минуты, чтобы масло поднялось к поверхности — это делает плов особенно сочным. Затем снова убавьте огонь, закройте крышкой и дайте настояться 20 минут. Плов готов!',
       ingredients: [],
     },
+  ],
+  historyDescription:
+    'Узбекский плов с говядиной — блюдо из повседневной домашней кухни, где важны понятные продукты, насыщенный вкус и надежный результат. Такие рецепты обычно складываются из практики: хозяйки и повара подбирают удобную технологию, уточняют пропорции и оставляют только те приемы, которые действительно помогают сделать ужин вкуснее.',
+  tips: [
+    'Дайте готовому блюду немного постоять перед подачей — вкус станет ровнее и насыщеннее.',
+    'Пробуйте блюдо в конце приготовления и корректируйте соль, кислоту и специи по своему вкусу.',
+  ],
+  variations: [
+    {
+      name: 'Более легкий вариант',
+      changes: 'Уменьшите количество масла и добавьте чуть больше моркови, сохранив рассыпчатость риса.',
+    },
+    { name: 'Пикантная версия', changes: 'Добавьте чеснок, острый перец, копченую паприку или любимую смесь специй.' },
   ],
 }

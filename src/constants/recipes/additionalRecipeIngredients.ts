@@ -124,6 +124,16 @@ export const ADDITIONAL_RECIPE_INGREDIENTS = {
     gauge: 'г',
     img: null,
   },
+  govyazhiyZhir: {
+    name: 'Говяжий жир',
+    gauge: 'г',
+    img: null,
+  },
+  govyazhiOtbivnye: {
+    name: 'Говяжьи отбивные',
+    gauge: 'г',
+    img: null,
+  },
   goroshekKonservirovannyy: {
     name: 'Горошек консервированный',
     gauge: 'банка',
@@ -496,6 +506,11 @@ export const ADDITIONAL_RECIPE_INGREDIENTS = {
   },
   pshenichnayaMuka: {
     name: 'Пшеничная мука',
+    gauge: 'г',
+    img: null,
+  },
+  ribaySteyk: {
+    name: 'Стейк рибай',
     gauge: 'г',
     img: null,
   },
