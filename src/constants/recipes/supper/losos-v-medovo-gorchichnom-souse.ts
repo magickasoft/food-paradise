@@ -266,6 +266,11 @@ export const LOSOS_V_MEDOVO_GORCHICHNOM_SOUSE = {
         {
           ingredientKey: 'olivkovoeMaslo',
           gauge: 'ст.л',
+          count: 2,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
           count: 1,
         },
       ],

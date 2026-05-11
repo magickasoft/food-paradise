@@ -943,6 +943,15 @@ export const SALAT_NISUAZ_S_TUNTSOM = {
     {
       equipmentKey: 'pot',
     },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
+    },
+    {
+      equipmentKey: 'salatnitsa',
+    },
   ],
   cookingRecipe: [
     {
@@ -972,6 +981,11 @@ export const SALAT_NISUAZ_S_TUNTSOM = {
           ingredientKey: 'tunetsSteyk',
           gauge: 'г',
           count: 200,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
+          count: 1,
         },
       ],
     },
@@ -1016,6 +1030,11 @@ export const SALAT_NISUAZ_S_TUNTSOM = {
         {
           ingredientKey: 'dizhonskayaGorchitsa',
           gauge: 'ч.л',
+          count: 1,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
           count: 1,
         },
       ],

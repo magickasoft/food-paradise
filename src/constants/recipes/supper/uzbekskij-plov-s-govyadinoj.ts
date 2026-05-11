@@ -367,8 +367,8 @@ export const UZBEKSKIJ_PLOV_S_GOVYADINOJ = {
   calories: 796.62,
   portions: 10,
   used: [35.68, 34.1, 88.12],
-  preparation: null,
-  time: 150,
+  preparation: 40,
+  time: 190,
   level: 2,
   rating: 5,
   ingredients: [

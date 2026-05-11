@@ -1084,6 +1084,12 @@ export const KRABOVYI_SALAT_S_KUKURUZOI = {
     {
       equipmentKey: 'knife',
     },
+    {
+      equipmentKey: 'cutBoard',
+    },
+    {
+      equipmentKey: 'bowl',
+    },
   ],
   cookingRecipe: [
     {
@@ -1135,6 +1141,11 @@ export const KRABOVYI_SALAT_S_KUKURUZOI = {
           ingredientKey: 'mayonnaise',
           gauge: 'ст.л',
           count: 3,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
+          count: 1,
         },
       ],
     },

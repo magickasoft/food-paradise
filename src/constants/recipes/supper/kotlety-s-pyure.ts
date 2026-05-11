@@ -842,6 +842,11 @@ export const KOTLETY_S_PYURE = {
       count: 3,
     },
     {
+      ingredientKey: 'rastitelnoeMaslo',
+      gauge: 'ст.л',
+      count: 2,
+    },
+    {
       ingredientKey: 'solIPerets',
       gauge: 'по вкусу',
       count: 1,
@@ -850,6 +855,12 @@ export const KOTLETY_S_PYURE = {
   equipments: [
     {
       equipmentKey: 'pan',
+    },
+    {
+      equipmentKey: 'pot',
+    },
+    {
+      equipmentKey: 'bowl',
     },
     {
       equipmentKey: 'kartofelemyalka',
@@ -881,13 +892,29 @@ export const KOTLETY_S_PYURE = {
           gauge: 'шт.',
           count: 1,
         },
+        {
+          ingredientKey: 'panirovochnyeSuhari',
+          gauge: 'ст.л',
+          count: 3,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
+          count: 1,
+        },
       ],
     },
     {
       img: null,
       video: null,
       description: 'Обжарьте котлеты на среднем огне до румяной корочки (по 4-5 минут с каждой стороны).',
-      ingredients: [],
+      ingredients: [
+        {
+          ingredientKey: 'rastitelnoeMaslo',
+          gauge: 'ст.л',
+          count: 2,
+        },
+      ],
     },
     {
       img: null,

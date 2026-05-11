@@ -1327,6 +1327,12 @@ export const SALAT_VALDORF_S_KURITSEY = {
     {
       equipmentKey: 'knife',
     },
+    {
+      equipmentKey: 'cutBoard',
+    },
+    {
+      equipmentKey: 'bowl',
+    },
   ],
   cookingRecipe: [
     {
@@ -1387,6 +1393,11 @@ export const SALAT_VALDORF_S_KURITSEY = {
           ingredientKey: 'mustard',
           gauge: 'ч.л',
           count: 0.5,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
+          count: 1,
         },
       ],
     },

@@ -780,6 +780,11 @@ export const SALAT_S_TUNTSOM_I_YAITSOM = {
           gauge: 'ч.л',
           count: 0.5,
         },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
+          count: 1,
+        },
       ],
     },
   ],

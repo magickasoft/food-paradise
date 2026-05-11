@@ -553,6 +553,12 @@ export const KARTOFELNAYA_ZAPEKANKA_S_FARSHEM = {
     {
       equipmentKey: 'pan',
     },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
+    },
   ],
   cookingRecipe: [
     {
@@ -573,6 +579,16 @@ export const KARTOFELNAYA_ZAPEKANKA_S_FARSHEM = {
         {
           ingredientKey: 'luk',
           gauge: 'шт.',
+          count: 1,
+        },
+        {
+          ingredientKey: 'rastitelnoeMaslo',
+          gauge: 'ст.л',
+          count: 2,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
           count: 1,
         },
       ],

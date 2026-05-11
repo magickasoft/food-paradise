@@ -437,6 +437,9 @@ export const MAKARONY_S_SYROM = {
     {
       equipmentKey: 'formaDlyaZapekaniya',
     },
+    {
+      equipmentKey: 'pan',
+    },
   ],
   cookingRecipe: [
     {
@@ -454,8 +457,19 @@ export const MAKARONY_S_SYROM = {
     {
       img: null,
       video: null,
-      description: 'На сковороде растопите масло, обжарьте чеснок, влейте сливки. Добавьте тертые сыры и перемешайте.',
+      description:
+        'На сковороде растопите масло, обжарьте чеснок, влейте сливки. Добавьте часть тертых сыров, посолите, поперчите и перемешайте.',
       ingredients: [
+        {
+          ingredientKey: 'slivochnoeMaslo',
+          gauge: 'г',
+          count: 30,
+        },
+        {
+          ingredientKey: 'garlic',
+          gauge: 'зубчик',
+          count: 1,
+        },
         {
           ingredientKey: 'cream20',
           gauge: 'мл',
@@ -464,20 +478,37 @@ export const MAKARONY_S_SYROM = {
         {
           ingredientKey: 'motsarella',
           gauge: 'г',
-          count: 150,
+          count: 100,
         },
         {
           ingredientKey: 'parmezan',
           gauge: 'г',
-          count: 50,
+          count: 30,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
+          count: 1,
         },
       ],
     },
     {
       img: null,
       video: null,
-      description: 'Смешайте макароны с соусом, переложите в форму, посыпьте сыром и запекайте 5 минут при 200°C.',
-      ingredients: [],
+      description:
+        'Смешайте макароны с соусом, переложите в форму, посыпьте оставшимся сыром и запекайте 5 минут при 200°C.',
+      ingredients: [
+        {
+          ingredientKey: 'motsarella',
+          gauge: 'г',
+          count: 50,
+        },
+        {
+          ingredientKey: 'parmezan',
+          gauge: 'г',
+          count: 20,
+        },
+      ],
     },
   ],
   tips: ['Для пикантности добавьте щепотку мускатного ореха в соус.', 'Подавайте сразу — сырный соус быстро густеет.'],

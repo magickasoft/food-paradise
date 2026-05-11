@@ -1178,6 +1178,12 @@ export const SALAT_OLIVYE_KLASSICHESKII = {
     {
       equipmentKey: 'knife',
     },
+    {
+      equipmentKey: 'cutBoard',
+    },
+    {
+      equipmentKey: 'bowl',
+    },
   ],
   cookingRecipe: [
     {
@@ -1239,6 +1245,11 @@ export const SALAT_OLIVYE_KLASSICHESKII = {
           ingredientKey: 'mayonnaise',
           gauge: 'ст.л',
           count: 5,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
+          count: 1,
         },
       ],
     },

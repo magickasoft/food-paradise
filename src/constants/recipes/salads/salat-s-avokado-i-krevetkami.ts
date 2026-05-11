@@ -1369,6 +1369,12 @@ export const SALAT_S_AVOKADO_I_KREVETKAMI = {
       equipmentKey: 'pan',
     },
     {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
+    },
+    {
       equipmentKey: 'salatnitsa',
     },
   ],
@@ -1436,6 +1442,11 @@ export const SALAT_S_AVOKADO_I_KREVETKAMI = {
         {
           ingredientKey: 'honey',
           gauge: 'ч.л',
+          count: 1,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
           count: 1,
         },
       ],

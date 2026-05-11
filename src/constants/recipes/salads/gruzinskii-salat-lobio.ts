@@ -674,12 +674,21 @@ export const GRUZINSKII_SALAT_LOBIO = {
     {
       equipmentKey: 'stupkaDlyaChesnoka',
     },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
+    },
+    {
+      equipmentKey: 'bowl',
+    },
   ],
   cookingRecipe: [
     {
       img: null,
       video: null,
-      description: 'Фасоль отварите до мягкости (или используйте консервированную). Лук нарежьте полукольцами.',
+      description: 'Отварную красную фасоль обсушите. Лук нарежьте тонкими полукольцами.',
       ingredients: [
         {
           ingredientKey: 'fasolKrasnaya',
@@ -696,7 +705,7 @@ export const GRUZINSKII_SALAT_LOBIO = {
     {
       img: null,
       video: null,
-      description: 'Орехи обжарьте и измельчите. Чеснок раздавите в ступке с солью и хмели-сунели.',
+      description: 'Орехи обжарьте и измельчите. Чеснок раздавите в ступке с солью, перцем и хмели-сунели.',
       ingredients: [
         {
           ingredientKey: 'gretskieOrehi',
@@ -711,6 +720,11 @@ export const GRUZINSKII_SALAT_LOBIO = {
         {
           ingredientKey: 'hmeliSuneli',
           gauge: 'ч.л',
+          count: 1,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
           count: 1,
         },
       ],

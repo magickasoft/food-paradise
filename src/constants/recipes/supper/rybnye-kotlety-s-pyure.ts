@@ -651,6 +651,11 @@ export const RYBNYE_KOTLETY_S_PYURE = {
       count: 50,
     },
     {
+      ingredientKey: 'milk',
+      gauge: 'мл',
+      count: 100,
+    },
+    {
       ingredientKey: 'solIPerets',
       gauge: 'по вкусу',
       count: 1,
@@ -661,7 +666,13 @@ export const RYBNYE_KOTLETY_S_PYURE = {
       equipmentKey: 'pan',
     },
     {
+      equipmentKey: 'pot',
+    },
+    {
       equipmentKey: 'blender',
+    },
+    {
+      equipmentKey: 'kartofelemyalka',
     },
   ],
   cookingRecipe: [
@@ -684,6 +695,21 @@ export const RYBNYE_KOTLETY_S_PYURE = {
           ingredientKey: 'dill',
           gauge: 'г',
           count: 20,
+        },
+        {
+          ingredientKey: 'yaytso',
+          gauge: 'шт.',
+          count: 1,
+        },
+        {
+          ingredientKey: 'mannayaKrupa',
+          gauge: 'ст.л',
+          count: 2,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
+          count: 1,
         },
       ],
     },
@@ -713,6 +739,11 @@ export const RYBNYE_KOTLETY_S_PYURE = {
           ingredientKey: 'slivochnoeMaslo',
           gauge: 'г',
           count: 50,
+        },
+        {
+          ingredientKey: 'milk',
+          gauge: 'мл',
+          count: 100,
         },
       ],
     },

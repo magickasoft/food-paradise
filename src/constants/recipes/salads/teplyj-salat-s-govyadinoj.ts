@@ -802,6 +802,15 @@ export const TEPLYJ_SALAT_S_GOVYADINOJ = {
     {
       equipmentKey: 'kuhonnyeSchiptsy',
     },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
+    },
+    {
+      equipmentKey: 'salatnitsa',
+    },
   ],
   cookingRecipe: [
     {
@@ -823,6 +832,11 @@ export const TEPLYJ_SALAT_S_GOVYADINOJ = {
         {
           ingredientKey: 'olivkovoeMaslo',
           gauge: 'ст.л',
+          count: 1,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
           count: 1,
         },
       ],

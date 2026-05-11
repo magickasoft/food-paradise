@@ -10,6 +10,8 @@ import { KRABOVYI_SALAT_S_KUKURUZOI } from './salads/krabovyi-salat-s-kukuruzoi'
 import { SALAT_OLIVYE_KLASSICHESKII } from './salads/salat-olivye-klassicheskii'
 import { LETNII_SALAT_S_KLUBNIKOI } from './salads/letnii-salat-s-klubnikoi'
 import { GRUZINSKII_SALAT_LOBIO } from './salads/gruzinskii-salat-lobio'
+import { SALAT_MIMOSA } from './salads/salat-mimosa'
+import { SALAT_S_YAZYKOM_I_GRIBAMI } from './salads/salat-s-yazykom-i-gribami'
 
 export const SALADS = [
   GRECHESKIJ_SALAT,
@@ -24,4 +26,6 @@ export const SALADS = [
   SALAT_OLIVYE_KLASSICHESKII,
   LETNII_SALAT_S_KLUBNIKOI,
   GRUZINSKII_SALAT_LOBIO,
+  SALAT_MIMOSA,
+  SALAT_S_YAZYKOM_I_GRIBAMI,
 ]

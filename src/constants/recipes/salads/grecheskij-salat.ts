@@ -832,6 +832,10 @@ export const GRECHESKIJ_SALAT = {
       count: 0.5,
     },
     {
+      ingredientKey: 'bellPepper',
+      count: 1,
+    },
+    {
       ingredientKey: 'fetaCheese',
       count: 100,
     },
@@ -869,7 +873,12 @@ export const GRECHESKIJ_SALAT = {
       video: null,
       description:
         'Огурцы и помидоры нарежьте крупными дольками, чтобы сохранить их сочность. Красный лук нарежьте тонкими кольцами. Переложите всё в глубокую миску.',
-      ingredients: [{ ingredientKey: 'tomato' }, { ingredientKey: 'cucumber' }, { ingredientKey: 'redOnion' }],
+      ingredients: [
+        { ingredientKey: 'tomato' },
+        { ingredientKey: 'cucumber' },
+        { ingredientKey: 'redOnion' },
+        { ingredientKey: 'bellPepper' },
+      ],
     },
     {
       img: null,

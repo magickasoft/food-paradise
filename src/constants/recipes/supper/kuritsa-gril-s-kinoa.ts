@@ -1160,6 +1160,18 @@ export const KURITSA_GRIL_S_KINOA = {
     {
       equipmentKey: 'skovorodaGril',
     },
+    {
+      equipmentKey: 'pot',
+    },
+    {
+      equipmentKey: 'knife',
+    },
+    {
+      equipmentKey: 'cutBoard',
+    },
+    {
+      equipmentKey: 'bakingTray',
+    },
   ],
   cookingRecipe: [
     {
@@ -1181,6 +1193,11 @@ export const KURITSA_GRIL_S_KINOA = {
         {
           ingredientKey: 'olivkovoeMaslo',
           gauge: 'ст.л',
+          count: 1,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
           count: 1,
         },
       ],

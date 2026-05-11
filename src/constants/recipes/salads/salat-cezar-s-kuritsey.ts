@@ -1268,6 +1268,11 @@ export const SALAT_CEZAR_S_KURITSEY = {
           gauge: 'ст.л',
           count: 1,
         },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
+          count: 1,
+        },
       ],
     },
     {
@@ -1291,7 +1296,7 @@ export const SALAT_CEZAR_S_KURITSEY = {
       img: null,
       video: null,
       description:
-        'Листья романо порвите руками, выложите в салатницу. Добавьте курицу, крутоны и тертый пармезан. Полейте соусом.',
+        'Листья романо порвите руками, выложите в салатницу. Добавьте курицу, крутоны и тертый пармезан. Полейте соусом, оставшимся оливковым маслом и лимонным соком.',
       ingredients: [
         {
           ingredientKey: 'listyaRomano',
@@ -1307,6 +1312,16 @@ export const SALAT_CEZAR_S_KURITSEY = {
           ingredientKey: 'sousTsezar',
           gauge: 'ст.л',
           count: 3,
+        },
+        {
+          ingredientKey: 'olivkovoeMaslo',
+          gauge: 'ст.л',
+          count: 1,
+        },
+        {
+          ingredientKey: 'lemonJuice',
+          gauge: 'ч.л',
+          count: 1,
         },
       ],
     },

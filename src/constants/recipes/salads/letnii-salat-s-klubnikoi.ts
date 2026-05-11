@@ -599,6 +599,12 @@ export const LETNII_SALAT_S_KLUBNIKOI = {
       equipmentKey: 'knife',
     },
     {
+      equipmentKey: 'cutBoard',
+    },
+    {
+      equipmentKey: 'pan',
+    },
+    {
       equipmentKey: 'salatnitsa',
     },
   ],
@@ -661,6 +667,11 @@ export const LETNII_SALAT_S_KLUBNIKOI = {
         {
           ingredientKey: 'lemonJuice',
           gauge: 'ст.л',
+          count: 1,
+        },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
           count: 1,
         },
       ],

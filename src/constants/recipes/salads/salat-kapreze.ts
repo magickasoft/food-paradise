@@ -758,6 +758,11 @@ export const SALAT_KAPREZE = {
           gauge: 'ч.л',
           count: 1,
         },
+        {
+          ingredientKey: 'solIPerets',
+          gauge: 'по вкусу',
+          count: 1,
+        },
       ],
     },
   ],
