@@ -614,6 +614,11 @@ export const RUBLENYE_KOTLETY_IZ_GRUDKI_NA_SKOVORODE = {
       count: 60,
     },
     {
+      ingredientKey: 'vegetableOil',
+      count: 2,
+      gauge: 'ст.л.',
+    },
+    {
       ingredientKey: 'meltedButter',
     },
     {
@@ -637,42 +642,59 @@ export const RUBLENYE_KOTLETY_IZ_GRUDKI_NA_SKOVORODE = {
       video: null,
       description:
         'Чтобы начать готовку рубленых котлет из куриной грудки на сковороде, замочите мякиш белого хлеба в сливках — это сделает фарш более сочным и мягким. Пока хлеб впитывает сливки, подготовьте остальные ингредиенты.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'whiteBread', count: 150 },
+        { ingredientKey: 'cream20', count: 100 },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Для домашнего фарша нарежьте куриные грудки сначала пластами, затем мелкими кубиками. Используйте тяжелый нож и большую разделочную доску. Порубите мясо в фарш, приправьте солью и перцем — это основа для вкусных котлет.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'chickenBreast', count: 0.6 },
+        { ingredientKey: 'salt' },
+        { ingredientKey: 'groundBlackPepper' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
-        'В ароматную основу для фарша обжарьте нарезанные лук и чеснок на сильном огне до золотистости. Добавьте хлеб со сливками и измельчите все ингредиенты блендером до однородной массы — это придаст котлетам нежность.',
-      ingredients: [],
+        'В ароматную основу для фарша обжарьте нарезанные лук и чеснок на растопленном сливочном масле до золотистости. Добавьте хлеб со сливками и измельчите все ингредиенты блендером до однородной массы — это придаст котлетам нежность.',
+      ingredients: [
+        { ingredientKey: 'onion', count: 1 },
+        { ingredientKey: 'garlic', count: 2 },
+        { ingredientKey: 'meltedButter' },
+        { ingredientKey: 'whiteBread', count: 150 },
+        { ingredientKey: 'cream20', count: 100 },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Смешайте получившееся пюре из лука, чеснока и хлеба с рубленым куриным фаршем. Накройте пленкой и уберите в холодильник минимум на час — охлаждение улучшит структуру котлет.',
-      ingredients: [],
+      ingredients: [{ ingredientKey: 'chickenBreast', count: 0.6 }],
     },
     {
       img: null,
       video: null,
       description:
         'Перед тем как жарить, разделите фарш на равные части по 100 граммов. Подготовьте сковороду с растительным маслом и слегка подсоленную муку для панировки — она поможет создать аппетитную корочку.',
-      ingredients: [],
+      ingredients: [
+        { ingredientKey: 'vegetableOil', count: 2, gauge: 'ст.л.' },
+        { ingredientKey: 'flour', count: 60 },
+        { ingredientKey: 'salt' },
+      ],
     },
     {
       img: null,
       video: null,
       description:
         'Сформируйте руками сочные, плотные котлеты и аккуратно обваляйте их в муке. Выложите на горячую сковороду, следя за тем, чтобы не класть слишком много за раз — котлеты должны равномерно обжариться.',
-      ingredients: [],
+      ingredients: [{ ingredientKey: 'flour', count: 60 }],
     },
     {
       img: null,

@@ -1,4 +1,4 @@
-import { type Recipe, RECIPES_OBJ } from '../constants/recipes/recipes'
+import { type Recipe, getAllRecipes } from '../constants/recipes/recipes'
 
 const RECIPE_MAP = createRecipeMap()
 
@@ -17,10 +17,6 @@ function createRecipeMap(): Map<string, Recipe> {
   }
 
   return map
-}
-
-function getAllRecipes(): Recipe[] {
-  return Object.values(RECIPES_OBJ).flat()
 }
 
 function normalizeKey(key: string): string {

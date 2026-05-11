@@ -1,7 +1,7 @@
-import { RECIPES_OBJ } from '@/constants/recipes/recipes'
+import { getAllRecipes } from '@/constants/recipes/recipes'
 
 export async function generateStaticParams() {
-  const allRecipes = Object.values(RECIPES_OBJ).flat()
+  const allRecipes = getAllRecipes()
   return allRecipes.map(recipe => ({
     name: recipe.key ?? recipe.name,
   }))

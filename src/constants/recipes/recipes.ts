@@ -107,3 +107,15 @@ export const RECIPES_OBJ: {
   'homemade-alcohol': [...HOMEMADE_ALCOHOL],
   'refreshing-drinks': [...REFRESHING_DRINKS],
 }
+
+export const getAllRecipes = (): Recipe[] => {
+  const recipesByKey = new Map<string, Recipe>()
+
+  for (const recipe of Object.values(RECIPES_OBJ).flat()) {
+    if (!recipe.key || recipesByKey.has(recipe.key)) continue
+
+    recipesByKey.set(recipe.key, recipe)
+  }
+
+  return [...recipesByKey.values()]
+}

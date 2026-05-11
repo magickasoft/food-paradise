@@ -1,6 +1,9 @@
 import { describe, expect, test } from 'bun:test'
-import { RECIPES_OBJ } from './recipes'
+import { RECIPES_OBJ, getAllRecipes } from './recipes'
 import { resolveRecipeIngredient } from './recipeIngredients'
+
+const getIngredientKey = (ingredient: { ingredientKey?: string; name?: string }) =>
+  ingredient.ingredientKey ?? ingredient.name
 
 describe('resolveRecipeIngredient', () => {
   test('resolves ingredient data from ingredientKey and preserves recipe-specific amount', () => {
@@ -40,5 +43,24 @@ describe('resolveRecipeIngredient', () => {
         }
       }
     }
+  })
+
+  test('step ingredients stay present in main recipe ingredients', () => {
+    for (const recipe of getAllRecipes()) {
+      const mainIngredientKeys = new Set(recipe.ingredients.map(getIngredientKey))
+      const extraStepIngredients = recipe.cookingRecipe
+        .flatMap(step => step.ingredients.map(getIngredientKey))
+        .filter(ingredientKey => !mainIngredientKeys.has(ingredientKey))
+
+      expect(extraStepIngredients, `${recipe.key}: step ingredients must be present in main ingredients`).toEqual([])
+    }
+  })
+
+  test('recipes do not leave every cooking step without ingredient links', () => {
+    const recipesWithoutStepIngredients = getAllRecipes()
+      .filter(recipe => recipe.cookingRecipe.every(step => step.ingredients.length === 0))
+      .map(recipe => recipe.key)
+
+    expect(recipesWithoutStepIngredients).toEqual([])
   })
 })

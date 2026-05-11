@@ -271,6 +271,7 @@ export const KANAPE_IZ_OGURTSA_S_LOSOSEM = {
   equipments: [
     { equipmentKey: 'knife' },
     { equipmentKey: 'cutBoard' },
+    { equipmentKey: 'paperTowel' },
     { equipmentKey: 'bowl' },
     { equipmentKey: 'spoon' },
   ],
@@ -611,10 +612,10 @@ export const KANAPE_S_SELDYU_I_SVEKLOY = {
   metaSeo: createMetaSeo(
     'kanape-s-seldyu-i-svekloy',
     'Канапе с сельдью и свеклой',
-    'Мини-закуска на черном хлебе со свеклой, сельдью, луком и зеленью.',
+    'Мини-закуска на хлебе со свеклой, сельдью, луком и зеленью.',
     ['канапе с сельдью', 'закуска со свеклой', 'селедка на хлебе', 'праздничные канапе'],
   ),
-  searchRequests: ['канапе с сельдью', 'селедка со свеклой', 'закуска на черном хлебе'],
+  searchRequests: ['канапе с сельдью', 'селедка со свеклой', 'закуска на хлебе'],
   categories: [{ name: 'snacks' }],
   key: 'kanape-s-seldyu-i-svekloy',
   name: 'kanape-s-seldyu-i-svekloy',

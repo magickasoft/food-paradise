@@ -996,7 +996,7 @@ export const SHASHLYK_IZ_SVININY_V_GRANATOVOM_SOUSE = {
     'Кавказский вариант шашлыка: свиная шея в гранатовом маринаде с луком приобретает удивительную сочность и тонкий кисло-сладкий вкус.',
   calories: 310,
   preparation: 25,
-  time: 185,
+  time: 210,
   level: 2,
   rating: 4.9,
   portions: 5,

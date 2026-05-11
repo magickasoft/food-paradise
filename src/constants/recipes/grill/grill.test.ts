@@ -2,6 +2,7 @@ import { describe, expect, test } from 'bun:test'
 
 import { GRILL } from '../grill'
 import { LOSOS_NA_KEDROVOY_DOSKE_S_MEDOVO_GORCHICHNYM_SOUSOM } from './losos-na-kedrovoy-doske-s-medovo-gorchichnym-sousom'
+import { SHASHLYK_IZ_BARANINY_S_ROZMARINOM } from './shashlyk-iz-baraniny-s-rozmarinom'
 
 const getIngredientKey = (ingredient: { ingredientKey?: string; name?: string }) =>
   ingredient.ingredientKey ?? ingredient.name
@@ -27,6 +28,10 @@ describe('grill recipes', () => {
 
   test('cedar plank salmon timing includes soaking the plank', () => {
     expect(LOSOS_NA_KEDROVOY_DOSKE_S_MEDOVO_GORCHICHNYM_SOUSOM.preparation).toBeGreaterThanOrEqual(75)
+  })
+
+  test('lamb skewer timing includes long marinating', () => {
+    expect(SHASHLYK_IZ_BARANINY_S_ROZMARINOM.preparation).toBeGreaterThanOrEqual(240)
   })
 
   test('main ingredient lists stay synchronized with cooking step ingredient lists', () => {

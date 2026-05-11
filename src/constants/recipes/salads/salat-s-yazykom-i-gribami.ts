@@ -65,7 +65,7 @@ export const SALAT_S_YAZYKOM_I_GRIBAMI = {
   description: 'Праздничный салат с нежным говяжьим языком и обжаренными грибами.',
   calories: 320,
   preparation: 120,
-  time: 25,
+  time: 145,
   level: 3,
   rating: 5,
   portions: 6,

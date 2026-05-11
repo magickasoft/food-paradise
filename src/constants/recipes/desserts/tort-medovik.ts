@@ -264,7 +264,7 @@ export const TORT_MEDOVIK = {
     'Императорский десерт с медовыми коржами и сметанным кремом. Требует томления 12 часов для идеальной пропитки.',
   calories: 380,
   preparation: 40,
-  time: 520,
+  time: 760,
   level: 3,
   rating: 4.9,
   portions: 12,

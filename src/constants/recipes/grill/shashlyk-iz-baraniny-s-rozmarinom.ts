@@ -883,8 +883,8 @@ export const SHASHLYK_IZ_BARANINY_S_ROZMARINOM = {
   description:
     'Средиземноморская версия шашлыка: молодая баранина в маринаде с розмарином, чесноком и лимоном приобретает нежный вкус и аппетитную корочку.',
   calories: 290,
-  preparation: 30,
-  time: 150,
+  preparation: 240,
+  time: 270,
   level: 3,
   rating: 4.8,
   portions: 4,

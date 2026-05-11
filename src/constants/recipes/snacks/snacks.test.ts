@@ -7,6 +7,7 @@ import { SENDVICH_S_AVOKADO_I_YAITSOM_PASHOT } from './sendvich-s-avokado-i-yait
 import { TARTALETKI_S_IKROY } from './tartaletki-s-ikroy'
 import { TARTALETKI_S_KURITSEY_I_GRIBAMI } from './tartaletki-s-kuritsey-i-gribami'
 import { resolveRecipeIngredient } from '../recipeIngredients'
+import { KANAPE_IZ_OGURTSA_S_LOSOSEM, KANAPE_S_SELDYU_I_SVEKLOY } from './quick-snacks'
 
 const NEW_SNACK_KEYS = [
   'brusketta-s-tomatami-i-bazilikom',
@@ -76,5 +77,11 @@ describe('snack recipes', () => {
       expect(recipe?.ingredients.length).toBeGreaterThan(0)
       expect(recipe?.equipments.length).toBeGreaterThan(0)
     }
+  })
+
+  test('new snack recipe details stay synchronized', () => {
+    expect(KANAPE_IZ_OGURTSA_S_LOSOSEM.equipments.map(({ equipmentKey }) => equipmentKey)).toContain('paperTowel')
+    expect(KANAPE_S_SELDYU_I_SVEKLOY.metaSeo.description).not.toContain('черном хлебе')
+    expect(KANAPE_S_SELDYU_I_SVEKLOY.searchRequests).not.toContain('закуска на черном хлебе')
   })
 })
