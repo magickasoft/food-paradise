@@ -395,46 +395,39 @@ export const MAKARONY_S_SYROM = {
   used: [8, 10],
   ingredients: [
     {
-      name: 'Спагетти',
+      ingredientKey: 'spagetti',
       gauge: 'г',
       count: 300,
-      img: null,
     },
     {
-      name: 'Сливки 20%',
+      ingredientKey: 'cream20',
       gauge: 'мл',
       count: 200,
-      img: null,
     },
     {
-      name: 'Моцарелла',
+      ingredientKey: 'motsarella',
       gauge: 'г',
       count: 150,
-      img: null,
     },
     {
-      name: 'Пармезан',
+      ingredientKey: 'parmezan',
       gauge: 'г',
       count: 50,
-      img: null,
     },
     {
-      name: 'Сливочное масло',
+      ingredientKey: 'slivochnoeMaslo',
       gauge: 'г',
       count: 30,
-      img: null,
     },
     {
-      name: 'Чеснок',
+      ingredientKey: 'garlic',
       gauge: 'зубчик',
       count: 1,
-      img: null,
     },
     {
-      name: 'Соль и перец',
+      ingredientKey: 'solIPerets',
       gauge: 'по вкусу',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -454,10 +447,9 @@ export const MAKARONY_S_SYROM = {
       description: 'Спагетти отварите в подсоленной воде до состояния al dente. Откиньте на дуршлаг.',
       ingredients: [
         {
-          name: 'Спагетти',
+          ingredientKey: 'spagetti',
           gauge: 'г',
           count: 300,
-          img: null,
         },
       ],
     },
@@ -467,22 +459,19 @@ export const MAKARONY_S_SYROM = {
       description: 'На сковороде растопите масло, обжарьте чеснок, влейте сливки. Добавьте тертые сыры и перемешайте.',
       ingredients: [
         {
-          name: 'Сливки 20%',
+          ingredientKey: 'cream20',
           gauge: 'мл',
           count: 200,
-          img: null,
         },
         {
-          name: 'Моцарелла',
+          ingredientKey: 'motsarella',
           gauge: 'г',
           count: 150,
-          img: null,
         },
         {
-          name: 'Пармезан',
+          ingredientKey: 'parmezan',
           gauge: 'г',
           count: 50,
-          img: null,
         },
       ],
     },

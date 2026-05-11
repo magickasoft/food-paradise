@@ -724,52 +724,44 @@ export const TYKVENNYJ_SUP_S_IMBIREM = {
   used: [12, 10, 8],
   ingredients: [
     {
-      name: 'Тыква',
+      ingredientKey: 'pumpkin',
       gauge: 'г',
       count: 500,
-      img: null,
     },
     {
-      name: 'Кокосовое молоко',
+      ingredientKey: 'kokosovoeMoloko',
       gauge: 'мл',
       count: 200,
-      img: null,
     },
     {
-      name: 'Имбирь',
+      ingredientKey: 'ginger',
       gauge: 'см',
       count: 3,
-      img: null,
     },
     {
-      name: 'Чеснок',
+      ingredientKey: 'garlic',
       gauge: 'зубчик',
       count: 2,
-      img: null,
     },
     {
-      name: 'Лук репчатый',
+      ingredientKey: 'onion',
       gauge: 'шт.',
       count: 1,
-      img: null,
     },
     {
-      name: 'Оливковое масло',
+      ingredientKey: 'olivkovoeMaslo',
       gauge: 'ст.л',
       count: 1,
-      img: null,
     },
     {
-      name: 'Куркума',
+      ingredientKey: 'kurkuma',
       gauge: 'ч.л',
       count: 0.5,
-      img: null,
     },
     {
-      name: 'Соль и перец',
+      ingredientKey: 'solIPerets',
       gauge: 'по вкусу',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -789,28 +781,24 @@ export const TYKVENNYJ_SUP_S_IMBIREM = {
       description: 'Тыкву очистите и нарежьте кубиками. Лук, чеснок и имбирь обжарьте на оливковом масле 3 минуты.',
       ingredients: [
         {
-          name: 'Тыква',
+          ingredientKey: 'pumpkin',
           gauge: 'г',
           count: 500,
-          img: null,
         },
         {
-          name: 'Лук репчатый',
+          ingredientKey: 'onion',
           gauge: 'шт.',
           count: 1,
-          img: null,
         },
         {
-          name: 'Чеснок',
+          ingredientKey: 'garlic',
           gauge: 'зубчик',
           count: 2,
-          img: null,
         },
         {
-          name: 'Имбирь',
+          ingredientKey: 'ginger',
           gauge: 'см',
           count: 3,
-          img: null,
         },
       ],
     },
@@ -820,10 +808,9 @@ export const TYKVENNYJ_SUP_S_IMBIREM = {
       description: 'Добавьте тыкву, куркуму, залейте водой (500 мл) и варите 20 минут до мягкости.',
       ingredients: [
         {
-          name: 'Куркума',
+          ingredientKey: 'kurkuma',
           gauge: 'ч.л',
           count: 0.5,
-          img: null,
         },
       ],
     },
@@ -834,10 +821,9 @@ export const TYKVENNYJ_SUP_S_IMBIREM = {
         'Измельчите суп блендером, влейте кокосовое молоко, посолите и поперчите. Подавайте с тыквенными семечками.',
       ingredients: [
         {
-          name: 'Кокосовое молоко',
+          ingredientKey: 'kokosovoeMoloko',
           gauge: 'мл',
           count: 200,
-          img: null,
         },
       ],
     },

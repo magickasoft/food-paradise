@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const CRANBERRY_VODKA = {
   metaSeo: {
@@ -47,9 +46,9 @@ export const CRANBERRY_VODKA = {
   rating: 4.9,
   portions: 20,
   ingredients: [
-    { ...INGREDIENTS.cranberry, count: 400, gauge: 'г' },
-    { ...INGREDIENTS.sugar, count: 200, gauge: 'г' },
-    { ...INGREDIENTS.vodka, count: 700, gauge: 'мл' },
+    { ingredientKey: 'cranberry', count: 400, gauge: 'г' },
+    { ingredientKey: 'sugar', count: 200, gauge: 'г' },
+    { ingredientKey: 'vodka', count: 700, gauge: 'мл' },
   ],
   equipments: [EQUIPMENTS.jar, EQUIPMENTS.sieve, EQUIPMENTS.bottle],
 
@@ -59,14 +58,14 @@ export const CRANBERRY_VODKA = {
     {
       img: null,
       description: 'Промойте клюкву, слегка разомните её ложкой или толкушкой, чтобы выделился сок.',
-      ingredients: [{ ...INGREDIENTS.cranberry, count: 400, gauge: 'г' }],
+      ingredients: [{ ingredientKey: 'cranberry', count: 400, gauge: 'г' }],
     },
     {
       img: null,
       description: 'Переложите ягоды в банку, добавьте сахар и залейте водкой. Перемешайте и закройте крышкой.',
       ingredients: [
-        { ...INGREDIENTS.sugar, count: 200, gauge: 'г' },
-        { ...INGREDIENTS.vodka, count: 700, gauge: 'мл' },
+        { ingredientKey: 'sugar', count: 200, gauge: 'г' },
+        { ingredientKey: 'vodka', count: 700, gauge: 'мл' },
       ],
     },
     {

@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const HRENOVUKHA = {
   metaSeo: {
@@ -36,9 +35,9 @@ export const HRENOVUKHA = {
   rating: 4.7,
   portions: 15,
   ingredients: [
-    { ...INGREDIENTS.horseradishRoot, count: 40, gauge: 'г' },
-    { ...INGREDIENTS.honey, count: 1, gauge: 'ст. л.' },
-    { ...INGREDIENTS.vodka, count: 500, gauge: 'мл' },
+    { ingredientKey: 'horseradishRoot', count: 40, gauge: 'г' },
+    { ingredientKey: 'honey', count: 1, gauge: 'ст. л.' },
+    { ingredientKey: 'vodka', count: 500, gauge: 'мл' },
   ],
   equipments: [EQUIPMENTS.jar, EQUIPMENTS.grater, EQUIPMENTS.sieve, EQUIPMENTS.bottle],
   historyDescription:
@@ -48,15 +47,15 @@ export const HRENOVUKHA = {
       img: null,
       video: null,
       description: 'Очистите корень хрена и натрите на мелкой тёрке.',
-      ingredients: [{ ...INGREDIENTS.horseradishRoot, count: 40, gauge: 'г' }],
+      ingredients: [{ ingredientKey: 'horseradishRoot', count: 40, gauge: 'г' }],
     },
     {
       img: null,
       video: null,
       description: 'Положите хрен в банку, добавьте мёд и залейте водкой. Перемешайте.',
       ingredients: [
-        { ...INGREDIENTS.honey, count: 1, gauge: 'ст. л.' },
-        { ...INGREDIENTS.vodka, count: 500, gauge: 'мл' },
+        { ingredientKey: 'honey', count: 1, gauge: 'ст. л.' },
+        { ingredientKey: 'vodka', count: 500, gauge: 'мл' },
       ],
     },
     {

@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const OKROSHKA_NA_KVASE = {
   metaSeo: {
@@ -642,62 +641,62 @@ export const OKROSHKA_NA_KVASE = {
   used: [8.25, 12.57, 19.03],
   ingredients: [
     {
-      ...INGREDIENTS.potato,
+      ingredientKey: 'potato',
       count: 6,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.eggs,
+      ingredientKey: 'eggs',
       count: 3,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.radish,
+      ingredientKey: 'radish',
       count: 6,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.cucumber,
+      ingredientKey: 'cucumber',
       count: 3,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.greenOnion,
+      ingredientKey: 'greenOnion',
       count: 1,
       gauge: 'пуч.',
     },
     {
-      ...INGREDIENTS.dill,
+      ingredientKey: 'dill',
       count: 1,
       gauge: 'пуч.',
     },
     {
-      ...INGREDIENTS.parsley,
+      ingredientKey: 'parsley',
       count: 1,
       gauge: 'пуч.',
     },
     {
-      ...INGREDIENTS.boiledSausage,
+      ingredientKey: 'boiledSausage',
       count: 300,
       gauge: 'г.',
     },
     {
-      ...INGREDIENTS.breadKvass,
+      ingredientKey: 'breadKvass',
       count: 1.5,
       gauge: 'л.',
     },
     {
-      ...INGREDIENTS.sourCream,
+      ingredientKey: 'sourCream',
       count: 20,
       gauge: 'г.',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: 'по вкусу',
       gauge: ' ',
     },
     {
-      ...INGREDIENTS.groundBlackPepper,
+      ingredientKey: 'groundBlackPepper',
       count: 'по вкусу',
       gauge: ' ',
     },
@@ -716,14 +715,14 @@ export const OKROSHKA_NA_KVASE = {
       video: null,
       description:
         'Начните с подготовки всех компонентов. Тщательно вымойте картофель щеткой и отварите его в кожуре до мягкости — это займет примерно 15–20 минут в зависимости от размера клубней.',
-      ingredients: [{ ...INGREDIENTS.potato, count: 6, gauge: 'шт.' }],
+      ingredients: [{ ingredientKey: 'potato', count: 6, gauge: 'шт.' }],
     },
     {
       img: null,
       video: null,
       description:
         'Яйца аккуратно положите в кастрюлю, залейте холодной водой и доведите до кипения. Затем убавьте огонь и варите около 10 минут. После этого остудите яйца под струей холодной воды и очистите от скорлупы.',
-      ingredients: [{ ...INGREDIENTS.eggs, count: 3, gauge: 'шт.' }],
+      ingredients: [{ ingredientKey: 'eggs', count: 3, gauge: 'шт.' }],
     },
     {
       img: null,
@@ -731,8 +730,8 @@ export const OKROSHKA_NA_KVASE = {
       description:
         'Редис хорошо промойте и нарежьте тонкими кружочками. Огурцы также вымойте, обсушите и разрежьте вдоль, затем нарежьте тонкими полукружиями или ломтиками.',
       ingredients: [
-        { ...INGREDIENTS.radish, count: 6, gauge: 'шт.' },
-        { ...INGREDIENTS.cucumber, count: 3, gauge: 'шт.' },
+        { ingredientKey: 'radish', count: 6, gauge: 'шт.' },
+        { ingredientKey: 'cucumber', count: 3, gauge: 'шт.' },
       ],
     },
     {
@@ -741,10 +740,10 @@ export const OKROSHKA_NA_KVASE = {
       description:
         'Промойте свежую зелень — лук, укроп и петрушку. Разложите на бумажных полотенцах, чтобы избавиться от влаги, затем мелко нашинкуйте. Колбасу нарежьте небольшими аккуратными кубиками.',
       ingredients: [
-        { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
-        { ...INGREDIENTS.dill, count: 1, gauge: 'пуч.' },
-        { ...INGREDIENTS.parsley, count: 1, gauge: 'пуч.' },
-        { ...INGREDIENTS.boiledSausage, count: 300, gauge: 'г.' },
+        { ingredientKey: 'greenOnion', count: 1, gauge: 'пуч.' },
+        { ingredientKey: 'dill', count: 1, gauge: 'пуч.' },
+        { ingredientKey: 'parsley', count: 1, gauge: 'пуч.' },
+        { ingredientKey: 'boiledSausage', count: 300, gauge: 'г.' },
       ],
     },
     {
@@ -752,7 +751,7 @@ export const OKROSHKA_NA_KVASE = {
       video: null,
       description:
         'В глубокой миске соедините нарезанные огурцы, редис, зелень и колбасу. Остывшие картофель и яйца порежьте мелкими кубиками и добавьте к остальным ингредиентам. Приправьте солью и перцем по вкусу, тщательно перемешайте.',
-      ingredients: [{ ...INGREDIENTS.salt }, { ...INGREDIENTS.groundBlackPepper }],
+      ingredients: [{ ingredientKey: 'salt' }, { ingredientKey: 'groundBlackPepper' }],
     },
     {
       img: null,
@@ -760,8 +759,8 @@ export const OKROSHKA_NA_KVASE = {
       description:
         'Готовую смесь залейте охлаждённым квасом и снова перемешайте. Разлейте окрошку по тарелкам, добавьте по ложке сметаны в каждую порцию и подавайте охлаждённой к столу.',
       ingredients: [
-        { ...INGREDIENTS.breadKvass, count: 1.5, gauge: 'л.' },
-        { ...INGREDIENTS.sourCream, count: 20, gauge: 'г.' },
+        { ingredientKey: 'breadKvass', count: 1.5, gauge: 'л.' },
+        { ingredientKey: 'sourCream', count: 20, gauge: 'г.' },
       ],
     },
   ],

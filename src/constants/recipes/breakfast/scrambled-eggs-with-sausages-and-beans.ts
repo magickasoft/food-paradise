@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SCRAMBLED_EGGS_WITH_SAUSAGES_AND_BEANS = {
   metaSeo: {
@@ -674,48 +673,48 @@ export const SCRAMBLED_EGGS_WITH_SAUSAGES_AND_BEANS = {
   used: [18.5, 32.7, 12.4],
   ingredients: [
     {
-      ...INGREDIENTS.eggs,
+      ingredientKey: 'eggs',
       count: 4,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.milkSausages,
+      ingredientKey: 'milkSausages',
       count: 4,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.cannedBeans,
+      ingredientKey: 'cannedBeans',
       count: 200,
       gauge: 'г',
       note: 'в томатном соусе',
     },
     {
-      ...INGREDIENTS.vegetableOil,
+      ingredientKey: 'vegetableOil',
       count: 2,
       gauge: 'ст.л.',
     },
     {
-      ...INGREDIENTS.butter,
+      ingredientKey: 'butter',
       count: 10,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.worcestershireSauce,
+      ingredientKey: 'worcestershireSauce',
       count: 1,
       gauge: 'ст.л.',
     },
     {
-      ...INGREDIENTS.smokedPaprika,
+      ingredientKey: 'smokedPaprika',
       count: 0.5,
       gauge: 'ч.л.',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: ' ',
       gauge: 'по вкусу',
     },
     {
-      ...INGREDIENTS.groundBlackPepper,
+      ingredientKey: 'groundBlackPepper',
       count: ' ',
       gauge: 'по вкусу',
     },
@@ -728,9 +727,9 @@ export const SCRAMBLED_EGGS_WITH_SAUSAGES_AND_BEANS = {
       description:
         'Нарежьте сосиски на кусочки по 3 см. Разогрейте сковороду с 1 ст.л. растительного масла на среднем огне. Обжаривайте сосиски 5-7 минут до румяной корочки, периодически переворачивая щипцами. В конце добавьте 1 ч.л. вустерского соуса и перемешайте.',
       ingredients: [
-        { ...INGREDIENTS.milkSausages, count: 4, gauge: 'шт.' },
-        { ...INGREDIENTS.vegetableOil, count: 2, gauge: 'ст.л.' },
-        { ...INGREDIENTS.worcestershireSauce, count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'milkSausages', count: 4, gauge: 'шт.' },
+        { ingredientKey: 'vegetableOil', count: 2, gauge: 'ст.л.' },
+        { ingredientKey: 'worcestershireSauce', count: 1, gauge: 'ч.л.' },
       ],
     },
     {
@@ -739,9 +738,9 @@ export const SCRAMBLED_EGGS_WITH_SAUSAGES_AND_BEANS = {
       description:
         'В отдельной кастрюльке разогрейте фасоль в томатном соусе на слабом огне. Добавьте копченую паприку и 1 ч.л. сливочного масла для мягкости вкуса. Томите под крышкой 5 минут, периодически помешивая.',
       ingredients: [
-        { ...INGREDIENTS.cannedBeans, count: 200, gauge: 'г' },
-        { ...INGREDIENTS.smokedPaprika, count: 0.5, gauge: 'ч.л.' },
-        { ...INGREDIENTS.butter, count: 10, gauge: 'г' },
+        { ingredientKey: 'cannedBeans', count: 200, gauge: 'г' },
+        { ingredientKey: 'smokedPaprika', count: 0.5, gauge: 'ч.л.' },
+        { ingredientKey: 'butter', count: 10, gauge: 'г' },
       ],
     },
     {
@@ -750,11 +749,11 @@ export const SCRAMBLED_EGGS_WITH_SAUSAGES_AND_BEANS = {
       description:
         'В чистой сковороде растопите оставшееся сливочное масло с 1 ст.л. растительного. Взбейте яйца вилкой с щепоткой соли и перца. Вылейте на сковороду и готовьте на среднем огне 2-3 минуты, аккуратно помешивая лопаткой для получения нежной текстуры.',
       ingredients: [
-        { ...INGREDIENTS.eggs, count: 4, gauge: 'шт.' },
-        { ...INGREDIENTS.butter, count: 10, gauge: 'г' },
-        { ...INGREDIENTS.vegetableOil, count: 2, gauge: 'ст.л.' },
-        { ...INGREDIENTS.salt, count: ' ', gauge: 'по вкусу' },
-        { ...INGREDIENTS.groundBlackPepper, count: ' ', gauge: 'по вкусу' },
+        { ingredientKey: 'eggs', count: 4, gauge: 'шт.' },
+        { ingredientKey: 'butter', count: 10, gauge: 'г' },
+        { ingredientKey: 'vegetableOil', count: 2, gauge: 'ст.л.' },
+        { ingredientKey: 'salt', count: ' ', gauge: 'по вкусу' },
+        { ingredientKey: 'groundBlackPepper', count: ' ', gauge: 'по вкусу' },
       ],
     },
     {

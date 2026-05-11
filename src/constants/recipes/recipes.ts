@@ -12,6 +12,7 @@ import { SNACKS } from './snacks'
 import { SUPPER } from './supper'
 import { NEW_YEAR } from './new-year'
 import { HOMEMADE_ALCOHOL } from './homemade-alcohol'
+import type { RecipeIngredient } from './recipeIngredients'
 
 export enum RecipeCategories {
   BREAKFAST = 'breakfast',
@@ -69,13 +70,13 @@ export interface Recipe {
   rating: number
   portions: number
   used: number[] | null
-  ingredients: { name: string; count?: number | string; gauge: string; img?: string | null; note?: string }[]
+  ingredients: RecipeIngredient[]
   equipments: { name: string; img?: string | null }[]
   cookingRecipe: {
     img?: string | null
     video?: string | null
     description: string
-    ingredients: { name: string; count?: number | string; gauge: string; optional?: boolean }[]
+    ingredients: RecipeIngredient[]
   }[]
   historyDescription?: string
   tips?: string[]

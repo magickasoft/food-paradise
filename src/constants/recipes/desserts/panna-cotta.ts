@@ -89,37 +89,37 @@ export const PANNA_COTTA = {
   used: [3, 22, 18],
   ingredients: [
     {
-      name: 'Сливки 33%',
+      ingredientKey: 'cream33',
       gauge: 'мл',
       count: 500,
     },
     {
-      name: 'Ванильный стручок',
+      ingredientKey: 'vanilnyyStruchok',
       gauge: 'шт.',
       count: 1,
     },
     {
-      name: 'Сахар',
+      ingredientKey: 'sugar',
       gauge: 'г',
       count: 80,
     },
     {
-      name: 'Желатин листовой',
+      ingredientKey: 'zhelatinListovoy',
       gauge: 'г',
       count: 8,
     },
     {
-      name: 'Малина свежая',
+      ingredientKey: 'malinaSvezhaya',
       gauge: 'г',
       count: 200,
     },
     {
-      name: 'Сахарная пудра',
+      ingredientKey: 'powderedSugar',
       gauge: 'г',
       count: 30,
     },
     {
-      name: 'Лимонный сок',
+      ingredientKey: 'lemonJuice',
       gauge: 'ч.л',
       count: 1,
       optional: true,
@@ -151,17 +151,17 @@ export const PANNA_COTTA = {
         'В сотейнике смешайте сливки, ванильный стручок и сахар. Нагревайте на медленном огне до 80°C, не допуская кипения. Снимите с огня, удалите ваниль.',
       ingredients: [
         {
-          name: 'Сливки 33%',
+          ingredientKey: 'cream33',
           gauge: 'мл',
           count: 500,
         },
         {
-          name: 'Ванильный стручок',
+          ingredientKey: 'vanilnyyStruchok',
           gauge: 'шт.',
           count: 1,
         },
         {
-          name: 'Сахар',
+          ingredientKey: 'sugar',
           gauge: 'г',
           count: 80,
         },
@@ -172,7 +172,7 @@ export const PANNA_COTTA = {
         'Замочите желатин в холодной воде на 5 минут. Отожмите и растворите в горячих сливках, тщательно размешивая.',
       ingredients: [
         {
-          name: 'Желатин листовой',
+          ingredientKey: 'zhelatinListovoy',
           gauge: 'г',
           count: 8,
         },
@@ -187,17 +187,17 @@ export const PANNA_COTTA = {
         'Для соуса протрите малину через сито, смешайте с сахарной пудрой. Подавайте панна котту, поливая соусом.',
       ingredients: [
         {
-          name: 'Малина свежая',
+          ingredientKey: 'malinaSvezhaya',
           gauge: 'г',
           count: 200,
         },
         {
-          name: 'Сахарная пудра',
+          ingredientKey: 'powderedSugar',
           gauge: 'г',
           count: 30,
         },
         {
-          name: 'Лимонный сок',
+          ingredientKey: 'lemonJuice',
           gauge: 'ч.л',
           count: 1,
           optional: true,

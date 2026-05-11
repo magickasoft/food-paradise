@@ -342,3 +342,5 @@ export const INGREDIENTS = {
   ...EGGS,
   ...CEREALS,
 }
+
+export type IngredientKey = keyof typeof INGREDIENTS

@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SCRAMBLED_EGGS_SHAKSHUKA = {
   metaSeo: {
@@ -467,19 +466,19 @@ export const SCRAMBLED_EGGS_SHAKSHUKA = {
   portions: 2,
   used: [22.1, 18.7, 9.3],
   ingredients: [
-    { ...INGREDIENTS.eggs, count: 4, gauge: 'шт.' },
-    { ...INGREDIENTS.tomato, count: 3, gauge: 'шт.', note: 'или 400 г консервированных' },
-    { ...INGREDIENTS.bellPepper, count: 2, gauge: 'шт.' },
-    { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.garlic, count: 3, gauge: 'зуб.' },
-    { ...INGREDIENTS.tomatoPaste, count: 1, gauge: 'ст.л' },
-    { ...INGREDIENTS.vegetableOil, count: 2, guage: 'ст.л' },
-    { ...INGREDIENTS.smokedPaprika, count: 1, gauge: 'ч.л.' },
-    { ...INGREDIENTS.cumin, count: 0.5, gauge: 'ч.л.' },
-    { ...INGREDIENTS.chiliPepper, count: 0.5, gauge: 'шт.', note: 'по желанию' },
-    { ...INGREDIENTS.salt, count: ' ', gauge: 'щепотка' },
-    { ...INGREDIENTS.groundBlackPepper, count: ' ', gauge: 'щепотка' },
-    { ...INGREDIENTS.parsley, count: ' ', gauge: 'по вкусу' },
+    { ingredientKey: 'eggs', count: 4, gauge: 'шт.' },
+    { ingredientKey: 'tomato', count: 3, gauge: 'шт.', note: 'или 400 г консервированных' },
+    { ingredientKey: 'bellPepper', count: 2, gauge: 'шт.' },
+    { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'garlic', count: 3, gauge: 'зуб.' },
+    { ingredientKey: 'tomatoPaste', count: 1, gauge: 'ст.л' },
+    { ingredientKey: 'vegetableOil', count: 2, guage: 'ст.л' },
+    { ingredientKey: 'smokedPaprika', count: 1, gauge: 'ч.л.' },
+    { ingredientKey: 'cumin', count: 0.5, gauge: 'ч.л.' },
+    { ingredientKey: 'chiliPepper', count: 0.5, gauge: 'шт.', note: 'по желанию' },
+    { ingredientKey: 'salt', count: ' ', gauge: 'щепотка' },
+    { ingredientKey: 'groundBlackPepper', count: ' ', gauge: 'щепотка' },
+    { ingredientKey: 'parsley', count: ' ', gauge: 'по вкусу' },
   ],
   equipments: [
     EQUIPMENTS.pan,
@@ -497,10 +496,10 @@ export const SCRAMBLED_EGGS_SHAKSHUKA = {
       description:
         'Нарежьте лук полукольцами, перец — соломкой, чеснок — тонкими пластинками. Помидоры ошпарьте кипятком, снимите кожицу и нарежьте кубиками. (Консервированные просто разомните вилкой.)',
       ingredients: [
-        { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.bellPepper, count: 2, gauge: 'шт.' },
-        { ...INGREDIENTS.garlic, count: 3, gauge: 'зуб.' },
-        { ...INGREDIENTS.tomato, count: 3, gauge: 'шт.' },
+        { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'bellPepper', count: 2, gauge: 'шт.' },
+        { ingredientKey: 'garlic', count: 3, gauge: 'зуб.' },
+        { ingredientKey: 'tomato', count: 3, gauge: 'шт.' },
       ],
     },
     {
@@ -509,11 +508,11 @@ export const SCRAMBLED_EGGS_SHAKSHUKA = {
       description:
         'Разогрейте масло в глубокой сковороде. Обжарьте лук 3 минуты до прозрачности, добавьте перец и готовьте ещё 5 минут. Затем положите чеснок, томатную пасту и специи — прогрейте 1 минуту до появления аромата.',
       ingredients: [
-        { ...INGREDIENTS.vegetableOil, count: 2, guage: 'ст.л.' },
-        { ...INGREDIENTS.tomatoPaste, count: 1, gauge: 'ст.л' },
-        { ...INGREDIENTS.smokedPaprika, count: 1, gauge: 'ч.л.' },
-        { ...INGREDIENTS.cumin, count: 0.5, gauge: 'ч.л.' },
-        { ...INGREDIENTS.chiliPepper, count: 0.5, gauge: 'шт.', note: 'по желанию' },
+        { ingredientKey: 'vegetableOil', count: 2, guage: 'ст.л.' },
+        { ingredientKey: 'tomatoPaste', count: 1, gauge: 'ст.л' },
+        { ingredientKey: 'smokedPaprika', count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'cumin', count: 0.5, gauge: 'ч.л.' },
+        { ingredientKey: 'chiliPepper', count: 0.5, gauge: 'шт.', note: 'по желанию' },
       ],
     },
     {
@@ -522,8 +521,8 @@ export const SCRAMBLED_EGGS_SHAKSHUKA = {
       description:
         'Добавьте помидоры, посолите и поперчите. Тушите под крышкой 15 минут на слабом огне, пока соус не загустеет. Ложкой сделайте 4 небольших углубления.',
       ingredients: [
-        { ...INGREDIENTS.salt, count: ' ', gauge: 'щепотка' },
-        { ...INGREDIENTS.groundBlackPepper, count: ' ', gauge: 'щепотка' },
+        { ingredientKey: 'salt', count: ' ', gauge: 'щепотка' },
+        { ingredientKey: 'groundBlackPepper', count: ' ', gauge: 'щепотка' },
       ],
     },
     {
@@ -532,8 +531,8 @@ export const SCRAMBLED_EGGS_SHAKSHUKA = {
       description:
         'Разбейте яйца в углубления, накройте крышкой и готовьте 5–7 минут до желаемой степени прожарки желтков. Посыпьте рубленой петрушкой и подавайте прямо в сковороде с хлебом или питой.',
       ingredients: [
-        { ...INGREDIENTS.eggs, count: 4, gauge: 'шт.' },
-        { ...INGREDIENTS.parsley, count: ' ', gauge: 'по вкусу' },
+        { ingredientKey: 'eggs', count: 4, gauge: 'шт.' },
+        { ingredientKey: 'parsley', count: ' ', gauge: 'по вкусу' },
       ],
     },
   ],

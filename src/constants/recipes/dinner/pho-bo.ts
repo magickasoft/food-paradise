@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const PHO_BO = {
   metaSeo: {
@@ -136,25 +135,25 @@ export const PHO_BO = {
     'Фо бо — символ Вьетнама. Он появился в начале XX века, когда местные повара адаптировали французские мясные бульоны, добавив восточные специи, рисовую лапшу и свежие травы. Сегодня фо готовят повсюду — от уличных лавок до ресторанов.',
 
   ingredients: [
-    { ...INGREDIENTS.beefBones, count: 1.5, gauge: 'кг.' },
-    { ...INGREDIENTS.beefBrisket, count: 0.4, gauge: 'кг.' },
-    { ...INGREDIENTS.water, count: 6, gauge: 'л.' },
-    { ...INGREDIENTS.onion, count: 2, gauge: 'шт.' },
-    { ...INGREDIENTS.ginger, count: 60, gauge: 'г.' },
-    { ...INGREDIENTS.starAnise, count: 2, gauge: 'шт.' },
-    { ...INGREDIENTS.cinnamonStick, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.cloves, count: 4, gauge: 'шт.' },
-    { ...INGREDIENTS.corianderSeeds, count: 1, gauge: 'ч.л.' },
-    { ...INGREDIENTS.fishSauce, count: 3, gauge: 'ст.л.' },
-    { ...INGREDIENTS.sugar, count: 1, gauge: 'ст.л.' },
-    { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
-    { ...INGREDIENTS.riceNoodles, count: 300, gauge: 'г.' },
-    { ...INGREDIENTS.beefTenderloin, count: 0.3, gauge: 'кг.' },
-    { ...INGREDIENTS.lime, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.chiliPepper, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.beanSprouts, count: 1, gauge: 'горсть' },
-    { ...INGREDIENTS.cilantro, count: 1, gauge: 'горсть' },
-    { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
+    { ingredientKey: 'beefBones', count: 1.5, gauge: 'кг.' },
+    { ingredientKey: 'beefBrisket', count: 0.4, gauge: 'кг.' },
+    { ingredientKey: 'water', count: 6, gauge: 'л.' },
+    { ingredientKey: 'onion', count: 2, gauge: 'шт.' },
+    { ingredientKey: 'ginger', count: 60, gauge: 'г.' },
+    { ingredientKey: 'starAnise', count: 2, gauge: 'шт.' },
+    { ingredientKey: 'cinnamonStick', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'cloves', count: 4, gauge: 'шт.' },
+    { ingredientKey: 'corianderSeeds', count: 1, gauge: 'ч.л.' },
+    { ingredientKey: 'fishSauce', count: 3, gauge: 'ст.л.' },
+    { ingredientKey: 'sugar', count: 1, gauge: 'ст.л.' },
+    { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
+    { ingredientKey: 'riceNoodles', count: 300, gauge: 'г.' },
+    { ingredientKey: 'beefTenderloin', count: 0.3, gauge: 'кг.' },
+    { ingredientKey: 'lime', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'chiliPepper', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'beanSprouts', count: 1, gauge: 'горсть' },
+    { ingredientKey: 'cilantro', count: 1, gauge: 'горсть' },
+    { ingredientKey: 'greenOnion', count: 1, gauge: 'пуч.' },
   ],
   equipments: [
     EQUIPMENTS.pot,
@@ -171,62 +170,62 @@ export const PHO_BO = {
       description:
         'Подготовьте кости: залейте холодной водой, доведите до кипения, варите 5 минут. Слейте, промойте кости и кастрюлю — это уберёт запах и лишнюю пену.',
       ingredients: [
-        { ...INGREDIENTS.beefBones, count: 1.5, gauge: 'кг.' },
-        { ...INGREDIENTS.water, count: 2, gauge: 'л.' },
+        { ingredientKey: 'beefBones', count: 1.5, gauge: 'кг.' },
+        { ingredientKey: 'water', count: 2, gauge: 'л.' },
       ],
     },
     {
       description:
         'Залейте кости заново 4 л воды, добавьте грудинку. Доведите до кипения, снимите пену и варите на минимальном огне 3 часа.',
       ingredients: [
-        { ...INGREDIENTS.beefBones, count: 1.5, gauge: 'кг.' },
-        { ...INGREDIENTS.beefBrisket, count: 0.4, gauge: 'кг.' },
-        { ...INGREDIENTS.water, count: 4, gauge: 'л.' },
+        { ingredientKey: 'beefBones', count: 1.5, gauge: 'кг.' },
+        { ingredientKey: 'beefBrisket', count: 0.4, gauge: 'кг.' },
+        { ingredientKey: 'water', count: 4, gauge: 'л.' },
       ],
     },
     {
       description:
         'На сухой сковороде обуглите лук и имбирь до чёрных подпалин (около 10 минут). Очистите и добавьте в бульон вместе со специями: звёздчатым анисом, корицей, гвоздикой и кориандром. Варите ещё 1 час.',
       ingredients: [
-        { ...INGREDIENTS.onion, count: 2, gauge: 'шт.' },
-        { ...INGREDIENTS.ginger, count: 60, gauge: 'г.' },
-        { ...INGREDIENTS.starAnise, count: 2, gauge: 'шт.' },
-        { ...INGREDIENTS.cinnamonStick, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.cloves, count: 4, gauge: 'шт.' },
-        { ...INGREDIENTS.corianderSeeds, count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'onion', count: 2, gauge: 'шт.' },
+        { ingredientKey: 'ginger', count: 60, gauge: 'г.' },
+        { ingredientKey: 'starAnise', count: 2, gauge: 'шт.' },
+        { ingredientKey: 'cinnamonStick', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'cloves', count: 4, gauge: 'шт.' },
+        { ingredientKey: 'corianderSeeds', count: 1, gauge: 'ч.л.' },
       ],
     },
     {
       description:
         'Процедите бульон через сито, верните на слабый огонь. Добавьте рыбный соус, сахар и щепоть соли. Попробуйте — вкус должен быть солоновато-сладким с ярким умами.',
       ingredients: [
-        { ...INGREDIENTS.fishSauce, count: 3, gauge: 'ст.л.' },
-        { ...INGREDIENTS.sugar, count: 1, gauge: 'cт.л.' },
-        { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'fishSauce', count: 3, gauge: 'ст.л.' },
+        { ingredientKey: 'sugar', count: 1, gauge: 'cт.л.' },
+        { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
       ],
     },
     {
       description:
         'Достаньте грудинку, остудите и нарежьте ломтиками. Замочите рисовую лапшу в горячей воде на 1 минуту, откиньте на дуршлаг и разложите по глубоким мискам.',
       ingredients: [
-        { ...INGREDIENTS.beefBrisket, count: 0.4, gauge: 'кг.' },
-        { ...INGREDIENTS.riceNoodles, count: 300, gauge: 'г.' },
+        { ingredientKey: 'beefBrisket', count: 0.4, gauge: 'кг.' },
+        { ingredientKey: 'riceNoodles', count: 300, gauge: 'г.' },
       ],
     },
     {
       description:
         'Сырую вырезку нарежьте тончайшими ломтиками (удобнее, если мясо слегка подморожено). Выложите поверх лапши и ломтиков грудинки.',
-      ingredients: [{ ...INGREDIENTS.beefTenderloin, count: 0.3, gauge: 'кг.' }],
+      ingredients: [{ ingredientKey: 'beefTenderloin', count: 0.3, gauge: 'кг.' }],
     },
     {
       description:
         'Залейте всё кипящим бульоном. Украсьте ростками бобов, зелёным луком, кинзой, дольками лайма и перцем чили. Подавайте сразу — мясо должно оставаться розовым.',
       ingredients: [
-        { ...INGREDIENTS.beanSprouts, count: 1, gauge: 'горсть' },
-        { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
-        { ...INGREDIENTS.cilantro, count: 1, gauge: 'горсть' },
-        { ...INGREDIENTS.lime, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.chiliPepper, count: 1, gauge: 'шт.' },
+        { ingredientKey: 'beanSprouts', count: 1, gauge: 'горсть' },
+        { ingredientKey: 'greenOnion', count: 1, gauge: 'пуч.' },
+        { ingredientKey: 'cilantro', count: 1, gauge: 'горсть' },
+        { ingredientKey: 'lime', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'chiliPepper', count: 1, gauge: 'шт.' },
       ],
     },
   ],

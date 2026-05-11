@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SCHI_IZ_SVEZHEY_KAPUSTY = {
   metaSeo: {
@@ -461,17 +460,17 @@ export const SCHI_IZ_SVEZHEY_KAPUSTY = {
   Щи из свежей капусты особенно популярны летом и осенью, когда капуста молодая и сочная, а на столе — аромат зелени и свежего хлеба.`,
 
   ingredients: [
-    { ...INGREDIENTS.beefOnTheBone, count: 0.5, gauge: 'кг.' },
-    { ...INGREDIENTS.cabbage, count: 1, gauge: 'пол.головки' },
-    { ...INGREDIENTS.potato, count: 4, gauge: 'шт.' },
-    { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.tomatoPaste, count: 40, gauge: 'г.' },
-    { ...INGREDIENTS.bayLeaf, count: 3, gauge: 'шт.' },
-    { ...INGREDIENTS.blackPepper, count: 5, gauge: 'г.' },
-    { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
-    { ...INGREDIENTS.sourCream, count: 30, gauge: 'г.' },
-    { ...INGREDIENTS.water, count: 3, gauge: 'л.' },
+    { ingredientKey: 'beefOnTheBone', count: 0.5, gauge: 'кг.' },
+    { ingredientKey: 'cabbage', count: 1, gauge: 'пол.головки' },
+    { ingredientKey: 'potato', count: 4, gauge: 'шт.' },
+    { ingredientKey: 'carrot', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'tomatoPaste', count: 40, gauge: 'г.' },
+    { ingredientKey: 'bayLeaf', count: 3, gauge: 'шт.' },
+    { ingredientKey: 'blackPepper', count: 5, gauge: 'г.' },
+    { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
+    { ingredientKey: 'sourCream', count: 30, gauge: 'г.' },
+    { ingredientKey: 'water', count: 3, gauge: 'л.' },
   ],
   equipments: [
     { ...EQUIPMENTS.pot, count: 1 },
@@ -488,8 +487,8 @@ export const SCHI_IZ_SVEZHEY_KAPUSTY = {
       description:
         'Подготовьте мясо: говядину на кости промойте, залейте 3 литрами холодной воды и доведите до кипения. Снимите пену, убавьте огонь и варите 1.5 часа до мягкости. Бульон станет прозрачным и ароматным — это основа будущих щей.',
       ingredients: [
-        { ...INGREDIENTS.beefOnTheBone, count: 0.5, gauge: 'кг.' },
-        { ...INGREDIENTS.water, count: 3, gauge: 'л.' },
+        { ingredientKey: 'beefOnTheBone', count: 0.5, gauge: 'кг.' },
+        { ingredientKey: 'water', count: 3, gauge: 'л.' },
       ],
     },
     {
@@ -498,9 +497,9 @@ export const SCHI_IZ_SVEZHEY_KAPUSTY = {
       description:
         'Пока варится мясо, подготовьте овощи: очистите и мелко нарежьте лук и морковь. На сковороде с маслом обжарьте лук до прозрачности, затем добавьте морковь и жарьте до золотистого оттенка. Добавьте томатную пасту и тушите 5 минут, пока не появится насыщенный аромат.',
       ingredients: [
-        { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.tomatoPaste, count: 40, gauge: 'г.' },
+        { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'carrot', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'tomatoPaste', count: 40, gauge: 'г.' },
       ],
     },
     {
@@ -509,11 +508,11 @@ export const SCHI_IZ_SVEZHEY_KAPUSTY = {
       description:
         'Готовое мясо выньте из бульона, нарежьте порционными кусочками и верните обратно. Добавьте нарезанный картофель и капусту. Варите 15 минут до мягкости овощей. Затем введите зажарку с томатной пастой, добавьте лавровый лист, перец горошком и немного соли. Варите ещё 10–15 минут на слабом огне, чтобы все вкусы соединились.',
       ingredients: [
-        { ...INGREDIENTS.potato, count: 4, gauge: 'шт.' },
-        { ...INGREDIENTS.cabbage, count: 1, gauge: 'пол.головки' },
-        { ...INGREDIENTS.bayLeaf, count: 3, gauge: 'шт.' },
-        { ...INGREDIENTS.blackPepper, count: 5, gauge: 'г.' },
-        { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'potato', count: 4, gauge: 'шт.' },
+        { ingredientKey: 'cabbage', count: 1, gauge: 'пол.головки' },
+        { ingredientKey: 'bayLeaf', count: 3, gauge: 'шт.' },
+        { ingredientKey: 'blackPepper', count: 5, gauge: 'г.' },
+        { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
       ],
     },
     {
@@ -521,7 +520,7 @@ export const SCHI_IZ_SVEZHEY_KAPUSTY = {
       video: null,
       description:
         'Снимите щи с огня, накройте крышкой и дайте настояться 20–30 минут — это позволит раскрыться вкусу бульона и специям. Подавайте горячими, добавив ложку сметаны и посыпав свежей зеленью. Идеальное дополнение — ржаной хлеб или чесночные гренки.',
-      ingredients: [{ ...INGREDIENTS.sourCream, count: 30, gauge: 'г.' }],
+      ingredients: [{ ingredientKey: 'sourCream', count: 30, gauge: 'г.' }],
     },
   ],
   tips: [

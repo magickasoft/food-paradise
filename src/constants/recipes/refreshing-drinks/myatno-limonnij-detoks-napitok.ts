@@ -176,40 +176,34 @@ export const MYATNO_LIMONNIJ_DETOKS_NAPITOK = {
   used: [3, 2, 1],
   ingredients: [
     {
-      name: 'Огурец',
+      ingredientKey: 'cucumber',
       gauge: 'шт.',
       count: 1,
-      img: null,
     },
     {
-      name: 'Лимон',
+      ingredientKey: 'lemon',
       gauge: 'шт.',
       count: 0.5,
-      img: null,
     },
     {
-      name: 'Мята свежая',
+      ingredientKey: 'myataSvezhaya',
       gauge: 'г',
       count: 10,
-      img: null,
     },
     {
-      name: 'Вода (минеральная)',
+      ingredientKey: 'voda4',
       gauge: 'мл',
       count: 500,
-      img: null,
     },
     {
-      name: 'Лёд',
+      ingredientKey: 'led',
       gauge: 'стакан',
       count: 1,
-      img: null,
     },
     {
-      name: 'Стевия (по желанию)',
+      ingredientKey: 'steviya',
       gauge: 'ч.л',
       count: 0.5,
-      img: null,
     },
   ],
   equipments: [
@@ -229,22 +223,19 @@ export const MYATNO_LIMONNIJ_DETOKS_NAPITOK = {
       description: 'Огурец нарежьте тонкими кружочками. Лимон нарежьте дольками. Мяту промойте.',
       ingredients: [
         {
-          name: 'Огурец',
+          ingredientKey: 'cucumber',
           gauge: 'шт.',
           count: 1,
-          img: null,
         },
         {
-          name: 'Лимон',
+          ingredientKey: 'lemon',
           gauge: 'шт.',
           count: 0.5,
-          img: null,
         },
         {
-          name: 'Мята свежая',
+          ingredientKey: 'myataSvezhaya',
           gauge: 'г',
           count: 10,
-          img: null,
         },
       ],
     },
@@ -254,10 +245,9 @@ export const MYATNO_LIMONNIJ_DETOKS_NAPITOK = {
       description: 'В кувшин добавьте огурец, лимон, мяту и залейте водой. Дайте настояться 5 минут.',
       ingredients: [
         {
-          name: 'Вода (минеральная)',
+          ingredientKey: 'voda4',
           gauge: 'мл',
           count: 500,
-          img: null,
         },
       ],
     },
@@ -267,16 +257,14 @@ export const MYATNO_LIMONNIJ_DETOKS_NAPITOK = {
       description: 'Добавьте лёд и по желанию стевию. Подавайте охлаждённым.',
       ingredients: [
         {
-          name: 'Лёд',
+          ingredientKey: 'led',
           gauge: 'стакан',
           count: 1,
-          img: null,
         },
         {
-          name: 'Стевия (по желанию)',
+          ingredientKey: 'steviya',
           gauge: 'ч.л',
           count: 0.5,
-          img: null,
         },
       ],
     },

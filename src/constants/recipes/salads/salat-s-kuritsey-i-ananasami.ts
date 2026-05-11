@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SALAT_S_KURITSEY_I_ANANASAMI = {
   metaSeo: {
@@ -83,37 +82,37 @@ export const SALAT_S_KURITSEY_I_ANANASAMI = {
 
   ingredients: [
     {
-      ...INGREDIENTS.chickenBreastFillet,
+      ingredientKey: 'chickenBreastFillet',
       count: 400,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.cannedPineapple,
+      ingredientKey: 'cannedPineapple',
       count: 300,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.hardCheese,
+      ingredientKey: 'hardCheese',
       count: 150,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.eggs,
+      ingredientKey: 'eggs',
       count: 3,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.mayonnaise,
+      ingredientKey: 'mayonnaise',
       count: 180,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.garlic,
+      ingredientKey: 'garlic',
       count: 1,
       gauge: 'зубчик',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: ' ',
       gauge: 'по вкусу',
     },
@@ -135,7 +134,7 @@ export const SALAT_S_KURITSEY_I_ANANASAMI = {
       description: 'Куриное филе отварите в подсоленной воде до готовности, остудите и нарежьте небольшими кубиками.',
       ingredients: [
         {
-          ...INGREDIENTS.chickenBreastFillet,
+          ingredientKey: 'chickenBreastFillet',
           count: 400,
           gauge: 'г',
         },
@@ -147,12 +146,12 @@ export const SALAT_S_KURITSEY_I_ANANASAMI = {
       description: 'Яйца отварите вкрутую, остудите и натрите на крупной тёрке. Сыр также натрите.',
       ingredients: [
         {
-          ...INGREDIENTS.eggs,
+          ingredientKey: 'eggs',
           count: 3,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.hardCheese,
+          ingredientKey: 'hardCheese',
           count: 150,
           gauge: 'г',
         },
@@ -164,7 +163,7 @@ export const SALAT_S_KURITSEY_I_ANANASAMI = {
       description: 'Ананасы откиньте на сито, дайте стечь сиропу и нарежьте небольшими кусочками.',
       ingredients: [
         {
-          ...INGREDIENTS.cannedPineapple,
+          ingredientKey: 'cannedPineapple',
           count: 300,
           gauge: 'г',
         },
@@ -176,17 +175,17 @@ export const SALAT_S_KURITSEY_I_ANANASAMI = {
       description: 'Смешайте курицу, яйца, ананасы и сыр. Добавьте майонез и мелко натёртый чеснок, посолите по вкусу.',
       ingredients: [
         {
-          ...INGREDIENTS.mayonnaise,
+          ingredientKey: 'mayonnaise',
           count: 180,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.garlic,
+          ingredientKey: 'garlic',
           count: 1,
           gauge: 'зубчик',
         },
         {
-          ...INGREDIENTS.salt,
+          ingredientKey: 'salt',
           count: ' ',
           gauge: 'по вкусу',
         },

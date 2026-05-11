@@ -197,34 +197,29 @@ export const YAGODNYJ_MORS = {
   used: [8, 5, 3],
   ingredients: [
     {
-      name: 'Ягоды (смородина/малина/клубника)',
+      ingredientKey: 'yagody',
       gauge: 'г',
       count: 300,
-      img: null,
     },
     {
-      name: 'Вода (фильтрованная)',
+      ingredientKey: 'voda6',
       gauge: 'л',
       count: 1,
-      img: null,
     },
     {
-      name: 'Мёд',
+      ingredientKey: 'honey',
       gauge: 'ст.л',
       count: 2,
-      img: null,
     },
     {
-      name: 'Лимонный сок',
+      ingredientKey: 'lemonJuice',
       gauge: 'ст.л',
       count: 1,
-      img: null,
     },
     {
-      name: 'Лёд',
+      ingredientKey: 'led',
       gauge: 'стакан',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -244,10 +239,9 @@ export const YAGODNYJ_MORS = {
       description: 'Ягоды разомните вилкой или взбейте блендером. Процедите через марлю, чтобы удалить косточки.',
       ingredients: [
         {
-          name: 'Ягоды (смородина/малина/клубника)',
+          ingredientKey: 'yagody',
           gauge: 'г',
           count: 300,
-          img: null,
         },
       ],
     },
@@ -257,22 +251,19 @@ export const YAGODNYJ_MORS = {
       description: 'Смешайте ягодный сок с водой, добавьте мёд и лимонный сок. Перемешайте до растворения мёда.',
       ingredients: [
         {
-          name: 'Вода (фильтрованная)',
+          ingredientKey: 'voda6',
           gauge: 'л',
           count: 1,
-          img: null,
         },
         {
-          name: 'Мёд',
+          ingredientKey: 'honey',
           gauge: 'ст.л',
           count: 2,
-          img: null,
         },
         {
-          name: 'Лимонный сок',
+          ingredientKey: 'lemonJuice',
           gauge: 'ст.л',
           count: 1,
-          img: null,
         },
       ],
     },
@@ -282,10 +273,9 @@ export const YAGODNYJ_MORS = {
       description: 'Добавьте лёд и дайте настояться 20 минут в холодильнике. Подавайте с целыми ягодами.',
       ingredients: [
         {
-          name: 'Лёд',
+          ingredientKey: 'led',
           gauge: 'стакан',
           count: 1,
-          img: null,
         },
       ],
     },

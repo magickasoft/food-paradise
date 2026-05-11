@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const GAZPACHO = {
   metaSeo: {
@@ -714,20 +713,20 @@ export const GAZPACHO = {
   historyDescription:
     'Гаспачо — гордость Андалусии и символ испанского лета. Первоначально он готовился крестьянами из хлеба, воды, чеснока и оливкового масла. После открытия Америки в рецепт вошли томаты и перцы, превратив блюдо в легендарный красный суп, который сегодня подают в лучших ресторанах Испании.',
   ingredients: [
-    { ...INGREDIENTS.tomato, count: 3, gauge: 'шт.' },
-    { ...INGREDIENTS.cucumber, count: 1.5, gauge: 'шт.' },
-    { ...INGREDIENTS.bellPepper, count: 2, gauge: 'шт.' },
-    { ...INGREDIENTS.onion, count: 0.5, gauge: 'шт.' },
-    { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
-    { ...INGREDIENTS.whiteBread, count: 100, gauge: 'г.' },
-    { ...INGREDIENTS.water, count: 100, gauge: 'мл' },
-    { ...INGREDIENTS.oliveOil, count: 8, gauge: 'ст.л.' },
-    { ...INGREDIENTS.sherryVinegar, count: 3, gauge: 'ст.л.' },
-    { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
-    { ...INGREDIENTS.groundBlackPepper, count: 2, gauge: 'г.' },
-    { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
-    { ...INGREDIENTS.parsley, count: 0.5, gauge: 'пуч.' },
-    { ...INGREDIENTS.croutons, count: 30, gauge: 'г.' },
+    { ingredientKey: 'tomato', count: 3, gauge: 'шт.' },
+    { ingredientKey: 'cucumber', count: 1.5, gauge: 'шт.' },
+    { ingredientKey: 'bellPepper', count: 2, gauge: 'шт.' },
+    { ingredientKey: 'onion', count: 0.5, gauge: 'шт.' },
+    { ingredientKey: 'garlic', count: 2, gauge: 'зуб.' },
+    { ingredientKey: 'whiteBread', count: 100, gauge: 'г.' },
+    { ingredientKey: 'water', count: 100, gauge: 'мл' },
+    { ingredientKey: 'oliveOil', count: 8, gauge: 'ст.л.' },
+    { ingredientKey: 'sherryVinegar', count: 3, gauge: 'ст.л.' },
+    { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
+    { ingredientKey: 'groundBlackPepper', count: 2, gauge: 'г.' },
+    { ingredientKey: 'greenOnion', count: 1, gauge: 'пуч.' },
+    { ingredientKey: 'parsley', count: 0.5, gauge: 'пуч.' },
+    { ingredientKey: 'croutons', count: 30, gauge: 'г.' },
   ],
   equipments: [
     EQUIPMENTS.mortar,
@@ -743,45 +742,45 @@ export const GAZPACHO = {
       description:
         'Подготовьте хлеб: удалите корки, залейте водой на 5 минут, затем отожмите. Томаты ошпарьте, снимите кожицу и удалите семена. Очистите огурец и перец от кожуры и семян, лук нарежьте крупно.',
       ingredients: [
-        { ...INGREDIENTS.whiteBread, count: 100, gauge: 'г.' },
-        { ...INGREDIENTS.tomato, count: 3, gauge: 'шт.' },
-        { ...INGREDIENTS.cucumber, count: 1.5, gauge: 'шт.' },
-        { ...INGREDIENTS.bellPepper, count: 2, gauge: 'шт.' },
-        { ...INGREDIENTS.onion, count: 0.5, gauge: 'шт.' },
-        { ...INGREDIENTS.water, count: 100, gauge: 'мл' },
+        { ingredientKey: 'whiteBread', count: 100, gauge: 'г.' },
+        { ingredientKey: 'tomato', count: 3, gauge: 'шт.' },
+        { ingredientKey: 'cucumber', count: 1.5, gauge: 'шт.' },
+        { ingredientKey: 'bellPepper', count: 2, gauge: 'шт.' },
+        { ingredientKey: 'onion', count: 0.5, gauge: 'шт.' },
+        { ingredientKey: 'water', count: 100, gauge: 'мл' },
       ],
     },
     {
       description:
         'В ступке растолките чеснок с солью до пасты. Добавляйте по очереди томаты, перец, огурец и лук, продолжая толочь до получения густой массы. В конце добавьте размоченный хлеб.',
       ingredients: [
-        { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
-        { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
-        { ...INGREDIENTS.tomato, count: 3, gauge: 'шт.' },
-        { ...INGREDIENTS.bellPepper, count: 2, gauge: 'шт.' },
-        { ...INGREDIENTS.cucumber, count: 1.5, gauge: 'шт.' },
-        { ...INGREDIENTS.onion, count: 0.5, gauge: 'шт.' },
-        { ...INGREDIENTS.whiteBread, count: 100, gauge: 'г.' },
+        { ingredientKey: 'garlic', count: 2, gauge: 'зуб.' },
+        { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'tomato', count: 3, gauge: 'шт.' },
+        { ingredientKey: 'bellPepper', count: 2, gauge: 'шт.' },
+        { ingredientKey: 'cucumber', count: 1.5, gauge: 'шт.' },
+        { ingredientKey: 'onion', count: 0.5, gauge: 'шт.' },
+        { ingredientKey: 'whiteBread', count: 100, gauge: 'г.' },
       ],
     },
     {
       description:
         'Медленно влейте оливковое масло и хересный уксус, перемешивая до шелковистой текстуры. При желании добавьте немного холодной воды для нужной густоты. Процедите через сито, чтобы удалить крупные частицы.',
       ingredients: [
-        { ...INGREDIENTS.oliveOil, count: 8, gauge: 'ст.л.' },
-        { ...INGREDIENTS.sherryVinegar, count: 3, gauge: 'ст.л.' },
+        { ingredientKey: 'oliveOil', count: 8, gauge: 'ст.л.' },
+        { ingredientKey: 'sherryVinegar', count: 3, gauge: 'ст.л.' },
       ],
     },
     {
       description:
         'Разлейте гаспачо по мискам, добавьте немного свежемолотого перца. Украсьте мелко нарезанным огурцом, перцем, зелёным луком, петрушкой и гренками. Охладите в холодильнике не менее 2 часов перед подачей.',
       ingredients: [
-        { ...INGREDIENTS.groundBlackPepper, count: 2, gauge: 'г.' },
-        { ...INGREDIENTS.cucumber, count: 1.5, gauge: 'шт.' },
-        { ...INGREDIENTS.bellPepper, count: 2, gauge: 'шт.' },
-        { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
-        { ...INGREDIENTS.parsley, count: 0.5, gauge: 'пуч.' },
-        { ...INGREDIENTS.croutons, count: 30, gauge: 'г.' },
+        { ingredientKey: 'groundBlackPepper', count: 2, gauge: 'г.' },
+        { ingredientKey: 'cucumber', count: 1.5, gauge: 'шт.' },
+        { ingredientKey: 'bellPepper', count: 2, gauge: 'шт.' },
+        { ingredientKey: 'greenOnion', count: 1, gauge: 'пуч.' },
+        { ingredientKey: 'parsley', count: 0.5, gauge: 'пуч.' },
+        { ingredientKey: 'croutons', count: 30, gauge: 'г.' },
       ],
     },
   ],

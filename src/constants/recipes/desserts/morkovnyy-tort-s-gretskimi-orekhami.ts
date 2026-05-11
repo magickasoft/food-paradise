@@ -299,67 +299,67 @@ export const MORKOVNYY_TORT_S_GRETSKIMI_OREKHAMI = {
   used: [6, 24, 45],
   ingredients: [
     {
-      name: 'Морковь',
+      ingredientKey: 'carrot',
       gauge: 'г',
       count: 300,
     },
     {
-      name: 'Грецкие орехи',
+      ingredientKey: 'gretskieOrehi',
       gauge: 'г',
       count: 100,
     },
     {
-      name: 'Яйца',
+      ingredientKey: 'yaytsa',
       gauge: 'шт.',
       count: 3,
     },
     {
-      name: 'Сахар',
+      ingredientKey: 'sugar',
       gauge: 'г',
       count: 200,
     },
     {
-      name: 'Растительное масло',
+      ingredientKey: 'rastitelnoeMaslo',
       gauge: 'мл',
       count: 120,
     },
     {
-      name: 'Овсяная мука',
+      ingredientKey: 'ovsyanayaMuka',
       gauge: 'г',
       count: 180,
     },
     {
-      name: 'Корица',
+      ingredientKey: 'cinnamon',
       gauge: 'ч.л',
       count: 1,
     },
     {
-      name: 'Имбирь молотый',
+      ingredientKey: 'gingerGround',
       gauge: 'ч.л',
       count: 0.5,
     },
     {
-      name: 'Мускатный орех',
+      ingredientKey: 'muscatNut',
       gauge: 'ч.л',
       count: 0.25,
     },
     {
-      name: 'Разрыхлитель',
+      ingredientKey: 'razryhlitel',
       gauge: 'ч.л',
       count: 1,
     },
     {
-      name: 'Маскарпоне',
+      ingredientKey: 'maskarpone',
       gauge: 'г',
       count: 250,
     },
     {
-      name: 'Сахарная пудра',
+      ingredientKey: 'powderedSugar',
       gauge: 'г',
       count: 80,
     },
     {
-      name: 'Апельсиновая цедра',
+      ingredientKey: 'apelsinovayaTsedra',
       gauge: 'ч.л',
       count: 1,
     },
@@ -395,47 +395,47 @@ export const MORKOVNYY_TORT_S_GRETSKIMI_OREKHAMI = {
       description: 'Смешайте сухие ингредиенты. Отдельно взбейте яйца с сахаром, добавьте масло и морковь.',
       ingredients: [
         {
-          name: 'Овсяная мука',
+          ingredientKey: 'ovsyanayaMuka',
           gauge: 'г',
           count: 180,
         },
         {
-          name: 'Корица',
+          ingredientKey: 'cinnamon',
           gauge: 'ч.л',
           count: 1,
         },
         {
-          name: 'Имбирь молотый',
+          ingredientKey: 'gingerGround',
           gauge: 'ч.л',
           count: 0.5,
         },
         {
-          name: 'Мускатный орех',
+          ingredientKey: 'muscatNut',
           gauge: 'ч.л',
           count: 0.25,
         },
         {
-          name: 'Разрыхлитель',
+          ingredientKey: 'razryhlitel',
           gauge: 'ч.л',
           count: 1,
         },
         {
-          name: 'Яйца',
+          ingredientKey: 'yaytsa',
           gauge: 'шт.',
           count: 3,
         },
         {
-          name: 'Сахар',
+          ingredientKey: 'sugar',
           gauge: 'г',
           count: 200,
         },
         {
-          name: 'Растительное масло',
+          ingredientKey: 'rastitelnoeMaslo',
           gauge: 'мл',
           count: 120,
         },
         {
-          name: 'Морковь',
+          ingredientKey: 'carrot',
           gauge: 'г',
           count: 300,
         },
@@ -445,7 +445,7 @@ export const MORKOVNYY_TORT_S_GRETSKIMI_OREKHAMI = {
       description: 'Соедините обе массы, добавьте орехи. Выпекайте при 180°C 50 минут.',
       ingredients: [
         {
-          name: 'Грецкие орехи',
+          ingredientKey: 'gretskieOrehi',
           gauge: 'г',
           count: 100,
         },
@@ -455,17 +455,17 @@ export const MORKOVNYY_TORT_S_GRETSKIMI_OREKHAMI = {
       description: 'Для крема взбейте маскарпоне с сахарной пудрой и цедрой. Промажьте остывшие коржи.',
       ingredients: [
         {
-          name: 'Маскарпоне',
+          ingredientKey: 'maskarpone',
           gauge: 'г',
           count: 250,
         },
         {
-          name: 'Сахарная пудра',
+          ingredientKey: 'powderedSugar',
           gauge: 'г',
           count: 80,
         },
         {
-          name: 'Апельсиновая цедра',
+          ingredientKey: 'apelsinovayaTsedra',
           gauge: 'ч.л',
           count: 1,
         },

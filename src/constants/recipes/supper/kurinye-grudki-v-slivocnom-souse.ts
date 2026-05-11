@@ -674,40 +674,34 @@ export const KURINYE_GRUDKI_V_SLIVOCNOM_SOUSE = {
   used: [7, 9],
   ingredients: [
     {
-      name: 'Куриное филе',
+      ingredientKey: 'kurinoeFile',
       gauge: 'г',
       count: 400,
-      img: null,
     },
     {
-      name: 'Сливки 20%',
+      ingredientKey: 'cream20',
       gauge: 'мл',
       count: 200,
-      img: null,
     },
     {
-      name: 'Чеснок',
+      ingredientKey: 'garlic',
       gauge: 'зубчик',
       count: 3,
-      img: null,
     },
     {
-      name: 'Укроп',
+      ingredientKey: 'dill',
       gauge: 'г',
       count: 20,
-      img: null,
     },
     {
-      name: 'Сливочное масло',
+      ingredientKey: 'slivochnoeMaslo',
       gauge: 'г',
       count: 30,
-      img: null,
     },
     {
-      name: 'Соль и перец',
+      ingredientKey: 'solIPerets',
       gauge: 'по вкусу',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -724,16 +718,14 @@ export const KURINYE_GRUDKI_V_SLIVOCNOM_SOUSE = {
         'Куриное филе нарежьте на кусочки, посолите, поперчите и обжарьте на сливочном масле до золотистости.',
       ingredients: [
         {
-          name: 'Куриное филе',
+          ingredientKey: 'kurinoeFile',
           gauge: 'г',
           count: 400,
-          img: null,
         },
         {
-          name: 'Сливочное масло',
+          ingredientKey: 'slivochnoeMaslo',
           gauge: 'г',
           count: 30,
-          img: null,
         },
       ],
     },
@@ -743,16 +735,14 @@ export const KURINYE_GRUDKI_V_SLIVOCNOM_SOUSE = {
       description: 'Добавьте измельченный чеснок, влейте сливки и тушите под крышкой 10-15 минут.',
       ingredients: [
         {
-          name: 'Чеснок',
+          ingredientKey: 'garlic',
           gauge: 'зубчик',
           count: 3,
-          img: null,
         },
         {
-          name: 'Сливки 20%',
+          ingredientKey: 'cream20',
           gauge: 'мл',
           count: 200,
-          img: null,
         },
       ],
     },
@@ -762,10 +752,9 @@ export const KURINYE_GRUDKI_V_SLIVOCNOM_SOUSE = {
       description: 'Перед подачей посыпьте укропом.',
       ingredients: [
         {
-          name: 'Укроп',
+          ingredientKey: 'dill',
           gauge: 'г',
           count: 20,
-          img: null,
         },
       ],
     },

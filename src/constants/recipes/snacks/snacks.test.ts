@@ -6,6 +6,7 @@ import { RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM } from './rulety-iz-vetchiny-s-
 import { SENDVICH_S_AVOKADO_I_YAITSOM_PASHOT } from './sendvich-s-avokado-i-yaitsom-pashot'
 import { TARTALETKI_S_IKROY } from './tartaletki-s-ikroy'
 import { TARTALETKI_S_KURITSEY_I_GRIBAMI } from './tartaletki-s-kuritsey-i-gribami'
+import { resolveRecipeIngredient } from '../recipeIngredients'
 
 describe('snack recipes', () => {
   test('keeps microwave chips text, time and ingredients synchronized', () => {
@@ -25,12 +26,20 @@ describe('snack recipes', () => {
   test('ham rolls expose ingredients and equipment', () => {
     expect(RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM.ingredients.length).toBeGreaterThan(0)
     expect(RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM.equipments.length).toBeGreaterThan(0)
-    expect(RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM.ingredients.map(({ name }) => name)).toContain('Ветчина')
+    expect(
+      RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM.ingredients.map(resolveRecipeIngredient).map(({ name }) => name),
+    ).toContain('Ветчина')
   })
 
   test('poached egg sandwich includes vinegar for the poaching step', () => {
-    expect(SENDVICH_S_AVOKADO_I_YAITSOM_PASHOT.ingredients.map(({ name }) => name)).toContain('Уксус')
-    expect(SENDVICH_S_AVOKADO_I_YAITSOM_PASHOT.cookingRecipe[1].ingredients.map(({ name }) => name)).toContain('Уксус')
+    expect(
+      SENDVICH_S_AVOKADO_I_YAITSOM_PASHOT.ingredients.map(resolveRecipeIngredient).map(({ name }) => name),
+    ).toContain('Уксус')
+    expect(
+      SENDVICH_S_AVOKADO_I_YAITSOM_PASHOT.cookingRecipe[1].ingredients
+        .map(resolveRecipeIngredient)
+        .map(({ name }) => name),
+    ).toContain('Уксус')
   })
 
   test('new year tartlets are also visible in snacks', () => {

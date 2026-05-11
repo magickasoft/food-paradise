@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const RATATUI_S_BAKLAZHANAMI = {
   metaSeo: {
@@ -871,16 +870,16 @@ export const RATATUI_S_BAKLAZHANAMI = {
   portions: 4,
   used: [25, 20, 15],
   ingredients: [
-    { ...INGREDIENTS.eggplant, count: 1 },
-    { ...INGREDIENTS.zucchini, count: 1 },
-    { ...INGREDIENTS.tomato, count: 3 },
-    { ...INGREDIENTS.bellPepper, count: 2 },
-    { ...INGREDIENTS.onion, count: 1 },
-    { ...INGREDIENTS.garlic, count: 3 },
-    { ...INGREDIENTS.oliveOil, count: 3 },
-    { ...INGREDIENTS.provencalHerbs, count: 1 },
-    { ...INGREDIENTS.salt, count: 1 },
-    { ...INGREDIENTS.groundBlackPepper, count: 1 },
+    { ingredientKey: 'eggplant', count: 1 },
+    { ingredientKey: 'zucchini', count: 1 },
+    { ingredientKey: 'tomato', count: 3 },
+    { ingredientKey: 'bellPepper', count: 2 },
+    { ingredientKey: 'onion', count: 1 },
+    { ingredientKey: 'garlic', count: 3 },
+    { ingredientKey: 'oliveOil', count: 3 },
+    { ingredientKey: 'provencalHerbs', count: 1 },
+    { ingredientKey: 'salt', count: 1 },
+    { ingredientKey: 'groundBlackPepper', count: 1 },
   ],
   equipments: [{ ...EQUIPMENTS.oven }, { ...EQUIPMENTS.pan }, { ...EQUIPMENTS.knife }, { ...EQUIPMENTS.cutBoard }],
   cookingRecipe: [
@@ -889,8 +888,8 @@ export const RATATUI_S_BAKLAZHANAMI = {
       video: null,
       description: 'Баклажаны и кабачки нарежьте кружочками, посолите и оставьте на 10 минут, чтобы ушла горечь.',
       ingredients: [
-        { ...INGREDIENTS.eggplant, count: 1 },
-        { ...INGREDIENTS.zucchini, count: 1 },
+        { ingredientKey: 'eggplant', count: 1 },
+        { ingredientKey: 'zucchini', count: 1 },
       ],
     },
     {
@@ -899,11 +898,11 @@ export const RATATUI_S_BAKLAZHANAMI = {
       description:
         'Лук и чеснок обжарьте на оливковом масле. Добавьте нарезанные кубиками помидоры и сладкий перец, тушите 10 минут на среднем огне.',
       ingredients: [
-        { ...INGREDIENTS.onion, count: 1 },
-        { ...INGREDIENTS.garlic, count: 3 },
-        { ...INGREDIENTS.tomato, count: 3 },
-        { ...INGREDIENTS.bellPepper, count: 2 },
-        { ...INGREDIENTS.oliveOil, count: 1 },
+        { ingredientKey: 'onion', count: 1 },
+        { ingredientKey: 'garlic', count: 3 },
+        { ingredientKey: 'tomato', count: 3 },
+        { ingredientKey: 'bellPepper', count: 2 },
+        { ingredientKey: 'oliveOil', count: 1 },
       ],
     },
     {
@@ -912,8 +911,8 @@ export const RATATUI_S_BAKLAZHANAMI = {
       description:
         'Выложите овощи слоями в форму для запекания: сначала соус из томатов, затем чередуйте кружочки кабачков, баклажанов и перца. Посыпьте прованскими травами, полейте маслом и запекайте 30 минут при 180°C.',
       ingredients: [
-        { ...INGREDIENTS.provencalHerbs, count: 1 },
-        { ...INGREDIENTS.oliveOil, count: 2 },
+        { ingredientKey: 'provencalHerbs', count: 1 },
+        { ingredientKey: 'oliveOil', count: 2 },
       ],
     },
   ],

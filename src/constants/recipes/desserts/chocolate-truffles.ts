@@ -79,44 +79,44 @@ export const CHOCOLATE_TRUFFLES = {
   used: [2, 12, 15],
   ingredients: [
     {
-      name: 'Горький шоколад (70%)',
+      ingredientKey: 'gorkiyShokolad',
       gauge: 'г',
       count: 200,
     },
     {
-      name: 'Сливки 33%',
+      ingredientKey: 'cream33',
       gauge: 'мл',
       count: 100,
     },
     {
-      name: 'Сливочное масло',
+      ingredientKey: 'slivochnoeMaslo',
       gauge: 'г',
       count: 50,
     },
     {
-      name: 'Фундук',
+      ingredientKey: 'funduk',
       gauge: 'г',
       count: 100,
     },
     {
-      name: 'Какао-порошок',
+      ingredientKey: 'kakaoPoroshok',
       gauge: 'г',
       count: 30,
     },
     {
-      name: 'Молочный шоколад',
+      ingredientKey: 'molochnyyShokolad',
       gauge: 'г',
       count: 50,
       optional: true,
     },
     {
-      name: 'Белый шоколад',
+      ingredientKey: 'belyyShokolad',
       gauge: 'г',
       count: 50,
       optional: true,
     },
     {
-      name: 'Молотая корица',
+      ingredientKey: 'molotayaKoritsa',
       gauge: 'ч.л',
       count: 0.5,
       optional: true,
@@ -148,17 +148,17 @@ export const CHOCOLATE_TRUFFLES = {
         'На водяной бане растопите горький шоколад со сливками, постоянно помешивая. Добавьте сливочное масло, снимите с огня.',
       ingredients: [
         {
-          name: 'Горький шоколад (70%)',
+          ingredientKey: 'gorkiyShokolad',
           gauge: 'г',
           count: 200,
         },
         {
-          name: 'Сливки 33%',
+          ingredientKey: 'cream33',
           gauge: 'мл',
           count: 100,
         },
         {
-          name: 'Сливочное масло',
+          ingredientKey: 'slivochnoeMaslo',
           gauge: 'г',
           count: 50,
         },
@@ -172,29 +172,29 @@ export const CHOCOLATE_TRUFFLES = {
       description: 'Сформируйте шарики с цельным фундуком внутри. Обваляйте в какао или растопленном шоколаде.',
       ingredients: [
         {
-          name: 'Фундук',
+          ingredientKey: 'funduk',
           gauge: 'г',
           count: 100,
         },
         {
-          name: 'Какао-порошок',
+          ingredientKey: 'kakaoPoroshok',
           gauge: 'г',
           count: 30,
         },
         {
-          name: 'Молочный шоколад',
+          ingredientKey: 'molochnyyShokolad',
           gauge: 'г',
           count: 50,
           optional: true,
         },
         {
-          name: 'Белый шоколад',
+          ingredientKey: 'belyyShokolad',
           gauge: 'г',
           count: 50,
           optional: true,
         },
         {
-          name: 'Молотая корица',
+          ingredientKey: 'molotayaKoritsa',
           gauge: 'ч.л',
           count: 0.5,
           optional: true,

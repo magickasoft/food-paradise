@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const UHA_PO_FINSKI = {
   metaSeo: {
@@ -343,17 +342,17 @@ export const UHA_PO_FINSKI = {
   portions: 4,
   used: [10, 12],
   ingredients: [
-    { ...INGREDIENTS.salmonFillet, count: 400, gauge: 'г.' },
-    { ...INGREDIENTS.potato, count: 4, gauge: 'шт.' },
-    { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.cream20, count: 200, gauge: 'г.' },
-    { ...INGREDIENTS.butter, count: 20, gauge: 'г.' },
-    { ...INGREDIENTS.dill, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.bayLeaf, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.blackPepper, count: 5, gauge: 'г.' },
-    { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
-    { ...INGREDIENTS.water, count: 1.5, gauge: 'л.' },
+    { ingredientKey: 'salmonFillet', count: 400, gauge: 'г.' },
+    { ingredientKey: 'potato', count: 4, gauge: 'шт.' },
+    { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'carrot', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'cream20', count: 200, gauge: 'г.' },
+    { ingredientKey: 'butter', count: 20, gauge: 'г.' },
+    { ingredientKey: 'dill', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'bayLeaf', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'blackPepper', count: 5, gauge: 'г.' },
+    { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
+    { ingredientKey: 'water', count: 1.5, gauge: 'л.' },
   ],
   equipments: [
     { ...EQUIPMENTS.pot, count: 1 },
@@ -369,10 +368,10 @@ export const UHA_PO_FINSKI = {
       description: `Очистите и нарежьте картофель, морковь и лук. В кастрюле растопите сливочное масло, 
       слегка обжарьте овощи 2–3 минуты, чтобы появился лёгкий аромат.`,
       ingredients: [
-        { ...INGREDIENTS.potato, count: 4, gauge: 'шт.' },
-        { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.butter, count: 20, gauge: 'г.' },
+        { ingredientKey: 'potato', count: 4, gauge: 'шт.' },
+        { ingredientKey: 'carrot', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'butter', count: 20, gauge: 'г.' },
       ],
     },
     {
@@ -380,16 +379,16 @@ export const UHA_PO_FINSKI = {
       video: null,
       description: `Добавьте 1.5 литра воды, лавровый лист и перец горошком. Варите овощи 10–12 минут до полуготовности.`,
       ingredients: [
-        { ...INGREDIENTS.water, count: 1.5, gauge: 'л.' },
-        { ...INGREDIENTS.bayLeaf, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.blackPepper, count: 5, gauge: 'г.' },
+        { ingredientKey: 'water', count: 1.5, gauge: 'л.' },
+        { ingredientKey: 'bayLeaf', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'blackPepper', count: 5, gauge: 'г.' },
       ],
     },
     {
       img: null,
       video: null,
       description: `Нарежьте лосося кубиками, добавьте в суп и варите ещё 7–10 минут до мягкости рыбы.`,
-      ingredients: [{ ...INGREDIENTS.salmonFillet, count: 400, gauge: 'г.' }],
+      ingredients: [{ ingredientKey: 'salmonFillet', count: 400, gauge: 'г.' }],
     },
     {
       img: null,
@@ -397,9 +396,9 @@ export const UHA_PO_FINSKI = {
       description: `Влейте сливки, добавьте мелко нарезанный укроп и аккуратно прогрейте суп 2–3 минуты, не доводя до кипения. 
       Посолите по вкусу и дайте настояться 5 минут под крышкой.`,
       ingredients: [
-        { ...INGREDIENTS.cream20, count: 200, gauge: 'г.' },
-        { ...INGREDIENTS.dill, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'cream20', count: 200, gauge: 'г.' },
+        { ingredientKey: 'dill', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
       ],
     },
   ],

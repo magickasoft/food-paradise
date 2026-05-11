@@ -309,40 +309,34 @@ export const GRECHKA_S_GRIBAMI_I_LUKOM = {
   used: [8, 9],
   ingredients: [
     {
-      name: 'Гречневая крупа',
+      ingredientKey: 'grechnevayaKrupa',
       gauge: 'г',
       count: 200,
-      img: null,
     },
     {
-      name: 'Шампиньоны',
+      ingredientKey: 'champignons',
       gauge: 'г',
       count: 200,
-      img: null,
     },
     {
-      name: 'Лук',
+      ingredientKey: 'luk',
       gauge: 'шт.',
       count: 1,
-      img: null,
     },
     {
-      name: 'Сливочное масло',
+      ingredientKey: 'slivochnoeMaslo',
       gauge: 'г',
       count: 30,
-      img: null,
     },
     {
-      name: 'Растительное масло',
+      ingredientKey: 'rastitelnoeMaslo',
       gauge: 'ст.л',
       count: 1,
-      img: null,
     },
     {
-      name: 'Соль и перец',
+      ingredientKey: 'solIPerets',
       gauge: 'по вкусу',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -362,10 +356,9 @@ export const GRECHKA_S_GRIBAMI_I_LUKOM = {
       description: 'Гречку промойте и отварите в подсоленной воде до готовности (1:2 с водой).',
       ingredients: [
         {
-          name: 'Гречневая крупа',
+          ingredientKey: 'grechnevayaKrupa',
           gauge: 'г',
           count: 200,
-          img: null,
         },
       ],
     },
@@ -375,16 +368,14 @@ export const GRECHKA_S_GRIBAMI_I_LUKOM = {
       description: 'Лук нарежьте полукольцами, грибы — пластинками. Обжарьте на растительном масле до золотистости.',
       ingredients: [
         {
-          name: 'Шампиньоны',
+          ingredientKey: 'champignons',
           gauge: 'г',
           count: 200,
-          img: null,
         },
         {
-          name: 'Лук',
+          ingredientKey: 'luk',
           gauge: 'шт.',
           count: 1,
-          img: null,
         },
       ],
     },
@@ -394,10 +385,9 @@ export const GRECHKA_S_GRIBAMI_I_LUKOM = {
       description: 'Смешайте гречку с грибами и луком, добавьте сливочное масло, посолите и поперчите.',
       ingredients: [
         {
-          name: 'Сливочное масло',
+          ingredientKey: 'slivochnoeMaslo',
           gauge: 'г',
           count: 30,
-          img: null,
         },
       ],
     },

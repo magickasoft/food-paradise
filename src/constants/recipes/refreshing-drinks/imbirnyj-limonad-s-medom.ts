@@ -224,40 +224,34 @@ export const IMBIRNYJ_LIMONAD_S_MEDOM = {
   used: [5, 3, 2],
   ingredients: [
     {
-      name: 'Имбирь (свежий)',
+      ingredientKey: 'imbir',
       gauge: 'см',
       count: 5,
-      img: null,
     },
     {
-      name: 'Лимон',
+      ingredientKey: 'lemon',
       gauge: 'шт.',
       count: 2,
-      img: null,
     },
     {
-      name: 'Мёд',
+      ingredientKey: 'honey',
       gauge: 'ст.л',
       count: 3,
-      img: null,
     },
     {
-      name: 'Вода (кипячёная)',
+      ingredientKey: 'voda2',
       gauge: 'л',
       count: 1,
-      img: null,
     },
     {
-      name: 'Лёд',
+      ingredientKey: 'led',
       gauge: 'стакан',
       count: 1,
-      img: null,
     },
     {
-      name: 'Мята (по желанию)',
+      ingredientKey: 'myata',
       gauge: 'г',
       count: 5,
-      img: null,
     },
   ],
   equipments: [
@@ -278,16 +272,14 @@ export const IMBIRNYJ_LIMONAD_S_MEDOM = {
         'Имбирь очистите и нарежьте тонкими ломтиками. Лимон выжмите, оставив несколько долек для украшения.',
       ingredients: [
         {
-          name: 'Имбирь (свежий)',
+          ingredientKey: 'imbir',
           gauge: 'см',
           count: 5,
-          img: null,
         },
         {
-          name: 'Лимон',
+          ingredientKey: 'lemon',
           gauge: 'шт.',
           count: 2,
-          img: null,
         },
       ],
     },
@@ -298,10 +290,9 @@ export const IMBIRNYJ_LIMONAD_S_MEDOM = {
         'В кастрюле доведите воду до кипения, добавьте имбирь и варите 5 минут. Остудите до комнатной температуры.',
       ingredients: [
         {
-          name: 'Вода (кипячёная)',
+          ingredientKey: 'voda2',
           gauge: 'л',
           count: 1,
-          img: null,
         },
       ],
     },
@@ -312,22 +303,19 @@ export const IMBIRNYJ_LIMONAD_S_MEDOM = {
         'Процедите отвар, добавьте лимонный сок и мёд. Перемешайте до растворения мёда. Подавайте со льдом и мятой.',
       ingredients: [
         {
-          name: 'Мёд',
+          ingredientKey: 'honey',
           gauge: 'ст.л',
           count: 3,
-          img: null,
         },
         {
-          name: 'Лёд',
+          ingredientKey: 'led',
           gauge: 'стакан',
           count: 1,
-          img: null,
         },
         {
-          name: 'Мята (по желанию)',
+          ingredientKey: 'myata',
           gauge: 'г',
           count: 5,
-          img: null,
         },
       ],
     },

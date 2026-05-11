@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const FARSHIROVANNYE_PERTSY = {
   metaSeo: {
@@ -804,17 +803,17 @@ export const FARSHIROVANNYE_PERTSY = {
   portions: 6,
   used: [15, 16],
   ingredients: [
-    { ...INGREDIENTS.bellPepper, count: 6 },
-    { ...INGREDIENTS.groundBeef, count: 0.5 },
-    { ...INGREDIENTS.rice, count: 100 },
-    { ...INGREDIENTS.onion, count: 1 },
-    { ...INGREDIENTS.carrot, count: 1 },
-    { ...INGREDIENTS.tomatoPaste, count: 2, gauge: 'ст.л' },
-    { ...INGREDIENTS.sourCream, count: 100 },
-    { ...INGREDIENTS.vegetableOil, count: 2 },
-    { ...INGREDIENTS.salt, gauge: 'по вкусу' },
-    { ...INGREDIENTS.groundBlackPepper, gauge: 'по вкусу' },
-    { ...INGREDIENTS.water, count: 200, gauge: 'мл' },
+    { ingredientKey: 'bellPepper', count: 6 },
+    { ingredientKey: 'groundBeef', count: 0.5 },
+    { ingredientKey: 'rice', count: 100 },
+    { ingredientKey: 'onion', count: 1 },
+    { ingredientKey: 'carrot', count: 1 },
+    { ingredientKey: 'tomatoPaste', count: 2, gauge: 'ст.л' },
+    { ingredientKey: 'sourCream', count: 100 },
+    { ingredientKey: 'vegetableOil', count: 2 },
+    { ingredientKey: 'salt', gauge: 'по вкусу' },
+    { ingredientKey: 'groundBlackPepper', gauge: 'по вкусу' },
+    { ingredientKey: 'water', count: 200, gauge: 'мл' },
   ],
   equipments: [{ ...EQUIPMENTS.bakingTray }, { ...EQUIPMENTS.pot }, { ...EQUIPMENTS.knife }, { ...EQUIPMENTS.grater }],
   cookingRecipe: [
@@ -824,12 +823,12 @@ export const FARSHIROVANNYE_PERTSY = {
       description:
         'Рис отварите до полуготовности. Смешайте с фаршем, тертой морковью, мелко нарезанным луком, солью и перцем.',
       ingredients: [
-        { ...INGREDIENTS.rice, count: 100 },
-        { ...INGREDIENTS.groundBeef, count: 0.5 },
-        { ...INGREDIENTS.carrot, count: 1 },
-        { ...INGREDIENTS.onion, count: 1 },
-        { ...INGREDIENTS.salt, gauge: 'по вкусу' },
-        { ...INGREDIENTS.groundBlackPepper, gauge: 'по вкусу' },
+        { ingredientKey: 'rice', count: 100 },
+        { ingredientKey: 'groundBeef', count: 0.5 },
+        { ingredientKey: 'carrot', count: 1 },
+        { ingredientKey: 'onion', count: 1 },
+        { ingredientKey: 'salt', gauge: 'по вкусу' },
+        { ingredientKey: 'groundBlackPepper', gauge: 'по вкусу' },
       ],
     },
     {
@@ -837,7 +836,7 @@ export const FARSHIROVANNYE_PERTSY = {
       video: null,
       description:
         'Перцы очистите от семян, аккуратно наполните фаршем, не утрамбовывая слишком плотно, и уложите в форму для запекания.',
-      ingredients: [{ ...INGREDIENTS.bellPepper, count: 6 }],
+      ingredients: [{ ingredientKey: 'bellPepper', count: 6 }],
     },
     {
       img: null,
@@ -845,9 +844,9 @@ export const FARSHIROVANNYE_PERTSY = {
       description:
         'Смешайте томатную пасту, сметану и 200 мл воды. Залейте перцы и тушите в духовке 50 минут при 180°C, пока они не станут мягкими.',
       ingredients: [
-        { ...INGREDIENTS.water, count: 200, gauge: 'мл' },
-        { ...INGREDIENTS.tomatoPaste, count: 2, gauge: 'ст.л' },
-        { ...INGREDIENTS.sourCream, count: 100 },
+        { ingredientKey: 'water', count: 200, gauge: 'мл' },
+        { ingredientKey: 'tomatoPaste', count: 2, gauge: 'ст.л' },
+        { ingredientKey: 'sourCream', count: 100 },
       ],
     },
   ],

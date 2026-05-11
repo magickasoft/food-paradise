@@ -179,40 +179,34 @@ export const OGURECHNO_LAJMOVYJ_SPRITSER = {
   used: [3, 2, 1],
   ingredients: [
     {
-      name: 'Огурец',
+      ingredientKey: 'cucumber',
       gauge: 'шт.',
       count: 0.5,
-      img: null,
     },
     {
-      name: 'Лайм',
+      ingredientKey: 'lime',
       gauge: 'шт.',
       count: 1,
-      img: null,
     },
     {
-      name: 'Газированная вода',
+      ingredientKey: 'gazirovannayaVoda',
       gauge: 'мл',
       count: 500,
-      img: null,
     },
     {
-      name: 'Лёд',
+      ingredientKey: 'led',
       gauge: 'стакан',
       count: 1,
-      img: null,
     },
     {
-      name: 'Мята свежая',
+      ingredientKey: 'myataSvezhaya',
       gauge: 'лист',
       count: 5,
-      img: null,
     },
     {
-      name: 'Стевия (по желанию)',
+      ingredientKey: 'steviya',
       gauge: 'ч.л',
       count: 0.5,
-      img: null,
     },
   ],
   equipments: [
@@ -232,16 +226,14 @@ export const OGURECHNO_LAJMOVYJ_SPRITSER = {
       description: 'Огурец нарежьте тонкими кружочками. Лайм разрежьте на дольки.',
       ingredients: [
         {
-          name: 'Огурец',
+          ingredientKey: 'cucumber',
           gauge: 'шт.',
           count: 0.5,
-          img: null,
         },
         {
-          name: 'Лайм',
+          ingredientKey: 'lime',
           gauge: 'шт.',
           count: 1,
-          img: null,
         },
       ],
     },
@@ -251,16 +243,14 @@ export const OGURECHNO_LAJMOVYJ_SPRITSER = {
       description: 'В кувшин положите огурец, лайм и мяту. Добавьте лёд.',
       ingredients: [
         {
-          name: 'Мята свежая',
+          ingredientKey: 'myataSvezhaya',
           gauge: 'лист',
           count: 5,
-          img: null,
         },
         {
-          name: 'Лёд',
+          ingredientKey: 'led',
           gauge: 'стакан',
           count: 1,
-          img: null,
         },
       ],
     },
@@ -270,16 +260,14 @@ export const OGURECHNO_LAJMOVYJ_SPRITSER = {
       description: 'Залейте газированной водой, аккуратно перемешайте. По желанию добавьте стевию.',
       ingredients: [
         {
-          name: 'Газированная вода',
+          ingredientKey: 'gazirovannayaVoda',
           gauge: 'мл',
           count: 500,
-          img: null,
         },
         {
-          name: 'Стевия (по желанию)',
+          ingredientKey: 'steviya',
           gauge: 'ч.л',
           count: 0.5,
-          img: null,
         },
       ],
     },

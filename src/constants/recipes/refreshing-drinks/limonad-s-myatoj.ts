@@ -222,40 +222,34 @@ export const LIMONAD_S_MYATOJ = {
   used: [5, 3, 2],
   ingredients: [
     {
-      name: 'Лимон',
+      ingredientKey: 'lemon',
       gauge: 'шт.',
       count: 2,
-      img: null,
     },
     {
-      name: 'Мята свежая',
+      ingredientKey: 'myataSvezhaya',
       gauge: 'г',
       count: 20,
-      img: null,
     },
     {
-      name: 'Имбирь (свежий)',
+      ingredientKey: 'imbir',
       gauge: 'см',
       count: 3,
-      img: null,
     },
     {
-      name: 'Мёд',
+      ingredientKey: 'honey',
       gauge: 'ст.л',
       count: 2,
-      img: null,
     },
     {
-      name: 'Вода (минеральная или фильтрованная)',
+      ingredientKey: 'voda3',
       gauge: 'л',
       count: 1,
-      img: null,
     },
     {
-      name: 'Лёд',
+      ingredientKey: 'led',
       gauge: 'стакан',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -275,16 +269,14 @@ export const LIMONAD_S_MYATOJ = {
       description: 'Из 1 лимона выжмите сок, второй нарежьте кружочками. Имбирь очистите и натрите на тёрке.',
       ingredients: [
         {
-          name: 'Лимон',
+          ingredientKey: 'lemon',
           gauge: 'шт.',
           count: 2,
-          img: null,
         },
         {
-          name: 'Имбирь (свежий)',
+          ingredientKey: 'imbir',
           gauge: 'см',
           count: 3,
-          img: null,
         },
       ],
     },
@@ -294,22 +286,19 @@ export const LIMONAD_S_MYATOJ = {
       description: 'В кувшин добавьте лимонный сок, мёд, имбирь и мяту. Залейте водой и перемешайте.',
       ingredients: [
         {
-          name: 'Мёд',
+          ingredientKey: 'honey',
           gauge: 'ст.л',
           count: 2,
-          img: null,
         },
         {
-          name: 'Мята свежая',
+          ingredientKey: 'myataSvezhaya',
           gauge: 'г',
           count: 20,
-          img: null,
         },
         {
-          name: 'Вода (минеральная или фильтрованная)',
+          ingredientKey: 'voda3',
           gauge: 'л',
           count: 1,
-          img: null,
         },
       ],
     },
@@ -319,10 +308,9 @@ export const LIMONAD_S_MYATOJ = {
       description: 'Добавьте лёд и дольки лимона. Дайте настояться 5 минут и подавайте.',
       ingredients: [
         {
-          name: 'Лёд',
+          ingredientKey: 'led',
           gauge: 'стакан',
           count: 1,
-          img: null,
         },
       ],
     },

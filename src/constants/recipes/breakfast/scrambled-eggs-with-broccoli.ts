@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SCRAMBLED_EGGS_WITH_BROCCOLI = {
   metaSeo: {
@@ -185,37 +184,37 @@ export const SCRAMBLED_EGGS_WITH_BROCCOLI = {
   used: [16.18, 23.56, 6.09],
   ingredients: [
     {
-      ...INGREDIENTS.water,
+      ingredientKey: 'water',
       count: 500,
       gauge: 'мл',
     },
     {
-      ...INGREDIENTS.eggs,
+      ingredientKey: 'eggs',
       count: 3,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.refinedVegetableOil,
+      ingredientKey: 'refinedVegetableOil',
       count: 2,
       gauge: 'ст.л.',
     },
     {
-      ...INGREDIENTS.groundBlackPepper,
+      ingredientKey: 'groundBlackPepper',
       count: ' ',
       gauge: 'щепотка',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: ' ',
       gauge: 'щепотка',
     },
     {
-      ...INGREDIENTS.broccoli,
+      ingredientKey: 'broccoli',
       count: 150,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.hardCheese,
+      ingredientKey: 'hardCheese',
       count: 30,
       gauge: 'г',
     },
@@ -238,12 +237,12 @@ export const SCRAMBLED_EGGS_WITH_BROCCOLI = {
         'Разберите брокколи на мелкие соцветия и тщательно промойте под холодной водой. Затем доведите до кипения воду в небольшой кастрюле, слегка подсолите и опустите в нее капусту. Бланшируйте около 3 минут, чтобы она стала мягкой, но сохранила свою текстуру и цвет. После этого откиньте брокколи на дуршлаг и дайте воде стечь.',
       ingredients: [
         {
-          ...INGREDIENTS.water,
+          ingredientKey: 'water',
           count: 500,
           gauge: 'мл',
         },
         {
-          ...INGREDIENTS.broccoli,
+          ingredientKey: 'broccoli',
           count: 150,
           gauge: 'г',
         },
@@ -256,7 +255,7 @@ export const SCRAMBLED_EGGS_WITH_BROCCOLI = {
         'Разогрейте сковороду на среднем огне и добавьте растительное масло. Как только масло разогреется, выложите подготовленные соцветия на сковороду. Обжарьте брокколи на среднем огне, периодически помешивая, примерно 3-4 минуты, чтобы она немного подрумянилась.',
       ingredients: [
         {
-          ...INGREDIENTS.refinedVegetableOil,
+          ingredientKey: 'refinedVegetableOil',
           count: 2,
           gauge: 'ст.л.',
         },
@@ -269,17 +268,17 @@ export const SCRAMBLED_EGGS_WITH_BROCCOLI = {
         'Пока брокколи обжаривается, разбейте яйца в миску и слегка взбейте их вилкой или венчиком. Взбивать сильно не нужно, достаточно просто размешать желтки с белками. Добавьте немного соли и свежемолотого черного перца.',
       ingredients: [
         {
-          ...INGREDIENTS.eggs,
+          ingredientKey: 'eggs',
           count: 2,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.groundBlackPepper,
+          ingredientKey: 'groundBlackPepper',
           count: ' ',
           gauge: 'щепотка',
         },
         {
-          ...INGREDIENTS.salt,
+          ingredientKey: 'salt',
           count: ' ',
           gauge: 'щепотка',
         },
@@ -299,7 +298,7 @@ export const SCRAMBLED_EGGS_WITH_BROCCOLI = {
         'Если хотите добавить сыр, посыпьте яичницу тертым сыром за 2-3 минуты до готовности. Готовую яичницу с брокколи аккуратно переложите на тарелку и подавайте горячей. Это блюдо отлично сочетается с хрустящими тостами и свежими овощами.',
       ingredients: [
         {
-          ...INGREDIENTS.hardCheese,
+          ingredientKey: 'hardCheese',
           count: 30,
           gauge: 'г',
         },

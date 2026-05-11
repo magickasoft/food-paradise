@@ -271,53 +271,53 @@ export const TORT_MEDOVIK = {
   used: [6, 22, 45],
   ingredients: [
     {
-      name: 'Мед гречишный',
+      ingredientKey: 'medGrechishnyy',
       gauge: 'г',
       count: 150,
     },
     {
-      name: 'Сливочное масло',
+      ingredientKey: 'slivochnoeMaslo',
       gauge: 'г',
       count: 100,
     },
     {
-      name: 'Сахар',
+      ingredientKey: 'sugar',
       gauge: 'г',
       count: 150,
     },
     {
-      name: 'Яйца',
+      ingredientKey: 'yaytsa',
       gauge: 'шт.',
       count: 3,
     },
     {
-      name: 'Пшеничная мука',
+      ingredientKey: 'pshenichnayaMuka',
       gauge: 'г',
       count: 500,
     },
     {
-      name: 'Сода пищевая',
+      ingredientKey: 'sodaPischevaya',
       gauge: 'ч.л',
       count: 1,
     },
     {
-      name: 'Корица молотая',
+      ingredientKey: 'koritsaMolotaya',
       gauge: 'ч.л',
       count: 0.5,
       optional: true,
     },
     {
-      name: 'Сметана 25-30%',
+      ingredientKey: 'smetana2530',
       gauge: 'г',
       count: 800,
     },
     {
-      name: 'Сахарная пудра',
+      ingredientKey: 'powderedSugar',
       gauge: 'г',
       count: 200,
     },
     {
-      name: 'Ванильный сахар',
+      ingredientKey: 'vanillaSugar',
       gauge: 'ч.л',
       count: 1,
     },
@@ -353,22 +353,22 @@ export const TORT_MEDOVIK = {
       description: 'На водяной бане растопите мед с маслом и сахаром. Добавьте соду, размешивайте до появления пены.',
       ingredients: [
         {
-          name: 'Мед гречишный',
+          ingredientKey: 'medGrechishnyy',
           gauge: 'г',
           count: 150,
         },
         {
-          name: 'Сливочное масло',
+          ingredientKey: 'slivochnoeMaslo',
           gauge: 'г',
           count: 100,
         },
         {
-          name: 'Сахар',
+          ingredientKey: 'sugar',
           gauge: 'г',
           count: 150,
         },
         {
-          name: 'Сода пищевая',
+          ingredientKey: 'sodaPischevaya',
           gauge: 'ч.л',
           count: 1,
         },
@@ -378,17 +378,17 @@ export const TORT_MEDOVIK = {
       description: 'Влейте яйца, затем постепенно добавляйте муку. Замесите мягкое тесто.',
       ingredients: [
         {
-          name: 'Яйца',
+          ingredientKey: 'yaytsa',
           gauge: 'шт.',
           count: 3,
         },
         {
-          name: 'Пшеничная мука',
+          ingredientKey: 'pshenichnayaMuka',
           gauge: 'г',
           count: 500,
         },
         {
-          name: 'Корица молотая',
+          ingredientKey: 'koritsaMolotaya',
           gauge: 'ч.л',
           count: 0.5,
           optional: true,
@@ -403,17 +403,17 @@ export const TORT_MEDOVIK = {
       description: 'Для крема взбейте сметану с сахарной пудрой. Соберите торт, посыпьте крошкой. Охладите 12 часов.',
       ingredients: [
         {
-          name: 'Сметана 25-30%',
+          ingredientKey: 'smetana2530',
           gauge: 'г',
           count: 800,
         },
         {
-          name: 'Сахарная пудра',
+          ingredientKey: 'powderedSugar',
           gauge: 'г',
           count: 200,
         },
         {
-          name: 'Ванильный сахар',
+          ingredientKey: 'vanillaSugar',
           gauge: 'ч.л',
           count: 1,
         },

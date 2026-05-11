@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const KURINYY_BULON_S_LAPSHOY = {
   metaSeo: {
@@ -846,15 +845,15 @@ export const KURINYY_BULON_S_LAPSHOY = {
   portions: 4,
   used: [7, 8],
   ingredients: [
-    { ...INGREDIENTS.chickenBreastFillet, count: 0.4, gauge: 'кг.' },
-    { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.eggNoodles, count: 100, gauge: 'г.' },
-    { ...INGREDIENTS.dill, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.bayLeaf, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.blackPepper, count: 5, gauge: 'г.' },
-    { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
-    { ...INGREDIENTS.water, count: 2, gauge: 'л.' },
+    { ingredientKey: 'chickenBreastFillet', count: 0.4, gauge: 'кг.' },
+    { ingredientKey: 'carrot', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'eggNoodles', count: 100, gauge: 'г.' },
+    { ingredientKey: 'dill', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'bayLeaf', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'blackPepper', count: 5, gauge: 'г.' },
+    { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
+    { ingredientKey: 'water', count: 2, gauge: 'л.' },
   ],
   equipments: [
     { ...EQUIPMENTS.pot, count: 1 },
@@ -870,12 +869,12 @@ export const KURINYY_BULON_S_LAPSHOY = {
       Доведите до кипения, снимите пену, добавьте целые морковь, лук, лавровый лист и перец горошком. 
       Варите на слабом огне 40 минут, не допуская бурного кипения.`,
       ingredients: [
-        { ...INGREDIENTS.water, count: 2, gauge: 'л.' },
-        { ...INGREDIENTS.chickenBreastFillet, count: 0.4, gauge: 'кг.' },
-        { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.bayLeaf, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.blackPepper, count: 5, gauge: 'г.' },
+        { ingredientKey: 'water', count: 2, gauge: 'л.' },
+        { ingredientKey: 'chickenBreastFillet', count: 0.4, gauge: 'кг.' },
+        { ingredientKey: 'carrot', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'bayLeaf', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'blackPepper', count: 5, gauge: 'г.' },
       ],
     },
     {
@@ -883,14 +882,14 @@ export const KURINYY_BULON_S_LAPSHOY = {
       video: null,
       description: `Достаньте курицу и овощи, бульон аккуратно процедите через сито. 
       Верните его на огонь, добавьте лапшу и варите 5–7 минут до готовности.`,
-      ingredients: [{ ...INGREDIENTS.eggNoodles, count: 100, gauge: 'г.' }],
+      ingredients: [{ ingredientKey: 'eggNoodles', count: 100, gauge: 'г.' }],
     },
     {
       img: null,
       video: null,
       description: `Курицу нарежьте кусочками, морковь — кружочками. 
       Разложите по тарелкам, залейте горячим бульоном с лапшой и посыпьте свежим укропом.`,
-      ingredients: [{ ...INGREDIENTS.dill, count: 1, gauge: 'шт.' }],
+      ingredients: [{ ingredientKey: 'dill', count: 1, gauge: 'шт.' }],
     },
   ],
   tips: [

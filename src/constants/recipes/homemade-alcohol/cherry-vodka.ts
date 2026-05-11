@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const CHERRY_VODKA = {
   metaSeo: {
@@ -37,9 +36,9 @@ export const CHERRY_VODKA = {
   rating: 4.9,
   portions: 25,
   ingredients: [
-    { ...INGREDIENTS.cherry, count: 500, gauge: 'г' },
-    { ...INGREDIENTS.sugar, count: 250, gauge: 'г' },
-    { ...INGREDIENTS.vodka, count: 700, gauge: 'мл' },
+    { ingredientKey: 'cherry', count: 500, gauge: 'г' },
+    { ingredientKey: 'sugar', count: 250, gauge: 'г' },
+    { ingredientKey: 'vodka', count: 700, gauge: 'мл' },
   ],
   equipments: [EQUIPMENTS.jar, EQUIPMENTS.sieve, EQUIPMENTS.bottle],
   historyDescription:
@@ -48,14 +47,14 @@ export const CHERRY_VODKA = {
     {
       img: null,
       description: 'Промойте вишню и удалите косточки.',
-      ingredients: [{ ...INGREDIENTS.cherry, count: 500, gauge: 'г' }],
+      ingredients: [{ ingredientKey: 'cherry', count: 500, gauge: 'г' }],
     },
     {
       img: null,
       description: 'Переложите ягоды в банку, засыпьте сахаром и залейте водкой.',
       ingredients: [
-        { ...INGREDIENTS.sugar, count: 250, gauge: 'г' },
-        { ...INGREDIENTS.vodka, count: 700, gauge: 'мл' },
+        { ingredientKey: 'sugar', count: 250, gauge: 'г' },
+        { ingredientKey: 'vodka', count: 700, gauge: 'мл' },
       ],
     },
     {

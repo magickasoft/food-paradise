@@ -214,34 +214,29 @@ export const INZHIRNYJ_KOKTEJL = {
   used: [8, 5, 3],
   ingredients: [
     {
-      name: 'Инжир свежий',
+      ingredientKey: 'inzhirSvezhiy',
       gauge: 'шт.',
       count: 4,
-      img: null,
     },
     {
-      name: 'Миндальное молоко',
+      ingredientKey: 'mindalnoeMoloko',
       gauge: 'мл',
       count: 300,
-      img: null,
     },
     {
-      name: 'Кардамон (молотый)',
+      ingredientKey: 'kardamon',
       gauge: 'ч.л',
       count: 0.5,
-      img: null,
     },
     {
-      name: 'Мёд',
+      ingredientKey: 'honey',
       gauge: 'ч.л',
       count: 1,
-      img: null,
     },
     {
-      name: 'Лёд',
+      ingredientKey: 'led',
       gauge: 'стакан',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -261,10 +256,9 @@ export const INZHIRNYJ_KOKTEJL = {
       description: 'Инжир очистите от кожицы, разрежьте на четвертинки.',
       ingredients: [
         {
-          name: 'Инжир свежий',
+          ingredientKey: 'inzhirSvezhiy',
           gauge: 'шт.',
           count: 4,
-          img: null,
         },
       ],
     },
@@ -274,22 +268,19 @@ export const INZHIRNYJ_KOKTEJL = {
       description: 'В блендере смешайте инжир, миндальное молоко, кардамон и мёд до однородности.',
       ingredients: [
         {
-          name: 'Миндальное молоко',
+          ingredientKey: 'mindalnoeMoloko',
           gauge: 'мл',
           count: 300,
-          img: null,
         },
         {
-          name: 'Кардамон (молотый)',
+          ingredientKey: 'kardamon',
           gauge: 'ч.л',
           count: 0.5,
-          img: null,
         },
         {
-          name: 'Мёд',
+          ingredientKey: 'honey',
           gauge: 'ч.л',
           count: 1,
-          img: null,
         },
       ],
     },
@@ -299,10 +290,9 @@ export const INZHIRNYJ_KOKTEJL = {
       description: 'Наполните стаканы льдом, влейте коктейль. Украсьте долькой инжира.',
       ingredients: [
         {
-          name: 'Лёд',
+          ingredientKey: 'led',
           gauge: 'стакан',
           count: 1,
-          img: null,
         },
       ],
     },

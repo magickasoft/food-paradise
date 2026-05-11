@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SCRAMBLED_EGGS = {
   metaSeo: {
@@ -206,22 +205,22 @@ export const SCRAMBLED_EGGS = {
   used: [10.92, 26.2, 0.6],
   ingredients: [
     {
-      ...INGREDIENTS.eggs,
+      ingredientKey: 'eggs',
       count: 4,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.refinedVegetableOil,
+      ingredientKey: 'refinedVegetableOil',
       count: 2,
       gauge: 'ст.л.',
     },
     {
-      ...INGREDIENTS.groundBlackPepper,
+      ingredientKey: 'groundBlackPepper',
       count: ' ',
       gauge: 'щепотка',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: ' ',
       gauge: 'щепотка',
     },
@@ -235,17 +234,17 @@ export const SCRAMBLED_EGGS = {
         'Яйца для болтуньи разбейте в миску. Слегка перемешайте вилкой, чтобы желтки и белки только соединились. Можно влить пару столовых ложек питьевой воды. Взбивать, тем более венчиком, до пены, не следует. Посолите и поперчите по вкусу.',
       ingredients: [
         {
-          ...INGREDIENTS.eggs,
+          ingredientKey: 'eggs',
           count: 4,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.groundBlackPepper,
+          ingredientKey: 'groundBlackPepper',
           count: ' ',
           gauge: 'щепотка',
         },
         {
-          ...INGREDIENTS.salt,
+          ingredientKey: 'salt',
           count: ' ',
           gauge: 'щепотка',
         },
@@ -258,7 +257,7 @@ export const SCRAMBLED_EGGS = {
         'В сковороде на среднем огне нагрейте растительное масло. Вылейте в нее яичную массу. Сразу же начните перемешивать, чтобы она свернулась и получились маленькие нежные кусочки.',
       ingredients: [
         {
-          ...INGREDIENTS.refinedVegetableOil,
+          ingredientKey: 'refinedVegetableOil',
           count: 2,
           gauge: 'ст.л.',
         },

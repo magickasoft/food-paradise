@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SHASHLYK_IZ_KURINOGO_BEDRA = {
   metaSeo: {
@@ -1194,35 +1193,35 @@ export const SHASHLYK_IZ_KURINOGO_BEDRA = {
   used: [28.67, 14.61, 28.2],
   ingredients: [
     {
-      ...INGREDIENTS.chickenThighFillet,
+      ingredientKey: 'chickenThighFillet',
       count: 1,
     },
     {
-      ...INGREDIENTS.carbonatedMineralWater,
+      ingredientKey: 'carbonatedMineralWater',
       count: 100,
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: 12,
     },
     {
-      ...INGREDIENTS.groundBlackPepper,
+      ingredientKey: 'groundBlackPepper',
       count: 2,
     },
     {
-      ...INGREDIENTS.vegetableOil,
+      ingredientKey: 'vegetableOil',
       count: 2,
     },
     {
-      ...INGREDIENTS.onion,
+      ingredientKey: 'onion',
       count: 1,
     },
     {
-      ...INGREDIENTS.lavash,
+      ingredientKey: 'lavash',
       count: 2,
     },
     {
-      ...INGREDIENTS.greens,
+      ingredientKey: 'greens',
       count: 16,
     },
   ],
@@ -1244,9 +1243,9 @@ export const SHASHLYK_IZ_KURINOGO_BEDRA = {
       description:
         'Филе куриного бедра тщательно промойте, обсушите бумажными полотенцами. Нарежьте мясо на крупные куски размером около 5–7 см. Посыпьте солью и молотым перцем, аккуратно перемешайте.',
       ingredients: [
-        { ...INGREDIENTS.chickenThighFillet },
-        { ...INGREDIENTS.salt },
-        { ...INGREDIENTS.groundBlackPepper },
+        { ingredientKey: 'chickenThighFillet' },
+        { ingredientKey: 'salt' },
+        { ingredientKey: 'groundBlackPepper' },
       ],
     },
     {
@@ -1254,14 +1253,14 @@ export const SHASHLYK_IZ_KURINOGO_BEDRA = {
       video: null,
       description:
         'Очистите лук и нарежьте его полукольцами толщиной около 0.5–1 см. Добавьте его к мясу вместе с растительным маслом. Всё тщательно перемешайте ложкой или руками.',
-      ingredients: [{ ...INGREDIENTS.onion }, { ...INGREDIENTS.vegetableOil }],
+      ingredients: [{ ingredientKey: 'onion' }, { ingredientKey: 'vegetableOil' }],
     },
     {
       img: null,
       video: null,
       description:
         'Влейте в мясо с луком газированную минеральную воду. Перемешайте всё ещё раз, накройте миску крышкой и оставьте мариноваться минимум на 2 часа.',
-      ingredients: [{ ...INGREDIENTS.carbonatedMineralWater }],
+      ingredients: [{ ingredientKey: 'carbonatedMineralWater' }],
     },
     {
       img: null,
@@ -1275,7 +1274,7 @@ export const SHASHLYK_IZ_KURINOGO_BEDRA = {
       video: null,
       description:
         'Готовый шашлык подавайте с рубленой зеленью и свежим лавашом. Блюдо особенно вкусно в горячем виде прямо с огня.',
-      ingredients: [{ ...INGREDIENTS.greens }, { ...INGREDIENTS.lavash }],
+      ingredients: [{ ingredientKey: 'greens' }, { ingredientKey: 'lavash' }],
     },
   ],
 }

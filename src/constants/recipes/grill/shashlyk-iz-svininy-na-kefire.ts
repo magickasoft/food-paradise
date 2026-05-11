@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SHASHLYK_IZ_SVININY_NA_KEFIRE = {
   metaSeo: {
@@ -1046,39 +1045,39 @@ export const SHASHLYK_IZ_SVININY_NA_KEFIRE = {
   used: [74.36, 179.36, 20.2],
   ingredients: [
     {
-      ...INGREDIENTS.onion,
+      ingredientKey: 'onion',
       count: 8,
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: 5,
     },
     {
-      ...INGREDIENTS.groundBlackPepper,
+      ingredientKey: 'groundBlackPepper',
       count: 5,
     },
     {
-      ...INGREDIENTS.dill,
+      ingredientKey: 'dill',
       count: 0.5,
     },
     {
-      ...INGREDIENTS.basil,
+      ingredientKey: 'basil',
       count: 1,
     },
     {
-      ...INGREDIENTS.parsley,
+      ingredientKey: 'parsley',
       count: 0.5,
     },
     {
-      ...INGREDIENTS.porkNeck,
+      ingredientKey: 'porkNeck',
       count: 2,
     },
     {
-      ...INGREDIENTS.kefir32,
+      ingredientKey: 'kefir32',
       count: 600,
     },
     {
-      ...INGREDIENTS.oliveOil,
+      ingredientKey: 'oliveOil',
       count: 4,
     },
   ],
@@ -1100,7 +1099,7 @@ export const SHASHLYK_IZ_SVININY_NA_KEFIRE = {
       video: null,
       description:
         'Подготовьте ингредиенты: хорошо промойте мясо и обсушите бумажным полотенцем. Удалите лишний жир и плёнки, чтобы шашлык получился мягким и не имел лишней жирности.',
-      ingredients: [{ ...INGREDIENTS.porkNeck }],
+      ingredients: [{ ingredientKey: 'porkNeck' }],
     },
     {
       img: null,
@@ -1114,14 +1113,14 @@ export const SHASHLYK_IZ_SVININY_NA_KEFIRE = {
       video: null,
       description:
         'Промойте зелень — укроп, базилик и петрушку — в холодной воде, затем обсушите. Разберите зелень руками и выложите в чашу блендера вместе с черешками.',
-      ingredients: [{ ...INGREDIENTS.dill }, { ...INGREDIENTS.basil }, { ...INGREDIENTS.parsley }],
+      ingredients: [{ ingredientKey: 'dill' }, { ingredientKey: 'basil' }, { ingredientKey: 'parsley' }],
     },
     {
       img: null,
       video: null,
       description:
         'Добавьте к зелени оливковое или рафинированное растительное масло. Измельчите до состояния пасты — она придаст маринаду яркий аромат и насыщенный вкус.',
-      ingredients: [{ ...INGREDIENTS.refinedVegetableOil }, { ...INGREDIENTS.oliveOil }],
+      ingredients: [{ ingredientKey: 'refinedVegetableOil' }, { ingredientKey: 'oliveOil' }],
     },
     {
       img: null,
@@ -1129,10 +1128,10 @@ export const SHASHLYK_IZ_SVININY_NA_KEFIRE = {
       description:
         'В глубокой миске соедините куски мяса, кефир, луковые кольца, зелёную пасту, соль и перец. Всё хорошо перемешайте руками, чтобы маринад равномерно покрывал мясо.',
       ingredients: [
-        { ...INGREDIENTS.kefir32 },
-        { ...INGREDIENTS.onion },
-        { ...INGREDIENTS.salt },
-        { ...INGREDIENTS.groundBlackPepper },
+        { ingredientKey: 'kefir32' },
+        { ingredientKey: 'onion' },
+        { ingredientKey: 'salt' },
+        { ingredientKey: 'groundBlackPepper' },
       ],
     },
     {

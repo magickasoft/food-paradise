@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SALAT_S_KRASNOY_RYBOY_I_AVOKADO = {
   metaSeo: {
@@ -73,42 +72,42 @@ export const SALAT_S_KRASNOY_RYBOY_I_AVOKADO = {
   used: [14.8, 22.1, 9.6],
   ingredients: [
     {
-      ...INGREDIENTS.salmonSalted,
+      ingredientKey: 'salmonSalted',
       count: 300,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.avocado,
+      ingredientKey: 'avocado',
       count: 2,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.cucumber,
+      ingredientKey: 'cucumber',
       count: 1,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.eggs,
+      ingredientKey: 'eggs',
       count: 3,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.mayonnaise,
+      ingredientKey: 'mayonnaise',
       count: 120,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.lemonJuice,
+      ingredientKey: 'lemonJuice',
       count: 1,
       gauge: 'ст.л.',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: ' ',
       gauge: 'по вкусу',
     },
     {
-      ...INGREDIENTS.groundBlackPepper,
+      ingredientKey: 'groundBlackPepper',
       count: ' ',
       gauge: 'по вкусу',
     },
@@ -123,7 +122,7 @@ export const SALAT_S_KRASNOY_RYBOY_I_AVOKADO = {
       description: 'Яйца отварите вкрутую, остудите, очистите и нарежьте небольшими кубиками.',
       ingredients: [
         {
-          ...INGREDIENTS.eggs,
+          ingredientKey: 'eggs',
           count: 3,
           gauge: 'шт.',
         },
@@ -135,7 +134,7 @@ export const SALAT_S_KRASNOY_RYBOY_I_AVOKADO = {
       description: 'Красную рыбу нарежьте аккуратными кубиками или тонкими ломтиками.',
       ingredients: [
         {
-          ...INGREDIENTS.salmonSalted,
+          ingredientKey: 'salmonSalted',
           count: 300,
           gauge: 'г',
         },
@@ -148,12 +147,12 @@ export const SALAT_S_KRASNOY_RYBOY_I_AVOKADO = {
         'Авокадо очистите, удалите косточку и нарежьте кубиками. Сбрызните лимонным соком, чтобы мякоть не потемнела.',
       ingredients: [
         {
-          ...INGREDIENTS.avocado,
+          ingredientKey: 'avocado',
           count: 2,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.lemonJuice,
+          ingredientKey: 'lemonJuice',
           count: 1,
           gauge: 'ст.л.',
         },
@@ -165,7 +164,7 @@ export const SALAT_S_KRASNOY_RYBOY_I_AVOKADO = {
       description: 'Огурец нарежьте кубиками. При необходимости удалите семена.',
       ingredients: [
         {
-          ...INGREDIENTS.cucumber,
+          ingredientKey: 'cucumber',
           count: 1,
           gauge: 'шт.',
         },
@@ -177,17 +176,17 @@ export const SALAT_S_KRASNOY_RYBOY_I_AVOKADO = {
       description: 'Смешайте все ингредиенты в миске, добавьте майонез, соль и чёрный перец. Аккуратно перемешайте.',
       ingredients: [
         {
-          ...INGREDIENTS.mayonnaise,
+          ingredientKey: 'mayonnaise',
           count: 120,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.salt,
+          ingredientKey: 'salt',
           count: ' ',
           gauge: 'по вкусу',
         },
         {
-          ...INGREDIENTS.groundBlackPepper,
+          ingredientKey: 'groundBlackPepper',
           count: ' ',
           gauge: 'по вкусу',
         },

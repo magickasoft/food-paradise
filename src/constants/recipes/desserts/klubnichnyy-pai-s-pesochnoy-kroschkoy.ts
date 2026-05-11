@@ -84,42 +84,42 @@ export const KLUBNICHNYY_PAI_S_PESOCHNOY_KROSCHKOY = {
   used: [4, 16, 42],
   ingredients: [
     {
-      name: 'Клубника свежая',
+      ingredientKey: 'klubnikaSvezhaya',
       gauge: 'г',
       count: 500,
     },
     {
-      name: 'Пшеничная мука',
+      ingredientKey: 'pshenichnayaMuka',
       gauge: 'г',
       count: 200,
     },
     {
-      name: 'Сливочное масло (холодное)',
+      ingredientKey: 'slivochnoeMaslo2',
       gauge: 'г',
       count: 120,
     },
     {
-      name: 'Сахар',
+      ingredientKey: 'sugar',
       gauge: 'г',
       count: 150,
     },
     {
-      name: 'Миндальная мука',
+      ingredientKey: 'mindalnayaMuka',
       gauge: 'г',
       count: 50,
     },
     {
-      name: 'Кукурузный крахмал',
+      ingredientKey: 'kukuruznyyKrahmal',
       gauge: 'ст.л',
       count: 2,
     },
     {
-      name: 'Лимонный сок',
+      ingredientKey: 'lemonJuice',
       gauge: 'ст.л',
       count: 1,
     },
     {
-      name: 'Ванильный экстракт',
+      ingredientKey: 'vanilnyyEkstrakt',
       gauge: 'ч.л',
       count: 1,
     },
@@ -150,22 +150,22 @@ export const KLUBNICHNYY_PAI_S_PESOCHNOY_KROSCHKOY = {
         'Для крошки смешайте муку, холодное масло и сахар руками до состояния крупных крошек. Добавьте миндальную муку.',
       ingredients: [
         {
-          name: 'Пшеничная мука',
+          ingredientKey: 'pshenichnayaMuka',
           gauge: 'г',
           count: 200,
         },
         {
-          name: 'Сливочное масло (холодное)',
+          ingredientKey: 'slivochnoeMaslo2',
           gauge: 'г',
           count: 120,
         },
         {
-          name: 'Сахар',
+          ingredientKey: 'sugar',
           gauge: 'г',
           count: 100,
         },
         {
-          name: 'Миндальная мука',
+          ingredientKey: 'mindalnayaMuka',
           gauge: 'г',
           count: 50,
         },
@@ -175,27 +175,27 @@ export const KLUBNICHNYY_PAI_S_PESOCHNOY_KROSCHKOY = {
       description: 'Клубнику смешайте с сахаром и крахмалом, половину пюрируйте блендером.',
       ingredients: [
         {
-          name: 'Клубника свежая',
+          ingredientKey: 'klubnikaSvezhaya',
           gauge: 'г',
           count: 500,
         },
         {
-          name: 'Сахар',
+          ingredientKey: 'sugar',
           gauge: 'г',
           count: 50,
         },
         {
-          name: 'Кукурузный крахмал',
+          ingredientKey: 'kukuruznyyKrahmal',
           gauge: 'ст.л',
           count: 2,
         },
         {
-          name: 'Лимонный сок',
+          ingredientKey: 'lemonJuice',
           gauge: 'ст.л',
           count: 1,
         },
         {
-          name: 'Ванильный экстракт',
+          ingredientKey: 'vanilnyyEkstrakt',
           gauge: 'ч.л',
           count: 1,
         },

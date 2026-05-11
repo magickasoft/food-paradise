@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const NOVOGODNEYE_PECHENYE_S_GLAZURYU = {
   metaSeo: {
@@ -70,62 +69,62 @@ export const NOVOGODNEYE_PECHENYE_S_GLAZURYU = {
   used: [6.1, 9.4, 21.8],
   ingredients: [
     {
-      ...INGREDIENTS.flour,
+      ingredientKey: 'flour',
       count: 400,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.butter,
+      ingredientKey: 'butter',
       count: 200,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.sugar,
+      ingredientKey: 'sugar',
       count: 150,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.eggs,
+      ingredientKey: 'eggs',
       count: 1,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.honey,
+      ingredientKey: 'honey',
       count: 2,
       gauge: 'ст.л.',
     },
     {
-      ...INGREDIENTS.bakingPowder,
+      ingredientKey: 'bakingPowder',
       count: 1,
       gauge: 'ч.л.',
     },
     {
-      ...INGREDIENTS.cinnamon,
+      ingredientKey: 'cinnamon',
       count: 1,
       gauge: 'ч.л.',
     },
     {
-      ...INGREDIENTS.gingerGround,
+      ingredientKey: 'gingerGround',
       count: 0.5,
       gauge: 'ч.л.',
     },
     {
-      ...INGREDIENTS.vanillaSugar,
+      ingredientKey: 'vanillaSugar',
       count: 1,
       gauge: 'ч.л.',
     },
     {
-      ...INGREDIENTS.powderedSugar,
+      ingredientKey: 'powderedSugar',
       count: 200,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.eggWhite,
+      ingredientKey: 'eggWhite',
       count: 1,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.lemonJuice,
+      ingredientKey: 'lemonJuice',
       count: 1,
       gauge: 'ч.л.',
     },
@@ -147,27 +146,27 @@ export const NOVOGODNEYE_PECHENYE_S_GLAZURYU = {
         'Мягкое сливочное масло взбейте с сахаром и ванильным сахаром до пышной массы. Добавьте яйцо и мёд, перемешайте.',
       ingredients: [
         {
-          ...INGREDIENTS.butter,
+          ingredientKey: 'butter',
           count: 200,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.sugar,
+          ingredientKey: 'sugar',
           count: 150,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.vanillaSugar,
+          ingredientKey: 'vanillaSugar',
           count: 1,
           gauge: 'ч.л.',
         },
         {
-          ...INGREDIENTS.eggs,
+          ingredientKey: 'eggs',
           count: 1,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.honey,
+          ingredientKey: 'honey',
           count: 2,
           gauge: 'ст.л.',
         },
@@ -180,22 +179,22 @@ export const NOVOGODNEYE_PECHENYE_S_GLAZURYU = {
         'Добавьте муку, разрыхлитель и специи. Замесите мягкое тесто и уберите его в холодильник на 30 минут.',
       ingredients: [
         {
-          ...INGREDIENTS.flour,
+          ingredientKey: 'flour',
           count: 400,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.bakingPowder,
+          ingredientKey: 'bakingPowder',
           count: 1,
           gauge: 'ч.л.',
         },
         {
-          ...INGREDIENTS.cinnamon,
+          ingredientKey: 'cinnamon',
           count: 1,
           gauge: 'ч.л.',
         },
         {
-          ...INGREDIENTS.gingerGround,
+          ingredientKey: 'gingerGround',
           count: 0.5,
           gauge: 'ч.л.',
         },
@@ -221,17 +220,17 @@ export const NOVOGODNEYE_PECHENYE_S_GLAZURYU = {
         'Для глазури взбейте яичный белок с сахарной пудрой и лимонным соком до густоты. Украсьте полностью остывшее печенье.',
       ingredients: [
         {
-          ...INGREDIENTS.powderedSugar,
+          ingredientKey: 'powderedSugar',
           count: 200,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.eggWhite,
+          ingredientKey: 'eggWhite',
           count: 1,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.lemonJuice,
+          ingredientKey: 'lemonJuice',
           count: 1,
           gauge: 'ч.л.',
         },

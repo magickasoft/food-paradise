@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const CREAM_MUSHROOM_SOUP = {
   metaSeo: {
@@ -447,21 +446,21 @@ export const CREAM_MUSHROOM_SOUP = {
     'Грибные крем-супы появились во французской кухне в XIX веке, как изысканный способ использовать лесные грибы. Позже рецепты распространились по Европе, а добавление сливок и трюфельного масла сделало их символом гастрономической элегантности. В Италии и Франции подобные супы подают в ресторанах высокой кухни.',
 
   ingredients: [
-    { ...INGREDIENTS.driedPorcini, count: 20, gauge: 'г.' },
-    { ...INGREDIENTS.champignons, count: 300, gauge: 'г.' },
-    { ...INGREDIENTS.chanterelles, count: 150, gauge: 'г.' },
-    { ...INGREDIENTS.freshPorcini, count: 100, gauge: 'г.' },
-    { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
-    { ...INGREDIENTS.butter, count: 50, gauge: 'г.' },
-    { ...INGREDIENTS.thyme, count: 3, gauge: 'г.' },
-    { ...INGREDIENTS.cream33, count: 250, gauge: 'мл' },
-    { ...INGREDIENTS.truffleOil, count: 1, gauge: 'ст.л.' },
-    { ...INGREDIENTS.sunflowerOil, count: 1, gauge: 'ст.л.' },
-    { ...INGREDIENTS.whitePepper, count: 1, gauge: 'г.' },
-    { ...INGREDIENTS.salt, count: 5, gauge: 'ч.л.' },
-    { ...INGREDIENTS.ciabatta, count: 60, gauge: 'г.' },
-    { ...INGREDIENTS.water, count: 600, gauge: 'мл' },
+    { ingredientKey: 'driedPorcini', count: 20, gauge: 'г.' },
+    { ingredientKey: 'champignons', count: 300, gauge: 'г.' },
+    { ingredientKey: 'chanterelles', count: 150, gauge: 'г.' },
+    { ingredientKey: 'freshPorcini', count: 100, gauge: 'г.' },
+    { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'garlic', count: 2, gauge: 'зуб.' },
+    { ingredientKey: 'butter', count: 50, gauge: 'г.' },
+    { ingredientKey: 'thyme', count: 3, gauge: 'г.' },
+    { ingredientKey: 'cream33', count: 250, gauge: 'мл' },
+    { ingredientKey: 'truffleOil', count: 1, gauge: 'ст.л.' },
+    { ingredientKey: 'sunflowerOil', count: 1, gauge: 'ст.л.' },
+    { ingredientKey: 'whitePepper', count: 1, gauge: 'г.' },
+    { ingredientKey: 'salt', count: 5, gauge: 'ч.л.' },
+    { ingredientKey: 'ciabatta', count: 60, gauge: 'г.' },
+    { ingredientKey: 'water', count: 600, gauge: 'мл' },
   ],
   equipments: [
     EQUIPMENTS.pot,
@@ -479,45 +478,45 @@ export const CREAM_MUSHROOM_SOUP = {
       description:
         'Залейте сушёные белые грибы 600 мл кипятка, накройте крышкой и настаивайте 30 минут. Процедите, отожмите грибы (их можно добавить в суп позже). Полученный бульон доведите до кипения и уварите до 500 мл для насыщенного вкуса.',
       ingredients: [
-        { ...INGREDIENTS.driedPorcini, count: 20, gauge: 'г.' },
-        { ...INGREDIENTS.water, count: 600, gauge: 'мл' },
+        { ingredientKey: 'driedPorcini', count: 20, gauge: 'г.' },
+        { ingredientKey: 'water', count: 600, gauge: 'мл' },
       ],
     },
     {
       description:
         'В кастрюле растопите сливочное масло. Добавьте нарезанный лук и обжарьте до прозрачности. Введите чеснок и тимьян, готовьте 1 минуту до появления аромата.',
       ingredients: [
-        { ...INGREDIENTS.butter, count: 50, gauge: 'г.' },
-        { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
-        { ...INGREDIENTS.thyme, count: 3, gauge: 'г.' },
+        { ingredientKey: 'butter', count: 50, gauge: 'г.' },
+        { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'garlic', count: 2, gauge: 'зуб.' },
+        { ingredientKey: 'thyme', count: 3, gauge: 'г.' },
       ],
     },
     {
       description:
         'Шампиньоны нарежьте пластинами и обжарьте на отдельной сковороде до лёгкой румяности. То же проделайте с лисичками и свежими белыми грибами. Это придаст супу многослойный вкус.',
       ingredients: [
-        { ...INGREDIENTS.champignons, count: 300, gauge: 'г.' },
-        { ...INGREDIENTS.chanterelles, count: 150, gauge: 'г.' },
-        { ...INGREDIENTS.freshPorcini, count: 100, gauge: 'г.' },
-        { ...INGREDIENTS.sunflowerOil, count: 1, gauge: 'ст.л.' },
+        { ingredientKey: 'champignons', count: 300, gauge: 'г.' },
+        { ingredientKey: 'chanterelles', count: 150, gauge: 'г.' },
+        { ingredientKey: 'freshPorcini', count: 100, gauge: 'г.' },
+        { ingredientKey: 'sunflowerOil', count: 1, gauge: 'ст.л.' },
       ],
     },
     {
       description:
         'Соедините все грибы с обжаренным луком, добавьте грибной бульон и сливки. Посолите, приправьте белым перцем. Доведите до лёгкого кипения и варите 10 минут.',
       ingredients: [
-        { ...INGREDIENTS.cream33, count: 250, gauge: 'мл' },
-        { ...INGREDIENTS.whitePepper, count: 1, gauge: 'г.' },
-        { ...INGREDIENTS.salt, count: 5, gauge: 'ч.л.' },
+        { ingredientKey: 'cream33', count: 250, gauge: 'мл' },
+        { ingredientKey: 'whitePepper', count: 1, gauge: 'г.' },
+        { ingredientKey: 'salt', count: 5, gauge: 'ч.л.' },
       ],
     },
     {
       description:
         'Пюрируйте суп блендером до гладкости. Процедите через сито для шелковистой текстуры. Разлейте по тарелкам, украсьте каплей трюфельного масла и подавайте с гренками из чиабатты.',
       ingredients: [
-        { ...INGREDIENTS.truffleOil, count: 1, gauge: 'ст.л.' },
-        { ...INGREDIENTS.ciabatta, count: 60, gauge: 'г.' },
+        { ingredientKey: 'truffleOil', count: 1, gauge: 'ст.л.' },
+        { ingredientKey: 'ciabatta', count: 60, gauge: 'г.' },
       ],
     },
   ],

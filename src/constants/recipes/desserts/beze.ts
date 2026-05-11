@@ -75,28 +75,28 @@ export const BEZE = {
   used: [2, 0, 28],
   ingredients: [
     {
-      name: 'Яичные белки',
+      ingredientKey: 'yaichnyeBelki',
       gauge: 'шт.',
       count: 4,
     },
     {
-      name: 'Сахар',
+      ingredientKey: 'sugar',
       gauge: 'г',
       count: 200,
     },
     {
-      name: 'Лимонный сок',
+      ingredientKey: 'lemonJuice',
       gauge: 'ч.л',
       count: 0.5,
     },
     {
-      name: 'Ванильный экстракт',
+      ingredientKey: 'vanilnyyEkstrakt',
       gauge: 'ч.л',
       count: 0.5,
       optional: true,
     },
     {
-      name: 'Пищевой краситель',
+      ingredientKey: 'pischevoyKrasitel',
       gauge: 'г',
       count: 1,
       optional: true,
@@ -130,12 +130,12 @@ export const BEZE = {
       description: 'В чистой сухой миске взбейте белки с лимонным соком до мягких пиков.',
       ingredients: [
         {
-          name: 'Яичные белки',
+          ingredientKey: 'yaichnyeBelki',
           gauge: 'шт.',
           count: 4,
         },
         {
-          name: 'Лимонный сок',
+          ingredientKey: 'lemonJuice',
           gauge: 'ч.л',
           count: 0.5,
         },
@@ -145,18 +145,18 @@ export const BEZE = {
       description: 'Продолжая взбивать, добавляйте сахар по ложке. Добейтесь глянцевой плотной массы.',
       ingredients: [
         {
-          name: 'Сахар',
+          ingredientKey: 'sugar',
           gauge: 'г',
           count: 200,
         },
         {
-          name: 'Ванильный экстракт',
+          ingredientKey: 'vanilnyyEkstrakt',
           gauge: 'ч.л',
           count: 0.5,
           optional: true,
         },
         {
-          name: 'Пищевой краситель',
+          ingredientKey: 'pischevoyKrasitel',
           gauge: 'г',
           count: 1,
           optional: true,

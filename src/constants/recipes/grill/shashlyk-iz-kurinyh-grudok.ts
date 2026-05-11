@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SHASHLYK_IZ_KURINYH_GRUDOK = {
   metaSeo: {
@@ -1214,13 +1213,13 @@ export const SHASHLYK_IZ_KURINYH_GRUDOK = {
   portions: 6,
   used: [25.5, 15.2, 22.8],
   ingredients: [
-    { ...INGREDIENTS.chickenBreastFillet, count: 1 },
-    { ...INGREDIENTS.lemon, count: 1 },
-    { ...INGREDIENTS.honey, count: 30 },
-    { ...INGREDIENTS.garlic, count: 3 },
-    { ...INGREDIENTS.oliveOil, count: 30 },
-    { ...INGREDIENTS.salt, count: 10 },
-    { ...INGREDIENTS.groundBlackPepper, count: 2 },
+    { ingredientKey: 'chickenBreastFillet', count: 1 },
+    { ingredientKey: 'lemon', count: 1 },
+    { ingredientKey: 'honey', count: 30 },
+    { ingredientKey: 'garlic', count: 3 },
+    { ingredientKey: 'oliveOil', count: 30 },
+    { ingredientKey: 'salt', count: 10 },
+    { ingredientKey: 'groundBlackPepper', count: 2 },
   ],
   equipments: [
     EQUIPMENTS.knife,
@@ -1238,9 +1237,9 @@ export const SHASHLYK_IZ_KURINYH_GRUDOK = {
       video: null,
       description: 'Куриную грудку нарежьте кубиками 4–5 см. Посолите, поперчите.',
       ingredients: [
-        { ...INGREDIENTS.chickenBreastFillet },
-        { ...INGREDIENTS.salt },
-        { ...INGREDIENTS.groundBlackPepper },
+        { ingredientKey: 'chickenBreastFillet' },
+        { ingredientKey: 'salt' },
+        { ingredientKey: 'groundBlackPepper' },
       ],
     },
     {
@@ -1249,10 +1248,10 @@ export const SHASHLYK_IZ_KURINYH_GRUDOK = {
       description:
         'Смешайте сок лимона, мёд, измельчённый чеснок и оливковое масло. Залейте маринадом курицу, перемешайте, накройте и оставьте на 3 часа.',
       ingredients: [
-        { ...INGREDIENTS.lemon },
-        { ...INGREDIENTS.honey },
-        { ...INGREDIENTS.garlic },
-        { ...INGREDIENTS.oliveOil },
+        { ingredientKey: 'lemon' },
+        { ingredientKey: 'honey' },
+        { ingredientKey: 'garlic' },
+        { ingredientKey: 'oliveOil' },
       ],
     },
     {

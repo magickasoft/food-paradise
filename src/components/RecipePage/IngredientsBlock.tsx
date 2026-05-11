@@ -5,14 +5,8 @@ import type { Recipe } from '@/constants/recipes/recipes'
 import styled from 'styled-components'
 import { useShoppingListStore } from '@/store/shoppingList'
 import type { ShoppingListItemInput } from '@/store/shoppingList'
-
-interface Ingredient {
-  name: string
-  count?: number | string
-  gauge: string
-  img?: string | null
-  note?: string
-}
+import { resolveRecipeIngredient } from '@/constants/recipes/recipeIngredients'
+import type { ResolvedRecipeIngredient } from '@/constants/recipes/recipeIngredients'
 
 const Container = styled.div`
   border-radius: 18px;
@@ -225,7 +219,9 @@ export const IngredientsBlock = ({ data, recipeName }: { data: Recipe['ingredien
   const addItems = useShoppingListStore(state => state.addItems)
 
   // Функция для расчета количества ингредиента
-  const calculateAmount = (ingredient: Ingredient) => {
+  const resolvedIngredients = data.map(resolveRecipeIngredient)
+
+  const calculateAmount = (ingredient: ResolvedRecipeIngredient) => {
     if (!ingredient.count) return ingredient.gauge
 
     const baseCount = typeof ingredient.count === 'string' ? parseFloat(ingredient.count) : ingredient.count
@@ -249,14 +245,14 @@ export const IngredientsBlock = ({ data, recipeName }: { data: Recipe['ingredien
     setCheckedItems(newChecked)
   }
 
-  const createAmount = (ingredient: Ingredient) => {
+  const createAmount = (ingredient: ResolvedRecipeIngredient) => {
     const amount = calculateAmount(ingredient)
 
     return ingredient.note ? `${amount} (${ingredient.note})` : amount
   }
 
   const handleAddToShoppingList = () => {
-    const selectedItems = data.reduce<ShoppingListItemInput[]>((items, ingredient, index) => {
+    const selectedItems = resolvedIngredients.reduce<ShoppingListItemInput[]>((items, ingredient, index) => {
       if (!checkedItems[index]) return items
 
       items.push({
@@ -301,7 +297,7 @@ export const IngredientsBlock = ({ data, recipeName }: { data: Recipe['ingredien
           </PortionControl>
 
           <IngredientsList>
-            {data.map((ingredient, index) => (
+            {resolvedIngredients.map((ingredient, index) => (
               <IngredientItem
                 key={`${ingredient.name}-${ingredient.count ?? ''}-${ingredient.gauge}-${ingredient.note ?? ''}`}
               >

@@ -266,52 +266,44 @@ export const CHIZKEIK = {
   used: [9.46, 22.6, 27.5],
   ingredients: [
     {
-      name: 'Печенье песочное',
+      ingredientKey: 'pechenePesochnoe',
       gauge: 'г',
       count: 250,
-      img: null,
     },
     {
-      name: 'Сливочное масло',
+      ingredientKey: 'slivochnoeMaslo',
       gauge: 'г',
       count: 100,
-      img: null,
     },
     {
-      name: 'Сыр Филадельфия',
+      ingredientKey: 'syrFiladelfiya',
       gauge: 'г',
       count: 900,
-      img: null,
     },
     {
-      name: 'Сахар',
+      ingredientKey: 'sugar',
       gauge: 'г',
       count: 200,
-      img: null,
     },
     {
-      name: 'Яйца',
+      ingredientKey: 'yaytsa',
       gauge: 'шт.',
       count: 4,
-      img: null,
     },
     {
-      name: 'Сливки 33%',
+      ingredientKey: 'cream33',
       gauge: 'мл',
       count: 200,
-      img: null,
     },
     {
-      name: 'Ванильный экстракт',
+      ingredientKey: 'vanilnyyEkstrakt',
       gauge: 'ч.л',
       count: 1,
-      img: null,
     },
     {
-      name: 'Лимонная цедра',
+      ingredientKey: 'limonnayaTsedra',
       gauge: 'ч.л',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -363,16 +355,14 @@ export const CHIZKEIK = {
         'Измельчите печенье в блендере до состояния мелкой крошки. Растопите сливочное масло на водяной бане или в микроволновке. Смешайте крошку с маслом до получения влажной рассыпчатой массы.',
       ingredients: [
         {
-          name: 'Печенье песочное',
+          ingredientKey: 'pechenePesochnoe',
           gauge: 'г',
           count: 250,
-          img: null,
         },
         {
-          name: 'Сливочное масло',
+          ingredientKey: 'slivochnoeMaslo',
           gauge: 'г',
           count: 100,
-          img: null,
         },
       ],
     },
@@ -390,10 +380,9 @@ export const CHIZKEIK = {
         'Достаньте сыр Филадельфия из холодильника за 1 час до приготовления — он должен быть комнатной температуры. В большой миске взбейте сыр миксером на средней скорости 2 минуты до кремообразного состояния.',
       ingredients: [
         {
-          name: 'Сыр Филадельфия',
+          ingredientKey: 'syrFiladelfiya',
           gauge: 'г',
           count: 900,
-          img: null,
         },
       ],
     },
@@ -404,10 +393,9 @@ export const CHIZKEIK = {
         'Продолжая взбивать, добавляйте сахар небольшими порциями (по 50 г). После каждого добавления взбивайте 1 минуту до полного растворения сахара. Общее время взбивания — около 5 минут.',
       ingredients: [
         {
-          name: 'Сахар',
+          ingredientKey: 'sugar',
           gauge: 'г',
           count: 200,
-          img: null,
         },
       ],
     },
@@ -418,22 +406,19 @@ export const CHIZKEIK = {
         'По одному вводите яйца, тщательно перемешивая после каждого (около 30 секунд на яйцо). Важно не перебивать массу! Добавьте ванильный экстракт и лимонную цедру, аккуратно перемешайте лопаткой.',
       ingredients: [
         {
-          name: 'Яйца',
+          ingredientKey: 'yaytsa',
           gauge: 'шт.',
           count: 4,
-          img: null,
         },
         {
-          name: 'Ванильный экстракт',
+          ingredientKey: 'vanilnyyEkstrakt',
           gauge: 'ч.л',
           count: 1,
-          img: null,
         },
         {
-          name: 'Лимонная цедра',
+          ingredientKey: 'limonnayaTsedra',
           gauge: 'ч.л',
           count: 1,
-          img: null,
         },
       ],
     },
@@ -444,10 +429,9 @@ export const CHIZKEIK = {
         'В отдельной миске взбейте охлажденные сливки до мягких пиков (около 3 минут на средней скорости). Аккуратно введите сливки в сырную массу движениями снизу вверх.',
       ingredients: [
         {
-          name: 'Сливки 33%',
+          ingredientKey: 'cream33',
           gauge: 'мл',
           count: 200,
-          img: null,
         },
       ],
     },

@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const TARTALETKI_S_KURITSEY_I_GRIBAMI = {
   metaSeo: {
@@ -69,47 +68,47 @@ export const TARTALETKI_S_KURITSEY_I_GRIBAMI = {
 
   ingredients: [
     {
-      ...INGREDIENTS.tartlets,
+      ingredientKey: 'tartlets',
       count: 12,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.chickenBreastFillet,
+      ingredientKey: 'chickenBreastFillet',
       count: 300,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.mushrooms,
+      ingredientKey: 'mushrooms',
       count: 200,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.onion,
+      ingredientKey: 'onion',
       count: 1,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.cream20,
+      ingredientKey: 'cream20',
       count: 100,
       gauge: 'мл',
     },
     {
-      ...INGREDIENTS.refinedVegetableOil,
+      ingredientKey: 'refinedVegetableOil',
       count: 2,
       gauge: 'ст.л.',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: ' ',
       gauge: 'по вкусу',
     },
     {
-      ...INGREDIENTS.groundBlackPepper,
+      ingredientKey: 'groundBlackPepper',
       count: ' ',
       gauge: 'по вкусу',
     },
     {
-      ...INGREDIENTS.hardCheese,
+      ingredientKey: 'hardCheese',
       count: 50,
       gauge: 'г',
     },
@@ -131,17 +130,17 @@ export const TARTALETKI_S_KURITSEY_I_GRIBAMI = {
       description: 'Куриное филе нарежьте мелкими кубиками. Лук очистите и мелко нарежьте. Грибы нарежьте пластинками.',
       ingredients: [
         {
-          ...INGREDIENTS.chickenBreastFillet,
+          ingredientKey: 'chickenBreastFillet',
           count: 300,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.onion,
+          ingredientKey: 'onion',
           count: 1,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.mushrooms,
+          ingredientKey: 'mushrooms',
           count: 200,
           gauge: 'г',
         },
@@ -154,7 +153,7 @@ export const TARTALETKI_S_KURITSEY_I_GRIBAMI = {
         'На сковороде разогрейте растительное масло. Обжарьте лук до прозрачности, затем добавьте курицу и готовьте 5–7 минут.',
       ingredients: [
         {
-          ...INGREDIENTS.refinedVegetableOil,
+          ingredientKey: 'refinedVegetableOil',
           count: 2,
           gauge: 'ст.л.',
         },
@@ -166,12 +165,12 @@ export const TARTALETKI_S_KURITSEY_I_GRIBAMI = {
       description: 'Добавьте грибы, посолите и поперчите. Обжаривайте до испарения жидкости.',
       ingredients: [
         {
-          ...INGREDIENTS.salt,
+          ingredientKey: 'salt',
           count: ' ',
           gauge: 'по вкусу',
         },
         {
-          ...INGREDIENTS.groundBlackPepper,
+          ingredientKey: 'groundBlackPepper',
           count: ' ',
           gauge: 'по вкусу',
         },
@@ -183,7 +182,7 @@ export const TARTALETKI_S_KURITSEY_I_GRIBAMI = {
       description: 'Влейте сливки, перемешайте и прогрейте начинку 3–5 минут до лёгкого загустения.',
       ingredients: [
         {
-          ...INGREDIENTS.cream20,
+          ingredientKey: 'cream20',
           count: 100,
           gauge: 'мл',
         },
@@ -195,12 +194,12 @@ export const TARTALETKI_S_KURITSEY_I_GRIBAMI = {
       description: 'Наполните тарталетки горячей начинкой. По желанию посыпьте тёртым сыром.',
       ingredients: [
         {
-          ...INGREDIENTS.tartlets,
+          ingredientKey: 'tartlets',
           count: 12,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.hardCheese,
+          ingredientKey: 'hardCheese',
           count: 50,
           gauge: 'г',
         },

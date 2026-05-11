@@ -124,47 +124,47 @@ export const MERINGUE_ROLL_S_LEMON_CURD = {
   used: [3, 8, 35],
   ingredients: [
     {
-      name: 'Яичные белки',
+      ingredientKey: 'yaichnyeBelki',
       gauge: 'шт.',
       count: 4,
     },
     {
-      name: 'Сахар',
+      ingredientKey: 'sugar',
       gauge: 'г',
       count: 200,
     },
     {
-      name: 'Кукурузный крахмал',
+      ingredientKey: 'kukuruznyyKrahmal',
       gauge: 'ч.л',
       count: 2,
     },
     {
-      name: 'Лимонный сок',
+      ingredientKey: 'lemonJuice',
       gauge: 'ст.л',
       count: 1,
     },
     {
-      name: 'Яичные желтки',
+      ingredientKey: 'yaichnyeZheltki',
       gauge: 'шт.',
       count: 3,
     },
     {
-      name: 'Сахарная пудра',
+      ingredientKey: 'powderedSugar',
       gauge: 'г',
       count: 50,
     },
     {
-      name: 'Лимонная цедра',
+      ingredientKey: 'limonnayaTsedra',
       gauge: 'ч.л',
       count: 1,
     },
     {
-      name: 'Сливочное масло',
+      ingredientKey: 'slivochnoeMaslo',
       gauge: 'г',
       count: 60,
     },
     {
-      name: 'Сахарная пудра для украшения',
+      ingredientKey: 'saharnayaPudraDlyaUkrasheniya',
       gauge: 'г',
       count: 20,
     },
@@ -198,22 +198,22 @@ export const MERINGUE_ROLL_S_LEMON_CURD = {
         'Взбейте белки с сахаром до устойчивых пиков. Добавьте кукурузный крахмал и лимонный сок, аккуратно перемешайте.',
       ingredients: [
         {
-          name: 'Яичные белки',
+          ingredientKey: 'yaichnyeBelki',
           gauge: 'шт.',
           count: 4,
         },
         {
-          name: 'Сахар',
+          ingredientKey: 'sugar',
           gauge: 'г',
           count: 200,
         },
         {
-          name: 'Кукурузный крахмал',
+          ingredientKey: 'kukuruznyyKrahmal',
           gauge: 'ч.л',
           count: 2,
         },
         {
-          name: 'Лимонный сок',
+          ingredientKey: 'lemonJuice',
           gauge: 'ст.л',
           count: 1,
         },
@@ -227,22 +227,22 @@ export const MERINGUE_ROLL_S_LEMON_CURD = {
       description: 'Для курда смешайте все ингредиенты и варите на водяной бане до загустения. Охладите.',
       ingredients: [
         {
-          name: 'Яичные желтки',
+          ingredientKey: 'yaichnyeZheltki',
           gauge: 'шт.',
           count: 3,
         },
         {
-          name: 'Сахарная пудра',
+          ingredientKey: 'powderedSugar',
           gauge: 'г',
           count: 50,
         },
         {
-          name: 'Лимонная цедра',
+          ingredientKey: 'limonnayaTsedra',
           gauge: 'ч.л',
           count: 1,
         },
         {
-          name: 'Сливочное масло',
+          ingredientKey: 'slivochnoeMaslo',
           gauge: 'г',
           count: 60,
         },
@@ -252,7 +252,7 @@ export const MERINGUE_ROLL_S_LEMON_CURD = {
       description: 'Сверните остывшую меренгу с начинкой в рулет. Украсьте сахарной пудрой.',
       ingredients: [
         {
-          name: 'Сахарная пудра для украшения',
+          ingredientKey: 'saharnayaPudraDlyaUkrasheniya',
           gauge: 'г',
           count: 20,
         },

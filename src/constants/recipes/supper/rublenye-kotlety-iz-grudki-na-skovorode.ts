@@ -1,5 +1,3 @@
-import { INGREDIENTS } from '@/constants/ingredients'
-
 export const RUBLENYE_KOTLETY_IZ_GRUDKI_NA_SKOVORODE = {
   metaSeo: {
     title: 'Рубленые котлеты из куриного филе на сковороде',
@@ -592,37 +590,37 @@ export const RUBLENYE_KOTLETY_IZ_GRUDKI_NA_SKOVORODE = {
   used: null,
   ingredients: [
     {
-      ...INGREDIENTS.chickenBreast,
+      ingredientKey: 'chickenBreast',
       count: 0.6,
     },
     {
-      ...INGREDIENTS.whiteBread,
+      ingredientKey: 'whiteBread',
       count: 150,
     },
     {
-      ...INGREDIENTS.cream20,
+      ingredientKey: 'cream20',
       count: 100,
     },
     {
-      ...INGREDIENTS.onion,
+      ingredientKey: 'onion',
       count: 1,
     },
     {
-      ...INGREDIENTS.garlic,
+      ingredientKey: 'garlic',
       count: 2,
     },
     {
-      ...INGREDIENTS.flour,
+      ingredientKey: 'flour',
       count: 60,
     },
     {
-      ...INGREDIENTS.meltedButter,
+      ingredientKey: 'meltedButter',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
     },
     {
-      ...INGREDIENTS.groundBlackPepper,
+      ingredientKey: 'groundBlackPepper',
     },
   ],
   equipments: [],

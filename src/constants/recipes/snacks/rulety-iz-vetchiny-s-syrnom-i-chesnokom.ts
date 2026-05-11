@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM = {
   metaSeo: {
@@ -454,42 +453,41 @@ export const RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM = {
   used: [8.6, 5, 0.7],
   ingredients: [
     {
-      name: 'Ветчина',
+      ingredientKey: 'vetchina',
       gauge: 'г',
       count: 300,
-      img: null,
     },
     {
-      ...INGREDIENTS.hardCheese,
+      ingredientKey: 'hardCheese',
       gauge: 'г',
       count: 200,
     },
     {
-      ...INGREDIENTS.eggs,
+      ingredientKey: 'eggs',
       gauge: 'шт.',
       count: 3,
     },
     {
-      ...INGREDIENTS.garlic,
+      ingredientKey: 'garlic',
       gauge: 'зубчика',
       count: 2,
     },
     {
-      ...INGREDIENTS.mayonnaise,
+      ingredientKey: 'mayonnaise',
       gauge: 'ст.л.',
       count: 3,
     },
     {
-      ...INGREDIENTS.groundBlackPepper,
+      ingredientKey: 'groundBlackPepper',
       gauge: 'по вкусу',
     },
     {
-      ...INGREDIENTS.smokedPaprika,
+      ingredientKey: 'smokedPaprika',
       gauge: 'ч.л.',
       count: 0.5,
     },
     {
-      ...INGREDIENTS.greens,
+      ingredientKey: 'greens',
       gauge: 'по вкусу',
     },
   ],
@@ -524,12 +522,12 @@ export const RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM = {
         'Начните с приготовления начинки: сварите яйца вкрутую, остудите их под холодной водой и очистите. Мелко нарежьте яйца, а сыр натрите на крупной терке. Смешайте оба ингредиента в глубокой миске.',
       ingredients: [
         {
-          ...INGREDIENTS.eggs,
+          ingredientKey: 'eggs',
           gauge: 'шт.',
           count: 3,
         },
         {
-          ...INGREDIENTS.hardCheese,
+          ingredientKey: 'hardCheese',
           gauge: 'г',
           count: 200,
         },
@@ -542,21 +540,21 @@ export const RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM = {
         'Очистите чеснок и натрите его на мелкой терке. Добавьте его к майонезу, приправьте черным перцем и паприкой, затем заправьте сырно-яичную смесь и тщательно перемешайте до однородности.',
       ingredients: [
         {
-          ...INGREDIENTS.garlic,
+          ingredientKey: 'garlic',
           gauge: 'зубчика',
           count: 2,
         },
         {
-          ...INGREDIENTS.mayonnaise,
+          ingredientKey: 'mayonnaise',
           gauge: 'ст.л.',
           count: 3,
         },
         {
-          ...INGREDIENTS.groundBlackPepper,
+          ingredientKey: 'groundBlackPepper',
           gauge: 'по вкусу',
         },
         {
-          ...INGREDIENTS.smokedPaprika,
+          ingredientKey: 'smokedPaprika',
           gauge: 'ч.л.',
           count: 0.5,
         },
@@ -569,13 +567,12 @@ export const RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM = {
         'Разложите ломтики ветчины и выложите на каждый немного начинки. Аккуратно сверните в рулетики. Выложите рулеты на сервировочную тарелку, украсьте зеленью или овощами по вкусу. Перед подачей уберите в холодильник минимум на 20 минут — так они станут плотнее и вкуснее.',
       ingredients: [
         {
-          name: 'Ветчина',
+          ingredientKey: 'vetchina',
           gauge: 'г',
           count: 300,
-          img: null,
         },
         {
-          ...INGREDIENTS.greens,
+          ingredientKey: 'greens',
           gauge: 'по вкусу',
         },
       ],

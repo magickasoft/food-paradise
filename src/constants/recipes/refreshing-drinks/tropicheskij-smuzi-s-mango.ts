@@ -208,34 +208,29 @@ export const TROPICHESKIJ_SMUZI_S_MANGO = {
   used: [8, 5, 3],
   ingredients: [
     {
-      name: 'Манго (мякоть)',
+      ingredientKey: 'mango',
       gauge: 'г',
       count: 200,
-      img: null,
     },
     {
-      name: 'Банан',
+      ingredientKey: 'banan',
       gauge: 'шт.',
       count: 1,
-      img: null,
     },
     {
-      name: 'Кокосовое молоко',
+      ingredientKey: 'kokosovoeMoloko',
       gauge: 'мл',
       count: 200,
-      img: null,
     },
     {
-      name: 'Лёд',
+      ingredientKey: 'led',
       gauge: 'стакан',
       count: 1,
-      img: null,
     },
     {
-      name: 'Лимонный сок',
+      ingredientKey: 'lemonJuice',
       gauge: 'ч.л',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -255,16 +250,14 @@ export const TROPICHESKIJ_SMUZI_S_MANGO = {
       description: 'Манго и банан очистите от кожуры и нарежьте кубиками.',
       ingredients: [
         {
-          name: 'Манго (мякоть)',
+          ingredientKey: 'mango',
           gauge: 'г',
           count: 200,
-          img: null,
         },
         {
-          name: 'Банан',
+          ingredientKey: 'banan',
           gauge: 'шт.',
           count: 1,
-          img: null,
         },
       ],
     },
@@ -274,22 +267,19 @@ export const TROPICHESKIJ_SMUZI_S_MANGO = {
       description: 'В блендере смешайте манго, банан, кокосовое молоко, лёд и лимонный сок.',
       ingredients: [
         {
-          name: 'Кокосовое молоко',
+          ingredientKey: 'kokosovoeMoloko',
           gauge: 'мл',
           count: 200,
-          img: null,
         },
         {
-          name: 'Лёд',
+          ingredientKey: 'led',
           gauge: 'стакан',
           count: 1,
-          img: null,
         },
         {
-          name: 'Лимонный сок',
+          ingredientKey: 'lemonJuice',
           gauge: 'ч.л',
           count: 1,
-          img: null,
         },
       ],
     },

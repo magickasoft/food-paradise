@@ -305,40 +305,34 @@ export const KREVETKI_V_CHESNOCHNOM_SOUSE = {
   used: [7, 9],
   ingredients: [
     {
-      name: 'Королевские креветки',
+      ingredientKey: 'korolevskieKrevetki',
       gauge: 'г',
       count: 300,
-      img: null,
     },
     {
-      name: 'Сливочное масло',
+      ingredientKey: 'slivochnoeMaslo',
       gauge: 'г',
       count: 50,
-      img: null,
     },
     {
-      name: 'Чеснок',
+      ingredientKey: 'garlic',
       gauge: 'зубчик',
       count: 4,
-      img: null,
     },
     {
-      name: 'Петрушка',
+      ingredientKey: 'parsley',
       gauge: 'г',
       count: 20,
-      img: null,
     },
     {
-      name: 'Лимон',
+      ingredientKey: 'lemon',
       gauge: 'шт.',
       count: 0.5,
-      img: null,
     },
     {
-      name: 'Соль и перец',
+      ingredientKey: 'solIPerets',
       gauge: 'по вкусу',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -354,10 +348,9 @@ export const KREVETKI_V_CHESNOCHNOM_SOUSE = {
       description: 'Креветки очистите (оставьте хвостики), промокните салфеткой.',
       ingredients: [
         {
-          name: 'Королевские креветки',
+          ingredientKey: 'korolevskieKrevetki',
           gauge: 'г',
           count: 300,
-          img: null,
         },
       ],
     },
@@ -367,16 +360,14 @@ export const KREVETKI_V_CHESNOCHNOM_SOUSE = {
       description: 'Растопите масло, обжарьте измельченный чеснок 30 секунд. Добавьте креветки и готовьте 2-3 минуты.',
       ingredients: [
         {
-          name: 'Сливочное масло',
+          ingredientKey: 'slivochnoeMaslo',
           gauge: 'г',
           count: 50,
-          img: null,
         },
         {
-          name: 'Чеснок',
+          ingredientKey: 'garlic',
           gauge: 'зубчик',
           count: 4,
-          img: null,
         },
       ],
     },
@@ -386,16 +377,14 @@ export const KREVETKI_V_CHESNOCHNOM_SOUSE = {
       description: 'Посыпьте петрушкой, сбрызните лимоном и сразу подавайте.',
       ingredients: [
         {
-          name: 'Петрушка',
+          ingredientKey: 'parsley',
           gauge: 'г',
           count: 20,
-          img: null,
         },
         {
-          name: 'Лимон',
+          ingredientKey: 'lemon',
           gauge: 'шт.',
           count: 0.5,
-          img: null,
         },
       ],
     },

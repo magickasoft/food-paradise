@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const GRECHESKIJ_SALAT = {
   metaSeo: {
@@ -823,46 +822,46 @@ export const GRECHESKIJ_SALAT = {
   used: [2.6, 6.4, 3.8],
   ingredients: [
     {
-      ...INGREDIENTS.tomato,
+      ingredientKey: 'tomato',
       count: 2,
     },
     {
-      ...INGREDIENTS.cucumber,
+      ingredientKey: 'cucumber',
       count: 2,
     },
     {
-      ...INGREDIENTS.redOnion,
+      ingredientKey: 'redOnion',
       count: 0.5,
     },
     {
-      ...INGREDIENTS.fetaCheese,
+      ingredientKey: 'fetaCheese',
       count: 100,
     },
     {
-      ...INGREDIENTS.olives,
+      ingredientKey: 'olives',
       count: 100,
     },
     {
-      ...INGREDIENTS.oreganoDry,
+      ingredientKey: 'oreganoDry',
       count: 2,
     },
     {
-      ...INGREDIENTS.garlic,
+      ingredientKey: 'garlic',
       count: 1,
     },
     {
-      ...INGREDIENTS.lemonJuice,
+      ingredientKey: 'lemonJuice',
       count: 15,
     },
     {
-      ...INGREDIENTS.oliveOil,
+      ingredientKey: 'oliveOil',
       count: 30,
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
     },
     {
-      ...INGREDIENTS.groundBlackPepper,
+      ingredientKey: 'groundBlackPepper',
     },
   ],
   equipments: [EQUIPMENTS.bowl, EQUIPMENTS.knife, EQUIPMENTS.cutBoard],
@@ -872,7 +871,7 @@ export const GRECHESKIJ_SALAT = {
       video: null,
       description:
         'Огурцы и помидоры нарежьте крупными дольками, чтобы сохранить их сочность. Красный лук нарежьте тонкими кольцами. Переложите всё в глубокую миску.',
-      ingredients: [{ ...INGREDIENTS.tomato }, { ...INGREDIENTS.cucumber }, { ...INGREDIENTS.redOnion }],
+      ingredients: [{ ingredientKey: 'tomato' }, { ingredientKey: 'cucumber' }, { ingredientKey: 'redOnion' }],
     },
     {
       img: null,
@@ -880,12 +879,12 @@ export const GRECHESKIJ_SALAT = {
       description:
         'Чеснок измельчите с помощью пресса. Смешайте с лимонным соком, орегано, солью и перцем. Постепенно влейте оливковое масло, взбивая вилкой до получения однородной заправки.',
       ingredients: [
-        { ...INGREDIENTS.garlic },
-        { ...INGREDIENTS.lemonJuice },
-        { ...INGREDIENTS.oreganoDry },
-        { ...INGREDIENTS.salt },
-        { ...INGREDIENTS.groundBlackPepper },
-        { ...INGREDIENTS.oliveOil },
+        { ingredientKey: 'garlic' },
+        { ingredientKey: 'lemonJuice' },
+        { ingredientKey: 'oreganoDry' },
+        { ingredientKey: 'salt' },
+        { ingredientKey: 'groundBlackPepper' },
+        { ingredientKey: 'oliveOil' },
       ],
     },
     {
@@ -899,14 +898,14 @@ export const GRECHESKIJ_SALAT = {
       video: null,
       description:
         'Добавьте в салат маслины, предварительно удалив косточки. Перемешивать не нужно — просто распределите их по поверхности.',
-      ingredients: [{ ...INGREDIENTS.olives }],
+      ingredients: [{ ingredientKey: 'olives' }],
     },
     {
       img: null,
       video: null,
       description:
         'Выложите сверху крупные кусочки феты. Посыпьте сушёным орегано и слегка сбрызните ещё немного оливковым маслом для аромата.',
-      ingredients: [{ ...INGREDIENTS.fetaCheese }, { ...INGREDIENTS.oreganoDry }, { ...INGREDIENTS.oliveOil }],
+      ingredients: [{ ingredientKey: 'fetaCheese' }, { ingredientKey: 'oreganoDry' }, { ingredientKey: 'oliveOil' }],
     },
   ],
 }

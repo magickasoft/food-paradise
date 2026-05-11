@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SUP_PYURE_IZ_TYKVY = {
   metaSeo: {
@@ -753,16 +752,16 @@ export const SUP_PYURE_IZ_TYKVY = {
   portions: 4,
   used: [8, 9],
   ingredients: [
-    { ...INGREDIENTS.pumpkin, count: 600, gauge: 'г.' },
-    { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.cream20, count: 200, gauge: 'г.' },
-    { ...INGREDIENTS.ginger, count: 10, gauge: 'г.' },
-    { ...INGREDIENTS.oliveOil, count: 1, gauge: 'ст.л.' },
-    { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
-    { ...INGREDIENTS.blackPepper, count: 1, gauge: 'ч.л.' },
-    { ...INGREDIENTS.water, count: 1, gauge: 'л.' },
-    { ...INGREDIENTS.pumpkinSeeds, count: 20, gauge: 'г.' },
+    { ingredientKey: 'pumpkin', count: 600, gauge: 'г.' },
+    { ingredientKey: 'carrot', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'cream20', count: 200, gauge: 'г.' },
+    { ingredientKey: 'ginger', count: 10, gauge: 'г.' },
+    { ingredientKey: 'oliveOil', count: 1, gauge: 'ст.л.' },
+    { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
+    { ingredientKey: 'blackPepper', count: 1, gauge: 'ч.л.' },
+    { ingredientKey: 'water', count: 1, gauge: 'л.' },
+    { ingredientKey: 'pumpkinSeeds', count: 20, gauge: 'г.' },
   ],
   equipments: [
     { ...EQUIPMENTS.bakingTray, count: 1 },
@@ -778,9 +777,9 @@ export const SUP_PYURE_IZ_TYKVY = {
       description: `Разогрейте духовку до 200°C. Нарежьте тыкву и морковь кубиками, выложите на противень, 
       сбрызните оливковым маслом, посолите и запекайте 20 минут до мягкости.`,
       ingredients: [
-        { ...INGREDIENTS.pumpkin, count: 600, gauge: 'г.' },
-        { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.oliveOil, count: 1, gauge: 'ст.л.' },
+        { ingredientKey: 'pumpkin', count: 600, gauge: 'г.' },
+        { ingredientKey: 'carrot', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'oliveOil', count: 1, gauge: 'ст.л.' },
       ],
     },
     {
@@ -789,9 +788,9 @@ export const SUP_PYURE_IZ_TYKVY = {
       description: `В кастрюле обжарьте мелко нарезанные лук и тёртый имбирь на оставшемся масле 2–3 минуты. 
       Добавьте запечённые овощи, влейте воду и варите под крышкой 10 минут.`,
       ingredients: [
-        { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.ginger, count: 10, gauge: 'г.' },
-        { ...INGREDIENTS.water, count: 1, gauge: 'л.' },
+        { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'ginger', count: 10, gauge: 'г.' },
+        { ingredientKey: 'water', count: 1, gauge: 'л.' },
       ],
     },
     {
@@ -800,9 +799,9 @@ export const SUP_PYURE_IZ_TYKVY = {
       description: `Измельчите суп блендером до однородной текстуры, верните на плиту, добавьте сливки, 
       приправьте солью и перцем и прогрейте 2 минуты, не доводя до кипения.`,
       ingredients: [
-        { ...INGREDIENTS.cream20, count: 200, gauge: 'г.' },
-        { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
-        { ...INGREDIENTS.blackPepper, count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'cream20', count: 200, gauge: 'г.' },
+        { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'blackPepper', count: 1, gauge: 'ч.л.' },
       ],
     },
   ],

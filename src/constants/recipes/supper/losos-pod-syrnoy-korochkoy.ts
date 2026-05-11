@@ -101,46 +101,39 @@ export const LOSOS_POD_SYRNOY_KOROCHKOY = {
   used: [12, 14],
   ingredients: [
     {
-      name: 'Филе лосося',
+      ingredientKey: 'salmonFillet',
       gauge: 'г',
       count: 400,
-      img: null,
     },
     {
-      name: 'Пармезан',
+      ingredientKey: 'parmezan',
       gauge: 'г',
       count: 50,
-      img: null,
     },
     {
-      name: 'Лимон',
+      ingredientKey: 'lemon',
       gauge: 'шт.',
       count: 0.5,
-      img: null,
     },
     {
-      name: 'Чеснок',
+      ingredientKey: 'garlic',
       gauge: 'зубчик',
       count: 2,
-      img: null,
     },
     {
-      name: 'Оливковое масло',
+      ingredientKey: 'olivkovoeMaslo',
       gauge: 'ст.л',
       count: 1,
-      img: null,
     },
     {
-      name: 'Укроп',
+      ingredientKey: 'dill',
       gauge: 'г',
       count: 10,
-      img: null,
     },
     {
-      name: 'Соль и перец',
+      ingredientKey: 'solIPerets',
       gauge: 'по вкусу',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -160,16 +153,14 @@ export const LOSOS_POD_SYRNOY_KOROCHKOY = {
       description: 'Филе лосося сбрызните оливковым маслом, посолите, поперчите и посыпьте измельченным чесноком.',
       ingredients: [
         {
-          name: 'Филе лосося',
+          ingredientKey: 'salmonFillet',
           gauge: 'г',
           count: 400,
-          img: null,
         },
         {
-          name: 'Чеснок',
+          ingredientKey: 'garlic',
           gauge: 'зубчик',
           count: 2,
-          img: null,
         },
       ],
     },
@@ -179,10 +170,9 @@ export const LOSOS_POD_SYRNOY_KOROCHKOY = {
       description: 'Посыпьте тертым пармезаном и запекайте 15 минут при 200°C до золотистой корочки.',
       ingredients: [
         {
-          name: 'Пармезан',
+          ingredientKey: 'parmezan',
           gauge: 'г',
           count: 50,
-          img: null,
         },
       ],
     },
@@ -192,16 +182,14 @@ export const LOSOS_POD_SYRNOY_KOROCHKOY = {
       description: 'Перед подачей полейте лимонным соком и украсьте укропом.',
       ingredients: [
         {
-          name: 'Лимон',
+          ingredientKey: 'lemon',
           gauge: 'шт.',
           count: 0.5,
-          img: null,
         },
         {
-          name: 'Укроп',
+          ingredientKey: 'dill',
           gauge: 'г',
           count: 10,
-          img: null,
         },
       ],
     },

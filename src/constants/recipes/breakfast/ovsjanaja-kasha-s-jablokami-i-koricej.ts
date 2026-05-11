@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const OVSJANAJA_KASHA_S_JABLOKAMI_I_KORICEJ = {
   metaSeo: {
@@ -580,14 +579,14 @@ export const OVSJANAJA_KASHA_S_JABLOKAMI_I_KORICEJ = {
   portions: 4,
   used: [],
   ingredients: [
-    { ...INGREDIENTS.oatmeal, count: 200, gauge: 'г' },
-    { ...INGREDIENTS.milk, count: 500, gauge: 'мл' },
-    { ...INGREDIENTS.apple, count: 2, gauge: 'шт.' },
-    { ...INGREDIENTS.cinnamon, count: 1, gauge: 'ч.л.' },
-    { ...INGREDIENTS.honey, count: 1, gauge: 'ст.л.' },
-    { ...INGREDIENTS.butter, count: 20, gauge: 'г' },
-    { ...INGREDIENTS.salt, count: ' ', gauge: 'щепотка' },
-    { ...INGREDIENTS.water, count: 100, gauge: 'мл' },
+    { ingredientKey: 'oatmeal', count: 200, gauge: 'г' },
+    { ingredientKey: 'milk', count: 500, gauge: 'мл' },
+    { ingredientKey: 'apple', count: 2, gauge: 'шт.' },
+    { ingredientKey: 'cinnamon', count: 1, gauge: 'ч.л.' },
+    { ingredientKey: 'honey', count: 1, gauge: 'ст.л.' },
+    { ingredientKey: 'butter', count: 20, gauge: 'г' },
+    { ingredientKey: 'salt', count: ' ', gauge: 'щепотка' },
+    { ingredientKey: 'water', count: 100, gauge: 'мл' },
   ],
   equipments: [
     EQUIPMENTS.pot,
@@ -604,10 +603,10 @@ export const OVSJANAJA_KASHA_S_JABLOKAMI_I_KORICEJ = {
       description:
         'В кастрюле смешайте овсяные хлопья, молоко и воду. Добавьте щепотку соли. Поставьте на средний огонь и, постоянно помешивая, доведите до лёгкого кипения.',
       ingredients: [
-        { ...INGREDIENTS.oatmeal, count: 200, gauge: 'г' },
-        { ...INGREDIENTS.milk, count: 500, gauge: 'мл' },
-        { ...INGREDIENTS.water, count: 100, gauge: 'мл' },
-        { ...INGREDIENTS.salt, count: ' ', gauge: 'щепотка' },
+        { ingredientKey: 'oatmeal', count: 200, gauge: 'г' },
+        { ingredientKey: 'milk', count: 500, gauge: 'мл' },
+        { ingredientKey: 'water', count: 100, gauge: 'мл' },
+        { ingredientKey: 'salt', count: ' ', gauge: 'щепотка' },
       ],
     },
     {
@@ -615,7 +614,7 @@ export const OVSJANAJA_KASHA_S_JABLOKAMI_I_KORICEJ = {
       video: null,
       description:
         'Пока овсянка варится, очистите яблоки от кожуры и сердцевины, нарежьте небольшими дольками. Добавьте их в кашу и варите ещё 5–7 минут до мягкости.',
-      ingredients: [{ ...INGREDIENTS.apple, count: 2, gauge: 'шт.' }],
+      ingredients: [{ ingredientKey: 'apple', count: 2, gauge: 'шт.' }],
     },
     {
       img: null,
@@ -623,9 +622,9 @@ export const OVSJANAJA_KASHA_S_JABLOKAMI_I_KORICEJ = {
       description:
         'Снимите кашу с огня, добавьте корицу, мёд и сливочное масло. Перемешайте, накройте крышкой и дайте настояться 3–5 минут. Подавайте тёплой, можно украсить свежими яблочными ломтиками и орешками.',
       ingredients: [
-        { ...INGREDIENTS.cinnamon, count: 1, gauge: 'ч.л.' },
-        { ...INGREDIENTS.honey, count: 1, gauge: 'ст.л.' },
-        { ...INGREDIENTS.butter, count: 20, gauge: 'г' },
+        { ingredientKey: 'cinnamon', count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'honey', count: 1, gauge: 'ст.л.' },
+        { ingredientKey: 'butter', count: 20, gauge: 'г' },
       ],
     },
   ],

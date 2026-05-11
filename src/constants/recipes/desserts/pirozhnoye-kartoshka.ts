@@ -88,33 +88,33 @@ export const PIROZHNOYE_KARTOSHKA = {
   used: [4, 18, 35],
   ingredients: [
     {
-      name: 'Печенье Юбилейное',
+      ingredientKey: 'pecheneYubileynoe',
       gauge: 'г',
       count: 300,
     },
     {
-      name: 'Сгущенное молоко вареное',
+      ingredientKey: 'sguschennoeMolokoVarenoe',
       gauge: 'г',
       count: 200,
     },
     {
-      name: 'Сливочное масло',
+      ingredientKey: 'slivochnoeMaslo',
       gauge: 'г',
       count: 100,
     },
     {
-      name: 'Какао-порошок',
+      ingredientKey: 'kakaoPoroshok',
       gauge: 'г',
       count: 30,
     },
     {
-      name: 'Коньяк',
+      ingredientKey: 'konyak',
       gauge: 'ст.л',
       count: 1,
       optional: true,
     },
     {
-      name: 'Ванильный сахар',
+      ingredientKey: 'vanillaSugar',
       gauge: 'ч.л',
       count: 1,
     },
@@ -141,12 +141,12 @@ export const PIROZHNOYE_KARTOSHKA = {
       description: 'Измельчите печенье в крошку с помощью блендера или скалки. Добавьте какао и перемешайте.',
       ingredients: [
         {
-          name: 'Печенье Юбилейное',
+          ingredientKey: 'pecheneYubileynoe',
           gauge: 'г',
           count: 300,
         },
         {
-          name: 'Какао-порошок',
+          ingredientKey: 'kakaoPoroshok',
           gauge: 'г',
           count: 15,
         },
@@ -156,23 +156,23 @@ export const PIROZHNOYE_KARTOSHKA = {
       description: 'Смешайте сгущенку с размягченным маслом до однородности. Соедините с печеньем.',
       ingredients: [
         {
-          name: 'Сгущенное молоко вареное',
+          ingredientKey: 'sguschennoeMolokoVarenoe',
           gauge: 'г',
           count: 200,
         },
         {
-          name: 'Сливочное масло',
+          ingredientKey: 'slivochnoeMaslo',
           gauge: 'г',
           count: 100,
         },
         {
-          name: 'Коньяк',
+          ingredientKey: 'konyak',
           gauge: 'ст.л',
           count: 1,
           optional: true,
         },
         {
-          name: 'Ванильный сахар',
+          ingredientKey: 'vanillaSugar',
           gauge: 'ч.л',
           count: 1,
         },
@@ -182,7 +182,7 @@ export const PIROZHNOYE_KARTOSHKA = {
       description: 'Сформируйте шарики или клубни, обваляйте в какао. Охладите 2 часа.',
       ingredients: [
         {
-          name: 'Какао-порошок',
+          ingredientKey: 'kakaoPoroshok',
           gauge: 'г',
           count: 15,
         },

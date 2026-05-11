@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const OKROSHKA_NA_KEFIRE = {
   metaSeo: {
@@ -634,16 +633,16 @@ export const OKROSHKA_NA_KEFIRE = {
   portions: 4,
   used: [24.82, 34.27, 25.22],
   ingredients: [
-    { ...INGREDIENTS.potato, count: 3, gauge: 'шт.' },
-    { ...INGREDIENTS.eggs, count: 4, gauge: 'шт.' },
-    { ...INGREDIENTS.cucumber, count: 3, gauge: 'шт.' },
-    { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
-    { ...INGREDIENTS.dill, count: 1, gauge: 'пуч.' },
-    { ...INGREDIENTS.mustard, count: 1, gauge: 'ч.л.' },
-    { ...INGREDIENTS.carbonatedMineralWater, count: 500, gauge: 'мл' },
-    { ...INGREDIENTS.boiledPorkSausage, count: 300, gauge: 'г' },
-    { ...INGREDIENTS.kefir32, count: 1, gauge: 'л.' },
-    { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+    { ingredientKey: 'potato', count: 3, gauge: 'шт.' },
+    { ingredientKey: 'eggs', count: 4, gauge: 'шт.' },
+    { ingredientKey: 'cucumber', count: 3, gauge: 'шт.' },
+    { ingredientKey: 'greenOnion', count: 1, gauge: 'пуч.' },
+    { ingredientKey: 'dill', count: 1, gauge: 'пуч.' },
+    { ingredientKey: 'mustard', count: 1, gauge: 'ч.л.' },
+    { ingredientKey: 'carbonatedMineralWater', count: 500, gauge: 'мл' },
+    { ingredientKey: 'boiledPorkSausage', count: 300, gauge: 'г' },
+    { ingredientKey: 'kefir32', count: 1, gauge: 'л.' },
+    { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
   ],
   equipments: [
     EQUIPMENTS.pot,
@@ -660,8 +659,8 @@ export const OKROSHKA_NA_KEFIRE = {
       description:
         'Отварите картофель в мундире до мягкости (около 15–20 минут) и яйца вкрутую (примерно 10 минут). После варки остудите, очистите и дайте им полностью остыть.',
       ingredients: [
-        { ...INGREDIENTS.potato, count: 3, gauge: 'шт.' },
-        { ...INGREDIENTS.eggs, count: 4, gauge: 'шт.' },
+        { ingredientKey: 'potato', count: 3, gauge: 'шт.' },
+        { ingredientKey: 'eggs', count: 4, gauge: 'шт.' },
       ],
     },
     {
@@ -670,10 +669,10 @@ export const OKROSHKA_NA_KEFIRE = {
       description:
         'Нарежьте варёную колбасу, картофель и яйца небольшими кубиками. Огурцы нарежьте полукружьями или мелкими кубиками. Мелко порубите зелёный лук и укроп.',
       ingredients: [
-        { ...INGREDIENTS.boiledPorkSausage, count: 300, gauge: 'г.' },
-        { ...INGREDIENTS.cucumber, count: 3, gauge: 'шт.' },
-        { ...INGREDIENTS.greenOnion, count: 1, gauge: 'пуч.' },
-        { ...INGREDIENTS.dill, count: 1, gauge: 'пуч.' },
+        { ingredientKey: 'boiledPorkSausage', count: 300, gauge: 'г.' },
+        { ingredientKey: 'cucumber', count: 3, gauge: 'шт.' },
+        { ingredientKey: 'greenOnion', count: 1, gauge: 'пуч.' },
+        { ingredientKey: 'dill', count: 1, gauge: 'пуч.' },
       ],
     },
     {
@@ -682,10 +681,10 @@ export const OKROSHKA_NA_KEFIRE = {
       description:
         'В глубокой миске соедините все нарезанные ингредиенты. Посолите по вкусу, добавьте немного горчицы для остроты. Залейте смесью кефира и минеральной воды, хорошо перемешайте. Подавайте охлаждённой.',
       ingredients: [
-        { ...INGREDIENTS.kefir32, count: 1, gauge: 'л.' },
-        { ...INGREDIENTS.carbonatedMineralWater, count: 500, gauge: 'мл' },
-        { ...INGREDIENTS.mustard, count: 1, gauge: 'ч.л.' },
-        { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'kefir32', count: 1, gauge: 'л.' },
+        { ingredientKey: 'carbonatedMineralWater', count: 500, gauge: 'мл' },
+        { ingredientKey: 'mustard', count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
       ],
     },
   ],

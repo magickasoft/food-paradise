@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const BORSHCH_S_PAMPUSHKAMI = {
   metaSeo: {
@@ -741,24 +740,24 @@ export const BORSHCH_S_PAMPUSHKAMI = {
   portions: 6,
   used: [12.37, 28.55, 60.08],
   ingredients: [
-    { ...INGREDIENTS.beet, count: 2, gauge: 'шт.' }, // 1 в зажарку, 1 для настоя
-    { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.potato, count: 3, gauge: 'шт.' },
-    { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.refinedVegetableOil, count: 6, gauge: 'ст.л.' }, // унифицировано масло
-    { ...INGREDIENTS.salt, count: 13, gauge: 'г.' }, // 10 г в борщ + 3 г в тесто
-    { ...INGREDIENTS.sugar, count: 10, gauge: 'г.' }, // 5 г в борщ + 5 г в тесто
-    { ...INGREDIENTS.vinegar, count: 2, gauge: 'ст.л.' },
-    { ...INGREDIENTS.bayLeaf, count: 2, gauge: 'шт.' },
-    { ...INGREDIENTS.tomato, count: 2, gauge: 'шт.' },
-    { ...INGREDIENTS.cabbage, count: 1, gauge: 'пол.головки' },
-    { ...INGREDIENTS.groundBlackPepper, count: 2, gauge: 'г.' },
-    { ...INGREDIENTS.flour, count: 250, gauge: 'г.' },
-    { ...INGREDIENTS.yeast, count: 6, gauge: 'г.' },
-    { ...INGREDIENTS.sesameSeeds, gauge: 'по вкусу' },
-    { ...INGREDIENTS.milk, count: 250, gauge: 'мл' },
-    { ...INGREDIENTS.eggs, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.garlic, count: 6, gauge: 'зуб.' },
+    { ingredientKey: 'beet', count: 2, gauge: 'шт.' }, // 1 в зажарку, 1 для настоя
+    { ingredientKey: 'carrot', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'potato', count: 3, gauge: 'шт.' },
+    { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'refinedVegetableOil', count: 6, gauge: 'ст.л.' }, // унифицировано масло
+    { ingredientKey: 'salt', count: 13, gauge: 'г.' }, // 10 г в борщ + 3 г в тесто
+    { ingredientKey: 'sugar', count: 10, gauge: 'г.' }, // 5 г в борщ + 5 г в тесто
+    { ingredientKey: 'vinegar', count: 2, gauge: 'ст.л.' },
+    { ingredientKey: 'bayLeaf', count: 2, gauge: 'шт.' },
+    { ingredientKey: 'tomato', count: 2, gauge: 'шт.' },
+    { ingredientKey: 'cabbage', count: 1, gauge: 'пол.головки' },
+    { ingredientKey: 'groundBlackPepper', count: 2, gauge: 'г.' },
+    { ingredientKey: 'flour', count: 250, gauge: 'г.' },
+    { ingredientKey: 'yeast', count: 6, gauge: 'г.' },
+    { ingredientKey: 'sesameSeeds', gauge: 'по вкусу' },
+    { ingredientKey: 'milk', count: 250, gauge: 'мл' },
+    { ingredientKey: 'eggs', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'garlic', count: 6, gauge: 'зуб.' },
   ],
   equipments: [
     EQUIPMENTS.pot,
@@ -779,17 +778,17 @@ export const BORSHCH_S_PAMPUSHKAMI = {
       description:
         'Подготовьте овощи: вымойте, очистите и нарежьте их тонкой соломкой, а помидоры — кубиками. Закипятите воду в кастрюле, посолите, добавьте капусту и картофель. Пока они варятся, обжарьте на сковороде лук и морковь, затем добавьте половину натёртой свёклы, уксус и сахар — получится ароматная зажарка. Оставшуюся свёклу отложите для свекольного настоя.',
       ingredients: [
-        { ...INGREDIENTS.beet, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.potato, count: 3, gauge: 'шт.' },
-        { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.cabbage, count: 1, gauge: 'пол.головки' },
-        { ...INGREDIENTS.tomato, count: 2, gauge: 'шт.' },
-        { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
-        { ...INGREDIENTS.refinedVegetableOil, count: 2, gauge: 'ст.л.' },
-        { ...INGREDIENTS.vinegar, count: 1, gauge: 'ст.л.' },
-        { ...INGREDIENTS.sugar, count: 2, gauge: 'г.' },
-        { ...INGREDIENTS.salt, count: 2, gauge: 'г.' },
+        { ingredientKey: 'beet', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'carrot', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'potato', count: 3, gauge: 'шт.' },
+        { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'cabbage', count: 1, gauge: 'пол.головки' },
+        { ingredientKey: 'tomato', count: 2, gauge: 'шт.' },
+        { ingredientKey: 'garlic', count: 2, gauge: 'зуб.' },
+        { ingredientKey: 'refinedVegetableOil', count: 2, gauge: 'ст.л.' },
+        { ingredientKey: 'vinegar', count: 1, gauge: 'ст.л.' },
+        { ingredientKey: 'sugar', count: 2, gauge: 'г.' },
+        { ingredientKey: 'salt', count: 2, gauge: 'г.' },
       ],
     },
     {
@@ -798,10 +797,10 @@ export const BORSHCH_S_PAMPUSHKAMI = {
       description:
         'Перемешайте овощи и тушите их под крышкой 10 минут. Оставшуюся свёклу залейте стаканом кипятка с 1 ст.л. уксуса и дайте настояться 10–15 минут — она отдаст красивый цвет. Добавьте к овощам помидоры, приправьте перцем и тушите ещё 10–15 минут до мягкости.',
       ingredients: [
-        { ...INGREDIENTS.beet, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.vinegar, count: 1, gauge: 'ст.л.' },
-        { ...INGREDIENTS.groundBlackPepper, count: 1, gauge: 'г.' },
-        { ...INGREDIENTS.salt, count: 1, gauge: 'г.' },
+        { ingredientKey: 'beet', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'vinegar', count: 1, gauge: 'ст.л.' },
+        { ingredientKey: 'groundBlackPepper', count: 1, gauge: 'г.' },
+        { ingredientKey: 'salt', count: 1, gauge: 'г.' },
       ],
     },
     {
@@ -810,8 +809,8 @@ export const BORSHCH_S_PAMPUSHKAMI = {
       description:
         'Когда картофель и капуста будут почти готовы, добавьте к ним тушёные овощи и лавровый лист. Доведите до кипения, снимите пену. Добавьте измельчённый чеснок, накройте крышкой и сразу уберите с огня — борщ должен настояться и раскрыть аромат.',
       ingredients: [
-        { ...INGREDIENTS.bayLeaf, count: 2, gauge: 'шт.' },
-        { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
+        { ingredientKey: 'bayLeaf', count: 2, gauge: 'шт.' },
+        { ingredientKey: 'garlic', count: 2, gauge: 'зуб.' },
       ],
     },
     {
@@ -827,14 +826,14 @@ export const BORSHCH_S_PAMPUSHKAMI = {
       description:
         'Разогрейте духовку до 180°C и приготовьте тесто для пампушек: разведите дрожжи в тёплом молоке, добавьте муку, масло, сахар и соль. Замесите мягкое тесто. Накройте полотенцем и оставьте в тёплом месте на 1 час, пока оно не увеличится в объёме. Сформируйте шарики и выложите на противень. Смажьте взбитым яйцом, присыпьте кунжутом и выпекайте 20–25 минут до золотистой корочки.',
       ingredients: [
-        { ...INGREDIENTS.flour, count: 250, gauge: 'г.' },
-        { ...INGREDIENTS.yeast, count: 6, gauge: 'г.' },
-        { ...INGREDIENTS.milk, count: 250, gauge: 'мл' },
-        { ...INGREDIENTS.sugar, count: 5, gauge: 'г.' },
-        { ...INGREDIENTS.salt, count: 3, gauge: 'г.' },
-        { ...INGREDIENTS.refinedVegetableOil, count: 2, gauge: 'ст.л.' },
-        { ...INGREDIENTS.eggs, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.sesameSeeds, gauge: 'по вкусу' },
+        { ingredientKey: 'flour', count: 250, gauge: 'г.' },
+        { ingredientKey: 'yeast', count: 6, gauge: 'г.' },
+        { ingredientKey: 'milk', count: 250, gauge: 'мл' },
+        { ingredientKey: 'sugar', count: 5, gauge: 'г.' },
+        { ingredientKey: 'salt', count: 3, gauge: 'г.' },
+        { ingredientKey: 'refinedVegetableOil', count: 2, gauge: 'ст.л.' },
+        { ingredientKey: 'eggs', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'sesameSeeds', gauge: 'по вкусу' },
       ],
     },
     {
@@ -843,8 +842,8 @@ export const BORSHCH_S_PAMPUSHKAMI = {
       description:
         'Измельчите чеснок и взбейте его с маслом в блендере. Горячие пампушки смажьте ароматным чесночным маслом с помощью кисточки. По желанию добавьте щепотку соли или зелени. Подавайте свежие и тёплые пампушки к борщу — это идеальное дополнение.',
       ingredients: [
-        { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
-        { ...INGREDIENTS.refinedVegetableOil, count: 2, gauge: 'ст.л.' },
+        { ingredientKey: 'garlic', count: 2, gauge: 'зуб.' },
+        { ingredientKey: 'refinedVegetableOil', count: 2, gauge: 'ст.л.' },
       ],
     },
   ],

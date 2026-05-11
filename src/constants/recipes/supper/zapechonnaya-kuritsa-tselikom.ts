@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const ZAPECHONNAYA_KURITSA_TSELIKOM = {
   metaSeo: {
@@ -74,37 +73,37 @@ export const ZAPECHONNAYA_KURITSA_TSELIKOM = {
   used: [18.2, 22.5, 2.1],
   ingredients: [
     {
-      ...INGREDIENTS.chickenWhole,
+      ingredientKey: 'chickenWhole',
       count: 1.8,
       gauge: 'кг',
     },
     {
-      ...INGREDIENTS.garlic,
+      ingredientKey: 'garlic',
       count: 5,
       gauge: 'зубчиков',
     },
     {
-      ...INGREDIENTS.refinedVegetableOil,
+      ingredientKey: 'refinedVegetableOil',
       count: 3,
       gauge: 'ст.л.',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: ' ',
       gauge: 'по вкусу',
     },
     {
-      ...INGREDIENTS.groundBlackPepper,
+      ingredientKey: 'groundBlackPepper',
       count: ' ',
       gauge: 'по вкусу',
     },
     {
-      ...INGREDIENTS.smokedPaprika,
+      ingredientKey: 'smokedPaprika',
       count: 1,
       gauge: 'ч.л.',
     },
     {
-      ...INGREDIENTS.driedHerbs,
+      ingredientKey: 'driedHerbs',
       count: 1,
       gauge: 'ч.л.',
     },
@@ -118,7 +117,7 @@ export const ZAPECHONNAYA_KURITSA_TSELIKOM = {
         'Курицу тщательно промойте и обсушите бумажными полотенцами. Удалите остатки перьев при необходимости.',
       ingredients: [
         {
-          ...INGREDIENTS.chickenWhole,
+          ingredientKey: 'chickenWhole',
           count: 1.8,
           gauge: 'кг',
         },
@@ -130,32 +129,32 @@ export const ZAPECHONNAYA_KURITSA_TSELIKOM = {
       description: 'Смешайте растительное масло, соль, чёрный перец, паприку и сушёные травы. Чеснок мелко измельчите.',
       ingredients: [
         {
-          ...INGREDIENTS.refinedVegetableOil,
+          ingredientKey: 'refinedVegetableOil',
           count: 3,
           gauge: 'ст.л.',
         },
         {
-          ...INGREDIENTS.garlic,
+          ingredientKey: 'garlic',
           count: 5,
           gauge: 'зубчиков',
         },
         {
-          ...INGREDIENTS.salt,
+          ingredientKey: 'salt',
           count: ' ',
           gauge: 'по вкусу',
         },
         {
-          ...INGREDIENTS.groundBlackPepper,
+          ingredientKey: 'groundBlackPepper',
           count: ' ',
           gauge: 'по вкусу',
         },
         {
-          ...INGREDIENTS.smokedPaprika,
+          ingredientKey: 'smokedPaprika',
           count: 1,
           gauge: 'ч.л.',
         },
         {
-          ...INGREDIENTS.driedHerbs,
+          ingredientKey: 'driedHerbs',
           count: 1,
           gauge: 'ч.л.',
         },

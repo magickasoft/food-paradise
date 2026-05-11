@@ -149,34 +149,29 @@ export const ARBUZNYJ_SMUZI = {
   used: [6, 4, 2],
   ingredients: [
     {
-      name: 'Арбуз (мякоть)',
+      ingredientKey: 'arbuz',
       gauge: 'г',
       count: 400,
-      img: null,
     },
     {
-      name: 'Лайм',
+      ingredientKey: 'lime',
       gauge: 'шт.',
       count: 0.5,
-      img: null,
     },
     {
-      name: 'Мята свежая',
+      ingredientKey: 'myataSvezhaya',
       gauge: 'г',
       count: 10,
-      img: null,
     },
     {
-      name: 'Лёд',
+      ingredientKey: 'led',
       gauge: 'стакан',
       count: 1,
-      img: null,
     },
     {
-      name: 'Вода (по необходимости)',
+      ingredientKey: 'voda5',
       gauge: 'мл',
       count: 50,
-      img: null,
     },
   ],
   equipments: [
@@ -196,16 +191,14 @@ export const ARBUZNYJ_SMUZI = {
       description: 'Арбуз очистите от косточек и нарежьте кубиками. Лайм выжмите.',
       ingredients: [
         {
-          name: 'Арбуз (мякоть)',
+          ingredientKey: 'arbuz',
           gauge: 'г',
           count: 400,
-          img: null,
         },
         {
-          name: 'Лайм',
+          ingredientKey: 'lime',
           gauge: 'шт.',
           count: 0.5,
-          img: null,
         },
       ],
     },
@@ -215,22 +208,19 @@ export const ARBUZNYJ_SMUZI = {
       description: 'В блендере смешайте арбуз, сок лайма, мяту и лёд. Добавьте воды, если слишком густо.',
       ingredients: [
         {
-          name: 'Мята свежая',
+          ingredientKey: 'myataSvezhaya',
           gauge: 'г',
           count: 10,
-          img: null,
         },
         {
-          name: 'Лёд',
+          ingredientKey: 'led',
           gauge: 'стакан',
           count: 1,
-          img: null,
         },
         {
-          name: 'Вода (по необходимости)',
+          ingredientKey: 'voda5',
           gauge: 'мл',
           count: 50,
-          img: null,
         },
       ],
     },

@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const RATATUY_PO_DOMASHNEMU = {
   metaSeo: {
@@ -880,15 +879,15 @@ export const RATATUY_PO_DOMASHNEMU = {
   portions: 4,
   used: [10, 11],
   ingredients: [
-    { ...INGREDIENTS.eggplant, count: 1 },
-    { ...INGREDIENTS.zucchini, count: 1 },
-    { ...INGREDIENTS.tomato, count: 3 },
-    { ...INGREDIENTS.onion, count: 1 },
-    { ...INGREDIENTS.garlic, count: 2 },
-    { ...INGREDIENTS.oliveOil, count: 3 },
-    { ...INGREDIENTS.provencalHerbs, count: 1 },
-    { ...INGREDIENTS.salt, count: 1 },
-    { ...INGREDIENTS.groundBlackPepper, count: 1 },
+    { ingredientKey: 'eggplant', count: 1 },
+    { ingredientKey: 'zucchini', count: 1 },
+    { ingredientKey: 'tomato', count: 3 },
+    { ingredientKey: 'onion', count: 1 },
+    { ingredientKey: 'garlic', count: 2 },
+    { ingredientKey: 'oliveOil', count: 3 },
+    { ingredientKey: 'provencalHerbs', count: 1 },
+    { ingredientKey: 'salt', count: 1 },
+    { ingredientKey: 'groundBlackPepper', count: 1 },
   ],
   equipments: [{ ...EQUIPMENTS.oven }, { ...EQUIPMENTS.pan }, { ...EQUIPMENTS.knife }, { ...EQUIPMENTS.cutBoard }],
   cookingRecipe: [
@@ -897,8 +896,8 @@ export const RATATUY_PO_DOMASHNEMU = {
       video: null,
       description: 'Лук и чеснок обжарьте до прозрачности. Выложите на дно формы.',
       ingredients: [
-        { ...INGREDIENTS.onion, count: 1 },
-        { ...INGREDIENTS.garlic, count: 2 },
+        { ingredientKey: 'onion', count: 1 },
+        { ingredientKey: 'garlic', count: 2 },
       ],
     },
     {
@@ -906,9 +905,9 @@ export const RATATUY_PO_DOMASHNEMU = {
       video: null,
       description: 'Баклажаны, кабачки и помидоры нарежьте кружочками. Выложите слоями в форму.',
       ingredients: [
-        { ...INGREDIENTS.eggplant, count: 1 },
-        { ...INGREDIENTS.zucchini, count: 1 },
-        { ...INGREDIENTS.tomato, count: 3 },
+        { ingredientKey: 'eggplant', count: 1 },
+        { ingredientKey: 'zucchini', count: 1 },
+        { ingredientKey: 'tomato', count: 3 },
       ],
     },
     {
@@ -916,10 +915,10 @@ export const RATATUY_PO_DOMASHNEMU = {
       video: null,
       description: 'Посыпьте травами, полейте маслом и запекайте 40 минут при 180°C.',
       ingredients: [
-        { ...INGREDIENTS.provencalHerbs, count: 1 },
-        { ...INGREDIENTS.oliveOil, count: 3 },
-        { ...INGREDIENTS.salt, count: 1 },
-        { ...INGREDIENTS.groundBlackPepper, count: 1 },
+        { ingredientKey: 'provencalHerbs', count: 1 },
+        { ingredientKey: 'oliveOil', count: 3 },
+        { ingredientKey: 'salt', count: 1 },
+        { ingredientKey: 'groundBlackPepper', count: 1 },
       ],
     },
   ],

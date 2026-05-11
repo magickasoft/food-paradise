@@ -277,42 +277,42 @@ export const LENIVYY_NAPOLEON = {
   used: [5, 22, 30],
   ingredients: [
     {
-      name: 'Слоеное тесто бездрожжевое',
+      ingredientKey: 'sloenoeTestoBezdrozhzhevoe',
       gauge: 'г',
       count: 500,
     },
     {
-      name: 'Молоко',
+      ingredientKey: 'milk',
       gauge: 'мл',
       count: 600,
     },
     {
-      name: 'Яйца',
+      ingredientKey: 'yaytsa',
       gauge: 'шт.',
       count: 2,
     },
     {
-      name: 'Сахар',
+      ingredientKey: 'sugar',
       gauge: 'г',
       count: 150,
     },
     {
-      name: 'Кукурузный крахмал',
+      ingredientKey: 'kukuruznyyKrahmal',
       gauge: 'г',
       count: 50,
     },
     {
-      name: 'Сливочное масло',
+      ingredientKey: 'slivochnoeMaslo',
       gauge: 'г',
       count: 100,
     },
     {
-      name: 'Ванильный сахар',
+      ingredientKey: 'vanillaSugar',
       gauge: 'ч.л',
       count: 1,
     },
     {
-      name: 'Крошка коржей',
+      ingredientKey: 'kroshkaKorzhey',
       gauge: 'г',
       count: 50,
     },
@@ -342,7 +342,7 @@ export const LENIVYY_NAPOLEON = {
       description: 'Раскатайте тесто, нарежьте на квадраты. Выпекайте при 200°C 10 минут.',
       ingredients: [
         {
-          name: 'Слоеное тесто бездрожжевое',
+          ingredientKey: 'sloenoeTestoBezdrozhzhevoe',
           gauge: 'г',
           count: 500,
         },
@@ -352,27 +352,27 @@ export const LENIVYY_NAPOLEON = {
       description: 'Для крема смешайте молоко, яйца, сахар и крахмал. Варите до загустения, добавьте масло.',
       ingredients: [
         {
-          name: 'Молоко',
+          ingredientKey: 'milk',
           gauge: 'мл',
           count: 600,
         },
         {
-          name: 'Яйца',
+          ingredientKey: 'yaytsa',
           gauge: 'шт.',
           count: 2,
         },
         {
-          name: 'Сахар',
+          ingredientKey: 'sugar',
           gauge: 'г',
           count: 150,
         },
         {
-          name: 'Кукурузный крахмал',
+          ingredientKey: 'kukuruznyyKrahmal',
           gauge: 'г',
           count: 50,
         },
         {
-          name: 'Сливочное масло',
+          ingredientKey: 'slivochnoeMaslo',
           gauge: 'г',
           count: 100,
         },
@@ -382,7 +382,7 @@ export const LENIVYY_NAPOLEON = {
       description: 'Соберите торт, чередуя коржи и крем. Обсыпьте крошкой, охладите 3 часа.',
       ingredients: [
         {
-          name: 'Крошка коржей',
+          ingredientKey: 'kroshkaKorzhey',
           gauge: 'г',
           count: 50,
         },

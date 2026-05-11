@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SALAT_OLIVYE = {
   metaSeo: {
@@ -92,42 +91,42 @@ export const SALAT_OLIVYE = {
   used: [12.4, 28.7, 14.2],
   ingredients: [
     {
-      ...INGREDIENTS.potato,
+      ingredientKey: 'potato',
       count: 4,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.carrot,
+      ingredientKey: 'carrot',
       count: 2,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.eggs,
+      ingredientKey: 'eggs',
       count: 4,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.boiledSausage,
+      ingredientKey: 'boiledSausage',
       count: 300,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.pickledCucumbers,
+      ingredientKey: 'pickledCucumbers',
       count: 3,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.greenPeas,
+      ingredientKey: 'greenPeas',
       count: 1,
       gauge: 'банка',
     },
     {
-      ...INGREDIENTS.mayonnaise,
+      ingredientKey: 'mayonnaise',
       count: 200,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: ' ',
       gauge: 'по вкусу',
     },
@@ -150,17 +149,17 @@ export const SALAT_OLIVYE = {
         'Картофель и морковь тщательно вымойте и отварите в кожуре до готовности. Яйца сварите вкрутую. Все ингредиенты полностью остудите, затем очистите.',
       ingredients: [
         {
-          ...INGREDIENTS.potato,
+          ingredientKey: 'potato',
           count: 4,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.carrot,
+          ingredientKey: 'carrot',
           count: 2,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.eggs,
+          ingredientKey: 'eggs',
           count: 4,
           gauge: 'шт.',
         },
@@ -173,12 +172,12 @@ export const SALAT_OLIVYE = {
         'Картофель, морковь, яйца, колбасу и солёные огурцы нарежьте мелкими кубиками одинакового размера. Это обеспечит правильную текстуру салата.',
       ingredients: [
         {
-          ...INGREDIENTS.boiledSausage,
+          ingredientKey: 'boiledSausage',
           count: 300,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.pickledCucumbers,
+          ingredientKey: 'pickledCucumbers',
           count: 3,
           gauge: 'шт.',
         },
@@ -191,17 +190,17 @@ export const SALAT_OLIVYE = {
         'Соедините все нарезанные ингредиенты в глубокой миске, добавьте зелёный горошек, майонез и соль по вкусу. Аккуратно перемешайте до однородности.',
       ingredients: [
         {
-          ...INGREDIENTS.greenPeas,
+          ingredientKey: 'greenPeas',
           count: 1,
           gauge: 'банка',
         },
         {
-          ...INGREDIENTS.mayonnaise,
+          ingredientKey: 'mayonnaise',
           count: 200,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.salt,
+          ingredientKey: 'salt',
           count: ' ',
           gauge: 'по вкусу',
         },

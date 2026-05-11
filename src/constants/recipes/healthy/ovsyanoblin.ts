@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const OVSYANOBLIN = {
   metaSeo: {
@@ -473,22 +472,22 @@ export const OVSYANOBLIN = {
   used: [12.5, 18.3, 5.2],
   ingredients: [
     {
-      ...INGREDIENTS.oatmeal,
+      ingredientKey: 'oatmeal',
       count: 30,
     },
     {
-      ...INGREDIENTS.eggs,
+      ingredientKey: 'eggs',
       count: 1,
     },
     {
-      ...INGREDIENTS.milk,
+      ingredientKey: 'milk',
       count: 50,
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
     },
     {
-      ...INGREDIENTS.bakingPowder,
+      ingredientKey: 'bakingPowder',
       count: 5,
     },
   ],
@@ -501,7 +500,7 @@ export const OVSYANOBLIN = {
         'Измельчите овсяные хлопья в блендере до состояния муки грубого помола. Это ключевой момент — цельнозерновая текстура даст правильную эластичность. Если нет блендера, используйте готовую овсяную муку.',
       ingredients: [
         {
-          ...INGREDIENTS.oatmeal,
+          ingredientKey: 'oatmeal',
         },
       ],
     },
@@ -512,16 +511,16 @@ export const OVSYANOBLIN = {
         'В глубокой миске смешайте все ингредиенты: овсяную муку, яйцо, молоко, соль и разрыхлитель. Взбейте венчиком до однородности. Тесто должно напоминать жидкую сметану. Дайте постоять 3 минуты — хлопья впитают влагу.',
       ingredients: [
         {
-          ...INGREDIENTS.eggs,
+          ingredientKey: 'eggs',
         },
         {
-          ...INGREDIENTS.milk,
+          ingredientKey: 'milk',
         },
         {
-          ...INGREDIENTS.salt,
+          ingredientKey: 'salt',
         },
         {
-          ...INGREDIENTS.bakingPowder,
+          ingredientKey: 'bakingPowder',
         },
       ],
     },

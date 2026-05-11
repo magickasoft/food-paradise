@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const MENEMEN = {
   metaSeo: {
@@ -717,18 +716,18 @@ export const MENEMEN = {
   used: [15.8, 20.4, 8.2],
 
   ingredients: [
-    { ...INGREDIENTS.eggs, count: 4, gauge: 'шт.' },
-    { ...INGREDIENTS.tomato, count: 3, gauge: 'шт.', note: 'или 400 г консервированных' },
-    { ...INGREDIENTS.greenPepper, count: 2, gauge: 'шт.' },
-    { ...INGREDIENTS.onion, count: 1, gauge: 'шт.', note: 'красный' },
-    { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
-    { ...INGREDIENTS.oliveOil, count: 3, gauge: 'ст.л.' },
-    { ...INGREDIENTS.redPepperFlakes, count: 0.5, gauge: 'ч.л.' },
-    { ...INGREDIENTS.driedMint, count: 0.5, gauge: 'ч.л.' },
-    { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
-    { ...INGREDIENTS.groundBlackPepper, count: 0.5, gauge: 'ч.л.' },
-    { ...INGREDIENTS.fetaCheese, count: 50, note: 'по желанию' },
-    { ...INGREDIENTS.parsley, count: 10, gauge: 'г', note: 'для подачи' },
+    { ingredientKey: 'eggs', count: 4, gauge: 'шт.' },
+    { ingredientKey: 'tomato', count: 3, gauge: 'шт.', note: 'или 400 г консервированных' },
+    { ingredientKey: 'greenPepper', count: 2, gauge: 'шт.' },
+    { ingredientKey: 'onion', count: 1, gauge: 'шт.', note: 'красный' },
+    { ingredientKey: 'garlic', count: 2, gauge: 'зуб.' },
+    { ingredientKey: 'oliveOil', count: 3, gauge: 'ст.л.' },
+    { ingredientKey: 'redPepperFlakes', count: 0.5, gauge: 'ч.л.' },
+    { ingredientKey: 'driedMint', count: 0.5, gauge: 'ч.л.' },
+    { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
+    { ingredientKey: 'groundBlackPepper', count: 0.5, gauge: 'ч.л.' },
+    { ingredientKey: 'fetaCheese', count: 50, note: 'по желанию' },
+    { ingredientKey: 'parsley', count: 10, gauge: 'г', note: 'для подачи' },
   ],
 
   equipments: [EQUIPMENTS.pan, EQUIPMENTS.woodenSpoon, EQUIPMENTS.knife, EQUIPMENTS.cutBoard, EQUIPMENTS.lid],
@@ -740,10 +739,10 @@ export const MENEMEN = {
       description:
         'Нарежьте перец тонкими полукольцами, лук — кубиками, помидоры — дольками (предварительно ошпарьте и снимите кожицу). Чеснок мелко порубите. Все овощи должны быть примерно одинакового размера для равномерного приготовления.',
       ingredients: [
-        { ...INGREDIENTS.greenPepper, count: 2, gauge: 'шт.' },
-        { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.tomato, count: 3, gauge: 'шт.' },
-        { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
+        { ingredientKey: 'greenPepper', count: 2, gauge: 'шт.' },
+        { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'tomato', count: 3, gauge: 'шт.' },
+        { ingredientKey: 'garlic', count: 2, gauge: 'зуб.' },
       ],
     },
     {
@@ -752,9 +751,9 @@ export const MENEMEN = {
       description:
         'Разогрейте оливковое масло в сковороде. Обжарьте лук 2 минуты до мягкости, добавьте перец и готовьте ещё 5 минут. В конце положите чеснок, хлопья перца и сушёную мяту, прогрейте полминуты.',
       ingredients: [
-        { ...INGREDIENTS.oliveOil, count: 3, gauge: 'ст.л.' },
-        { ...INGREDIENTS.redPepperFlakes, count: 0.5, gauge: 'ч.л.' },
-        { ...INGREDIENTS.driedMint, count: 0.5, gauge: 'ч.л.' },
+        { ingredientKey: 'oliveOil', count: 3, gauge: 'ст.л.' },
+        { ingredientKey: 'redPepperFlakes', count: 0.5, gauge: 'ч.л.' },
+        { ingredientKey: 'driedMint', count: 0.5, gauge: 'ч.л.' },
       ],
     },
     {
@@ -763,8 +762,8 @@ export const MENEMEN = {
       description:
         'Добавьте помидоры, посолите и поперчите. Тушите на среднем огне около 10 минут без крышки, пока жидкость не выпарится и соус не станет густым.',
       ingredients: [
-        { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
-        { ...INGREDIENTS.groundBlackPepper, count: 0.5, gauge: 'ч.л.' },
+        { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'groundBlackPepper', count: 0.5, gauge: 'ч.л.' },
       ],
     },
     {
@@ -773,9 +772,9 @@ export const MENEMEN = {
       description:
         'Убавьте огонь до минимума. Сделайте ложкой 4 углубления и вбейте в каждое яйцо. Накройте крышкой и готовьте 3–5 минут до желаемой степени готовности. Посыпьте фетой и зеленью, подавайте сразу в сковороде.',
       ingredients: [
-        { ...INGREDIENTS.eggs, count: 4, gauge: 'шт.' },
-        { ...INGREDIENTS.parsley, count: 10, gauge: 'г', note: 'для подачи' },
-        { ...INGREDIENTS.fetaCheese, count: 50, note: 'по желанию' },
+        { ingredientKey: 'eggs', count: 4, gauge: 'шт.' },
+        { ingredientKey: 'parsley', count: 10, gauge: 'г', note: 'для подачи' },
+        { ingredientKey: 'fetaCheese', count: 50, note: 'по желанию' },
       ],
     },
   ],

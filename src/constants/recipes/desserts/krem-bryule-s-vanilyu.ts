@@ -81,27 +81,27 @@ export const KREM_BRYULE_S_VANILYU = {
   used: [6, 28, 32],
   ingredients: [
     {
-      name: 'Сливки 33%',
+      ingredientKey: 'cream33',
       gauge: 'мл',
       count: 500,
     },
     {
-      name: 'Ванильный стручок',
+      ingredientKey: 'vanilnyyStruchok',
       gauge: 'шт.',
       count: 1,
     },
     {
-      name: 'Яичные желтки',
+      ingredientKey: 'yaichnyeZheltki',
       gauge: 'шт.',
       count: 6,
     },
     {
-      name: 'Сахар белый',
+      ingredientKey: 'saharBelyy',
       gauge: 'г',
       count: 100,
     },
     {
-      name: 'Сахар тростниковый',
+      ingredientKey: 'saharTrostnikovyy',
       gauge: 'г',
       count: 50,
     },
@@ -134,22 +134,22 @@ export const KREM_BRYULE_S_VANILYU = {
       description: 'Нагрейте сливки с ванилью до 80°C. Взбейте желтки с сахаром до светлой массы.',
       ingredients: [
         {
-          name: 'Сливки 33%',
+          ingredientKey: 'cream33',
           gauge: 'мл',
           count: 500,
         },
         {
-          name: 'Ванильный стручок',
+          ingredientKey: 'vanilnyyStruchok',
           gauge: 'шт.',
           count: 1,
         },
         {
-          name: 'Яичные желтки',
+          ingredientKey: 'yaichnyeZheltki',
           gauge: 'шт.',
           count: 6,
         },
         {
-          name: 'Сахар белый',
+          ingredientKey: 'saharBelyy',
           gauge: 'г',
           count: 100,
         },
@@ -167,7 +167,7 @@ export const KREM_BRYULE_S_VANILYU = {
       description: 'Перед подачей посыпьте сахаром, карамелизуйте горелкой.',
       ingredients: [
         {
-          name: 'Сахар тростниковый',
+          ingredientKey: 'saharTrostnikovyy',
           gauge: 'г',
           count: 50,
         },

@@ -115,40 +115,34 @@ export const PERSIKOVYJ_LATTE = {
   used: [8, 5, 3],
   ingredients: [
     {
-      name: 'Персики',
+      ingredientKey: 'persiki',
       gauge: 'шт.',
       count: 2,
-      img: null,
     },
     {
-      name: 'Кокосовое молоко',
+      ingredientKey: 'kokosovoeMoloko',
       gauge: 'мл',
       count: 200,
-      img: null,
     },
     {
-      name: 'Куркума',
+      ingredientKey: 'kurkuma',
       gauge: 'ч.л',
       count: 0.5,
-      img: null,
     },
     {
-      name: 'Мёд',
+      ingredientKey: 'honey',
       gauge: 'ч.л',
       count: 2,
-      img: null,
     },
     {
-      name: 'Лёд',
+      ingredientKey: 'led',
       gauge: 'стакан',
       count: 1,
-      img: null,
     },
     {
-      name: 'Корица',
+      ingredientKey: 'cinnamon',
       gauge: 'щепотка',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -168,10 +162,9 @@ export const PERSIKOVYJ_LATTE = {
       description: 'Персики очистите от кожицы, удалите косточки и взбейте в блендере до пюре.',
       ingredients: [
         {
-          name: 'Персики',
+          ingredientKey: 'persiki',
           gauge: 'шт.',
           count: 2,
-          img: null,
         },
       ],
     },
@@ -181,22 +174,19 @@ export const PERSIKOVYJ_LATTE = {
       description: 'В блендере смешайте персиковое пюре, кокосовое молоко, куркуму и мёд.',
       ingredients: [
         {
-          name: 'Кокосовое молоко',
+          ingredientKey: 'kokosovoeMoloko',
           gauge: 'мл',
           count: 200,
-          img: null,
         },
         {
-          name: 'Куркума',
+          ingredientKey: 'kurkuma',
           gauge: 'ч.л',
           count: 0.5,
-          img: null,
         },
         {
-          name: 'Мёд',
+          ingredientKey: 'honey',
           gauge: 'ч.л',
           count: 2,
-          img: null,
         },
       ],
     },
@@ -206,16 +196,14 @@ export const PERSIKOVYJ_LATTE = {
       description: 'Наполните стаканы льдом, влейте напиток. Посыпьте корицей.',
       ingredients: [
         {
-          name: 'Лёд',
+          ingredientKey: 'led',
           gauge: 'стакан',
           count: 1,
-          img: null,
         },
         {
-          name: 'Корица',
+          ingredientKey: 'cinnamon',
           gauge: 'щепотка',
           count: 1,
-          img: null,
         },
       ],
     },

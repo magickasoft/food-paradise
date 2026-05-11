@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const PUMPKIN_CREAM_SOUP = {
   metaSeo: {
@@ -727,21 +726,21 @@ export const PUMPKIN_CREAM_SOUP = {
   portions: 4,
   used: [30.5, 45.2, 12.3],
   ingredients: [
-    { ...INGREDIENTS.water, count: 1, gauge: 'л.' },
-    { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.celery, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.pumpkin, count: 700, gauge: 'г.' },
-    { ...INGREDIENTS.sweetPotato, count: 200, gauge: 'г.' },
-    { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-    { ...INGREDIENTS.ginger, count: 20, gauge: 'г.' },
-    { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
-    { ...INGREDIENTS.coconutCream, count: 200, gauge: 'мл' },
-    { ...INGREDIENTS.oliveOil, count: 2, gauge: 'ст.л.' },
-    { ...INGREDIENTS.muscatNut, count: 2, gauge: 'г.' },
-    { ...INGREDIENTS.pumpkinSeeds, count: 30, gauge: 'г.' },
-    { ...INGREDIENTS.thyme, count: 2, gauge: 'г.' },
-    { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
-    { ...INGREDIENTS.groundBlackPepper, count: 1, gauge: 'ч.л.' },
+    { ingredientKey: 'water', count: 1, gauge: 'л.' },
+    { ingredientKey: 'carrot', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'celery', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'pumpkin', count: 700, gauge: 'г.' },
+    { ingredientKey: 'sweetPotato', count: 200, gauge: 'г.' },
+    { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+    { ingredientKey: 'ginger', count: 20, gauge: 'г.' },
+    { ingredientKey: 'garlic', count: 2, gauge: 'зуб.' },
+    { ingredientKey: 'coconutCream', count: 200, gauge: 'мл' },
+    { ingredientKey: 'oliveOil', count: 2, gauge: 'ст.л.' },
+    { ingredientKey: 'muscatNut', count: 2, gauge: 'г.' },
+    { ingredientKey: 'pumpkinSeeds', count: 30, gauge: 'г.' },
+    { ingredientKey: 'thyme', count: 2, gauge: 'г.' },
+    { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
+    { ingredientKey: 'groundBlackPepper', count: 1, gauge: 'ч.л.' },
   ],
   equipments: [
     EQUIPMENTS.oven,
@@ -764,10 +763,10 @@ export const PUMPKIN_CREAM_SOUP = {
       description:
         'Вскипятите 1 литр воды с морковью, луком и стеблем сельдерея. Варите 15 минут, затем удалите овощи — получится лёгкий овощной бульон для супа.',
       ingredients: [
-        { ...INGREDIENTS.water, count: 1, gauge: 'л.' },
-        { ...INGREDIENTS.carrot, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.onion, count: 1, gauge: 'шт.' },
-        { ...INGREDIENTS.celery, count: 1, gauge: 'шт.' },
+        { ingredientKey: 'water', count: 1, gauge: 'л.' },
+        { ingredientKey: 'carrot', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'onion', count: 1, gauge: 'шт.' },
+        { ingredientKey: 'celery', count: 1, gauge: 'шт.' },
       ],
     },
     {
@@ -776,9 +775,9 @@ export const PUMPKIN_CREAM_SOUP = {
       description:
         'Разогрейте духовку до 200°C. Тыкву и батат нарежьте крупными кубиками (можно с кожурой). Выложите на противень, сбрызните 1 ст. л. оливкового масла, запекайте 25 минут до мягкости.',
       ingredients: [
-        { ...INGREDIENTS.pumpkin, count: 700, gauge: 'г.' },
-        { ...INGREDIENTS.sweetPotato, count: 200, gauge: 'г.' },
-        { ...INGREDIENTS.oliveOil, count: 2, gauge: 'ст.л.' },
+        { ingredientKey: 'pumpkin', count: 700, gauge: 'г.' },
+        { ingredientKey: 'sweetPotato', count: 200, gauge: 'г.' },
+        { ingredientKey: 'oliveOil', count: 2, gauge: 'ст.л.' },
       ],
     },
     {
@@ -788,13 +787,13 @@ export const PUMPKIN_CREAM_SOUP = {
         'В кастрюле разогрейте оставшееся оливковое масло, обжарьте мелко нарезанный лук до прозрачности (3 минуты). Добавьте тёртый имбирь и раздавленный чеснок, готовьте 1 минуту до появления аромата.',
       ingredients: [
         {
-          ...INGREDIENTS.onion,
+          ingredientKey: 'onion',
           count: 1,
           gauge: 'шт.',
         },
-        { ...INGREDIENTS.ginger, count: 20, gauge: 'г.' },
-        { ...INGREDIENTS.garlic, count: 2, gauge: 'зуб.' },
-        { ...INGREDIENTS.oliveOil, count: 2, gauge: 'ст.л.' },
+        { ingredientKey: 'ginger', count: 20, gauge: 'г.' },
+        { ingredientKey: 'garlic', count: 2, gauge: 'зуб.' },
+        { ingredientKey: 'oliveOil', count: 2, gauge: 'ст.л.' },
       ],
     },
     {
@@ -803,10 +802,10 @@ export const PUMPKIN_CREAM_SOUP = {
       description:
         'Добавьте запечённые овощи, овощной бульон, кокосовые сливки, мускатный орех, соль и перец. Доведите до кипения и пюрируйте блендером до гладкости. При желании процедите через сито для шелковистой текстуры.',
       ingredients: [
-        { ...INGREDIENTS.coconutCream, count: 200, gauge: 'мл' },
-        { ...INGREDIENTS.muscatNut, count: 2, gauge: 'г.' },
-        { ...INGREDIENTS.salt, count: 1, gauge: 'ч.л.' },
-        { ...INGREDIENTS.groundBlackPepper, count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'coconutCream', count: 200, gauge: 'мл' },
+        { ingredientKey: 'muscatNut', count: 2, gauge: 'г.' },
+        { ingredientKey: 'salt', count: 1, gauge: 'ч.л.' },
+        { ingredientKey: 'groundBlackPepper', count: 1, gauge: 'ч.л.' },
       ],
     },
     {
@@ -815,8 +814,8 @@ export const PUMPKIN_CREAM_SOUP = {
       description:
         'На сухой сковороде обжарьте тыквенные семечки до лёгкого потрескивания. Подавайте суп, украсив семечками, каплей сливок и веточкой тимьяна.',
       ingredients: [
-        { ...INGREDIENTS.pumpkinSeeds, count: 30, gauge: 'г.' },
-        { ...INGREDIENTS.thyme, count: 1, gauge: 'веточка' },
+        { ingredientKey: 'pumpkinSeeds', count: 30, gauge: 'г.' },
+        { ingredientKey: 'thyme', count: 1, gauge: 'веточка' },
       ],
     },
   ],

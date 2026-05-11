@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const LEMONCELLO_VODKA = {
   metaSeo: {
@@ -61,10 +60,10 @@ export const LEMONCELLO_VODKA = {
   portions: 25,
   used: null,
   ingredients: [
-    { ...INGREDIENTS.lemon, count: 6, gauge: 'шт.' },
-    { ...INGREDIENTS.vodka, count: 700, gauge: 'мл' },
-    { ...INGREDIENTS.water, count: 300, gauge: 'мл' },
-    { ...INGREDIENTS.sugar, count: 250, gauge: 'г' },
+    { ingredientKey: 'lemon', count: 6, gauge: 'шт.' },
+    { ingredientKey: 'vodka', count: 700, gauge: 'мл' },
+    { ingredientKey: 'water', count: 300, gauge: 'мл' },
+    { ingredientKey: 'sugar', count: 250, gauge: 'г' },
   ],
   equipments: [EQUIPMENTS.jar, EQUIPMENTS.knife, EQUIPMENTS.sieve, EQUIPMENTS.pot, EQUIPMENTS.bottle],
   historyDescription:
@@ -74,14 +73,14 @@ export const LEMONCELLO_VODKA = {
       img: null,
       video: null,
       description: 'Снимите цедру с лимонов тонкой стружкой, не задевая белую часть, чтобы избежать горечи.',
-      ingredients: [{ ...INGREDIENTS.lemon, count: 6, gauge: 'шт.' }],
+      ingredients: [{ ingredientKey: 'lemon', count: 6, gauge: 'шт.' }],
     },
     {
       img: null,
       video: null,
       description:
         'Положите цедру в стеклянную банку, залейте водкой, закройте крышкой и оставьте на 7–10 дней в тёмном месте. Ежедневно встряхивайте банку.',
-      ingredients: [{ ...INGREDIENTS.vodka, count: 700, gauge: 'мл' }],
+      ingredients: [{ ingredientKey: 'vodka', count: 700, gauge: 'мл' }],
     },
     {
       img: null,
@@ -89,8 +88,8 @@ export const LEMONCELLO_VODKA = {
       description:
         'Сварите сироп: смешайте воду и сахар, доведите до кипения и остудите. Смешайте сироп с лимонным настоем, перемешайте.',
       ingredients: [
-        { ...INGREDIENTS.water, count: 300, gauge: 'мл' },
-        { ...INGREDIENTS.sugar, count: 250, gauge: 'г' },
+        { ingredientKey: 'water', count: 300, gauge: 'мл' },
+        { ingredientKey: 'sugar', count: 250, gauge: 'г' },
       ],
     },
     {

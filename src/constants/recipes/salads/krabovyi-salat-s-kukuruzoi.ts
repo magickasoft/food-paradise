@@ -1042,46 +1042,39 @@ export const KRABOVYI_SALAT_S_KUKURUZOI = {
   used: [10, 12, 8],
   ingredients: [
     {
-      name: 'Крабовые палочки',
+      ingredientKey: 'crabSticks',
       gauge: 'г',
       count: 200,
-      img: null,
     },
     {
-      name: 'Кукуруза консервированная',
+      ingredientKey: 'kukuruzaKonservirovannaya',
       gauge: 'банка',
       count: 1,
-      img: null,
     },
     {
-      name: 'Яйца',
+      ingredientKey: 'yaytsa',
       gauge: 'шт.',
       count: 4,
-      img: null,
     },
     {
-      name: 'Огурец свежий',
+      ingredientKey: 'oguretsSvezhiy',
       gauge: 'шт.',
       count: 1,
-      img: null,
     },
     {
-      name: 'Майонез',
+      ingredientKey: 'mayonnaise',
       gauge: 'ст.л',
       count: 3,
-      img: null,
     },
     {
-      name: 'Укроп',
+      ingredientKey: 'dill',
       gauge: 'г',
       count: 10,
-      img: null,
     },
     {
-      name: 'Соль и перец',
+      ingredientKey: 'solIPerets',
       gauge: 'по вкусу',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -1102,16 +1095,14 @@ export const KRABOVYI_SALAT_S_KUKURUZOI = {
         'Яйца отварите вкрутую (8–9 минут), остудите и нарежьте кубиками. Крабовые палочки нарежьте тонкими кружочками.',
       ingredients: [
         {
-          name: 'Яйца',
+          ingredientKey: 'yaytsa',
           gauge: 'шт.',
           count: 4,
-          img: null,
         },
         {
-          name: 'Крабовые палочки',
+          ingredientKey: 'crabSticks',
           gauge: 'г',
           count: 200,
-          img: null,
         },
       ],
     },
@@ -1121,16 +1112,14 @@ export const KRABOVYI_SALAT_S_KUKURUZOI = {
       description: 'Огурец нарежьте мелкими кубиками. Укроп измельчите.',
       ingredients: [
         {
-          name: 'Огурец свежий',
+          ingredientKey: 'oguretsSvezhiy',
           gauge: 'шт.',
           count: 1,
-          img: null,
         },
         {
-          name: 'Укроп',
+          ingredientKey: 'dill',
           gauge: 'г',
           count: 10,
-          img: null,
         },
       ],
     },
@@ -1140,16 +1129,14 @@ export const KRABOVYI_SALAT_S_KUKURUZOI = {
       description: 'Смешайте все ингредиенты, добавьте кукурузу, майонез, соль и перец. Аккуратно перемешайте.',
       ingredients: [
         {
-          name: 'Кукуруза консервированная',
+          ingredientKey: 'kukuruzaKonservirovannaya',
           gauge: 'банка',
           count: 1,
-          img: null,
         },
         {
-          name: 'Майонез',
+          ingredientKey: 'mayonnaise',
           gauge: 'ст.л',
           count: 3,
-          img: null,
         },
       ],
     },

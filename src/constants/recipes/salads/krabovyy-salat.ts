@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const KRABOVYY_SALAT = {
   metaSeo: {
@@ -89,27 +88,27 @@ export const KRABOVYY_SALAT = {
   used: [9.8, 18.6, 12.3],
   ingredients: [
     {
-      ...INGREDIENTS.crabSticks,
+      ingredientKey: 'crabSticks',
       count: 200,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.eggs,
+      ingredientKey: 'eggs',
       count: 4,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.cannedCorn,
+      ingredientKey: 'cannedCorn',
       count: 1,
       gauge: 'банка',
     },
     {
-      ...INGREDIENTS.mayonnaise,
+      ingredientKey: 'mayonnaise',
       count: 150,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: ' ',
       gauge: 'по вкусу',
     },
@@ -129,7 +128,7 @@ export const KRABOVYY_SALAT = {
       description: 'Яйца отварите вкрутую, остудите, очистите и нарежьте мелкими кубиками.',
       ingredients: [
         {
-          ...INGREDIENTS.eggs,
+          ingredientKey: 'eggs',
           count: 4,
           gauge: 'шт.',
         },
@@ -141,7 +140,7 @@ export const KRABOVYY_SALAT = {
       description: 'Крабовые палочки разморозьте при комнатной температуре и нарежьте небольшими кусочками.',
       ingredients: [
         {
-          ...INGREDIENTS.crabSticks,
+          ingredientKey: 'crabSticks',
           count: 200,
           gauge: 'г',
         },
@@ -154,17 +153,17 @@ export const KRABOVYY_SALAT = {
         'Слейте жидкость с консервированной кукурузы. Соедините все ингредиенты в миске, добавьте майонез и соль по вкусу.',
       ingredients: [
         {
-          ...INGREDIENTS.cannedCorn,
+          ingredientKey: 'cannedCorn',
           count: 1,
           gauge: 'банка',
         },
         {
-          ...INGREDIENTS.mayonnaise,
+          ingredientKey: 'mayonnaise',
           count: 150,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.salt,
+          ingredientKey: 'salt',
           count: ' ',
           gauge: 'по вкусу',
         },

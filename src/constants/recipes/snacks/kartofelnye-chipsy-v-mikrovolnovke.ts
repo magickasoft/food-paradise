@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE = {
   metaSeo: {
@@ -237,17 +236,17 @@ export const KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE = {
   used: null,
   ingredients: [
     {
-      ...INGREDIENTS.potato,
+      ingredientKey: 'potato',
       count: 2,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.refinedVegetableOil,
+      ingredientKey: 'refinedVegetableOil',
       count: 1,
       gauge: 'ч.л.',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       gauge: 'по вкусу',
     },
   ],
@@ -276,7 +275,7 @@ export const KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE = {
         'Картофель тщательно вымойте и обсушите. Если кожура тонкая, ее можно оставить: так чипсы получатся ароматнее и лучше сохранят форму.',
       ingredients: [
         {
-          ...INGREDIENTS.potato,
+          ingredientKey: 'potato',
           count: 2,
           gauge: 'шт.',
         },
@@ -289,7 +288,7 @@ export const KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE = {
         'Нарежьте картофель очень тонкими ломтиками толщиной 1–2 мм. Удобнее всего использовать терку-слайсер, но острый нож тоже подойдет.',
       ingredients: [
         {
-          ...INGREDIENTS.potato,
+          ingredientKey: 'potato',
           count: 2,
           gauge: 'шт.',
         },
@@ -302,7 +301,7 @@ export const KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE = {
         'Промойте ломтики в холодной воде от лишнего крахмала и тщательно обсушите бумажным полотенцем. Чем суше картофель, тем более хрустящими получатся чипсы.',
       ingredients: [
         {
-          ...INGREDIENTS.potato,
+          ingredientKey: 'potato',
           count: 2,
           gauge: 'шт.',
         },
@@ -315,12 +314,12 @@ export const KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE = {
         'Слегка смажьте ломтики растительным маслом, посолите и перемешайте, чтобы приправы распределились равномерно.',
       ingredients: [
         {
-          ...INGREDIENTS.refinedVegetableOil,
+          ingredientKey: 'refinedVegetableOil',
           count: 1,
           gauge: 'ч.л.',
         },
         {
-          ...INGREDIENTS.salt,
+          ingredientKey: 'salt',
           gauge: 'по вкусу',
         },
       ],
@@ -332,7 +331,7 @@ export const KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE = {
         'Разложите картофель на плоской тарелке для микроволновки в один слой, не накладывая ломтики друг на друга. При необходимости готовьте партиями.',
       ingredients: [
         {
-          ...INGREDIENTS.potato,
+          ingredientKey: 'potato',
           count: 2,
           gauge: 'шт.',
         },

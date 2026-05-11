@@ -283,52 +283,44 @@ export const KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM = {
   used: [20, 8, 2],
   ingredients: [
     {
-      name: 'Крупные креветки (тигровые)',
+      ingredientKey: 'krupnyeKrevetki',
       gauge: 'г',
       count: 400,
-      img: null,
     },
     {
-      name: 'Оливковое масло',
+      ingredientKey: 'olivkovoeMaslo',
       gauge: 'ст.л',
       count: 3,
-      img: null,
     },
     {
-      name: 'Чеснок',
+      ingredientKey: 'garlic',
       gauge: 'зубчик',
       count: 4,
-      img: null,
     },
     {
-      name: 'Петрушка свежая',
+      ingredientKey: 'petrushkaSvezhaya',
       gauge: 'пучок',
       count: 1,
-      img: null,
     },
     {
-      name: 'Лимон',
+      ingredientKey: 'lemon',
       gauge: 'шт.',
       count: 1,
-      img: null,
     },
     {
-      name: 'Красный перец хлопьями',
+      ingredientKey: 'krasnyyPeretsHlopyami',
       gauge: 'ч.л',
       count: 0.5,
-      img: null,
     },
     {
-      name: 'Соль морская',
+      ingredientKey: 'solMorskaya',
       gauge: 'ч.л',
       count: 0.5,
-      img: null,
     },
     {
-      name: 'Деревянные шпажки',
+      ingredientKey: 'derevyannyeShpazhki',
       gauge: 'шт.',
       count: 8,
-      img: null,
     },
   ],
   equipments: [
@@ -356,10 +348,9 @@ export const KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM = {
       description: 'Креветки очистите, оставив хвостики. Сделайте надрез вдоль спинки и удалите кишечную вену.',
       ingredients: [
         {
-          name: 'Крупные креветки (тигровые)',
+          ingredientKey: 'krupnyeKrevetki',
           gauge: 'г',
           count: 400,
-          img: null,
         },
       ],
     },
@@ -370,40 +361,34 @@ export const KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM = {
         'Приготовьте чесночное масло: смешайте оливковое масло, измельченный чеснок, рубленую петрушку, цедру половины лимона, красный перец и соль.',
       ingredients: [
         {
-          name: 'Оливковое масло',
+          ingredientKey: 'olivkovoeMaslo',
           gauge: 'ст.л',
           count: 3,
-          img: null,
         },
         {
-          name: 'Чеснок',
+          ingredientKey: 'garlic',
           gauge: 'зубчик',
           count: 4,
-          img: null,
         },
         {
-          name: 'Петрушка свежая',
+          ingredientKey: 'petrushkaSvezhaya',
           gauge: 'пучок',
           count: 1,
-          img: null,
         },
         {
-          name: 'Лимон',
+          ingredientKey: 'lemon',
           gauge: 'шт.',
           count: 0.5,
-          img: null,
         },
         {
-          name: 'Красный перец хлопьями',
+          ingredientKey: 'krasnyyPeretsHlopyami',
           gauge: 'ч.л',
           count: 0.5,
-          img: null,
         },
         {
-          name: 'Соль морская',
+          ingredientKey: 'solMorskaya',
           gauge: 'ч.л',
           count: 0.5,
-          img: null,
         },
       ],
     },
@@ -413,10 +398,9 @@ export const KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM = {
       description: 'Замаринуйте креветки в чесночном масле на 10 минут. Нанижите на шпажки (по 3-4 штуки).',
       ingredients: [
         {
-          name: 'Деревянные шпажки',
+          ingredientKey: 'derevyannyeShpazhki',
           gauge: 'шт.',
           count: 8,
-          img: null,
         },
       ],
     },
@@ -432,10 +416,9 @@ export const KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM = {
       description: 'Подавайте с дольками лимона, полив оставшимся чесночным маслом. Идеально сочетается с белым вином.',
       ingredients: [
         {
-          name: 'Лимон',
+          ingredientKey: 'lemon',
           gauge: 'шт.',
           count: 0.5,
-          img: null,
         },
       ],
     },

@@ -177,40 +177,34 @@ export const OGURECHNYJ_DETOKS_NAPITOK = {
   used: [3, 2, 1],
   ingredients: [
     {
-      name: 'Огурец',
+      ingredientKey: 'cucumber',
       gauge: 'шт.',
       count: 1,
-      img: null,
     },
     {
-      name: 'Лайм',
+      ingredientKey: 'lime',
       gauge: 'шт.',
       count: 1,
-      img: null,
     },
     {
-      name: 'Мята свежая',
+      ingredientKey: 'myataSvezhaya',
       gauge: 'г',
       count: 10,
-      img: null,
     },
     {
-      name: 'Вода (минеральная)',
+      ingredientKey: 'voda4',
       gauge: 'мл',
       count: 500,
-      img: null,
     },
     {
-      name: 'Лёд',
+      ingredientKey: 'led',
       gauge: 'стакан',
       count: 1,
-      img: null,
     },
     {
-      name: 'Стевия (по желанию)',
+      ingredientKey: 'steviya',
       gauge: 'ч.л',
       count: 0.5,
-      img: null,
     },
   ],
   equipments: [
@@ -230,22 +224,19 @@ export const OGURECHNYJ_DETOKS_NAPITOK = {
       description: 'Огурец нарежьте кружочками. Лайм разрежьте на четвертинки. Мяту промойте.',
       ingredients: [
         {
-          name: 'Огурец',
+          ingredientKey: 'cucumber',
           gauge: 'шт.',
           count: 1,
-          img: null,
         },
         {
-          name: 'Лайм',
+          ingredientKey: 'lime',
           gauge: 'шт.',
           count: 1,
-          img: null,
         },
         {
-          name: 'Мята свежая',
+          ingredientKey: 'myataSvezhaya',
           gauge: 'г',
           count: 10,
-          img: null,
         },
       ],
     },
@@ -261,22 +252,19 @@ export const OGURECHNYJ_DETOKS_NAPITOK = {
       description: 'Смешайте с водой, добавьте лёд. По желанию подсластите стевией.',
       ingredients: [
         {
-          name: 'Вода (минеральная)',
+          ingredientKey: 'voda4',
           gauge: 'мл',
           count: 500,
-          img: null,
         },
         {
-          name: 'Лёд',
+          ingredientKey: 'led',
           gauge: 'стакан',
           count: 1,
-          img: null,
         },
         {
-          name: 'Стевия (по желанию)',
+          ingredientKey: 'steviya',
           gauge: 'ч.л',
           count: 0.5,
-          img: null,
         },
       ],
     },

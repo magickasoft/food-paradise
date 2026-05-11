@@ -682,40 +682,34 @@ export const SALAT_KAPREZE = {
   used: [6, 8, 4],
   ingredients: [
     {
-      name: 'Помидоры',
+      ingredientKey: 'pomidory',
       gauge: 'шт.',
       count: 2,
-      img: null,
     },
     {
-      name: 'Моцарелла',
+      ingredientKey: 'motsarella',
       gauge: 'г',
       count: 125,
-      img: null,
     },
     {
-      name: 'Базилик свежий',
+      ingredientKey: 'bazilikSvezhiy',
       gauge: 'г',
       count: 10,
-      img: null,
     },
     {
-      name: 'Оливковое масло',
+      ingredientKey: 'olivkovoeMaslo',
       gauge: 'ст.л',
       count: 2,
-      img: null,
     },
     {
-      name: 'Бальзамический соус',
+      ingredientKey: 'balzamicheskiySous',
       gauge: 'ч.л',
       count: 1,
-      img: null,
     },
     {
-      name: 'Соль и перец',
+      ingredientKey: 'solIPerets',
       gauge: 'по вкусу',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -735,16 +729,14 @@ export const SALAT_KAPREZE = {
       description: 'Помидоры и моцареллу нарежьте кружочками одинаковой толщины. Выложите на тарелку, чередуя слои.',
       ingredients: [
         {
-          name: 'Помидоры',
+          ingredientKey: 'pomidory',
           gauge: 'шт.',
           count: 2,
-          img: null,
         },
         {
-          name: 'Моцарелла',
+          ingredientKey: 'motsarella',
           gauge: 'г',
           count: 125,
-          img: null,
         },
       ],
     },
@@ -754,22 +746,19 @@ export const SALAT_KAPREZE = {
       description: 'Сверху разложите листья базилика. Полейте оливковым маслом и бальзамиком. Посолите и поперчите.',
       ingredients: [
         {
-          name: 'Базилик свежий',
+          ingredientKey: 'bazilikSvezhiy',
           gauge: 'г',
           count: 10,
-          img: null,
         },
         {
-          name: 'Оливковое масло',
+          ingredientKey: 'olivkovoeMaslo',
           gauge: 'ст.л',
           count: 2,
-          img: null,
         },
         {
-          name: 'Бальзамический соус',
+          ingredientKey: 'balzamicheskiySous',
           gauge: 'ч.л',
           count: 1,
-          img: null,
         },
       ],
     },

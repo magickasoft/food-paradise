@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SALAT_MIMOSA = {
   metaSeo: {
@@ -82,37 +81,37 @@ export const SALAT_MIMOSA = {
 
   ingredients: [
     {
-      ...INGREDIENTS.cannedFish,
+      ingredientKey: 'cannedFish',
       count: 1,
       gauge: 'банка',
     },
     {
-      ...INGREDIENTS.eggs,
+      ingredientKey: 'eggs',
       count: 4,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.potato,
+      ingredientKey: 'potato',
       count: 2,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.carrot,
+      ingredientKey: 'carrot',
       count: 1,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.hardCheese,
+      ingredientKey: 'hardCheese',
       count: 100,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.mayonnaise,
+      ingredientKey: 'mayonnaise',
       count: 180,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: ' ',
       gauge: 'по вкусу',
     },
@@ -134,17 +133,17 @@ export const SALAT_MIMOSA = {
       description: 'Картофель и морковь отварите до готовности, остудите и очистите. Яйца отварите вкрутую.',
       ingredients: [
         {
-          ...INGREDIENTS.potato,
+          ingredientKey: 'potato',
           count: 2,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.carrot,
+          ingredientKey: 'carrot',
           count: 1,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.eggs,
+          ingredientKey: 'eggs',
           count: 4,
           gauge: 'шт.',
         },
@@ -156,7 +155,7 @@ export const SALAT_MIMOSA = {
       description: 'Рыбные консервы разомните вилкой, отделите белки от желтков, натрите их отдельно на мелкой тёрке.',
       ingredients: [
         {
-          ...INGREDIENTS.cannedFish,
+          ingredientKey: 'cannedFish',
           count: 1,
           gauge: 'банка',
         },
@@ -169,12 +168,12 @@ export const SALAT_MIMOSA = {
         'Натрите картофель, морковь и сыр. Выложите салат слоями: рыба, картофель, белки, морковь, сыр. Каждый слой слегка смажьте майонезом.',
       ingredients: [
         {
-          ...INGREDIENTS.hardCheese,
+          ingredientKey: 'hardCheese',
           count: 100,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.mayonnaise,
+          ingredientKey: 'mayonnaise',
           count: 180,
           gauge: 'г',
         },

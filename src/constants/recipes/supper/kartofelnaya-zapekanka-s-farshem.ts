@@ -511,46 +511,39 @@ export const KARTOFELNAYA_ZAPEKANKA_S_FARSHEM = {
   used: [10, 11],
   ingredients: [
     {
-      name: 'Картофель',
+      ingredientKey: 'potato',
       gauge: 'г',
       count: 800,
-      img: null,
     },
     {
-      name: 'Говяжий фарш',
+      ingredientKey: 'govyazhiyFarsh',
       gauge: 'г',
       count: 400,
-      img: null,
     },
     {
-      name: 'Лук',
+      ingredientKey: 'luk',
       gauge: 'шт.',
       count: 1,
-      img: null,
     },
     {
-      name: 'Сметана',
+      ingredientKey: 'sourCream',
       gauge: 'мл',
       count: 200,
-      img: null,
     },
     {
-      name: 'Твердый сыр',
+      ingredientKey: 'tverdyySyr',
       gauge: 'г',
       count: 150,
-      img: null,
     },
     {
-      name: 'Соль и перец',
+      ingredientKey: 'solIPerets',
       gauge: 'по вкусу',
       count: 1,
-      img: null,
     },
     {
-      name: 'Растительное масло',
+      ingredientKey: 'rastitelnoeMaslo',
       gauge: 'ст.л',
       count: 2,
-      img: null,
     },
   ],
   equipments: [
@@ -570,22 +563,19 @@ export const KARTOFELNAYA_ZAPEKANKA_S_FARSHEM = {
       description: 'Картофель очистите и нарежьте тонкими кружочками. Лук обжарьте с фаршем до готовности.',
       ingredients: [
         {
-          name: 'Картофель',
+          ingredientKey: 'potato',
           gauge: 'г',
           count: 800,
-          img: null,
         },
         {
-          name: 'Говяжий фарш',
+          ingredientKey: 'govyazhiyFarsh',
           gauge: 'г',
           count: 400,
-          img: null,
         },
         {
-          name: 'Лук',
+          ingredientKey: 'luk',
           gauge: 'шт.',
           count: 1,
-          img: null,
         },
       ],
     },
@@ -595,10 +585,9 @@ export const KARTOFELNAYA_ZAPEKANKA_S_FARSHEM = {
       description: 'В форму выложите слоями: картофель, фарш, сметана. Повторите 2-3 раза.',
       ingredients: [
         {
-          name: 'Сметана',
+          ingredientKey: 'sourCream',
           gauge: 'мл',
           count: 200,
-          img: null,
         },
       ],
     },
@@ -608,10 +597,9 @@ export const KARTOFELNAYA_ZAPEKANKA_S_FARSHEM = {
       description: 'Посыпьте сыром и запекайте 40 минут при 180°C.',
       ingredients: [
         {
-          name: 'Твердый сыр',
+          ingredientKey: 'tverdyySyr',
           gauge: 'г',
           count: 150,
-          img: null,
         },
       ],
     },

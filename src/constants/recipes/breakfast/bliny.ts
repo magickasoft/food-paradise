@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const BLINY = {
   metaSeo: {
@@ -804,42 +803,42 @@ export const BLINY = {
   used: [45.2, 60.1, 15.3],
   ingredients: [
     {
-      ...INGREDIENTS.milk,
+      ingredientKey: 'milk',
       count: 500,
       gauge: 'мл',
     },
     {
-      ...INGREDIENTS.eggs,
+      ingredientKey: 'eggs',
       count: 3,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.flour,
+      ingredientKey: 'flour',
       count: 200,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.sugar,
+      ingredientKey: 'sugar',
       count: 3,
       gauge: 'ч.л.',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: 3,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.vegetableOil,
+      ingredientKey: 'vegetableOil',
       count: 4,
       gauge: 'ст.л.',
     },
     {
-      ...INGREDIENTS.soda,
+      ingredientKey: 'soda',
       count: 2,
       gauge: 'ч.л.',
     },
     {
-      ...INGREDIENTS.vinegar,
+      ingredientKey: 'vinegar',
       count: 1,
       gauge: 'ст.л.',
     },
@@ -852,10 +851,10 @@ export const BLINY = {
       description:
         'В глубокой миске взбейте яйца с сахаром и солью до легкой пены. Постепенно вливайте теплое молоко, продолжая взбивать. Важно: молоко должно быть именно горячим (не кипяток!) — это активирует клейковину муки.',
       ingredients: [
-        { ...INGREDIENTS.milk, count: 500, gauge: 'мл' },
-        { ...INGREDIENTS.eggs, count: 3, gauge: 'шт.' },
-        { ...INGREDIENTS.sugar, count: 3, gauge: 'ч.л.' },
-        { ...INGREDIENTS.salt, count: 3, gauge: 'г' },
+        { ingredientKey: 'milk', count: 500, gauge: 'мл' },
+        { ingredientKey: 'eggs', count: 3, gauge: 'шт.' },
+        { ingredientKey: 'sugar', count: 3, gauge: 'ч.л.' },
+        { ingredientKey: 'salt', count: 3, gauge: 'г' },
       ],
     },
     {
@@ -864,10 +863,10 @@ export const BLINY = {
       description:
         'Муку просеивайте дважды — сначала в отдельную миску, затем в яично-молочную смесь. Добавляйте небольшими порциями, тщательно размешивая венчиком. В конце введите гашеную соду (сода с уксом) и растительное масло. Тесто должно стекать с ложки «лентой».',
       ingredients: [
-        { ...INGREDIENTS.flour, count: 200, gauge: 'г' },
-        { ...INGREDIENTS.soda, count: 2, gauge: 'ч.л.' },
-        { ...INGREDIENTS.vegetableOil, count: 4, gauge: 'ст.л.' },
-        { ...INGREDIENTS.vinegar, count: 1, gauge: 'ст.л.' },
+        { ingredientKey: 'flour', count: 200, gauge: 'г' },
+        { ingredientKey: 'soda', count: 2, gauge: 'ч.л.' },
+        { ingredientKey: 'vegetableOil', count: 4, gauge: 'ст.л.' },
+        { ingredientKey: 'vinegar', count: 1, gauge: 'ст.л.' },
       ],
     },
     {

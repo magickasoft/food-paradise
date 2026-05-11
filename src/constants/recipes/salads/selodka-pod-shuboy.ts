@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SELODKA_POD_SHUBOY = {
   metaSeo: {
@@ -81,37 +80,37 @@ export const SELODKA_POD_SHUBOY = {
 
   ingredients: [
     {
-      ...INGREDIENTS.herringFillet,
+      ingredientKey: 'herringFillet',
       count: 300,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.potato,
+      ingredientKey: 'potato',
       count: 3,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.carrot,
+      ingredientKey: 'carrot',
       count: 2,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.beet,
+      ingredientKey: 'beet',
       count: 2,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.onion,
+      ingredientKey: 'onion',
       count: 1,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.mayonnaise,
+      ingredientKey: 'mayonnaise',
       count: 200,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: ' ',
       gauge: 'по вкусу',
     },
@@ -133,17 +132,17 @@ export const SELODKA_POD_SHUBOY = {
       description: 'Картофель, морковь и свёклу отварите до готовности, остудите и очистите.',
       ingredients: [
         {
-          ...INGREDIENTS.potato,
+          ingredientKey: 'potato',
           count: 3,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.carrot,
+          ingredientKey: 'carrot',
           count: 2,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.beet,
+          ingredientKey: 'beet',
           count: 2,
           gauge: 'шт.',
         },
@@ -155,12 +154,12 @@ export const SELODKA_POD_SHUBOY = {
       description: 'Сельдь нарежьте мелкими кубиками. Лук очистите и измельчите.',
       ingredients: [
         {
-          ...INGREDIENTS.herringFillet,
+          ingredientKey: 'herringFillet',
           count: 300,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.onion,
+          ingredientKey: 'onion',
           count: 1,
           gauge: 'шт.',
         },
@@ -179,7 +178,7 @@ export const SELODKA_POD_SHUBOY = {
         'Выложите салат слоями: сельдь, лук, картофель, морковь, свёкла. Каждый слой слегка смажьте майонезом.',
       ingredients: [
         {
-          ...INGREDIENTS.mayonnaise,
+          ingredientKey: 'mayonnaise',
           count: 200,
           gauge: 'г',
         },

@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SALAT_S_YAZYKOM_I_GRIBAMI = {
   metaSeo: {
@@ -77,42 +76,42 @@ export const SALAT_S_YAZYKOM_I_GRIBAMI = {
 
   ingredients: [
     {
-      ...INGREDIENTS.beefTongue,
+      ingredientKey: 'beefTongue',
       count: 600,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.champignons,
+      ingredientKey: 'champignons',
       count: 300,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.onion,
+      ingredientKey: 'onion',
       count: 1,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.pickledCucumbers,
+      ingredientKey: 'pickledCucumbers',
       count: 2,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.mayonnaise,
+      ingredientKey: 'mayonnaise',
       count: 180,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.refinedVegetableOil,
+      ingredientKey: 'refinedVegetableOil',
       count: 2,
       gauge: 'ст.л.',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: ' ',
       gauge: 'по вкусу',
     },
     {
-      ...INGREDIENTS.groundBlackPepper,
+      ingredientKey: 'groundBlackPepper',
       count: ' ',
       gauge: 'по вкусу',
     },
@@ -135,7 +134,7 @@ export const SALAT_S_YAZYKOM_I_GRIBAMI = {
         'Говяжий язык тщательно промойте и отварите в подсоленной воде до мягкости (1,5–2 часа). Горячим снимите кожу, остудите и нарежьте тонкой соломкой.',
       ingredients: [
         {
-          ...INGREDIENTS.beefTongue,
+          ingredientKey: 'beefTongue',
           count: 600,
           gauge: 'г',
         },
@@ -148,17 +147,17 @@ export const SALAT_S_YAZYKOM_I_GRIBAMI = {
         'Шампиньоны нарежьте пластинками, лук — полукольцами. Обжарьте на растительном масле до испарения жидкости и лёгкой золотистости.',
       ingredients: [
         {
-          ...INGREDIENTS.champignons,
+          ingredientKey: 'champignons',
           count: 300,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.onion,
+          ingredientKey: 'onion',
           count: 1,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.refinedVegetableOil,
+          ingredientKey: 'refinedVegetableOil',
           count: 2,
           gauge: 'ст.л.',
         },
@@ -170,7 +169,7 @@ export const SALAT_S_YAZYKOM_I_GRIBAMI = {
       description: 'Солёные огурцы нарежьте тонкой соломкой, при необходимости слегка отожмите рассол.',
       ingredients: [
         {
-          ...INGREDIENTS.pickledCucumbers,
+          ingredientKey: 'pickledCucumbers',
           count: 2,
           gauge: 'шт.',
         },
@@ -183,17 +182,17 @@ export const SALAT_S_YAZYKOM_I_GRIBAMI = {
         'Смешайте язык, грибы с луком и огурцы. Добавьте майонез, соль и чёрный перец по вкусу, аккуратно перемешайте.',
       ingredients: [
         {
-          ...INGREDIENTS.mayonnaise,
+          ingredientKey: 'mayonnaise',
           count: 180,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.salt,
+          ingredientKey: 'salt',
           count: ' ',
           gauge: 'по вкусу',
         },
         {
-          ...INGREDIENTS.groundBlackPepper,
+          ingredientKey: 'groundBlackPepper',
           count: ' ',
           gauge: 'по вкусу',
         },

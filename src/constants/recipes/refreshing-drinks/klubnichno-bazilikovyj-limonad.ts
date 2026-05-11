@@ -115,40 +115,34 @@ export const KLUBNICHNO_BAZILIKOVYJ_LIMONAD = {
   used: [8, 5, 3],
   ingredients: [
     {
-      name: 'Клубника',
+      ingredientKey: 'klubnika',
       gauge: 'г',
       count: 200,
-      img: null,
     },
     {
-      name: 'Базилик свежий',
+      ingredientKey: 'bazilikSvezhiy',
       gauge: 'г',
       count: 10,
-      img: null,
     },
     {
-      name: 'Лимон',
+      ingredientKey: 'lemon',
       gauge: 'шт.',
       count: 1,
-      img: null,
     },
     {
-      name: 'Вода (газированная или обычная)',
+      ingredientKey: 'voda',
       gauge: 'л',
       count: 1,
-      img: null,
     },
     {
-      name: 'Мёд или сироп агавы',
+      ingredientKey: 'medIliSiropAgavy',
       gauge: 'ст.л',
       count: 2,
-      img: null,
     },
     {
-      name: 'Лёд',
+      ingredientKey: 'led',
       gauge: 'стакан',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -168,16 +162,14 @@ export const KLUBNICHNO_BAZILIKOVYJ_LIMONAD = {
       description: 'Клубнику промойте, удалите хвостики. Базилик промойте и отделите листья от стеблей.',
       ingredients: [
         {
-          name: 'Клубника',
+          ingredientKey: 'klubnika',
           gauge: 'г',
           count: 200,
-          img: null,
         },
         {
-          name: 'Базилик свежий',
+          ingredientKey: 'bazilikSvezhiy',
           gauge: 'г',
           count: 10,
-          img: null,
         },
       ],
     },
@@ -187,10 +179,9 @@ export const KLUBNICHNO_BAZILIKOVYJ_LIMONAD = {
       description: 'В блендере измельчите клубнику, базилик и сок лимона. Процедите через сито.',
       ingredients: [
         {
-          name: 'Лимон',
+          ingredientKey: 'lemon',
           gauge: 'шт.',
           count: 1,
-          img: null,
         },
       ],
     },
@@ -200,22 +191,19 @@ export const KLUBNICHNO_BAZILIKOVYJ_LIMONAD = {
       description: 'Смешайте с водой, добавьте мёд и лёд. Перемешайте и подавайте с листочками базилика.',
       ingredients: [
         {
-          name: 'Вода (газированная или обычная)',
+          ingredientKey: 'voda',
           gauge: 'л',
           count: 1,
-          img: null,
         },
         {
-          name: 'Мёд или сироп агавы',
+          ingredientKey: 'medIliSiropAgavy',
           gauge: 'ст.л',
           count: 2,
-          img: null,
         },
         {
-          name: 'Лёд',
+          ingredientKey: 'led',
           gauge: 'стакан',
           count: 1,
-          img: null,
         },
       ],
     },

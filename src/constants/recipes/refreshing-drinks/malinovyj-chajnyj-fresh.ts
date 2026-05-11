@@ -102,40 +102,34 @@ export const MALINOVYJ_CHAJNYJ_FRESH = {
   used: [5, 3, 2],
   ingredients: [
     {
-      name: 'Малина (свежая или замороженная)',
+      ingredientKey: 'malina',
       gauge: 'г',
       count: 150,
-      img: null,
     },
     {
-      name: 'Зелёный чай',
+      ingredientKey: 'zelenyyChay',
       gauge: 'ч.л',
       count: 2,
-      img: null,
     },
     {
-      name: 'Базилик свежий',
+      ingredientKey: 'bazilikSvezhiy',
       gauge: 'г',
       count: 10,
-      img: null,
     },
     {
-      name: 'Лайм',
+      ingredientKey: 'lime',
       gauge: 'шт.',
       count: 0.5,
-      img: null,
     },
     {
-      name: 'Мёд',
+      ingredientKey: 'honey',
       gauge: 'ч.л',
       count: 2,
-      img: null,
     },
     {
-      name: 'Лёд',
+      ingredientKey: 'led',
       gauge: 'стакан',
       count: 1,
-      img: null,
     },
   ],
   equipments: [
@@ -155,10 +149,9 @@ export const MALINOVYJ_CHAJNYJ_FRESH = {
       description: 'Заварите зелёный чай 500 мл воды 70°C, дайте настояться 3 минуты, затем охладите.',
       ingredients: [
         {
-          name: 'Зелёный чай',
+          ingredientKey: 'zelenyyChay',
           gauge: 'ч.л',
           count: 2,
-          img: null,
         },
       ],
     },
@@ -168,28 +161,24 @@ export const MALINOVYJ_CHAJNYJ_FRESH = {
       description: 'Малину разомните вилкой, базилик порвите руками. Добавьте в чай вместе с соком лайма и мёдом.',
       ingredients: [
         {
-          name: 'Малина (свежая или замороженная)',
+          ingredientKey: 'malina',
           gauge: 'г',
           count: 150,
-          img: null,
         },
         {
-          name: 'Базилик свежий',
+          ingredientKey: 'bazilikSvezhiy',
           gauge: 'г',
           count: 10,
-          img: null,
         },
         {
-          name: 'Лайм',
+          ingredientKey: 'lime',
           gauge: 'шт.',
           count: 0.5,
-          img: null,
         },
         {
-          name: 'Мёд',
+          ingredientKey: 'honey',
           gauge: 'ч.л',
           count: 2,
-          img: null,
         },
       ],
     },
@@ -199,10 +188,9 @@ export const MALINOVYJ_CHAJNYJ_FRESH = {
       description: 'Добавьте лёд, дайте настояться 15 минут в холодильнике. Процедите перед подачей.',
       ingredients: [
         {
-          name: 'Лёд',
+          ingredientKey: 'led',
           gauge: 'стакан',
           count: 1,
-          img: null,
         },
       ],
     },

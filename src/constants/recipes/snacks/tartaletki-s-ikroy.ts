@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const TARTALETKI_S_IKROY = {
   metaSeo: {
@@ -70,27 +69,27 @@ export const TARTALETKI_S_IKROY = {
   used: [6.5, 9.8, 18.4],
   ingredients: [
     {
-      ...INGREDIENTS.tartlets,
+      ingredientKey: 'tartlets',
       count: 12,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.redCaviar,
+      ingredientKey: 'redCaviar',
       count: 80,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.creamCheese,
+      ingredientKey: 'creamCheese',
       count: 120,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.butter,
+      ingredientKey: 'butter',
       count: 30,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.dill,
+      ingredientKey: 'dill',
       count: ' ',
       gauge: 'по вкусу',
     },
@@ -106,7 +105,7 @@ export const TARTALETKI_S_IKROY = {
         'Подготовьте все ингредиенты. Сливочное масло заранее достаньте из холодильника, чтобы оно стало мягким.',
       ingredients: [
         {
-          ...INGREDIENTS.butter,
+          ingredientKey: 'butter',
           count: 30,
           gauge: 'г',
         },
@@ -118,12 +117,12 @@ export const TARTALETKI_S_IKROY = {
       description: 'В миске смешайте сливочный сыр с мягким сливочным маслом до однородной кремовой консистенции.',
       ingredients: [
         {
-          ...INGREDIENTS.creamCheese,
+          ingredientKey: 'creamCheese',
           count: 120,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.butter,
+          ingredientKey: 'butter',
           count: 30,
           gauge: 'г',
         },
@@ -135,7 +134,7 @@ export const TARTALETKI_S_IKROY = {
       description: 'Наполните тарталетки получившейся сырной массой, аккуратно разравнивая поверхность.',
       ingredients: [
         {
-          ...INGREDIENTS.tartlets,
+          ingredientKey: 'tartlets',
           count: 12,
           gauge: 'шт.',
         },
@@ -147,12 +146,12 @@ export const TARTALETKI_S_IKROY = {
       description: 'Сверху выложите красную икру. Украсьте мелко нарезанным укропом.',
       ingredients: [
         {
-          ...INGREDIENTS.redCaviar,
+          ingredientKey: 'redCaviar',
           count: 80,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.dill,
+          ingredientKey: 'dill',
           count: ' ',
           gauge: 'по вкусу',
         },

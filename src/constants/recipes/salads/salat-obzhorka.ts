@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const SALAT_OBZHORKA = {
   metaSeo: {
@@ -82,42 +81,42 @@ export const SALAT_OBZHORKA = {
 
   ingredients: [
     {
-      ...INGREDIENTS.chickenBreastFillet,
+      ingredientKey: 'chickenBreastFillet',
       count: 400,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.carrot,
+      ingredientKey: 'carrot',
       count: 2,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.onion,
+      ingredientKey: 'onion',
       count: 2,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.pickledCucumbers,
+      ingredientKey: 'pickledCucumbers',
       count: 3,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.mayonnaise,
+      ingredientKey: 'mayonnaise',
       count: 200,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.refinedVegetableOil,
+      ingredientKey: 'refinedVegetableOil',
       count: 3,
       gauge: 'ст.л.',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: ' ',
       gauge: 'по вкусу',
     },
     {
-      ...INGREDIENTS.groundBlackPepper,
+      ingredientKey: 'groundBlackPepper',
       count: ' ',
       gauge: 'по вкусу',
     },
@@ -140,7 +139,7 @@ export const SALAT_OBZHORKA = {
       description: 'Куриное филе отварите в подсоленной воде до готовности, остудите и нарежьте соломкой.',
       ingredients: [
         {
-          ...INGREDIENTS.chickenBreastFillet,
+          ingredientKey: 'chickenBreastFillet',
           count: 400,
           gauge: 'г',
         },
@@ -153,17 +152,17 @@ export const SALAT_OBZHORKA = {
         'Лук нарежьте полукольцами, морковь натрите на крупной тёрке. Обжарьте овощи на растительном масле до мягкости и золотистого цвета.',
       ingredients: [
         {
-          ...INGREDIENTS.carrot,
+          ingredientKey: 'carrot',
           count: 2,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.onion,
+          ingredientKey: 'onion',
           count: 2,
           gauge: 'шт.',
         },
         {
-          ...INGREDIENTS.refinedVegetableOil,
+          ingredientKey: 'refinedVegetableOil',
           count: 3,
           gauge: 'ст.л.',
         },
@@ -175,7 +174,7 @@ export const SALAT_OBZHORKA = {
       description: 'Солёные огурцы нарежьте соломкой, при необходимости слегка отожмите лишний рассол.',
       ingredients: [
         {
-          ...INGREDIENTS.pickledCucumbers,
+          ingredientKey: 'pickledCucumbers',
           count: 3,
           gauge: 'шт.',
         },
@@ -188,17 +187,17 @@ export const SALAT_OBZHORKA = {
         'Соедините курицу, обжаренные овощи и огурцы. Добавьте майонез, соль и перец, тщательно перемешайте.',
       ingredients: [
         {
-          ...INGREDIENTS.mayonnaise,
+          ingredientKey: 'mayonnaise',
           count: 200,
           gauge: 'г',
         },
         {
-          ...INGREDIENTS.salt,
+          ingredientKey: 'salt',
           count: ' ',
           gauge: 'по вкусу',
         },
         {
-          ...INGREDIENTS.groundBlackPepper,
+          ingredientKey: 'groundBlackPepper',
           count: ' ',
           gauge: 'по вкусу',
         },

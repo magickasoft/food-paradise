@@ -1,5 +1,4 @@
 import { EQUIPMENTS } from '@/constants/equipments'
-import { INGREDIENTS } from '@/constants/ingredients'
 
 export const OMLET_S_MOLOKOM = {
   metaSeo: {
@@ -270,32 +269,32 @@ export const OMLET_S_MOLOKOM = {
   used: [15.29, 35.09, 6.43],
   ingredients: [
     {
-      ...INGREDIENTS.eggs,
+      ingredientKey: 'eggs',
       count: 2,
       gauge: 'шт.',
     },
     {
-      ...INGREDIENTS.milk,
+      ingredientKey: 'milk',
       count: 120,
       gauge: 'мл',
     },
     {
-      ...INGREDIENTS.vegetableOil,
+      ingredientKey: 'vegetableOil',
       count: 1,
       gauge: 'ст.л.',
     },
     {
-      ...INGREDIENTS.butter,
+      ingredientKey: 'butter',
       count: 5,
       gauge: 'г',
     },
     {
-      ...INGREDIENTS.salt,
+      ingredientKey: 'salt',
       count: ' ',
       gauge: 'щепотка',
     },
     {
-      ...INGREDIENTS.groundBlackPepper,
+      ingredientKey: 'groundBlackPepper',
       count: ' ',
       gauge: 'щепотка',
     },
@@ -308,8 +307,8 @@ export const OMLET_S_MOLOKOM = {
       description:
         'В глубокой миске аккуратно соедините яйца с молоком. Важно: взбалтывайте смесь вилкой круговыми движениями, а не взбивайте. Это принципиальный момент — так омлет получится слоистым, а не пористым. Французские шеф-повара считают, что венчик или миксер убивают нежность текстуры.',
       ingredients: [
-        { ...INGREDIENTS.eggs, count: 2, gauge: 'шт.' },
-        { ...INGREDIENTS.milk, count: 120, gauge: 'мл' },
+        { ingredientKey: 'eggs', count: 2, gauge: 'шт.' },
+        { ingredientKey: 'milk', count: 120, gauge: 'мл' },
       ],
     },
     {
@@ -318,8 +317,8 @@ export const OMLET_S_MOLOKOM = {
       description:
         'Возьмите сковороду с толстым дном диаметром 18-22 см. Разогрейте на среднем огне 1 минуту — правильный температурный режим ключевой момент. Добавьте растительное и сливочное масло, распределите по поверхности. Смесь масел даст идеальную текстуру — без пригорания, но с тонким сливочным ароматом.',
       ingredients: [
-        { ...INGREDIENTS.vegetableOil, count: 1, gauge: 'ст.л.' },
-        { ...INGREDIENTS.butter, count: 5, gauge: 'г' },
+        { ingredientKey: 'vegetableOil', count: 1, gauge: 'ст.л.' },
+        { ingredientKey: 'butter', count: 5, gauge: 'г' },
       ],
     },
     {
@@ -335,8 +334,8 @@ export const OMLET_S_MOLOKOM = {
       description:
         'Через 40 секунд после начала готовки, когда середина останется слегка влажной, снимите с огня. Посолите и поперчите по вкусу. Французы называют это состояние "baveuse" — когда омлет остается кремовым внутри. Подавайте немедленно — идеальный омлет не терпит ожидания!',
       ingredients: [
-        { ...INGREDIENTS.salt, count: ' ', gauge: 'щепотка' },
-        { ...INGREDIENTS.groundBlackPepper, count: ' ', gauge: 'щепотка' },
+        { ingredientKey: 'salt', count: ' ', gauge: 'щепотка' },
+        { ingredientKey: 'groundBlackPepper', count: ' ', gauge: 'щепотка' },
       ],
     },
   ],
