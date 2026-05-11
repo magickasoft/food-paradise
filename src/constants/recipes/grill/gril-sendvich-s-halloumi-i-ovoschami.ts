@@ -562,7 +562,7 @@ export const GRIL_SENDVICH_S_HALLOUMI_I_OVOSCHAMI = {
       img: null,
       video: null,
       description:
-        'Кабачок нарежьте вдоль пластинами 0.5 см. Лук - толстыми кольцами. Сбрызните оливковым маслом с лимонным соком и измельченным чесноком.',
+        'Кабачок нарежьте вдоль пластинами 0.5 см. Лук - толстыми кольцами. Сбрызните оливковым маслом с лимонным соком и измельченным чесноком, посолите.',
       ingredients: [
         {
           ingredientKey: 'zucchini',
@@ -588,6 +588,11 @@ export const GRIL_SENDVICH_S_HALLOUMI_I_OVOSCHAMI = {
           ingredientKey: 'garlic',
           gauge: 'зубчик',
           count: 1,
+        },
+        {
+          ingredientKey: 'solMorskaya',
+          gauge: 'ч.л',
+          count: 0.5,
         },
       ],
     },

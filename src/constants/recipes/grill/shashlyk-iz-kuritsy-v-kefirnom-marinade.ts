@@ -996,7 +996,7 @@ export const SHASHLYK_IZ_KURITSY_V_KEFIRNOM_MARINADE = {
           count: 2,
         },
         {
-          ingredientKey: 'papikaSladkaya',
+          ingredientKey: 'paprikaSladkaya',
           gauge: 'ч.л',
           count: 1,
         },

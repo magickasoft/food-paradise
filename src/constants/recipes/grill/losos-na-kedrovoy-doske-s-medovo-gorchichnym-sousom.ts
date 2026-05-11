@@ -102,7 +102,7 @@ export const LOSOS_NA_KEDROVOY_DOSKE_S_MEDOVO_GORCHICHNYM_SOUSOM = {
   description:
     'Стейк лосося с медово-горчичной глазурью, приготовленный на кедровой доске для легкого дымного аромата. Подается с дольками лимона.',
   calories: 280,
-  preparation: 15,
+  preparation: 90,
   time: 35,
   level: 2,
   rating: 4.9,
