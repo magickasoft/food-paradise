@@ -1,11 +1,11 @@
 import { describe, expect, test } from 'bun:test'
 
 import { DESSERT } from '../dessert'
-import { CHIZKEIK } from './chizkeik'
-import { KLUBNICHNYY_PAI_S_PESOCHNOY_KROSCHKOY } from './klubnichnyy-pai-s-pesochnoy-kroschkoy'
-import { LENIVYY_NAPOLEON } from './lenivyy-napoleon'
-import { PANNA_COTTA } from './panna-cotta'
-import { PIROZHNOYE_KARTOSHKA } from './pirozhnoye-kartoshka'
+import CHIZKEIK from './chizkeik.json'
+import KLUBNICHNYY_PAI_S_PESOCHNOY_KROSCHKOY from './klubnichnyy-pai-s-pesochnoy-kroschkoy.json'
+import LENIVYY_NAPOLEON from './lenivyy-napoleon.json'
+import PANNA_COTTA from './panna-cotta.json'
+import PIROZHNOYE_KARTOSHKA from './pirozhnoye-kartoshka.json'
 
 describe('dessert recipes', () => {
   test('panna cotta SEO describes panna cotta and includes chilling', () => {

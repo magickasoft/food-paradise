@@ -1,9 +1,9 @@
 import { describe, expect, test } from 'bun:test'
 
-import { CHERRY_VODKA } from './cherry-vodka'
-import { CRANBERRY_VODKA } from './cranberry-vodka'
-import { HRENOVUKHA } from './hrenovukha'
-import { LEMONCELLO_VODKA } from './lemoncello-vodka'
+import CHERRY_VODKA from './cherry-vodka.json'
+import CRANBERRY_VODKA from './cranberry-vodka.json'
+import HRENOVUKHA from './hrenovukha.json'
+import LEMONCELLO_VODKA from './lemoncello-vodka.json'
 
 const homemadeAlcoholRecipes = [LEMONCELLO_VODKA, CRANBERRY_VODKA, HRENOVUKHA, CHERRY_VODKA]
 

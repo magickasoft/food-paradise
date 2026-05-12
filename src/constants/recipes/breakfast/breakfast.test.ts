@@ -1,11 +1,11 @@
 import { describe, expect, test } from 'bun:test'
 
-import { BLINY } from './bliny'
-import { OVSJANAJA_KASHA_S_JABLOKAMI_I_KORICEJ } from './ovsjanaja-kasha-s-jablokami-i-koricej'
-import { SCRAMBLED_EGGS } from './scrambled-eggs'
-import { SCRAMBLED_EGGS_SHAKSHUKA } from './scrambled-eggs-shakshuka'
-import { SCRAMBLED_EGGS_WITH_BROCCOLI } from './scrambled-eggs-with-broccoli'
-import { SCRAMBLED_EGGS_WITH_SAUSAGES_AND_BEANS } from './scrambled-eggs-with-sausages-and-beans'
+import BLINY from './bliny.json'
+import OVSJANAJA_KASHA_S_JABLOKAMI_I_KORICEJ from './ovsjanaja-kasha-s-jablokami-i-koricej.json'
+import SCRAMBLED_EGGS from './scrambled-eggs.json'
+import SCRAMBLED_EGGS_SHAKSHUKA from './scrambled-eggs-shakshuka.json'
+import SCRAMBLED_EGGS_WITH_BROCCOLI from './scrambled-eggs-with-broccoli.json'
+import SCRAMBLED_EGGS_WITH_SAUSAGES_AND_BEANS from './scrambled-eggs-with-sausages-and-beans.json'
 
 describe('breakfast recipes', () => {
   test('broccoli scrambled eggs uses the same egg count in ingredients and steps', () => {

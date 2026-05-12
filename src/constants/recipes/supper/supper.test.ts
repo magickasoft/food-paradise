@@ -1,6 +1,7 @@
 import { describe, expect, test } from 'bun:test'
 
 import { SUPPER } from '../supper'
+import type { RecipeEquipment } from '../recipeEquipments'
 
 const byKey = new Map(SUPPER.map(recipe => [recipe.key, recipe]))
 
@@ -17,7 +18,8 @@ const getRecipe = (key: string) => {
 const ingredientKeys = (ingredients: { ingredientKey?: string; name?: string }[]) =>
   ingredients.map(ingredient => ingredient.ingredientKey ?? ingredient.name)
 
-const equipmentKeys = (equipments: { equipmentKey: string }[]) => equipments.map(equipment => equipment.equipmentKey)
+const equipmentKeys = (equipments: RecipeEquipment[]) =>
+  equipments.flatMap(equipment => ('equipmentKey' in equipment ? [equipment.equipmentKey] : []))
 
 const text = (values: string[]) => values.join(' ').toLowerCase()
 type RecipeIngredientAmount = { ingredientKey?: string; count?: number | string }
@@ -43,8 +45,8 @@ describe('supper recipes data quality', () => {
   test('vegan ratatui does not recommend dairy additions', () => {
     const recipe = getRecipe('ratatui-s-baklazhanami')
     const suggestions = text([
-      ...recipe.tips,
-      ...recipe.variations.flatMap(variation => [variation.name, variation.changes]),
+      ...(recipe.tips ?? []),
+      ...(recipe.variations ?? []).flatMap(variation => [variation.name, variation.changes]),
     ])
 
     expect(suggestions).not.toContain('рикот')

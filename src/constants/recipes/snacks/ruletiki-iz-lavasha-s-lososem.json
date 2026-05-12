@@ -1,0 +1,167 @@
+{
+  "metaSeo": {
+    "title": "Рулетики из лаваша с лососем",
+    "description": "Нежные рулетики из лаваша со слабосоленым лососем, сливочным сыром и зеленью.",
+    "keywords": [
+      "рулетики из лаваша",
+      "закуска с лососем",
+      "лаваш с красной рыбой",
+      "быстрая закуска"
+    ],
+    "og:title": "Рулетики из лаваша с лососем",
+    "og:description": "Нежные рулетики из лаваша со слабосоленым лососем, сливочным сыром и зеленью.",
+    "og:url": "https://food-paradise.ru/recipe/ruletiki-iz-lavasha-s-lososem",
+    "twitterTitle": "Рулетики из лаваша с лососем",
+    "twitterDescription": "Нежные рулетики из лаваша со слабосоленым лососем, сливочным сыром и зеленью.",
+    "twitterUrl": "https://food-paradise.ru/recipe/ruletiki-iz-lavasha-s-lososem",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/ruletiki-iz-lavasha-s-lososem",
+    "robots": "index, follow",
+    "viewport": "width=device-width, initial-scale=1",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "рулетики из лаваша с лососем",
+    "лаваш с красной рыбой",
+    "закуска на праздничный стол"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "ruletiki-iz-lavasha-s-lososem",
+  "name": "ruletiki-iz-lavasha-s-lososem",
+  "img": null,
+  "title": "Рулетики из лаваша с лососем",
+  "description": "Праздничная закуска из тонкого лаваша, сливочного сыра, слабосоленого лосося и зелени.",
+  "calories": 245,
+  "preparation": 15,
+  "time": 20,
+  "level": 1,
+  "rating": 4.9,
+  "portions": 6,
+  "used": [
+    12,
+    16,
+    21
+  ],
+  "ingredients": [
+    {
+      "ingredientKey": "lavash",
+      "count": 2,
+      "gauge": "листа"
+    },
+    {
+      "ingredientKey": "salmonSalted",
+      "count": 180,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "creamCheese",
+      "count": 180,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "cucumber",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "dill",
+      "count": 15,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "lemonJuice",
+      "count": 1,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "spoon"
+    },
+    {
+      "equipmentKey": "fridge"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте сливочный сыр с рубленым укропом и лимонным соком.",
+      "ingredients": [
+        {
+          "ingredientKey": "creamCheese",
+          "count": 180,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "dill",
+          "count": 15,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "lemonJuice",
+          "count": 1,
+          "gauge": "ч.л."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смажьте лаваш сырной массой, разложите ломтики лосося и тонкие полоски огурца.",
+      "ingredients": [
+        {
+          "ingredientKey": "lavash",
+          "count": 2,
+          "gauge": "листа"
+        },
+        {
+          "ingredientKey": "salmonSalted",
+          "count": 180,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "cucumber",
+          "count": 1,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Плотно сверните рулеты, охладите 20 минут и нарежьте порционными кусочками.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Рулеты из лаваша стали популярной домашней закуской благодаря простоте и аккуратной подаче. Начинка с лососем и сливочным сыром напоминает классические канапе, но готовится быстрее и легко нарезается на порции.",
+  "tips": [
+    "Не кладите слишком много начинки, иначе рулет будет плохо держать форму.",
+    "Нарезайте хорошо охлажденный рулет острым ножом."
+  ],
+  "variations": [
+    {
+      "name": "С авокадо",
+      "changes": "Добавьте тонкие ломтики авокадо вместо огурца."
+    },
+    {
+      "name": "С пикантностью",
+      "changes": "Вмешайте в сыр щепотку перца или немного горчицы."
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "metaSeo": {
+    "title": "Рис с овощами и креветками",
+    "description": "Рассыпчатый рис с креветками, овощами, имбирем и легким соевым соусом.",
+    "keywords": [
+      "рис с креветками",
+      "креветки с овощами",
+      "здоровый ужин",
+      "рис с овощами",
+      "быстрое блюдо"
+    ],
+    "og:title": "Рис с овощами и креветками",
+    "og:description": "Рассыпчатый рис с креветками, овощами, имбирем и легким соевым соусом.",
+    "og:url": "https://food-paradise.ru/recipe/ris-s-ovoshchami-i-krevetkami",
+    "twitterTitle": "Рис с овощами и креветками",
+    "twitterDescription": "Рис, креветки и овощи на сковороде с имбирем и соевым соусом.",
+    "twitterUrl": "https://food-paradise.ru/recipe/ris-s-ovoshchami-i-krevetkami",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/ris-s-ovoshchami-i-krevetkami",
+    "robots": "index, follow",
+    "viewport": "width=device-width, initial-scale=1",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "рис с креветками",
+    "креветки с овощами",
+    "рис с овощами на сковороде",
+    "быстрый ужин с креветками"
+  ],
+  "categories": [
+    {
+      "name": "healthy"
+    },
+    {
+      "name": "supper"
+    },
+    {
+      "name": "seafood"
+    }
+  ],
+  "key": "ris-s-ovoshchami-i-krevetkami",
+  "name": "ris-s-ovoshchami-i-krevetkami",
+  "img": null,
+  "title": "Рис с овощами и креветками",
+  "description": "Быстрое блюдо в одной сковороде: рис, креветки, овощи, имбирь и немного соевого соуса.",
+  "calories": 410,
+  "preparation": 15,
+  "time": 35,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 3,
+  "used": [
+    20,
+    10,
+    5
+  ],
+  "ingredients": [
+    {
+      "ingredientKey": "rice",
+      "count": 160,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "water",
+      "count": 320,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "krevetki",
+      "count": 300,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "carrot",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "bolgarskiyPerets",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "greenOnion",
+      "count": 3,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "svezhiyImbir",
+      "count": 2,
+      "gauge": "см"
+    },
+    {
+      "ingredientKey": "soevyySous",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "oliveOil",
+      "count": 1,
+      "gauge": "ст.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "pot"
+    },
+    {
+      "equipmentKey": "pan"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "spatula"
+    },
+    {
+      "equipmentKey": "sieve"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Рис промойте, залейте водой и варите под крышкой 15 минут.",
+      "ingredients": [
+        {
+          "ingredientKey": "rice",
+          "count": 160,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "water",
+          "count": 320,
+          "gauge": "мл"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Морковь и перец нарежьте тонкой соломкой, зеленый лук — кольцами, имбирь натрите.",
+      "ingredients": [
+        {
+          "ingredientKey": "carrot",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "bolgarskiyPerets",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "greenOnion",
+          "count": 3,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "svezhiyImbir",
+          "count": 2,
+          "gauge": "см"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Креветки обсушите. В сковороде разогрейте оливковое масло и обжарьте их 2 минуты.",
+      "ingredients": [
+        {
+          "ingredientKey": "krevetki",
+          "count": 300,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "oliveOil",
+          "count": 1,
+          "gauge": "ст.л."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте овощи и имбирь, готовьте еще 3-4 минуты.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте рис и соевый соус, перемешайте и прогрейте 1-2 минуты.",
+      "ingredients": [
+        {
+          "ingredientKey": "soevyySous",
+          "count": 2,
+          "gauge": "ст.л."
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Рис с овощами и морепродуктами — удобный домашний формат, где заранее сваренная крупа быстро превращается в полноценное блюдо.",
+  "tips": [
+    "Для лучшей текстуры используйте уже остывший рис.",
+    "Креветки готовьте быстро, иначе они станут плотными.",
+    "Соевый соус добавляйте в конце и пробуйте блюдо перед досаливанием."
+  ],
+  "serving": "Подавайте горячим, можно посыпать кунжутом.",
+  "variations": [
+    {
+      "name": "С яйцом",
+      "changes": "Добавьте в сковороду быстро размешанное яйцо."
+    },
+    {
+      "name": "С брокколи",
+      "changes": "Замените часть перца мелкими соцветиями брокколи."
+    }
+  ]
+}

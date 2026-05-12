@@ -2,6 +2,7 @@ import { describe, expect, test } from 'bun:test'
 
 import { NEW_YEAR } from '../new-year'
 import { SALADS } from '../salads'
+import type { RecipeEquipment } from '../recipeEquipments'
 
 const byKey = new Map([...SALADS, ...NEW_YEAR].map(recipe => [recipe.key, recipe]))
 
@@ -18,7 +19,8 @@ const getRecipe = (key: string) => {
 const ingredientKeys = (ingredients: { ingredientKey?: string; name?: string }[]) =>
   ingredients.map(ingredient => ingredient.ingredientKey ?? ingredient.name)
 
-const equipmentKeys = (equipments: { equipmentKey: string }[]) => equipments.map(equipment => equipment.equipmentKey)
+const equipmentKeys = (equipments: RecipeEquipment[]) =>
+  equipments.flatMap(equipment => ('equipmentKey' in equipment ? [equipment.equipmentKey] : []))
 
 const stepIngredientKeys = (recipe: ReturnType<typeof getRecipe>) =>
   recipe.cookingRecipe.flatMap(step => ingredientKeys(step.ingredients))

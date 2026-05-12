@@ -1,6 +1,7 @@
 import { describe, expect, test } from 'bun:test'
 
 import { REFRESHING_DRINKS } from '../refreshing-drinks'
+import type { RecipeEquipment } from '../recipeEquipments'
 
 const byKey = new Map(REFRESHING_DRINKS.map(recipe => [recipe.key, recipe]))
 
@@ -17,9 +18,10 @@ const getRecipe = (key: string) => {
 const ingredientKeys = (ingredients: { ingredientKey?: string; name?: string }[]) =>
   ingredients.map(ingredient => ingredient.ingredientKey ?? ingredient.name)
 
-const equipmentKeys = (equipments: { equipmentKey: string }[]) => equipments.map(equipment => equipment.equipmentKey)
+const equipmentKeys = (equipments: RecipeEquipment[]) =>
+  equipments.flatMap(equipment => ('equipmentKey' in equipment ? [equipment.equipmentKey] : []))
 
-const text = (values: string[]) => values.join(' ').toLowerCase()
+const text = (values: Array<string | undefined>) => values.filter(Boolean).join(' ').toLowerCase()
 
 describe('refreshing drinks data quality', () => {
   test('drink descriptions avoid medical detox and immunity claims', () => {
@@ -33,7 +35,7 @@ describe('refreshing drinks data quality', () => {
         recipe.metaSeo.twitterDescription,
         recipe.title,
         recipe.description,
-        ...recipe.tips,
+        ...(recipe.tips ?? []),
       ]),
     )
 

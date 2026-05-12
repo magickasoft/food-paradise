@@ -1,13 +1,14 @@
 import { describe, expect, test } from 'bun:test'
 
 import { SNACKS } from '../snacks'
-import { KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE } from './kartofelnye-chipsy-v-mikrovolnovke'
-import { RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM } from './rulety-iz-vetchiny-s-syrnom-i-chesnokom'
-import { SENDVICH_S_AVOKADO_I_YAITSOM_PASHOT } from './sendvich-s-avokado-i-yaitsom-pashot'
-import { TARTALETKI_S_IKROY } from './tartaletki-s-ikroy'
-import { TARTALETKI_S_KURITSEY_I_GRIBAMI } from './tartaletki-s-kuritsey-i-gribami'
+import KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE from './kartofelnye-chipsy-v-mikrovolnovke.json'
+import RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM from './rulety-iz-vetchiny-s-syrnom-i-chesnokom.json'
+import SENDVICH_S_AVOKADO_I_YAITSOM_PASHOT from './sendvich-s-avokado-i-yaitsom-pashot.json'
+import TARTALETKI_S_IKROY from './tartaletki-s-ikroy.json'
+import TARTALETKI_S_KURITSEY_I_GRIBAMI from './tartaletki-s-kuritsey-i-gribami.json'
+import KANAPE_IZ_OGURTSA_S_LOSOSEM from './kanape-iz-ogurtsa-s-lososem.json'
+import KANAPE_S_SELDYU_I_SVEKLOY from './kanape-s-seldyu-i-svekloy.json'
 import { resolveRecipeIngredient } from '../recipeIngredients'
-import { KANAPE_IZ_OGURTSA_S_LOSOSEM, KANAPE_S_SELDYU_I_SVEKLOY } from './quick-snacks'
 
 const NEW_SNACK_KEYS = [
   'brusketta-s-tomatami-i-bazilikom',

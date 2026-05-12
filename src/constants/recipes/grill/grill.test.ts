@@ -1,11 +1,11 @@
 import { describe, expect, test } from 'bun:test'
 
 import { GRILL } from '../grill'
-import { LOSOS_NA_KEDROVOY_DOSKE_S_MEDOVO_GORCHICHNYM_SOUSOM } from './losos-na-kedrovoy-doske-s-medovo-gorchichnym-sousom'
-import { KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM } from './krevetki-na-grile-s-chesnochnym-maslom'
-import { SHASHLYK_IZ_BARANINY_S_ROZMARINOM } from './shashlyk-iz-baraniny-s-rozmarinom'
-import { SHASHLYK_IZ_KURINOGO_BEDRA } from './shashlyk-iz-kurinogo-bedra'
-import { SHASHLYK_IZ_KURINYH_GRUDOK } from './shashlyk-iz-kurinyh-grudok'
+import LOSOS_NA_KEDROVOY_DOSKE_S_MEDOVO_GORCHICHNYM_SOUSOM from './losos-na-kedrovoy-doske-s-medovo-gorchichnym-sousom.json'
+import KREVETKI_NA_GRILE_S_CHESNOCHNYM_MASLOM from './krevetki-na-grile-s-chesnochnym-maslom.json'
+import SHASHLYK_IZ_BARANINY_S_ROZMARINOM from './shashlyk-iz-baraniny-s-rozmarinom.json'
+import SHASHLYK_IZ_KURINOGO_BEDRA from './shashlyk-iz-kurinogo-bedra.json'
+import SHASHLYK_IZ_KURINYH_GRUDOK from './shashlyk-iz-kurinyh-grudok.json'
 
 const getIngredientKey = (ingredient: { ingredientKey?: string; name?: string }) =>
   ingredient.ingredientKey ?? ingredient.name

@@ -1,6 +1,6 @@
 import { describe, expect, test } from 'bun:test'
 
-import { CHERRY_PIE } from './cherry-pie'
+import CHERRY_PIE from './cherry-pie.json'
 
 describe('CHERRY_PIE', () => {
   test('keeps cooking steps consistent with equipment and filling handling', () => {

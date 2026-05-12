@@ -1,0 +1,235 @@
+{
+  "metaSeo": {
+    "title": "Трюфельные конфеты с фундуком — шоколадный десерт за 30 минут",
+    "description": "Домашние трюфели с хрустящим фундуком: простой рецепт с фото. 3 вида шоколада и 5 вариантов украшения.",
+    "keywords": [
+      "трюфельные конфеты",
+      "шоколадный десерт",
+      "домашние конфеты",
+      "десерт без выпечки"
+    ],
+    "og:title": "Трюфельные конфеты с фундуком — шоколадный десерт за 30 минут",
+    "og:description": "Шоколадные трюфели с сюрпризом внутри — готовятся за 30 минут!",
+    "og:url": "https://food-paradise.ru/recipe/chocolate-truffles",
+    "og:image": "/optimize/recipes/dessert/chocolate-truffles.webp",
+    "twitterTitle": "Трюфельные конфеты с фундуком — шоколадный десерт за 30 минут",
+    "twitterDescription": "Шоколадные трюфели с сюрпризом внутри — готовятся за 30 минут!",
+    "twitterImage": "/optimize/recipes/dessert/chocolate-truffles.webp",
+    "twitterUrl": "https://food-paradise.ru/recipe/chocolate-truffles",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/chocolate-truffles",
+    "robots": "index, follow",
+    "viewport": "width=device-width, initial-scale=1"
+  },
+  "searchRequests": [
+    "белый молочный шоколад",
+    "белый шоколад",
+    "горький шоколад",
+    "горький шоколад можно",
+    "грецкий орех",
+    "домашние конфеты рецепты",
+    "как сварить какао из порошка",
+    "какао",
+    "какао в домашних условиях из какао порошка",
+    "какао из порошка на молоке",
+    "какао можно",
+    "какао порошок",
+    "какао порошок как приготовить",
+    "кедровые орехи",
+    "конфеты",
+    "конфеты коровка рецепт",
+    "конфеты молоко рецепт",
+    "конфеты рецепт",
+    "корица",
+    "корица молотая",
+    "молочный шоколад",
+    "орех фундук",
+    "орехи",
+    "рецепт какао",
+    "рецепт конфет в домашних условиях",
+    "рецепт сливок",
+    "рецепты с корицей",
+    "сварить какао на молоке из порошка",
+    "сколько конфет",
+    "сколько орехов",
+    "сколько сливочного масла",
+    "сливки",
+    "сливочное масло",
+    "со сливками",
+    "трюфель",
+    "трюфель конфеты",
+    "трюфель конфеты рецепт",
+    "трюфельные конфеты",
+    "фундук",
+    "шоколад",
+    "шоколад из какао порошка",
+    "шоколад с молочной начинкой",
+    "шоколад с фундуком",
+    "шоколадное какао",
+    "шоколадные конфеты"
+  ],
+  "categories": [
+    {
+      "name": "dessert"
+    }
+  ],
+  "key": "chocolate-truffles",
+  "name": "chocolate-truffles",
+  "img": "/optimize/recipes/dessert/chocolate-truffles.webp",
+  "title": "Трюфельные конфеты с фундуком",
+  "description": "Нежные шоколадные трюфели с цельным фундуком внутри. Сочетание трех видов шоколада.",
+  "calories": 150,
+  "preparation": 30,
+  "time": 60,
+  "level": 2,
+  "rating": 4.9,
+  "portions": 20,
+  "used": [
+    2,
+    12,
+    15
+  ],
+  "ingredients": [
+    {
+      "ingredientKey": "gorkiyShokolad",
+      "gauge": "г",
+      "count": 200
+    },
+    {
+      "ingredientKey": "cream33",
+      "gauge": "мл",
+      "count": 100
+    },
+    {
+      "ingredientKey": "slivochnoeMaslo",
+      "gauge": "г",
+      "count": 50
+    },
+    {
+      "ingredientKey": "funduk",
+      "gauge": "г",
+      "count": 100
+    },
+    {
+      "ingredientKey": "kakaoPoroshok",
+      "gauge": "г",
+      "count": 30
+    },
+    {
+      "ingredientKey": "molochnyyShokolad",
+      "gauge": "г",
+      "count": 50,
+      "optional": true
+    },
+    {
+      "ingredientKey": "belyyShokolad",
+      "gauge": "г",
+      "count": 50,
+      "optional": true
+    },
+    {
+      "ingredientKey": "molotayaKoritsa",
+      "gauge": "ч.л",
+      "count": 0.5,
+      "optional": true
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "kastryulyaDlyaVodyanoyBani"
+    },
+    {
+      "equipmentKey": "silikonovayaLopatka"
+    },
+    {
+      "equipmentKey": "pergamentnayaBumaga"
+    },
+    {
+      "equipmentKey": "konditerskiyMeshok2"
+    },
+    {
+      "equipmentKey": "formaDlyaKonfet"
+    },
+    {
+      "equipmentKey": "kuhonnyeVesy"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "На водяной бане растопите горький шоколад со сливками, постоянно помешивая. Добавьте сливочное масло, снимите с огня.",
+      "ingredients": [
+        {
+          "ingredientKey": "gorkiyShokolad",
+          "gauge": "г",
+          "count": 200
+        },
+        {
+          "ingredientKey": "cream33",
+          "gauge": "мл",
+          "count": 100
+        },
+        {
+          "ingredientKey": "slivochnoeMaslo",
+          "gauge": "г",
+          "count": 50
+        }
+      ]
+    },
+    {
+      "description": "Охладите массу до комнатной температуры, затем уберите в холодильник на 20 минут до загустения.",
+      "ingredients": []
+    },
+    {
+      "description": "Сформируйте шарики с цельным фундуком внутри. Обваляйте в какао или растопленном шоколаде.",
+      "ingredients": [
+        {
+          "ingredientKey": "funduk",
+          "gauge": "г",
+          "count": 100
+        },
+        {
+          "ingredientKey": "kakaoPoroshok",
+          "gauge": "г",
+          "count": 30
+        },
+        {
+          "ingredientKey": "molochnyyShokolad",
+          "gauge": "г",
+          "count": 50,
+          "optional": true
+        },
+        {
+          "ingredientKey": "belyyShokolad",
+          "gauge": "г",
+          "count": 50,
+          "optional": true
+        },
+        {
+          "ingredientKey": "molotayaKoritsa",
+          "gauge": "ч.л",
+          "count": 0.5,
+          "optional": true
+        }
+      ]
+    },
+    {
+      "description": "Дайте конфетам застыть на пергаменте 30 минут. Храните в холодильнике в герметичной таре.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Шоколадные трюфели получили название из-за сходства с одноименными грибами: неровная форма и какао на поверхности создают характерный вид. Основа конфет — ганаш из шоколада и сливок. После охлаждения он становится пластичным, а фундук добавляет хрустящий центр.",
+  "tips": [
+    "Формуйте трюфели прохладными руками или в тонких перчатках, чтобы ганаш не таял слишком быстро.",
+    "Если масса стала мягкой, верните ее в холодильник на 10 минут и продолжайте формовку."
+  ],
+  "variations": [
+    {
+      "name": "С апельсином",
+      "changes": "Добавьте в ганаш мелко натертую апельсиновую цедру."
+    },
+    {
+      "name": "В ореховой обсыпке",
+      "changes": "Обваляйте конфеты в измельченном фундуке вместо какао."
+    }
+  ]
+}
