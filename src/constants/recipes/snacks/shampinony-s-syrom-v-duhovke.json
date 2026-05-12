@@ -1,0 +1,155 @@
+{
+  "metaSeo": {
+    "title": "Шампиньоны с сыром в духовке",
+    "description": "Запеченные шампиньоны с сырной начинкой, чесноком и зеленью.",
+    "keywords": ["шампиньоны с сыром", "закуска из грибов", "грибы в духовке", "горячая закуска"],
+    "og:title": "Шампиньоны с сыром в духовке",
+    "og:description": "Запеченные шампиньоны с сырной начинкой, чесноком и зеленью.",
+    "og:url": "https://food-paradise.ru/recipe/shampinony-s-syrom-v-duhovke",
+    "twitterTitle": "Шампиньоны с сыром в духовке",
+    "twitterDescription": "Запеченные шампиньоны с сырной начинкой, чесноком и зеленью.",
+    "twitterUrl": "https://food-paradise.ru/recipe/shampinony-s-syrom-v-duhovke",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/shampinony-s-syrom-v-duhovke",
+    "robots": "index, follow",
+    "viewport": "width=device-width, initial-scale=1",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["шампиньоны с сыром в духовке", "фаршированные шампиньоны", "горячая закуска из грибов"],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "shampinony-s-syrom-v-duhovke",
+  "name": "shampinony-s-syrom-v-duhovke",
+  "img": null,
+  "title": "Шампиньоны с сыром в духовке",
+  "description": "Горячая закуска из шляпок шампиньонов с сыром, чесноком и зеленью.",
+  "calories": 176,
+  "preparation": 15,
+  "time": 20,
+  "level": 1,
+  "rating": 4.8,
+  "portions": 4,
+  "used": [12, 14, 7],
+  "ingredients": [
+    {
+      "ingredientKey": "champignons",
+      "count": 500,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "hardCheese",
+      "count": 120,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "creamCheese",
+      "count": 80,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "garlic",
+      "count": 1,
+      "gauge": "зубчик"
+    },
+    {
+      "ingredientKey": "parsley",
+      "count": 10,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "gauge": "по вкусу"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "oven"
+    },
+    {
+      "equipmentKey": "bakingTray"
+    },
+    {
+      "equipmentKey": "parchment"
+    },
+    {
+      "equipmentKey": "bowl"
+    },
+    {
+      "equipmentKey": "grater"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Разогрейте духовку до 190°C. У шампиньонов удалите ножки, шляпки выложите на противень с пергаментом.",
+      "ingredients": [
+        {
+          "ingredientKey": "champignons",
+          "count": 500,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте тертый твердый сыр, сливочный сыр, чеснок, петрушку и перец.",
+      "ingredients": [
+        {
+          "ingredientKey": "hardCheese",
+          "count": 120,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "creamCheese",
+          "count": 80,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "garlic",
+          "count": 1,
+          "gauge": "зубчик"
+        },
+        {
+          "ingredientKey": "parsley",
+          "count": 10,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "gauge": "по вкусу"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Наполните шляпки сырной смесью и запекайте 18–20 минут до румяной верхушки.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Фаршированные шампиньоны — удобная горячая закуска, которая пришла из ресторанной подачи в домашние духовки. Грибная шляпка работает как маленькая форма, а сырная начинка делает блюдо сытным и ароматным.",
+  "tips": [
+    "Выбирайте крупные шампиньоны одинакового размера.",
+    "Не мойте грибы долго в воде: лучше быстро протереть или сполоснуть и обсушить."
+  ],
+  "variations": [
+    {
+      "name": "С беконом",
+      "changes": "Добавьте в начинку обжаренный мелко нарезанный бекон."
+    },
+    {
+      "name": "С зеленью",
+      "changes": "Замените петрушку укропом или зеленым луком."
+    }
+  ]
+}

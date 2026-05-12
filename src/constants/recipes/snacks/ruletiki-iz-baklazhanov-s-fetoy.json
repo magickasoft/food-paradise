@@ -1,0 +1,153 @@
+{
+  "metaSeo": {
+    "title": "Рулетики из баклажанов с фетой",
+    "description": "Обжаренные ломтики баклажанов с начинкой из феты, зелени и чеснока.",
+    "keywords": ["рулетики из баклажанов", "закуска с фетой", "баклажаны с сыром", "овощная закуска"],
+    "og:title": "Рулетики из баклажанов с фетой",
+    "og:description": "Обжаренные ломтики баклажанов с начинкой из феты, зелени и чеснока.",
+    "og:url": "https://food-paradise.ru/recipe/ruletiki-iz-baklazhanov-s-fetoy",
+    "twitterTitle": "Рулетики из баклажанов с фетой",
+    "twitterDescription": "Обжаренные ломтики баклажанов с начинкой из феты, зелени и чеснока.",
+    "twitterUrl": "https://food-paradise.ru/recipe/ruletiki-iz-baklazhanov-s-fetoy",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/ruletiki-iz-baklazhanov-s-fetoy",
+    "robots": "index, follow",
+    "viewport": "width=device-width, initial-scale=1",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["рулетики из баклажанов с фетой", "баклажаны с сыром и чесноком", "овощная закуска"],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "ruletiki-iz-baklazhanov-s-fetoy",
+  "name": "ruletiki-iz-baklazhanov-s-fetoy",
+  "img": null,
+  "title": "Рулетики из баклажанов с фетой",
+  "description": "Ароматная овощная закуска из баклажанов с солоноватой фетой, зеленью и чесноком.",
+  "calories": 198,
+  "preparation": 20,
+  "time": 15,
+  "level": 2,
+  "rating": 4.8,
+  "portions": 4,
+  "used": [9, 12, 18],
+  "ingredients": [
+    {
+      "ingredientKey": "eggplant",
+      "count": 2,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "fetaCheese",
+      "count": 150,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "garlic",
+      "count": 1,
+      "gauge": "зубчик"
+    },
+    {
+      "ingredientKey": "parsley",
+      "count": 15,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "oliveOil",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "salt",
+      "gauge": "по вкусу"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "pan"
+    },
+    {
+      "equipmentKey": "bowl"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Баклажаны нарежьте длинными тонкими пластинами, посолите и оставьте на 10 минут, затем обсушите.",
+      "ingredients": [
+        {
+          "ingredientKey": "eggplant",
+          "count": 2,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "salt",
+          "gauge": "по вкусу"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Обжарьте баклажаны на оливковом масле до мягкости и легкой румяности.",
+      "ingredients": [
+        {
+          "ingredientKey": "oliveOil",
+          "count": 2,
+          "gauge": "ст.л."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разомните фету с чесноком и петрушкой, выложите начинку на баклажаны и сверните рулетики.",
+      "ingredients": [
+        {
+          "ingredientKey": "fetaCheese",
+          "count": 150,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "garlic",
+          "count": 1,
+          "gauge": "зубчик"
+        },
+        {
+          "ingredientKey": "parsley",
+          "count": 15,
+          "gauge": "г"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Рулетики из баклажанов часто встречаются в кавказской и средиземноморской домашней кухне. Обжаренный баклажан становится мягкой основой, а солоноватая сырная начинка дает блюду яркий вкус.",
+  "tips": [
+    "Не нарезайте баклажаны слишком толсто, иначе рулетики будут плохо сворачиваться.",
+    "Готовые пластины промокните от лишнего масла."
+  ],
+  "variations": [
+    {
+      "name": "С орехами",
+      "changes": "Добавьте в начинку рубленые грецкие орехи."
+    },
+    {
+      "name": "С томатами",
+      "changes": "Положите внутрь тонкую полоску свежего томата."
+    }
+  ]
+}

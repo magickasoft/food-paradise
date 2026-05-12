@@ -1,0 +1,156 @@
+{
+  "metaSeo": {
+    "title": "Канапе из огурца с лососем",
+    "description": "Свежие канапе на кружочках огурца со сливочным сыром, лососем и укропом.",
+    "keywords": ["канапе с лососем", "закуска с огурцом", "закуска без хлеба", "быстрые канапе"],
+    "og:title": "Канапе из огурца с лососем",
+    "og:description": "Свежие канапе на кружочках огурца со сливочным сыром, лососем и укропом.",
+    "og:url": "https://food-paradise.ru/recipe/kanape-iz-ogurtsa-s-lososem",
+    "twitterTitle": "Канапе из огурца с лососем",
+    "twitterDescription": "Свежие канапе на кружочках огурца со сливочным сыром, лососем и укропом.",
+    "twitterUrl": "https://food-paradise.ru/recipe/kanape-iz-ogurtsa-s-lososem",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/kanape-iz-ogurtsa-s-lososem",
+    "robots": "index, follow",
+    "viewport": "width=device-width, initial-scale=1",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["канапе с лососем", "огурец сливочный сыр лосось", "закуска без хлеба"],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "kanape-iz-ogurtsa-s-lososem",
+  "name": "kanape-iz-ogurtsa-s-lososem",
+  "img": null,
+  "title": "Канапе из огурца с лососем",
+  "description": "Легкая закуска без хлеба: хрустящий огурец, сливочный сыр, лосось и укроп.",
+  "calories": 132,
+  "preparation": 15,
+  "time": 0,
+  "level": 1,
+  "rating": 4.8,
+  "portions": 4,
+  "used": [11, 9, 4],
+  "ingredients": [
+    {
+      "ingredientKey": "cucumber",
+      "count": 2,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "salmonSalted",
+      "count": 120,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "creamCheese",
+      "count": 120,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "dill",
+      "count": 10,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "lemonJuice",
+      "count": 1,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "gauge": "по вкусу"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "paperTowel"
+    },
+    {
+      "equipmentKey": "bowl"
+    },
+    {
+      "equipmentKey": "spoon"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Огурцы нарежьте толстыми кружочками и промокните бумажным полотенцем, если они слишком влажные.",
+      "ingredients": [
+        {
+          "ingredientKey": "cucumber",
+          "count": 2,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте сливочный сыр с укропом, лимонным соком и перцем.",
+      "ingredients": [
+        {
+          "ingredientKey": "creamCheese",
+          "count": 120,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "dill",
+          "count": 10,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "lemonJuice",
+          "count": 1,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "gauge": "по вкусу"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выложите сыр на огурцы, сверху добавьте ломтики лосося и подавайте охлажденными.",
+      "ingredients": [
+        {
+          "ingredientKey": "salmonSalted",
+          "count": 120,
+          "gauge": "г"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Канапе на овощной основе появились как легкая альтернатива бутербродам. Огурец дает свежесть и хруст, а лосось со сливочным сыром делает закуску праздничной без сложной подготовки.",
+  "tips": [
+    "Выбирайте плотные огурцы с мелкими семенами.",
+    "Собирайте канапе незадолго до подачи, чтобы огурец не пустил сок."
+  ],
+  "variations": [
+    {
+      "name": "С авокадо",
+      "changes": "Замените часть сыра размятым авокадо."
+    },
+    {
+      "name": "С редисом",
+      "changes": "Добавьте тонкий ломтик редиса для хруста."
+    }
+  ]
+}

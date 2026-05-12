@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { DetailsTitle } from '../DetailsTitle'
 import { Recipe } from '@/constants/recipes/recipes'
 import { NoList } from '../NoList'
+import { resolveRecipeEquipment } from '@/constants/recipes/recipeEquipments'
 
 const EquipmentsContainer = styled.section`
   width: 100%;
@@ -67,12 +68,14 @@ const EquipmentBrick = styled.span`
 `
 
 export const EquipmentsBlock = ({ data }: { data: Recipe['equipments'] }) => {
+  const resolvedEquipments = data.map(resolveRecipeEquipment)
+
   return (
     <EquipmentsContainer>
       <DetailsTitle>Оборудование</DetailsTitle>
-      {data.length ? (
+      {resolvedEquipments.length ? (
         <DetailsCardsContainer $background="#fff">
-          {data.map(equipment => (
+          {resolvedEquipments.map(equipment => (
             <EquipmentBrick key={equipment.name}>{equipment.name}</EquipmentBrick>
           ))}
         </DetailsCardsContainer>

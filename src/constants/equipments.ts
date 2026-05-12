@@ -79,3 +79,5 @@ export const EQUIPMENTS = {
   paperTowel,
   skewers,
 }
+
+export type EquipmentKey = keyof typeof EQUIPMENTS

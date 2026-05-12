@@ -1,6 +1,7 @@
 import { maxDevice } from '@/styles/device'
 import styled from 'styled-components'
 import { Recipe } from '@/constants/recipes/recipes'
+import { resolveRecipeIngredient } from '@/constants/recipes/recipeIngredients'
 import { formatStepIngredient } from './recipeStepIngredientUtils'
 
 const RecipeCookingStepsContainer = styled.section`
@@ -172,11 +173,15 @@ export const RecipeCookingStepsBlock = ({ stepsData }: { stepsData: Recipe['cook
             <DetailsWrapper>
               {step.ingredients?.length > 0 && (
                 <DetailsCardsContainer>
-                  {step.ingredients.map(ingredient => (
-                    <StepIngredientChip key={`${index}-ingredient-${ingredient.name}`}>
-                      {formatStepIngredient(ingredient)}
-                    </StepIngredientChip>
-                  ))}
+                  {step.ingredients.map(ingredient => {
+                    const resolvedIngredient = resolveRecipeIngredient(ingredient)
+
+                    return (
+                      <StepIngredientChip key={`${index}-ingredient-${resolvedIngredient.name}`}>
+                        {formatStepIngredient(resolvedIngredient)}
+                      </StepIngredientChip>
+                    )
+                  })}
                 </DetailsCardsContainer>
               )}
             </DetailsWrapper>

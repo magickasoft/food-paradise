@@ -1,0 +1,147 @@
+{
+  "metaSeo": {
+    "title": "Хреновуха — классическая настойка на хрене на водке",
+    "description": "Настоящая хреновуха — крепкая, жгучая и ароматная настойка на водке. Простой рецепт для любителей русских традиций.",
+    "keywords": ["хреновуха", "настойка на хрене", "домашняя настойка", "водка с хреном", "русская настойка"],
+    "og:title": "Хреновуха — классическая настойка на хрене",
+    "og:description": "Домашняя хреновуха на водке — крепкая настойка с ярким вкусом хрена и мягкой медовой нотой.",
+    "og:url": "https://food-paradise.ru/recipe/hrenovukha",
+    "og:image": "/optimize/recipes/homemadeAlcohol/hrenovukha-vodka.webp",
+    "twitterTitle": "Хреновуха — домашняя настойка на водке",
+    "twitterDescription": "Русская классика домашнего бара — хреновуха на водке с мёдом и выразительной остротой.",
+    "twitterImage": "/optimize/recipes/homemadeAlcohol/hrenovukha-vodka.webp",
+    "twitterUrl": "https://food-paradise.ru/recipe/hrenovukha",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/hrenovukha",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "categories": [
+    {
+      "name": "homemade-alcohol"
+    },
+    {
+      "name": "drinks"
+    }
+  ],
+  "key": "hrenovukha",
+  "name": "hrenovukha",
+  "img": "/optimize/recipes/homemadeAlcohol/hrenovukha-vodka.webp",
+  "title": "Настойка на хрене (хреновуха)",
+  "description": "Хреновуха — русская настойка с характером. Острая, ароматная и плотная по вкусу, она хорошо подходит к соленьям, мясным закускам и холодцу.",
+  "warning": "Чрезмерное употребление алкоголя вредит вашему здоровью!",
+  "calories": 210,
+  "preparation": 10,
+  "time": 8640,
+  "level": 1,
+  "used": null,
+  "rating": 4.7,
+  "portions": 15,
+  "ingredients": [
+    {
+      "ingredientKey": "horseradishRoot",
+      "count": 40,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "honey",
+      "count": 1,
+      "gauge": "ст. л."
+    },
+    {
+      "ingredientKey": "vodka",
+      "count": 500,
+      "gauge": "мл"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "jar"
+    },
+    {
+      "equipmentKey": "grater"
+    },
+    {
+      "equipmentKey": "sieve"
+    },
+    {
+      "equipmentKey": "bottle"
+    }
+  ],
+  "historyDescription": "Хреновуха известна на Руси с XVI века. Её готовили к зимним праздникам и застольям: корень хрена давал напитку резкий аромат, а мёд смягчал вкус.",
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Очистите корень хрена и натрите на мелкой тёрке.",
+      "ingredients": [
+        {
+          "ingredientKey": "horseradishRoot",
+          "count": 40,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Положите хрен в банку, добавьте мёд и залейте водкой. Перемешайте.",
+      "ingredients": [
+        {
+          "ingredientKey": "honey",
+          "count": 1,
+          "gauge": "ст. л."
+        },
+        {
+          "ingredientKey": "vodka",
+          "count": 500,
+          "gauge": "мл"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Накройте крышкой и оставьте в тёмном месте на 3–5 дней. Встряхивайте ежедневно.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите, разлейте по бутылкам и охладите. Перед подачей дайте настояться ещё сутки.",
+      "ingredients": []
+    }
+  ],
+  "serving": "Подавайте сильно охлаждённой, из стопок. Идеально подходит к соленьям, мясу и холодцу.",
+  "tips": [
+    "Не передержите хрен — больше 5 дней даст горечь.",
+    "Можно добавить немного чеснока или перца для пикантности.",
+    "Если хотите мягче — увеличьте количество мёда."
+  ],
+  "variations": [
+    {
+      "name": "Хреновуха с лимоном",
+      "changes": "Добавьте немного лимонной цедры для свежести."
+    },
+    {
+      "name": "Острая хреновуха",
+      "changes": "Положите щепотку красного перца вместе с хреном."
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "name": "Анна",
+      "text": "Делала с ложкой мёда — вкус сбалансированный, без лишней резкости.",
+      "rating": 5,
+      "avatar": null
+    },
+    {
+      "id": "2",
+      "name": "Мария",
+      "text": "Супер! Жжёт как надо, но мягкая. Настоящая мужская настойка.",
+      "rating": 5,
+      "avatar": null
+    }
+  ]
+}

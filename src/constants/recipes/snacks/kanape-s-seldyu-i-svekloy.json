@@ -1,0 +1,155 @@
+{
+  "metaSeo": {
+    "title": "Канапе с сельдью и свеклой",
+    "description": "Мини-закуска на хлебе со свеклой, сельдью, луком и зеленью.",
+    "keywords": ["канапе с сельдью", "закуска со свеклой", "селедка на хлебе", "праздничные канапе"],
+    "og:title": "Канапе с сельдью и свеклой",
+    "og:description": "Мини-закуска на хлебе со свеклой, сельдью, луком и зеленью.",
+    "og:url": "https://food-paradise.ru/recipe/kanape-s-seldyu-i-svekloy",
+    "twitterTitle": "Канапе с сельдью и свеклой",
+    "twitterDescription": "Мини-закуска на хлебе со свеклой, сельдью, луком и зеленью.",
+    "twitterUrl": "https://food-paradise.ru/recipe/kanape-s-seldyu-i-svekloy",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/kanape-s-seldyu-i-svekloy",
+    "robots": "index, follow",
+    "viewport": "width=device-width, initial-scale=1",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["канапе с сельдью", "селедка со свеклой", "закуска на хлебе"],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "kanape-s-seldyu-i-svekloy",
+  "name": "kanape-s-seldyu-i-svekloy",
+  "img": null,
+  "title": "Канапе с сельдью и свеклой",
+  "description": "Небольшие канапе с привычным сочетанием сельди, свеклы, лука и хлеба.",
+  "calories": 172,
+  "preparation": 20,
+  "time": 0,
+  "level": 1,
+  "rating": 4.8,
+  "portions": 6,
+  "used": [8, 10, 24],
+  "ingredients": [
+    {
+      "ingredientKey": "whiteBread",
+      "count": 6,
+      "gauge": "ломтиков"
+    },
+    {
+      "ingredientKey": "herringFillet",
+      "count": 180,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "beet",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "redOnion",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "mayonnaise",
+      "count": 1,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "dill",
+      "count": 10,
+      "gauge": "г"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "grater"
+    },
+    {
+      "equipmentKey": "bowl"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Свеклу натрите и смешайте с майонезом. Лук нарежьте тонкими полукольцами.",
+      "ingredients": [
+        {
+          "ingredientKey": "beet",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "mayonnaise",
+          "count": 1,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "redOnion",
+          "count": 1,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Хлеб нарежьте небольшими квадратами, сельдь — аккуратными кусочками.",
+      "ingredients": [
+        {
+          "ingredientKey": "whiteBread",
+          "count": 6,
+          "gauge": "ломтиков"
+        },
+        {
+          "ingredientKey": "herringFillet",
+          "count": 180,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "На хлеб выложите свеклу, сельдь, лук и укроп. Подавайте сразу или охладите 10 минут.",
+      "ingredients": [
+        {
+          "ingredientKey": "dill",
+          "count": 10,
+          "gauge": "г"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Сельдь со свеклой — знакомое сочетание русской праздничной кухни. В формате канапе оно становится легче и аккуратнее: вкус напоминает классические салаты, но подается маленькими порциями.",
+  "tips": [
+    "Свеклу лучше заранее отварить или запечь и полностью остудить.",
+    "Хлеб можно слегка подсушить, чтобы канапе дольше держали форму."
+  ],
+  "variations": [
+    {
+      "name": "С соленым огурцом",
+      "changes": "Добавьте тонкий ломтик маринованного огурца."
+    },
+    {
+      "name": "С горчицей",
+      "changes": "Смажьте хлеб тонким слоем горчицы перед свеклой."
+    }
+  ]
+}

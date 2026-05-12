@@ -12,6 +12,8 @@ import { SNACKS } from './snacks'
 import { SUPPER } from './supper'
 import { NEW_YEAR } from './new-year'
 import { HOMEMADE_ALCOHOL } from './homemade-alcohol'
+import type { RecipeEquipment } from './recipeEquipments'
+import type { RecipeIngredient } from './recipeIngredients'
 
 export enum RecipeCategories {
   BREAKFAST = 'breakfast',
@@ -69,13 +71,13 @@ export interface Recipe {
   rating: number
   portions: number
   used: number[] | null
-  ingredients: { name: string; count?: number | string; gauge: string; img?: string | null; note?: string }[]
-  equipments: { name: string; img?: string | null }[]
+  ingredients: RecipeIngredient[]
+  equipments: RecipeEquipment[]
   cookingRecipe: {
     img?: string | null
     video?: string | null
     description: string
-    ingredients: { name: string; count?: number | string; gauge: string; optional?: boolean }[]
+    ingredients: RecipeIngredient[]
   }[]
   historyDescription?: string
   tips?: string[]
@@ -104,4 +106,16 @@ export const RECIPES_OBJ: {
   salads: [...SALADS],
   'homemade-alcohol': [...HOMEMADE_ALCOHOL],
   'refreshing-drinks': [...REFRESHING_DRINKS],
+}
+
+export const getAllRecipes = (): Recipe[] => {
+  const recipesByKey = new Map<string, Recipe>()
+
+  for (const recipe of Object.values(RECIPES_OBJ).flat()) {
+    if (!recipe.key || recipesByKey.has(recipe.key)) continue
+
+    recipesByKey.set(recipe.key, recipe)
+  }
+
+  return [...recipesByKey.values()]
 }

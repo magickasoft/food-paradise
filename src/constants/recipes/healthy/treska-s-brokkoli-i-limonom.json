@@ -1,0 +1,192 @@
+{
+  "metaSeo": {
+    "title": "Треска с брокколи и лимоном",
+    "description": "Нежная треска с брокколи, лимоном и оливковым маслом. Легкий ужин, который готовится в духовке.",
+    "keywords": ["треска с брокколи", "рыба в духовке", "легкий ужин", "здоровая еда", "филе трески"],
+    "og:title": "Треска с брокколи и лимоном",
+    "og:description": "Нежная треска с брокколи, лимоном и оливковым маслом. Легкий ужин в духовке.",
+    "og:url": "https://food-paradise.ru/recipe/treska-s-brokkoli-i-limonom",
+    "twitterTitle": "Треска с брокколи и лимоном",
+    "twitterDescription": "Простой ужин из трески, брокколи и лимонной заправки.",
+    "twitterUrl": "https://food-paradise.ru/recipe/treska-s-brokkoli-i-limonom",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/treska-s-brokkoli-i-limonom",
+    "robots": "index, follow",
+    "viewport": "width=device-width, initial-scale=1",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["треска с брокколи", "филе трески в духовке", "рыба с овощами", "легкий рыбный ужин"],
+  "categories": [
+    {
+      "name": "healthy"
+    },
+    {
+      "name": "supper"
+    }
+  ],
+  "key": "treska-s-brokkoli-i-limonom",
+  "name": "treska-s-brokkoli-i-limonom",
+  "img": null,
+  "title": "Треска с брокколи и лимоном",
+  "description": "Белая рыба запекается рядом с брокколи, а лимонная заправка делает вкус свежим и собранным.",
+  "calories": 260,
+  "preparation": 10,
+  "time": 30,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 2,
+  "used": [20, 10, 5],
+  "ingredients": [
+    {
+      "ingredientKey": "fileTreski",
+      "count": 400,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "broccoli",
+      "count": 300,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "lemon",
+      "count": 0.5,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "oliveOil",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "garlic",
+      "count": 1,
+      "gauge": "зубчик"
+    },
+    {
+      "ingredientKey": "dill",
+      "count": 0.5,
+      "gauge": "пучок"
+    },
+    {
+      "ingredientKey": "solIPerets",
+      "count": " ",
+      "gauge": "по вкусу"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "oven"
+    },
+    {
+      "equipmentKey": "bakingTray"
+    },
+    {
+      "equipmentKey": "parchment"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "bowl"
+    },
+    {
+      "equipmentKey": "brush"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Брокколи разберите на соцветия, крупные кусочки разрежьте пополам.",
+      "ingredients": [
+        {
+          "ingredientKey": "broccoli",
+          "count": 300,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте оливковое масло, сок лимона, измельченный чеснок, соль и перец.",
+      "ingredients": [
+        {
+          "ingredientKey": "oliveOil",
+          "count": 2,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "lemon",
+          "count": 0.5,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "garlic",
+          "count": 1,
+          "gauge": "зубчик"
+        },
+        {
+          "ingredientKey": "solIPerets",
+          "count": " ",
+          "gauge": "по вкусу"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выложите треску и брокколи на противень с пергаментом, смажьте лимонной заправкой.",
+      "ingredients": [
+        {
+          "ingredientKey": "fileTreski",
+          "count": 400,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Запекайте при 190°C 15-18 минут, пока рыба легко не начнет разделяться вилкой.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Посыпьте блюдо рубленым укропом и подавайте сразу.",
+      "ingredients": [
+        {
+          "ingredientKey": "dill",
+          "count": 0.5,
+          "gauge": "пучок"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Запекание рыбы с овощами — один из самых практичных домашних приемов: белок и гарнир готовятся одновременно, а вкус задают масло, цитрус и зелень.",
+  "tips": [
+    "Не передерживайте треску: тонким кускам может хватить 12-14 минут.",
+    "Если брокколи замороженная, предварительно обдайте ее горячей водой и обсушите.",
+    "Лимонную цедру можно добавить в заправку для более яркого аромата."
+  ],
+  "serving": "Хорошо сочетается с киноа, рисом или свежим огурцом.",
+  "variations": [
+    {
+      "name": "С пряностями",
+      "changes": "Добавьте щепотку копченой паприки."
+    },
+    {
+      "name": "С зеленью",
+      "changes": "Замените укроп петрушкой или кинзой."
+    }
+  ]
+}

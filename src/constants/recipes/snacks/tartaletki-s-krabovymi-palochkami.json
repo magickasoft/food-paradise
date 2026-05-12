@@ -1,0 +1,155 @@
+{
+  "metaSeo": {
+    "title": "Тарталетки с крабовыми палочками",
+    "description": "Быстрые тарталетки с крабовыми палочками, кукурузой, огурцом и легкой заправкой.",
+    "keywords": ["тарталетки", "закуска с крабовыми палочками", "праздничная закуска", "тарталетки с кукурузой"],
+    "og:title": "Тарталетки с крабовыми палочками",
+    "og:description": "Быстрые тарталетки с крабовыми палочками, кукурузой, огурцом и легкой заправкой.",
+    "og:url": "https://food-paradise.ru/recipe/tartaletki-s-krabovymi-palochkami",
+    "twitterTitle": "Тарталетки с крабовыми палочками",
+    "twitterDescription": "Быстрые тарталетки с крабовыми палочками, кукурузой, огурцом и легкой заправкой.",
+    "twitterUrl": "https://food-paradise.ru/recipe/tartaletki-s-krabovymi-palochkami",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/tartaletki-s-krabovymi-palochkami",
+    "robots": "index, follow",
+    "viewport": "width=device-width, initial-scale=1",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["тарталетки с крабовыми палочками", "закуска в тарталетках", "тарталетки с кукурузой"],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "tartaletki-s-krabovymi-palochkami",
+  "name": "tartaletki-s-krabovymi-palochkami",
+  "img": null,
+  "title": "Тарталетки с крабовыми палочками",
+  "description": "Нарядная холодная закуска с крабовыми палочками, кукурузой и свежим огурцом.",
+  "calories": 214,
+  "preparation": 15,
+  "time": 0,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 6,
+  "used": [9, 15, 18],
+  "ingredients": [
+    {
+      "ingredientKey": "tartlets",
+      "count": 12,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "crabSticks",
+      "count": 200,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "cannedCorn",
+      "count": 120,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "cucumber",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "mayonnaise",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "dill",
+      "count": 10,
+      "gauge": "г"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "bowl"
+    },
+    {
+      "equipmentKey": "spoon"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Крабовые палочки и огурец нарежьте мелкими кубиками, укроп порубите.",
+      "ingredients": [
+        {
+          "ingredientKey": "crabSticks",
+          "count": 200,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "cucumber",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "dill",
+          "count": 10,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте крабовые палочки, кукурузу, огурец, укроп и майонез.",
+      "ingredients": [
+        {
+          "ingredientKey": "cannedCorn",
+          "count": 120,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "mayonnaise",
+          "count": 2,
+          "gauge": "ст.л."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разложите начинку по тарталеткам прямо перед подачей, чтобы корзинки остались хрустящими.",
+      "ingredients": [
+        {
+          "ingredientKey": "tartlets",
+          "count": 12,
+          "gauge": "шт."
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Тарталетки закрепились в домашнем праздничном меню как удобная порционная подача салатов и закусок. Крабовая начинка напоминает классический салат, но выглядит аккуратнее и быстрее расходится со стола.",
+  "tips": [
+    "Не наполняйте тарталетки заранее: от влажной начинки они размокают.",
+    "Огурец можно слегка отжать, если он очень сочный."
+  ],
+  "variations": [
+    {
+      "name": "С яйцом",
+      "changes": "Добавьте мелко нарезанное вареное яйцо."
+    },
+    {
+      "name": "С сыром",
+      "changes": "Вмешайте немного тертого твердого сыра."
+    }
+  ]
+}
