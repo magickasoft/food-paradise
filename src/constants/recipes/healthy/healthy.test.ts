@@ -1,6 +1,7 @@
 import { describe, expect, test } from 'bun:test'
 
 import { HEALTHY } from '../healthy'
+import type { RecipeEquipment } from '../recipeEquipments'
 
 const byKey = new Map(HEALTHY.map(recipe => [recipe.key, recipe]))
 
@@ -17,7 +18,8 @@ const getRecipe = (key: string) => {
 const ingredientKeys = (ingredients: { ingredientKey?: string; name?: string }[]) =>
   ingredients.map(ingredient => ingredient.ingredientKey ?? ingredient.name)
 
-const equipmentKeys = (equipments: { equipmentKey: string }[]) => equipments.map(equipment => equipment.equipmentKey)
+const equipmentKeys = (equipments: RecipeEquipment[]) =>
+  equipments.flatMap(equipment => ('equipmentKey' in equipment ? [equipment.equipmentKey] : []))
 
 describe('healthy recipes data quality', () => {
   test('smuzi boul category and sugar claims match dairy and honey ingredients', () => {
