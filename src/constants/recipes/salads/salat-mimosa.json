@@ -79,11 +79,7 @@
   "level": 2,
   "rating": 5,
   "portions": 6,
-  "used": [
-    12.1,
-    20.4,
-    18.7
-  ],
+  "used": [12.1, 20.4, 18.7],
   "ingredients": [
     {
       "ingredientKey": "cannedFish",

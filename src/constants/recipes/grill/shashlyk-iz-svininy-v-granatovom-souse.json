@@ -1005,11 +1005,7 @@
   "level": 2,
   "rating": 4.9,
   "portions": 5,
-  "used": [
-    22,
-    25,
-    8
-  ],
+  "used": [22, 25, 8],
   "ingredients": [
     {
       "ingredientKey": "svinayaSheya",

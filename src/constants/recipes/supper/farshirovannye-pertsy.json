@@ -805,10 +805,7 @@
   "level": 2,
   "rating": 4.8,
   "portions": 6,
-  "used": [
-    15,
-    16
-  ],
+  "used": [15, 16],
   "ingredients": [
     {
       "ingredientKey": "bellPepper",

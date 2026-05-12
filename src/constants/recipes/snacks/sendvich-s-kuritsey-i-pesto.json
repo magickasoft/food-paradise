@@ -485,11 +485,7 @@
   "level": 2,
   "rating": 4.6,
   "portions": 1,
-  "used": [
-    15,
-    18,
-    10
-  ],
+  "used": [15, 18, 10],
   "ingredients": [
     {
       "ingredientKey": "bagetIliChiabatta",

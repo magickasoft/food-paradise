@@ -285,11 +285,7 @@
   "level": 1,
   "rating": 4.8,
   "portions": 2,
-  "used": [
-    20,
-    8,
-    2
-  ],
+  "used": [20, 8, 2],
   "ingredients": [
     {
       "ingredientKey": "krupnyeKrevetki",

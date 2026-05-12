@@ -470,11 +470,7 @@
   "level": 1,
   "rating": 4.8,
   "portions": 1,
-  "used": [
-    12.5,
-    18.3,
-    5.2
-  ],
+  "used": [12.5, 18.3, 5.2],
   "ingredients": [
     {
       "ingredientKey": "oatmeal",

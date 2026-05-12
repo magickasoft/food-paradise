@@ -1521,11 +1521,7 @@
   "level": 1,
   "rating": 4.7,
   "portions": 4,
-  "used": [
-    3,
-    7,
-    15
-  ],
+  "used": [3, 7, 15],
   "ingredients": [
     {
       "ingredientKey": "zucchini",

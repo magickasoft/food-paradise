@@ -873,11 +873,7 @@
   "level": 2,
   "rating": 4.6,
   "portions": 4,
-  "used": [
-    25,
-    20,
-    15
-  ],
+  "used": [25, 20, 15],
   "ingredients": [
     {
       "ingredientKey": "eggplant",

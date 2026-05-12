@@ -282,11 +282,7 @@
   "level": 1,
   "rating": 4.8,
   "portions": 8,
-  "used": [
-    5,
-    22,
-    30
-  ],
+  "used": [5, 22, 30],
   "ingredients": [
     {
       "ingredientKey": "sloenoeTestoBezdrozhzhevoe",

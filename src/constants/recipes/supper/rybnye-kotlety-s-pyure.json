@@ -618,10 +618,7 @@
   "level": 2,
   "rating": 4.7,
   "portions": 4,
-  "used": [
-    11,
-    13
-  ],
+  "used": [11, 13],
   "ingredients": [
     {
       "ingredientKey": "fileTreski",

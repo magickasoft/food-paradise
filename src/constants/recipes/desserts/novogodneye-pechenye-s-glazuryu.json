@@ -70,11 +70,7 @@
   "level": 2,
   "rating": 5,
   "portions": 6,
-  "used": [
-    6.1,
-    9.4,
-    21.8
-  ],
+  "used": [6.1, 9.4, 21.8],
   "ingredients": [
     {
       "ingredientKey": "flour",

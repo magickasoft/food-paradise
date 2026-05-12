@@ -891,11 +891,7 @@
   "level": 3,
   "rating": 4.8,
   "portions": 4,
-  "used": [
-    25,
-    20,
-    2
-  ],
+  "used": [25, 20, 2],
   "ingredients": [
     {
       "ingredientKey": "baranina",

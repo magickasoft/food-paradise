@@ -1326,11 +1326,7 @@
   "level": 2,
   "rating": 4.7,
   "portions": 2,
-  "used": [
-    10,
-    12,
-    8
-  ],
+  "used": [10, 12, 8],
   "ingredients": [
     {
       "ingredientKey": "krevetki",

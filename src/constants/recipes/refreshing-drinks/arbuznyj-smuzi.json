@@ -153,11 +153,7 @@
   "level": 1,
   "rating": 4.9,
   "portions": 2,
-  "used": [
-    6,
-    4,
-    2
-  ],
+  "used": [6, 4, 2],
   "ingredients": [
     {
       "ingredientKey": "arbuz",

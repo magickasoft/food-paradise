@@ -1281,11 +1281,7 @@
   "level": 2,
   "rating": 4.5,
   "portions": 2,
-  "used": [
-    12,
-    10,
-    8
-  ],
+  "used": [12, 10, 8],
   "ingredients": [
     {
       "ingredientKey": "kurinoeFile",

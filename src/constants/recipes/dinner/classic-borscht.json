@@ -740,11 +740,7 @@
   "level": 3,
   "rating": 4.9,
   "portions": 6,
-  "used": [
-    45.2,
-    60.1,
-    25.3
-  ],
+  "used": [45.2, 60.1, 25.3],
   "ingredients": [
     {
       "ingredientKey": "beef",

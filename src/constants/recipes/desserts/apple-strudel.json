@@ -308,11 +308,7 @@
   "level": 3,
   "rating": 4.9,
   "portions": 6,
-  "used": [
-    4,
-    12,
-    40
-  ],
+  "used": [4, 12, 40],
   "ingredients": [
     {
       "ingredientKey": "mukaPshenichnaya",

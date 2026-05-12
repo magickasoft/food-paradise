@@ -893,11 +893,7 @@
   "level": 2,
   "rating": 4.7,
   "portions": 2,
-  "used": [
-    15,
-    12,
-    8
-  ],
+  "used": [15, 12, 8],
   "ingredients": [
     {
       "ingredientKey": "tunetsSteyk",

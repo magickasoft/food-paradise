@@ -402,10 +402,7 @@
   "level": 1,
   "rating": 4.6,
   "portions": 3,
-  "used": [
-    8,
-    10
-  ],
+  "used": [8, 10],
   "ingredients": [
     {
       "ingredientKey": "spagetti",

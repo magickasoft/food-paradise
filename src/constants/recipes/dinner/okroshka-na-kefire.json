@@ -628,11 +628,7 @@
   "level": 1,
   "rating": 5,
   "portions": 4,
-  "used": [
-    24.82,
-    34.27,
-    25.22
-  ],
+  "used": [24.82, 34.27, 25.22],
   "ingredients": [
     {
       "ingredientKey": "potato",

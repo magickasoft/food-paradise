@@ -495,11 +495,7 @@
   "level": 2,
   "rating": 4.7,
   "portions": 2,
-  "used": [
-    18,
-    25,
-    20
-  ],
+  "used": [18, 25, 20],
   "ingredients": [
     {
       "ingredientKey": "hlebChiabatta",

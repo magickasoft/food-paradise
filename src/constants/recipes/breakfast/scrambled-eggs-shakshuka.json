@@ -465,11 +465,7 @@
   "level": 2,
   "rating": 4.9,
   "portions": 2,
-  "used": [
-    22.1,
-    18.7,
-    9.3
-  ],
+  "used": [22.1, 18.7, 9.3],
   "ingredients": [
     {
       "ingredientKey": "eggs",

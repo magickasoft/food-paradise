@@ -74,11 +74,7 @@
   "level": 2,
   "rating": 5,
   "portions": 6,
-  "used": [
-    11.4,
-    22.8,
-    19.6
-  ],
+  "used": [11.4, 22.8, 19.6],
   "ingredients": [
     {
       "ingredientKey": "herringFillet",

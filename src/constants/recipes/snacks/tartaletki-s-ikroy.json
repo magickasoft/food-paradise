@@ -69,11 +69,7 @@
   "level": 1,
   "rating": 5,
   "portions": 6,
-  "used": [
-    6.5,
-    9.8,
-    18.4
-  ],
+  "used": [6.5, 9.8, 18.4],
   "ingredients": [
     {
       "ingredientKey": "tartlets",

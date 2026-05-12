@@ -757,11 +757,7 @@
   "level": 2,
   "rating": 4.8,
   "portions": 2,
-  "used": [
-    15,
-    12,
-    10
-  ],
+  "used": [15, 12, 10],
   "ingredients": [
     {
       "ingredientKey": "govyadina",

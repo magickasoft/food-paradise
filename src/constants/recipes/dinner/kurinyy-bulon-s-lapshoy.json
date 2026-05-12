@@ -843,10 +843,7 @@
   "level": 1,
   "rating": 4.5,
   "portions": 4,
-  "used": [
-    7,
-    8
-  ],
+  "used": [7, 8],
   "ingredients": [
     {
       "ingredientKey": "chickenBreastFillet",

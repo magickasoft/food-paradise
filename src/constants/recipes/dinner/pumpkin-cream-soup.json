@@ -729,11 +729,7 @@
   "level": 2,
   "rating": 4.8,
   "portions": 4,
-  "used": [
-    30.5,
-    45.2,
-    12.3
-  ],
+  "used": [30.5, 45.2, 12.3],
   "ingredients": [
     {
       "ingredientKey": "water",

@@ -1067,11 +1067,7 @@
   "level": 2,
   "rating": 4.6,
   "portions": 4,
-  "used": [
-    28,
-    8,
-    2
-  ],
+  "used": [28, 8, 2],
   "ingredients": [
     {
       "ingredientKey": "fileIndeyki",

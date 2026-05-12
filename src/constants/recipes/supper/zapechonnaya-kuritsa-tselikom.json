@@ -71,11 +71,7 @@
   "level": 2,
   "rating": 5,
   "portions": 6,
-  "used": [
-    18.2,
-    22.5,
-    2.1
-  ],
+  "used": [18.2, 22.5, 2.1],
   "ingredients": [
     {
       "ingredientKey": "chickenWhole",

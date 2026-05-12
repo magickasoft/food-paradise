@@ -314,11 +314,7 @@
   "level": 3,
   "rating": 4.8,
   "portions": 4,
-  "used": [
-    12,
-    14,
-    16
-  ],
+  "used": [12, 14, 16],
   "ingredients": [
     {
       "ingredientKey": "listyLazani",

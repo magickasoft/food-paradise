@@ -91,11 +91,7 @@
   "level": 3,
   "rating": 4.9,
   "portions": 12,
-  "used": [
-    6,
-    18,
-    25
-  ],
+  "used": [6, 18, 25],
   "ingredients": [
     {
       "ingredientKey": "water",

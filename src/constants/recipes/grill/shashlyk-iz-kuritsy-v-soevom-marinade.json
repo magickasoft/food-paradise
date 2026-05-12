@@ -928,11 +928,7 @@
   "level": 2,
   "rating": 4.7,
   "portions": 4,
-  "used": [
-    27,
-    10,
-    5
-  ],
+  "used": [27, 10, 5],
   "ingredients": [
     {
       "ingredientKey": "kurinayaGrudka",

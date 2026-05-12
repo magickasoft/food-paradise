@@ -734,11 +734,7 @@
   "level": 1,
   "rating": 4.9,
   "portions": 6,
-  "used": [
-    12.37,
-    28.55,
-    60.08
-  ],
+  "used": [12.37, 28.55, 60.08],
   "ingredients": [
     {
       "ingredientKey": "beet",

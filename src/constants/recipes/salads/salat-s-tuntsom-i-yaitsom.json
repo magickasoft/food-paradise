@@ -680,11 +680,7 @@
   "level": 1,
   "rating": 4.6,
   "portions": 2,
-  "used": [
-    8,
-    10,
-    5
-  ],
+  "used": [8, 10, 5],
   "ingredients": [
     {
       "ingredientKey": "tunetsVSobstvennomSoku",

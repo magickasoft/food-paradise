@@ -748,10 +748,7 @@
   "level": 1,
   "rating": 4.6,
   "portions": 4,
-  "used": [
-    8,
-    9
-  ],
+  "used": [8, 9],
   "ingredients": [
     {
       "ingredientKey": "pumpkin",

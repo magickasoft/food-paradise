@@ -74,11 +74,7 @@
   "level": 2,
   "rating": 5,
   "portions": 6,
-  "used": [
-    15.8,
-    21.6,
-    18.9
-  ],
+  "used": [15.8, 21.6, 18.9],
   "ingredients": [
     {
       "ingredientKey": "chickenBreastFillet",

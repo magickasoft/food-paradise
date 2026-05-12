@@ -121,11 +121,7 @@
   "level": 2,
   "rating": 4.8,
   "portions": 8,
-  "used": [
-    5,
-    18,
-    45
-  ],
+  "used": [5, 18, 45],
   "ingredients": [
     {
       "ingredientKey": "pshenichnayaMuka",

@@ -339,10 +339,7 @@
   "level": 2,
   "rating": 4.8,
   "portions": 4,
-  "used": [
-    10,
-    12
-  ],
+  "used": [10, 12],
   "ingredients": [
     {
       "ingredientKey": "salmonFillet",

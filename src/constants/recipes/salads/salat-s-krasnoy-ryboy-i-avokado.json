@@ -70,11 +70,7 @@
   "level": 2,
   "rating": 5,
   "portions": 4,
-  "used": [
-    14.8,
-    22.1,
-    9.6
-  ],
+  "used": [14.8, 22.1, 9.6],
   "ingredients": [
     {
       "ingredientKey": "salmonSalted",
