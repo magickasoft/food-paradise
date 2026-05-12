@@ -34,7 +34,9 @@ describe('salad recipes data quality', () => {
       .filter(recipe => recipe.categories.some(category => category.name === 'salads'))
       .map(recipe => recipe.key)
 
-    expect([...saladKeys].sort()).toEqual([...new Set(taggedSaladKeys)].sort())
+    expect([...saladKeys].sort((left, right) => left.localeCompare(right))).toEqual(
+      [...new Set(taggedSaladKeys)].sort((left, right) => left.localeCompare(right)),
+    )
   })
 
   test('grecheskij salad ingredients match the bell pepper promised in the description', () => {

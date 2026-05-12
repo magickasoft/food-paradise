@@ -7,6 +7,15 @@ const longHourPattern = /(\d+(?:[,.]\d+)?)(?:[–-](\d+(?:[,.]\d+)?))?\s*(?:ча
 const toMinutes = (value: string) => Number(value.replace(',', '.')) * 60
 const getRequiredStepDescription = (description: string) => description.split(/\(?лучше/i)[0]
 
+const getExplicitHourMinutes = (description: string) => {
+  const matches = [...getRequiredStepDescription(description).matchAll(longHourPattern)]
+
+  return matches.map(match => toMinutes(match[1] ?? '0'))
+}
+
+const getMinimumStepMinutes = (descriptions: string[]) =>
+  descriptions.reduce((maxMinutes, description) => Math.max(maxMinutes, ...getExplicitHourMinutes(description)), 0)
+
 describe('recipe completeness', () => {
   test('all recipes expose main ingredients and equipment', () => {
     const recipes = getAllRecipes()
@@ -38,12 +47,7 @@ describe('recipe completeness', () => {
   test('recipe total time is not shorter than explicit hour-long steps', () => {
     const recipesWithUndercountedTime = getAllRecipes()
       .filter(recipe => {
-        const minimumStepMinutes = recipe.cookingRecipe.reduce((maxMinutes, step) => {
-          const matches = [...getRequiredStepDescription(step.description).matchAll(longHourPattern)]
-          const stepMinutes = matches.map(match => toMinutes(match[1] ?? '0'))
-
-          return Math.max(maxMinutes, ...stepMinutes)
-        }, 0)
+        const minimumStepMinutes = getMinimumStepMinutes(recipe.cookingRecipe.map(step => step.description))
 
         return recipe.time < minimumStepMinutes
       })

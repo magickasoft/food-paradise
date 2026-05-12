@@ -291,7 +291,7 @@ export const ADDITIONAL_RECIPE_EQUIPMENTS = {
     name: 'Кондитерская лопатка',
     img: null,
   },
-  konditerskiyMeshok2: {
+  konditerskiyMeshokOptional: {
     name: 'Кондитерский мешок (опционально)',
     img: null,
   },
