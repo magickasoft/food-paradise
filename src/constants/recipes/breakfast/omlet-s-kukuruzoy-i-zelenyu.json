@@ -97,7 +97,13 @@
       "equipmentKey": "whisk"
     },
     {
+      "equipmentKey": "grater"
+    },
+    {
       "equipmentKey": "pan"
+    },
+    {
+      "equipmentKey": "lid"
     },
     {
       "equipmentKey": "spatula"
@@ -167,7 +173,23 @@
     },
     {
       "description": "Добавьте кукурузу, сыр и зелень, накройте крышкой и готовьте еще 4-5 минут.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "cannedCorn",
+          "count": 120,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "hardCheese",
+          "count": 40,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "greens",
+          "count": 15,
+          "gauge": "г"
+        }
+      ]
     }
   ],
   "historyDescription": "Омлет с овощными добавками — один из самых гибких завтраков. Кукуруза дает легкую сладость и сочность, а зелень освежает привычную яичную основу.",

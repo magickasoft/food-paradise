@@ -104,6 +104,9 @@
     },
     {
       "equipmentKey": "fork"
+    },
+    {
+      "equipmentKey": "paperTowel"
     }
   ],
   "cookingRecipe": [
@@ -151,6 +154,11 @@
       "description": "Добавьте тофу, куркуму, соль и перец. Готовьте 4-5 минут, затем вмешайте шпинат и томаты на последнюю минуту.",
       "ingredients": [
         {
+          "ingredientKey": "tofu",
+          "count": 250,
+          "gauge": "г"
+        },
+        {
           "ingredientKey": "kurkuma",
           "count": 0.5,
           "gauge": "ч.л."
@@ -164,6 +172,16 @@
           "ingredientKey": "groundBlackPepper",
           "count": 0.25,
           "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "shpinatSvezhiy",
+          "count": 80,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "tomatyCherri",
+          "count": 100,
+          "gauge": "г"
         }
       ]
     }

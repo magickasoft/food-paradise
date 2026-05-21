@@ -135,6 +135,16 @@
           "ingredientKey": "oliveOil",
           "count": 3,
           "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "potato",
+          "count": 450,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "onion",
+          "count": 1,
+          "gauge": "шт."
         }
       ]
     },
@@ -155,12 +165,28 @@
           "ingredientKey": "groundBlackPepper",
           "count": 0.25,
           "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "greens",
+          "count": 20,
+          "gauge": "г"
         }
       ]
     },
     {
       "description": "Залейте картофель яйцами и готовьте под крышкой 8-10 минут, пока тортилья не схватится.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "potato",
+          "count": 450,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "eggs",
+          "count": 5,
+          "gauge": "шт."
+        }
+      ]
     }
   ],
   "historyDescription": "Испанская тортилья строится на простом сочетании картофеля и яиц. Домашняя версия с зеленью получается чуть свежее, но сохраняет главное: плотную, удобную для нарезки структуру.",

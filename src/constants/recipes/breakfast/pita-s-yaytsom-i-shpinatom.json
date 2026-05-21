@@ -103,6 +103,9 @@
       "equipmentKey": "cutBoard"
     },
     {
+      "equipmentKey": "grater"
+    },
+    {
       "equipmentKey": "bowl"
     }
   ],
@@ -136,6 +139,11 @@
           "gauge": "ст.л."
         },
         {
+          "ingredientKey": "shpinatSvezhiy",
+          "count": 80,
+          "gauge": "г"
+        },
+        {
           "ingredientKey": "eggs",
           "count": 3,
           "gauge": "шт."
@@ -154,7 +162,18 @@
     },
     {
       "description": "Готовьте начинку, помешивая лопаткой, пока яйца не схватятся мягкими хлопьями.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "eggs",
+          "count": 3,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "shpinatSvezhiy",
+          "count": 80,
+          "gauge": "г"
+        }
+      ]
     },
     {
       "description": "Прогрейте питу, наполните яйцами со шпинатом, томатами и сыром.",
@@ -163,6 +182,16 @@
           "ingredientKey": "pitaIliChiabatta",
           "count": 2,
           "gauge": "шт."
+        },
+        {
+          "ingredientKey": "tomatyCherri",
+          "count": 120,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "hardCheese",
+          "count": 40,
+          "gauge": "г"
         }
       ]
     }

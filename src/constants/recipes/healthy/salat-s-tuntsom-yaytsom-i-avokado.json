@@ -103,6 +103,9 @@
       "equipmentKey": "spoon"
     },
     {
+      "equipmentKey": "fork"
+    },
+    {
       "equipmentKey": "sieve"
     }
   ],
@@ -179,6 +182,26 @@
           "ingredientKey": "arugula",
           "count": 60,
           "gauge": "г"
+        },
+        {
+          "ingredientKey": "tunetsVSobstvennomSoku",
+          "count": 1,
+          "gauge": "банка"
+        },
+        {
+          "ingredientKey": "avocado",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "cucumber",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "eggs",
+          "count": 2,
+          "gauge": "шт."
         }
       ]
     }

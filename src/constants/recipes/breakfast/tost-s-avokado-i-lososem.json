@@ -90,12 +90,15 @@
       "equipmentKey": "fork"
     },
     {
+      "equipmentKey": "pan"
+    },
+    {
       "equipmentKey": "plate"
     }
   ],
   "cookingRecipe": [
     {
-      "description": "Подсушите ломтики хлеба до легкого хруста удобным способом.",
+      "description": "Подсушите ломтики хлеба на сухой сковороде до легкого хруста.",
       "ingredients": [
         {
           "ingredientKey": "whiteBread",

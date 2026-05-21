@@ -100,6 +100,9 @@
       "equipmentKey": "whisk"
     },
     {
+      "equipmentKey": "grater"
+    },
+    {
       "equipmentKey": "knife"
     },
     {
@@ -162,7 +165,28 @@
     },
     {
       "description": "Разложите брокколи и лук по ячейкам формы, залейте яичной смесью и посыпьте сыром.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "broccoli",
+          "count": 180,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "greenOnion",
+          "count": 20,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "eggs",
+          "count": 6,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "hardCheese",
+          "count": 70,
+          "gauge": "г"
+        }
+      ]
     },
     {
       "description": "Запекайте при 180 градусах 18-20 минут, пока маффины не схватятся и слегка не подрумянятся.",

@@ -1514,10 +1514,12 @@
     },
     {
       "ingredientKey": "salt",
+      "count": " ",
       "gauge": "по вкусу"
     },
     {
       "ingredientKey": "groundBlackPepper",
+      "count": " ",
       "gauge": "по вкусу"
     }
   ],
@@ -1533,6 +1535,9 @@
     },
     {
       "equipmentKey": "skovorodaSKryshkoy"
+    },
+    {
+      "equipmentKey": "pot"
     },
     {
       "equipmentKey": "spatula"
@@ -1614,10 +1619,12 @@
         },
         {
           "ingredientKey": "salt",
+          "count": " ",
           "gauge": "по вкусу"
         },
         {
           "ingredientKey": "groundBlackPepper",
+          "count": " ",
           "gauge": "по вкусу"
         }
       ]
