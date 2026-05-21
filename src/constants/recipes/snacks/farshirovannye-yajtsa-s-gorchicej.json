@@ -61,10 +61,12 @@
     },
     {
       "ingredientKey": "salt",
+      "count": " ",
       "gauge": "по вкусу"
     },
     {
       "ingredientKey": "groundBlackPepper",
+      "count": " ",
       "gauge": "по вкусу"
     }
   ],
@@ -117,10 +119,12 @@
         },
         {
           "ingredientKey": "salt",
+          "count": " ",
           "gauge": "по вкусу"
         },
         {
           "ingredientKey": "groundBlackPepper",
+          "count": " ",
           "gauge": "по вкусу"
         }
       ]
@@ -129,7 +133,18 @@
       "img": null,
       "video": null,
       "description": "Наполните половинки белков начинкой, украсьте оставшимся укропом и охладите до подачи.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "eggs",
+          "count": 6,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "dill",
+          "count": 10,
+          "gauge": "г"
+        }
+      ]
     }
   ],
   "historyDescription": "Фаршированные яйца — одна из самых устойчивых праздничных закусок домашней кухни. Простая основа позволяет менять вкус начинки, а горчица добавляет желткам легкую остроту и делает блюдо выразительнее.",

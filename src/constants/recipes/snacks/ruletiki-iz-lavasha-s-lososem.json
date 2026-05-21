@@ -133,7 +133,23 @@
       "img": null,
       "video": null,
       "description": "Плотно сверните рулеты, охладите 20 минут и нарежьте порционными кусочками.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "lavash",
+          "count": 2,
+          "gauge": "листа"
+        },
+        {
+          "ingredientKey": "salmonSalted",
+          "count": 180,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "creamCheese",
+          "count": 180,
+          "gauge": "г"
+        }
+      ]
     }
   ],
   "historyDescription": "Рулеты из лаваша стали популярной домашней закуской благодаря простоте и аккуратной подаче. Начинка с лососем и сливочным сыром напоминает классические канапе, но готовится быстрее и легко нарезается на порции.",

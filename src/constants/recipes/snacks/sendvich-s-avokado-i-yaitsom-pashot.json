@@ -520,6 +520,9 @@
     },
     {
       "equipmentKey": "kastryulyaDlyaYaytsaPashot"
+    },
+    {
+      "equipmentKey": "fork"
     }
   ],
   "cookingRecipe": [
@@ -571,7 +574,38 @@
       "img": null,
       "video": null,
       "description": "Намажьте авокадо на тост, сверху выложите бекон и яйцо пашот. Посыпьте солью и перцем.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "hlebChiabatta",
+          "gauge": "шт.",
+          "count": 1
+        },
+        {
+          "ingredientKey": "avocado",
+          "gauge": "шт.",
+          "count": 0.5
+        },
+        {
+          "ingredientKey": "bekon",
+          "gauge": "г",
+          "count": 50
+        },
+        {
+          "ingredientKey": "yaytso",
+          "gauge": "шт.",
+          "count": 1
+        },
+        {
+          "ingredientKey": "salt",
+          "gauge": "щепотка",
+          "count": 1
+        },
+        {
+          "ingredientKey": "chernyyPerets",
+          "gauge": "щепотка",
+          "count": 1
+        }
+      ]
     }
   ],
   "tips": ["Для идеального яйца пашот используйте очень свежие яйца.", "Можно заменить бекон на слабосоленую семгу."],

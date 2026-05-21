@@ -174,7 +174,18 @@
       "img": null,
       "video": null,
       "description": "Подавайте тарталетки сразу после приготовления, чтобы основа оставалась хрустящей.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "tartlets",
+          "count": 12,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "redCaviar",
+          "count": 80,
+          "gauge": "г"
+        }
+      ]
     }
   ],
   "tips": [

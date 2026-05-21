@@ -66,6 +66,7 @@
     },
     {
       "ingredientKey": "salt",
+      "count": " ",
       "gauge": "по вкусу"
     }
   ],
@@ -96,6 +97,7 @@
         },
         {
           "ingredientKey": "salt",
+          "count": " ",
           "gauge": "по вкусу"
         }
       ]
@@ -117,6 +119,11 @@
       "video": null,
       "description": "Разомните фету с чесноком и петрушкой, выложите начинку на баклажаны и сверните рулетики.",
       "ingredients": [
+        {
+          "ingredientKey": "eggplant",
+          "count": 2,
+          "gauge": "шт."
+        },
         {
           "ingredientKey": "fetaCheese",
           "count": 150,

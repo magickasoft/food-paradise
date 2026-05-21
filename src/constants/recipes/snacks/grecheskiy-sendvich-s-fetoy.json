@@ -532,6 +532,9 @@
     },
     {
       "equipmentKey": "doskaDlyaNarezki"
+    },
+    {
+      "equipmentKey": "fork"
     }
   ],
   "cookingRecipe": [
@@ -593,6 +596,26 @@
           "ingredientKey": "pitaIliChiabatta",
           "gauge": "шт.",
           "count": 1
+        },
+        {
+          "ingredientKey": "fetaCheese",
+          "gauge": "г",
+          "count": 80
+        },
+        {
+          "ingredientKey": "cucumber",
+          "gauge": "шт.",
+          "count": 0.5
+        },
+        {
+          "ingredientKey": "tomato",
+          "gauge": "шт.",
+          "count": 0.5
+        },
+        {
+          "ingredientKey": "krasnyyLuk",
+          "gauge": "шт.",
+          "count": 0.25
         },
         {
           "ingredientKey": "olives",

@@ -76,6 +76,7 @@
     },
     {
       "ingredientKey": "salt",
+      "count": " ",
       "gauge": "по вкусу"
     }
   ],
@@ -106,6 +107,7 @@
         },
         {
           "ingredientKey": "salt",
+          "count": " ",
           "gauge": "по вкусу"
         }
       ]

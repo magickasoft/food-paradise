@@ -66,6 +66,7 @@
     },
     {
       "ingredientKey": "groundBlackPepper",
+      "count": " ",
       "gauge": "по вкусу"
     }
   ],
@@ -78,6 +79,9 @@
     },
     {
       "equipmentKey": "spoon"
+    },
+    {
+      "equipmentKey": "pan"
     },
     {
       "equipmentKey": "fridge"
@@ -111,6 +115,7 @@
         },
         {
           "ingredientKey": "groundBlackPepper",
+          "count": " ",
           "gauge": "по вкусу"
         }
       ]
@@ -131,7 +136,18 @@
       "img": null,
       "video": null,
       "description": "Охладите шарики 20 минут, чтобы они стали плотнее и лучше держали форму.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "creamCheese",
+          "count": 180,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "hardCheese",
+          "count": 120,
+          "gauge": "г"
+        }
+      ]
     }
   ],
   "historyDescription": "Сырные шарики — домашний вариант порционных фуршетных закусок. Их удобно готовить заранее, менять обсыпку и подавать маленькими порциями без нарезки и сложной сервировки.",
