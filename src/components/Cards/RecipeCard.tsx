@@ -99,6 +99,7 @@ const CharItem = styled.div`
 `
 
 export type RecipeCardProps = {
+  recipeKey: string
   name: string
   img: string | null
   title: string
@@ -110,12 +111,12 @@ export type RecipeCardProps = {
 
 const levels = ['Легко', 'Средне', 'Сложно']
 
-export const RecipeCard = ({ name, img, title, description, time, level, variant = 'base' }: RecipeCardProps) => {
+export const RecipeCard = ({ recipeKey, img, title, description, time, level, variant = 'base' }: RecipeCardProps) => {
   return (
     <Link
       href={{
         pathname: '/recipe/[name]',
-        params: { name },
+        params: { name: recipeKey },
       }}
       style={{ textDecoration: 'none', color: 'inherit' }}
     >
