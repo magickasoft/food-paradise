@@ -1,0 +1,169 @@
+{
+  "metaSeo": {
+    "title": "Лосось с лимоном и укропом на решетке | Рецепт на мангале",
+    "description": "Лосось на решетке с лимоном, укропом и оливковым маслом. Рыба готовится быстро и остается сочной.",
+    "keywords": [
+      "лосось с лимоном и укропом на решетке",
+      "рецепт на мангале",
+      "гриль рецепт"
+    ],
+    "og:title": "Лосось с лимоном и укропом на решетке | Рецепт на мангале",
+    "og:description": "Лосось на решетке с лимоном, укропом и оливковым маслом. Рыба готовится быстро и остается сочной.",
+    "og:url": "https://food-paradise.ru/recipe/losos-s-limonom-i-ukropom-na-reshetke",
+    "twitterTitle": "Лосось с лимоном и укропом на решетке | Рецепт на мангале",
+    "twitterDescription": "Лосось на решетке с лимоном, укропом и оливковым маслом. Рыба готовится быстро и остается сочной.",
+    "twitterUrl": "https://food-paradise.ru/recipe/losos-s-limonom-i-ukropom-na-reshetke",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/losos-s-limonom-i-ukropom-na-reshetke",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "лосось с лимоном и укропом на решетке",
+    "лосось с лимоном и укропом на решетке рецепт",
+    "лосось с лимоном и укропом на решетке на мангале"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "losos-s-limonom-i-ukropom-na-reshetke",
+  "name": "Лосось с лимоном и укропом на решетке",
+  "img": null,
+  "title": "Лосось с лимоном и укропом на решетке",
+  "description": "Лосось на решетке с лимоном, укропом и оливковым маслом. Рыба готовится быстро и остается сочной.",
+  "calories": 390,
+  "preparation": 15,
+  "time": 35,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "losos",
+      "count": 800,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "lemonJuice",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "dill",
+      "count": 20,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "oliveOil",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "salt",
+      "count": 1,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.5,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "mangalIliGril"
+    },
+    {
+      "equipmentKey": "reshetkaGril"
+    },
+    {
+      "equipmentKey": "glubokayaMiskaDlyaMarinovaniya"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "kuhonnyeSchiptsy"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Нарежьте лосось порционными кусками и обсушите. Кожу можно оставить, она поможет удержать рыбу.",
+      "ingredients": [
+        {
+          "ingredientKey": "losos",
+          "count": 800,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "Смешайте лимонный сок, рубленый укроп, оливковое масло, соль и перец.",
+      "ingredients": [
+        {
+          "ingredientKey": "lemonJuice",
+          "count": 2,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "dill",
+          "count": 20,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "oliveOil",
+          "count": 2,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "salt",
+          "count": 1,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.5,
+          "gauge": "ч.л."
+        }
+      ]
+    },
+    {
+      "description": "Смажьте рыбу маринадом и оставьте на 10-15 минут, пока решетка хорошо прогревается.",
+      "ingredients": []
+    },
+    {
+      "description": "Жарьте лосось на решетке 3-4 минуты со стороны кожи и 2-3 минуты с другой стороны. Не пересушивайте.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Лосось на решетке не требует долгого маринования: жирная рыба сама по себе хорошо переносит жар. Лимон и укроп добавляют свежесть и не спорят с дымным ароматом.",
+  "tips": [
+    "Решетку смажьте маслом и хорошо прогрейте, чтобы рыба не прилипла.",
+    "Переворачивайте лосось один раз, когда нижняя сторона уже схватилась.",
+    "Не используйте остатки маринада после сырой рыбы без прогрева."
+  ],
+  "serving": "Подавайте с лимоном, зеленью и овощами гриль.",
+  "variations": [
+    {
+      "name": "С розмарином",
+      "changes": "Замените укроп свежим розмарином."
+    },
+    {
+      "name": "С чесноком",
+      "changes": "Добавьте 1 измельченный зубчик чеснока в маринад."
+    }
+  ],
+  "comments": []
+}

@@ -1,0 +1,169 @@
+{
+  "metaSeo": {
+    "title": "Тофу-гриль с кунжутным маринадом | Рецепт на мангале",
+    "description": "Плотный тофу на решетке в соевом маринаде с кунжутным маслом и имбирем.",
+    "keywords": [
+      "тофу-гриль с кунжутным маринадом",
+      "рецепт на мангале",
+      "гриль рецепт"
+    ],
+    "og:title": "Тофу-гриль с кунжутным маринадом | Рецепт на мангале",
+    "og:description": "Плотный тофу на решетке в соевом маринаде с кунжутным маслом и имбирем.",
+    "og:url": "https://food-paradise.ru/recipe/tofu-gril-s-kunzhutnym-marinadom",
+    "twitterTitle": "Тофу-гриль с кунжутным маринадом | Рецепт на мангале",
+    "twitterDescription": "Плотный тофу на решетке в соевом маринаде с кунжутным маслом и имбирем.",
+    "twitterUrl": "https://food-paradise.ru/recipe/tofu-gril-s-kunzhutnym-marinadom",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/tofu-gril-s-kunzhutnym-marinadom",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "тофу-гриль с кунжутным маринадом",
+    "тофу-гриль с кунжутным маринадом рецепт",
+    "тофу-гриль с кунжутным маринадом на мангале"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "tofu-gril-s-kunzhutnym-marinadom",
+  "name": "Тофу-гриль с кунжутным маринадом",
+  "img": null,
+  "title": "Тофу-гриль с кунжутным маринадом",
+  "description": "Плотный тофу на решетке в соевом маринаде с кунжутным маслом и имбирем.",
+  "calories": 260,
+  "preparation": 15,
+  "time": 70,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "tofu",
+      "count": 600,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "soevyySous",
+      "count": 80,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "kunzhutnoeMaslo",
+      "count": 1.5,
+      "gauge": "ст.л"
+    },
+    {
+      "ingredientKey": "svezhiyImbir",
+      "count": 2,
+      "gauge": "см"
+    },
+    {
+      "ingredientKey": "kunzhut",
+      "count": 2,
+      "gauge": "ч.л"
+    },
+    {
+      "ingredientKey": "oliveOil",
+      "count": 1,
+      "gauge": "ст.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "mangalIliGril"
+    },
+    {
+      "equipmentKey": "reshetkaGril"
+    },
+    {
+      "equipmentKey": "bowl"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "kuhonnyeSchiptsy"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Нарежьте тофу пластинами толщиной 1.5-2 см и промокните полотенцем.",
+      "ingredients": [
+        {
+          "ingredientKey": "tofu",
+          "count": 600,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "Смешайте соевый соус, кунжутное масло, тертый имбирь, оливковое масло и половину кунжута.",
+      "ingredients": [
+        {
+          "ingredientKey": "soevyySous",
+          "count": 80,
+          "gauge": "мл"
+        },
+        {
+          "ingredientKey": "kunzhutnoeMaslo",
+          "count": 1.5,
+          "gauge": "ст.л"
+        },
+        {
+          "ingredientKey": "svezhiyImbir",
+          "count": 2,
+          "gauge": "см"
+        },
+        {
+          "ingredientKey": "oliveOil",
+          "count": 1,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "kunzhut",
+          "count": 2,
+          "gauge": "ч.л"
+        }
+      ]
+    },
+    {
+      "description": "Замаринуйте тофу на 20-30 минут, один раз аккуратно перевернув пластины.",
+      "ingredients": []
+    },
+    {
+      "description": "Жарьте тофу на решетке по 2-3 минуты с каждой стороны, пока появятся румяные полоски.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Тофу хорошо работает на гриле, если его нарезать крупно и дать впитать соевый маринад. Кунжутное масло добавляет насыщенный аромат, а решетка дает нужную корочку.",
+  "tips": [
+    "Берите плотный тофу, мягкий будет ломаться на решетке.",
+    "Не переворачивайте пластины слишком рано.",
+    "Остатки маринада можно прогреть и подать отдельно."
+  ],
+  "serving": "Подавайте с овощами гриль и зеленью.",
+  "variations": [
+    {
+      "name": "Острее",
+      "changes": "Добавьте красный перец хлопьями."
+    },
+    {
+      "name": "С лаймом",
+      "changes": "Замените часть соевого соуса соком лайма."
+    }
+  ],
+  "comments": []
+}

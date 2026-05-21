@@ -1,0 +1,166 @@
+{
+  "metaSeo": {
+    "title": "Картофель в фольге с укропом | Рецепт на мангале",
+    "description": "Картофель на углях в фольге со сливочным маслом, укропом и чесноком.",
+    "keywords": [
+      "картофель в фольге с укропом",
+      "рецепт на мангале",
+      "гриль рецепт"
+    ],
+    "og:title": "Картофель в фольге с укропом | Рецепт на мангале",
+    "og:description": "Картофель на углях в фольге со сливочным маслом, укропом и чесноком.",
+    "og:url": "https://food-paradise.ru/recipe/kartofel-v-folge-s-ukropom",
+    "twitterTitle": "Картофель в фольге с укропом | Рецепт на мангале",
+    "twitterDescription": "Картофель на углях в фольге со сливочным маслом, укропом и чесноком.",
+    "twitterUrl": "https://food-paradise.ru/recipe/kartofel-v-folge-s-ukropom",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/kartofel-v-folge-s-ukropom",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "картофель в фольге с укропом",
+    "картофель в фольге с укропом рецепт",
+    "картофель в фольге с укропом на мангале"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "kartofel-v-folge-s-ukropom",
+  "name": "Картофель в фольге с укропом",
+  "img": null,
+  "title": "Картофель в фольге с укропом",
+  "description": "Картофель на углях в фольге со сливочным маслом, укропом и чесноком.",
+  "calories": 260,
+  "preparation": 15,
+  "time": 55,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "potato",
+      "count": 900,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "butter",
+      "count": 50,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "dill",
+      "count": 20,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "garlic",
+      "count": 2,
+      "gauge": "зубчика"
+    },
+    {
+      "ingredientKey": "salt",
+      "count": 1,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.5,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "mangalIliGril"
+    },
+    {
+      "equipmentKey": "folga"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "kuhonnyeSchiptsy"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Хорошо вымойте картофель и нарежьте крупными дольками. Молодой картофель можно не чистить.",
+      "ingredients": [
+        {
+          "ingredientKey": "potato",
+          "count": 900,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "Смешайте мягкое сливочное масло, рубленый укроп, измельченный чеснок, соль и перец.",
+      "ingredients": [
+        {
+          "ingredientKey": "butter",
+          "count": 50,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "dill",
+          "count": 20,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "garlic",
+          "count": 2,
+          "gauge": "зубчика"
+        },
+        {
+          "ingredientKey": "salt",
+          "count": 1,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.5,
+          "gauge": "ч.л."
+        }
+      ]
+    },
+    {
+      "description": "Перемешайте картофель с маслом и заверните порциями в плотные конверты из фольги.",
+      "ingredients": []
+    },
+    {
+      "description": "Готовьте на решетке или у края углей 25-35 минут, переворачивая конверты. Проверьте мягкость ножом.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Картофель в фольге — один из самых надежных гарниров на мангале. Фольга держит пар внутри, а укропное масло делает вкус домашним.",
+  "tips": [
+    "Не кладите конверты прямо в сильное пламя.",
+    "Делайте порции одинакового размера, чтобы картофель приготовился одновременно.",
+    "Открывайте фольгу осторожно: внутри горячий пар."
+  ],
+  "serving": "Подавайте прямо в фольге или переложите в миску и добавьте зелень.",
+  "variations": [
+    {
+      "name": "С сыром",
+      "changes": "Посыпьте горячий картофель тертым сыром."
+    },
+    {
+      "name": "С паприкой",
+      "changes": "Добавьте 0.5 ч.л. копченой паприки в масло."
+    }
+  ],
+  "comments": []
+}

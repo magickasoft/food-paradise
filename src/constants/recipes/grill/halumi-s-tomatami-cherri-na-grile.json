@@ -1,0 +1,159 @@
+{
+  "metaSeo": {
+    "title": "Халуми с томатами черри на гриле | Рецепт на мангале",
+    "description": "Сыр халуми и томаты черри на решетке: солоноватый сыр, сладкие томаты и быстрый жар мангала.",
+    "keywords": [
+      "халуми с томатами черри на гриле",
+      "рецепт на мангале",
+      "гриль рецепт"
+    ],
+    "og:title": "Халуми с томатами черри на гриле | Рецепт на мангале",
+    "og:description": "Сыр халуми и томаты черри на решетке: солоноватый сыр, сладкие томаты и быстрый жар мангала.",
+    "og:url": "https://food-paradise.ru/recipe/halumi-s-tomatami-cherri-na-grile",
+    "twitterTitle": "Халуми с томатами черри на гриле | Рецепт на мангале",
+    "twitterDescription": "Сыр халуми и томаты черри на решетке: солоноватый сыр, сладкие томаты и быстрый жар мангала.",
+    "twitterUrl": "https://food-paradise.ru/recipe/halumi-s-tomatami-cherri-na-grile",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/halumi-s-tomatami-cherri-na-grile",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "халуми с томатами черри на гриле",
+    "халуми с томатами черри на гриле рецепт",
+    "халуми с томатами черри на гриле на мангале"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "halumi-s-tomatami-cherri-na-grile",
+  "name": "Халуми с томатами черри на гриле",
+  "img": null,
+  "title": "Халуми с томатами черри на гриле",
+  "description": "Сыр халуми и томаты черри на решетке: солоноватый сыр, сладкие томаты и быстрый жар мангала.",
+  "calories": 330,
+  "preparation": 15,
+  "time": 20,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "syrHalumi",
+      "count": 400,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "tomatyCherri",
+      "count": 16,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "oliveOil",
+      "count": 1.5,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "basil",
+      "count": 15,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.25,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "mangalIliGril"
+    },
+    {
+      "equipmentKey": "reshetkaGril"
+    },
+    {
+      "equipmentKey": "bowl"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "kuhonnyeSchiptsy"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Нарежьте халуми ломтиками толщиной около 1 см, томаты черри оставьте целыми.",
+      "ingredients": [
+        {
+          "ingredientKey": "syrHalumi",
+          "count": 400,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "tomatyCherri",
+          "count": 16,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "description": "Смешайте оливковое масло с рубленым базиликом и черным перцем.",
+      "ingredients": [
+        {
+          "ingredientKey": "oliveOil",
+          "count": 1.5,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "basil",
+          "count": 15,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.25,
+          "gauge": "ч.л."
+        }
+      ]
+    },
+    {
+      "description": "Смажьте халуми и томаты ароматным маслом. Соль не добавляйте: халуми уже соленый.",
+      "ingredients": []
+    },
+    {
+      "description": "Жарьте халуми на решетке по 1-2 минуты с каждой стороны, томаты прогрейте рядом до легких подпалин.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Халуми ценят за то, что он не плавится сразу, а подрумянивается на жаре. С томатами черри получается быстрый теплый салат прямо с решетки.",
+  "tips": [
+    "Не режьте халуми слишком тонко, иначе ломтики пересохнут.",
+    "Сыр жарится быстро: решетка должна быть горячей и чистой.",
+    "Томаты снимайте, как только кожица начала лопаться."
+  ],
+  "serving": "Подавайте горячим, посыпав свежим базиликом.",
+  "variations": [
+    {
+      "name": "С лимоном",
+      "changes": "Сбрызните готовый сыр несколькими каплями лимонного сока."
+    },
+    {
+      "name": "С овощами",
+      "changes": "Добавьте ломтики кабачка или перца."
+    }
+  ],
+  "comments": []
+}

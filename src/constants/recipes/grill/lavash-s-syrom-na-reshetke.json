@@ -1,0 +1,163 @@
+{
+  "metaSeo": {
+    "title": "Лаваш с сыром на решетке | Рецепт на мангале",
+    "description": "Тонкий лаваш с сыром и зеленью, подрумяненный на решетке мангала.",
+    "keywords": [
+      "лаваш с сыром на решетке",
+      "рецепт на мангале",
+      "гриль рецепт"
+    ],
+    "og:title": "Лаваш с сыром на решетке | Рецепт на мангале",
+    "og:description": "Тонкий лаваш с сыром и зеленью, подрумяненный на решетке мангала.",
+    "og:url": "https://food-paradise.ru/recipe/lavash-s-syrom-na-reshetke",
+    "twitterTitle": "Лаваш с сыром на решетке | Рецепт на мангале",
+    "twitterDescription": "Тонкий лаваш с сыром и зеленью, подрумяненный на решетке мангала.",
+    "twitterUrl": "https://food-paradise.ru/recipe/lavash-s-syrom-na-reshetke",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/lavash-s-syrom-na-reshetke",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "лаваш с сыром на решетке",
+    "лаваш с сыром на решетке рецепт",
+    "лаваш с сыром на решетке на мангале"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "lavash-s-syrom-na-reshetke",
+  "name": "Лаваш с сыром на решетке",
+  "img": null,
+  "title": "Лаваш с сыром на решетке",
+  "description": "Тонкий лаваш с сыром и зеленью, подрумяненный на решетке мангала.",
+  "calories": 360,
+  "preparation": 15,
+  "time": 20,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "lavash",
+      "count": 2,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "hardCheese",
+      "count": 180,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "greens",
+      "count": 20,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "butter",
+      "count": 20,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.25,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "mangalIliGril"
+    },
+    {
+      "equipmentKey": "reshetkaGril"
+    },
+    {
+      "equipmentKey": "bowl"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "grater"
+    },
+    {
+      "equipmentKey": "kuhonnyeSchiptsy"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Натрите сыр, зелень мелко нарежьте.",
+      "ingredients": [
+        {
+          "ingredientKey": "hardCheese",
+          "count": 180,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "greens",
+          "count": 20,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "Смешайте сыр с зеленью и черным перцем.",
+      "ingredients": [
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.25,
+          "gauge": "ч.л."
+        }
+      ]
+    },
+    {
+      "description": "Разложите начинку по лавашу, сверните плотными конвертами или рулетами и слегка смажьте сливочным маслом.",
+      "ingredients": [
+        {
+          "ingredientKey": "lavash",
+          "count": 2,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "butter",
+          "count": 20,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "Жарьте на решетке по 1-2 минуты с каждой стороны, пока лаваш не станет хрустящим, а сыр не расплавится.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Лаваш с сыром на решетке — быстрый перекус у мангала, который готовят, пока основное блюдо отдыхает. Главное — не передержать тонкое тесто.",
+  "tips": [
+    "Не кладите слишком много сыра, иначе он вытечет на угли.",
+    "Сворачивайте лаваш плотно, подворачивая края внутрь.",
+    "Жарьте на умеренном жаре, потому что лаваш подрумянивается за минуты."
+  ],
+  "serving": "Подавайте горячим, нарезав кусками.",
+  "variations": [
+    {
+      "name": "С томатами",
+      "changes": "Добавьте тонкие ломтики томата внутрь."
+    },
+    {
+      "name": "С чесноком",
+      "changes": "Добавьте немного чеснока к зелени."
+    }
+  ],
+  "comments": []
+}

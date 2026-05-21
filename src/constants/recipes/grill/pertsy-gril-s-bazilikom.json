@@ -1,0 +1,159 @@
+{
+  "metaSeo": {
+    "title": "Перцы гриль с базиликом | Рецепт на мангале",
+    "description": "Болгарские перцы на мангале с базиликом, оливковым маслом и легкой дымной сладостью.",
+    "keywords": [
+      "перцы гриль с базиликом",
+      "рецепт на мангале",
+      "гриль рецепт"
+    ],
+    "og:title": "Перцы гриль с базиликом | Рецепт на мангале",
+    "og:description": "Болгарские перцы на мангале с базиликом, оливковым маслом и легкой дымной сладостью.",
+    "og:url": "https://food-paradise.ru/recipe/pertsy-gril-s-bazilikom",
+    "twitterTitle": "Перцы гриль с базиликом | Рецепт на мангале",
+    "twitterDescription": "Болгарские перцы на мангале с базиликом, оливковым маслом и легкой дымной сладостью.",
+    "twitterUrl": "https://food-paradise.ru/recipe/pertsy-gril-s-bazilikom",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/pertsy-gril-s-bazilikom",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "перцы гриль с базиликом",
+    "перцы гриль с базиликом рецепт",
+    "перцы гриль с базиликом на мангале"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "pertsy-gril-s-bazilikom",
+  "name": "Перцы гриль с базиликом",
+  "img": null,
+  "title": "Перцы гриль с базиликом",
+  "description": "Болгарские перцы на мангале с базиликом, оливковым маслом и легкой дымной сладостью.",
+  "calories": 120,
+  "preparation": 15,
+  "time": 25,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "bolgarskiyPerets",
+      "count": 4,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "basil",
+      "count": 20,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "oliveOil",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "salt",
+      "count": 0.75,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.25,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "mangalIliGril"
+    },
+    {
+      "equipmentKey": "reshetkaGril"
+    },
+    {
+      "equipmentKey": "bowl"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "kuhonnyeSchiptsy"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Разрежьте болгарские перцы пополам, удалите семена и перегородки.",
+      "ingredients": [
+        {
+          "ingredientKey": "bolgarskiyPerets",
+          "count": 4,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "description": "Смешайте оливковое масло, рубленый базилик, соль и черный перец.",
+      "ingredients": [
+        {
+          "ingredientKey": "basil",
+          "count": 20,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "oliveOil",
+          "count": 2,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "salt",
+          "count": 0.75,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.25,
+          "gauge": "ч.л."
+        }
+      ]
+    },
+    {
+      "description": "Смажьте перцы маслом с базиликом и оставьте на 5 минут.",
+      "ingredients": []
+    },
+    {
+      "description": "Жарьте перцы на решетке 8-10 минут, переворачивая, пока кожица местами не потемнеет, а мякоть не станет мягкой.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Перцы на огне становятся сладкими и мягкими, а базилик добавляет свежий аромат. Это простая закуска, которую можно есть теплой или остывшей.",
+  "tips": [
+    "Если кожица сильно обуглилась, ее можно снять после жарки.",
+    "Не нарезайте перцы мелко: крупные половинки удобнее переворачивать.",
+    "Базилик можно добавить частично уже после жарки."
+  ],
+  "serving": "Подавайте с мясом, сыром или как часть овощной тарелки.",
+  "variations": [
+    {
+      "name": "С чесноком",
+      "changes": "Добавьте 1 измельченный зубчик чеснока в масло."
+    },
+    {
+      "name": "С бальзамиком",
+      "changes": "Сбрызните готовые перцы бальзамическим уксусом."
+    }
+  ],
+  "comments": []
+}

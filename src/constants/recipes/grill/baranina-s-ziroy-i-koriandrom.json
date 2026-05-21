@@ -1,0 +1,179 @@
+{
+  "metaSeo": {
+    "title": "Баранина с зирой и кориандром | Рецепт на мангале",
+    "description": "Ароматная баранина на шампурах с зирой, кориандром и луком. Хороший вариант для любителей насыщенного вкуса.",
+    "keywords": [
+      "баранина с зирой и кориандром",
+      "рецепт на мангале",
+      "гриль рецепт"
+    ],
+    "og:title": "Баранина с зирой и кориандром | Рецепт на мангале",
+    "og:description": "Ароматная баранина на шампурах с зирой, кориандром и луком. Хороший вариант для любителей насыщенного вкуса.",
+    "og:url": "https://food-paradise.ru/recipe/baranina-s-ziroy-i-koriandrom",
+    "twitterTitle": "Баранина с зирой и кориандром | Рецепт на мангале",
+    "twitterDescription": "Ароматная баранина на шампурах с зирой, кориандром и луком. Хороший вариант для любителей насыщенного вкуса.",
+    "twitterUrl": "https://food-paradise.ru/recipe/baranina-s-ziroy-i-koriandrom",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/baranina-s-ziroy-i-koriandrom",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "баранина с зирой и кориандром",
+    "баранина с зирой и кориандром рецепт",
+    "баранина с зирой и кориандром на мангале"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "baranina-s-ziroy-i-koriandrom",
+  "name": "Баранина с зирой и кориандром",
+  "img": null,
+  "title": "Баранина с зирой и кориандром",
+  "description": "Ароматная баранина на шампурах с зирой, кориандром и луком. Хороший вариант для любителей насыщенного вкуса.",
+  "calories": 520,
+  "preparation": 15,
+  "time": 330,
+  "level": 2,
+  "rating": 4.7,
+  "portions": 5,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "baranina",
+      "count": 1200,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "onion",
+      "count": 3,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "zira",
+      "count": 1,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "koriandrMolotyy",
+      "count": 1,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "oliveOil",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "salt",
+      "count": 1.5,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.5,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "mangalIliGril"
+    },
+    {
+      "equipmentKey": "shampuryIliReshetka"
+    },
+    {
+      "equipmentKey": "glubokayaMiskaDlyaMarinovaniya"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "kuhonnyeSchiptsy"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Нарежьте баранину кусками по 4 см, лук нарежьте полукольцами.",
+      "ingredients": [
+        {
+          "ingredientKey": "baranina",
+          "count": 1200,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "onion",
+          "count": 3,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "description": "Разомните лук с солью, добавьте зиру, кориандр, оливковое масло и черный перец.",
+      "ingredients": [
+        {
+          "ingredientKey": "zira",
+          "count": 1,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "koriandrMolotyy",
+          "count": 1,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "oliveOil",
+          "count": 2,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "salt",
+          "count": 1.5,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.5,
+          "gauge": "ч.л."
+        }
+      ]
+    },
+    {
+      "description": "Смешайте баранину с пряным луком, накройте и уберите в холодильник на 4-5 часов. Перед жаркой уберите лук с поверхности мяса.",
+      "ingredients": []
+    },
+    {
+      "description": "Нанижите мясо на шампуры и жарьте 18-22 минуты над жаркими углями, регулярно поворачивая.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Баранина с зирой и кориандром — классическое сочетание для открытого огня. Пряности подчеркивают насыщенный вкус мяса, а лук помогает маринаду лучше распределиться.",
+  "tips": [
+    "Для шашлыка берите мякоть с небольшими прослойками жира.",
+    "Маринуйте баранину в холодильнике, особенно если держите ее несколько часов.",
+    "Не оставляйте лук на шампурах: он быстро сгорит."
+  ],
+  "serving": "Подавайте с кинзой, луком и тонким лавашом.",
+  "variations": [
+    {
+      "name": "С гранатом",
+      "changes": "Добавьте 2 ст.л. гранатового соуса в маринад."
+    },
+    {
+      "name": "Острее",
+      "changes": "Добавьте щепотку красного перца хлопьями."
+    }
+  ],
+  "comments": []
+}

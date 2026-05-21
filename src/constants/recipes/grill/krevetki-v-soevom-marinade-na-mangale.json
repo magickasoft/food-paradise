@@ -1,0 +1,169 @@
+{
+  "metaSeo": {
+    "title": "Креветки в соевом маринаде на мангале | Рецепт на мангале",
+    "description": "Креветки на шпажках с соевым соусом, чесноком и лимоном. Деревянные шпажки заранее замачиваются.",
+    "keywords": [
+      "креветки в соевом маринаде на мангале",
+      "рецепт на мангале",
+      "гриль рецепт"
+    ],
+    "og:title": "Креветки в соевом маринаде на мангале | Рецепт на мангале",
+    "og:description": "Креветки на шпажках с соевым соусом, чесноком и лимоном. Деревянные шпажки заранее замачиваются.",
+    "og:url": "https://food-paradise.ru/recipe/krevetki-v-soevom-marinade-na-mangale",
+    "twitterTitle": "Креветки в соевом маринаде на мангале | Рецепт на мангале",
+    "twitterDescription": "Креветки на шпажках с соевым соусом, чесноком и лимоном. Деревянные шпажки заранее замачиваются.",
+    "twitterUrl": "https://food-paradise.ru/recipe/krevetki-v-soevom-marinade-na-mangale",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/krevetki-v-soevom-marinade-na-mangale",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "креветки в соевом маринаде на мангале",
+    "креветки в соевом маринаде на мангале рецепт",
+    "креветки в соевом маринаде на мангале на мангале"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "krevetki-v-soevom-marinade-na-mangale",
+  "name": "Креветки в соевом маринаде на мангале",
+  "img": null,
+  "title": "Креветки в соевом маринаде на мангале",
+  "description": "Креветки на шпажках с соевым соусом, чесноком и лимоном. Деревянные шпажки заранее замачиваются.",
+  "calories": 240,
+  "preparation": 15,
+  "time": 55,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "krevetki",
+      "count": 700,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "soevyySous",
+      "count": 70,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "garlic",
+      "count": 2,
+      "gauge": "зубчика"
+    },
+    {
+      "ingredientKey": "lemonJuice",
+      "count": 1.5,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "oliveOil",
+      "count": 1,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "derevyannyeShpazhki",
+      "count": 10,
+      "gauge": "шт."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "mangalIliGril"
+    },
+    {
+      "equipmentKey": "derevyannyeShpazhki"
+    },
+    {
+      "equipmentKey": "bowl"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "kuhonnyeSchiptsy"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Замочите деревянные шпажки в воде на 20-30 минут. Креветки обсушите.",
+      "ingredients": [
+        {
+          "ingredientKey": "derevyannyeShpazhki",
+          "count": 10,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "krevetki",
+          "count": 700,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "Смешайте соевый соус, чеснок, лимонный сок и оливковое масло.",
+      "ingredients": [
+        {
+          "ingredientKey": "soevyySous",
+          "count": 70,
+          "gauge": "мл"
+        },
+        {
+          "ingredientKey": "garlic",
+          "count": 2,
+          "gauge": "зубчика"
+        },
+        {
+          "ingredientKey": "lemonJuice",
+          "count": 1.5,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "oliveOil",
+          "count": 1,
+          "gauge": "ст.л."
+        }
+      ]
+    },
+    {
+      "description": "Перемешайте креветки с маринадом и оставьте на 10 минут. Нанижите на шпажки, не прижимая слишком плотно.",
+      "ingredients": []
+    },
+    {
+      "description": "Жарьте креветки по 1-2 минуты с каждой стороны, пока они не станут розовыми и плотными.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Креветки на мангале готовятся почти мгновенно, поэтому главный риск — передержать их. Соевый маринад дает солоноватость и легкую глазурь без долгого ожидания.",
+  "tips": [
+    "Не используйте остатки маринада после сырых креветок как соус без кипячения.",
+    "Деревянные шпажки обязательно замачивайте, чтобы они меньше обугливались.",
+    "Креветки готовы, когда стали непрозрачными и розовыми."
+  ],
+  "serving": "Подавайте сразу, можно сбрызнуть лимонным соком.",
+  "variations": [
+    {
+      "name": "С кунжутом",
+      "changes": "Посыпьте готовые креветки кунжутом."
+    },
+    {
+      "name": "Острее",
+      "changes": "Добавьте щепотку красного перца в маринад."
+    }
+  ],
+  "comments": []
+}

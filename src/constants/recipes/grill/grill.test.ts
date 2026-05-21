@@ -63,4 +63,32 @@ describe('grill recipes', () => {
       expect(unusedMainIngredients, `${recipe.key}: main ingredients must be used in cooking steps`).toEqual([])
     }
   })
+
+  test('generated grill recipes do not contain placeholder cooking text', () => {
+    const placeholderPatterns = [
+      /основной продукт/i,
+      /оставшиеся ингредиенты/i,
+      /стабильными углями/i,
+      /Блюда на мангале хороши/i,
+      /Не используйте остатки маринада после сырого мяса как соус без кипячения/i,
+      /Мягче вкус/i,
+    ]
+
+    const placeholderLocations = GRILL.flatMap(recipe => [
+      ...recipe.cookingRecipe.map((step, index) => ({
+        location: `${recipe.key}.cookingRecipe[${index}]`,
+        text: step.description,
+      })),
+      { location: `${recipe.key}.historyDescription`, text: recipe.historyDescription ?? '' },
+      ...(recipe.tips ?? []).map((tip, index) => ({ location: `${recipe.key}.tips[${index}]`, text: tip })),
+      ...(recipe.variations ?? []).map((variation, index) => ({
+        location: `${recipe.key}.variations[${index}]`,
+        text: `${variation.name} ${variation.changes}`,
+      })),
+    ])
+      .filter(({ text }) => placeholderPatterns.some(pattern => pattern.test(text)))
+      .map(({ location }) => location)
+
+    expect(placeholderLocations).toEqual([])
+  })
 })
