@@ -1,0 +1,184 @@
+{
+  "metaSeo": {
+    "title": "Зеленый чай с лаймом и мятой | Освежающий напиток",
+    "description": "Холодный зеленый чай с лаймом, мятой и льдом. Вкус свежий, цитрусовый и без лишней сладости.",
+    "keywords": [
+      "зеленый чай со льдом",
+      "чай с лаймом",
+      "чай с мятой",
+      "холодный чай"
+    ],
+    "og:title": "Зеленый чай с лаймом и мятой | Освежающий напиток",
+    "og:description": "Холодный зеленый чай с лаймом, мятой и льдом. Вкус свежий, цитрусовый и без лишней сладости.",
+    "og:url": "https://food-paradise.ru/recipe/zelenyy-chay-s-laymom-i-myatoj",
+    "twitterTitle": "Зеленый чай с лаймом и мятой | Освежающий напиток",
+    "twitterDescription": "Холодный зеленый чай с лаймом, мятой и льдом. Вкус свежий, цитрусовый и без лишней сладости.",
+    "twitterUrl": "https://food-paradise.ru/recipe/zelenyy-chay-s-laymom-i-myatoj",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/zelenyy-chay-s-laymom-i-myatoj",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "зеленый чай с лаймом и мятой",
+    "холодный зеленый чай",
+    "чай со льдом и мятой"
+  ],
+  "categories": [
+    {
+      "name": "refreshingDrinks"
+    }
+  ],
+  "key": "zelenyy-chay-s-laymom-i-myatoj",
+  "name": "zelenyy-chay-s-laymom-i-myatoj",
+  "img": null,
+  "title": "Зеленый чай с лаймом и мятой",
+  "description": "Холодный зеленый чай с лаймом, мятой и льдом. Вкус свежий, цитрусовый и без лишней сладости.",
+  "calories": 25,
+  "preparation": 10,
+  "time": 40,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 4,
+  "used": [
+    0,
+    0,
+    6
+  ],
+  "ingredients": [
+    {
+      "ingredientKey": "zelenyyChay",
+      "count": 2,
+      "gauge": "ч.л"
+    },
+    {
+      "ingredientKey": "hotWater",
+      "count": 600,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "lime",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "myataSvezhaya",
+      "count": 15,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "sugar",
+      "count": 1,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "led",
+      "count": 1,
+      "gauge": "стакан"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "chaynik"
+    },
+    {
+      "equipmentKey": "kuvshin"
+    },
+    {
+      "equipmentKey": "sieve"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "spoon"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Заварите зеленый чай горячей водой на 4 минуты, затем процедите.",
+      "ingredients": [
+        {
+          "ingredientKey": "zelenyyChay",
+          "count": 2,
+          "gauge": "ч.л"
+        },
+        {
+          "ingredientKey": "hotWater",
+          "count": 600,
+          "gauge": "мл"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лайм нарежьте кружочками, мяту слегка помните.",
+      "ingredients": [
+        {
+          "ingredientKey": "lime",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "myataSvezhaya",
+          "count": 15,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "В теплый чай вмешайте сахар, затем добавьте лайм и мяту.",
+      "ingredients": [
+        {
+          "ingredientKey": "sugar",
+          "count": 1,
+          "gauge": "ст.л."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Охладите напиток и подавайте со льдом.",
+      "ingredients": [
+        {
+          "ingredientKey": "led",
+          "count": 1,
+          "gauge": "стакан"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Чай со льдом появился как способ сделать привычную заварку летним напитком. Лайм и мята делают зеленый чай легче и ярче.",
+  "tips": [
+    "Сахар легче растворяется, пока чай теплый.",
+    "Не кладите лайм в кипяток, чтобы кожура не дала горечь.",
+    "Для более мягкого вкуса используйте лимон."
+  ],
+  "serving": "Подавайте в высоких стаканах с большим количеством льда.",
+  "variations": [
+    {
+      "name": "Газированный",
+      "changes": "Перед подачей разбавьте 200 мл газированной воды."
+    },
+    {
+      "name": "Ягодный",
+      "changes": "Добавьте горсть малины в кувшин."
+    }
+  ],
+  "comments": []
+}

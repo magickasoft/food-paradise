@@ -1,0 +1,168 @@
+{
+  "metaSeo": {
+    "title": "Яблочно-мятная вода | Освежающий напиток",
+    "description": "Настоянная вода с яблоком, лимоном, мятой и льдом. Напиток легкий, прозрачный и без лишней сладости.",
+    "keywords": [
+      "яблочная вода",
+      "вода с яблоком",
+      "напиток с мятой",
+      "освежающая вода"
+    ],
+    "og:title": "Яблочно-мятная вода | Освежающий напиток",
+    "og:description": "Настоянная вода с яблоком, лимоном, мятой и льдом. Напиток легкий, прозрачный и без лишней сладости.",
+    "og:url": "https://food-paradise.ru/recipe/yablochno-myatnaya-voda",
+    "twitterTitle": "Яблочно-мятная вода | Освежающий напиток",
+    "twitterDescription": "Настоянная вода с яблоком, лимоном, мятой и льдом. Напиток легкий, прозрачный и без лишней сладости.",
+    "twitterUrl": "https://food-paradise.ru/recipe/yablochno-myatnaya-voda",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/yablochno-myatnaya-voda",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "вода с яблоком и мятой",
+    "яблочно мятная вода",
+    "освежающий напиток с яблоком"
+  ],
+  "categories": [
+    {
+      "name": "refreshingDrinks"
+    }
+  ],
+  "key": "yablochno-myatnaya-voda",
+  "name": "yablochno-myatnaya-voda",
+  "img": null,
+  "title": "Яблочно-мятная вода",
+  "description": "Настоянная вода с яблоком, лимоном, мятой и льдом. Напиток легкий, прозрачный и без лишней сладости.",
+  "calories": 30,
+  "preparation": 10,
+  "time": 20,
+  "level": 1,
+  "rating": 4.6,
+  "portions": 4,
+  "used": [
+    0,
+    0,
+    7
+  ],
+  "ingredients": [
+    {
+      "ingredientKey": "yabloki",
+      "count": 180,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "lemon",
+      "count": 0.5,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "myataSvezhaya",
+      "count": 12,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "voda6",
+      "count": 1,
+      "gauge": "л"
+    },
+    {
+      "ingredientKey": "led",
+      "count": 1,
+      "gauge": "стакан"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "kuvshin"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "woodenSpoon"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Яблоко нарежьте тонкими ломтиками, лимон нарежьте полукружьями.",
+      "ingredients": [
+        {
+          "ingredientKey": "yabloki",
+          "count": 180,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "lemon",
+          "count": 0.5,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Положите яблоко, лимон и мяту в кувшин.",
+      "ingredients": [
+        {
+          "ingredientKey": "myataSvezhaya",
+          "count": 12,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Залейте холодной водой и оставьте на 10 минут.",
+      "ingredients": [
+        {
+          "ingredientKey": "voda6",
+          "count": 1,
+          "gauge": "л"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте лед перед подачей.",
+      "ingredients": [
+        {
+          "ingredientKey": "led",
+          "count": 1,
+          "gauge": "стакан"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Фруктовая вода — простой способ сделать обычную подачу воды более ароматной без варки сиропов и сложной подготовки.",
+  "tips": [
+    "Яблоко режьте тонко, так оно быстрее отдаст аромат.",
+    "Не держите лимон в воде слишком долго, если не любите горчинку.",
+    "Подойдут кисло-сладкие яблоки."
+  ],
+  "serving": "Подавайте в кувшине, оставив фруктовые ломтики внутри.",
+  "variations": [
+    {
+      "name": "С корицей",
+      "changes": "Добавьте щепотку корицы в стакан."
+    },
+    {
+      "name": "Газированная",
+      "changes": "Замените воду газированной."
+    }
+  ],
+  "comments": []
+}

@@ -1,0 +1,171 @@
+{
+  "metaSeo": {
+    "title": "Кокосовый напиток с манго и чиа | Освежающий напиток",
+    "description": "Холодный кокосовый напиток с манго, семенами чиа и лаймом. Он получается густым, мягким и слегка десертным.",
+    "keywords": [
+      "кокосовый напиток",
+      "манго с чиа",
+      "напиток с кокосовым молоком",
+      "тропический напиток"
+    ],
+    "og:title": "Кокосовый напиток с манго и чиа | Освежающий напиток",
+    "og:description": "Холодный кокосовый напиток с манго, семенами чиа и лаймом. Он получается густым, мягким и слегка десертным.",
+    "og:url": "https://food-paradise.ru/recipe/kokosovyy-napitok-s-mango-i-chia",
+    "twitterTitle": "Кокосовый напиток с манго и чиа | Освежающий напиток",
+    "twitterDescription": "Холодный кокосовый напиток с манго, семенами чиа и лаймом. Он получается густым, мягким и слегка десертным.",
+    "twitterUrl": "https://food-paradise.ru/recipe/kokosovyy-napitok-s-mango-i-chia",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/kokosovyy-napitok-s-mango-i-chia",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "кокосовый напиток с манго",
+    "манго с чиа напиток",
+    "кокосовое молоко с манго"
+  ],
+  "categories": [
+    {
+      "name": "refreshingDrinks"
+    }
+  ],
+  "key": "kokosovyy-napitok-s-mango-i-chia",
+  "name": "kokosovyy-napitok-s-mango-i-chia",
+  "img": null,
+  "title": "Кокосовый напиток с манго и чиа",
+  "description": "Холодный кокосовый напиток с манго, семенами чиа и лаймом. Он получается густым, мягким и слегка десертным.",
+  "calories": 210,
+  "preparation": 10,
+  "time": 25,
+  "level": 1,
+  "rating": 4.8,
+  "portions": 4,
+  "used": [
+    5,
+    12,
+    26
+  ],
+  "ingredients": [
+    {
+      "ingredientKey": "kokosovoeMoloko",
+      "count": 400,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "mango",
+      "count": 250,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "semenaChia",
+      "count": 2,
+      "gauge": "ст.л"
+    },
+    {
+      "ingredientKey": "lime",
+      "count": 0.5,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "led",
+      "count": 0.5,
+      "gauge": "стакана"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "blender"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "spoon"
+    },
+    {
+      "equipmentKey": "kuvshin"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Манго нарежьте кубиками, из лайма выжмите сок.",
+      "ingredients": [
+        {
+          "ingredientKey": "mango",
+          "count": 250,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "lime",
+          "count": 0.5,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Взбейте манго с кокосовым молоком и лаймовым соком.",
+      "ingredients": [
+        {
+          "ingredientKey": "kokosovoeMoloko",
+          "count": 400,
+          "gauge": "мл"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте семена чиа и оставьте напиток на 10 минут.",
+      "ingredients": [
+        {
+          "ingredientKey": "semenaChia",
+          "count": 2,
+          "gauge": "ст.л"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Перед подачей добавьте лед и перемешайте.",
+      "ingredients": [
+        {
+          "ingredientKey": "led",
+          "count": 0.5,
+          "gauge": "стакана"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Напитки с чиа находятся между смузи и легким десертом: семена набухают и делают текстуру интереснее.",
+  "tips": [
+    "Перемешайте чиа через 5 минут, чтобы не было комков.",
+    "Кокосовое молоко лучше использовать охлажденным.",
+    "Если напиток загустел, добавьте немного воды."
+  ],
+  "serving": "Подавайте в широких стаканах с ложкой или трубочкой.",
+  "variations": [
+    {
+      "name": "Ягодный",
+      "changes": "Добавьте 80 г малины при взбивании."
+    },
+    {
+      "name": "Более жидкий",
+      "changes": "Влейте 150 мл холодной воды."
+    }
+  ],
+  "comments": []
+}

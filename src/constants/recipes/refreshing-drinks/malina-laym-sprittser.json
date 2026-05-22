@@ -1,0 +1,184 @@
+{
+  "metaSeo": {
+    "title": "Малиново-лаймовый спритцер | Освежающий напиток",
+    "description": "Газированный напиток с малиной, лаймом и льдом. Готовится быстро и дает яркую ягодную кислинку.",
+    "keywords": [
+      "малиновый спритцер",
+      "напиток с малиной",
+      "лаймовый напиток",
+      "газированный напиток"
+    ],
+    "og:title": "Малиново-лаймовый спритцер | Освежающий напиток",
+    "og:description": "Газированный напиток с малиной, лаймом и льдом. Готовится быстро и дает яркую ягодную кислинку.",
+    "og:url": "https://food-paradise.ru/recipe/malina-laym-sprittser",
+    "twitterTitle": "Малиново-лаймовый спритцер | Освежающий напиток",
+    "twitterDescription": "Газированный напиток с малиной, лаймом и льдом. Готовится быстро и дает яркую ягодную кислинку.",
+    "twitterUrl": "https://food-paradise.ru/recipe/malina-laym-sprittser",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/malina-laym-sprittser",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "малиновый спритцер",
+    "напиток с малиной и лаймом",
+    "малиновый лимонад"
+  ],
+  "categories": [
+    {
+      "name": "refreshingDrinks"
+    }
+  ],
+  "key": "malina-laym-sprittser",
+  "name": "malina-laym-sprittser",
+  "img": null,
+  "title": "Малиново-лаймовый спритцер",
+  "description": "Газированный напиток с малиной, лаймом и льдом. Готовится быстро и дает яркую ягодную кислинку.",
+  "calories": 55,
+  "preparation": 10,
+  "time": 10,
+  "level": 1,
+  "rating": 4.8,
+  "portions": 4,
+  "used": [
+    1,
+    0,
+    14
+  ],
+  "ingredients": [
+    {
+      "ingredientKey": "malina",
+      "count": 180,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "lime",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "sugar",
+      "count": 1.5,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "gazirovannayaVoda",
+      "count": 800,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "led",
+      "count": 1,
+      "gauge": "стакан"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "bowl"
+    },
+    {
+      "equipmentKey": "sieve"
+    },
+    {
+      "equipmentKey": "kuvshin"
+    },
+    {
+      "equipmentKey": "spoon"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Малину разомните с сахаром и соком половины лайма.",
+      "ingredients": [
+        {
+          "ingredientKey": "malina",
+          "count": 180,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "sugar",
+          "count": 1.5,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "lime",
+          "count": 0.5,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите малиновую основу через сито в кувшин.",
+      "ingredients": [
+        {
+          "ingredientKey": "malina",
+          "count": 180,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Оставшуюся половину лайма нарежьте тонкими ломтиками и добавьте в кувшин.",
+      "ingredients": [
+        {
+          "ingredientKey": "lime",
+          "count": 0.5,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Влейте газированную воду, положите лед и аккуратно перемешайте.",
+      "ingredients": [
+        {
+          "ingredientKey": "gazirovannayaVoda",
+          "count": 800,
+          "gauge": "мл"
+        },
+        {
+          "ingredientKey": "led",
+          "count": 1,
+          "gauge": "стакан"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Спритцеры строятся на простом сочетании фруктовой основы и газированной воды. Домашняя версия позволяет регулировать сладость и кислотность.",
+  "tips": [
+    "Вливайте газированную воду в самом конце, чтобы сохранить пузырьки.",
+    "Малину можно заменить смесью ягод.",
+    "Не перемешивайте слишком активно после добавления газа."
+  ],
+  "serving": "Подавайте сразу после сборки, пока напиток активно шипит.",
+  "variations": [
+    {
+      "name": "С мятой",
+      "changes": "Добавьте 6-8 листиков мяты в кувшин."
+    },
+    {
+      "name": "Мягче",
+      "changes": "Замените лайм лимоном."
+    }
+  ],
+  "comments": []
+}

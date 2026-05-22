@@ -1,0 +1,184 @@
+{
+  "metaSeo": {
+    "title": "Малиновый лимонад с базиликом | Освежающий напиток",
+    "description": "Домашний лимонад с малиной, лимоном и свежим базиликом. Напиток получается ярким по цвету и мягким по кислотности.",
+    "keywords": [
+      "малиновый лимонад",
+      "лимонад с базиликом",
+      "напиток с малиной",
+      "ягодный лимонад"
+    ],
+    "og:title": "Малиновый лимонад с базиликом | Освежающий напиток",
+    "og:description": "Домашний лимонад с малиной, лимоном и свежим базиликом. Напиток получается ярким по цвету и мягким по кислотности.",
+    "og:url": "https://food-paradise.ru/recipe/malinovyy-limonad-s-bazilikom",
+    "twitterTitle": "Малиновый лимонад с базиликом | Освежающий напиток",
+    "twitterDescription": "Домашний лимонад с малиной, лимоном и свежим базиликом. Напиток получается ярким по цвету и мягким по кислотности.",
+    "twitterUrl": "https://food-paradise.ru/recipe/malinovyy-limonad-s-bazilikom",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/malinovyy-limonad-s-bazilikom",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "малиновый лимонад с базиликом",
+    "домашний малиновый лимонад",
+    "напиток с малиной"
+  ],
+  "categories": [
+    {
+      "name": "refreshingDrinks"
+    }
+  ],
+  "key": "malinovyy-limonad-s-bazilikom",
+  "name": "malinovyy-limonad-s-bazilikom",
+  "img": null,
+  "title": "Малиновый лимонад с базиликом",
+  "description": "Домашний лимонад с малиной, лимоном и свежим базиликом. Напиток получается ярким по цвету и мягким по кислотности.",
+  "calories": 70,
+  "preparation": 10,
+  "time": 15,
+  "level": 1,
+  "rating": 4.8,
+  "portions": 4,
+  "used": [
+    1,
+    0,
+    16
+  ],
+  "ingredients": [
+    {
+      "ingredientKey": "malina",
+      "count": 220,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "lemon",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "bazilikSvezhiy",
+      "count": 10,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "sugar",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "voda3",
+      "count": 900,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "led",
+      "count": 1,
+      "gauge": "стакан"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "blender"
+    },
+    {
+      "equipmentKey": "sieve"
+    },
+    {
+      "equipmentKey": "kuvshin"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "spoon"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Малину пробейте с сахаром в блендере.",
+      "ingredients": [
+        {
+          "ingredientKey": "malina",
+          "count": 220,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "sugar",
+          "count": 2,
+          "gauge": "ст.л."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Из лимона выжмите сок, несколько тонких кружочков оставьте для подачи.",
+      "ingredients": [
+        {
+          "ingredientKey": "lemon",
+          "count": 1,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите малиновую основу, смешайте с лимонным соком, водой и базиликом.",
+      "ingredients": [
+        {
+          "ingredientKey": "voda3",
+          "count": 900,
+          "gauge": "мл"
+        },
+        {
+          "ingredientKey": "bazilikSvezhiy",
+          "count": 10,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте лед и аккуратно перемешайте.",
+      "ingredients": [
+        {
+          "ingredientKey": "led",
+          "count": 1,
+          "gauge": "стакан"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Малина дает лимонаду насыщенный цвет и аромат, а базилик добавляет травяной акцент вместо привычной мяты.",
+  "tips": [
+    "Процеживание убирает косточки малины.",
+    "Базилик добавляйте после воды, чтобы листья не потемнели от кислоты.",
+    "Для более нежного вкуса используйте меньше лимонного сока."
+  ],
+  "serving": "Подавайте со льдом и несколькими ягодами малины.",
+  "variations": [
+    {
+      "name": "С газом",
+      "changes": "Используйте газированную воду."
+    },
+    {
+      "name": "С мятой",
+      "changes": "Замените базилик свежей мятой."
+    }
+  ],
+  "comments": []
+}

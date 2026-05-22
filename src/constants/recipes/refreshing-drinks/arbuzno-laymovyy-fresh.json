@@ -1,0 +1,166 @@
+{
+  "metaSeo": {
+    "title": "Арбузно-лаймовый фреш | Освежающий напиток",
+    "description": "Холодный арбузный напиток с лаймом и мятой. Вкус получается сочным, свежим и естественно сладким.",
+    "keywords": [
+      "арбузный фреш",
+      "арбуз с лаймом",
+      "арбузный напиток",
+      "летний фреш"
+    ],
+    "og:title": "Арбузно-лаймовый фреш | Освежающий напиток",
+    "og:description": "Холодный арбузный напиток с лаймом и мятой. Вкус получается сочным, свежим и естественно сладким.",
+    "og:url": "https://food-paradise.ru/recipe/arbuzno-laymovyy-fresh",
+    "twitterTitle": "Арбузно-лаймовый фреш | Освежающий напиток",
+    "twitterDescription": "Холодный арбузный напиток с лаймом и мятой. Вкус получается сочным, свежим и естественно сладким.",
+    "twitterUrl": "https://food-paradise.ru/recipe/arbuzno-laymovyy-fresh",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/arbuzno-laymovyy-fresh",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "арбузный фреш",
+    "арбузный напиток с лаймом",
+    "фреш из арбуза"
+  ],
+  "categories": [
+    {
+      "name": "refreshingDrinks"
+    }
+  ],
+  "key": "arbuzno-laymovyy-fresh",
+  "name": "arbuzno-laymovyy-fresh",
+  "img": null,
+  "title": "Арбузно-лаймовый фреш",
+  "description": "Холодный арбузный напиток с лаймом и мятой. Вкус получается сочным, свежим и естественно сладким.",
+  "calories": 62,
+  "preparation": 10,
+  "time": 10,
+  "level": 1,
+  "rating": 4.9,
+  "portions": 4,
+  "used": [
+    2,
+    0,
+    15
+  ],
+  "ingredients": [
+    {
+      "ingredientKey": "arbuz",
+      "count": 700,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "lime",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "myataSvezhaya",
+      "count": 10,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "led",
+      "count": 1,
+      "gauge": "стакан"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "blender"
+    },
+    {
+      "equipmentKey": "sieve"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "kuvshin"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Арбузную мякоть нарежьте кубиками и удалите крупные семечки.",
+      "ingredients": [
+        {
+          "ingredientKey": "arbuz",
+          "count": 700,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Из лайма выжмите сок, несколько тонких кружочков оставьте для подачи.",
+      "ingredients": [
+        {
+          "ingredientKey": "lime",
+          "count": 1,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Пробейте арбуз с лаймовым соком и мятой в блендере.",
+      "ingredients": [
+        {
+          "ingredientKey": "arbuz",
+          "count": 700,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "myataSvezhaya",
+          "count": 10,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "При желании процедите, добавьте лед и подавайте сразу.",
+      "ingredients": [
+        {
+          "ingredientKey": "led",
+          "count": 1,
+          "gauge": "стакан"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Арбузные напитки часто делают без дополнительной воды: спелая мякоть сама дает достаточно сока и сладости.",
+  "tips": [
+    "Используйте хорошо охлажденный арбуз.",
+    "Если арбуз водянистый, не процеживайте напиток слишком тщательно.",
+    "Лайм добавляйте постепенно и пробуйте."
+  ],
+  "serving": "Подавайте в охлажденных стаканах с кружочком лайма.",
+  "variations": [
+    {
+      "name": "С базиликом",
+      "changes": "Замените мяту базиликом."
+    },
+    {
+      "name": "С газом",
+      "changes": "Разбавьте готовый фреш 200 мл газированной воды."
+    }
+  ],
+  "comments": []
+}

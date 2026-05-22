@@ -1,0 +1,179 @@
+{
+  "metaSeo": {
+    "title": "Виноградно-лаймовый спритцер | Освежающий напиток",
+    "description": "Газированный спритцер с виноградом, лаймом и мятой. Напиток легкий, фруктовый и хорошо подходит для подачи в кувшине.",
+    "keywords": [
+      "виноградный спритцер",
+      "напиток с виноградом",
+      "лаймовый спритцер",
+      "газированный напиток"
+    ],
+    "og:title": "Виноградно-лаймовый спритцер | Освежающий напиток",
+    "og:description": "Газированный спритцер с виноградом, лаймом и мятой. Напиток легкий, фруктовый и хорошо подходит для подачи в кувшине.",
+    "og:url": "https://food-paradise.ru/recipe/vinogradno-laymovyy-sprittser",
+    "twitterTitle": "Виноградно-лаймовый спритцер | Освежающий напиток",
+    "twitterDescription": "Газированный спритцер с виноградом, лаймом и мятой. Напиток легкий, фруктовый и хорошо подходит для подачи в кувшине.",
+    "twitterUrl": "https://food-paradise.ru/recipe/vinogradno-laymovyy-sprittser",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/vinogradno-laymovyy-sprittser",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "виноградный спритцер",
+    "напиток с виноградом и лаймом",
+    "виноградный лимонад"
+  ],
+  "categories": [
+    {
+      "name": "refreshingDrinks"
+    }
+  ],
+  "key": "vinogradno-laymovyy-sprittser",
+  "name": "vinogradno-laymovyy-sprittser",
+  "img": null,
+  "title": "Виноградно-лаймовый спритцер",
+  "description": "Газированный спритцер с виноградом, лаймом и мятой. Напиток легкий, фруктовый и хорошо подходит для подачи в кувшине.",
+  "calories": 76,
+  "preparation": 10,
+  "time": 15,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 4,
+  "used": [
+    1,
+    0,
+    17
+  ],
+  "ingredients": [
+    {
+      "ingredientKey": "vinograd",
+      "count": 250,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "lime",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "myataSvezhaya",
+      "count": 10,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "gazirovannayaVoda",
+      "count": 800,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "led",
+      "count": 1,
+      "gauge": "стакан"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "blender"
+    },
+    {
+      "equipmentKey": "sieve"
+    },
+    {
+      "equipmentKey": "kuvshin"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "spoon"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Виноград пробейте в блендере и процедите через сито.",
+      "ingredients": [
+        {
+          "ingredientKey": "vinograd",
+          "count": 250,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лайм нарежьте кружочками, мяту слегка помните.",
+      "ingredients": [
+        {
+          "ingredientKey": "lime",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "myataSvezhaya",
+          "count": 10,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте виноградный сок с лаймом и мятой в кувшине.",
+      "ingredients": [
+        {
+          "ingredientKey": "vinograd",
+          "count": 250,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Влейте газированную воду, добавьте лед и подавайте сразу.",
+      "ingredients": [
+        {
+          "ingredientKey": "gazirovannayaVoda",
+          "count": 800,
+          "gauge": "мл"
+        },
+        {
+          "ingredientKey": "led",
+          "count": 1,
+          "gauge": "стакан"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Фруктовые спритцеры хороши тем, что не требуют варки сиропа: достаточно свежего сока и газированной воды.",
+  "tips": [
+    "Лучше брать виноград без косточек.",
+    "Если виноград кислый, добавьте 1 ч.л. сахара.",
+    "Газированную воду вливайте перед подачей."
+  ],
+  "serving": "Подавайте в прозрачных стаканах с несколькими ягодами винограда.",
+  "variations": [
+    {
+      "name": "С лимоном",
+      "changes": "Замените лайм лимоном."
+    },
+    {
+      "name": "С базиликом",
+      "changes": "Замените мяту базиликом."
+    }
+  ],
+  "comments": []
+}

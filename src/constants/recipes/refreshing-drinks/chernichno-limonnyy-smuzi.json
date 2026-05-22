@@ -1,0 +1,152 @@
+{
+  "metaSeo": {
+    "title": "Чернично-лимонный смузи | Освежающий напиток",
+    "description": "Холодный смузи с черникой, миндальным молоком и лимонным соком. Напиток густой, ягодный и не слишком сладкий.",
+    "keywords": [
+      "черничный смузи",
+      "смузи с миндальным молоком",
+      "черника с лимоном",
+      "ягодный напиток"
+    ],
+    "og:title": "Чернично-лимонный смузи | Освежающий напиток",
+    "og:description": "Холодный смузи с черникой, миндальным молоком и лимонным соком. Напиток густой, ягодный и не слишком сладкий.",
+    "og:url": "https://food-paradise.ru/recipe/chernichno-limonnyy-smuzi",
+    "twitterTitle": "Чернично-лимонный смузи | Освежающий напиток",
+    "twitterDescription": "Холодный смузи с черникой, миндальным молоком и лимонным соком. Напиток густой, ягодный и не слишком сладкий.",
+    "twitterUrl": "https://food-paradise.ru/recipe/chernichno-limonnyy-smuzi",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/chernichno-limonnyy-smuzi",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "чернично лимонный смузи",
+    "смузи с черникой и миндальным молоком",
+    "черничный напиток"
+  ],
+  "categories": [
+    {
+      "name": "refreshingDrinks"
+    }
+  ],
+  "key": "chernichno-limonnyy-smuzi",
+  "name": "chernichno-limonnyy-smuzi",
+  "img": null,
+  "title": "Чернично-лимонный смузи",
+  "description": "Холодный смузи с черникой, миндальным молоком и лимонным соком. Напиток густой, ягодный и не слишком сладкий.",
+  "calories": 135,
+  "preparation": 10,
+  "time": 10,
+  "level": 1,
+  "rating": 4.8,
+  "portions": 4,
+  "used": [
+    3,
+    5,
+    20
+  ],
+  "ingredients": [
+    {
+      "ingredientKey": "chernika",
+      "count": 220,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "mindalnoeMoloko",
+      "count": 300,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "lemonJuice",
+      "count": 1,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "sugar",
+      "count": 1,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "led",
+      "count": 0.5,
+      "gauge": "стакана"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "blender"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Чернику промойте и переложите в чашу блендера.",
+      "ingredients": [
+        {
+          "ingredientKey": "chernika",
+          "count": 220,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте миндальное молоко, лимонный сок и сахар.",
+      "ingredients": [
+        {
+          "ingredientKey": "mindalnoeMoloko",
+          "count": 300,
+          "gauge": "мл"
+        },
+        {
+          "ingredientKey": "lemonJuice",
+          "count": 1,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "sugar",
+          "count": 1,
+          "gauge": "ст.л."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Положите лед и взбейте до однородной текстуры.",
+      "ingredients": [
+        {
+          "ingredientKey": "led",
+          "count": 0.5,
+          "gauge": "стакана"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Черника хорошо подходит для смузи: она дает насыщенный цвет, мягкую кислинку и не требует долгой подготовки.",
+  "tips": [
+    "Замороженную чернику можно использовать без размораживания.",
+    "Если смузи слишком густой, добавьте еще 50-100 мл молока.",
+    "Лимонный сок добавляйте постепенно."
+  ],
+  "serving": "Подавайте сразу, пока напиток холодный и густой.",
+  "variations": [
+    {
+      "name": "С йогуртом",
+      "changes": "Замените половину молока натуральным йогуртом."
+    },
+    {
+      "name": "С мятой",
+      "changes": "Добавьте 4-5 листиков мяты при взбивании."
+    }
+  ],
+  "comments": []
+}

@@ -1,0 +1,184 @@
+{
+  "metaSeo": {
+    "title": "Черничный айс-ти | Освежающий напиток",
+    "description": "Холодный зеленый чай с черникой, лимоном и льдом. Напиток получается ягодным, терпким и умеренно сладким.",
+    "keywords": [
+      "черничный айс ти",
+      "холодный зеленый чай",
+      "напиток с черникой",
+      "чай со льдом"
+    ],
+    "og:title": "Черничный айс-ти | Освежающий напиток",
+    "og:description": "Холодный зеленый чай с черникой, лимоном и льдом. Напиток получается ягодным, терпким и умеренно сладким.",
+    "og:url": "https://food-paradise.ru/recipe/chernichnyy-ays-ti",
+    "twitterTitle": "Черничный айс-ти | Освежающий напиток",
+    "twitterDescription": "Холодный зеленый чай с черникой, лимоном и льдом. Напиток получается ягодным, терпким и умеренно сладким.",
+    "twitterUrl": "https://food-paradise.ru/recipe/chernichnyy-ays-ti",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/chernichnyy-ays-ti",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "черничный айс ти",
+    "холодный чай с черникой",
+    "зеленый чай со льдом"
+  ],
+  "categories": [
+    {
+      "name": "refreshingDrinks"
+    }
+  ],
+  "key": "chernichnyy-ays-ti",
+  "name": "chernichnyy-ays-ti",
+  "img": null,
+  "title": "Черничный айс-ти",
+  "description": "Холодный зеленый чай с черникой, лимоном и льдом. Напиток получается ягодным, терпким и умеренно сладким.",
+  "calories": 50,
+  "preparation": 10,
+  "time": 45,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 4,
+  "used": [
+    1,
+    0,
+    10
+  ],
+  "ingredients": [
+    {
+      "ingredientKey": "zelenyyChay",
+      "count": 2,
+      "gauge": "ч.л"
+    },
+    {
+      "ingredientKey": "hotWater",
+      "count": 500,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "chernika",
+      "count": 150,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "lemon",
+      "count": 0.5,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "sugar",
+      "count": 1.5,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "led",
+      "count": 1,
+      "gauge": "стакан"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "chaynik"
+    },
+    {
+      "equipmentKey": "sieve"
+    },
+    {
+      "equipmentKey": "kuvshin"
+    },
+    {
+      "equipmentKey": "spoon"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Заварите зеленый чай горячей водой и оставьте на 4 минуты.",
+      "ingredients": [
+        {
+          "ingredientKey": "zelenyyChay",
+          "count": 2,
+          "gauge": "ч.л"
+        },
+        {
+          "ingredientKey": "hotWater",
+          "count": 500,
+          "gauge": "мл"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Чернику слегка разомните с сахаром, чтобы ягоды дали сок.",
+      "ingredients": [
+        {
+          "ingredientKey": "chernika",
+          "count": 150,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "sugar",
+          "count": 1.5,
+          "gauge": "ст.л."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите чай, смешайте с черникой и соком лимона, затем охладите 25-30 минут.",
+      "ingredients": [
+        {
+          "ingredientKey": "lemon",
+          "count": 0.5,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Подавайте со льдом.",
+      "ingredients": [
+        {
+          "ingredientKey": "led",
+          "count": 1,
+          "gauge": "стакан"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Холодный чай удобен тем, что хорошо принимает ягодные добавки: они дают цвет, аромат и мягкую кислинку.",
+  "tips": [
+    "Не заваривайте зеленый чай слишком долго, чтобы он не горчил.",
+    "Чернику можно не процеживать, если нравится напиток с ягодами.",
+    "Охлаждайте чай до добавления льда, тогда лед не растает сразу."
+  ],
+  "serving": "Подавайте в стаканах со льдом и несколькими ягодами черники.",
+  "variations": [
+    {
+      "name": "С мятой",
+      "changes": "Добавьте 6-8 листиков мяты в кувшин."
+    },
+    {
+      "name": "Без сахара",
+      "changes": "Уберите сахар и увеличьте количество ягод."
+    }
+  ],
+  "comments": []
+}

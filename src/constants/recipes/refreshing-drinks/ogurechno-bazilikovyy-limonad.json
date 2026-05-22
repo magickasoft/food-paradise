@@ -1,0 +1,189 @@
+{
+  "metaSeo": {
+    "title": "Огуречно-базиликовый лимонад | Освежающий напиток",
+    "description": "Лимонад с огурцом, лимоном, базиликом и льдом. Вкус свежий, зеленый и очень легкий.",
+    "keywords": [
+      "огуречный лимонад",
+      "лимонад с базиликом",
+      "напиток с огурцом",
+      "зеленый лимонад"
+    ],
+    "og:title": "Огуречно-базиликовый лимонад | Освежающий напиток",
+    "og:description": "Лимонад с огурцом, лимоном, базиликом и льдом. Вкус свежий, зеленый и очень легкий.",
+    "og:url": "https://food-paradise.ru/recipe/ogurechno-bazilikovyy-limonad",
+    "twitterTitle": "Огуречно-базиликовый лимонад | Освежающий напиток",
+    "twitterDescription": "Лимонад с огурцом, лимоном, базиликом и льдом. Вкус свежий, зеленый и очень легкий.",
+    "twitterUrl": "https://food-paradise.ru/recipe/ogurechno-bazilikovyy-limonad",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/ogurechno-bazilikovyy-limonad",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "огуречный лимонад с базиликом",
+    "напиток с огурцом и лимоном",
+    "зеленый лимонад"
+  ],
+  "categories": [
+    {
+      "name": "refreshingDrinks"
+    }
+  ],
+  "key": "ogurechno-bazilikovyy-limonad",
+  "name": "ogurechno-bazilikovyy-limonad",
+  "img": null,
+  "title": "Огуречно-базиликовый лимонад",
+  "description": "Лимонад с огурцом, лимоном, базиликом и льдом. Вкус свежий, зеленый и очень легкий.",
+  "calories": 35,
+  "preparation": 10,
+  "time": 15,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 4,
+  "used": [
+    1,
+    0,
+    8
+  ],
+  "ingredients": [
+    {
+      "ingredientKey": "cucumber",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "lemon",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "bazilikSvezhiy",
+      "count": 12,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "sugar",
+      "count": 1,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "voda3",
+      "count": 900,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "led",
+      "count": 1,
+      "gauge": "стакан"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "blender"
+    },
+    {
+      "equipmentKey": "sieve"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "kuvshin"
+    },
+    {
+      "equipmentKey": "spoon"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Огурец нарежьте крупными кусочками, из лимона выжмите сок.",
+      "ingredients": [
+        {
+          "ingredientKey": "cucumber",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "lemon",
+          "count": 1,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Пробейте огурец с базиликом, сахаром и лимонным соком в блендере.",
+      "ingredients": [
+        {
+          "ingredientKey": "bazilikSvezhiy",
+          "count": 12,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "sugar",
+          "count": 1,
+          "gauge": "ст.л."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите зеленую основу через сито в кувшин.",
+      "ingredients": [
+        {
+          "ingredientKey": "cucumber",
+          "count": 1,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте воду и лед, перемешайте.",
+      "ingredients": [
+        {
+          "ingredientKey": "voda3",
+          "count": 900,
+          "gauge": "мл"
+        },
+        {
+          "ingredientKey": "led",
+          "count": 1,
+          "gauge": "стакан"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Огуречные лимонады часто встречаются в летних кафе: огурец дает свежий аромат и делает цитрусовую основу мягче.",
+  "tips": [
+    "Снимите грубую кожицу с огурца, если она горчит.",
+    "Процеживание делает напиток более чистым по текстуре.",
+    "Базилик можно заменить мятой."
+  ],
+  "serving": "Подавайте с тонкой лентой огурца в стакане.",
+  "variations": [
+    {
+      "name": "Газированный",
+      "changes": "Используйте газированную воду."
+    },
+    {
+      "name": "Острее",
+      "changes": "Добавьте тонкий ломтик имбиря при взбивании."
+    }
+  ],
+  "comments": []
+}

@@ -1,0 +1,183 @@
+{
+  "metaSeo": {
+    "title": "Клубничный морс с мятой | Освежающий напиток",
+    "description": "Ягодный морс из клубники с лимонным соком и свежей мятой. Напиток получается мягким, ароматным и не приторным.",
+    "keywords": [
+      "клубничный морс",
+      "морс с мятой",
+      "ягодный напиток",
+      "клубничный напиток"
+    ],
+    "og:title": "Клубничный морс с мятой | Освежающий напиток",
+    "og:description": "Ягодный морс из клубники с лимонным соком и свежей мятой. Напиток получается мягким, ароматным и не приторным.",
+    "og:url": "https://food-paradise.ru/recipe/klubnichnyy-mors-s-myatoj",
+    "twitterTitle": "Клубничный морс с мятой | Освежающий напиток",
+    "twitterDescription": "Ягодный морс из клубники с лимонным соком и свежей мятой. Напиток получается мягким, ароматным и не приторным.",
+    "twitterUrl": "https://food-paradise.ru/recipe/klubnichnyy-mors-s-myatoj",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/klubnichnyy-mors-s-myatoj",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "клубничный морс",
+    "морс из клубники",
+    "клубничный напиток с мятой"
+  ],
+  "categories": [
+    {
+      "name": "refreshingDrinks"
+    }
+  ],
+  "key": "klubnichnyy-mors-s-myatoj",
+  "name": "klubnichnyy-mors-s-myatoj",
+  "img": null,
+  "title": "Клубничный морс с мятой",
+  "description": "Ягодный морс из клубники с лимонным соком и свежей мятой. Напиток получается мягким, ароматным и не приторным.",
+  "calories": 72,
+  "preparation": 10,
+  "time": 25,
+  "level": 1,
+  "rating": 4.8,
+  "portions": 4,
+  "used": [
+    1,
+    1,
+    16
+  ],
+  "ingredients": [
+    {
+      "ingredientKey": "klubnika",
+      "count": 300,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "lemonJuice",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "myataSvezhaya",
+      "count": 10,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "sugar",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "voda6",
+      "count": 900,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "led",
+      "count": 1,
+      "gauge": "стакан"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "blender"
+    },
+    {
+      "equipmentKey": "sieve"
+    },
+    {
+      "equipmentKey": "kuvshin"
+    },
+    {
+      "equipmentKey": "spoon"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Клубнику промойте, удалите хвостики и измельчите в блендере с сахаром.",
+      "ingredients": [
+        {
+          "ingredientKey": "klubnika",
+          "count": 300,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "sugar",
+          "count": 2,
+          "gauge": "ст.л."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Протрите ягодное пюре через сито, чтобы напиток был ровнее по текстуре.",
+      "ingredients": [
+        {
+          "ingredientKey": "klubnika",
+          "count": 300,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте пюре с водой, лимонным соком и мятой.",
+      "ingredients": [
+        {
+          "ingredientKey": "voda6",
+          "count": 900,
+          "gauge": "мл"
+        },
+        {
+          "ingredientKey": "lemonJuice",
+          "count": 2,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "myataSvezhaya",
+          "count": 10,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте лед и перемешайте перед подачей.",
+      "ingredients": [
+        {
+          "ingredientKey": "led",
+          "count": 1,
+          "gauge": "стакан"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Морсы традиционно готовят из ягодного сока или пюре, разбавляя его водой. Клубничная версия особенно хороша летом, когда ягода ароматная.",
+  "tips": [
+    "Если клубника очень сладкая, уменьшите сахар вдвое.",
+    "Замороженную клубнику предварительно полностью разморозьте.",
+    "Мяту добавляйте после процеживания, чтобы она не забила сито."
+  ],
+  "serving": "Подавайте в стаканах со льдом и несколькими тонкими листиками мяты.",
+  "variations": [
+    {
+      "name": "С базиликом",
+      "changes": "Замените мяту свежим базиликом."
+    },
+    {
+      "name": "Гуще",
+      "changes": "Не процеживайте пюре через сито."
+    }
+  ],
+  "comments": []
+}
