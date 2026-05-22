@@ -1,0 +1,208 @@
+{
+  "metaSeo": {
+    "title": "Пита с яйцом и шпинатом | Пошаговый рецепт завтрака",
+    "description": "Теплая пита с яйцом, шпинатом и томатами черри. Удобный завтрак в формате сэндвича.",
+    "keywords": ["пита с яйцом", "завтрак со шпинатом", "теплый сэндвич на завтрак", "пита на завтрак"],
+    "og:title": "Пита с яйцом и шпинатом | Пошаговый рецепт завтрака",
+    "og:description": "Теплая пита с яйцом, шпинатом и томатами черри. Удобный завтрак в формате сэндвича.",
+    "og:url": "https://food-paradise.ru/recipe/pita-s-yaytsom-i-shpinatom",
+    "twitterTitle": "Пита с яйцом и шпинатом | Пошаговый рецепт завтрака",
+    "twitterDescription": "Теплая пита с яйцом, шпинатом и томатами черри. Удобный завтрак в формате сэндвича.",
+    "twitterUrl": "https://food-paradise.ru/recipe/pita-s-yaytsom-i-shpinatom",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/pita-s-yaytsom-i-shpinatom",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["пита с яйцом и шпинатом", "завтрак в пите", "сэндвич с яйцом"],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "pita-s-yaytsom-i-shpinatom",
+  "name": "Пита с яйцом и шпинатом",
+  "img": null,
+  "title": "Пита с яйцом и шпинатом",
+  "description": "Теплая пита с яйцом, шпинатом и томатами черри. Удобный завтрак в формате сэндвича.",
+  "calories": 410,
+  "preparation": null,
+  "time": 20,
+  "level": 2,
+  "rating": 4.7,
+  "portions": 2,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "pitaIliChiabatta",
+      "count": 2,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "eggs",
+      "count": 3,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "shpinatSvezhiy",
+      "count": 80,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "tomatyCherri",
+      "count": 120,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "hardCheese",
+      "count": 40,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "oliveOil",
+      "count": 1,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "salt",
+      "count": 0.25,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.25,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "pan"
+    },
+    {
+      "equipmentKey": "spatula"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "grater"
+    },
+    {
+      "equipmentKey": "bowl"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Нарежьте томаты черри, промойте шпинат и натрите сыр.",
+      "ingredients": [
+        {
+          "ingredientKey": "tomatyCherri",
+          "count": 120,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "shpinatSvezhiy",
+          "count": 80,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "hardCheese",
+          "count": 40,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "На оливковом масле быстро припустите шпинат 1 минуту, добавьте яйца, соль и перец.",
+      "ingredients": [
+        {
+          "ingredientKey": "oliveOil",
+          "count": 1,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "shpinatSvezhiy",
+          "count": 80,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "eggs",
+          "count": 3,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "salt",
+          "count": 0.25,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.25,
+          "gauge": "ч.л."
+        }
+      ]
+    },
+    {
+      "description": "Готовьте начинку, помешивая лопаткой, пока яйца не схватятся мягкими хлопьями.",
+      "ingredients": [
+        {
+          "ingredientKey": "eggs",
+          "count": 3,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "shpinatSvezhiy",
+          "count": 80,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "Прогрейте питу, наполните яйцами со шпинатом, томатами и сыром.",
+      "ingredients": [
+        {
+          "ingredientKey": "pitaIliChiabatta",
+          "count": 2,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "tomatyCherri",
+          "count": 120,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "hardCheese",
+          "count": 40,
+          "gauge": "г"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Завтраки в лепешках удобны тем, что превращают обычную яичницу в полноценное блюдо на ходу. Шпинат готовится быстро и не утяжеляет начинку.",
+  "tips": [
+    "Не передерживайте яйца: они дойдут от тепла внутри питы.",
+    "Томаты лучше класть свежими, чтобы начинка не стала водянистой.",
+    "Если пита плотная, слегка прогрейте ее на сухой сковороде."
+  ],
+  "serving": "Подавайте питу теплой, разрезав пополам.",
+  "variations": [
+    {
+      "name": "С авокадо",
+      "changes": "Добавьте ломтики авокадо перед подачей."
+    },
+    {
+      "name": "С фетой",
+      "changes": "Замените твердый сыр фетой."
+    }
+  ],
+  "comments": []
+}

@@ -66,6 +66,7 @@
     },
     {
       "ingredientKey": "groundBlackPepper",
+      "count": " ",
       "gauge": "по вкусу"
     }
   ],
@@ -121,6 +122,7 @@
         },
         {
           "ingredientKey": "groundBlackPepper",
+          "count": " ",
           "gauge": "по вкусу"
         }
       ]

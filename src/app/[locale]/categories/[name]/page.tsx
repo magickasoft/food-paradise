@@ -20,7 +20,7 @@ export default function CategoryPage({ params }: { params: Promise<{ name: strin
     <PageWrapper>
       <Grid>
         {recipes?.map(({ key, ...current }) => {
-          return <AdaptiveRecipeCard key={key} {...current} />
+          return <AdaptiveRecipeCard key={key} recipeKey={key} {...current} />
         })}
       </Grid>
     </PageWrapper>

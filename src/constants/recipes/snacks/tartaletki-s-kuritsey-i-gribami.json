@@ -166,6 +166,16 @@
           "ingredientKey": "refinedVegetableOil",
           "count": 2,
           "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "onion",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "chickenBreastFillet",
+          "count": 300,
+          "gauge": "г"
         }
       ]
     },
@@ -174,6 +184,11 @@
       "video": null,
       "description": "Добавьте грибы, посолите и поперчите. Обжаривайте до испарения жидкости.",
       "ingredients": [
+        {
+          "ingredientKey": "mushrooms",
+          "count": 200,
+          "gauge": "г"
+        },
         {
           "ingredientKey": "salt",
           "count": " ",
@@ -219,7 +234,13 @@
       "img": null,
       "video": null,
       "description": "Подавайте тарталетки тёплыми или полностью остывшими.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "tartlets",
+          "count": 12,
+          "gauge": "шт."
+        }
+      ]
     }
   ],
   "tips": [

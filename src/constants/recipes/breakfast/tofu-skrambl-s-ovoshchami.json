@@ -1,0 +1,198 @@
+{
+  "metaSeo": {
+    "title": "Тофу-скрэмбл с овощами | Пошаговый рецепт завтрака",
+    "description": "Тофу-скрэмбл с болгарским перцем, шпинатом и куркумой. Несладкий завтрак без яиц, который готовится на одной сковороде.",
+    "keywords": ["тофу скрэмбл", "завтрак без яиц", "тофу с овощами", "веганский завтрак"],
+    "og:title": "Тофу-скрэмбл с овощами | Пошаговый рецепт завтрака",
+    "og:description": "Тофу-скрэмбл с болгарским перцем, шпинатом и куркумой. Несладкий завтрак без яиц, который готовится на одной сковороде.",
+    "og:url": "https://food-paradise.ru/recipe/tofu-skrambl-s-ovoshchami",
+    "twitterTitle": "Тофу-скрэмбл с овощами | Пошаговый рецепт завтрака",
+    "twitterDescription": "Тофу-скрэмбл с болгарским перцем, шпинатом и куркумой. Несладкий завтрак без яиц, который готовится на одной сковороде.",
+    "twitterUrl": "https://food-paradise.ru/recipe/tofu-skrambl-s-ovoshchami",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/tofu-skrambl-s-ovoshchami",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["тофу скрэмбл", "завтрак из тофу", "тофу с овощами на сковороде"],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "tofu-skrambl-s-ovoshchami",
+  "name": "Тофу-скрэмбл с овощами",
+  "img": null,
+  "title": "Тофу-скрэмбл с овощами",
+  "description": "Тофу-скрэмбл с болгарским перцем, шпинатом и куркумой. Несладкий завтрак без яиц, который готовится на одной сковороде.",
+  "calories": 290,
+  "preparation": null,
+  "time": 20,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 2,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "tofu",
+      "count": 250,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "bolgarskiyPerets",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "shpinatSvezhiy",
+      "count": 80,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "tomatyCherri",
+      "count": 100,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "oliveOil",
+      "count": 1.5,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "kurkuma",
+      "count": 0.5,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "salt",
+      "count": 0.5,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.25,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "pan"
+    },
+    {
+      "equipmentKey": "spatula"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "fork"
+    },
+    {
+      "equipmentKey": "paperTowel"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Раскрошите тофу вилкой до кусочков, похожих на крупную яичную крошку.",
+      "ingredients": [
+        {
+          "ingredientKey": "tofu",
+          "count": 250,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "Нарежьте болгарский перец и томаты черри, шпинат оставьте целыми листьями.",
+      "ingredients": [
+        {
+          "ingredientKey": "bolgarskiyPerets",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "tomatyCherri",
+          "count": 100,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "shpinatSvezhiy",
+          "count": 80,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "Разогрейте оливковое масло и обжарьте перец 3-4 минуты.",
+      "ingredients": [
+        {
+          "ingredientKey": "oliveOil",
+          "count": 1.5,
+          "gauge": "ст.л."
+        }
+      ]
+    },
+    {
+      "description": "Добавьте тофу, куркуму, соль и перец. Готовьте 4-5 минут, затем вмешайте шпинат и томаты на последнюю минуту.",
+      "ingredients": [
+        {
+          "ingredientKey": "tofu",
+          "count": 250,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "kurkuma",
+          "count": 0.5,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "salt",
+          "count": 0.5,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.25,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "shpinatSvezhiy",
+          "count": 80,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "tomatyCherri",
+          "count": 100,
+          "gauge": "г"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Тофу-скрэмбл появился как растительная альтернатива яичнице-болтунье. Куркума отвечает не только за цвет, но и за теплый пряный оттенок, который хорошо дружит с овощами.",
+  "tips": [
+    "Для более сухой текстуры промокните тофу бумажным полотенцем перед готовкой.",
+    "Не измельчайте тофу слишком мелко, иначе он станет похож на пасту.",
+    "Шпинат добавляйте в самом конце, чтобы он не потерял цвет."
+  ],
+  "serving": "Подавайте с тостом, авокадо или свежими овощами.",
+  "variations": [
+    {
+      "name": "Острее",
+      "changes": "Добавьте щепотку хлопьев красного перца."
+    },
+    {
+      "name": "С грибами",
+      "changes": "Обжарьте 100 г шампиньонов вместе с перцем."
+    }
+  ],
+  "comments": []
+}

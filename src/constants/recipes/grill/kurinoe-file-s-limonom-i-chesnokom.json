@@ -1,0 +1,178 @@
+{
+  "metaSeo": {
+    "title": "Куриное филе с лимоном и чесноком | Рецепт на мангале",
+    "description": "Куриное филе на мангале с лимонным соком, чесноком и зеленью. Быстрый рецепт для решетки или шампуров.",
+    "keywords": ["куриное филе с лимоном и чесноком", "рецепт на мангале", "гриль рецепт"],
+    "og:title": "Куриное филе с лимоном и чесноком | Рецепт на мангале",
+    "og:description": "Куриное филе на мангале с лимонным соком, чесноком и зеленью. Быстрый рецепт для решетки или шампуров.",
+    "og:url": "https://food-paradise.ru/recipe/kurinoe-file-s-limonom-i-chesnokom",
+    "twitterTitle": "Куриное филе с лимоном и чесноком | Рецепт на мангале",
+    "twitterDescription": "Куриное филе на мангале с лимонным соком, чесноком и зеленью. Быстрый рецепт для решетки или шампуров.",
+    "twitterUrl": "https://food-paradise.ru/recipe/kurinoe-file-s-limonom-i-chesnokom",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/kurinoe-file-s-limonom-i-chesnokom",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "куриное филе с лимоном и чесноком",
+    "куриное филе с лимоном и чесноком рецепт",
+    "куриное филе с лимоном и чесноком на мангале"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "kurinoe-file-s-limonom-i-chesnokom",
+  "name": "Куриное филе с лимоном и чесноком",
+  "img": null,
+  "title": "Куриное филе с лимоном и чесноком",
+  "description": "Куриное филе на мангале с лимонным соком, чесноком и зеленью. Быстрый рецепт для решетки или шампуров.",
+  "calories": 330,
+  "preparation": 15,
+  "time": 150,
+  "level": 2,
+  "rating": 4.7,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "kurinoeFile",
+      "count": 900,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "lemonJuice",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "garlic",
+      "count": 3,
+      "gauge": "зубчика"
+    },
+    {
+      "ingredientKey": "oliveOil",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "svezhayaZelen",
+      "count": 1,
+      "gauge": "пучок"
+    },
+    {
+      "ingredientKey": "salt",
+      "count": 1,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.5,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "mangalIliGril"
+    },
+    {
+      "equipmentKey": "shampuryIliReshetka"
+    },
+    {
+      "equipmentKey": "glubokayaMiskaDlyaMarinovaniya"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "paperTowel"
+    },
+    {
+      "equipmentKey": "kuhonnyeSchiptsy"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Нарежьте куриное филе крупными плоскими кусками толщиной около 2 см и обсушите бумажным полотенцем.",
+      "ingredients": [
+        {
+          "ingredientKey": "kurinoeFile",
+          "count": 900,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "Смешайте лимонный сок, измельченный чеснок, оливковое масло, рубленую зелень, соль и черный перец.",
+      "ingredients": [
+        {
+          "ingredientKey": "lemonJuice",
+          "count": 2,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "garlic",
+          "count": 3,
+          "gauge": "зубчика"
+        },
+        {
+          "ingredientKey": "oliveOil",
+          "count": 2,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "svezhayaZelen",
+          "count": 1,
+          "gauge": "пучок"
+        },
+        {
+          "ingredientKey": "salt",
+          "count": 1,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.5,
+          "gauge": "ч.л."
+        }
+      ]
+    },
+    {
+      "description": "Перемешайте филе с маринадом, накройте и уберите в холодильник на 1-2 часа. За 20 минут до жарки достаньте мясо из холодильника.",
+      "ingredients": []
+    },
+    {
+      "description": "Жарьте филе на решетке 4-5 минут с каждой стороны. Снимайте сразу после готовности, чтобы грудка не стала сухой.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Куриное филе на мангале легко пересушить, поэтому здесь важны плоская нарезка и короткая жарка. Лимон и чеснок дают яркий аромат, но не забивают вкус курицы.",
+  "tips": [
+    "Не маринуйте курицу в лимонном соке слишком долго: текстура может стать рыхлой.",
+    "Сырые птицу и маринад держите в холодильнике.",
+    "После жарки дайте филе полежать 3 минуты, затем нарезайте."
+  ],
+  "serving": "Подавайте с овощами гриль, зеленью и свежим хлебом.",
+  "variations": [
+    {
+      "name": "С паприкой",
+      "changes": "Добавьте 1 ч.л. сладкой паприки в маринад."
+    },
+    {
+      "name": "На шампурах",
+      "changes": "Нарежьте филе кубиками и жарьте как шашлычки 10-12 минут."
+    }
+  ],
+  "comments": []
+}

@@ -98,6 +98,9 @@
       "equipmentKey": "bowl"
     },
     {
+      "equipmentKey": "fork"
+    },
+    {
       "equipmentKey": "brush"
     }
   ],
@@ -150,6 +153,11 @@
           "ingredientKey": "fileTreski",
           "count": 400,
           "gauge": "г"
+        },
+        {
+          "ingredientKey": "broccoli",
+          "count": 300,
+          "gauge": "г"
         }
       ]
     },
@@ -157,7 +165,13 @@
       "img": null,
       "video": null,
       "description": "Запекайте при 190°C 15-18 минут, пока рыба легко не начнет разделяться вилкой.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "fileTreski",
+          "count": 400,
+          "gauge": "г"
+        }
+      ]
     },
     {
       "img": null,

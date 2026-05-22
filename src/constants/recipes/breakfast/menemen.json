@@ -761,6 +761,7 @@
     {
       "ingredientKey": "fetaCheese",
       "count": 50,
+      "gauge": "г",
       "note": "по желанию"
     },
     {
@@ -873,6 +874,7 @@
         {
           "ingredientKey": "fetaCheese",
           "count": 50,
+          "gauge": "г",
           "note": "по желанию"
         }
       ]

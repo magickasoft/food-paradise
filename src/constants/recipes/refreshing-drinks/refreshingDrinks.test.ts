@@ -21,9 +21,61 @@ const ingredientKeys = (ingredients: { ingredientKey?: string; name?: string }[]
 const equipmentKeys = (equipments: RecipeEquipment[]) =>
   equipments.flatMap(equipment => ('equipmentKey' in equipment ? [equipment.equipmentKey] : []))
 
+const hasCountAndGauge = (value: { count?: unknown; gauge?: unknown }) =>
+  typeof value.count === 'number' && typeof value.gauge === 'string' && value.gauge.length > 0
+
 const text = (values: Array<string | undefined>) => values.filter(Boolean).join(' ').toLowerCase()
 
+const NEW_REFRESHING_DRINK_KEYS = [
+  'limonad-s-laymom-i-bazilikom',
+  'ogurechno-myatnaya-voda',
+  'klubnichnyy-mors-s-myatoj',
+  'malina-laym-sprittser',
+  'arbuzno-laymovyy-fresh',
+  'mango-kokosovyy-smuzi',
+  'chernichnyy-ays-ti',
+  'zelenyy-chay-s-laymom-i-myatoj',
+  'persikovyy-holodnyy-chay',
+  'limonad-s-yagodami-i-bazilikom',
+  'klyukvennyy-sprittser-s-laymom',
+  'imbirno-laymovyy-limonad',
+  'ogurechno-bazilikovyy-limonad',
+  'klubnichno-myatnyy-smuzi',
+  'arbuzno-ogurechnyy-napitok',
+  'malinovyy-limonad-s-bazilikom',
+  'yablochno-myatnaya-voda',
+  'kokosovyy-napitok-s-mango-i-chia',
+  'vinogradno-laymovyy-sprittser',
+  'chernichno-limonnyy-smuzi',
+] as const
+
 describe('refreshing drinks data quality', () => {
+  test('new refreshing drinks are complete category recipes with placeholder images', () => {
+    for (const key of NEW_REFRESHING_DRINK_KEYS) {
+      const recipe = getRecipe(key)
+
+      expect(recipe.img, key).toBeNull()
+      expect(
+        recipe.categories.map(category => category.name),
+        key,
+      ).toContain('refreshingDrinks')
+      expect(recipe.ingredients.every(hasCountAndGauge), key).toBe(true)
+      expect(
+        recipe.equipments.every(equipment => 'equipmentKey' in equipment),
+        key,
+      ).toBe(true)
+      expect(
+        recipe.cookingRecipe.every(step => step.ingredients.length > 0),
+        key,
+      ).toBe(true)
+      expect(recipe.cookingRecipe.flatMap(step => step.ingredients).every(hasCountAndGauge), key).toBe(true)
+      expect(recipe.historyDescription?.length, key).toBeGreaterThan(0)
+      expect(recipe.tips?.length, key).toBeGreaterThan(0)
+      expect(recipe.serving?.length, key).toBeGreaterThan(0)
+      expect(recipe.variations?.length, key).toBeGreaterThan(0)
+    }
+  })
+
   test('drink descriptions avoid medical detox and immunity claims', () => {
     const content = text(
       REFRESHING_DRINKS.flatMap(recipe => [

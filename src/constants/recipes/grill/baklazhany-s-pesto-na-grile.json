@@ -1,0 +1,155 @@
+{
+  "metaSeo": {
+    "title": "Баклажаны с песто на гриле | Рецепт на мангале",
+    "description": "Ломтики баклажанов на решетке с зеленым песто и оливковым маслом.",
+    "keywords": ["баклажаны с песто на гриле", "рецепт на мангале", "гриль рецепт"],
+    "og:title": "Баклажаны с песто на гриле | Рецепт на мангале",
+    "og:description": "Ломтики баклажанов на решетке с зеленым песто и оливковым маслом.",
+    "og:url": "https://food-paradise.ru/recipe/baklazhany-s-pesto-na-grile",
+    "twitterTitle": "Баклажаны с песто на гриле | Рецепт на мангале",
+    "twitterDescription": "Ломтики баклажанов на решетке с зеленым песто и оливковым маслом.",
+    "twitterUrl": "https://food-paradise.ru/recipe/baklazhany-s-pesto-na-grile",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/baklazhany-s-pesto-na-grile",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "баклажаны с песто на гриле",
+    "баклажаны с песто на гриле рецепт",
+    "баклажаны с песто на гриле на мангале"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "baklazhany-s-pesto-na-grile",
+  "name": "Баклажаны с песто на гриле",
+  "img": null,
+  "title": "Баклажаны с песто на гриле",
+  "description": "Ломтики баклажанов на решетке с зеленым песто и оливковым маслом.",
+  "calories": 190,
+  "preparation": 15,
+  "time": 30,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "eggplant",
+      "count": 3,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "pestoZelenyy",
+      "count": 3,
+      "gauge": "ст.л"
+    },
+    {
+      "ingredientKey": "oliveOil",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "salt",
+      "count": 0.75,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.5,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "mangalIliGril"
+    },
+    {
+      "equipmentKey": "reshetkaGril"
+    },
+    {
+      "equipmentKey": "bowl"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "kuhonnyeSchiptsy"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Нарежьте баклажаны кружками или пластинами толщиной около 1 см.",
+      "ingredients": [
+        {
+          "ingredientKey": "eggplant",
+          "count": 3,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "description": "Смешайте песто, оливковое масло, соль и перец.",
+      "ingredients": [
+        {
+          "ingredientKey": "pestoZelenyy",
+          "count": 3,
+          "gauge": "ст.л"
+        },
+        {
+          "ingredientKey": "oliveOil",
+          "count": 2,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "salt",
+          "count": 0.75,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.5,
+          "gauge": "ч.л."
+        }
+      ]
+    },
+    {
+      "description": "Смажьте баклажаны смесью с двух сторон и оставьте на 10 минут.",
+      "ingredients": []
+    },
+    {
+      "description": "Жарьте на решетке по 3-4 минуты с каждой стороны, пока баклажаны не станут мягкими.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Баклажаны любят масло и яркие травяные соусы. На гриле они становятся мягкими внутри и получают дымную корочку снаружи.",
+  "tips": [
+    "Если баклажаны горчат, посолите ломтики на 15 минут и промокните.",
+    "Не лейте слишком много масла: оно будет капать на угли.",
+    "Песто лучше наносить тонким слоем."
+  ],
+  "serving": "Подавайте теплыми, можно добавить свежий базилик.",
+  "variations": [
+    {
+      "name": "С томатами",
+      "changes": "Подавайте с нарезанными свежими томатами."
+    },
+    {
+      "name": "С сыром",
+      "changes": "Добавьте немного феты или твердого сыра при подаче."
+    }
+  ],
+  "comments": []
+}

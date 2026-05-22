@@ -1,0 +1,204 @@
+{
+  "metaSeo": {
+    "title": "Омлет с кукурузой и зеленью | Пошаговый рецепт завтрака",
+    "description": "Нежный омлет с консервированной кукурузой, молоком, сыром и зеленью. Простое блюдо для быстрого домашнего завтрака.",
+    "keywords": ["омлет с кукурузой", "омлет с зеленью", "быстрый омлет", "завтрак из яиц"],
+    "og:title": "Омлет с кукурузой и зеленью | Пошаговый рецепт завтрака",
+    "og:description": "Нежный омлет с консервированной кукурузой, молоком, сыром и зеленью. Простое блюдо для быстрого домашнего завтрака.",
+    "og:url": "https://food-paradise.ru/recipe/omlet-s-kukuruzoy-i-zelenyu",
+    "twitterTitle": "Омлет с кукурузой и зеленью | Пошаговый рецепт завтрака",
+    "twitterDescription": "Нежный омлет с консервированной кукурузой, молоком, сыром и зеленью. Простое блюдо для быстрого домашнего завтрака.",
+    "twitterUrl": "https://food-paradise.ru/recipe/omlet-s-kukuruzoy-i-zelenyu",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/omlet-s-kukuruzoy-i-zelenyu",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["омлет с кукурузой", "омлет с зеленью", "быстрый завтрак из яиц"],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "omlet-s-kukuruzoy-i-zelenyu",
+  "name": "Омлет с кукурузой и зеленью",
+  "img": null,
+  "title": "Омлет с кукурузой и зеленью",
+  "description": "Нежный омлет с консервированной кукурузой, молоком, сыром и зеленью. Простое блюдо для быстрого домашнего завтрака.",
+  "calories": 300,
+  "preparation": null,
+  "time": 15,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 2,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "eggs",
+      "count": 4,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "cannedCorn",
+      "count": 120,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "milk",
+      "count": 60,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "hardCheese",
+      "count": 40,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "greens",
+      "count": 15,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "butter",
+      "count": 15,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "salt",
+      "count": 0.25,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.25,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "bowl"
+    },
+    {
+      "equipmentKey": "whisk"
+    },
+    {
+      "equipmentKey": "grater"
+    },
+    {
+      "equipmentKey": "pan"
+    },
+    {
+      "equipmentKey": "lid"
+    },
+    {
+      "equipmentKey": "spatula"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Взбейте яйца с молоком, солью и перцем.",
+      "ingredients": [
+        {
+          "ingredientKey": "eggs",
+          "count": 4,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "milk",
+          "count": 60,
+          "gauge": "мл"
+        },
+        {
+          "ingredientKey": "salt",
+          "count": 0.25,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.25,
+          "gauge": "ч.л."
+        }
+      ]
+    },
+    {
+      "description": "Слейте жидкость с кукурузы, нарежьте зелень и натрите сыр.",
+      "ingredients": [
+        {
+          "ingredientKey": "cannedCorn",
+          "count": 120,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "greens",
+          "count": 15,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "hardCheese",
+          "count": 40,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "Растопите сливочное масло, вылейте яичную смесь и готовьте 2 минуты на слабом огне.",
+      "ingredients": [
+        {
+          "ingredientKey": "butter",
+          "count": 15,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "Добавьте кукурузу, сыр и зелень, накройте крышкой и готовьте еще 4-5 минут.",
+      "ingredients": [
+        {
+          "ingredientKey": "cannedCorn",
+          "count": 120,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "hardCheese",
+          "count": 40,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "greens",
+          "count": 15,
+          "gauge": "г"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Омлет с овощными добавками — один из самых гибких завтраков. Кукуруза дает легкую сладость и сочность, а зелень освежает привычную яичную основу.",
+  "tips": [
+    "Кукурузу нужно хорошо слить, иначе омлет станет водянистым.",
+    "Сыр добавляйте после частичного схватывания яиц, чтобы он остался внутри слоя.",
+    "Огонь держите слабым, тогда омлет не пересушится снизу."
+  ],
+  "serving": "Подавайте омлет горячим, сложив пополам или нарезав на две порции.",
+  "variations": [
+    {
+      "name": "С перцем",
+      "changes": "Добавьте 60 г мелко нарезанного болгарского перца."
+    },
+    {
+      "name": "Без сыра",
+      "changes": "Уберите сыр и добавьте больше зелени."
+    }
+  ],
+  "comments": []
+}

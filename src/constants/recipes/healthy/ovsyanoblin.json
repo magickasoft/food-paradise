@@ -474,15 +474,18 @@
   "ingredients": [
     {
       "ingredientKey": "oatmeal",
-      "count": 30
+      "count": 30,
+      "gauge": "г"
     },
     {
       "ingredientKey": "eggs",
-      "count": 1
+      "count": 1,
+      "gauge": "шт."
     },
     {
       "ingredientKey": "milk",
-      "count": 50
+      "count": 50,
+      "gauge": "мл"
     },
     {
       "ingredientKey": "salt",
@@ -491,7 +494,8 @@
     },
     {
       "ingredientKey": "bakingPowder",
-      "count": 5
+      "count": 5,
+      "gauge": "г"
     }
   ],
   "equipments": [
@@ -529,6 +533,11 @@
       "video": null,
       "description": "В глубокой миске смешайте все ингредиенты: овсяную муку, яйцо, молоко, соль и разрыхлитель. Взбейте венчиком до однородности. Тесто должно напоминать жидкую сметану. Дайте постоять 3 минуты — хлопья впитают влагу.",
       "ingredients": [
+        {
+          "ingredientKey": "oatmeal",
+          "count": 30,
+          "gauge": "г"
+        },
         {
           "ingredientKey": "eggs",
           "count": 1,

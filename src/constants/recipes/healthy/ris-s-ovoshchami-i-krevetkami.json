@@ -101,6 +101,9 @@
       "equipmentKey": "pot"
     },
     {
+      "equipmentKey": "lid"
+    },
+    {
       "equipmentKey": "pan"
     },
     {
@@ -108,6 +111,9 @@
     },
     {
       "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "grater"
     },
     {
       "equipmentKey": "spatula"
@@ -182,13 +188,39 @@
       "img": null,
       "video": null,
       "description": "Добавьте овощи и имбирь, готовьте еще 3-4 минуты.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "carrot",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "bolgarskiyPerets",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "greenOnion",
+          "count": 3,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "svezhiyImbir",
+          "count": 2,
+          "gauge": "см"
+        }
+      ]
     },
     {
       "img": null,
       "video": null,
       "description": "Добавьте рис и соевый соус, перемешайте и прогрейте 1-2 минуты.",
       "ingredients": [
+        {
+          "ingredientKey": "rice",
+          "count": 160,
+          "gauge": "г"
+        },
         {
           "ingredientKey": "soevyySous",
           "count": 2,

@@ -107,7 +107,7 @@ export const PopularCategories = () => {
                 <RecipesColumn>
                   <RecipesScroll>
                     {recipes.map(({ key, name, ...recipe }) => (
-                      <RecipeCard name={name} key={key || name} {...recipe} />
+                      <RecipeCard name={name} key={key || name} recipeKey={key} {...recipe} />
                     ))}
                   </RecipesScroll>
                   <CategoryLink href={{ pathname: '/categories/[name]', params: { name } }} locale="ru">

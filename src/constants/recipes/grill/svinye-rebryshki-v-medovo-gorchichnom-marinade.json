@@ -1,0 +1,181 @@
+{
+  "metaSeo": {
+    "title": "Свиные ребрышки в медово-горчичном маринаде | Рецепт на мангале",
+    "description": "Свиные ребрышки на мангале с медом, горчицей и чесноком. Маринад дает румяную корочку, а мясо остается сочным у кости.",
+    "keywords": ["свиные ребрышки на мангале", "ребра в медовом маринаде", "ребрышки с горчицей"],
+    "og:title": "Свиные ребрышки в медово-горчичном маринаде | Рецепт на мангале",
+    "og:description": "Свиные ребрышки на мангале с медом, горчицей и чесноком. Маринад дает румяную корочку, а мясо остается сочным у кости.",
+    "og:url": "https://food-paradise.ru/recipe/svinye-rebryshki-v-medovo-gorchichnom-marinade",
+    "twitterTitle": "Свиные ребрышки в медово-горчичном маринаде | Рецепт на мангале",
+    "twitterDescription": "Свиные ребрышки на мангале с медом, горчицей и чесноком. Маринад дает румяную корочку, а мясо остается сочным у кости.",
+    "twitterUrl": "https://food-paradise.ru/recipe/svinye-rebryshki-v-medovo-gorchichnom-marinade",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/svinye-rebryshki-v-medovo-gorchichnom-marinade",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["свиные ребрышки на мангале", "ребрышки в медово горчичном маринаде", "ребра на гриле"],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "svinye-rebryshki-v-medovo-gorchichnom-marinade",
+  "name": "Свиные ребрышки в медово-горчичном маринаде",
+  "img": null,
+  "title": "Свиные ребрышки в медово-горчичном маринаде",
+  "description": "Свиные ребрышки на мангале с медом, горчицей и чесноком. Маринад дает румяную корочку, а мясо остается сочным у кости.",
+  "calories": 560,
+  "preparation": 20,
+  "time": 290,
+  "level": 2,
+  "rating": 4.9,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "porkRibs",
+      "count": 1200,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "honey",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "mustard",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "garlic",
+      "count": 3,
+      "gauge": "зубчика"
+    },
+    {
+      "ingredientKey": "oliveOil",
+      "count": 2,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "smokedPaprika",
+      "count": 1,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "salt",
+      "count": 1,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.5,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "mangalIliGril"
+    },
+    {
+      "equipmentKey": "shampuryIliReshetka"
+    },
+    {
+      "equipmentKey": "glubokayaMiskaDlyaMarinovaniya"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "kuhonnyeSchiptsy"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Разрежьте ребра на удобные секции, снимите лишнюю пленку со стороны костей и обсушите мясо.",
+      "ingredients": [
+        {
+          "ingredientKey": "porkRibs",
+          "count": 1200,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "Смешайте мед, горчицу, измельченный чеснок, оливковое масло, копченую паприку, соль и перец.",
+      "ingredients": [
+        {
+          "ingredientKey": "honey",
+          "count": 2,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "mustard",
+          "count": 2,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "garlic",
+          "count": 3,
+          "gauge": "зубчика"
+        },
+        {
+          "ingredientKey": "oliveOil",
+          "count": 2,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "smokedPaprika",
+          "count": 1,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "salt",
+          "count": 1,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.5,
+          "gauge": "ч.л."
+        }
+      ]
+    },
+    {
+      "description": "Натрите ребра маринадом, накройте и уберите в холодильник на 3-4 часа. За 30 минут до жарки достаньте мясо из холодильника.",
+      "ingredients": []
+    },
+    {
+      "description": "Жарьте ребрышки на умеренном жаре 35-40 минут, часто переворачивая. Если корочка темнеет слишком быстро, сдвиньте мясо в менее горячую зону.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Ребрышки на мангале ценят за сочетание косточки, жира и дымного жара. Медово-горчичный маринад — современная домашняя классика: он дает баланс сладости, остроты и румяной глазури.",
+  "tips": [
+    "Не жарьте ребра на открытом пламени: мед быстро горит.",
+    "Маринуйте мясо в холодильнике, а не при комнатной температуре.",
+    "Готовность удобнее проверять у кости: мясо должно легко отходить, но не пересохнуть."
+  ],
+  "serving": "Подавайте ребрышки горячими с овощами, зеленью и соусом по вкусу.",
+  "variations": [
+    {
+      "name": "Острее",
+      "changes": "Добавьте 0.5 ч.л. хлопьев красного перца в маринад."
+    },
+    {
+      "name": "С травами",
+      "changes": "Добавьте веточку розмарина на время маринования."
+    }
+  ],
+  "comments": []
+}

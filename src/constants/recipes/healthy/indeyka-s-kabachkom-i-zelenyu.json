@@ -144,6 +144,11 @@
       "description": "На сковороде разогрейте оливковое масло и обжарьте индейку 5-6 минут.",
       "ingredients": [
         {
+          "ingredientKey": "fileIndeyki",
+          "count": 500,
+          "gauge": "г"
+        },
+        {
           "ingredientKey": "oliveOil",
           "count": 1,
           "gauge": "ст.л."
@@ -154,7 +159,18 @@
       "img": null,
       "video": null,
       "description": "Добавьте кабачок и чеснок, готовьте еще 5 минут, помешивая.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "zucchini",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "garlic",
+          "count": 2,
+          "gauge": "зубчик"
+        }
+      ]
     },
     {
       "img": null,

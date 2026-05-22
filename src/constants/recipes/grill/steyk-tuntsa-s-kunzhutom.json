@@ -1,0 +1,161 @@
+{
+  "metaSeo": {
+    "title": "Стейк тунца с кунжутом | Рецепт на мангале",
+    "description": "Стейки тунца на мангале с соевым соусом, кунжутом и кунжутным маслом. Быстрая жарка без пересушивания.",
+    "keywords": ["стейк тунца с кунжутом", "рецепт на мангале", "гриль рецепт"],
+    "og:title": "Стейк тунца с кунжутом | Рецепт на мангале",
+    "og:description": "Стейки тунца на мангале с соевым соусом, кунжутом и кунжутным маслом. Быстрая жарка без пересушивания.",
+    "og:url": "https://food-paradise.ru/recipe/steyk-tuntsa-s-kunzhutom",
+    "twitterTitle": "Стейк тунца с кунжутом | Рецепт на мангале",
+    "twitterDescription": "Стейки тунца на мангале с соевым соусом, кунжутом и кунжутным маслом. Быстрая жарка без пересушивания.",
+    "twitterUrl": "https://food-paradise.ru/recipe/steyk-tuntsa-s-kunzhutom",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/steyk-tuntsa-s-kunzhutom",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["стейк тунца с кунжутом", "стейк тунца с кунжутом рецепт", "стейк тунца с кунжутом на мангале"],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "steyk-tuntsa-s-kunzhutom",
+  "name": "Стейк тунца с кунжутом",
+  "img": null,
+  "title": "Стейк тунца с кунжутом",
+  "description": "Стейки тунца на мангале с соевым соусом, кунжутом и кунжутным маслом. Быстрая жарка без пересушивания.",
+  "calories": 340,
+  "preparation": 15,
+  "time": 40,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 3,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "tunetsSteyk",
+      "count": 700,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "soevyySous",
+      "count": 60,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "kunzhutnoeMaslo",
+      "count": 1,
+      "gauge": "ст.л"
+    },
+    {
+      "ingredientKey": "kunzhut",
+      "count": 2,
+      "gauge": "ч.л"
+    },
+    {
+      "ingredientKey": "lemonJuice",
+      "count": 1,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.5,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "mangalIliGril"
+    },
+    {
+      "equipmentKey": "reshetkaGril"
+    },
+    {
+      "equipmentKey": "glubokayaMiskaDlyaMarinovaniya"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "kuhonnyeSchiptsy"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Обсушите стейки тунца. Если они толстые, оставьте их целыми: тунец любит быструю жарку.",
+      "ingredients": [
+        {
+          "ingredientKey": "tunetsSteyk",
+          "count": 700,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "Смешайте соевый соус, кунжутное масло, лимонный сок и черный перец. Половину кунжута оставьте для подачи.",
+      "ingredients": [
+        {
+          "ingredientKey": "soevyySous",
+          "count": 60,
+          "gauge": "мл"
+        },
+        {
+          "ingredientKey": "kunzhutnoeMaslo",
+          "count": 1,
+          "gauge": "ст.л"
+        },
+        {
+          "ingredientKey": "lemonJuice",
+          "count": 1,
+          "gauge": "ст.л."
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.5,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "kunzhut",
+          "count": 2,
+          "gauge": "ч.л"
+        }
+      ]
+    },
+    {
+      "description": "Смажьте тунца маринадом и оставьте на 10 минут. Долго мариновать не нужно.",
+      "ingredients": []
+    },
+    {
+      "description": "Жарьте на очень горячей решетке по 1.5-2 минуты с каждой стороны. Внутри тунец может оставаться розовым.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Тунец по плотности ближе к мясному стейку, чем к нежной белой рыбе. Его готовят быстро и на сильном жаре, чтобы середина не стала сухой.",
+  "tips": [
+    "Не передерживайте тунца: он быстро становится сухим.",
+    "Соевый соус уже соленый, поэтому отдельная соль не нужна.",
+    "Кунжут лучше добавлять частично после жарки, чтобы он не горел."
+  ],
+  "serving": "Подавайте с кунжутом, зеленью и свежими овощами.",
+  "variations": [
+    {
+      "name": "С имбирем",
+      "changes": "Добавьте 1 см тертого свежего имбиря."
+    },
+    {
+      "name": "Острее",
+      "changes": "Добавьте щепотку красного перца хлопьями."
+    }
+  ],
+  "comments": []
+}

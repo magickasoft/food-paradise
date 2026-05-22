@@ -552,6 +552,9 @@
       "equipmentKey": "cutBoard"
     },
     {
+      "equipmentKey": "fork"
+    },
+    {
       "equipmentKey": "lid"
     }
   ],

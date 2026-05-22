@@ -1,0 +1,190 @@
+{
+  "metaSeo": {
+    "title": "Сэндвич с авокадо и яйцом | Пошаговый рецепт завтрака",
+    "description": "Теплый сэндвич с яйцом, авокадо, томатами и зеленью. Собирается быстро и подходит для плотного завтрака.",
+    "keywords": ["сэндвич с авокадо", "сэндвич с яйцом", "завтрак с авокадо", "теплый сэндвич"],
+    "og:title": "Сэндвич с авокадо и яйцом | Пошаговый рецепт завтрака",
+    "og:description": "Теплый сэндвич с яйцом, авокадо, томатами и зеленью. Собирается быстро и подходит для плотного завтрака.",
+    "og:url": "https://food-paradise.ru/recipe/sendvich-s-avokado-i-yaytsom",
+    "twitterTitle": "Сэндвич с авокадо и яйцом | Пошаговый рецепт завтрака",
+    "twitterDescription": "Теплый сэндвич с яйцом, авокадо, томатами и зеленью. Собирается быстро и подходит для плотного завтрака.",
+    "twitterUrl": "https://food-paradise.ru/recipe/sendvich-s-avokado-i-yaytsom",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/sendvich-s-avokado-i-yaytsom",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["сэндвич с авокадо и яйцом", "завтрак с яйцом и авокадо", "теплый сэндвич на завтрак"],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "sendvich-s-avokado-i-yaytsom",
+  "name": "Сэндвич с авокадо и яйцом",
+  "img": null,
+  "title": "Сэндвич с авокадо и яйцом",
+  "description": "Теплый сэндвич с яйцом, авокадо, томатами и зеленью. Собирается быстро и подходит для плотного завтрака.",
+  "calories": 420,
+  "preparation": null,
+  "time": 15,
+  "level": 1,
+  "rating": 4.8,
+  "portions": 2,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "whiteBread",
+      "count": 4,
+      "gauge": "ломтика"
+    },
+    {
+      "ingredientKey": "eggs",
+      "count": 2,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "avocado",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "tomato",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "greens",
+      "count": 10,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "butter",
+      "count": 10,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "lemonJuice",
+      "count": 1,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "salt",
+      "count": 0.25,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.25,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "pan"
+    },
+    {
+      "equipmentKey": "spatula"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "fork"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Разомните авокадо с лимонным соком, солью и перцем.",
+      "ingredients": [
+        {
+          "ingredientKey": "avocado",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "lemonJuice",
+          "count": 1,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "salt",
+          "count": 0.25,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.25,
+          "gauge": "ч.л."
+        }
+      ]
+    },
+    {
+      "description": "Нарежьте томат кружочками, зелень мелко порубите.",
+      "ingredients": [
+        {
+          "ingredientKey": "tomato",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "greens",
+          "count": 10,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "description": "На сливочном масле приготовьте яйца с плотным белком и мягким желтком.",
+      "ingredients": [
+        {
+          "ingredientKey": "butter",
+          "count": 10,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "eggs",
+          "count": 2,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "description": "Подсушите хлеб, смажьте авокадо, добавьте томаты, яйца и зелень. Накройте вторым ломтиком.",
+      "ingredients": [
+        {
+          "ingredientKey": "whiteBread",
+          "count": 4,
+          "gauge": "ломтика"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Сэндвичи с яйцом — привычный формат завтрака, а авокадо делает начинку более кремовой без сложного соуса. Это домашняя версия кафе-завтрака, которую легко собрать за несколько минут.",
+  "tips": [
+    "Хлеб лучше подсушить, чтобы он выдержал сочную начинку.",
+    "Солите авокадо умеренно: яйцо и хлеб быстро собирают вкус.",
+    "Если берете сэндвич с собой, делайте желток плотнее."
+  ],
+  "serving": "Подавайте сэндвич теплым, разрезав по диагонали.",
+  "variations": [
+    {
+      "name": "С лососем",
+      "changes": "Добавьте 60 г слабосоленого лосося."
+    },
+    {
+      "name": "С сыром",
+      "changes": "Положите ломтик твердого сыра на горячее яйцо."
+    }
+  ],
+  "comments": []
+}

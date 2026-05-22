@@ -1,0 +1,162 @@
+{
+  "metaSeo": {
+    "title": "Люля-кебаб из говяжьего фарша | Рецепт на мангале",
+    "description": "Люля-кебаб из говяжьего фарша с луком, зирой и зеленью. Плотные котлетки держатся на шампурах и хорошо жарятся над углями.",
+    "keywords": ["люля-кебаб из говяжьего фарша", "рецепт на мангале", "гриль рецепт"],
+    "og:title": "Люля-кебаб из говяжьего фарша | Рецепт на мангале",
+    "og:description": "Люля-кебаб из говяжьего фарша с луком, зирой и зеленью. Плотные котлетки держатся на шампурах и хорошо жарятся над углями.",
+    "og:url": "https://food-paradise.ru/recipe/lyulya-kebab-iz-govyazhiego-farsha",
+    "twitterTitle": "Люля-кебаб из говяжьего фарша | Рецепт на мангале",
+    "twitterDescription": "Люля-кебаб из говяжьего фарша с луком, зирой и зеленью. Плотные котлетки держатся на шампурах и хорошо жарятся над углями.",
+    "twitterUrl": "https://food-paradise.ru/recipe/lyulya-kebab-iz-govyazhiego-farsha",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/lyulya-kebab-iz-govyazhiego-farsha",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "люля-кебаб из говяжьего фарша",
+    "люля-кебаб из говяжьего фарша рецепт",
+    "люля-кебаб из говяжьего фарша на мангале"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "lyulya-kebab-iz-govyazhiego-farsha",
+  "name": "Люля-кебаб из говяжьего фарша",
+  "img": null,
+  "title": "Люля-кебаб из говяжьего фарша",
+  "description": "Люля-кебаб из говяжьего фарша с луком, зирой и зеленью. Плотные котлетки держатся на шампурах и хорошо жарятся над углями.",
+  "calories": 440,
+  "preparation": 15,
+  "time": 80,
+  "level": 2,
+  "rating": 4.7,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "govyazhiyFarsh",
+      "count": 900,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "onion",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "svezhayaZelen",
+      "count": 1,
+      "gauge": "пучок"
+    },
+    {
+      "ingredientKey": "zira",
+      "count": 1,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "salt",
+      "count": 1,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.5,
+      "gauge": "ч.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "mangalIliGril"
+    },
+    {
+      "equipmentKey": "shampuryIliReshetka"
+    },
+    {
+      "equipmentKey": "bowl"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Мелко нарежьте лук и зелень. Если лук очень сочный, слегка отожмите его, чтобы фарш не стал жидким.",
+      "ingredients": [
+        {
+          "ingredientKey": "onion",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "svezhayaZelen",
+          "count": 1,
+          "gauge": "пучок"
+        }
+      ]
+    },
+    {
+      "description": "Смешайте говяжий фарш с луком, зеленью, зирой, солью и перцем. Вымешивайте 5-7 минут, пока масса не станет вязкой.",
+      "ingredients": [
+        {
+          "ingredientKey": "govyazhiyFarsh",
+          "count": 900,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "zira",
+          "count": 1,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "salt",
+          "count": 1,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.5,
+          "gauge": "ч.л."
+        }
+      ]
+    },
+    {
+      "description": "Уберите фарш в холодильник на 30 минут, затем плотно сформируйте продолговатые люля вокруг шампуров или выложите на решетку.",
+      "ingredients": []
+    },
+    {
+      "description": "Жарьте люля 10-12 минут, часто поворачивая. Снимайте, когда поверхность хорошо схватилась, а сок внутри стал прозрачным.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Люля-кебаб держится не на яйце или хлебе, а на хорошем вымешивании фарша. Поэтому главный этап здесь — сделать мясную массу липкой и плотной.",
+  "tips": [
+    "Фарш должен быть холодным: так люля лучше держатся на шампуре.",
+    "Не добавляйте слишком много лука, иначе котлетки могут развалиться.",
+    "Переворачивайте люля только после того, как нижняя сторона схватилась."
+  ],
+  "serving": "Подавайте с лавашом, луком, зеленью и томатным соусом.",
+  "variations": [
+    {
+      "name": "С бараниной",
+      "changes": "Замените половину говядины бараньим фаршем."
+    },
+    {
+      "name": "С кинзой",
+      "changes": "Используйте кинзу как основную зелень."
+    }
+  ],
+  "comments": []
+}

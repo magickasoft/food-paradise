@@ -1,0 +1,152 @@
+{
+  "metaSeo": {
+    "title": "Смузи-боул с манго и чиа | Пошаговый рецепт завтрака",
+    "description": "Густой смузи-боул с манго, бананом, миндальным молоком и семенами чиа. Яркий завтрак без варки.",
+    "keywords": ["смузи боул с манго", "завтрак с манго", "боул с чиа", "фруктовый завтрак"],
+    "og:title": "Смузи-боул с манго и чиа | Пошаговый рецепт завтрака",
+    "og:description": "Густой смузи-боул с манго, бананом, миндальным молоком и семенами чиа. Яркий завтрак без варки.",
+    "og:url": "https://food-paradise.ru/recipe/smuzi-boul-s-mango-i-chia",
+    "twitterTitle": "Смузи-боул с манго и чиа | Пошаговый рецепт завтрака",
+    "twitterDescription": "Густой смузи-боул с манго, бананом, миндальным молоком и семенами чиа. Яркий завтрак без варки.",
+    "twitterUrl": "https://food-paradise.ru/recipe/smuzi-boul-s-mango-i-chia",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/smuzi-boul-s-mango-i-chia",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["смузи боул с манго", "манго боул", "завтрак с чиа и бананом"],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "smuzi-boul-s-mango-i-chia",
+  "name": "Смузи-боул с манго и чиа",
+  "img": null,
+  "title": "Смузи-боул с манго и чиа",
+  "description": "Густой смузи-боул с манго, бананом, миндальным молоком и семенами чиа. Яркий завтрак без варки.",
+  "calories": 320,
+  "preparation": null,
+  "time": 10,
+  "level": 1,
+  "rating": 4.8,
+  "portions": 2,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "mango",
+      "count": 250,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "banan",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "mindalnoeMoloko",
+      "count": 140,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "semenaChia",
+      "count": 2,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "yagody",
+      "count": 80,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "gretskieOrehi",
+      "count": 20,
+      "gauge": "г"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "blender"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "bowl"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Нарежьте манго и банан, переложите в чашу блендера.",
+      "ingredients": [
+        {
+          "ingredientKey": "mango",
+          "count": 250,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "banan",
+          "count": 1,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "description": "Добавьте миндальное молоко и пробейте до густой гладкой текстуры.",
+      "ingredients": [
+        {
+          "ingredientKey": "mindalnoeMoloko",
+          "count": 140,
+          "gauge": "мл"
+        }
+      ]
+    },
+    {
+      "description": "Перелейте основу в боулы, посыпьте семенами чиа, ягодами и грецкими орехами.",
+      "ingredients": [
+        {
+          "ingredientKey": "semenaChia",
+          "count": 2,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "yagody",
+          "count": 80,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "gretskieOrehi",
+          "count": 20,
+          "gauge": "г"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Смузи-боулы выросли из привычных фруктовых смузи, когда густую основу стали подавать ложкой и дополнять топингами. Манго дает плотность и яркий вкус без сложных добавок.",
+  "tips": [
+    "Для более густого боула используйте замороженный банан.",
+    "Молоко добавляйте постепенно: лишняя жидкость сделает основу слишком питьевой.",
+    "Орехи лучше рубить крупно, чтобы сохранить хруст."
+  ],
+  "serving": "Подавайте сразу после взбивания, пока основа холодная и густая.",
+  "variations": [
+    {
+      "name": "С йогуртом",
+      "changes": "Замените половину миндального молока греческим йогуртом."
+    },
+    {
+      "name": "С черникой",
+      "changes": "Добавьте 100 г черники вместо части манго."
+    }
+  ],
+  "comments": []
+}

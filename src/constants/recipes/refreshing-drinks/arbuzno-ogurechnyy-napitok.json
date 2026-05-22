@@ -1,0 +1,158 @@
+{
+  "metaSeo": {
+    "title": "Арбузно-огуречный напиток | Освежающий напиток",
+    "description": "Сочный напиток из арбуза, огурца, лайма и мяты. Он получается легким, водянистым и по-летнему свежим.",
+    "keywords": ["арбузный напиток", "напиток с огурцом", "арбуз с огурцом", "летний напиток"],
+    "og:title": "Арбузно-огуречный напиток | Освежающий напиток",
+    "og:description": "Сочный напиток из арбуза, огурца, лайма и мяты. Он получается легким, водянистым и по-летнему свежим.",
+    "og:url": "https://food-paradise.ru/recipe/arbuzno-ogurechnyy-napitok",
+    "twitterTitle": "Арбузно-огуречный напиток | Освежающий напиток",
+    "twitterDescription": "Сочный напиток из арбуза, огурца, лайма и мяты. Он получается легким, водянистым и по-летнему свежим.",
+    "twitterUrl": "https://food-paradise.ru/recipe/arbuzno-ogurechnyy-napitok",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/arbuzno-ogurechnyy-napitok",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["арбузно огуречный напиток", "напиток из арбуза и огурца", "арбуз с лаймом"],
+  "categories": [
+    {
+      "name": "refreshingDrinks"
+    }
+  ],
+  "key": "arbuzno-ogurechnyy-napitok",
+  "name": "arbuzno-ogurechnyy-napitok",
+  "img": null,
+  "title": "Арбузно-огуречный напиток",
+  "description": "Сочный напиток из арбуза, огурца, лайма и мяты. Он получается легким, водянистым и по-летнему свежим.",
+  "calories": 42,
+  "preparation": 10,
+  "time": 10,
+  "level": 1,
+  "rating": 4.7,
+  "portions": 4,
+  "used": [1, 0, 10],
+  "ingredients": [
+    {
+      "ingredientKey": "arbuz",
+      "count": 600,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "cucumber",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "lime",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "myataSvezhaya",
+      "count": 8,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "led",
+      "count": 1,
+      "gauge": "стакан"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "blender"
+    },
+    {
+      "equipmentKey": "sieve"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "kuvshin"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Арбуз нарежьте кубиками, огурец нарежьте кружочками.",
+      "ingredients": [
+        {
+          "ingredientKey": "arbuz",
+          "count": 600,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "cucumber",
+          "count": 1,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Из лайма выжмите сок.",
+      "ingredients": [
+        {
+          "ingredientKey": "lime",
+          "count": 1,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Взбейте арбуз, огурец, лаймовый сок и мяту в блендере.",
+      "ingredients": [
+        {
+          "ingredientKey": "myataSvezhaya",
+          "count": 8,
+          "gauge": "г"
+        }
+      ]
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите напиток при желании и добавьте лед.",
+      "ingredients": [
+        {
+          "ingredientKey": "led",
+          "count": 1,
+          "gauge": "стакан"
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Арбуз и огурец хорошо работают вместе благодаря похожей сочной текстуре: напиток получается легким без лишней густоты.",
+  "tips": [
+    "Сладость зависит от арбуза, поэтому сахар обычно не нужен.",
+    "Если огурец с плотной кожурой, лучше его очистить.",
+    "Подавайте напиток сразу после взбивания."
+  ],
+  "serving": "Подавайте в стаканах со льдом и веточкой мяты.",
+  "variations": [
+    {
+      "name": "С базиликом",
+      "changes": "Замените мяту базиликом."
+    },
+    {
+      "name": "С газом",
+      "changes": "Разбавьте готовый напиток газированной водой."
+    }
+  ],
+  "comments": []
+}

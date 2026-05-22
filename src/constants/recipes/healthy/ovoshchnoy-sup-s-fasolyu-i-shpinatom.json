@@ -186,7 +186,13 @@
       "img": null,
       "video": null,
       "description": "Добавьте шпинат в суп, прогрейте 1-2 минуты и снимите с огня.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "shpinatSvezhiy",
+          "count": 80,
+          "gauge": "г"
+        }
+      ]
     }
   ],
   "historyDescription": "Овощные супы с бобовыми ценят за простую логику: немного овощей для аромата, фасоль для плотности и зелень в конце для свежести.",

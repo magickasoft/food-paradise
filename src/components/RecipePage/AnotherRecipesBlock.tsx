@@ -27,7 +27,7 @@ export function AnotherRecipesBlock({ recipes }: { recipes: Recipe[] }) {
       <DetailsTitle>Попробуйте также</DetailsTitle>
       <RecipesScroll>
         {recipes.map(({ key, name, ...recipe }) => (
-          <RecipeCard name={name} key={key || name} {...recipe} />
+          <RecipeCard name={name} key={key || name} recipeKey={key} {...recipe} />
         ))}
       </RecipesScroll>
     </AnotherRecipesContainer>

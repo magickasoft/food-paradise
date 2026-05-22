@@ -294,6 +294,11 @@ export const ADDITIONAL_RECIPE_INGREDIENTS = {
     gauge: 'банка',
     img: null,
   },
+  kukuruzaVPochatkah: {
+    name: 'Кукуруза в початках',
+    gauge: 'шт.',
+    img: null,
+  },
   kukuruznyyKrahmal: {
     name: 'Кукурузный крахмал',
     gauge: 'ст.л',

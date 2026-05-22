@@ -538,6 +538,12 @@
       "equipmentKey": "grilIliSkovoroda"
     },
     {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
       "equipmentKey": "kuhonnyeSchiptsy"
     }
   ],
@@ -545,7 +551,7 @@
     {
       "img": null,
       "video": null,
-      "description": "Куриное филе нарежьте на полоски, посолите, поперчите, добавьте измельченный чеснок и обжарьте на гриле до готовности.",
+      "description": "Куриное филе нарежьте на полоски, посолите, поперчите, добавьте измельченный чеснок, смажьте оливковым маслом и обжарьте на гриле до готовности.",
       "ingredients": [
         {
           "ingredientKey": "kurinoeFile",
@@ -555,6 +561,16 @@
         {
           "ingredientKey": "garlic",
           "gauge": "зубчик",
+          "count": 1
+        },
+        {
+          "ingredientKey": "olivkovoeMaslo",
+          "gauge": "ст.л",
+          "count": 1
+        },
+        {
+          "ingredientKey": "solIPerets",
+          "gauge": "по вкусу",
           "count": 1
         }
       ]
@@ -585,6 +601,11 @@
           "count": 0.5
         },
         {
+          "ingredientKey": "kurinoeFile",
+          "gauge": "г",
+          "count": 150
+        },
+        {
           "ingredientKey": "motsarella",
           "gauge": "г",
           "count": 50
@@ -595,7 +616,18 @@
       "img": null,
       "video": null,
       "description": "Закройте сэндвич и слегка прижмите. Можно подогреть на гриле 1-2 минуты для расплавленного сыра.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "bagetIliChiabatta",
+          "gauge": "шт.",
+          "count": 1
+        },
+        {
+          "ingredientKey": "motsarella",
+          "gauge": "г",
+          "count": 50
+        }
+      ]
     }
   ],
   "tips": [

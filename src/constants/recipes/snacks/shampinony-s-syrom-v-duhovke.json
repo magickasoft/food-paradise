@@ -66,6 +66,7 @@
     },
     {
       "ingredientKey": "groundBlackPepper",
+      "count": " ",
       "gauge": "по вкусу"
     }
   ],
@@ -78,6 +79,12 @@
     },
     {
       "equipmentKey": "parchment"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
     },
     {
       "equipmentKey": "bowl"
@@ -126,6 +133,7 @@
         },
         {
           "ingredientKey": "groundBlackPepper",
+          "count": " ",
           "gauge": "по вкусу"
         }
       ]
@@ -134,7 +142,23 @@
       "img": null,
       "video": null,
       "description": "Наполните шляпки сырной смесью и запекайте 18–20 минут до румяной верхушки.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "champignons",
+          "count": 500,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "hardCheese",
+          "count": 120,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "creamCheese",
+          "count": 80,
+          "gauge": "г"
+        }
+      ]
     }
   ],
   "historyDescription": "Фаршированные шампиньоны — удобная горячая закуска, которая пришла из ресторанной подачи в домашние духовки. Грибная шляпка работает как маленькая форма, а сырная начинка делает блюдо сытным и ароматным.",

@@ -1,0 +1,171 @@
+{
+  "metaSeo": {
+    "title": "Свиная шея с луком и зирой | Рецепт на мангале",
+    "description": "Сочные куски свиной шеи на шампурах с луком, зирой и кориандром. Простой шашлык без тяжелого соуса.",
+    "keywords": ["свиная шея на мангале", "шашлык с зирой", "шашлык из свиной шеи"],
+    "og:title": "Свиная шея с луком и зирой | Рецепт на мангале",
+    "og:description": "Сочные куски свиной шеи на шампурах с луком, зирой и кориандром. Простой шашлык без тяжелого соуса.",
+    "og:url": "https://food-paradise.ru/recipe/svinaya-sheya-s-lukom-i-ziroy",
+    "twitterTitle": "Свиная шея с луком и зирой | Рецепт на мангале",
+    "twitterDescription": "Сочные куски свиной шеи на шампурах с луком, зирой и кориандром. Простой шашлык без тяжелого соуса.",
+    "twitterUrl": "https://food-paradise.ru/recipe/svinaya-sheya-s-lukom-i-ziroy",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/svinaya-sheya-s-lukom-i-ziroy",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["свиная шея с луком на мангале", "шашлык с зирой", "шашлык из свиной шеи"],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "svinaya-sheya-s-lukom-i-ziroy",
+  "name": "Свиная шея с луком и зирой",
+  "img": null,
+  "title": "Свиная шея с луком и зирой",
+  "description": "Сочные куски свиной шеи на шампурах с луком, зирой и кориандром. Простой шашлык без тяжелого соуса.",
+  "calories": 520,
+  "preparation": 25,
+  "time": 270,
+  "level": 2,
+  "rating": 4.8,
+  "portions": 5,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "svinayaSheya",
+      "count": 1300,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "onion",
+      "count": 4,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "zira",
+      "count": 1,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "koriandrMolotyy",
+      "count": 1,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "salt",
+      "count": 1.5,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "groundBlackPepper",
+      "count": 0.5,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "oliveOil",
+      "count": 2,
+      "gauge": "ст.л."
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "mangalIliGril"
+    },
+    {
+      "equipmentKey": "shampuryIliReshetka"
+    },
+    {
+      "equipmentKey": "glubokayaMiskaDlyaMarinovaniya"
+    },
+    {
+      "equipmentKey": "knife"
+    },
+    {
+      "equipmentKey": "cutBoard"
+    },
+    {
+      "equipmentKey": "kuhonnyeSchiptsy"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Нарежьте свиную шею кусками по 4-5 см, лук нарежьте полукольцами.",
+      "ingredients": [
+        {
+          "ingredientKey": "svinayaSheya",
+          "count": 1300,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "onion",
+          "count": 4,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "description": "Разомните лук с солью, добавьте зиру, молотый кориандр, перец и оливковое масло.",
+      "ingredients": [
+        {
+          "ingredientKey": "salt",
+          "count": 1.5,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "zira",
+          "count": 1,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "koriandrMolotyy",
+          "count": 1,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "groundBlackPepper",
+          "count": 0.5,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "oliveOil",
+          "count": 2,
+          "gauge": "ст.л."
+        }
+      ]
+    },
+    {
+      "description": "Смешайте мясо с луком и специями, накройте и уберите в холодильник на 3 часа. Перед жаркой снимите с кусков лишний лук.",
+      "ingredients": []
+    },
+    {
+      "description": "Нанижите мясо на шампуры и жарьте над уверенными углями 18-22 минуты, регулярно поворачивая.",
+      "ingredients": []
+    }
+  ],
+  "historyDescription": "Шашлык из свиной шеи держится на правильном куске мяса: прожилки жира защищают его от пересыхания. Зира и кориандр дают аромат, близкий к кавказским и среднеазиатским маринадам.",
+  "tips": [
+    "Не нанизывайте лук между кусками: он быстрее сгорит, чем приготовится мясо.",
+    "Куски делайте одинаковыми, чтобы шашлык прожарился равномерно.",
+    "После жарки дайте мясу отдохнуть 5 минут под фольгой."
+  ],
+  "serving": "Подавайте с маринованным луком, зеленью и свежими овощами.",
+  "variations": [
+    {
+      "name": "С уксусом",
+      "changes": "Добавьте 1 ст.л. винного уксуса к луку."
+    },
+    {
+      "name": "С зеленью",
+      "changes": "Добавьте пучок кинзы в маринад и уберите его перед жаркой."
+    }
+  ],
+  "comments": []
+}

@@ -1,0 +1,190 @@
+{
+  "metaSeo": {
+    "title": "Яблочные оладьи из овсяной муки | Пошаговый рецепт завтрака",
+    "description": "Небольшие овсяные оладьи с тертым яблоком и корицей. Хороший вариант теплого сладкого завтрака без сложного теста.",
+    "keywords": ["яблочные оладьи", "оладьи из овсяной муки", "оладьи с яблоком", "завтрак с яблоком"],
+    "og:title": "Яблочные оладьи из овсяной муки | Пошаговый рецепт завтрака",
+    "og:description": "Небольшие овсяные оладьи с тертым яблоком и корицей. Хороший вариант теплого сладкого завтрака без сложного теста.",
+    "og:url": "https://food-paradise.ru/recipe/yablochnye-oladi-iz-ovsyanoy-muki",
+    "twitterTitle": "Яблочные оладьи из овсяной муки | Пошаговый рецепт завтрака",
+    "twitterDescription": "Небольшие овсяные оладьи с тертым яблоком и корицей. Хороший вариант теплого сладкого завтрака без сложного теста.",
+    "twitterUrl": "https://food-paradise.ru/recipe/yablochnye-oladi-iz-ovsyanoy-muki",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://food-paradise.ru/recipe/yablochnye-oladi-iz-ovsyanoy-muki",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": ["яблочные оладьи из овсяной муки", "овсяные оладьи с яблоком", "оладьи на завтрак"],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "yablochnye-oladi-iz-ovsyanoy-muki",
+  "name": "Яблочные оладьи из овсяной муки",
+  "img": null,
+  "title": "Яблочные оладьи из овсяной муки",
+  "description": "Небольшие овсяные оладьи с тертым яблоком и корицей. Хороший вариант теплого сладкого завтрака без сложного теста.",
+  "calories": 360,
+  "preparation": 10,
+  "time": 25,
+  "level": 2,
+  "rating": 4.8,
+  "portions": 2,
+  "used": null,
+  "ingredients": [
+    {
+      "ingredientKey": "ovsyanayaMuka",
+      "count": 140,
+      "gauge": "г"
+    },
+    {
+      "ingredientKey": "apple",
+      "count": 1,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "eggs",
+      "count": 2,
+      "gauge": "шт."
+    },
+    {
+      "ingredientKey": "milk",
+      "count": 160,
+      "gauge": "мл"
+    },
+    {
+      "ingredientKey": "bakingPowder",
+      "count": 0.5,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "cinnamon",
+      "count": 0.5,
+      "gauge": "ч.л."
+    },
+    {
+      "ingredientKey": "honey",
+      "count": 1,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "vegetableOil",
+      "count": 1.5,
+      "gauge": "ст.л."
+    },
+    {
+      "ingredientKey": "salt",
+      "count": 1,
+      "gauge": "щепотка"
+    }
+  ],
+  "equipments": [
+    {
+      "equipmentKey": "bowl"
+    },
+    {
+      "equipmentKey": "whisk"
+    },
+    {
+      "equipmentKey": "grater"
+    },
+    {
+      "equipmentKey": "pan"
+    },
+    {
+      "equipmentKey": "spatula"
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "description": "Натрите яблоко на крупной терке.",
+      "ingredients": [
+        {
+          "ingredientKey": "apple",
+          "count": 1,
+          "gauge": "шт."
+        }
+      ]
+    },
+    {
+      "description": "Смешайте овсяную муку, разрыхлитель, корицу и щепотку соли.",
+      "ingredients": [
+        {
+          "ingredientKey": "ovsyanayaMuka",
+          "count": 140,
+          "gauge": "г"
+        },
+        {
+          "ingredientKey": "bakingPowder",
+          "count": 0.5,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "cinnamon",
+          "count": 0.5,
+          "gauge": "ч.л."
+        },
+        {
+          "ingredientKey": "salt",
+          "count": 1,
+          "gauge": "щепотка"
+        }
+      ]
+    },
+    {
+      "description": "Добавьте яйца, молоко, мед и тертое яблоко. Перемешайте и оставьте тесто на 5 минут.",
+      "ingredients": [
+        {
+          "ingredientKey": "eggs",
+          "count": 2,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "milk",
+          "count": 160,
+          "gauge": "мл"
+        },
+        {
+          "ingredientKey": "honey",
+          "count": 1,
+          "gauge": "ст.л."
+        }
+      ]
+    },
+    {
+      "description": "Жарьте оладьи на растительном масле по 2 минуты с каждой стороны до румяности.",
+      "ingredients": [
+        {
+          "ingredientKey": "vegetableOil",
+          "count": 1.5,
+          "gauge": "ст.л."
+        }
+      ]
+    }
+  ],
+  "historyDescription": "Яблочные оладьи — домашний способ быстро превратить фрукты и простое тесто в теплый завтрак. Овсяная мука дает более выраженный вкус и мягкую плотную структуру.",
+  "tips": [
+    "Если яблоко очень сочное, слегка отожмите тертую массу.",
+    "Жарьте на среднем огне, чтобы оладьи успели пропечься внутри.",
+    "Не делайте тесто слишком жидким: овсяная мука должна немного набухнуть."
+  ],
+  "serving": "Подавайте теплыми с йогуртом или ягодами.",
+  "variations": [
+    {
+      "name": "С бананом",
+      "changes": "Замените половину яблока размятым бананом."
+    },
+    {
+      "name": "С орехами",
+      "changes": "Добавьте 25 г мелко рубленых грецких орехов."
+    }
+  ],
+  "comments": []
+}

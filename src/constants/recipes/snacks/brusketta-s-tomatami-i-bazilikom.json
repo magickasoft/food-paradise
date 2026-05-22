@@ -66,10 +66,12 @@
     },
     {
       "ingredientKey": "salt",
+      "count": " ",
       "gauge": "по вкусу"
     },
     {
       "ingredientKey": "groundBlackPepper",
+      "count": " ",
       "gauge": "по вкусу"
     }
   ],
@@ -82,6 +84,9 @@
     },
     {
       "equipmentKey": "bowl"
+    },
+    {
+      "equipmentKey": "grater"
     },
     {
       "equipmentKey": "pan"
@@ -127,10 +132,12 @@
         },
         {
           "ingredientKey": "salt",
+          "count": " ",
           "gauge": "по вкусу"
         },
         {
           "ingredientKey": "groundBlackPepper",
+          "count": " ",
           "gauge": "по вкусу"
         }
       ]
@@ -139,7 +146,18 @@
       "img": null,
       "video": null,
       "description": "Выложите томатную смесь на теплые ломтики хлеба и подавайте сразу, пока основа хрустит.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "ciabatta",
+          "count": 1,
+          "gauge": "шт."
+        },
+        {
+          "ingredientKey": "tomato",
+          "count": 3,
+          "gauge": "шт."
+        }
+      ]
     }
   ],
   "historyDescription": "Брускетта родилась как простой итальянский способ использовать хороший хлеб и сезонные овощи. В домашней кухне она ценится за честный вкус: хрустящая основа, спелые томаты, аромат чеснока и свежий базилик.",

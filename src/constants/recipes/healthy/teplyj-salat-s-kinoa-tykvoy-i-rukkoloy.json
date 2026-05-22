@@ -94,6 +94,9 @@
       "equipmentKey": "pot"
     },
     {
+      "equipmentKey": "lid"
+    },
+    {
       "equipmentKey": "knife"
     },
     {
@@ -150,7 +153,13 @@
       "img": null,
       "video": null,
       "description": "Запекайте тыкву при 200°C 20 минут до мягкости и легкой румяности.",
-      "ingredients": []
+      "ingredients": [
+        {
+          "ingredientKey": "pumpkin",
+          "count": 450,
+          "gauge": "г"
+        }
+      ]
     },
     {
       "img": null,
