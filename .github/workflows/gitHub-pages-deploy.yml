@@ -1,9 +1,12 @@
 name: Deploy to GitHub Pages
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: write # нужно JamesIves-экшену для пуша в gh-pages
+
+# Отменяем предыдущие запуски на той же ветке, чтобы не было гонки при пуше в gh-pages
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: true
 
 on:
   push:
@@ -11,7 +14,8 @@ on:
   pull_request:
     branches: [master]
   schedule:
-    - cron: 0 0 * * 1 # Every Monday at 00:00 UTC
+    - cron: 0 0 * * 1
+  workflow_dispatch: # удобно для ручного перезапуска
 
 jobs:
   build-and-deploy:
@@ -22,14 +26,18 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Bun
-        uses: oven-sh/setup-bun@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
 
       - name: Install Dependencies
-        run: bun install --ci
+        run: npm ci
 
       - name: Build
-        run: bun run build
+        run: npm run build
+
       - name: Verify Build Output
         run: |
           if [ ! -d "./out" ]; then
@@ -37,11 +45,14 @@ jobs:
             ls -la
             exit 1
           fi
+
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
 
-      # 5. Публикация на GitHub Pages
+      # Публикуем ТОЛЬКО при push в master, по расписанию или вручную.
+      # На pull_request деплой пропускается — иначе упадёт на форках из-за read-only GITHUB_TOKEN.
       - name: Deploy
+        if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
