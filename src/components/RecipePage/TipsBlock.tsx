@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { TipsList } from '../TipsList'
 import { maxDevice } from '@/styles/device'
 import { useEffect, useState } from 'react'
-import { useDeviceDetector } from 'nice-react-device-detector'
+import { isMobile } from 'react-device-detect'
 
 const TipsContainer = styled.section`
   width: 100%;
@@ -66,7 +66,6 @@ const Arrow = styled.span<{ $isOpen: boolean }>`
 `
 
 export function TipsBlock({ tips }: { tips: string[] }) {
-  const isMobile = useDeviceDetector()
   const [isOpen, setIsOpen] = useState(false)
 
   useEffect(() => {
