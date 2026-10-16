@@ -1,5 +1,6 @@
 import { readdir, rm, mkdir, stat } from 'node:fs/promises'
 import path from 'node:path'
+import { pathToFileURL } from 'node:url'
 
 import sharp from 'sharp'
 
@@ -123,7 +124,7 @@ export const optimizeImages = async () => {
   }
 
   const { images, skipped } = createOptimizationPlan({ sourceRoot, outputRoot, imagePaths })
-  const results = []
+  const results: OptimizedImageResult[] = []
 
   for (const { imagePath, outputPath } of images) {
     const result = await optimizeImage({ imagePath, outputPath })
@@ -147,6 +148,14 @@ export const optimizeImages = async () => {
   console.log(`Saved: ${savedPercent}%`)
 }
 
-if (import.meta.main) {
-  await optimizeImages()
+const isMainModule =
+  typeof process !== 'undefined' &&
+  process.argv[1] !== undefined &&
+  import.meta.url === pathToFileURL(process.argv[1]).href
+
+if (isMainModule) {
+  optimizeImages().catch(error => {
+    console.error(error)
+    process.exit(1)
+  })
 }
