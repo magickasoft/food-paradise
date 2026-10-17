@@ -1,1 +1,2 @@
-0:{"buildId":"gqyAtj7d3DpWJbIZgmmhv","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+1:[["children",{"s":"__PAGE__","h":160}]]
+0:{"b":"QYU-BzTnJsglw90TA_QkW","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
