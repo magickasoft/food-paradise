@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /api/*
+Disallow: /_next/*
+
+Sitemap: https://food-paradise.ru/sitemap.xml

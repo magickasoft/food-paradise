@@ -1,0 +1,51 @@
+1:"$Sreact.fragment"
+2:"/food-paradise/_next/static/chunks/0umf92h1sb77c.js"
+3:"/food-paradise/_next/static/chunks/0nj71ieapkbo0.js"
+4:"ClientSegmentRoot"
+5:I[92825,["$2","$3"],"$4"]
+6:I[53642,["$2","$3"],"default"]
+7:I[39756,["$2","$3"],"default"]
+8:I[37457,["$2","$3"],"default"]
+9:"/food-paradise/_next/static/chunks/0o5g0abw7l6am.js"
+a:I[29306,["$2","$3","$9"],"default"]
+11:I[47257,["$2","$3"],"ClientPageRoot"]
+12:"/food-paradise/_next/static/chunks/2us4axxvpeoby.js"
+13:"/food-paradise/_next/static/chunks/1ehxcct3ovkpl.js"
+14:"/food-paradise/_next/static/chunks/0ujki7ol1v8mz.js"
+15:"/food-paradise/_next/static/chunks/328tngm7f0di9.js"
+16:"/food-paradise/_next/static/chunks/29qtq-pvsh37m.js"
+17:"/food-paradise/_next/static/chunks/2lotlvedwuck1.js"
+18:"/food-paradise/_next/static/chunks/1-1ra18-8--vz.js"
+19:I[81055,["$2","$3","$12","$13","$14","$15","$16","$17","$18"],"default"]
+1c:I[97367,["$2","$3"],"OutletBoundary"]
+1d:"$Sreact.suspense"
+1f:"ViewportBoundary"
+20:I[97367,["$2","$3"],"$1f"]
+22:"MetadataBoundary"
+23:I[97367,["$2","$3"],"$22"]
+25:I[68027,["$2","$3"],"default",1]
+:HL["/food-paradise/_next/static/chunks/0m4lk93awlr0x.css","style"]
+:HL["/food-paradise/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/food-paradise/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+f:X
+10:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","$L11",null,{"Component":"$19","serverProvidedParams":{"searchParams":{},"params":{"locale":"ru"},"promises":["$@1a","$@1b"]}}],[["$","script","script-0",{"src":"/food-paradise/_next/static/chunks/1-1ra18-8--vz.js","async":true,"nonce":"$undefined"}]],["$","$L1c",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]]}],"p":false,"v":null}}]]
+e:[["children",{"s":"categories","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$f"},"c":"$Q10"}]]
+c:[["children",{"s":{"n":"locale","t":"d","k":"ru","s":[]},"h":512,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/food-paradise/_next/static/chunks/0m4lk93awlr0x.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/food-paradise/_next/static/chunks/2us4axxvpeoby.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/food-paradise/_next/static/chunks/1ehxcct3ovkpl.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/food-paradise/_next/static/chunks/0ujki7ol1v8mz.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/food-paradise/_next/static/chunks/328tngm7f0di9.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/food-paradise/_next/static/chunks/29qtq-pvsh37m.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/food-paradise/_next/static/chunks/2lotlvedwuck1.js","async":true,"nonce":"$undefined"}]],"$Ld"]}],"p":false,"v":null},"c":"$Qe"}]]
+0:{"P":null,"c":["","ru","categories",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/food-paradise/_next/static/chunks/0umf92h1sb77c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/food-paradise/_next/static/chunks/0nj71ieapkbo0.js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"Component":"$6","slots":{"children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$La",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]},"serverProvidedParams":{"params":{},"promises":["$@b"]}}]]}],"p":false,"v":null},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L20",null,{"children":"$L21"}],["$","$L23",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1d",null,{"name":"Next.Metadata","children":"$L24"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":false,"v":null}},"m":"$undefined","G":["$25",[]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"-hc_owV-FjGZvpFxR9VPE"}
+f:C
+b:"$0:t:t:d:r:props:children:1:props:serverProvidedParams:params"
+1a:{}
+1b:"$10:0:1:d:r:props:children:0:props:serverProvidedParams:params"
+d:["$","html",null,{"lang":"ru","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.svg","type":"image/svg+xml"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta",null,{"name":"robots","content":"max-image-preview:large"}],["$","meta",null,{"name":"yandex-verification","content":"2e7fe2a2d1794de6"}]]}],["$","body",null,{"className":"T19VSG_variable _8Li5zG_variable","suppressHydrationWarning":true,"children":"$L26"}]]}]
+27:I[75696,["$2","$3","$12","$13","$14","$15","$16","$17"],"default"]
+28:"YandexMetricaProvider"
+29:I[57270,["$2","$3","$12","$13","$14","$15","$16","$17"],"$28"]
+2a:I[2971,["$2","$3","$12","$13","$14","$15","$16","$17"],"Header"]
+2c:I[9009,["$2","$3","$12","$13","$14","$15","$16","$17"],"Footer"]
+2d:"ShoppingListWidget"
+2e:I[16233,["$2","$3","$12","$13","$14","$15","$16","$17"],"$2d"]
+26:["$","$L27",null,{"formats":"$undefined","locale":"ru","messages":{"btn":{"default":{"label":"Кнопка default"},"primary":{"label":"Кнопка primary"}},"localeSelect":{"label":"Выберите язык","locale":{"ru":"Рус","en":"Англ"}},"manifest":{"name":"next-intl example"},"localeLayout":{"title":"next-intl example"},"notFoundPage":{"description":"Пожалуйста, еще раз проверьте адресную строку браузера или воспользуйтесь навигацией, чтобы перейти на известную страницу.","title":"Страница не найдена"},"suggestRecipe":{"title":"Предложить рецепт","href":"https://forms.yandex.ru/u/691ac78c9029026ef94eb5d4"},"totalRecipes":{"title":"Всего рецептов: {count}"},"copyright":{"text":"©, {text} {url} Любое использование контента без письменного разрешения {url} запрещено. Возрастное ограничение 16+"},"docs":{"doc1":{"title":"Политика в отношении обработки персональных данных","href":"https://docs.google.com/document/d/1cpOXQMNeexyKuseOEj7wemK7fRfGrccXJLRmgiDGfUA"},"doc2":{"title":"Пользовательское соглашение","href":"https://docs.google.com/document/d/1V7UjGl5E73HLNgArQi8uUGCxVUiH1_56g28HEB_ZwYU"},"doc3":{"title":"Политика обработки файлов cookie","href":"https://docs.google.com/document/d/1fyIAFDSN-4LnDZbdQq4r82ghddvpsZkwO49Sb4Yga_Y"}}},"now":"$undefined","timeZone":"UTC","children":["$","$L29",null,{"tagID":103848917,"children":[["$","$L2a",null,{}],["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$L2b",[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L2c",null,{}],["$","$L2e",null,{}]]}]}]
+21:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+2b:[["$","p",null,{"children":"Страница не найдена"}],["$","p",null,{"children":"Пожалуйста, еще раз проверьте адресную строку браузера или воспользуйтесь навигацией, чтобы перейти на известную страницу."}]]
+1e:null
+24:[["$","title","0",{"children":"Food-paradise — вкусные рецепты на каждый день"}],["$","meta","1",{"name":"description","content":"Food-paradise — сайт с простыми и вкусными рецептами на каждый день. Завтраки, обеды, ужины, десерты и напитки — готовьте с удовольствием!"}],["$","link","2",{"rel":"manifest","href":"/food-paradise/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"name":"keywords","content":"рецепты, кулинария, готовим дома, домашняя еда, пошаговые рецепты, рецепты с фото, рецепты с видео, простые рецепты, быстрые рецепты, завтраки, обеды, ужины, десерты, закуски, напитки, праздничные блюда, диетические блюда, кулинарные лайфхаки, вкусные рецепты, food-paradise"}]]

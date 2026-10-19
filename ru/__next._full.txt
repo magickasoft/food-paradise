@@ -1,0 +1,46 @@
+1:"$Sreact.fragment"
+2:"/food-paradise/_next/static/chunks/0umf92h1sb77c.js"
+3:"/food-paradise/_next/static/chunks/0nj71ieapkbo0.js"
+4:"ClientSegmentRoot"
+5:I[92825,["$2","$3"],"$4"]
+6:I[53642,["$2","$3"],"default"]
+7:I[39756,["$2","$3"],"default"]
+8:I[37457,["$2","$3"],"default"]
+9:"/food-paradise/_next/static/chunks/0o5g0abw7l6am.js"
+a:I[29306,["$2","$3","$9"],"default"]
+10:I[97367,["$2","$3"],"OutletBoundary"]
+11:"$Sreact.suspense"
+13:"ViewportBoundary"
+14:I[97367,["$2","$3"],"$13"]
+16:"MetadataBoundary"
+17:I[97367,["$2","$3"],"$16"]
+19:I[68027,["$2","$3"],"default",1]
+:HL["/food-paradise/_next/static/chunks/0m4lk93awlr0x.css","style"]
+:HL["/food-paradise/_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/food-paradise/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+e:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":["$Lf",[["$","script","script-0",{"src":"/food-paradise/_next/static/chunks/0a0ec9-fr4hm2.js","async":true,"nonce":"$undefined"}]],["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]]}],"p":false,"v":null}}]]
+c:[["children",{"s":{"n":"locale","t":"d","k":"ru","s":[]},"h":512,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/food-paradise/_next/static/chunks/0m4lk93awlr0x.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/food-paradise/_next/static/chunks/2us4axxvpeoby.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/food-paradise/_next/static/chunks/1ehxcct3ovkpl.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/food-paradise/_next/static/chunks/0ujki7ol1v8mz.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/food-paradise/_next/static/chunks/328tngm7f0di9.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/food-paradise/_next/static/chunks/29qtq-pvsh37m.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/food-paradise/_next/static/chunks/2lotlvedwuck1.js","async":true,"nonce":"$undefined"}]],"$Ld"]}],"p":false,"v":null},"c":"$Qe"}]]
+0:{"P":null,"c":["","ru",""],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/food-paradise/_next/static/chunks/0umf92h1sb77c.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/food-paradise/_next/static/chunks/0nj71ieapkbo0.js","async":true,"nonce":"$undefined"}]],["$","$L5",null,{"Component":"$6","slots":{"children":["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$La",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]},"serverProvidedParams":{"params":{},"promises":["$@b"]}}]]}],"p":false,"v":null},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L14",null,{"children":"$L15"}],["$","$L17",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$11",null,{"name":"Next.Metadata","children":"$L18"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":false,"v":null}},"m":"$undefined","G":["$19",[]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"-hc_owV-FjGZvpFxR9VPE"}
+1a:"/food-paradise/_next/static/chunks/2us4axxvpeoby.js"
+1b:"/food-paradise/_next/static/chunks/1ehxcct3ovkpl.js"
+1c:"/food-paradise/_next/static/chunks/0ujki7ol1v8mz.js"
+1d:"/food-paradise/_next/static/chunks/328tngm7f0di9.js"
+1e:"/food-paradise/_next/static/chunks/29qtq-pvsh37m.js"
+1f:"/food-paradise/_next/static/chunks/2lotlvedwuck1.js"
+20:"/food-paradise/_next/static/chunks/0a0ec9-fr4hm2.js"
+21:I[71359,["$2","$3","$1a","$1b","$1c","$1d","$1e","$1f","$20"],"HomePage"]
+b:"$0:t:t:d:r:props:children:1:props:serverProvidedParams:params"
+f:["$","$L21",null,{}]
+d:["$","html",null,{"lang":"ru","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.svg","type":"image/svg+xml"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1.0"}],["$","meta",null,{"name":"robots","content":"max-image-preview:large"}],["$","meta",null,{"name":"yandex-verification","content":"2e7fe2a2d1794de6"}]]}],["$","body",null,{"className":"T19VSG_variable _8Li5zG_variable","suppressHydrationWarning":true,"children":"$L22"}]]}]
+15:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+23:I[75696,["$2","$3","$1a","$1b","$1c","$1d","$1e","$1f"],"default"]
+24:"YandexMetricaProvider"
+25:I[57270,["$2","$3","$1a","$1b","$1c","$1d","$1e","$1f"],"$24"]
+26:I[2971,["$2","$3","$1a","$1b","$1c","$1d","$1e","$1f"],"Header"]
+28:I[9009,["$2","$3","$1a","$1b","$1c","$1d","$1e","$1f"],"Footer"]
+29:"ShoppingListWidget"
+2a:I[16233,["$2","$3","$1a","$1b","$1c","$1d","$1e","$1f"],"$29"]
+22:["$","$L23",null,{"formats":"$undefined","locale":"ru","messages":{"btn":{"default":{"label":"Кнопка default"},"primary":{"label":"Кнопка primary"}},"localeSelect":{"label":"Выберите язык","locale":{"ru":"Рус","en":"Англ"}},"manifest":{"name":"next-intl example"},"localeLayout":{"title":"next-intl example"},"notFoundPage":{"description":"Пожалуйста, еще раз проверьте адресную строку браузера или воспользуйтесь навигацией, чтобы перейти на известную страницу.","title":"Страница не найдена"},"suggestRecipe":{"title":"Предложить рецепт","href":"https://forms.yandex.ru/u/691ac78c9029026ef94eb5d4"},"totalRecipes":{"title":"Всего рецептов: {count}"},"copyright":{"text":"©, {text} {url} Любое использование контента без письменного разрешения {url} запрещено. Возрастное ограничение 16+"},"docs":{"doc1":{"title":"Политика в отношении обработки персональных данных","href":"https://docs.google.com/document/d/1cpOXQMNeexyKuseOEj7wemK7fRfGrccXJLRmgiDGfUA"},"doc2":{"title":"Пользовательское соглашение","href":"https://docs.google.com/document/d/1V7UjGl5E73HLNgArQi8uUGCxVUiH1_56g28HEB_ZwYU"},"doc3":{"title":"Политика обработки файлов cookie","href":"https://docs.google.com/document/d/1fyIAFDSN-4LnDZbdQq4r82ghddvpsZkwO49Sb4Yga_Y"}}},"now":"$undefined","timeZone":"UTC","children":["$","$L25",null,{"tagID":103848917,"children":[["$","$L26",null,{}],["$","$L7",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$L27",[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L28",null,{}],["$","$L2a",null,{}]]}]}]
+27:[["$","p",null,{"children":"Страница не найдена"}],["$","p",null,{"children":"Пожалуйста, еще раз проверьте адресную строку браузера или воспользуйтесь навигацией, чтобы перейти на известную страницу."}]]
+12:null
+18:[["$","title","0",{"children":"Food-paradise — вкусные рецепты на каждый день"}],["$","meta","1",{"name":"description","content":"Food-paradise — сайт с простыми и вкусными рецептами на каждый день. Завтраки, обеды, ужины, десерты и напитки — готовьте с удовольствием!"}],["$","link","2",{"rel":"manifest","href":"/food-paradise/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"name":"keywords","content":"рецепты, кулинария, готовим дома, домашняя еда, пошаговые рецепты, рецепты с фото, рецепты с видео, простые рецепты, быстрые рецепты, завтраки, обеды, ужины, десерты, закуски, напитки, праздничные блюда, диетические блюда, кулинарные лайфхаки, вкусные рецепты, food-paradise"}]]
