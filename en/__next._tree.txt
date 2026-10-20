@@ -3,4 +3,4 @@
 :HL["/food-paradise/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":{"n":"locale","t":"d","k":"en","s":[]},"h":96,"c":"$Q2"}]]
-0:{"b":"-hc_owV-FjGZvpFxR9VPE","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"epbmhf2wQI8aGsSNuGqK4","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
