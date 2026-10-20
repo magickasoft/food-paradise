@@ -7,6 +7,8 @@ import { SeasonalCategories } from '@/components/SeasonalCategories'
 import { PopularCategories } from '@/components/PopularCategories'
 import { SuggestRecipeButton } from '@/components/suggest-recipe-btn'
 
+import { assetPath } from '@/lib/assetPath'
+
 const PageShell = styled.main`
   background:
     radial-gradient(circle at top left, rgba(255, 132, 2, 0.1), transparent 34rem),
@@ -106,7 +108,7 @@ const HeroCard = styled.div`
   padding: 28px;
   background:
     linear-gradient(180deg, rgba(36, 27, 20, 0.02), rgba(36, 27, 20, 0.68)),
-    url('/optimize/recipes/breakfast/bliny.webp') center / cover;
+    url('${assetPath('/optimize/recipes/breakfast/bliny.webp')}') center / cover;
   box-shadow: 0 26px 64px rgba(44, 31, 20, 0.18);
 
   @media ${maxDevice.laptop} {

@@ -5,6 +5,7 @@ const isDevelopment = process.env.NODE_ENV === 'development'
 const isGithubActions = process.env.GITHUB_ACTIONS === 'true'
 
 const repoName = 'food-paradise'
+const basePath = isGithubActions ? `/${repoName}` : ''
 
 const withNextIntl = createNextIntlPlugin({
   experimental: {
@@ -14,11 +15,15 @@ const withNextIntl = createNextIntlPlugin({
 
 const config: NextConfig = {
   output: 'export', // Включаем статический экспорт
-  basePath: isGithubActions ? `/${repoName}` : '', // Задает путь для GitHub Pages
+  basePath, // Задает путь для GitHub Pages
   assetPrefix: isGithubActions ? `/${repoName}/` : '', // Гарантирует правильную загрузку ресурсов
   trailingSlash: true, // Опциональные настройки для чистых URL
   images: {
     unoptimized: true, // Отключаем оптимизацию изображений для статического экспорта
+  },
+
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
   },
 
   reactStrictMode: true,
