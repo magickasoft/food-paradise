@@ -17,7 +17,11 @@ import SHAMPINONY_S_SYROM_V_DUHOVKE from './snacks/shampinony-s-syrom-v-duhovke.
 import SYRNYE_SHARIKI_S_KUNZHUTOM from './snacks/syrnye-shariki-s-kunzhutom.json'
 import TARTALETKI_S_KRABOVYMI_PALOCHKAMI from './snacks/tartaletki-s-krabovymi-palochkami.json'
 
-export const SNACKS: Recipe[] = [
+import { withAssetPath } from '@/lib/withAssetPath'
+
+const toRecipes = (raw: readonly Recipe[]): Recipe[] => raw.map(item => withAssetPath<Recipe>(item))
+
+export const SNACKS: Recipe[] = toRecipes([
   RULETY_IZ_VETCHINY_S_SYRNOM_I_CHESNOKOM,
   KARTOFELNYE_CHIPSY_V_MIKROVOLNOVKE,
   SENDVICH_S_AVOKADO_I_YAITSOM_PASHOT,
@@ -35,4 +39,4 @@ export const SNACKS: Recipe[] = [
   SYRNYE_SHARIKI_S_KUNZHUTOM,
   KANAPE_S_SELDYU_I_SVEKLOY,
   KABACHKOVYE_OLADI_S_SYROM,
-]
+])

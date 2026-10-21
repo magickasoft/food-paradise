@@ -12,7 +12,11 @@ import TARTALETKI_S_IKROY from './snacks/tartaletki-s-ikroy.json'
 import TARTALETKI_S_KURITSEY_I_GRIBAMI from './snacks/tartaletki-s-kuritsey-i-gribami.json'
 import ZAPECHONNAYA_KURITSA_TSELIKOM from './supper/zapechonnaya-kuritsa-tselikom.json'
 
-export const NEW_YEAR: Recipe[] = [
+import { withAssetPath } from '@/lib/withAssetPath'
+
+const toRecipes = (raw: readonly Recipe[]): Recipe[] => raw.map(item => withAssetPath<Recipe>(item))
+
+export const NEW_YEAR: Recipe[] = toRecipes([
   SALAT_OLIVYE,
   KRABOVYY_SALAT,
   SELODKA_POD_SHUBOY,
@@ -25,4 +29,4 @@ export const NEW_YEAR: Recipe[] = [
   TARTALETKI_S_IKROY,
   TARTALETKI_S_KURITSEY_I_GRIBAMI,
   NOVOGODNEYE_PECHENYE_S_GLAZURYU,
-]
+])

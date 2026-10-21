@@ -16,7 +16,11 @@ import RIS_S_OVOSHCHAMI_I_KREVETKAMI from './healthy/ris-s-ovoshchami-i-krevetka
 import ZAPEKANKA_IZ_BROKKOLI_S_YAYTSOM from './healthy/zapekanka-iz-brokkoli-s-yaytsom.json'
 import SMUZI_S_CHERNIKOY_I_OVSYANKOY from './healthy/smuzi-s-chernikoy-i-ovsyankoy.json'
 
-export const HEALTHY: Recipe[] = [
+import { withAssetPath } from '@/lib/withAssetPath'
+
+const toRecipes = (raw: readonly Recipe[]): Recipe[] => raw.map(item => withAssetPath<Recipe>(item))
+
+export const HEALTHY: Recipe[] = toRecipes([
   RAGU_IZ_KABACHKOV_V_SMETANE,
   OVSYANOBLIN,
   KINOA_BOUL_S_LOSOSEM,
@@ -33,4 +37,4 @@ export const HEALTHY: Recipe[] = [
   RIS_S_OVOSHCHAMI_I_KREVETKAMI,
   ZAPEKANKA_IZ_BROKKOLI_S_YAYTSOM,
   SMUZI_S_CHERNIKOY_I_OVSYANKOY,
-]
+])
