@@ -28,7 +28,11 @@ import SENDVICH_S_AVOKADO_I_YAYTSOM from './breakfast/sendvich-s-avokado-i-yayts
 import ZELENYJ_OMLET_SO_SHPINATOM from './breakfast/zelenyj-omlet-so-shpinatom.json'
 import YABLOCHNYE_OLADI_IZ_OVSYANOY_MUKI from './breakfast/yablochnye-oladi-iz-ovsyanoy-muki.json'
 
-export const BREAKFAST: Recipe[] = [
+import { withAssetPath } from '@/lib/withAssetPath'
+
+const toRecipes = (raw: readonly Recipe[]): Recipe[] => raw.map(item => withAssetPath<Recipe>(item))
+
+export const BREAKFAST: Recipe[] = toRecipes([
   SCRAMBLED_EGGS,
   SCRAMBLED_EGGS_WITH_BROCCOLI,
   OVSJANAJA_KASHA_S_JABLOKAMI_I_KORICEJ,
@@ -57,4 +61,4 @@ export const BREAKFAST: Recipe[] = [
   SENDVICH_S_AVOKADO_I_YAYTSOM,
   ZELENYJ_OMLET_SO_SHPINATOM,
   YABLOCHNYE_OLADI_IZ_OVSYANOY_MUKI,
-]
+])
