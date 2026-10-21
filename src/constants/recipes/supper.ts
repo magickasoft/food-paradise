@@ -19,7 +19,11 @@ import MAKARONY_S_SYROM from './supper/makarony-s-syrom.json'
 import RYBNYE_KOTLETY_S_PYURE from './supper/rybnye-kotlety-s-pyure.json'
 import FARSHIROVANNYE_PERTSY from './supper/farshirovannye-pertsy.json'
 
-export const SUPPER: Recipe[] = [
+import { withAssetPath } from '@/lib/withAssetPath'
+
+const toRecipes = (raw: readonly Recipe[]): Recipe[] => raw.map(item => withAssetPath<Recipe>(item))
+
+export const SUPPER: Recipe[] = toRecipes([
   RUBLENYE_KOTLETY_IZ_GRUDKI_NA_SKOVORODE,
   STEJK_RIBAJ_NA_ELEKTROGRILE,
   MJASO_PO_FRANCUZSKI_S_POMIDORAMI_I_SYROM,
@@ -39,4 +43,4 @@ export const SUPPER: Recipe[] = [
   MAKARONY_S_SYROM,
   RYBNYE_KOTLETY_S_PYURE,
   FARSHIROVANNYE_PERTSY,
-]
+])

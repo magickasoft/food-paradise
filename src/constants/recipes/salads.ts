@@ -14,7 +14,11 @@ import GRUZINSKII_SALAT_LOBIO from './salads/gruzinskii-salat-lobio.json'
 import SALAT_MIMOSA from './salads/salat-mimosa.json'
 import SALAT_S_YAZYKOM_I_GRIBAMI from './salads/salat-s-yazykom-i-gribami.json'
 
-export const SALADS: Recipe[] = [
+import { withAssetPath } from '@/lib/withAssetPath'
+
+const toRecipes = (raw: readonly Recipe[]): Recipe[] => raw.map(item => withAssetPath<Recipe>(item))
+
+export const SALADS: Recipe[] = toRecipes([
   GRECHESKIJ_SALAT,
   SALAT_CEZAR_S_KURITSEY,
   SALAT_S_AVOKADO_I_KREVETKAMI,
@@ -29,4 +33,4 @@ export const SALADS: Recipe[] = [
   GRUZINSKII_SALAT_LOBIO,
   SALAT_MIMOSA,
   SALAT_S_YAZYKOM_I_GRIBAMI,
-]
+])

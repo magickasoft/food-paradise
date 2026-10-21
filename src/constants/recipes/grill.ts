@@ -42,7 +42,11 @@ import KURINYE_BEDRYSHKI_V_KEFIRE_NA_MANGALE from './grill/kurinye-bedryshki-v-k
 import BURGER_KOTLETY_NA_MANGALE from './grill/burger-kotlety-na-mangale.json'
 import BANANY_NA_GRILE_S_MEDOM_I_KORITSEJ from './grill/banany-na-grile-s-medom-i-koritsej.json'
 
-export const GRILL: Recipe[] = [
+import { withAssetPath } from '@/lib/withAssetPath'
+
+const toRecipes = (raw: readonly Recipe[]): Recipe[] => raw.map(item => withAssetPath<Recipe>(item))
+
+export const GRILL: Recipe[] = toRecipes([
   SHASHLYK_IZ_SVININY_NA_KEFIRE,
   SHASHLYK_IZ_KURINOGO_BEDRA,
   SHASHLYK_IZ_KURINYH_GRUDOK,
@@ -85,4 +89,4 @@ export const GRILL: Recipe[] = [
   KURINYE_BEDRYSHKI_V_KEFIRE_NA_MANGALE,
   BURGER_KOTLETY_NA_MANGALE,
   BANANY_NA_GRILE_S_MEDOM_I_KORITSEJ,
-]
+])

@@ -14,7 +14,11 @@ import SHU_S_KREMOM from './desserts/shu-s-kremom.json'
 import APPLE_STRUDEL from './desserts/apple-strudel.json'
 import CHERRY_PIE from './desserts/cherry-pie.json'
 
-export const DESSERT: Recipe[] = [
+import { withAssetPath } from '@/lib/withAssetPath'
+
+const toRecipes = (raw: readonly Recipe[]): Recipe[] => raw.map(item => withAssetPath<Recipe>(item))
+
+export const DESSERT: Recipe[] = toRecipes([
   CHIZKEIK,
   PANNA_COTTA,
   CHOCOLATE_TRUFFLES,
@@ -29,4 +33,4 @@ export const DESSERT: Recipe[] = [
   SHU_S_KREMOM,
   APPLE_STRUDEL,
   CHERRY_PIE,
-]
+])

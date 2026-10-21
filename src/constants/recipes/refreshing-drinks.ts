@@ -32,7 +32,11 @@ import KOKOSOVYY_NAPITOK_S_MANGO_I_CHIA from './refreshing-drinks/kokosovyy-napi
 import VINOGRADNO_LAYMOVYY_SPRITTSER from './refreshing-drinks/vinogradno-laymovyy-sprittser.json'
 import CHERNICHNO_LIMONNYY_SMUZI from './refreshing-drinks/chernichno-limonnyy-smuzi.json'
 
-export const REFRESHING_DRINKS: Recipe[] = [
+import { withAssetPath } from '@/lib/withAssetPath'
+
+const toRecipes = (raw: readonly Recipe[]): Recipe[] => raw.map(item => withAssetPath<Recipe>(item))
+
+export const REFRESHING_DRINKS: Recipe[] = toRecipes([
   LIMONAD_S_MYATOJ,
   OGURECHNYJ_DETOKS_NAPITOK,
   YAGODNYJ_MORS,
@@ -65,4 +69,4 @@ export const REFRESHING_DRINKS: Recipe[] = [
   KOKOSOVYY_NAPITOK_S_MANGO_I_CHIA,
   VINOGRADNO_LAYMOVYY_SPRITTSER,
   CHERNICHNO_LIMONNYY_SMUZI,
-]
+])

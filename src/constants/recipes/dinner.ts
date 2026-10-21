@@ -12,7 +12,11 @@ import UHA_PO_FINSKI from './dinner/uha-po-finski.json'
 import SUP_PYURE_IZ_TYKVY from './dinner/sup-pyure-iz-tykvy.json'
 import KURINYY_BULON_S_LAPSHOY from './dinner/kurinyy-bulon-s-lapshoy.json'
 
-export const DINNER: Recipe[] = [
+import { withAssetPath } from '@/lib/withAssetPath'
+
+const toRecipes = (raw: readonly Recipe[]): Recipe[] => raw.map(item => withAssetPath<Recipe>(item))
+
+export const DINNER: Recipe[] = toRecipes([
   BORSHCH_S_PAMPUSHKAMI,
   OKROSHKA_NA_KVASE,
   OKROSHKA_NA_KEFIRE,
@@ -25,4 +29,4 @@ export const DINNER: Recipe[] = [
   UHA_PO_FINSKI,
   SUP_PYURE_IZ_TYKVY,
   KURINYY_BULON_S_LAPSHOY,
-]
+])
