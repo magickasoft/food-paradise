@@ -4,6 +4,7 @@ import { memo, useState, useRef, useEffect } from 'react'
 import { createPortal } from 'react-dom'
 import { StyledButton, ModalOverlay, ModalContent, CloseButton, QRContainer, QRLink } from './styles'
 import Image from 'next/image'
+import { assetPath } from '@/lib/assetPath'
 
 export const SupportProjectButton = memo(function SupportProjectButton() {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -51,7 +52,7 @@ export const SupportProjectButton = memo(function SupportProjectButton() {
                 {isImageLoading && <div>Загрузка QR кода...</div>}
                 <Image
                   onLoad={() => setIsImageLoading(false)}
-                  src="/optimize/qr-sber.webp"
+                  src={assetPath('/optimize/qr-sber.webp')}
                   alt="QR код для перевода в Сбербанк"
                   width={300}
                   height={300}
