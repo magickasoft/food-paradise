@@ -11,6 +11,8 @@ import { LocaleSelect } from '@/components/LocaleSelect'
 import { SuggestRecipeButton } from '@/components/suggest-recipe-btn'
 import { SupportProjectButton } from './support-project-btn/suggest-recipe-btn'
 
+import { assetPath } from '@/lib/assetPath'
+
 const Container = styled.header<{ $scrolled: boolean }>`
   background: ${({ $scrolled }) => ($scrolled ? 'rgba(255, 255, 255, 0.92)' : 'rgba(255, 255, 255, 0.78)')};
   backdrop-filter: blur(18px);
@@ -231,7 +233,7 @@ export const Header = memo(function Header() {
       <Container $scrolled={scrolled}>
         <LeftBlock>
           <Link href="/">
-            <Image src="/optimize/logo.webp" alt="logo" width={120} height={60} priority />
+            <Image src={assetPath('/optimize/logo.webp')} alt="logo" width={120} height={60} priority />
             <Text>
               Всегда Готов<span>Ъ</span>
             </Text>
