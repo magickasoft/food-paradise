@@ -52,7 +52,7 @@ const socialLinks = [
   },
   {
     title: 'Яндекс Дзен',
-    href: '#',
+    href: 'https://vk.ru/vsegdagotovvv',
     icon: <FaYandex />,
   },
 ]
@@ -61,7 +61,7 @@ export const SocialLinks = memo(function SocialLinks() {
   return (
     <SocialContainer aria-label="Социальные сети">
       {socialLinks.map(({ title, href, icon }) => (
-        <SocialLink key={title} href={href} aria-label={title} title={title}>
+        <SocialLink key={title} href={href} aria-label={title} title={title} rel="noopener noreferrer" target="_blank">
           {icon}
         </SocialLink>
       ))}
