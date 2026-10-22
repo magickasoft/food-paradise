@@ -615,7 +615,7 @@
   }
 `,d=n.U.div.withConfig({componentId:"sc-b043db05-4"})`
   grid-column: 1 / -1;
-`,m=(0,o.memo)(function(){let e=(0,a.f)("totalRecipes")("title",{count:(0,o.useMemo)(()=>String((0,r.D)().length),[])});return(0,i.jsx)(s,{children:e})}),h=(0,o.memo)(function(){let e=(0,a.f)("copyright"),o=new Date().getFullYear(),r=e("text",{url:String("https://magickasoft.github.io/food-paradise/ru/"),text:String(o)});return(0,i.jsx)(s,{children:r})}),u=n.U.a.withConfig({componentId:"sc-68aa2ba3-0"})`
+`,m=(0,o.memo)(function(){let e=(0,a.f)("totalRecipes")("title",{count:(0,o.useMemo)(()=>String((0,r.D)().length),[])});return(0,i.jsx)(s,{children:e})}),h=(0,o.memo)(function(){let e=(0,a.f)("copyright"),o=new Date().getFullYear(),r=e("text",{url:String("magickasoft.github.io/food-paradise/"),text:String(o)});return(0,i.jsx)(s,{children:r})}),u=n.U.a.withConfig({componentId:"sc-68aa2ba3-0"})`
   color: #181818;
   text-decoration: none;
   font-weight: 500;
