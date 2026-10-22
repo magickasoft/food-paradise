@@ -47,7 +47,7 @@ const SocialLink = styled.a`
 const socialLinks = [
   {
     title: 'VK',
-    href: '#',
+    href: 'https://vk.ru/vsegdagotovvv',
     icon: <FaVk />,
   },
   {
