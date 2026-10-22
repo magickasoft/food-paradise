@@ -3,4 +3,4 @@ Allow: /
 Disallow: /api/*
 Disallow: /_next/*
 
-Sitemap: https://magickasoft.github.io/food-paradise//sitemap.xml
+Sitemap: https://magickasoft.github.io/food-paradise/sitemap.xml
