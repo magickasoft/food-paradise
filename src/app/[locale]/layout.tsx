@@ -68,6 +68,7 @@ export default async function LocaleLayout({ children, params }: Readonly<Locale
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="max-image-preview:large" />
         <meta name="yandex-verification" content="fb32601a73388882" />
+        <meta name="google-site-verification" content="RAlI1A7e2CEbnYJi1_jZEPMC2Lfnpv07Q4p147TZOvY" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
         <NextIntlClientProvider locale={locale} messages={messages}>
