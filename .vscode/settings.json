@@ -1,6 +1,4 @@
 {
-  "extensions.autoCheckUpdates": false,
-  "extensions.autoUpdate": false,
   "prettier.configPath": ".prettierrc",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -13,7 +11,6 @@
   "eslint.debug": true,
   "i18n-ally.localesPaths": ["public/locales"],
   "i18n-ally.keystyle": "nested",
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "js/ts.tsdk.promptToUseWorkspaceVersion": true,
   "cSpell.words": ["Timeframe", "useportfolio"]
 }
