@@ -1,0 +1,194 @@
+{
+  "metaSeo": {
+    "title": "Мини-пиццы с моцареллой — подробный рецепт закуски",
+    "description": "Небольшие пиццы на дрожжевом тесте с томатным соусом, моцареллой и базиликом, рассчитанные на индивидуальную порцию.",
+    "keywords": [
+      "мини пицца",
+      "маленькие пиццы",
+      "пицца с моцареллой"
+    ],
+    "og:title": "Мини-пиццы с моцареллой",
+    "og:description": "Небольшие пиццы на дрожжевом тесте с томатным соусом, моцареллой и базиликом, рассчитанные на индивидуальную порцию.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/mini-piccy-s-mocarelloy",
+    "twitterTitle": "Мини-пиццы с моцареллой",
+    "twitterDescription": "Небольшие пиццы на дрожжевом тесте с томатным соусом, моцареллой и базиликом, рассчитанные на индивидуальную порцию.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/mini-piccy-s-mocarelloy",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/mini-piccy-s-mocarelloy",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "мини-пиццы с моцареллой",
+    "мини-пиццы с моцареллой рецепт",
+    "мини-пиццы с моцареллой пошагово",
+    "мини-пиццы с моцареллой на праздничный стол",
+    "рецепты закусок",
+    "закуски на праздничный стол",
+    "мини пицца",
+    "маленькие пиццы",
+    "пицца с моцареллой"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "mini-piccy-s-mocarelloy",
+  "name": "mini-piccy-s-mocarelloy",
+  "img": null,
+  "title": "Мини-пиццы с моцареллой",
+  "description": "Небольшие пиццы на дрожжевом тесте с томатным соусом, моцареллой и базиликом, рассчитанные на индивидуальную порцию.",
+  "calories": 274,
+  "preparation": 35,
+  "time": 18,
+  "level": 2,
+  "rating": 5,
+  "portions": 8,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Мука",
+      "count": 500,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода тёплая",
+      "count": 300,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Дрожжи сухие",
+      "count": 7,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Оливковое масло",
+      "count": 35,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Томатный соус",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Моцарелла для пиццы",
+      "count": 400,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Помидоры черри",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Базилик",
+      "count": 25,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сушёный орегано",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Скалка",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Противни",
+      "img": null
+    },
+    {
+      "name": "Пергамент",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте воду, дрожжи и сахар, оставьте на 5 минут. Добавьте муку, соль и 25 мл масла, замесите гладкое тесто 8 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Накройте и оставьте в тёплом месте на 60–75 минут до удвоения объёма. Обомните и разделите на 12 частей.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Раскатайте кружки диаметром 10–11 см, переложите на пергамент. Смажьте оставшимся маслом края.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Распределите томатный соус, оставляя край 1 см. Добавьте натёртую моцареллу, половинки черри и орегано.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте при максимально разогретой духовке 230–250 °C 10–13 минут. Добавьте базилик после духовки.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Соус должен быть густым, без лишней воды.",
+    "Не перегружайте мини-пиццы начинкой.",
+    "Разогревайте духовку вместе с перевёрнутым противнем минимум 30 минут.",
+    "Тесто можно замесить накануне и оставить в холодильнике."
+  ],
+  "variations": [
+    {
+      "name": "С ветчиной",
+      "changes": "Добавьте 200 г тонко нарезанной ветчины."
+    },
+    {
+      "name": "С грибами",
+      "changes": "Добавьте 220 г заранее обжаренных шампиньонов."
+    }
+  ],
+  "historyDescription": "Мини-пицца сохраняет знакомую композицию теста, соуса и сыра, но превращает её в удобную закуску. Небольшой диаметр помогает краям быстро стать хрустящими и избавляет от нарезки общего пирога."
+}

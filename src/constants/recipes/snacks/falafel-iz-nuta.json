@@ -1,0 +1,190 @@
+{
+  "metaSeo": {
+    "title": "Фалафель из нута — подробный рецепт закуски",
+    "description": "Ароматные шарики из замоченного нута с зеленью и специями, хрустящие снаружи и рыхлые внутри.",
+    "keywords": [
+      "фалафель",
+      "фалафель из нута",
+      "закуска из нута"
+    ],
+    "og:title": "Фалафель из нута",
+    "og:description": "Ароматные шарики из замоченного нута с зеленью и специями, хрустящие снаружи и рыхлые внутри.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/falafel-iz-nuta",
+    "twitterTitle": "Фалафель из нута",
+    "twitterDescription": "Ароматные шарики из замоченного нута с зеленью и специями, хрустящие снаружи и рыхлые внутри.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/falafel-iz-nuta",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/falafel-iz-nuta",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "фалафель из нута",
+    "фалафель из нута рецепт",
+    "фалафель из нута пошагово",
+    "фалафель из нута на праздничный стол",
+    "рецепты закусок",
+    "закуски на праздничный стол",
+    "фалафель",
+    "фалафель из нута",
+    "закуска из нута"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "falafel-iz-nuta",
+  "name": "falafel-iz-nuta",
+  "img": null,
+  "title": "Фалафель из нута",
+  "description": "Ароматные шарики из замоченного нута с зеленью и специями, хрустящие снаружи и рыхлые внутри.",
+  "calories": 219,
+  "preparation": 30,
+  "time": 25,
+  "level": 2,
+  "rating": 5,
+  "portions": 8,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Нут сухой",
+      "count": 500,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Репчатый лук",
+      "count": 160,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Петрушка",
+      "count": 40,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Кинза",
+      "count": 35,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 18,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Зира молотая",
+      "count": 5,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Кориандр молотый",
+      "count": 5,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 35,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Разрыхлитель",
+      "count": 5,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 12,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Растительное масло для фритюра",
+      "count": 1000,
+      "gauge": "мл",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Мясорубка или процессор",
+      "img": null
+    },
+    {
+      "name": "Кастрюля для фритюра",
+      "img": null
+    },
+    {
+      "name": "Термометр",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Нут залейте большим количеством холодной воды на 12–16 часов. Он увеличится примерно вдвое. Слейте воду и очень хорошо обсушите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Измельчите нут с луком, зеленью и чесноком до мелкой влажной крошки, но не до пасты.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте зиру, кориандр, муку, разрыхлитель и соль. Охладите смесь 45 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Сформуйте 24 плотных шарика по 30–32 г. Если масса рассыпается, добавьте 1–2 столовые ложки воды, а не дополнительную муку.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Жарьте партиями при 175 °C 3–4 минуты. Переложите на решётку и подавайте с тахинным или йогуртовым соусом.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Используйте сырой замоченный нут, а не варёный или консервированный.",
+    "Нут после замачивания нужно обсушить.",
+    "Сделайте один пробный шарик и скорректируйте соль и плотность.",
+    "Не укладывайте горячий фалафель в закрытую миску — корочка размокнет."
+  ],
+  "variations": [
+    {
+      "name": "Запечённый",
+      "changes": "Смажьте шарики маслом и пеките 25 минут при 210 °C, перевернув через 15 минут."
+    },
+    {
+      "name": "С кунжутом",
+      "changes": "Перед жаркой обваляйте шарики в 50 г белого кунжута."
+    }
+  ],
+  "historyDescription": "Фалафель распространён по всему Ближнему Востоку; в разных местах его делают из нута, бобов или их смеси. Замоченные, но не сваренные бобовые обеспечивают характерную рыхлую структуру и прочную корочку."
+}

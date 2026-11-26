@@ -1,0 +1,184 @@
+{
+  "metaSeo": {
+    "title": "Куриные наггетсы в духовке — подробный рецепт закуски",
+    "description": "Сочные кусочки куриного филе в хрустящей панировке из панко и пармезана, запечённые без фритюра.",
+    "keywords": [
+      "куриные наггетсы",
+      "наггетсы в духовке",
+      "курица в панировке"
+    ],
+    "og:title": "Куриные наггетсы в духовке",
+    "og:description": "Сочные кусочки куриного филе в хрустящей панировке из панко и пармезана, запечённые без фритюра.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kurinye-naggetsy-v-duhovke",
+    "twitterTitle": "Куриные наггетсы в духовке",
+    "twitterDescription": "Сочные кусочки куриного филе в хрустящей панировке из панко и пармезана, запечённые без фритюра.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kurinye-naggetsy-v-duhovke",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kurinye-naggetsy-v-duhovke",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "куриные наггетсы в духовке",
+    "куриные наггетсы в духовке рецепт",
+    "куриные наггетсы в духовке пошагово",
+    "куриные наггетсы в духовке на праздничный стол",
+    "рецепты закусок",
+    "закуски на праздничный стол",
+    "куриные наггетсы",
+    "наггетсы в духовке",
+    "курица в панировке"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "kurinye-naggetsy-v-duhovke",
+  "name": "kurinye-naggetsy-v-duhovke",
+  "img": null,
+  "title": "Куриные наггетсы в духовке",
+  "description": "Сочные кусочки куриного филе в хрустящей панировке из панко и пармезана, запечённые без фритюра.",
+  "calories": 209,
+  "preparation": 25,
+  "time": 18,
+  "level": 1,
+  "rating": 5,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Куриное филе",
+      "count": 1000,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Кефир",
+      "count": 250,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Панировочные сухари панко",
+      "count": 220,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Пармезан",
+      "count": 80,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 80,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Копчёная паприка",
+      "count": 4,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сушёный чеснок",
+      "count": 4,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Растительное масло",
+      "count": 35,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 13,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чёрный перец",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Противень",
+      "img": null
+    },
+    {
+      "name": "Решётка",
+      "img": null
+    },
+    {
+      "name": "Две миски",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Филе нарежьте поперёк волокон кусочками 3–4 см. Смешайте кефир с 7 г соли, залейте курицу и оставьте на 30–90 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Сухари смешайте с пармезаном, паприкой, чесноком, перцем и оставшейся солью. Сбрызните маслом и разотрите пальцами.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Достаньте курицу из кефира, дайте лишнему стечь и слегка обваляйте в муке.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Прижмите каждый кусочек к панировке со всех сторон и разложите на решётке над противнем, не соприкасаясь.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Запекайте при 220 °C 15–18 минут до 74 °C внутри. Подавайте после 3 минут отдыха.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Нарезайте кусочки одинакового размера.",
+    "Кефирный маринад смягчает филе, но не держите его дольше 4 часов.",
+    "Решётка позволяет горячему воздуху обойти панировку со всех сторон.",
+    "Не пересушивайте: проверяйте самый крупный кусочек термометром."
+  ],
+  "variations": [
+    {
+      "name": "Острые",
+      "changes": "Добавьте в панировку 3 г кайенского перца."
+    },
+    {
+      "name": "Кукурузная корочка",
+      "changes": "Замените панко 180 г несладких кукурузных хлопьев, раздробленных в крошку."
+    }
+  ],
+  "historyDescription": "Наггетсы задумывались как удобные порционные кусочки курицы. Домашнее запекание на решётке сохраняет эту практичность, но позволяет контролировать качество филе и получить корочку без большого количества масла."
+}

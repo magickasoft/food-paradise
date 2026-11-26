@@ -30,11 +30,11 @@ export const CATEGORIES_ARR = [
     color: '#D9E7D0',
   },
   {
-    key: 'salads',
-    name: 'salads',
-    label: 'Салаты',
-    img: assetPath('/optimize/categories-imgs/salads.webp'),
-    color: '#C1E1C1',
+    key: 'new-year',
+    name: 'new-year',
+    label: 'Новый год',
+    img: assetPath('/optimize/categories-imgs/newYear.webp'),
+    color: '#E7D9D1',
   },
   {
     key: 'snacks',
