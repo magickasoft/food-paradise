@@ -1,0 +1,190 @@
+{
+  "metaSeo": {
+    "title": "Закусочные маффины с ветчиной и сыром — подробный рецепт закуски",
+    "description": "Мягкие несладкие маффины с ветчиной, сыром, зелёным луком и паприкой, которые удобно печь заранее.",
+    "keywords": [
+      "закусочные маффины",
+      "маффины с ветчиной",
+      "несладкие маффины"
+    ],
+    "og:title": "Закусочные маффины с ветчиной и сыром",
+    "og:description": "Мягкие несладкие маффины с ветчиной, сыром, зелёным луком и паприкой, которые удобно печь заранее.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/zakusochnye-maffiny-s-vetchinoy-i-syrom",
+    "twitterTitle": "Закусочные маффины с ветчиной и сыром",
+    "twitterDescription": "Мягкие несладкие маффины с ветчиной, сыром, зелёным луком и паприкой, которые удобно печь заранее.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/zakusochnye-maffiny-s-vetchinoy-i-syrom",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/zakusochnye-maffiny-s-vetchinoy-i-syrom",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "закусочные маффины с ветчиной и сыром",
+    "закусочные маффины с ветчиной и сыром рецепт",
+    "закусочные маффины с ветчиной и сыром пошагово",
+    "закусочные маффины с ветчиной и сыром на праздничный стол",
+    "рецепты закусок",
+    "закуски на праздничный стол",
+    "закусочные маффины",
+    "маффины с ветчиной",
+    "несладкие маффины"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "zakusochnye-maffiny-s-vetchinoy-i-syrom",
+  "name": "zakusochnye-maffiny-s-vetchinoy-i-syrom",
+  "img": null,
+  "title": "Закусочные маффины с ветчиной и сыром",
+  "description": "Мягкие несладкие маффины с ветчиной, сыром, зелёным луком и паприкой, которые удобно печь заранее.",
+  "calories": 291,
+  "preparation": 20,
+  "time": 25,
+  "level": 1,
+  "rating": 5,
+  "portions": 8,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Мука",
+      "count": 320,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Кефир",
+      "count": 300,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 2,
+      "gauge": "шт.",
+      "img": null
+    },
+    {
+      "name": "Сливочное масло растопленное",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Ветчина",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Твёрдый сыр",
+      "count": 220,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Зелёный лук",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Разрыхлитель",
+      "count": 12,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Паприка",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 6,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чёрный перец",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Форма для 12 маффинов",
+      "img": null
+    },
+    {
+      "name": "Две миски",
+      "img": null
+    },
+    {
+      "name": "Венчик",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Нарежьте ветчину кубиками 5 мм, сыр натрите, зелёный лук мелко нарежьте. Отложите 40 г сыра для верха.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "В одной миске смешайте муку, разрыхлитель, паприку, соль и перец. В другой взбейте яйца с кефиром и растопленным маслом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Влейте жидкую смесь в сухую и перемешайте лопаткой только до исчезновения сухой муки.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте ветчину, лук и основной сыр. Разложите по формам на три четверти объёма, посыпьте оставшимся сыром.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте при 185 °C 22–25 минут. Оставьте в форме на 5 минут, затем переложите на решётку.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не вымешивайте тесто долго — маффины станут плотными.",
+    "Кефир и яйца лучше заранее довести до комнатной температуры.",
+    "Солёность ветчины и сыра учитывайте до добавления соли.",
+    "Разогревайте готовые маффины 5 минут при 160 °C."
+  ],
+  "variations": [
+    {
+      "name": "С оливками",
+      "changes": "Добавьте 80 г нарезанных оливок и уменьшите ветчину до 200 г."
+    },
+    {
+      "name": "С курицей",
+      "changes": "Замените ветчину 250 г готового куриного филе."
+    }
+  ],
+  "historyDescription": "Несладкие маффины используют ту же быструю технологию смешивания сухих и жидких компонентов, что и десертные. Сыр и ветчина превращают выпечку в сытную порционную закуску, удобную для перевозки и разогрева."
+}

@@ -1,0 +1,150 @@
+{
+  "metaSeo": {
+    "title": "Сметанник домашний — пошаговый рецепт с граммовками",
+    "description": "Мягкие сметанные коржи с простым ванильным кремом.",
+    "keywords": [
+      "сметанник домашний",
+      "сметанник домашний рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Сметанник домашний",
+    "og:description": "Мягкие сметанные коржи с простым ванильным кремом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/smetannik-domashniy",
+    "twitterTitle": "Сметанник домашний",
+    "twitterDescription": "Мягкие сметанные коржи с простым ванильным кремом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/smetannik-domashniy",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/smetannik-domashniy",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "сметанник домашний",
+    "сметанник домашний рецепт",
+    "сметанник домашний ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dessert"
+    }
+  ],
+  "key": "smetannik-domashniy",
+  "name": "smetannik-domashniy",
+  "img": null,
+  "title": "Сметанник домашний",
+  "description": "Мягкие сметанные коржи с простым ванильным кремом.",
+  "calories": null,
+  "preparation": 30,
+  "time": 300,
+  "level": 2,
+  "rating": 0,
+  "portions": 10,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Сметана 20% для теста",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 150,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Сахар",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 280,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Разрыхлитель",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сметана 30% для крема",
+      "count": 650,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Пудра сахарная",
+      "count": 130,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Ванильный сахар",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миксер",
+      "img": null
+    },
+    {
+      "name": "Форма",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Яйца взбейте с сахаром, вмешайте 250 г сметаны и растопленное масло.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте муку и разрыхлитель.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте в форме 22 см при 175 °C 40–45 минут, полностью остудите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разрежьте на три коржа, кремовую сметану смешайте с пудрой и ванилью.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Промажьте коржи, соберите и охлаждайте 3 часа.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Для крема нужна густая сметана.",
+    "Бисквит разрезайте полностью холодным."
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "metaSeo": {
+    "title": "Булгур с нутом и овощами — пошаговый рецепт с граммовками",
+    "description": "Рассыпчатый булгур с нутом, печёным перцем и свежей петрушкой.",
+    "keywords": [
+      "булгур с нутом и овощами",
+      "булгур с нутом и овощами рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Булгур с нутом и овощами",
+    "og:description": "Рассыпчатый булгур с нутом, печёным перцем и свежей петрушкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/bulgur-s-nutom-i-ovoschami",
+    "twitterTitle": "Булгур с нутом и овощами",
+    "twitterDescription": "Рассыпчатый булгур с нутом, печёным перцем и свежей петрушкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/bulgur-s-nutom-i-ovoschami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/bulgur-s-nutom-i-ovoschami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "булгур с нутом и овощами",
+    "булгур с нутом и овощами рецепт",
+    "булгур с нутом и овощами ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "healthy"
+    }
+  ],
+  "key": "bulgur-s-nutom-i-ovoschami",
+  "name": "bulgur-s-nutom-i-ovoschami",
+  "img": null,
+  "title": "Булгур с нутом и овощами",
+  "description": "Рассыпчатый булгур с нутом, печёным перцем и свежей петрушкой.",
+  "calories": null,
+  "preparation": 15,
+  "time": 40,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Булгур",
+      "count": 240,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 480,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Нут варёный",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец сладкий",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Кабачок",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 30,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Петрушка",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 9,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Булгур залейте водой с 5 г соли, варите под крышкой 15 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук обжарьте на масле 4 минуты.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте перец и кабачок кубиками, готовьте 8 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте нут и булгур, посолите остатком соли, прогрейте 3 минуты.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Снимите с огня, добавьте лимон и петрушку.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Промывайте консервированный нут.",
+    "Овощи должны сохранять лёгкую упругость."
+  ]
+}

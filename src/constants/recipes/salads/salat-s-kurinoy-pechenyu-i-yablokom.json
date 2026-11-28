@@ -1,0 +1,149 @@
+{
+  "metaSeo": {
+    "title": "Салат с куриной печенью и яблоком — пошаговый рецепт с граммовками",
+    "description": "Тёплая печень с яблоком, листьями салата и горчичной заправкой.",
+    "keywords": [
+      "салат с куриной печенью и яблоком",
+      "салат с куриной печенью и яблоком рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Салат с куриной печенью и яблоком",
+    "og:description": "Тёплая печень с яблоком, листьями салата и горчичной заправкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-s-kurinoy-pechenyu-i-yablokom",
+    "twitterTitle": "Салат с куриной печенью и яблоком",
+    "twitterDescription": "Тёплая печень с яблоком, листьями салата и горчичной заправкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-s-kurinoy-pechenyu-i-yablokom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-s-kurinoy-pechenyu-i-yablokom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "салат с куриной печенью и яблоком",
+    "салат с куриной печенью и яблоком рецепт",
+    "салат с куриной печенью и яблоком ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "salads"
+    }
+  ],
+  "key": "salat-s-kurinoy-pechenyu-i-yablokom",
+  "name": "salat-s-kurinoy-pechenyu-i-yablokom",
+  "img": null,
+  "title": "Салат с куриной печенью и яблоком",
+  "description": "Тёплая печень с яблоком, листьями салата и горчичной заправкой.",
+  "calories": null,
+  "preparation": 20,
+  "time": 40,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Печень куриная",
+      "count": 500,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яблоко",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Салатный микс",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук красный",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 40,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Горчица зернистая",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Уксус яблочный",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Мёд",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 7,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Термометр",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Печень зачистите и обсушите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "На половине масла жарьте кусочками 7–9 минут до полной готовности, посолите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Яблоко дольками быстро обжарьте 2 минуты в той же сковороде.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте оставшееся масло, уксус, горчицу и мёд.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разложите листья, лук, яблоко и тёплую печень, полейте заправкой.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Печень должна достичь 74 °C.",
+    "Не держите тёплую печень на листьях заранее."
+  ]
+}

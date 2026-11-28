@@ -1,0 +1,162 @@
+{
+  "metaSeo": {
+    "title": "Суп с клёцками — пошаговый рецепт с граммовками",
+    "description": "Куриный овощной суп с мягкими яичными клёцками, сформованными ложкой.",
+    "keywords": [
+      "суп с клёцками",
+      "суп с клёцками рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Суп с клёцками",
+    "og:description": "Куриный овощной суп с мягкими яичными клёцками, сформованными ложкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/sup-s-kletskami",
+    "twitterTitle": "Суп с клёцками",
+    "twitterDescription": "Куриный овощной суп с мягкими яичными клёцками, сформованными ложкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/sup-s-kletskami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/sup-s-kletskami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "суп с клёцками",
+    "суп с клёцками рецепт",
+    "суп с клёцками ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dinner"
+    }
+  ],
+  "key": "sup-s-kletskami",
+  "name": "sup-s-kletskami",
+  "img": null,
+  "title": "Суп с клёцками",
+  "description": "Куриный овощной суп с мягкими яичными клёцками, сформованными ложкой.",
+  "calories": null,
+  "preparation": 20,
+  "time": 50,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Бульон куриный несолёный",
+      "count": 2200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Курица отварная",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Картофель",
+      "count": 350,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Морковь",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйцо",
+      "count": 50,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Молоко",
+      "count": 60,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Укроп",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "В бульоне варите картофель кубиками 12 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук и морковь томите на 20 г масла 7 минут, добавьте в кастрюлю.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте яйцо, молоко, растопленные 10 г масла, муку и 2 г соли до липкого теста.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Чайной ложкой опускайте маленькие порции в кипящий суп, добавьте курицу и оставшуюся соль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Варите 5 минут после всплытия клёцек, добавьте укроп и дайте постоять 5 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Клёцки увеличатся вдвое.",
+    "Смачивайте ложку горячим бульоном."
+  ]
+}

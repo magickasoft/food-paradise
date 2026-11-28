@@ -1,0 +1,144 @@
+{
+  "metaSeo": {
+    "title": "Венские вафли — пошаговый рецепт с граммовками",
+    "description": "Мягкие внутри вафли с румяными рельефными краями на молочном тесте.",
+    "keywords": [
+      "венские вафли",
+      "венские вафли рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Венские вафли",
+    "og:description": "Мягкие внутри вафли с румяными рельефными краями на молочном тесте.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/venskie-vafli",
+    "twitterTitle": "Венские вафли",
+    "twitterDescription": "Мягкие внутри вафли с румяными рельефными краями на молочном тесте.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/venskie-vafli",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/venskie-vafli",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "венские вафли",
+    "венские вафли рецепт",
+    "венские вафли ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "venskie-vafli",
+  "name": "venskie-vafli",
+  "img": null,
+  "title": "Венские вафли",
+  "description": "Мягкие внутри вафли с румяными рельефными краями на молочном тесте.",
+  "calories": null,
+  "preparation": 15,
+  "time": 35,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Мука",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Молоко",
+      "count": 260,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 100,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 80,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 45,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Разрыхлитель",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Ванильный сахар",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Венчик",
+      "img": null
+    },
+    {
+      "name": "Вафельница",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Растопите масло и слегка остудите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Взбейте яйца с сахаром, ванилью, молоком и маслом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте муку с разрыхлителем и солью, оставьте на 10 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте в прогретой вафельнице по инструкции прибора, обычно 4–5 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Остужайте на решётке по одной, чтобы поверхность не отсырела.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не складывайте горячие вафли стопкой.",
+    "Первая порция помогает подобрать объём теста."
+  ]
+}

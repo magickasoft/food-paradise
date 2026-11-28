@@ -1,0 +1,138 @@
+{
+  "metaSeo": {
+    "title": "Пышные оладьи на кефире — пошаговый рецепт с граммовками",
+    "description": "Оладьи с пористой серединой, которые поднимаются благодаря тёплому кефиру и соде.",
+    "keywords": [
+      "пышные оладьи на кефире",
+      "пышные оладьи на кефире рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Пышные оладьи на кефире",
+    "og:description": "Оладьи с пористой серединой, которые поднимаются благодаря тёплому кефиру и соде.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/pyshnye-oladi-na-kefire",
+    "twitterTitle": "Пышные оладьи на кефире",
+    "twitterDescription": "Оладьи с пористой серединой, которые поднимаются благодаря тёплому кефиру и соде.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pyshnye-oladi-na-kefire",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pyshnye-oladi-na-kefire",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "пышные оладьи на кефире",
+    "пышные оладьи на кефире рецепт",
+    "пышные оладьи на кефире ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "pyshnye-oladi-na-kefire",
+  "name": "pyshnye-oladi-na-kefire",
+  "img": null,
+  "title": "Пышные оладьи на кефире",
+  "description": "Оладьи с пористой серединой, которые поднимаются благодаря тёплому кефиру и соде.",
+  "calories": null,
+  "preparation": 15,
+  "time": 35,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Кефир 2,5%",
+      "count": 350,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 280,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйцо",
+      "count": 50,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Сахар",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сода",
+      "count": 4,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 45,
+      "gauge": "мл",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Венчик",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Кефир подогрейте до 35 °C, смешайте с яйцом, сахаром и солью.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Всыпьте муку и соду, размешайте только до исчезновения сухих участков.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Оставьте тесто на 10 минут и больше не перемешивайте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выкладывайте ложкой в разогретое масло, жарьте на среднем огне 2–3 минуты.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Переверните, накройте и готовьте ещё 2 минуты, переложите на решётку.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Холодный кефир замедляет подъём.",
+    "Между порциями давайте сковороде прогреться."
+  ]
+}

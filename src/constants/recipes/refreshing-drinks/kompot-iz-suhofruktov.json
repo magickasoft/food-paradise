@@ -1,0 +1,137 @@
+{
+  "metaSeo": {
+    "title": "Компот из сухофруктов — пошаговый рецепт с граммовками",
+    "description": "Насыщенный фруктовый напиток из сушёных яблок, груш и чернослива.",
+    "keywords": [
+      "компот из сухофруктов",
+      "компот из сухофруктов рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Компот из сухофруктов",
+    "og:description": "Насыщенный фруктовый напиток из сушёных яблок, груш и чернослива.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kompot-iz-suhofruktov",
+    "twitterTitle": "Компот из сухофруктов",
+    "twitterDescription": "Насыщенный фруктовый напиток из сушёных яблок, груш и чернослива.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kompot-iz-suhofruktov",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kompot-iz-suhofruktov",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "компот из сухофруктов",
+    "компот из сухофруктов рецепт",
+    "компот из сухофруктов ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "kompot-iz-suhofruktov",
+  "name": "kompot-iz-suhofruktov",
+  "img": null,
+  "title": "Компот из сухофруктов",
+  "description": "Насыщенный фруктовый напиток из сушёных яблок, груш и чернослива.",
+  "calories": null,
+  "preparation": 15,
+  "time": 180,
+  "level": 2,
+  "rating": 0,
+  "portions": 8,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Яблоки сушёные",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Груши сушёные",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чернослив",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Изюм",
+      "count": 60,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 2500,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Кувшин",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Сухофрукты тщательно промойте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Яблоки и груши залейте водой, доведите до кипения и варите 15 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте чернослив, изюм и сахар, варите ещё 10 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выключите, влейте лимонный сок и настаивайте час.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите и охладите 90 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Сухофрукты отдают сладость постепенно.",
+    "Не выдавливайте размокшие фрукты в напиток."
+  ]
+}

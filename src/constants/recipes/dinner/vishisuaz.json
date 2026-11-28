@@ -1,0 +1,143 @@
+{
+  "metaSeo": {
+    "title": "Вишисуаз — пошаговый рецепт с граммовками",
+    "description": "Холодный крем-суп из порея и картофеля с мягким сливочным вкусом.",
+    "keywords": [
+      "вишисуаз",
+      "вишисуаз рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Вишисуаз",
+    "og:description": "Холодный крем-суп из порея и картофеля с мягким сливочным вкусом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/vishisuaz",
+    "twitterTitle": "Вишисуаз",
+    "twitterDescription": "Холодный крем-суп из порея и картофеля с мягким сливочным вкусом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/vishisuaz",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/vishisuaz",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "вишисуаз",
+    "вишисуаз рецепт",
+    "вишисуаз ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dinner"
+    }
+  ],
+  "key": "vishisuaz",
+  "name": "vishisuaz",
+  "img": null,
+  "title": "Вишисуаз",
+  "description": "Холодный крем-суп из порея и картофеля с мягким сливочным вкусом.",
+  "calories": null,
+  "preparation": 20,
+  "time": 150,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Лук-порей белая часть",
+      "count": 450,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Картофель",
+      "count": 400,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Бульон овощной несолёный",
+      "count": 900,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сливки 20%",
+      "count": 200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 40,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Шнитт-лук",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец белый",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Блендер",
+      "img": null
+    },
+    {
+      "name": "Миска со льдом",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Порей разрежьте, вымойте между слоями и тонко нарежьте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Томите на масле 8 минут без подрумянивания.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте картофель кубиками, бульон и соль, варите 20 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Пробейте, влейте сливки и прогрейте до первых пузырьков, добавьте перец.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Быстро остудите на ледяной бане, охладите 90 минут, подавайте со шнитт-луком.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Порей тщательно промывайте от песка.",
+    "Картофельный суп пробивайте кратко, чтобы не стал клейким."
+  ]
+}

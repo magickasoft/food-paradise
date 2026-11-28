@@ -1,0 +1,138 @@
+{
+  "metaSeo": {
+    "title": "Ленивые вареники с творогом — пошаговый рецепт с граммовками",
+    "description": "Мягкие творожные кусочки с ванилью, которые варятся за несколько минут.",
+    "keywords": [
+      "ленивые вареники с творогом",
+      "ленивые вареники с творогом рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Ленивые вареники с творогом",
+    "og:description": "Мягкие творожные кусочки с ванилью, которые варятся за несколько минут.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/lenivye-vareniki-s-tvorogom",
+    "twitterTitle": "Ленивые вареники с творогом",
+    "twitterDescription": "Мягкие творожные кусочки с ванилью, которые варятся за несколько минут.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/lenivye-vareniki-s-tvorogom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/lenivye-vareniki-s-tvorogom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "ленивые вареники с творогом",
+    "ленивые вареники с творогом рецепт",
+    "ленивые вареники с творогом ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "lenivye-vareniki-s-tvorogom",
+  "name": "lenivye-vareniki-s-tvorogom",
+  "img": null,
+  "title": "Ленивые вареники с творогом",
+  "description": "Мягкие творожные кусочки с ванилью, которые варятся за несколько минут.",
+  "calories": null,
+  "preparation": 20,
+  "time": 30,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Творог 9%",
+      "count": 500,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйцо",
+      "count": 50,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Мука",
+      "count": 130,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 35,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Ванильный сахар",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 5,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Шумовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Творог разотрите с яйцом, сахаром, ванильным сахаром и 2 г соли.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте 100 г муки, остальное оставьте для стола.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Скатайте колбаски толщиной 2 см, нарежьте кусочками по 2 см.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Варите партиями в 2 л воды с оставшейся солью 2 минуты после всплытия.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выньте шумовкой и осторожно перемешайте со сливочным маслом.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не уплотняйте тесто долгим замесом.",
+    "Сначала сварите пробный кусочек."
+  ]
+}

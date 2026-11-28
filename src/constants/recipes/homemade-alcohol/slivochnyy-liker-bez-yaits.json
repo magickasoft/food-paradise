@@ -1,0 +1,131 @@
+{
+  "metaSeo": {
+    "title": "Сливочный ликёр без яиц — пошаговый рецепт с граммовками",
+    "description": "Мягкий десертный ликёр со сливками, сгущёнкой и кофейной нотой.",
+    "keywords": [
+      "сливочный ликёр без яиц",
+      "сливочный ликёр без яиц рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Сливочный ликёр без яиц",
+    "og:description": "Мягкий десертный ликёр со сливками, сгущёнкой и кофейной нотой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/slivochnyy-liker-bez-yaits",
+    "twitterTitle": "Сливочный ликёр без яиц",
+    "twitterDescription": "Мягкий десертный ликёр со сливками, сгущёнкой и кофейной нотой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/slivochnyy-liker-bez-yaits",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/slivochnyy-liker-bez-yaits",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "сливочный ликёр без яиц",
+    "сливочный ликёр без яиц рецепт",
+    "сливочный ликёр без яиц ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "homemade-alcohol"
+    }
+  ],
+  "key": "slivochnyy-liker-bez-yaits",
+  "name": "slivochnyy-liker-bez-yaits",
+  "img": null,
+  "title": "Сливочный ликёр без яиц",
+  "description": "Мягкий десертный ликёр со сливками, сгущёнкой и кофейной нотой.",
+  "calories": null,
+  "preparation": 15,
+  "time": 1455,
+  "level": 1,
+  "rating": 0,
+  "portions": 20,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Виски 40%",
+      "count": 350,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сливки 20% пастеризованные",
+      "count": 300,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Молоко сгущённое",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Кофе растворимый",
+      "count": 5,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Ванильный экстракт",
+      "count": 5,
+      "gauge": "мл",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Венчик",
+      "img": null
+    },
+    {
+      "name": "Бутылки",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Кофе растворите в 20 мл горячей воды и полностью остудите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте сливки со сгущёнкой венчиком.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте кофе и ваниль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Тонкой струйкой вмешайте виски без длительного взбивания.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разлейте в чистые бутылки и выдержите в холодильнике сутки.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Используйте в течение трёх суток при хранении в холодильнике.",
+    "Не смешивайте с кислым соком."
+  ]
+}

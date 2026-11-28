@@ -1,0 +1,144 @@
+{
+  "metaSeo": {
+    "title": "Банановые оладьи — пошаговый рецепт с граммовками",
+    "description": "Мягкие оладьи со спелым бананом и лёгким ароматом корицы.",
+    "keywords": [
+      "банановые оладьи",
+      "банановые оладьи рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Банановые оладьи",
+    "og:description": "Мягкие оладьи со спелым бананом и лёгким ароматом корицы.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/bananovye-oladi",
+    "twitterTitle": "Банановые оладьи",
+    "twitterDescription": "Мягкие оладьи со спелым бананом и лёгким ароматом корицы.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/bananovye-oladi",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/bananovye-oladi",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "банановые оладьи",
+    "банановые оладьи рецепт",
+    "банановые оладьи ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "bananovye-oladi",
+  "name": "bananovye-oladi",
+  "img": null,
+  "title": "Банановые оладьи",
+  "description": "Мягкие оладьи со спелым бананом и лёгким ароматом корицы.",
+  "calories": null,
+  "preparation": 10,
+  "time": 25,
+  "level": 2,
+  "rating": 0,
+  "portions": 3,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Банан очищенный",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Молоко",
+      "count": 160,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Яйцо",
+      "count": 50,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Разрыхлитель",
+      "count": 7,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Корица",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Вилка",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Бананы разомните вилкой до пюре.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте яйцо и молоко, затем муку, разрыхлитель, корицу и соль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Оставьте тесто на 5 минут, чтобы мука увлажнилась.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Жарьте небольшие порции на смазанной сковороде по 2–3 минуты с каждой стороны.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Перед следующей партией смажьте сковороду оставшимся маслом.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Чем спелее банан, тем слаще тесто.",
+    "Слишком крупные оладьи сложно перевернуть."
+  ]
+}

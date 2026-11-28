@@ -1,0 +1,132 @@
+{
+  "metaSeo": {
+    "title": "Сырники из творога — пошаговый рецепт с граммовками",
+    "description": "Нежные творожные сырники с тонкой мучной корочкой и умеренной сладостью.",
+    "keywords": [
+      "сырники из творога",
+      "сырники из творога рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Сырники из творога",
+    "og:description": "Нежные творожные сырники с тонкой мучной корочкой и умеренной сладостью.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/syrniki-iz-tvoroga",
+    "twitterTitle": "Сырники из творога",
+    "twitterDescription": "Нежные творожные сырники с тонкой мучной корочкой и умеренной сладостью.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/syrniki-iz-tvoroga",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/syrniki-iz-tvoroga",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "сырники из творога",
+    "сырники из творога рецепт",
+    "сырники из творога ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "syrniki-iz-tvoroga",
+  "name": "syrniki-iz-tvoroga",
+  "img": null,
+  "title": "Сырники из творога",
+  "description": "Нежные творожные сырники с тонкой мучной корочкой и умеренной сладостью.",
+  "calories": null,
+  "preparation": 15,
+  "time": 35,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Творог 9%",
+      "count": 500,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйцо",
+      "count": 50,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Мука",
+      "count": 80,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 40,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Сковорода с крышкой",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Творог протрите через сито, влажный предварительно отожмите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте яйцо, сахар, соль и 50 г муки, оставьте на 10 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разделите на 12 частей, обваляйте в оставшейся муке, сформуйте шайбы толщиной 2 см.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Жарьте в масле на умеренном огне по 3 минуты с каждой стороны.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Убавьте нагрев, накройте и доведите 4 минуты, подавайте тёплыми.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Лишняя мука делает середину плотной.",
+    "Отжимайте творог до добавления яйца."
+  ]
+}

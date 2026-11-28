@@ -1,0 +1,154 @@
+{
+  "metaSeo": {
+    "title": "Курица по-киевски — пошаговый рецепт с граммовками",
+    "description": "Куриные котлеты с текучим зелёным маслом внутри и двойной панировкой.",
+    "keywords": [
+      "курица по-киевски",
+      "курица по-киевски рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Курица по-киевски",
+    "og:description": "Куриные котлеты с текучим зелёным маслом внутри и двойной панировкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kuritsa-po-kievski",
+    "twitterTitle": "Курица по-киевски",
+    "twitterDescription": "Куриные котлеты с текучим зелёным маслом внутри и двойной панировкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kuritsa-po-kievski",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kuritsa-po-kievski",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "курица по-киевски",
+    "курица по-киевски рецепт",
+    "курица по-киевски ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "supper"
+    }
+  ],
+  "key": "kuritsa-po-kievski",
+  "name": "kuritsa-po-kievski",
+  "img": null,
+  "title": "Курица по-киевски",
+  "description": "Куриные котлеты с текучим зелёным маслом внутри и двойной панировкой.",
+  "calories": null,
+  "preparation": 35,
+  "time": 85,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Филе грудки курицы",
+      "count": 800,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 140,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Укроп",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 150,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Сухари панировочные",
+      "count": 220,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное для жарки",
+      "count": 400,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 12,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Молоток для мяса",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Термометр",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Масло смешайте с укропом и чесноком, сформуйте 4 брусочка и заморозьте 20 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Филе раскройте и отбейте между плёнкой, посолите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Заверните масло в филе, тщательно закрывая края.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Обваляйте в муке, яйце, сухарях, затем снова в яйце и сухарях, охладите 15 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Жарьте при 170 °C 5 минут, затем довыпекайте при 180 °C 15–18 минут до 74 °C в мясе.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Все отверстия закрывайте до панировки.",
+    "После духовки дайте котлетам отдохнуть 5 минут."
+  ]
+}

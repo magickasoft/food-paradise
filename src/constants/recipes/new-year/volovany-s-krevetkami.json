@@ -1,0 +1,150 @@
+{
+  "metaSeo": {
+    "title": "Волованы с креветками — пошаговый рецепт с граммовками",
+    "description": "Слоёные корзинки с креветками в густом сливочном соусе.",
+    "keywords": [
+      "волованы с креветками",
+      "волованы с креветками рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Волованы с креветками",
+    "og:description": "Слоёные корзинки с креветками в густом сливочном соусе.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/volovany-s-krevetkami",
+    "twitterTitle": "Волованы с креветками",
+    "twitterDescription": "Слоёные корзинки с креветками в густом сливочном соусе.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/volovany-s-krevetkami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/volovany-s-krevetkami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "волованы с креветками",
+    "волованы с креветками рецепт",
+    "волованы с креветками ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "new-year"
+    }
+  ],
+  "key": "volovany-s-krevetkami",
+  "name": "volovany-s-krevetkami",
+  "img": null,
+  "title": "Волованы с креветками",
+  "description": "Слоёные корзинки с креветками в густом сливочном соусе.",
+  "calories": null,
+  "preparation": 30,
+  "time": 60,
+  "level": 2,
+  "rating": 0,
+  "portions": 8,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Тесто слоёное",
+      "count": 600,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Креветки очищенные",
+      "count": 450,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сливки 20%",
+      "count": 200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйцо",
+      "count": 50,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Укроп",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 15,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 7,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Вырубки",
+      "img": null
+    },
+    {
+      "name": "Сотейник",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Из теста вырежьте 16 кругов 8 см, у половины вырежьте центры, кольца приклейте яйцом на целые круги.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смажьте яйцом, выпекайте при 200 °C 18–20 минут, примните середину.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "На масле прогрейте муку, влейте сливки и уварите 3 минуты.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте креветки, соль и готовьте 3 минуты, вмешайте лимон и укроп.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Наполните тёплые корзинки перед подачей.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Края теста не смазывайте яйцом.",
+    "Соус должен держаться на ложке."
+  ]
+}

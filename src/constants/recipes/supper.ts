@@ -19,6 +19,27 @@ import MAKARONY_S_SYROM from './supper/makarony-s-syrom.json'
 import RYBNYE_KOTLETY_S_PYURE from './supper/rybnye-kotlety-s-pyure.json'
 import FARSHIROVANNYE_PERTSY from './supper/farshirovannye-pertsy.json'
 
+import BEFSTROGANOV_SO_SMETANOY from './supper/befstroganov-so-smetanoy.json'
+import GULYASH_IZ_GOVYADINY from './supper/gulyash-iz-govyadiny.json'
+import CHAHOHBILI_IZ_KURITSY from './supper/chahohbili-iz-kuritsy.json'
+import KURITSA_TERIYAKI_S_RISOM from './supper/kuritsa-teriyaki-s-risom.json'
+import PASTA_KARBONARA from './supper/pasta-karbonara.json'
+import SPAGETTI_BOLONEZE from './supper/spagetti-boloneze.json'
+import RIZOTTO_S_BELYMI_GRIBAMI from './supper/rizotto-s-belymi-gribami.json'
+import TEFTELI_V_TOMATNOM_SOUSE from './supper/tefteli-v-tomatnom-souse.json'
+import GOLUBTSY_V_SMETANNO_TOMATNOM_SOUSE from './supper/golubtsy-v-smetanno-tomatnom-souse.json'
+import LENIVYE_GOLUBTSY from './supper/lenivye-golubtsy.json'
+import KURITSA_V_SOUSE_KARRI from './supper/kuritsa-v-souse-karri.json'
+import SVININA_V_KISLO_SLADKOM_SOUSE from './supper/svinina-v-kislo-sladkom-souse.json'
+import KURITSA_PO_KIEVSKI from './supper/kuritsa-po-kievski.json'
+import PELMENI_DOMASHNIE from './supper/pelmeni-domashnie.json'
+import VARENIKI_S_KARTOFELEM_I_LUKOM from './supper/vareniki-s-kartofelem-i-lukom.json'
+import PASTUSHIY_PIROG from './supper/pastushiy-pirog.json'
+import TRESKA_V_TOMATNOM_SOUSE from './supper/treska-v-tomatnom-souse.json'
+import KURINYY_SHNITSEL from './supper/kurinyy-shnitsel.json'
+import AZU_PO_TATARSKI from './supper/azu-po-tatarski.json'
+import SVINYE_OTBIVNYE_V_GRIBNOM_SOUSE from './supper/svinye-otbivnye-v-gribnom-souse.json'
+
 import { withAssetPath } from '@/lib/withAssetPath'
 
 const toRecipes = (raw: readonly Recipe[]): Recipe[] => raw.map(item => withAssetPath<Recipe>(item))
@@ -43,4 +64,24 @@ export const SUPPER: Recipe[] = toRecipes([
   MAKARONY_S_SYROM,
   RYBNYE_KOTLETY_S_PYURE,
   FARSHIROVANNYE_PERTSY,
+  BEFSTROGANOV_SO_SMETANOY,
+  GULYASH_IZ_GOVYADINY,
+  CHAHOHBILI_IZ_KURITSY,
+  KURITSA_TERIYAKI_S_RISOM,
+  PASTA_KARBONARA,
+  SPAGETTI_BOLONEZE,
+  RIZOTTO_S_BELYMI_GRIBAMI,
+  TEFTELI_V_TOMATNOM_SOUSE,
+  GOLUBTSY_V_SMETANNO_TOMATNOM_SOUSE,
+  LENIVYE_GOLUBTSY,
+  KURITSA_V_SOUSE_KARRI,
+  SVININA_V_KISLO_SLADKOM_SOUSE,
+  KURITSA_PO_KIEVSKI,
+  PELMENI_DOMASHNIE,
+  VARENIKI_S_KARTOFELEM_I_LUKOM,
+  PASTUSHIY_PIROG,
+  TRESKA_V_TOMATNOM_SOUSE,
+  KURINYY_SHNITSEL,
+  AZU_PO_TATARSKI,
+  SVINYE_OTBIVNYE_V_GRIBNOM_SOUSE,
 ])

@@ -1,0 +1,109 @@
+{
+  "metaSeo": {
+    "title": "Молочный коктейль с клубникой — пошаговый рецепт с граммовками",
+    "description": "Густой холодный коктейль со свежими ягодами и ванильным мороженым.",
+    "keywords": [
+      "молочный коктейль с клубникой",
+      "молочный коктейль с клубникой рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Молочный коктейль с клубникой",
+    "og:description": "Густой холодный коктейль со свежими ягодами и ванильным мороженым.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/molochnyy-kokteyl-s-klubnikoy",
+    "twitterTitle": "Молочный коктейль с клубникой",
+    "twitterDescription": "Густой холодный коктейль со свежими ягодами и ванильным мороженым.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/molochnyy-kokteyl-s-klubnikoy",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/molochnyy-kokteyl-s-klubnikoy",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "молочный коктейль с клубникой",
+    "молочный коктейль с клубникой рецепт",
+    "молочный коктейль с клубникой ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "molochnyy-kokteyl-s-klubnikoy",
+  "name": "molochnyy-kokteyl-s-klubnikoy",
+  "img": null,
+  "title": "Молочный коктейль с клубникой",
+  "description": "Густой холодный коктейль со свежими ягодами и ванильным мороженым.",
+  "calories": null,
+  "preparation": 10,
+  "time": 10,
+  "level": 2,
+  "rating": 0,
+  "portions": 3,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Клубника",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Молоко холодное",
+      "count": 400,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Мороженое ванильное",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Блендер",
+      "img": null
+    },
+    {
+      "name": "Стаканы",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Клубнику вымойте и обсушите, удалите чашелистики.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Несколько ягод оставьте для подачи.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Пробейте остальные ягоды с половиной молока.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте мороженое и оставшееся молоко, взбивайте 30 секунд.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разлейте по охлаждённым стаканам и украсьте ягодами.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Долгое взбивание растапливает мороженое.",
+    "Все компоненты держите холодными."
+  ]
+}

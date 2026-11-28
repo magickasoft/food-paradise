@@ -1,0 +1,132 @@
+{
+  "metaSeo": {
+    "title": "Кокосовые макаруны — пошаговый рецепт с граммовками",
+    "description": "Небольшие кокосовые пирожные с мягкой серединой и шоколадным основанием.",
+    "keywords": [
+      "кокосовые макаруны",
+      "кокосовые макаруны рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Кокосовые макаруны",
+    "og:description": "Небольшие кокосовые пирожные с мягкой серединой и шоколадным основанием.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kokosovye-makaruny",
+    "twitterTitle": "Кокосовые макаруны",
+    "twitterDescription": "Небольшие кокосовые пирожные с мягкой серединой и шоколадным основанием.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kokosovye-makaruny",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kokosovye-makaruny",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "кокосовые макаруны",
+    "кокосовые макаруны рецепт",
+    "кокосовые макаруны ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dessert"
+    }
+  ],
+  "key": "kokosovye-makaruny",
+  "name": "kokosovye-makaruny",
+  "img": null,
+  "title": "Кокосовые макаруны",
+  "description": "Небольшие кокосовые пирожные с мягкой серединой и шоколадным основанием.",
+  "calories": null,
+  "preparation": 20,
+  "time": 55,
+  "level": 2,
+  "rating": 0,
+  "portions": 10,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Кокосовая стружка",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Белки",
+      "count": 120,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Сахар",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Ванильный сахар",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Шоколад тёмный",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Водяная баня",
+      "img": null
+    },
+    {
+      "name": "Противень",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Белки, сахар и соль прогрейте на водяной бане до 60 °C, помешивая.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте кокос и ваниль, выдержите 10 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Сформуйте 20 горок на пергаменте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте при 170 °C 15–18 минут до золотистых кончиков, остудите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Окуните основания в растопленный шоколад и дайте застыть.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не пересушивайте кокосовую середину.",
+    "Это кокосовое печенье, для него не нужна миндальная мука."
+  ]
+}

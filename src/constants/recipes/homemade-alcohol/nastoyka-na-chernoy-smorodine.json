@@ -1,0 +1,123 @@
+{
+  "metaSeo": {
+    "title": "Настойка на чёрной смородине — пошаговый рецепт с граммовками",
+    "description": "Яркий ягодный настой с терпким смородиновым ароматом и умеренной сладостью.",
+    "keywords": [
+      "настойка на чёрной смородине",
+      "настойка на чёрной смородине рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Настойка на чёрной смородине",
+    "og:description": "Яркий ягодный настой с терпким смородиновым ароматом и умеренной сладостью.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/nastoyka-na-chernoy-smorodine",
+    "twitterTitle": "Настойка на чёрной смородине",
+    "twitterDescription": "Яркий ягодный настой с терпким смородиновым ароматом и умеренной сладостью.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/nastoyka-na-chernoy-smorodine",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/nastoyka-na-chernoy-smorodine",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "настойка на чёрной смородине",
+    "настойка на чёрной смородине рецепт",
+    "настойка на чёрной смородине ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "homemade-alcohol"
+    }
+  ],
+  "key": "nastoyka-na-chernoy-smorodine",
+  "name": "nastoyka-na-chernoy-smorodine",
+  "img": null,
+  "title": "Настойка на чёрной смородине",
+  "description": "Яркий ягодный настой с терпким смородиновым ароматом и умеренной сладостью.",
+  "calories": null,
+  "preparation": 20,
+  "time": 24500,
+  "level": 1,
+  "rating": 0,
+  "portions": 20,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Водка 40%",
+      "count": 700,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Смородина чёрная",
+      "count": 450,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 100,
+      "gauge": "мл",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Стеклянная банка",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Сотейник",
+      "img": null
+    },
+    {
+      "name": "Бутылки",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Ягоды переберите, промойте и полностью обсушите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Слегка раздавите в чистой банке и залейте водкой.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Закройте и выдержите в тёмном месте 14 суток, встряхивая раз в день.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите, сахар растворите в отдельно нагретой воде, полностью остудите и смешайте с настоем.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Отфильтруйте и выдержите в холодильнике ещё 3 суток.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Время указано вместе с выдержкой.",
+    "Готовый напиток храните плотно закрытым и охлаждённым."
+  ]
+}

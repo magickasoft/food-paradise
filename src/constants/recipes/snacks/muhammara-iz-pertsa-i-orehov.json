@@ -1,0 +1,184 @@
+{
+  "metaSeo": {
+    "title": "Мухаммара из перца и грецких орехов — подробный рецепт закуски",
+    "description": "Густой ближневосточный дип из сладкого печёного перца, грецких орехов, гранатового соуса и пряностей.",
+    "keywords": [
+      "мухаммара",
+      "дип из перца",
+      "перец с грецкими орехами"
+    ],
+    "og:title": "Мухаммара из перца и грецких орехов",
+    "og:description": "Густой ближневосточный дип из сладкого печёного перца, грецких орехов, гранатового соуса и пряностей.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/muhammara-iz-pertsa-i-orehov",
+    "twitterTitle": "Мухаммара из перца и грецких орехов",
+    "twitterDescription": "Густой ближневосточный дип из сладкого печёного перца, грецких орехов, гранатового соуса и пряностей.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/muhammara-iz-pertsa-i-orehov",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/muhammara-iz-pertsa-i-orehov",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "мухаммара из перца и грецких орехов",
+    "мухаммара из перца и грецких орехов рецепт",
+    "мухаммара из перца и грецких орехов пошагово",
+    "мухаммара из перца и грецких орехов на праздничный стол",
+    "рецепты закусок",
+    "закуски на праздничный стол",
+    "мухаммара",
+    "дип из перца",
+    "перец с грецкими орехами"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "muhammara-iz-pertsa-i-orehov",
+  "name": "muhammara-iz-pertsa-i-orehov",
+  "img": null,
+  "title": "Мухаммара из перца и грецких орехов",
+  "description": "Густой ближневосточный дип из сладкого печёного перца, грецких орехов, гранатового соуса и пряностей.",
+  "calories": 244,
+  "preparation": 20,
+  "time": 35,
+  "level": 1,
+  "rating": 5,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Красный сладкий перец",
+      "count": 900,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Грецкие орехи",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Панировочные сухари",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Оливковое масло",
+      "count": 70,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Гранатовый соус наршараб",
+      "count": 35,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Зира молотая",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Хлопья чили",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 7,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Противень",
+      "img": null
+    },
+    {
+      "name": "Блендер",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Перцы запекайте при 230 °C 25–30 минут до крупных чёрных подпалин, переворачивая. Переложите в миску, накройте и оставьте на 15 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Снимите кожицу, удалите семена и хорошо обсушите мякоть. Орехи подсушите при 170 °C 7 минут и остудите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Измельчите орехи и сухари в блендере до крупной крошки. Добавьте перец, чеснок, зиру, чили и соль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Влейте наршараб, лимонный сок и 50 мл масла. Коротко пробейте, сохраняя небольшую зернистость.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Охладите дип 1 час. Перед подачей полейте оставшимся маслом и посыпьте ореховой крошкой.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "После очистки перец нужно обсушить, иначе дип получится жидким.",
+    "Не измельчайте орехи до пасты.",
+    "Наршараб отличается по сладости — сначала добавьте две трети.",
+    "Вкус становится глубже после нескольких часов выдержки."
+  ],
+  "variations": [
+    {
+      "name": "Без сухарей",
+      "changes": "Замените сухари ещё 60 г грецких орехов."
+    },
+    {
+      "name": "Более острая",
+      "changes": "Добавьте 8 г свежего красного чили без семян."
+    }
+  ],
+  "historyDescription": "Мухаммара связана с сирийским городом Алеппо и соседними регионами. Её характер определяют три компонента: сладкий печёный перец, насыщенный орех и фруктовая кислинка гранатовой мелассы."
+}

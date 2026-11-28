@@ -1,0 +1,149 @@
+{
+  "metaSeo": {
+    "title": "Чечевичные котлеты в духовке — пошаговый рецепт с граммовками",
+    "description": "Румяные растительные котлеты из красной чечевицы с морковью и зирой.",
+    "keywords": [
+      "чечевичные котлеты в духовке",
+      "чечевичные котлеты в духовке рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Чечевичные котлеты в духовке",
+    "og:description": "Румяные растительные котлеты из красной чечевицы с морковью и зирой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/chechevichnye-kotlety-v-duhovke",
+    "twitterTitle": "Чечевичные котлеты в духовке",
+    "twitterDescription": "Румяные растительные котлеты из красной чечевицы с морковью и зирой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/chechevichnye-kotlety-v-duhovke",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/chechevichnye-kotlety-v-duhovke",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "чечевичные котлеты в духовке",
+    "чечевичные котлеты в духовке рецепт",
+    "чечевичные котлеты в духовке ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "healthy"
+    }
+  ],
+  "key": "chechevichnye-kotlety-v-duhovke",
+  "name": "chechevichnye-kotlety-v-duhovke",
+  "img": null,
+  "title": "Чечевичные котлеты в духовке",
+  "description": "Румяные растительные котлеты из красной чечевицы с морковью и зирой.",
+  "calories": null,
+  "preparation": 25,
+  "time": 65,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Чечевица красная",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 500,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Морковь",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 130,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука овсяная",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Зира",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Паприка",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Чечевицу промойте и варите в воде 15 минут до густой каши.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук и морковь обжарьте на половине масла 7 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Соедините с чечевицей, мукой и специями, остудите 15 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Сформуйте 10 котлет и смажьте оставшимся маслом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте при 200 °C 25 минут, перевернув через 15 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Жидкую чечевицу отцедите.",
+    "Переворачивайте после образования корочки."
+  ]
+}

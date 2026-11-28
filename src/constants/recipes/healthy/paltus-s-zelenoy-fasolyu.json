@@ -1,0 +1,143 @@
+{
+  "metaSeo": {
+    "title": "Палтус с зелёной фасолью — пошаговый рецепт с граммовками",
+    "description": "Нежная рыба с быстро приготовленной фасолью и лимонным маслом.",
+    "keywords": [
+      "палтус с зелёной фасолью",
+      "палтус с зелёной фасолью рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Палтус с зелёной фасолью",
+    "og:description": "Нежная рыба с быстро приготовленной фасолью и лимонным маслом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/paltus-s-zelenoy-fasolyu",
+    "twitterTitle": "Палтус с зелёной фасолью",
+    "twitterDescription": "Нежная рыба с быстро приготовленной фасолью и лимонным маслом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/paltus-s-zelenoy-fasolyu",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/paltus-s-zelenoy-fasolyu",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "палтус с зелёной фасолью",
+    "палтус с зелёной фасолью рецепт",
+    "палтус с зелёной фасолью ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "healthy"
+    }
+  ],
+  "key": "paltus-s-zelenoy-fasolyu",
+  "name": "paltus-s-zelenoy-fasolyu",
+  "img": null,
+  "title": "Палтус с зелёной фасолью",
+  "description": "Нежная рыба с быстро приготовленной фасолью и лимонным маслом.",
+  "calories": null,
+  "preparation": 15,
+  "time": 35,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Филе палтуса",
+      "count": 700,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Фасоль стручковая",
+      "count": 600,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 30,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Петрушка",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 9,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Палтус разделите на 4 порции, обсушите, приправьте половиной соли и перцем.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смажьте половиной масла и завыпекайте при 190 °C 15–18 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Фасоль варите 5 минут, откиньте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Прогрейте чеснок в оставшемся масле 20 секунд, добавьте фасоль и остаток соли.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Подавайте рыбу с фасолью, лимонным соком и петрушкой.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Палтус легко распадается, переносите широкой лопаткой.",
+    "Фасоль должна сохранить цвет."
+  ]
+}

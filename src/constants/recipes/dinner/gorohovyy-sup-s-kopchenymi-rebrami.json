@@ -1,0 +1,145 @@
+{
+  "metaSeo": {
+    "title": "Гороховый суп с копчёными рёбрами — пошаговый рецепт с граммовками",
+    "description": "Густой суп с разваренным горохом и дымным ароматом свиных рёбрышек.",
+    "keywords": [
+      "гороховый суп с копчёными рёбрами",
+      "гороховый суп с копчёными рёбрами рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Гороховый суп с копчёными рёбрами",
+    "og:description": "Густой суп с разваренным горохом и дымным ароматом свиных рёбрышек.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/gorohovyy-sup-s-kopchenymi-rebrami",
+    "twitterTitle": "Гороховый суп с копчёными рёбрами",
+    "twitterDescription": "Густой суп с разваренным горохом и дымным ароматом свиных рёбрышек.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/gorohovyy-sup-s-kopchenymi-rebrami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/gorohovyy-sup-s-kopchenymi-rebrami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "гороховый суп с копчёными рёбрами",
+    "гороховый суп с копчёными рёбрами рецепт",
+    "гороховый суп с копчёными рёбрами ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dinner"
+    }
+  ],
+  "key": "gorohovyy-sup-s-kopchenymi-rebrami",
+  "name": "gorohovyy-sup-s-kopchenymi-rebrami",
+  "img": null,
+  "title": "Гороховый суп с копчёными рёбрами",
+  "description": "Густой суп с разваренным горохом и дымным ароматом свиных рёбрышек.",
+  "calories": null,
+  "preparation": 20,
+  "time": 350,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Горох колотый",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Рёбра копчёные",
+      "count": 600,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 2500,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Картофель",
+      "count": 350,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Морковь",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Укроп",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 12,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Горох промойте и замочите на 4 часа, слейте воду.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Рёбра и горох залейте свежей водой, варите 60 минут со снятием пены.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выньте рёбра, снимите мясо, верните вместе с картофелем кубиками.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук и морковь пассеруйте в масле 7 минут, добавьте в суп.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Варите ещё 15–20 минут, посолите после пробы, добавьте укроп.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "В общее время включены четыре часа замачивания гороха. Варите его до мягкости, ориентируясь на сорт.",
+    "Копчёности различаются по солёности."
+  ]
+}

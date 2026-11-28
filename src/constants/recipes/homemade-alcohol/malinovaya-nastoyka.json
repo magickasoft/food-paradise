@@ -1,0 +1,123 @@
+{
+  "metaSeo": {
+    "title": "Малиновая настойка — пошаговый рецепт с граммовками",
+    "description": "Ароматный малиновый напиток с мягким ягодным вкусом.",
+    "keywords": [
+      "малиновая настойка",
+      "малиновая настойка рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Малиновая настойка",
+    "og:description": "Ароматный малиновый напиток с мягким ягодным вкусом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/malinovaya-nastoyka",
+    "twitterTitle": "Малиновая настойка",
+    "twitterDescription": "Ароматный малиновый напиток с мягким ягодным вкусом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/malinovaya-nastoyka",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/malinovaya-nastoyka",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "малиновая настойка",
+    "малиновая настойка рецепт",
+    "малиновая настойка ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "homemade-alcohol"
+    }
+  ],
+  "key": "malinovaya-nastoyka",
+  "name": "malinovaya-nastoyka",
+  "img": null,
+  "title": "Малиновая настойка",
+  "description": "Ароматный малиновый напиток с мягким ягодным вкусом.",
+  "calories": null,
+  "preparation": 20,
+  "time": 20180,
+  "level": 1,
+  "rating": 0,
+  "portions": 20,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Водка 40%",
+      "count": 700,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Малина",
+      "count": 500,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 130,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 100,
+      "gauge": "мл",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Банка",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Сотейник",
+      "img": null
+    },
+    {
+      "name": "Бутылки",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Малину переберите, осторожно промойте и обсушите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Сложите в чистую банку, залейте водкой, закройте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Настаивайте в темноте 10 суток, ежедневно осторожно переворачивая банку.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите без сильного отжима, добавьте холодный сироп из сахара и воды.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Дайте отстояться в холодильнике 4 суток и снимите с осадка.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не раздавливайте косточки малины.",
+    "Тонкую фильтрацию проводите после отстаивания."
+  ]
+}

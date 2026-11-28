@@ -1,0 +1,157 @@
+{
+  "metaSeo": {
+    "title": "Эклеры с заварным кремом — пошаговый рецепт с граммовками",
+    "description": "Хрустящие заварные оболочки с густым ванильным кремом.",
+    "keywords": [
+      "эклеры с заварным кремом",
+      "эклеры с заварным кремом рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Эклеры с заварным кремом",
+    "og:description": "Хрустящие заварные оболочки с густым ванильным кремом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/eklery-s-zavarnym-kremom",
+    "twitterTitle": "Эклеры с заварным кремом",
+    "twitterDescription": "Хрустящие заварные оболочки с густым ванильным кремом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/eklery-s-zavarnym-kremom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/eklery-s-zavarnym-kremom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "эклеры с заварным кремом",
+    "эклеры с заварным кремом рецепт",
+    "эклеры с заварным кремом ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dessert"
+    }
+  ],
+  "key": "eklery-s-zavarnym-kremom",
+  "name": "eklery-s-zavarnym-kremom",
+  "img": null,
+  "title": "Эклеры с заварным кремом",
+  "description": "Хрустящие заварные оболочки с густым ванильным кремом.",
+  "calories": null,
+  "preparation": 40,
+  "time": 180,
+  "level": 2,
+  "rating": 0,
+  "portions": 12,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Вода",
+      "count": 250,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 140,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 250,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Молоко",
+      "count": 600,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Желтки",
+      "count": 80,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Сахар",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Крахмал кукурузный",
+      "count": 45,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Ванильный сахар",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Сотейники",
+      "img": null
+    },
+    {
+      "name": "Мешок",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Воду, 100 г масла и соль вскипятите, всыпьте муку, заварите 2 минуты.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Слегка остудите и частями вмешайте яйца до спадающей ленты.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Отсадите 12 полос, выпекайте 15 минут при 210 °C и 20 минут при 180 °C, остудите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Молоко нагрейте, влейте к смеси желтков, сахара, ванили и крахмала, верните на огонь и варите 2 минуты после загустения.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте остальное масло, охладите крем под плёнкой в контакт и наполните эклеры.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Дверцу первые 25 минут не открывайте.",
+    "Крем остужайте быстро в широкой посуде."
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "metaSeo": {
+    "title": "Кабачковые палочки с пармезаном — подробный рецепт закуски",
+    "description": "Запечённые палочки кабачка в сухарной корочке с пармезаном и травами, мягкие внутри и румяные снаружи.",
+    "keywords": [
+      "кабачковые палочки",
+      "кабачки с пармезаном",
+      "закуска из кабачков"
+    ],
+    "og:title": "Кабачковые палочки с пармезаном",
+    "og:description": "Запечённые палочки кабачка в сухарной корочке с пармезаном и травами, мягкие внутри и румяные снаружи.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kabachkovye-palochki-s-parmezanom",
+    "twitterTitle": "Кабачковые палочки с пармезаном",
+    "twitterDescription": "Запечённые палочки кабачка в сухарной корочке с пармезаном и травами, мягкие внутри и румяные снаружи.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kabachkovye-palochki-s-parmezanom",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kabachkovye-palochki-s-parmezanom",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "кабачковые палочки с пармезаном",
+    "кабачковые палочки с пармезаном рецепт",
+    "кабачковые палочки с пармезаном пошагово",
+    "кабачковые палочки с пармезаном на праздничный стол",
+    "рецепты закусок",
+    "закуски на праздничный стол",
+    "кабачковые палочки",
+    "кабачки с пармезаном",
+    "закуска из кабачков"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "kabachkovye-palochki-s-parmezanom",
+  "name": "kabachkovye-palochki-s-parmezanom",
+  "img": null,
+  "title": "Кабачковые палочки с пармезаном",
+  "description": "Запечённые палочки кабачка в сухарной корочке с пармезаном и травами, мягкие внутри и румяные снаружи.",
+  "calories": 138,
+  "preparation": 20,
+  "time": 25,
+  "level": 1,
+  "rating": 5,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Кабачки молодые",
+      "count": 1000,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Панировочные сухари панко",
+      "count": 160,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Пармезан",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 2,
+      "gauge": "шт.",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сушёный чеснок",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Итальянские травы",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Оливковое масло",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 9,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чёрный перец",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Противень с решёткой",
+      "img": null
+    },
+    {
+      "name": "Три миски",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Кабачки нарежьте палочками длиной 8 см и толщиной 1,5 см. Посолите 5 г соли, оставьте на 10 минут и тщательно промокните.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте сухари, пармезан, чеснок, травы, перец и оставшуюся соль. Яйца взбейте отдельно.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Обваляйте палочки в муке, затем в яйце и сырной панировке, слегка прижимая крошку.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разложите на смазанной решётке одним слоем, сбрызните оставшимся маслом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Запекайте при 220 °C 20–25 минут, перевернув через 15 минут. Подавайте сразу с йогуртовым соусом.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Молодые кабачки дают меньше воды и не требуют удаления семян.",
+    "После предварительного посола поверхность обязательно обсушите.",
+    "Решётка помогает подрумянить нижнюю сторону.",
+    "Не накрывайте готовые палочки."
+  ],
+  "variations": [
+    {
+      "name": "Острые",
+      "changes": "Добавьте в панировку 2 г хлопьев чили."
+    },
+    {
+      "name": "Без глютена",
+      "changes": "Замените муку рисовой, а панко — измельчёнными кукурузными хлопьями."
+    }
+  ],
+  "historyDescription": "Овощные палочки в сухарной корочке появились как более лёгкая альтернатива фритюру. Пармезан не только даёт вкус, но и помогает панировке быстро стать золотистой, пока кабачок сохраняет форму."
+}

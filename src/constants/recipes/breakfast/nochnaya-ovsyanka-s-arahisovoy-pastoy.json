@@ -1,0 +1,133 @@
+{
+  "metaSeo": {
+    "title": "Ночная овсянка с арахисовой пастой — пошаговый рецепт с граммовками",
+    "description": "Холодный овсяный завтрак с бананом, йогуртом и арахисовым кремом.",
+    "keywords": [
+      "ночная овсянка с арахисовой пастой",
+      "ночная овсянка с арахисовой пастой рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Ночная овсянка с арахисовой пастой",
+    "og:description": "Холодный овсяный завтрак с бананом, йогуртом и арахисовым кремом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/nochnaya-ovsyanka-s-arahisovoy-pastoy",
+    "twitterTitle": "Ночная овсянка с арахисовой пастой",
+    "twitterDescription": "Холодный овсяный завтрак с бананом, йогуртом и арахисовым кремом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/nochnaya-ovsyanka-s-arahisovoy-pastoy",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/nochnaya-ovsyanka-s-arahisovoy-pastoy",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "ночная овсянка с арахисовой пастой",
+    "ночная овсянка с арахисовой пастой рецепт",
+    "ночная овсянка с арахисовой пастой ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "nochnaya-ovsyanka-s-arahisovoy-pastoy",
+  "name": "nochnaya-ovsyanka-s-arahisovoy-pastoy",
+  "img": null,
+  "title": "Ночная овсянка с арахисовой пастой",
+  "description": "Холодный овсяный завтрак с бананом, йогуртом и арахисовым кремом.",
+  "calories": null,
+  "preparation": 10,
+  "time": 490,
+  "level": 2,
+  "rating": 0,
+  "portions": 2,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Хлопья овсяные длительной варки",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Молоко",
+      "count": 180,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Йогурт натуральный",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Паста арахисовая",
+      "count": 40,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Банан очищенный",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мёд",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Две банки",
+      "img": null
+    },
+    {
+      "name": "Ложка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Размешайте арахисовую пасту с молоком и йогуртом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте хлопья, мёд и соль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разделите по двум банкам, закройте и поставьте в холодильник на 8 часов.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Утром перемешайте, при желании добавьте ложку холодной воды.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Нарежьте банан и распределите поверх овсянки перед едой.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Используйте пасту без добавленного сахара.",
+    "Банан добавляйте утром, чтобы сохранить цвет."
+  ]
+}

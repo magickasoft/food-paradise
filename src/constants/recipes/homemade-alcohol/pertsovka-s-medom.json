@@ -1,0 +1,129 @@
+{
+  "metaSeo": {
+    "title": "Перцовка с мёдом — пошаговый рецепт с граммовками",
+    "description": "Острая настойка с красным перцем, душистым перцем и лёгкой медовой нотой.",
+    "keywords": [
+      "перцовка с мёдом",
+      "перцовка с мёдом рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Перцовка с мёдом",
+    "og:description": "Острая настойка с красным перцем, душистым перцем и лёгкой медовой нотой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/pertsovka-s-medom",
+    "twitterTitle": "Перцовка с мёдом",
+    "twitterDescription": "Острая настойка с красным перцем, душистым перцем и лёгкой медовой нотой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pertsovka-s-medom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pertsovka-s-medom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "перцовка с мёдом",
+    "перцовка с мёдом рецепт",
+    "перцовка с мёдом ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "homemade-alcohol"
+    }
+  ],
+  "key": "pertsovka-s-medom",
+  "name": "pertsovka-s-medom",
+  "img": null,
+  "title": "Перцовка с мёдом",
+  "description": "Острая настойка с красным перцем, душистым перцем и лёгкой медовой нотой.",
+  "calories": null,
+  "preparation": 20,
+  "time": 11540,
+  "level": 1,
+  "rating": 0,
+  "portions": 20,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Водка 40%",
+      "count": 700,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Перец чили свежий",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец душистый горошком",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мёд",
+      "count": 60,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 50,
+      "gauge": "мл",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Банка",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Бутылки",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Чили вымойте, надрежьте и удалите семена.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Залейте водкой вместе с душистым перцем в чистой банке.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Через 24 часа проверьте остроту, извлеките чили через 1–3 суток по вкусу.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "На пятые сутки процедите, добавьте охлаждённый медовый раствор.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выдержите 3 суток в холодильнике и отфильтруйте.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Острота чили сильно различается.",
+    "Для работы с перцем удобны перчатки."
+  ]
+}

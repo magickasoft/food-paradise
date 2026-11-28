@@ -1,0 +1,139 @@
+{
+  "metaSeo": {
+    "title": "Салат с курицей и корейской морковью — пошаговый рецепт с граммовками",
+    "description": "Куриный салат с пряной морковью, огурцом и кукурузой.",
+    "keywords": [
+      "салат с курицей и корейской морковью",
+      "салат с курицей и корейской морковью рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Салат с курицей и корейской морковью",
+    "og:description": "Куриный салат с пряной морковью, огурцом и кукурузой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-s-kuritsey-i-koreyskoy-morkovyu",
+    "twitterTitle": "Салат с курицей и корейской морковью",
+    "twitterDescription": "Куриный салат с пряной морковью, огурцом и кукурузой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-s-kuritsey-i-koreyskoy-morkovyu",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-s-kuritsey-i-koreyskoy-morkovyu",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "салат с курицей и корейской морковью",
+    "салат с курицей и корейской морковью рецепт",
+    "салат с курицей и корейской морковью ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "salads"
+    }
+  ],
+  "key": "salat-s-kuritsey-i-koreyskoy-morkovyu",
+  "name": "salat-s-kuritsey-i-koreyskoy-morkovyu",
+  "img": null,
+  "title": "Салат с курицей и корейской морковью",
+  "description": "Куриный салат с пряной морковью, огурцом и кукурузой.",
+  "calories": null,
+  "preparation": 20,
+  "time": 45,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Куриное филе",
+      "count": 400,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Морковь по-корейски",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Огурец",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Кукуруза без жидкости",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Йогурт",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Майонез",
+      "count": 60,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 5,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Петрушка",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Филе варите 15–18 минут с половиной соли, остудите в бульоне.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разберите мясо на короткие волокна.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Морковь слегка отожмите, огурец нарежьте соломкой.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Соедините курицу, морковь, огурец и кукурузу.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Заправьте йогуртом с майонезом, добавьте петрушку и соль после пробы.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Морковь уже содержит специи.",
+    "Огурец добавляйте после охлаждения мяса."
+  ]
+}

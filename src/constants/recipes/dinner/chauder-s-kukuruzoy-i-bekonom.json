@@ -1,0 +1,151 @@
+{
+  "metaSeo": {
+    "title": "Чаудер с кукурузой и беконом — пошаговый рецепт с граммовками",
+    "description": "Густой сливочный суп с кукурузой, картофелем и хрустящим беконом.",
+    "keywords": [
+      "чаудер с кукурузой и беконом",
+      "чаудер с кукурузой и беконом рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Чаудер с кукурузой и беконом",
+    "og:description": "Густой сливочный суп с кукурузой, картофелем и хрустящим беконом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/chauder-s-kukuruzoy-i-bekonom",
+    "twitterTitle": "Чаудер с кукурузой и беконом",
+    "twitterDescription": "Густой сливочный суп с кукурузой, картофелем и хрустящим беконом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/chauder-s-kukuruzoy-i-bekonom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/chauder-s-kukuruzoy-i-bekonom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "чаудер с кукурузой и беконом",
+    "чаудер с кукурузой и беконом рецепт",
+    "чаудер с кукурузой и беконом ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dinner"
+    }
+  ],
+  "key": "chauder-s-kukuruzoy-i-bekonom",
+  "name": "chauder-s-kukuruzoy-i-bekonom",
+  "img": null,
+  "title": "Чаудер с кукурузой и беконом",
+  "description": "Густой сливочный суп с кукурузой, картофелем и хрустящим беконом.",
+  "calories": null,
+  "preparation": 20,
+  "time": 55,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Кукуруза зёрна",
+      "count": 450,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Картофель",
+      "count": 450,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Бекон",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Молоко",
+      "count": 500,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 1000,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сливки 20%",
+      "count": 200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 25,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Тимьян",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 12,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля с толстым дном",
+      "img": null
+    },
+    {
+      "name": "Лопатка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Бекон нарежьте, вытопите до хруста, половину отложите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "В вытопленном жире томите лук 5 минут, добавьте муку.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Влейте воду и молоко, помешивая, добавьте картофель и тимьян.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Варите 15 минут, добавьте кукурузу, сливки и соль, готовьте ещё 7 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разомните половником часть картофеля для густоты и подавайте с оставшимся беконом.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "После молока держите слабый нагрев.",
+    "Солите после пробы бекона."
+  ]
+}

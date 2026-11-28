@@ -1,0 +1,165 @@
+{
+  "metaSeo": {
+    "title": "Пастуший пирог — пошаговый рецепт с граммовками",
+    "description": "Запечённая баранина с овощной подливой под картофельной шапкой.",
+    "keywords": [
+      "пастуший пирог",
+      "пастуший пирог рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Пастуший пирог",
+    "og:description": "Запечённая баранина с овощной подливой под картофельной шапкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/pastushiy-pirog",
+    "twitterTitle": "Пастуший пирог",
+    "twitterDescription": "Запечённая баранина с овощной подливой под картофельной шапкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pastushiy-pirog",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pastushiy-pirog",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "пастуший пирог",
+    "пастуший пирог рецепт",
+    "пастуший пирог ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "supper"
+    }
+  ],
+  "key": "pastushiy-pirog",
+  "name": "pastushiy-pirog",
+  "img": null,
+  "title": "Пастуший пирог",
+  "description": "Запечённая баранина с овощной подливой под картофельной шапкой.",
+  "calories": null,
+  "preparation": 30,
+  "time": 95,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Фарш бараний",
+      "count": 750,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Картофель",
+      "count": 1100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Морковь",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Горошек замороженный",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Томатная паста",
+      "count": 40,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Бульон несолёный",
+      "count": 350,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Молоко",
+      "count": 150,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 60,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 18,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Форма",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Картофель сварите, разомните с горячим молоком, маслом и 8 г соли.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Фарш обжарьте в растительном масле, добавьте лук и морковь, готовьте 8 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте пасту и бульон, тушите 20 минут, добавьте горошек и соль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Переложите начинку в форму, накройте пюре, проведите вилкой борозды.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте при 200 °C 25 минут, дайте постоять 10 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Начинка должна быть густой.",
+    "Пюре кладите небольшими порциями, сохраняя слои."
+  ]
+}

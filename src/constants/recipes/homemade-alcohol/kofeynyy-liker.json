@@ -1,0 +1,129 @@
+{
+  "metaSeo": {
+    "title": "Кофейный ликёр — пошаговый рецепт с граммовками",
+    "description": "Сладкий кофейный ликёр с холодной экстракцией зёрен и ванилью.",
+    "keywords": [
+      "кофейный ликёр",
+      "кофейный ликёр рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Кофейный ликёр",
+    "og:description": "Сладкий кофейный ликёр с холодной экстракцией зёрен и ванилью.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kofeynyy-liker",
+    "twitterTitle": "Кофейный ликёр",
+    "twitterDescription": "Сладкий кофейный ликёр с холодной экстракцией зёрен и ванилью.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kofeynyy-liker",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kofeynyy-liker",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "кофейный ликёр",
+    "кофейный ликёр рецепт",
+    "кофейный ликёр ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "homemade-alcohol"
+    }
+  ],
+  "key": "kofeynyy-liker",
+  "name": "kofeynyy-liker",
+  "img": null,
+  "title": "Кофейный ликёр",
+  "description": "Сладкий кофейный ликёр с холодной экстракцией зёрен и ванилью.",
+  "calories": null,
+  "preparation": 20,
+  "time": 14420,
+  "level": 1,
+  "rating": 0,
+  "portions": 20,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Водка 40%",
+      "count": 650,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Кофе в зёрнах",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 240,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 250,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Ванильный экстракт",
+      "count": 5,
+      "gauge": "мл",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Банка",
+      "img": null
+    },
+    {
+      "name": "Кофейный фильтр",
+      "img": null
+    },
+    {
+      "name": "Сотейник",
+      "img": null
+    },
+    {
+      "name": "Бутылки",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Зёрна слегка раздавите, залейте водкой в чистой банке.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выдержите 7 суток в темноте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите через бумажный фильтр без отжима.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Сварите сироп, полностью остудите, смешайте с настоем и ванилью.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Охладите и выдержите 3 суток перед подачей.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Слишком мелкий помол усложняет фильтрацию.",
+    "Не нагревайте алкогольную смесь."
+  ]
+}

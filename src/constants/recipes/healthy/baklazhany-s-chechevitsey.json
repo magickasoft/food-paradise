@@ -1,0 +1,155 @@
+{
+  "metaSeo": {
+    "title": "Баклажаны с чечевицей — пошаговый рецепт с граммовками",
+    "description": "Печёные половинки баклажанов с густой чечевично-томатной начинкой.",
+    "keywords": [
+      "баклажаны с чечевицей",
+      "баклажаны с чечевицей рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Баклажаны с чечевицей",
+    "og:description": "Печёные половинки баклажанов с густой чечевично-томатной начинкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/baklazhany-s-chechevitsey",
+    "twitterTitle": "Баклажаны с чечевицей",
+    "twitterDescription": "Печёные половинки баклажанов с густой чечевично-томатной начинкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/baklazhany-s-chechevitsey",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/baklazhany-s-chechevitsey",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "баклажаны с чечевицей",
+    "баклажаны с чечевицей рецепт",
+    "баклажаны с чечевицей ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "healthy"
+    }
+  ],
+  "key": "baklazhany-s-chechevitsey",
+  "name": "baklazhany-s-chechevitsey",
+  "img": null,
+  "title": "Баклажаны с чечевицей",
+  "description": "Печёные половинки баклажанов с густой чечевично-томатной начинкой.",
+  "calories": null,
+  "preparation": 25,
+  "time": 70,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Баклажаны",
+      "count": 1000,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чечевица зелёная",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 600,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Томаты",
+      "count": 400,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 30,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Петрушка",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 11,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Зира",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Баклажаны разрежьте, надрежьте мякоть, смажьте половиной масла и 4 г соли.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Запекайте при 200 °C 30 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Чечевицу варите 25 минут и слейте воду.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "На оставшемся масле томите лук, добавьте чеснок, томаты, зиру и соль, тушите 10 минут и смешайте с чечевицей.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Наполните баклажаны, выпекайте ещё 10 минут и посыпьте зеленью.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не прорезайте кожицу.",
+    "Ложкой слегка прижмите запечённую мякоть для начинки."
+  ]
+}

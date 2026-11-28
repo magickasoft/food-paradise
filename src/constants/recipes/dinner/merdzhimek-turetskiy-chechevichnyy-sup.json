@@ -1,0 +1,155 @@
+{
+  "metaSeo": {
+    "title": "Мерджимек — турецкий чечевичный суп — пошаговый рецепт с граммовками",
+    "description": "Бархатный суп из красной чечевицы с мятой, паприкой и лимоном.",
+    "keywords": [
+      "мерджимек — турецкий чечевичный суп",
+      "мерджимек — турецкий чечевичный суп рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Мерджимек — турецкий чечевичный суп",
+    "og:description": "Бархатный суп из красной чечевицы с мятой, паприкой и лимоном.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/merdzhimek-turetskiy-chechevichnyy-sup",
+    "twitterTitle": "Мерджимек — турецкий чечевичный суп",
+    "twitterDescription": "Бархатный суп из красной чечевицы с мятой, паприкой и лимоном.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/merdzhimek-turetskiy-chechevichnyy-sup",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/merdzhimek-turetskiy-chechevichnyy-sup",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "мерджимек — турецкий чечевичный суп",
+    "мерджимек — турецкий чечевичный суп рецепт",
+    "мерджимек — турецкий чечевичный суп ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dinner"
+    }
+  ],
+  "key": "merdzhimek-turetskiy-chechevichnyy-sup",
+  "name": "merdzhimek-turetskiy-chechevichnyy-sup",
+  "img": null,
+  "title": "Мерджимек — турецкий чечевичный суп",
+  "description": "Бархатный суп из красной чечевицы с мятой, паприкой и лимоном.",
+  "calories": null,
+  "preparation": 15,
+  "time": 45,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Чечевица красная",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 1700,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Морковь",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Томатная паста",
+      "count": 35,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 40,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Паприка",
+      "count": 4,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мята сушёная",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 35,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 13,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Блендер",
+      "img": null
+    },
+    {
+      "name": "Маленькая сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук и морковь нарежьте, томите на 25 г масла 5 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте томатную пасту и промытую чечевицу, перемешайте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Залейте водой, посолите и варите 25 минут до распада зёрен.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Пробейте суп блендером, вмешайте лимонный сок.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Остальное масло прогрейте с паприкой и мятой 20 секунд, распределите по тарелкам.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Промывайте чечевицу до чистой воды.",
+    "Густоту регулируйте кипятком после измельчения."
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "metaSeo": {
+    "title": "Салат с ростбифом и горчичной заправкой — пошаговый рецепт с граммовками",
+    "description": "Ломтики готового ростбифа с рукколой, томатами и пикантным соусом.",
+    "keywords": [
+      "салат с ростбифом и горчичной заправкой",
+      "салат с ростбифом и горчичной заправкой рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Салат с ростбифом и горчичной заправкой",
+    "og:description": "Ломтики готового ростбифа с рукколой, томатами и пикантным соусом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-s-rostbifom-i-gorchichnoy-zapravkoy",
+    "twitterTitle": "Салат с ростбифом и горчичной заправкой",
+    "twitterDescription": "Ломтики готового ростбифа с рукколой, томатами и пикантным соусом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-s-rostbifom-i-gorchichnoy-zapravkoy",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-s-rostbifom-i-gorchichnoy-zapravkoy",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "салат с ростбифом и горчичной заправкой",
+    "салат с ростбифом и горчичной заправкой рецепт",
+    "салат с ростбифом и горчичной заправкой ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "salads"
+    }
+  ],
+  "key": "salat-s-rostbifom-i-gorchichnoy-zapravkoy",
+  "name": "salat-s-rostbifom-i-gorchichnoy-zapravkoy",
+  "img": null,
+  "title": "Салат с ростбифом и горчичной заправкой",
+  "description": "Ломтики готового ростбифа с рукколой, томатами и пикантным соусом.",
+  "calories": null,
+  "preparation": 20,
+  "time": 20,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Ростбиф готовый",
+      "count": 350,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Руккола",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Томаты черри",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук красный",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Пармезан",
+      "count": 50,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 40,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Горчица зернистая",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Уксус винный",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Мёд",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Нож",
+      "img": null
+    },
+    {
+      "name": "Овощечистка",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Мясо нарежьте поперёк волокон тонкими ломтиками.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук нашинкуйте, черри разрежьте пополам.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте масло, горчицу, уксус, мёд и соль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "На сухую рукколу выложите мясо, томаты и лук.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Полейте соусом и добавьте стружку пармезана.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Ростбиф достаньте за 15 минут до сборки.",
+    "Соус наносите перед подачей."
+  ]
+}

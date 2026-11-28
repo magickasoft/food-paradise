@@ -1,0 +1,168 @@
+{
+  "metaSeo": {
+    "title": "Пряный медовый кекс с сухофруктами — пошаговый рецепт с граммовками",
+    "description": "Плотный зимний кекс с мёдом, изюмом, курагой и тёплыми специями.",
+    "keywords": [
+      "пряный медовый кекс с сухофруктами",
+      "пряный медовый кекс с сухофруктами рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Пряный медовый кекс с сухофруктами",
+    "og:description": "Плотный зимний кекс с мёдом, изюмом, курагой и тёплыми специями.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/pryanyy-medovyy-keks-s-suhofruktami",
+    "twitterTitle": "Пряный медовый кекс с сухофруктами",
+    "twitterDescription": "Плотный зимний кекс с мёдом, изюмом, курагой и тёплыми специями.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pryanyy-medovyy-keks-s-suhofruktami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pryanyy-medovyy-keks-s-suhofruktami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "пряный медовый кекс с сухофруктами",
+    "пряный медовый кекс с сухофруктами рецепт",
+    "пряный медовый кекс с сухофруктами ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "new-year"
+    }
+  ],
+  "key": "pryanyy-medovyy-keks-s-suhofruktami",
+  "name": "pryanyy-medovyy-keks-s-suhofruktami",
+  "img": null,
+  "title": "Пряный медовый кекс с сухофруктами",
+  "description": "Плотный зимний кекс с мёдом, изюмом, курагой и тёплыми специями.",
+  "calories": null,
+  "preparation": 30,
+  "time": 120,
+  "level": 2,
+  "rating": 0,
+  "portions": 12,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Мука",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 160,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мёд",
+      "count": 160,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 80,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 150,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Сметана",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Изюм",
+      "count": 130,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Курага",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Разрыхлитель",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Корица",
+      "count": 4,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Имбирь молотый",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миксер",
+      "img": null
+    },
+    {
+      "name": "Форма",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Сухофрукты промойте, обсушите и нарежьте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Масло взбейте с сахаром, вмешайте яйца, мёд и сметану.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте муку, разрыхлитель, соль и специи.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте сухофрукты, переложите в форму 25 × 11 см.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте при 165 °C 65–75 минут, при потемнении накройте фольгой и остудите.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Сухофрукты должны быть сухими.",
+    "Проверяйте центр длинной шпажкой."
+  ]
+}

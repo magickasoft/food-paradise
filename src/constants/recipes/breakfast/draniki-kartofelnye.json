@@ -1,0 +1,138 @@
+{
+  "metaSeo": {
+    "title": "Драники картофельные — пошаговый рецепт с граммовками",
+    "description": "Румяные картофельные оладьи с хрустящими краями и сочной серединой.",
+    "keywords": [
+      "драники картофельные",
+      "драники картофельные рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Драники картофельные",
+    "og:description": "Румяные картофельные оладьи с хрустящими краями и сочной серединой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/draniki-kartofelnye",
+    "twitterTitle": "Драники картофельные",
+    "twitterDescription": "Румяные картофельные оладьи с хрустящими краями и сочной серединой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/draniki-kartofelnye",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/draniki-kartofelnye",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "драники картофельные",
+    "драники картофельные рецепт",
+    "драники картофельные ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "draniki-kartofelnye",
+  "name": "draniki-kartofelnye",
+  "img": null,
+  "title": "Драники картофельные",
+  "description": "Румяные картофельные оладьи с хрустящими краями и сочной серединой.",
+  "calories": null,
+  "preparation": 20,
+  "time": 40,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Картофель очищенный",
+      "count": 900,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйцо",
+      "count": 50,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Мука",
+      "count": 25,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 9,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец чёрный",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 60,
+      "gauge": "мл",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Тёрка",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Картофель и лук мелко натрите, отожмите массу над миской.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Через 3 минуты слейте жидкость, осевший крахмал верните к картофелю.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте яйцо, муку, соль и перец, быстро перемешайте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выкладывайте тонкими лепёшками в горячее масло, жарьте по 3–4 минуты с каждой стороны.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Переложите на решётку и подавайте сразу, пока края хрустят.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Солите непосредственно перед жаркой.",
+    "Не накрывайте готовые драники."
+  ]
+}

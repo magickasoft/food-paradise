@@ -1,0 +1,126 @@
+{
+  "metaSeo": {
+    "title": "Слоёная ёлочка с песто — пошаговый рецепт с граммовками",
+    "description": "Общий закусочный пирог с закрученными веточками и сырной начинкой.",
+    "keywords": [
+      "слоёная ёлочка с песто",
+      "слоёная ёлочка с песто рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Слоёная ёлочка с песто",
+    "og:description": "Общий закусочный пирог с закрученными веточками и сырной начинкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/sloenaya-elochka-s-pesto",
+    "twitterTitle": "Слоёная ёлочка с песто",
+    "twitterDescription": "Общий закусочный пирог с закрученными веточками и сырной начинкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/sloenaya-elochka-s-pesto",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/sloenaya-elochka-s-pesto",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "слоёная ёлочка с песто",
+    "слоёная ёлочка с песто рецепт",
+    "слоёная ёлочка с песто ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "new-year"
+    }
+  ],
+  "key": "sloenaya-elochka-s-pesto",
+  "name": "sloenaya-elochka-s-pesto",
+  "img": null,
+  "title": "Слоёная ёлочка с песто",
+  "description": "Общий закусочный пирог с закрученными веточками и сырной начинкой.",
+  "calories": null,
+  "preparation": 25,
+  "time": 55,
+  "level": 2,
+  "rating": 0,
+  "portions": 8,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Тесто слоёное",
+      "count": 600,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Песто",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сыр твёрдый",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйцо",
+      "count": 50,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Кунжут",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Противень",
+      "img": null
+    },
+    {
+      "name": "Нож",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Раскатайте два одинаковых прямоугольника теста толщиной 3 мм.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Первый смажьте песто, посыпьте сыром и накройте вторым.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вырежьте ёлку с широким основанием, сделайте боковые надрезы, сохраняя центральный ствол.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Каждую полоску закрутите дважды, смажьте яйцом и посыпьте кунжутом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте при 200 °C 23–27 минут и остудите 10 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Формуйте сразу на пергаменте.",
+    "Обрезки испеките отдельными палочками."
+  ]
+}

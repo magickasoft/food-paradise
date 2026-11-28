@@ -1,0 +1,137 @@
+{
+  "metaSeo": {
+    "title": "Мисо-суп с тофу — пошаговый рецепт с граммовками",
+    "description": "Лёгкий японский суп с водорослями, мягким тофу и мисо-пастой.",
+    "keywords": [
+      "мисо-суп с тофу",
+      "мисо-суп с тофу рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Мисо-суп с тофу",
+    "og:description": "Лёгкий японский суп с водорослями, мягким тофу и мисо-пастой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/miso-sup-s-tofu",
+    "twitterTitle": "Мисо-суп с тофу",
+    "twitterDescription": "Лёгкий японский суп с водорослями, мягким тофу и мисо-пастой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/miso-sup-s-tofu",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/miso-sup-s-tofu",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "мисо-суп с тофу",
+    "мисо-суп с тофу рецепт",
+    "мисо-суп с тофу ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dinner"
+    }
+  ],
+  "key": "miso-sup-s-tofu",
+  "name": "miso-sup-s-tofu",
+  "img": null,
+  "title": "Мисо-суп с тофу",
+  "description": "Лёгкий японский суп с водорослями, мягким тофу и мисо-пастой.",
+  "calories": null,
+  "preparation": 15,
+  "time": 30,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Вода",
+      "count": 1200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Комбу",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Стружка бонито",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мисо-паста",
+      "count": 80,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Тофу мягкий",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вакаме сухие",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Зелёный лук",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Комбу залейте водой на 20 минут, медленно нагрейте и выньте перед закипанием.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте бонито, снимите с огня, через 3 минуты процедите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вакаме замочите отдельно на 5 минут и отожмите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Прогрейте тофу кубиками и вакаме в бульоне 2 минуты.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Мисо разведите половником бульона, верните в кастрюлю после выключения и посыпьте луком.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "После мисо суп не кипятят.",
+    "Солёность регулируйте количеством пасты."
+  ]
+}

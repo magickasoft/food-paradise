@@ -1,0 +1,127 @@
+{
+  "metaSeo": {
+    "title": "Манная каша без комочков — пошаговый рецепт с граммовками",
+    "description": "Гладкая молочная каша, в которой крупа равномерно набухает при постепенном нагреве.",
+    "keywords": [
+      "манная каша без комочков",
+      "манная каша без комочков рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Манная каша без комочков",
+    "og:description": "Гладкая молочная каша, в которой крупа равномерно набухает при постепенном нагреве.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/mannaya-kasha-bez-komochkov",
+    "twitterTitle": "Манная каша без комочков",
+    "twitterDescription": "Гладкая молочная каша, в которой крупа равномерно набухает при постепенном нагреве.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/mannaya-kasha-bez-komochkov",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/mannaya-kasha-bez-komochkov",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "манная каша без комочков",
+    "манная каша без комочков рецепт",
+    "манная каша без комочков ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "mannaya-kasha-bez-komochkov",
+  "name": "mannaya-kasha-bez-komochkov",
+  "img": null,
+  "title": "Манная каша без комочков",
+  "description": "Гладкая молочная каша, в которой крупа равномерно набухает при постепенном нагреве.",
+  "calories": null,
+  "preparation": 5,
+  "time": 15,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Молоко",
+      "count": 800,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Манная крупа",
+      "count": 90,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Венчик",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Соедините холодные молоко и воду в кастрюле.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Всыпьте манку, сахар и соль, размешайте венчиком.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "На среднем огне доведите до первых пузырьков, непрерывно помешивая.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Уменьшите нагрев и варите 4 минуты, проходя венчиком по дну.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте масло и оставьте под крышкой на 3 минуты.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Холодный старт помогает избежать комочков.",
+    "Разливайте сразу после короткого отдыха."
+  ]
+}

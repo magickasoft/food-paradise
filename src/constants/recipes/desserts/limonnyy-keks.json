@@ -1,0 +1,156 @@
+{
+  "metaSeo": {
+    "title": "Лимонный кекс — пошаговый рецепт с граммовками",
+    "description": "Сочный масляный кекс с лимонной пропиткой и тонкой глазурью.",
+    "keywords": [
+      "лимонный кекс",
+      "лимонный кекс рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Лимонный кекс",
+    "og:description": "Сочный масляный кекс с лимонной пропиткой и тонкой глазурью.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/limonnyy-keks",
+    "twitterTitle": "Лимонный кекс",
+    "twitterDescription": "Сочный масляный кекс с лимонной пропиткой и тонкой глазурью.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/limonnyy-keks",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/limonnyy-keks",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "лимонный кекс",
+    "лимонный кекс рецепт",
+    "лимонный кекс ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dessert"
+    }
+  ],
+  "key": "limonnyy-keks",
+  "name": "limonnyy-keks",
+  "img": null,
+  "title": "Лимонный кекс",
+  "description": "Сочный масляный кекс с лимонной пропиткой и тонкой глазурью.",
+  "calories": null,
+  "preparation": 20,
+  "time": 130,
+  "level": 2,
+  "rating": 0,
+  "portions": 10,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Мука",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 150,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Йогурт",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 90,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лимонная цедра",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Разрыхлитель",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Пудра сахарная",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миксер",
+      "img": null
+    },
+    {
+      "name": "Форма для кекса",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Масло взбейте со 150 г сахара и цедрой, по одному вмешайте яйца.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте йогурт и 35 мл лимонного сока, затем вмешайте муку с разрыхлителем и солью.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте в форме 25 × 11 см при 170 °C 45–50 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "30 мл сока прогрейте с оставшимся сахаром, пропитайте тёплый кекс.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Полностью остудите кекс. Смешайте пудру с оставшимися 25 мл лимонного сока и нанесите густую глазурь.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Проверяйте центр деревянной шпажкой.",
+    "Глазурь наносите только на холодный кекс."
+  ]
+}

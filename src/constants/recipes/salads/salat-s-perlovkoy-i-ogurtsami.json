@@ -1,0 +1,149 @@
+{
+  "metaSeo": {
+    "title": "Салат с перловкой и огурцами — пошаговый рецепт с граммовками",
+    "description": "Зерновой салат со свежим огурцом, редисом и йогуртовой заправкой.",
+    "keywords": [
+      "салат с перловкой и огурцами",
+      "салат с перловкой и огурцами рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Салат с перловкой и огурцами",
+    "og:description": "Зерновой салат со свежим огурцом, редисом и йогуртовой заправкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-s-perlovkoy-i-ogurtsami",
+    "twitterTitle": "Салат с перловкой и огурцами",
+    "twitterDescription": "Зерновой салат со свежим огурцом, редисом и йогуртовой заправкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-s-perlovkoy-i-ogurtsami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-s-perlovkoy-i-ogurtsami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "салат с перловкой и огурцами",
+    "салат с перловкой и огурцами рецепт",
+    "салат с перловкой и огурцами ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "salads"
+    }
+  ],
+  "key": "salat-s-perlovkoy-i-ogurtsami",
+  "name": "salat-s-perlovkoy-i-ogurtsami",
+  "img": null,
+  "title": "Салат с перловкой и огурцами",
+  "description": "Зерновой салат со свежим огурцом, редисом и йогуртовой заправкой.",
+  "calories": null,
+  "preparation": 20,
+  "time": 75,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Перловка",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 800,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Огурец",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Редис",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Йогурт",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Укроп",
+      "count": 25,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Зелёный лук",
+      "count": 25,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Перловку варите в воде с половиной соли 45–50 минут, откиньте и остудите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Огурец и редис нарежьте полукружьями.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Зелень мелко порубите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Йогурт смешайте с лимоном и остатком соли.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Соедините всё, охладите 15 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Крупу остужайте тонким слоем.",
+    "Заправляйте только холодную перловку."
+  ]
+}

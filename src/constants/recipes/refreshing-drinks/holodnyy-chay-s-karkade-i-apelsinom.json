@@ -1,0 +1,125 @@
+{
+  "metaSeo": {
+    "title": "Холодный чай с каркаде и апельсином — пошаговый рецепт с граммовками",
+    "description": "Рубиновый чай с цитрусовой свежестью и умеренной кислинкой.",
+    "keywords": [
+      "холодный чай с каркаде и апельсином",
+      "холодный чай с каркаде и апельсином рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Холодный чай с каркаде и апельсином",
+    "og:description": "Рубиновый чай с цитрусовой свежестью и умеренной кислинкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/holodnyy-chay-s-karkade-i-apelsinom",
+    "twitterTitle": "Холодный чай с каркаде и апельсином",
+    "twitterDescription": "Рубиновый чай с цитрусовой свежестью и умеренной кислинкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/holodnyy-chay-s-karkade-i-apelsinom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/holodnyy-chay-s-karkade-i-apelsinom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "холодный чай с каркаде и апельсином",
+    "холодный чай с каркаде и апельсином рецепт",
+    "холодный чай с каркаде и апельсином ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "holodnyy-chay-s-karkade-i-apelsinom",
+  "name": "holodnyy-chay-s-karkade-i-apelsinom",
+  "img": null,
+  "title": "Холодный чай с каркаде и апельсином",
+  "description": "Рубиновый чай с цитрусовой свежестью и умеренной кислинкой.",
+  "calories": null,
+  "preparation": 15,
+  "time": 100,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Каркаде сухой",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 1500,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Апельсиновый сок",
+      "count": 250,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Мёд",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лёд",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Чайник",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Кувшин",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Каркаде залейте водой 95 °C.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Настаивайте 12 минут и процедите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Остудите до тёплого, растворите мёд.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте сок и охладите час.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разлейте по стаканам со льдом.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Долгое настаивание усиливает терпкость.",
+    "Мёд регулируйте после пробы."
+  ]
+}

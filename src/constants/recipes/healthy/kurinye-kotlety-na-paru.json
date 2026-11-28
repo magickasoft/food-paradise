@@ -1,0 +1,144 @@
+{
+  "metaSeo": {
+    "title": "Куриные котлеты на пару — пошаговый рецепт с граммовками",
+    "description": "Мягкие котлеты из курицы и кабачка с овсяными хлопьями.",
+    "keywords": [
+      "куриные котлеты на пару",
+      "куриные котлеты на пару рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Куриные котлеты на пару",
+    "og:description": "Мягкие котлеты из курицы и кабачка с овсяными хлопьями.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kurinye-kotlety-na-paru",
+    "twitterTitle": "Куриные котлеты на пару",
+    "twitterDescription": "Мягкие котлеты из курицы и кабачка с овсяными хлопьями.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kurinye-kotlety-na-paru",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kurinye-kotlety-na-paru",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "куриные котлеты на пару",
+    "куриные котлеты на пару рецепт",
+    "куриные котлеты на пару ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "healthy"
+    }
+  ],
+  "key": "kurinye-kotlety-na-paru",
+  "name": "kurinye-kotlety-na-paru",
+  "img": null,
+  "title": "Куриные котлеты на пару",
+  "description": "Мягкие котлеты из курицы и кабачка с овсяными хлопьями.",
+  "calories": null,
+  "preparation": 20,
+  "time": 45,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Филе курицы",
+      "count": 650,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Кабачок",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Хлопья овсяные",
+      "count": 50,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйцо",
+      "count": 50,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Укроп",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Мясорубка",
+      "img": null
+    },
+    {
+      "name": "Пароварка",
+      "img": null
+    },
+    {
+      "name": "Термометр",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Кабачок натрите и отожмите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Курицу и лук измельчите, добавьте яйцо, кабачок, хлопья и приправы.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Оставьте на 10 минут для набухания хлопьев.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Сформуйте 10 котлет и разложите с промежутками в пароварке.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Готовьте на пару 20 минут до 74 °C в середине.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не используйте жидкость от кабачка.",
+    "Влажные руки облегчают формовку."
+  ]
+}

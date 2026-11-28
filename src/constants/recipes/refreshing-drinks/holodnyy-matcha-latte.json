@@ -1,0 +1,125 @@
+{
+  "metaSeo": {
+    "title": "Холодный матча-латте — пошаговый рецепт с граммовками",
+    "description": "Молочный напиток с матча, лёгкой пеной и кубиками льда.",
+    "keywords": [
+      "холодный матча-латте",
+      "холодный матча-латте рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Холодный матча-латте",
+    "og:description": "Молочный напиток с матча, лёгкой пеной и кубиками льда.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/holodnyy-matcha-latte",
+    "twitterTitle": "Холодный матча-латте",
+    "twitterDescription": "Молочный напиток с матча, лёгкой пеной и кубиками льда.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/holodnyy-matcha-latte",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/holodnyy-matcha-latte",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "холодный матча-латте",
+    "холодный матча-латте рецепт",
+    "холодный матча-латте ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "holodnyy-matcha-latte",
+  "name": "holodnyy-matcha-latte",
+  "img": null,
+  "title": "Холодный матча-латте",
+  "description": "Молочный напиток с матча, лёгкой пеной и кубиками льда.",
+  "calories": null,
+  "preparation": 10,
+  "time": 10,
+  "level": 2,
+  "rating": 0,
+  "portions": 2,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Матча",
+      "count": 4,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 80,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Молоко",
+      "count": 400,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сироп сахарный",
+      "count": 30,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лёд",
+      "count": 240,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Венчик",
+      "img": null
+    },
+    {
+      "name": "Стаканы",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Матча просейте в широкую чашку.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте воду 75–80 °C, взбейте до исчезновения комков.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разложите лёд по двум стаканам.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Влейте молоко и сироп.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Сверху добавьте матча и осторожно перемешайте перед питьём.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Кипяток усиливает горечь.",
+    "Матча храните плотно закрытой."
+  ]
+}

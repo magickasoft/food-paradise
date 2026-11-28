@@ -1,0 +1,155 @@
+{
+  "metaSeo": {
+    "title": "Грибной суп с перловкой — пошаговый рецепт с граммовками",
+    "description": "Ароматный суп с сушёными белыми грибами, перловкой и картофелем.",
+    "keywords": [
+      "грибной суп с перловкой",
+      "грибной суп с перловкой рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Грибной суп с перловкой",
+    "og:description": "Ароматный суп с сушёными белыми грибами, перловкой и картофелем.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/gribnoy-sup-s-perlovkoy",
+    "twitterTitle": "Грибной суп с перловкой",
+    "twitterDescription": "Ароматный суп с сушёными белыми грибами, перловкой и картофелем.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/gribnoy-sup-s-perlovkoy",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/gribnoy-sup-s-perlovkoy",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "грибной суп с перловкой",
+    "грибной суп с перловкой рецепт",
+    "грибной суп с перловкой ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dinner"
+    }
+  ],
+  "key": "gribnoy-sup-s-perlovkoy",
+  "name": "gribnoy-sup-s-perlovkoy",
+  "img": null,
+  "title": "Грибной суп с перловкой",
+  "description": "Ароматный суп с сушёными белыми грибами, перловкой и картофелем.",
+  "calories": null,
+  "preparation": 20,
+  "time": 90,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Грибы белые сушёные",
+      "count": 40,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Шампиньоны",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перловка",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Картофель",
+      "count": 350,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Морковь",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 2200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 30,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Петрушка",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Мелкое сито",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Сушёные грибы замочите на 30 минут в 500 мл воды из общего объёма.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Перловку промойте, варите в оставшейся воде 40 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Грибы нарежьте, настой процедите через салфетку и добавьте вместе с грибами и картофелем.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук, морковь и шампиньоны обжарьте в масле 10 минут, добавьте в суп.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Варите ещё 15 минут, посолите, завершите петрушкой и настаивайте 10 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Настой тщательно фильтруйте от песка.",
+    "Перловку можно сварить заранее."
+  ]
+}

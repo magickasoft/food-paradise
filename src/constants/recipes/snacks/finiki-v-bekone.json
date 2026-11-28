@@ -1,0 +1,125 @@
+{
+  "metaSeo": {
+    "title": "Финики в беконе — пошаговый рецепт с граммовками",
+    "description": "Сладкие финики с миндалём в хрустящей оболочке из бекона.",
+    "keywords": [
+      "финики в беконе",
+      "финики в беконе рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Финики в беконе",
+    "og:description": "Сладкие финики с миндалём в хрустящей оболочке из бекона.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/finiki-v-bekone",
+    "twitterTitle": "Финики в беконе",
+    "twitterDescription": "Сладкие финики с миндалём в хрустящей оболочке из бекона.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/finiki-v-bekone",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/finiki-v-bekone",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "финики в беконе",
+    "финики в беконе рецепт",
+    "финики в беконе ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "finiki-v-bekone",
+  "name": "finiki-v-bekone",
+  "img": null,
+  "title": "Финики в беконе",
+  "description": "Сладкие финики с миндалём в хрустящей оболочке из бекона.",
+  "calories": null,
+  "preparation": 20,
+  "time": 40,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Финики крупные без косточек",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Бекон тонкими полосками",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Миндаль",
+      "count": 60,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сыр козий мягкий",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец чёрный",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Шпажки",
+      "img": null
+    },
+    {
+      "name": "Решётка",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Сделайте боковой надрез в 18 финиках.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Наполните каждый сыром и одним миндальным орехом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Оберните половинкой полоски бекона и закрепите шпажкой.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разложите на решётке и посыпьте перцем.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Запекайте при 200 °C 15–20 минут, один раз перевернув.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Мягкий бекон удобнее заворачивать холодным.",
+    "После духовки выждите 5 минут."
+  ]
+}

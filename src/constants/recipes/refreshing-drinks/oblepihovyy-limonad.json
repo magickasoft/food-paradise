@@ -1,0 +1,131 @@
+{
+  "metaSeo": {
+    "title": "Облепиховый лимонад — пошаговый рецепт с граммовками",
+    "description": "Яркий ягодный напиток с апельсиновым соком и газированной водой.",
+    "keywords": [
+      "облепиховый лимонад",
+      "облепиховый лимонад рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Облепиховый лимонад",
+    "og:description": "Яркий ягодный напиток с апельсиновым соком и газированной водой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/oblepihovyy-limonad",
+    "twitterTitle": "Облепиховый лимонад",
+    "twitterDescription": "Яркий ягодный напиток с апельсиновым соком и газированной водой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/oblepihovyy-limonad",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/oblepihovyy-limonad",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "облепиховый лимонад",
+    "облепиховый лимонад рецепт",
+    "облепиховый лимонад ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "oblepihovyy-limonad",
+  "name": "oblepihovyy-limonad",
+  "img": null,
+  "title": "Облепиховый лимонад",
+  "description": "Яркий ягодный напиток с апельсиновым соком и газированной водой.",
+  "calories": null,
+  "preparation": 20,
+  "time": 110,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Облепиха",
+      "count": 350,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 350,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сок апельсиновый",
+      "count": 250,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Вода газированная",
+      "count": 1000,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лёд",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Кувшин",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Облепиху разомните и залейте горячей водой.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте сахар, прогрейте 3 минуты и настаивайте 15 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Протрите через сито, удалив косточки.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Соедините с апельсиновым соком и охладите час.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Влейте газировку и добавьте лёд перед подачей.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не дробите косточки блендером.",
+    "Вкус регулируйте после охлаждения."
+  ]
+}

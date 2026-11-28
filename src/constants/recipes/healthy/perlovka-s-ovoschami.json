@@ -1,0 +1,145 @@
+{
+  "metaSeo": {
+    "title": "Перловка с овощами — пошаговый рецепт с граммовками",
+    "description": "Сытная крупа с грибами, морковью и стручковой фасолью.",
+    "keywords": [
+      "перловка с овощами",
+      "перловка с овощами рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Перловка с овощами",
+    "og:description": "Сытная крупа с грибами, морковью и стручковой фасолью.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/perlovka-s-ovoschami",
+    "twitterTitle": "Перловка с овощами",
+    "twitterDescription": "Сытная крупа с грибами, морковью и стручковой фасолью.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/perlovka-s-ovoschami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/perlovka-s-ovoschami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "перловка с овощами",
+    "перловка с овощами рецепт",
+    "перловка с овощами ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "healthy"
+    }
+  ],
+  "key": "perlovka-s-ovoschami",
+  "name": "perlovka-s-ovoschami",
+  "img": null,
+  "title": "Перловка с овощами",
+  "description": "Сытная крупа с грибами, морковью и стручковой фасолью.",
+  "calories": null,
+  "preparation": 15,
+  "time": 70,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Перловка",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 1000,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Шампиньоны",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Морковь",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Фасоль стручковая",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 30,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Петрушка",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Перловку промойте, варите 45–50 минут с 6 г соли, откиньте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук и морковь обжарьте в масле 5 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте грибы, готовьте до испарения влаги 8 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Положите фасоль и 50 мл горячей воды, тушите 6 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте с перловкой, оставшейся солью и петрушкой, прогрейте 2 минуты.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Замачивание крупы на ночь ускорит варку.",
+    "Не переваривайте фасоль."
+  ]
+}

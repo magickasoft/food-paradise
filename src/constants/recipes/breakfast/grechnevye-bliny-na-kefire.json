@@ -1,0 +1,150 @@
+{
+  "metaSeo": {
+    "title": "Гречневые блины на кефире — пошаговый рецепт с граммовками",
+    "description": "Тонкие блины с ореховым вкусом гречневой муки и нежной эластичной структурой.",
+    "keywords": [
+      "гречневые блины на кефире",
+      "гречневые блины на кефире рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Гречневые блины на кефире",
+    "og:description": "Тонкие блины с ореховым вкусом гречневой муки и нежной эластичной структурой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/grechnevye-bliny-na-kefire",
+    "twitterTitle": "Гречневые блины на кефире",
+    "twitterDescription": "Тонкие блины с ореховым вкусом гречневой муки и нежной эластичной структурой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/grechnevye-bliny-na-kefire",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/grechnevye-bliny-na-kefire",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "гречневые блины на кефире",
+    "гречневые блины на кефире рецепт",
+    "гречневые блины на кефире ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "grechnevye-bliny-na-kefire",
+  "name": "grechnevye-bliny-na-kefire",
+  "img": null,
+  "title": "Гречневые блины на кефире",
+  "description": "Тонкие блины с ореховым вкусом гречневой муки и нежной эластичной структурой.",
+  "calories": null,
+  "preparation": 15,
+  "time": 40,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Мука гречневая",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука пшеничная",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Кефир",
+      "count": 350,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Вода горячая",
+      "count": 180,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 100,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Сахар",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 4,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 35,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сода",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Венчик",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Блинная сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Яйца размешайте с кефиром, сахаром и солью.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Всыпьте обе муки и размешайте до гладкого густого теста.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "В горячей воде растворите соду и тонкой струйкой вмешайте, добавьте 25 мл масла.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выдержите 15 минут, выпекайте на хорошо прогретой сковороде по минуте с каждой стороны.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Оставшимся маслом смазывайте поверхность по мере необходимости.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Гречневая мука без пшеничной даёт хрупкие блины.",
+    "После отдыха оцените густоту и добавьте ложку воды при необходимости."
+  ]
+}

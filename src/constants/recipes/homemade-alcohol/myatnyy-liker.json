@@ -1,0 +1,123 @@
+{
+  "metaSeo": {
+    "title": "Мятный ликёр — пошаговый рецепт с граммовками",
+    "description": "Прохладный травяной ликёр из свежей мяты с умеренной сладостью.",
+    "keywords": [
+      "мятный ликёр",
+      "мятный ликёр рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Мятный ликёр",
+    "og:description": "Прохладный травяной ликёр из свежей мяты с умеренной сладостью.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/myatnyy-liker",
+    "twitterTitle": "Мятный ликёр",
+    "twitterDescription": "Прохладный травяной ликёр из свежей мяты с умеренной сладостью.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/myatnyy-liker",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/myatnyy-liker",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "мятный ликёр",
+    "мятный ликёр рецепт",
+    "мятный ликёр ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "homemade-alcohol"
+    }
+  ],
+  "key": "myatnyy-liker",
+  "name": "myatnyy-liker",
+  "img": null,
+  "title": "Мятный ликёр",
+  "description": "Прохладный травяной ликёр из свежей мяты с умеренной сладостью.",
+  "calories": null,
+  "preparation": 20,
+  "time": 12980,
+  "level": 1,
+  "rating": 0,
+  "portions": 20,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Водка 40%",
+      "count": 650,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Листья мяты",
+      "count": 50,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 220,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 220,
+      "gauge": "мл",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Банка",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Сотейник",
+      "img": null
+    },
+    {
+      "name": "Бутылки",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Листья промойте и полностью обсушите, грубые стебли удалите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Слегка помните и залейте водкой в банке.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Настаивайте 5 суток в темноте, проверяя аромат ежедневно.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите без сильного отжима и смешайте с остывшим сахарным сиропом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выдержите 4 суток в холодильнике и профильтруйте.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Цвет со временем естественно темнеет.",
+    "Лишние стебли дают травяную горечь."
+  ]
+}

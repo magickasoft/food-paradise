@@ -1,0 +1,149 @@
+{
+  "metaSeo": {
+    "title": "Брускетты с грибами и рикоттой — пошаговый рецепт с граммовками",
+    "description": "Хрустящий хлеб с мягкой рикоттой и ароматными жареными грибами.",
+    "keywords": [
+      "брускетты с грибами и рикоттой",
+      "брускетты с грибами и рикоттой рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Брускетты с грибами и рикоттой",
+    "og:description": "Хрустящий хлеб с мягкой рикоттой и ароматными жареными грибами.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/brusketty-s-gribami-i-rikottoy",
+    "twitterTitle": "Брускетты с грибами и рикоттой",
+    "twitterDescription": "Хрустящий хлеб с мягкой рикоттой и ароматными жареными грибами.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/brusketty-s-gribami-i-rikottoy",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/brusketty-s-gribami-i-rikottoy",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "брускетты с грибами и рикоттой",
+    "брускетты с грибами и рикоттой рецепт",
+    "брускетты с грибами и рикоттой ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "brusketty-s-gribami-i-rikottoy",
+  "name": "brusketty-s-gribami-i-rikottoy",
+  "img": null,
+  "title": "Брускетты с грибами и рикоттой",
+  "description": "Хрустящий хлеб с мягкой рикоттой и ароматными жареными грибами.",
+  "calories": null,
+  "preparation": 20,
+  "time": 35,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Багет",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Шампиньоны",
+      "count": 400,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Рикотта",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 40,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Тимьян",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лимонная цедра",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 7,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Багет ломтиками смажьте 15 мл масла и подсушите 8 минут при 200 °C.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Грибы обжарьте на остальном масле 8 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте чеснок, тимьян и 4 г соли, готовьте минуту.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Рикотту смешайте с цедрой, остальной солью и перцем.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Остывшие тосты смажьте рикоттой, сверху положите тёплые грибы.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Грибы жарьте до сухости.",
+    "Собирайте перед подачей."
+  ]
+}

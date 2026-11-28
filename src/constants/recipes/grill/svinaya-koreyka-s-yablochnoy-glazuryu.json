@@ -1,0 +1,143 @@
+{
+  "metaSeo": {
+    "title": "Свиная корейка с яблочной глазурью — пошаговый рецепт с граммовками",
+    "description": "Толстые свиные стейки с кисло-сладкой яблочной глазурью.",
+    "keywords": [
+      "свиная корейка с яблочной глазурью",
+      "свиная корейка с яблочной глазурью рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Свиная корейка с яблочной глазурью",
+    "og:description": "Толстые свиные стейки с кисло-сладкой яблочной глазурью.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/svinaya-koreyka-s-yablochnoy-glazuryu",
+    "twitterTitle": "Свиная корейка с яблочной глазурью",
+    "twitterDescription": "Толстые свиные стейки с кисло-сладкой яблочной глазурью.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/svinaya-koreyka-s-yablochnoy-glazuryu",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/svinaya-koreyka-s-yablochnoy-glazuryu",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "свиная корейка с яблочной глазурью",
+    "свиная корейка с яблочной глазурью рецепт",
+    "свиная корейка с яблочной глазурью ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "svinaya-koreyka-s-yablochnoy-glazuryu",
+  "name": "svinaya-koreyka-s-yablochnoy-glazuryu",
+  "img": null,
+  "title": "Свиная корейка с яблочной глазурью",
+  "description": "Толстые свиные стейки с кисло-сладкой яблочной глазурью.",
+  "calories": null,
+  "preparation": 20,
+  "time": 80,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Корейка свиная без кости",
+      "count": 900,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сок яблочный",
+      "count": 180,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Горчица",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мёд",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Уксус яблочный",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 11,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Гриль",
+      "img": null
+    },
+    {
+      "name": "Сотейник",
+      "img": null
+    },
+    {
+      "name": "Термометр",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Нарежьте мясо стейками по 2,5 см, посолите, поперчите и оставьте на 30 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Сок уварите наполовину с мёдом и уксусом, вмешайте горчицу.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Мясо смажьте маслом, обжарьте над жаром по 3 минуты с каждой стороны.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Переложите в непрямую зону, смажьте глазурью и доведите до 63 °C.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выдержите 5 минут, полейте чистой оставшейся глазурью.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Глазурь наносите в конце.",
+    "Для сырого мяса используйте отдельную кисточку."
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "metaSeo": {
+    "title": "Сырные палочки из моцареллы — подробный рецепт закуски",
+    "description": "Моцарелла в двойной хрустящей панировке с тягучей горячей серединой и томатным соусом для подачи.",
+    "keywords": [
+      "сырные палочки",
+      "моцарелла в панировке",
+      "жареный сыр"
+    ],
+    "og:title": "Сырные палочки из моцареллы",
+    "og:description": "Моцарелла в двойной хрустящей панировке с тягучей горячей серединой и томатным соусом для подачи.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/syrnye-palochki-iz-mocarelly",
+    "twitterTitle": "Сырные палочки из моцареллы",
+    "twitterDescription": "Моцарелла в двойной хрустящей панировке с тягучей горячей серединой и томатным соусом для подачи.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/syrnye-palochki-iz-mocarelly",
+    "twitter:card": "summary_large_image",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/syrnye-palochki-iz-mocarelly",
+    "robots": "index, follow",
+    "googlebot": "index, follow",
+    "yandex": "index, follow",
+    "selfwork": "index, follow",
+    "max-image-preview": "large",
+    "viewport": "width=device-width, initial-scale=1",
+    "author": "food-paradise",
+    "theme-color": "#ffffff"
+  },
+  "searchRequests": [
+    "сырные палочки из моцареллы",
+    "сырные палочки из моцареллы рецепт",
+    "сырные палочки из моцареллы пошагово",
+    "сырные палочки из моцареллы на праздничный стол",
+    "рецепты закусок",
+    "закуски на праздничный стол",
+    "сырные палочки",
+    "моцарелла в панировке",
+    "жареный сыр"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "syrnye-palochki-iz-mocarelly",
+  "name": "syrnye-palochki-iz-mocarelly",
+  "img": null,
+  "title": "Сырные палочки из моцареллы",
+  "description": "Моцарелла в двойной хрустящей панировке с тягучей горячей серединой и томатным соусом для подачи.",
+  "calories": 312,
+  "preparation": 30,
+  "time": 12,
+  "level": 2,
+  "rating": 5,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Моцарелла для пиццы бруском",
+      "count": 600,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 3,
+      "gauge": "шт.",
+      "img": null
+    },
+    {
+      "name": "Панировочные сухари",
+      "count": 260,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Пармезан",
+      "count": 60,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сушёный орегано",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чеснок сушёный",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Растительное масло для фритюра",
+      "count": 900,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 5,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Томатный соус для подачи",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Три миски",
+      "img": null
+    },
+    {
+      "name": "Кастрюля для фритюра",
+      "img": null
+    },
+    {
+      "name": "Термометр",
+      "img": null
+    },
+    {
+      "name": "Решётка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Нарежьте моцареллу 18 брусочками размером примерно 1,5 × 1,5 × 8 см. Промокните и заморозьте 40 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Подготовьте муку, взбитые яйца и смесь сухарей с пармезаном, орегано, чесноком и солью.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Каждый брусочек обваляйте в муке, яйце и сухарях, затем повторите яйцо и сухари, тщательно закрывая торцы.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Верните запанированные палочки в морозильник ещё на 30 минут. Разогрейте масло до 180 °C.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Жарьте по 3–4 штуки 60–90 секунд до золотистой корочки. Дайте стечь на решётке и сразу подавайте с тёплым томатным соусом.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Подходит сухая моцарелла для пиццы, а не шарики в рассоле.",
+    "Двойная панировка и заморозка защищают сыр от вытекания.",
+    "Не жарьте дольше необходимого.",
+    "Порвавшуюся панировку залатайте яйцом и сухарями до заморозки."
+  ],
+  "variations": [
+    {
+      "name": "В духовке",
+      "changes": "Сбрызните палочки маслом и пеките замороженными 8–10 минут при 230 °C."
+    },
+    {
+      "name": "Острые",
+      "changes": "Добавьте в панировку 3 г хлопьев чили."
+    }
+  ],
+  "historyDescription": "Жареный сыр встречается в разных кухнях, а палочки из моцареллы стали популярной закуской благодаря эффектной тягучей середине. Технически главное в блюде — создать плотный холодный панцирь раньше, чем сыр начнёт плавиться."
+}

@@ -1,0 +1,131 @@
+{
+  "metaSeo": {
+    "title": "Тирамису с кофе — пошаговый рецепт с граммовками",
+    "description": "Кофейный десерт с савоярди и лёгким кремом маскарпоне без сырых яиц.",
+    "keywords": [
+      "тирамису с кофе",
+      "тирамису с кофе рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Тирамису с кофе",
+    "og:description": "Кофейный десерт с савоярди и лёгким кремом маскарпоне без сырых яиц.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/tiramisu-s-kofe",
+    "twitterTitle": "Тирамису с кофе",
+    "twitterDescription": "Кофейный десерт с савоярди и лёгким кремом маскарпоне без сырых яиц.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/tiramisu-s-kofe",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/tiramisu-s-kofe",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "тирамису с кофе",
+    "тирамису с кофе рецепт",
+    "тирамису с кофе ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dessert"
+    }
+  ],
+  "key": "tiramisu-s-kofe",
+  "name": "tiramisu-s-kofe",
+  "img": null,
+  "title": "Тирамису с кофе",
+  "description": "Кофейный десерт с савоярди и лёгким кремом маскарпоне без сырых яиц.",
+  "calories": null,
+  "preparation": 30,
+  "time": 510,
+  "level": 2,
+  "rating": 0,
+  "portions": 8,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Маскарпоне",
+      "count": 500,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сливки 33%",
+      "count": 400,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Пудра сахарная",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Савоярди",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Кофе готовый крепкий",
+      "count": 350,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Какао",
+      "count": 25,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миксер",
+      "img": null
+    },
+    {
+      "name": "Форма",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Кофе сварите и полностью остудите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Холодные сливки взбейте с пудрой до мягких пиков.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Маскарпоне кратко размешайте, лопаткой соедините со сливками.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Савоярди быстро окунайте в кофе, выложите двумя слоями, чередуя с кремом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Охлаждайте 8 часов, какао просейте перед подачей.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не вымачивайте печенье до распада.",
+    "Маскарпоне долго не взбивайте."
+  ]
+}
