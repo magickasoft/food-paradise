@@ -42,6 +42,27 @@ import SHOKOLADNYY_RULET_ROZHDESTVENSKOE_POLENO from './new-year/shokoladnyy-rul
 import TORT_MONASTYRSKAYA_IZBA from './new-year/tort-monastyrskaya-izba.json'
 import MANDARINOVYY_TIRAMISU from './new-year/mandarinovyy-tiramisu.json'
 
+import GOVYADINA_VELLINGTON from './new-year/govyadina-vellington.json'
+import INDEYKA_S_KLYUKVENNYM_SOUSOM from './new-year/indeyka-s-klyukvennym-sousom.json'
+import GUS_S_YABLOKAMI_I_CHERNOSLIVOM from './new-year/gus-s-yablokami-i-chernoslivom.json'
+import SVININA_GARMOSHKA_S_TOMATAMI from './new-year/svinina-garmoshka-s-tomatami.json'
+import UTINYE_NOZHKI_S_APELSINOVYM_SOUSOM from './new-year/utinye-nozhki-s-apelsinovym-sousom.json'
+import KURINYY_RULET_S_FISTASHKAMI from './new-year/kurinyy-rulet-s-fistashkami.json'
+import RYBNYY_TERRIN_S_LOSOSEM from './new-year/rybnyy-terrin-s-lososem.json'
+import DOMASHNYAYA_VETCHINA_IZ_INDEYKI from './new-year/domashnyaya-vetchina-iz-indeyki.json'
+import SALAT_GRIBNAYA_POLYANA from './new-year/salat-gribnaya-polyana.json'
+import SALAT_SUGROBY_S_KURITSEY from './new-year/salat-sugroby-s-kuritsey.json'
+import SALAT_S_KALMARAMI_KREVETKAMI_I_IKROY from './new-year/salat-s-kalmarami-krevetkami-i-ikroy.json'
+import BLINNYE_RULETIKI_S_IKROY from './new-year/blinnye-ruletiki-s-ikroy.json'
+import KARTOFELNYE_GNEZDA_S_GRIBAMI from './new-year/kartofelnye-gnezda-s-gribami.json'
+import VOLOVANY_S_KREVETKAMI from './new-year/volovany-s-krevetkami.json'
+import SLOENAYA_ELOCHKA_S_PESTO from './new-year/sloenaya-elochka-s-pesto.json'
+import MORKOVNYY_RULET_SO_SLIVOCHNYM_SYROM from './new-year/morkovnyy-rulet-so-slivochnym-syrom.json'
+import SVEKOLNYE_BLINCHIKI_S_SELDYU from './new-year/svekolnye-blinchiki-s-seldyu.json'
+import SHTOLLEN_S_SUHOFRUKTAMI from './new-year/shtollen-s-suhofruktami.json'
+import PRYANYY_MEDOVYY_KEKS_S_SUHOFRUKTAMI from './new-year/pryanyy-medovyy-keks-s-suhofruktami.json'
+import ZALIVNOE_IZ_INDEYKI from './new-year/zalivnoe-iz-indeyki.json'
+
 import { withAssetPath } from '@/lib/withAssetPath'
 
 const toRecipes = (raw: readonly Recipe[]): Recipe[] => raw.map(item => withAssetPath<Recipe>(item))
@@ -89,4 +110,24 @@ export const NEW_YEAR: Recipe[] = toRecipes([
   SHOKOLADNYY_RULET_ROZHDESTVENSKOE_POLENO,
   TORT_MONASTYRSKAYA_IZBA,
   MANDARINOVYY_TIRAMISU,
+  GOVYADINA_VELLINGTON,
+  INDEYKA_S_KLYUKVENNYM_SOUSOM,
+  GUS_S_YABLOKAMI_I_CHERNOSLIVOM,
+  SVININA_GARMOSHKA_S_TOMATAMI,
+  UTINYE_NOZHKI_S_APELSINOVYM_SOUSOM,
+  KURINYY_RULET_S_FISTASHKAMI,
+  RYBNYY_TERRIN_S_LOSOSEM,
+  DOMASHNYAYA_VETCHINA_IZ_INDEYKI,
+  SALAT_GRIBNAYA_POLYANA,
+  SALAT_SUGROBY_S_KURITSEY,
+  SALAT_S_KALMARAMI_KREVETKAMI_I_IKROY,
+  BLINNYE_RULETIKI_S_IKROY,
+  KARTOFELNYE_GNEZDA_S_GRIBAMI,
+  VOLOVANY_S_KREVETKAMI,
+  SLOENAYA_ELOCHKA_S_PESTO,
+  MORKOVNYY_RULET_SO_SLIVOCHNYM_SYROM,
+  SVEKOLNYE_BLINCHIKI_S_SELDYU,
+  SHTOLLEN_S_SUHOFRUKTAMI,
+  PRYANYY_MEDOVYY_KEKS_S_SUHOFRUKTAMI,
+  ZALIVNOE_IZ_INDEYKI,
 ])

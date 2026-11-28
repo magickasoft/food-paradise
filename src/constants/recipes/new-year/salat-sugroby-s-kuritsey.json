@@ -1,0 +1,144 @@
+{
+  "metaSeo": {
+    "title": "Салат «Сугробы» с курицей — пошаговый рецепт с граммовками",
+    "description": "Слоёный салат с половинками фаршированных яиц под сырной шапкой.",
+    "keywords": [
+      "салат «сугробы» с курицей",
+      "салат «сугробы» с курицей рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Салат «Сугробы» с курицей",
+    "og:description": "Слоёный салат с половинками фаршированных яиц под сырной шапкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-sugroby-s-kuritsey",
+    "twitterTitle": "Салат «Сугробы» с курицей",
+    "twitterDescription": "Слоёный салат с половинками фаршированных яиц под сырной шапкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-sugroby-s-kuritsey",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-sugroby-s-kuritsey",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "салат «сугробы» с курицей",
+    "салат «сугробы» с курицей рецепт",
+    "салат «сугробы» с курицей ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "new-year"
+    }
+  ],
+  "key": "salat-sugroby-s-kuritsey",
+  "name": "salat-sugroby-s-kuritsey",
+  "img": null,
+  "title": "Салат «Сугробы» с курицей",
+  "description": "Слоёный салат с половинками фаршированных яиц под сырной шапкой.",
+  "calories": null,
+  "preparation": 30,
+  "time": 120,
+  "level": 2,
+  "rating": 0,
+  "portions": 8,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Куриное филе",
+      "count": 450,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Картофель",
+      "count": 400,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Морковь",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 300,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Сыр твёрдый",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Майонез",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюли",
+      "img": null
+    },
+    {
+      "name": "Тёрка",
+      "img": null
+    },
+    {
+      "name": "Блюдо",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Курицу и овощи сварите до готовности, яйца — 9 минут, всё остудите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Овощи и сыр натрите, курицу нарежьте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Яйца разделите пополам, желтки смешайте с чесноком и 40 г майонеза, наполните белки.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выложите картофель, морковь и курицу тонкими слоями с солью и майонезом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Сверху разместите яйца срезом вниз, покройте оставшимся майонезом и сыром, охладите час.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Яйца выкладывайте плотно.",
+    "Сыр натирайте мелко для воздушного вида."
+  ]
+}

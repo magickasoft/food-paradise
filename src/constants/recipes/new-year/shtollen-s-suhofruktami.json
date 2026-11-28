@@ -1,0 +1,174 @@
+{
+  "metaSeo": {
+    "title": "Штоллен с сухофруктами — пошаговый рецепт с граммовками",
+    "description": "Плотная праздничная дрожжевая выпечка с миндалём и цитрусовыми сухофруктами.",
+    "keywords": [
+      "штоллен с сухофруктами",
+      "штоллен с сухофруктами рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Штоллен с сухофруктами",
+    "og:description": "Плотная праздничная дрожжевая выпечка с миндалём и цитрусовыми сухофруктами.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/shtollen-s-suhofruktami",
+    "twitterTitle": "Штоллен с сухофруктами",
+    "twitterDescription": "Плотная праздничная дрожжевая выпечка с миндалём и цитрусовыми сухофруктами.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/shtollen-s-suhofruktami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/shtollen-s-suhofruktami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "штоллен с сухофруктами",
+    "штоллен с сухофруктами рецепт",
+    "штоллен с сухофруктами ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "new-year"
+    }
+  ],
+  "key": "shtollen-s-suhofruktami",
+  "name": "shtollen-s-suhofruktami",
+  "img": null,
+  "title": "Штоллен с сухофруктами",
+  "description": "Плотная праздничная дрожжевая выпечка с миндалём и цитрусовыми сухофруктами.",
+  "calories": null,
+  "preparation": 45,
+  "time": 360,
+  "level": 2,
+  "rating": 0,
+  "portions": 14,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Мука",
+      "count": 550,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Молоко",
+      "count": 200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Дрожжи сухие",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйцо",
+      "count": 50,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Изюм",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Цукаты апельсиновые",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Миндаль",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сок апельсиновый",
+      "count": 150,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Пудра сахарная",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Корица",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 6,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Кисточка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Изюм залейте тёплым соком на час, слейте и обсушите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Муку смешайте с дрожжами, молоком, сахаром, яйцом, 180 г масла, корицей и солью, вымесите и оставьте на 90 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте сухофрукты и миндаль, разделите на два овала и сложите со смещением края.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Расстаивайте 45 минут, выпекайте при 170 °C 45–55 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Горячие штоллены смажьте оставшимся маслом, обильно посыпьте пудрой и полностью остудите.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Время указано до готовности выпечки. Для более насыщенного вкуса полностью остудите, заверните и дополнительно выдержите 2–3 дня.",
+    "Не добавляйте жидкость от замачивания в тесто."
+  ]
+}

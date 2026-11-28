@@ -1,0 +1,133 @@
+{
+  "metaSeo": {
+    "title": "Батат на гриле с лаймом — пошаговый рецепт с граммовками",
+    "description": "Мягкие ломтики батата с подпечёнными краями и пряной цитрусовой заправкой.",
+    "keywords": [
+      "батат на гриле с лаймом",
+      "батат на гриле с лаймом рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Батат на гриле с лаймом",
+    "og:description": "Мягкие ломтики батата с подпечёнными краями и пряной цитрусовой заправкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/batat-na-grile-s-laymom",
+    "twitterTitle": "Батат на гриле с лаймом",
+    "twitterDescription": "Мягкие ломтики батата с подпечёнными краями и пряной цитрусовой заправкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/batat-na-grile-s-laymom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/batat-na-grile-s-laymom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "батат на гриле с лаймом",
+    "батат на гриле с лаймом рецепт",
+    "батат на гриле с лаймом ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "batat-na-grile-s-laymom",
+  "name": "batat-na-grile-s-laymom",
+  "img": null,
+  "title": "Батат на гриле с лаймом",
+  "description": "Мягкие ломтики батата с подпечёнными краями и пряной цитрусовой заправкой.",
+  "calories": null,
+  "preparation": 15,
+  "time": 40,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Батат",
+      "count": 1000,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 35,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сок лайма",
+      "count": 30,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Паприка",
+      "count": 4,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Зира",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Кинза",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 9,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Гриль",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Батат нарежьте вдоль ломтями 1,5 см.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Отварите 5 минут, откиньте и обсушите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте с маслом, солью и специями.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Жарьте на решётке по 5–6 минут с каждой стороны до мягкости.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Полейте лаймом и посыпьте кинзой.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Предварительная варка помогает пропечь центр.",
+    "Не переворачивайте слишком часто."
+  ]
+}

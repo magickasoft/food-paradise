@@ -1,0 +1,137 @@
+{
+  "metaSeo": {
+    "title": "Форель целиком в фольге — пошаговый рецепт с граммовками",
+    "description": "Порционная форель с лимоном и травами в запечатанном пакете.",
+    "keywords": [
+      "форель целиком в фольге",
+      "форель целиком в фольге рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Форель целиком в фольге",
+    "og:description": "Порционная форель с лимоном и травами в запечатанном пакете.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/forel-tselikom-v-folge",
+    "twitterTitle": "Форель целиком в фольге",
+    "twitterDescription": "Порционная форель с лимоном и травами в запечатанном пакете.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/forel-tselikom-v-folge",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/forel-tselikom-v-folge",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "форель целиком в фольге",
+    "форель целиком в фольге рецепт",
+    "форель целиком в фольге ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "forel-tselikom-v-folge",
+  "name": "forel-tselikom-v-folge",
+  "img": null,
+  "title": "Форель целиком в фольге",
+  "description": "Порционная форель с лимоном и травами в запечатанном пакете.",
+  "calories": null,
+  "preparation": 20,
+  "time": 55,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Форель потрошёная",
+      "count": 1600,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лимон",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 60,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Укроп",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 12,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 18,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Мангал",
+      "img": null
+    },
+    {
+      "name": "Фольга",
+      "img": null
+    },
+    {
+      "name": "Термометр",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Рыбу обсушите, удалите жабры и остатки крови у хребта.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Посолите, поперчите, вложите лимон, укроп, чеснок и масло.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Каждую рыбу плотно заверните в два слоя фольги.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Готовьте на решётке над средним жаром 20–25 минут с одним переворотом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Откройте один пакет и проверьте 63 °C у кости, выдержите 5 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не кладите пакет прямо в пламя.",
+    "Открывайте от лица из-за пара."
+  ]
+}

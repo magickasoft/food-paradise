@@ -1,0 +1,156 @@
+{
+  "metaSeo": {
+    "title": "Банановый хлеб — пошаговый рецепт с граммовками",
+    "description": "Ароматный кекс со спелыми бананами и крупной ореховой крошкой.",
+    "keywords": [
+      "банановый хлеб",
+      "банановый хлеб рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Банановый хлеб",
+    "og:description": "Ароматный кекс со спелыми бананами и крупной ореховой крошкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/bananovyy-hleb",
+    "twitterTitle": "Банановый хлеб",
+    "twitterDescription": "Ароматный кекс со спелыми бананами и крупной ореховой крошкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/bananovyy-hleb",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/bananovyy-hleb",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "банановый хлеб",
+    "банановый хлеб рецепт",
+    "банановый хлеб ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dessert"
+    }
+  ],
+  "key": "bananovyy-hleb",
+  "name": "bananovyy-hleb",
+  "img": null,
+  "title": "Банановый хлеб",
+  "description": "Ароматный кекс со спелыми бананами и крупной ореховой крошкой.",
+  "calories": null,
+  "preparation": 20,
+  "time": 120,
+  "level": 2,
+  "rating": 0,
+  "portions": 10,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Банан очищенный",
+      "count": 350,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 260,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 100,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Сахар",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Йогурт",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Орехи грецкие",
+      "count": 90,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Разрыхлитель",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Корица",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Форма",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Бананы разомните, масло растопите и остудите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Яйца смешайте с сахаром, йогуртом, маслом и бананами.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте муку, разрыхлитель, корицу и соль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте рубленые орехи, переложите в форму 25 × 11 см.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте при 175 °C 50–60 минут, остудите 20 минут в форме.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Для сладости нужны очень спелые бананы.",
+    "Не вымешивайте после муки долго."
+  ]
+}

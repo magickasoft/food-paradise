@@ -1,0 +1,143 @@
+{
+  "metaSeo": {
+    "title": "Салат из краснокочанной капусты с апельсином — пошаговый рецепт с граммовками",
+    "description": "Хрустящая капуста со сладким цитрусом и поджаренными семечками.",
+    "keywords": [
+      "салат из краснокочанной капусты с апельсином",
+      "салат из краснокочанной капусты с апельсином рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Салат из краснокочанной капусты с апельсином",
+    "og:description": "Хрустящая капуста со сладким цитрусом и поджаренными семечками.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-iz-krasnokochannoy-kapusty-s-apelsinom",
+    "twitterTitle": "Салат из краснокочанной капусты с апельсином",
+    "twitterDescription": "Хрустящая капуста со сладким цитрусом и поджаренными семечками.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-iz-krasnokochannoy-kapusty-s-apelsinom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-iz-krasnokochannoy-kapusty-s-apelsinom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "салат из краснокочанной капусты с апельсином",
+    "салат из краснокочанной капусты с апельсином рецепт",
+    "салат из краснокочанной капусты с апельсином ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "salads"
+    }
+  ],
+  "key": "salat-iz-krasnokochannoy-kapusty-s-apelsinom",
+  "name": "salat-iz-krasnokochannoy-kapusty-s-apelsinom",
+  "img": null,
+  "title": "Салат из краснокочанной капусты с апельсином",
+  "description": "Хрустящая капуста со сладким цитрусом и поджаренными семечками.",
+  "calories": null,
+  "preparation": 20,
+  "time": 35,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Капуста краснокочанная",
+      "count": 550,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Апельсин очищенный",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Морковь",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Семечки подсолнечные",
+      "count": 40,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 30,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Уксус яблочный",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Мёд",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 6,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Тёрка",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Капусту тонко нашинкуйте, помните с солью 1 минуту.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Морковь натрите, апельсин разберите без плёнок.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте масло, уксус и мёд.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Соедините капусту и морковь с заправкой, выдержите 15 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте апельсин и подсушенные семечки.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Жёсткую капусту шинкуйте особенно тонко.",
+    "Апельсин перемешивайте осторожно."
+  ]
+}

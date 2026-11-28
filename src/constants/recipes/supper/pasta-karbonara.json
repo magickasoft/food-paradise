@@ -1,0 +1,139 @@
+{
+  "metaSeo": {
+    "title": "Паста карбонара — пошаговый рецепт с граммовками",
+    "description": "Спагетти с яично-сырным кремом и поджаренными кусочками грудинки.",
+    "keywords": [
+      "паста карбонара",
+      "паста карбонара рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Паста карбонара",
+    "og:description": "Спагетти с яично-сырным кремом и поджаренными кусочками грудинки.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/pasta-karbonara",
+    "twitterTitle": "Паста карбонара",
+    "twitterDescription": "Спагетти с яично-сырным кремом и поджаренными кусочками грудинки.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pasta-karbonara",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pasta-karbonara",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "паста карбонара",
+    "паста карбонара рецепт",
+    "паста карбонара ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "supper"
+    }
+  ],
+  "key": "pasta-karbonara",
+  "name": "pasta-karbonara",
+  "img": null,
+  "title": "Паста карбонара",
+  "description": "Спагетти с яично-сырным кремом и поджаренными кусочками грудинки.",
+  "calories": null,
+  "preparation": 15,
+  "time": 30,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Спагетти",
+      "count": 400,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Гуанчале или бекон",
+      "count": 220,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Желтки",
+      "count": 100,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Яйцо",
+      "count": 50,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Пекорино",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец чёрный",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Нарежьте гуанчале и вытопите на сковороде 7–8 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте желтки, яйцо, мелко тёртый сыр и перец.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Спагетти варите в 3 л воды с солью на минуту меньше срока упаковки, сохраните 250 мл отвара.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Переложите к гуанчале, снимите с нагрева и через 30 секунд вмешайте яичную смесь.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Подливайте отвар по ложке, перемешивая до кремовой текстуры, подавайте сразу.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "На прямом огне яйца свернутся.",
+    "Используйте пастеризованные яйца при необходимости."
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "metaSeo": {
+    "title": "Настойка на черноплодной рябине — пошаговый рецепт с граммовками",
+    "description": "Терпкий ягодный настой с глубоким цветом и небольшим количеством сахара.",
+    "keywords": [
+      "настойка на черноплодной рябине",
+      "настойка на черноплодной рябине рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Настойка на черноплодной рябине",
+    "og:description": "Терпкий ягодный настой с глубоким цветом и небольшим количеством сахара.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/nastoyka-na-chernoplodnoy-ryabine",
+    "twitterTitle": "Настойка на черноплодной рябине",
+    "twitterDescription": "Терпкий ягодный настой с глубоким цветом и небольшим количеством сахара.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/nastoyka-na-chernoplodnoy-ryabine",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/nastoyka-na-chernoplodnoy-ryabine",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "настойка на черноплодной рябине",
+    "настойка на черноплодной рябине рецепт",
+    "настойка на черноплодной рябине ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "homemade-alcohol"
+    }
+  ],
+  "key": "nastoyka-na-chernoplodnoy-ryabine",
+  "name": "nastoyka-na-chernoplodnoy-ryabine",
+  "img": null,
+  "title": "Настойка на черноплодной рябине",
+  "description": "Терпкий ягодный настой с глубоким цветом и небольшим количеством сахара.",
+  "calories": null,
+  "preparation": 20,
+  "time": 47540,
+  "level": 1,
+  "rating": 0,
+  "portions": 20,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Водка 40%",
+      "count": 700,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Черноплодная рябина",
+      "count": 600,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 140,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 120,
+      "gauge": "мл",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Банка",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Сотейник",
+      "img": null
+    },
+    {
+      "name": "Бутылки",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Ягоды переберите, удалите веточки, вымойте и обсушите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Слегка раздавите и залейте водкой в чистой банке.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выдержите 30 суток в темноте, встряхивая каждые 2–3 дня.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите и добавьте полностью остывший сироп.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выдержите в холодильнике ещё 3 суток и профильтруйте.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Лёгкая терпкость характерна для ягоды.",
+    "Используйте только полностью созревшие плоды."
+  ]
+}

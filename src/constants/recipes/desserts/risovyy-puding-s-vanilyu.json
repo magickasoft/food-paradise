@@ -1,0 +1,133 @@
+{
+  "metaSeo": {
+    "title": "Рисовый пудинг с ванилью — пошаговый рецепт с граммовками",
+    "description": "Кремовый молочный десерт с мягким рисом и ароматом ванили.",
+    "keywords": [
+      "рисовый пудинг с ванилью",
+      "рисовый пудинг с ванилью рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Рисовый пудинг с ванилью",
+    "og:description": "Кремовый молочный десерт с мягким рисом и ароматом ванили.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/risovyy-puding-s-vanilyu",
+    "twitterTitle": "Рисовый пудинг с ванилью",
+    "twitterDescription": "Кремовый молочный десерт с мягким рисом и ароматом ванили.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/risovyy-puding-s-vanilyu",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/risovyy-puding-s-vanilyu",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "рисовый пудинг с ванилью",
+    "рисовый пудинг с ванилью рецепт",
+    "рисовый пудинг с ванилью ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dessert"
+    }
+  ],
+  "key": "risovyy-puding-s-vanilyu",
+  "name": "risovyy-puding-s-vanilyu",
+  "img": null,
+  "title": "Рисовый пудинг с ванилью",
+  "description": "Кремовый молочный десерт с мягким рисом и ароматом ванили.",
+  "calories": null,
+  "preparation": 10,
+  "time": 55,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Рис круглозёрный",
+      "count": 160,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Молоко",
+      "count": 1000,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сливки 20%",
+      "count": 200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 90,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 25,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Ванильный сахар",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля с толстым дном",
+      "img": null
+    },
+    {
+      "name": "Лопатка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Рис промойте, залейте молоком и добавьте соль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Доведите до слабого кипения, варите 30 минут, часто перемешивая.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте сливки, оба сахара и готовьте ещё 10 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте масло, снимите с нагрева.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разложите по креманкам и выдержите 10 минут либо охладите.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Круглый рис даёт нужную кремовость.",
+    "Не оставляйте молоко без перемешивания."
+  ]
+}

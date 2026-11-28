@@ -1,0 +1,137 @@
+{
+  "metaSeo": {
+    "title": "Скумбрия с горчицей на мангале — пошаговый рецепт с граммовками",
+    "description": "Сочная скумбрия с тонкой горчичной корочкой и укропом.",
+    "keywords": [
+      "скумбрия с горчицей на мангале",
+      "скумбрия с горчицей на мангале рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Скумбрия с горчицей на мангале",
+    "og:description": "Сочная скумбрия с тонкой горчичной корочкой и укропом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/skumbriya-s-gorchitsey-na-mangale",
+    "twitterTitle": "Скумбрия с горчицей на мангале",
+    "twitterDescription": "Сочная скумбрия с тонкой горчичной корочкой и укропом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/skumbriya-s-gorchitsey-na-mangale",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/skumbriya-s-gorchitsey-na-mangale",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "скумбрия с горчицей на мангале",
+    "скумбрия с горчицей на мангале рецепт",
+    "скумбрия с горчицей на мангале ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "skumbriya-s-gorchitsey-na-mangale",
+  "name": "skumbriya-s-gorchitsey-na-mangale",
+  "img": null,
+  "title": "Скумбрия с горчицей на мангале",
+  "description": "Сочная скумбрия с тонкой горчичной корочкой и укропом.",
+  "calories": null,
+  "preparation": 20,
+  "time": 60,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Скумбрия потрошёная",
+      "count": 1400,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Горчица зернистая",
+      "count": 50,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 35,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Укроп",
+      "count": 25,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Мангал",
+      "img": null
+    },
+    {
+      "name": "Решётка",
+      "img": null
+    },
+    {
+      "name": "Термометр",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Удалите жабры и тёмную плёнку в брюшке, обсушите рыбу.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте горчицу, лимон, масло, соль и перец.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Натрите тушки и вложите укроп, маринуйте в холодильнике 20 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Жарьте на решётке над умеренными углями по 8 минут с каждой стороны.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Проверьте 63 °C у хребта и дайте отдохнуть 3 минуты.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Жир со скумбрии может воспламеняться, держите свободную зону.",
+    "Не сжимайте рыбу решёткой слишком сильно."
+  ]
+}

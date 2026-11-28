@@ -1,0 +1,131 @@
+{
+  "metaSeo": {
+    "title": "Хрустящий нут с паприкой — пошаговый рецепт с граммовками",
+    "description": "Запечённый нут с пряной корочкой для закусочного стола.",
+    "keywords": [
+      "хрустящий нут с паприкой",
+      "хрустящий нут с паприкой рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Хрустящий нут с паприкой",
+    "og:description": "Запечённый нут с пряной корочкой для закусочного стола.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/hrustyaschiy-nut-s-paprikoy",
+    "twitterTitle": "Хрустящий нут с паприкой",
+    "twitterDescription": "Запечённый нут с пряной корочкой для закусочного стола.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/hrustyaschiy-nut-s-paprikoy",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/hrustyaschiy-nut-s-paprikoy",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "хрустящий нут с паприкой",
+    "хрустящий нут с паприкой рецепт",
+    "хрустящий нут с паприкой ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "hrustyaschiy-nut-s-paprikoy",
+  "name": "hrustyaschiy-nut-s-paprikoy",
+  "img": null,
+  "title": "Хрустящий нут с паприкой",
+  "description": "Запечённый нут с пряной корочкой для закусочного стола.",
+  "calories": null,
+  "preparation": 10,
+  "time": 55,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Нут варёный",
+      "count": 650,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 30,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Паприка копчёная",
+      "count": 5,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сушёный чеснок",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Зира",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 7,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Противень",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Полотенце",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Нут промойте, обсушите полотенцем и удалите свободные оболочки.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разложите на противне и подсушите при 190 °C 15 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Перемешайте с маслом и солью.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте ещё 20 минут, встряхнув противень в середине.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте со специями и остудите на открытом противне.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Влага мешает хрусту.",
+    "Специи добавляют ближе к концу, чтобы не горели."
+  ]
+}

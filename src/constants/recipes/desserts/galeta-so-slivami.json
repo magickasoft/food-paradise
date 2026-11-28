@@ -1,0 +1,144 @@
+{
+  "metaSeo": {
+    "title": "Галета со сливами — пошаговый рецепт с граммовками",
+    "description": "Свободный песочный пирог с сочными сливами и загнутыми хрустящими краями.",
+    "keywords": [
+      "галета со сливами",
+      "галета со сливами рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Галета со сливами",
+    "og:description": "Свободный песочный пирог с сочными сливами и загнутыми хрустящими краями.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/galeta-so-slivami",
+    "twitterTitle": "Галета со сливами",
+    "twitterDescription": "Свободный песочный пирог с сочными сливами и загнутыми хрустящими краями.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/galeta-so-slivami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/galeta-so-slivami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "галета со сливами",
+    "галета со сливами рецепт",
+    "галета со сливами ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dessert"
+    }
+  ],
+  "key": "galeta-so-slivami",
+  "name": "galeta-so-slivami",
+  "img": null,
+  "title": "Галета со сливами",
+  "description": "Свободный песочный пирог с сочными сливами и загнутыми хрустящими краями.",
+  "calories": null,
+  "preparation": 25,
+  "time": 100,
+  "level": 2,
+  "rating": 0,
+  "portions": 8,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Мука",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 140,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода ледяная",
+      "count": 70,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сливы без косточек",
+      "count": 650,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Крахмал кукурузный",
+      "count": 25,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Желток",
+      "count": 20,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Скалка",
+      "img": null
+    },
+    {
+      "name": "Противень",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Муку перетрите с маслом и солью, добавьте воду, быстро соберите тесто и охладите 30 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Сливы нарежьте и смешайте с 80 г сахара и крахмалом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Тесто раскатайте кругом 34 см на пергаменте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выложите начинку, оставив 5 см края, загните борта, смажьте желтком и посыпьте сахаром.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте при 190 °C 35–40 минут и остудите 15 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Тесто не вымешивайте до эластичности.",
+    "Переносите пирог вместе с пергаментом."
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "metaSeo": {
+    "title": "Куриный рулет с фисташками — пошаговый рецепт с граммовками",
+    "description": "Холодный рулет из куриного мяса с фисташками и вяленой клюквой.",
+    "keywords": [
+      "куриный рулет с фисташками",
+      "куриный рулет с фисташками рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Куриный рулет с фисташками",
+    "og:description": "Холодный рулет из куриного мяса с фисташками и вяленой клюквой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kurinyy-rulet-s-fistashkami",
+    "twitterTitle": "Куриный рулет с фисташками",
+    "twitterDescription": "Холодный рулет из куриного мяса с фисташками и вяленой клюквой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kurinyy-rulet-s-fistashkami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kurinyy-rulet-s-fistashkami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "куриный рулет с фисташками",
+    "куриный рулет с фисташками рецепт",
+    "куриный рулет с фисташками ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "new-year"
+    }
+  ],
+  "key": "kurinyy-rulet-s-fistashkami",
+  "name": "kurinyy-rulet-s-fistashkami",
+  "img": null,
+  "title": "Куриный рулет с фисташками",
+  "description": "Холодный рулет из куриного мяса с фисташками и вяленой клюквой.",
+  "calories": null,
+  "preparation": 40,
+  "time": 200,
+  "level": 2,
+  "rating": 0,
+  "portions": 8,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Филе куриного бедра",
+      "count": 1000,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Филе грудки",
+      "count": 400,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сливки 20%",
+      "count": 120,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Фисташки",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Клюква вяленая",
+      "count": 80,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 12,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 18,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Блендер",
+      "img": null
+    },
+    {
+      "name": "Фольга",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Термометр",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Бёдра раскройте и слегка отбейте, выложите прямоугольником на пергамент.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Грудку измельчите со сливками, чесноком, солью и перцем.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте фисташки и клюкву, распределите по бёдрам.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Сверните, заверните в пергамент и фольгу, выпекайте при 170 °C 65–75 минут до 74 °C.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Остудите под лёгким грузом и охладите 90 минут перед нарезкой.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не используйте пищевую плёнку для запекания.",
+    "Охлаждение помогает ровному срезу."
+  ]
+}

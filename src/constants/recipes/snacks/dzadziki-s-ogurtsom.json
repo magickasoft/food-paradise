@@ -1,0 +1,137 @@
+{
+  "metaSeo": {
+    "title": "Дзадзики с огурцом — пошаговый рецепт с граммовками",
+    "description": "Густой йогуртовый дип с огурцом, чесноком и свежим укропом.",
+    "keywords": [
+      "дзадзики с огурцом",
+      "дзадзики с огурцом рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Дзадзики с огурцом",
+    "og:description": "Густой йогуртовый дип с огурцом, чесноком и свежим укропом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/dzadziki-s-ogurtsom",
+    "twitterTitle": "Дзадзики с огурцом",
+    "twitterDescription": "Густой йогуртовый дип с огурцом, чесноком и свежим укропом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/dzadziki-s-ogurtsom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/dzadziki-s-ogurtsom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "дзадзики с огурцом",
+    "дзадзики с огурцом рецепт",
+    "дзадзики с огурцом ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "dzadziki-s-ogurtsom",
+  "name": "dzadziki-s-ogurtsom",
+  "img": null,
+  "title": "Дзадзики с огурцом",
+  "description": "Густой йогуртовый дип с огурцом, чесноком и свежим укропом.",
+  "calories": null,
+  "preparation": 15,
+  "time": 45,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Йогурт греческий",
+      "count": 500,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Огурец",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Укроп",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 6,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Тёрка",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Салфетка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Огурец крупно натрите, смешайте с 3 г соли.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Через 10 минут хорошо отожмите через салфетку.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Йогурт смешайте с маслом, лимоном и тёртым чесноком.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте огурец, укроп и оставшуюся соль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Охладите 20 минут, перед подачей перемешайте.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Используйте густой отцеженный йогурт.",
+    "Огуречный сок в дип не добавляйте."
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "metaSeo": {
+    "title": "Колбаски с перцами на гриле — пошаговый рецепт с граммовками",
+    "description": "Колбаски для жарки с подпечённым сладким перцем и луком.",
+    "keywords": [
+      "колбаски с перцами на гриле",
+      "колбаски с перцами на гриле рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Колбаски с перцами на гриле",
+    "og:description": "Колбаски для жарки с подпечённым сладким перцем и луком.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kolbaski-s-pertsami-na-grile",
+    "twitterTitle": "Колбаски с перцами на гриле",
+    "twitterDescription": "Колбаски для жарки с подпечённым сладким перцем и луком.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kolbaski-s-pertsami-na-grile",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kolbaski-s-pertsami-na-grile",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "колбаски с перцами на гриле",
+    "колбаски с перцами на гриле рецепт",
+    "колбаски с перцами на гриле ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "kolbaski-s-pertsami-na-grile",
+  "name": "kolbaski-s-pertsami-na-grile",
+  "img": null,
+  "title": "Колбаски с перцами на гриле",
+  "description": "Колбаски для жарки с подпечённым сладким перцем и луком.",
+  "calories": null,
+  "preparation": 20,
+  "time": 45,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Колбаски сырые свиные",
+      "count": 1000,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец сладкий",
+      "count": 700,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Горчица",
+      "count": 50,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 6,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Гриль",
+      "img": null
+    },
+    {
+      "name": "Щипцы",
+      "img": null
+    },
+    {
+      "name": "Термометр",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Перцы разрежьте на широкие полоски, лук — толстыми кольцами.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте овощи с маслом и солью.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Колбаски готовьте в непрямой зоне 15–20 минут до 71 °C.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Овощи обжарьте над углями 8–10 минут, переворачивая.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Колбаски быстро подрумяньте и подайте с овощами и горчицей.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не прокалывайте оболочку.",
+    "Проверьте состав колбасок, для птицы нужно 74 °C."
+  ]
+}

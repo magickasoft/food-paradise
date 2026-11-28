@@ -1,0 +1,143 @@
+{
+  "metaSeo": {
+    "title": "Гречка с индейкой в духовке — пошаговый рецепт с граммовками",
+    "description": "Крупа и индейка готовятся вместе, обмениваясь соками и ароматом овощей.",
+    "keywords": [
+      "гречка с индейкой в духовке",
+      "гречка с индейкой в духовке рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Гречка с индейкой в духовке",
+    "og:description": "Крупа и индейка готовятся вместе, обмениваясь соками и ароматом овощей.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/grechka-s-indeykoy-v-duhovke",
+    "twitterTitle": "Гречка с индейкой в духовке",
+    "twitterDescription": "Крупа и индейка готовятся вместе, обмениваясь соками и ароматом овощей.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/grechka-s-indeykoy-v-duhovke",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/grechka-s-indeykoy-v-duhovke",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "гречка с индейкой в духовке",
+    "гречка с индейкой в духовке рецепт",
+    "гречка с индейкой в духовке ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "healthy"
+    }
+  ],
+  "key": "grechka-s-indeykoy-v-duhovke",
+  "name": "grechka-s-indeykoy-v-duhovke",
+  "img": null,
+  "title": "Гречка с индейкой в духовке",
+  "description": "Крупа и индейка готовятся вместе, обмениваясь соками и ароматом овощей.",
+  "calories": null,
+  "preparation": 20,
+  "time": 65,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Филе бедра индейки",
+      "count": 650,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Гречка",
+      "count": 260,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода горячая",
+      "count": 650,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Морковь",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Паприка",
+      "count": 4,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 12,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Форма",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Индейку нарежьте кубиками, смешайте с паприкой и половиной соли.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Обжарьте в масле 5 минут, добавьте овощи и готовьте 5 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Промытую гречку распределите в форме, сверху выложите мясо.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Залейте водой с оставшейся солью, плотно накройте фольгой.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте при 185 °C 35 минут, затем выдержите 10 минут под фольгой.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Гречка должна быть полностью покрыта водой.",
+    "Мясо режьте одинаково."
+  ]
+}

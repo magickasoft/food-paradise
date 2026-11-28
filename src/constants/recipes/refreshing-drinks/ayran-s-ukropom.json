@@ -1,0 +1,115 @@
+{
+  "metaSeo": {
+    "title": "Айран с укропом — пошаговый рецепт с граммовками",
+    "description": "Солоноватый кисломолочный напиток с зеленью и минеральной водой.",
+    "keywords": [
+      "айран с укропом",
+      "айран с укропом рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Айран с укропом",
+    "og:description": "Солоноватый кисломолочный напиток с зеленью и минеральной водой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/ayran-s-ukropom",
+    "twitterTitle": "Айран с укропом",
+    "twitterDescription": "Солоноватый кисломолочный напиток с зеленью и минеральной водой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/ayran-s-ukropom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/ayran-s-ukropom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "айран с укропом",
+    "айран с укропом рецепт",
+    "айран с укропом ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "ayran-s-ukropom",
+  "name": "ayran-s-ukropom",
+  "img": null,
+  "title": "Айран с укропом",
+  "description": "Солоноватый кисломолочный напиток с зеленью и минеральной водой.",
+  "calories": null,
+  "preparation": 10,
+  "time": 20,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Йогурт натуральный",
+      "count": 600,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода минеральная",
+      "count": 600,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Укроп",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 5,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кувшин",
+      "img": null
+    },
+    {
+      "name": "Венчик",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Йогурт взбейте венчиком до однородности.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Растворите соль в 100 мл воды.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте к йогурту и постепенно влейте оставшуюся воду.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте очень мелко нарезанный укроп.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Охладите 10 минут и перемешайте перед подачей.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Соль добавляйте понемногу.",
+    "Газированную воду вливайте медленно."
+  ]
+}

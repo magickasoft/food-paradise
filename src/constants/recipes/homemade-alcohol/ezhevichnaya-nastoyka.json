@@ -1,0 +1,129 @@
+{
+  "metaSeo": {
+    "title": "Ежевичная настойка — пошаговый рецепт с граммовками",
+    "description": "Глубокий ягодный вкус ежевики с лёгкой пряной нотой.",
+    "keywords": [
+      "ежевичная настойка",
+      "ежевичная настойка рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Ежевичная настойка",
+    "og:description": "Глубокий ягодный вкус ежевики с лёгкой пряной нотой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/ezhevichnaya-nastoyka",
+    "twitterTitle": "Ежевичная настойка",
+    "twitterDescription": "Глубокий ягодный вкус ежевики с лёгкой пряной нотой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/ezhevichnaya-nastoyka",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/ezhevichnaya-nastoyka",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "ежевичная настойка",
+    "ежевичная настойка рецепт",
+    "ежевичная настойка ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "homemade-alcohol"
+    }
+  ],
+  "key": "ezhevichnaya-nastoyka",
+  "name": "ezhevichnaya-nastoyka",
+  "img": null,
+  "title": "Ежевичная настойка",
+  "description": "Глубокий ягодный вкус ежевики с лёгкой пряной нотой.",
+  "calories": null,
+  "preparation": 20,
+  "time": 24500,
+  "level": 1,
+  "rating": 0,
+  "portions": 20,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Водка 40%",
+      "count": 700,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Ежевика",
+      "count": 500,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 100,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Корица палочка",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Банка",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Сотейник",
+      "img": null
+    },
+    {
+      "name": "Бутылки",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Ягоды вымойте и обсушите, слегка надавите ложкой.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Поместите в банку с корицей и водкой.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Через 3 суток уберите корицу, ягоды настаивайте ещё 11 суток.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите, добавьте полностью холодный сироп из воды и сахара.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выдержите 3 суток в холодильнике и отфильтруйте.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Корицу извлекайте раньше ягод.",
+    "Не выжимайте ягоды досуха."
+  ]
+}

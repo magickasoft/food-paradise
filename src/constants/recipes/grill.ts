@@ -42,6 +42,27 @@ import KURINYE_BEDRYSHKI_V_KEFIRE_NA_MANGALE from './grill/kurinye-bedryshki-v-k
 import BURGER_KOTLETY_NA_MANGALE from './grill/burger-kotlety-na-mangale.json'
 import BANANY_NA_GRILE_S_MEDOM_I_KORITSEJ from './grill/banany-na-grile-s-medom-i-koritsej.json'
 
+import DORADO_NA_RESHETKE from './grill/dorado-na-reshetke.json'
+import SKUMBRIYA_S_GORCHITSEY_NA_MANGALE from './grill/skumbriya-s-gorchitsey-na-mangale.json'
+import KALMAR_NA_GRILE_S_CHESNOKOM from './grill/kalmar-na-grile-s-chesnokom.json'
+import KURINYE_SHASHLYCHKI_SATAY from './grill/kurinye-shashlychki-satay.json'
+import KURINYE_GOLENI_V_ADZHIKE from './grill/kurinye-goleni-v-adzhike.json'
+import SVINAYA_KOREYKA_S_YABLOCHNOY_GLAZURYU from './grill/svinaya-koreyka-s-yablochnoy-glazuryu.json'
+import GOVYAZHI_BURGERY_S_CHEDDEROM from './grill/govyazhi-burgery-s-chedderom.json'
+import KOFTA_IZ_BARANINY from './grill/kofta-iz-baraniny.json'
+import KEBAB_IZ_INDEYKI_S_FISTASHKAMI from './grill/kebab-iz-indeyki-s-fistashkami.json'
+import KOLBASKI_S_PERTSAMI_NA_GRILE from './grill/kolbaski-s-pertsami-na-grile.json'
+import STEYK_IZ_TSVETNOY_KAPUSTY from './grill/steyk-iz-tsvetnoy-kapusty.json'
+import BATAT_NA_GRILE_S_LAYMOM from './grill/batat-na-grile-s-laymom.json'
+import SPARZHA_NA_GRILE_S_PARMEZANOM from './grill/sparzha-na-grile-s-parmezanom.json'
+import MORKOV_NA_GRILE_S_ZIROY from './grill/morkov-na-grile-s-ziroy.json'
+import ANANAS_NA_GRILE_S_KORITSEY from './grill/ananas-na-grile-s-koritsey.json'
+import PERSIKI_NA_GRILE_S_MASKARPONE from './grill/persiki-na-grile-s-maskarpone.json'
+import FOREL_TSELIKOM_V_FOLGE from './grill/forel-tselikom-v-folge.json'
+import SHASHLYK_IZ_KURINYH_SERDECHEK from './grill/shashlyk-iz-kurinyh-serdechek.json'
+import BROKKOLI_NA_GRILE_S_LIMONOM from './grill/brokkoli-na-grile-s-limonom.json'
+import PORTOBELLO_S_MOTSARELLOY from './grill/portobello-s-motsarelloy.json'
+
 import { withAssetPath } from '@/lib/withAssetPath'
 
 const toRecipes = (raw: readonly Recipe[]): Recipe[] => raw.map(item => withAssetPath<Recipe>(item))
@@ -89,4 +110,24 @@ export const GRILL: Recipe[] = toRecipes([
   KURINYE_BEDRYSHKI_V_KEFIRE_NA_MANGALE,
   BURGER_KOTLETY_NA_MANGALE,
   BANANY_NA_GRILE_S_MEDOM_I_KORITSEJ,
+  DORADO_NA_RESHETKE,
+  SKUMBRIYA_S_GORCHITSEY_NA_MANGALE,
+  KALMAR_NA_GRILE_S_CHESNOKOM,
+  KURINYE_SHASHLYCHKI_SATAY,
+  KURINYE_GOLENI_V_ADZHIKE,
+  SVINAYA_KOREYKA_S_YABLOCHNOY_GLAZURYU,
+  GOVYAZHI_BURGERY_S_CHEDDEROM,
+  KOFTA_IZ_BARANINY,
+  KEBAB_IZ_INDEYKI_S_FISTASHKAMI,
+  KOLBASKI_S_PERTSAMI_NA_GRILE,
+  STEYK_IZ_TSVETNOY_KAPUSTY,
+  BATAT_NA_GRILE_S_LAYMOM,
+  SPARZHA_NA_GRILE_S_PARMEZANOM,
+  MORKOV_NA_GRILE_S_ZIROY,
+  ANANAS_NA_GRILE_S_KORITSEY,
+  PERSIKI_NA_GRILE_S_MASKARPONE,
+  FOREL_TSELIKOM_V_FOLGE,
+  SHASHLYK_IZ_KURINYH_SERDECHEK,
+  BROKKOLI_NA_GRILE_S_LIMONOM,
+  PORTOBELLO_S_MOTSARELLOY,
 ])

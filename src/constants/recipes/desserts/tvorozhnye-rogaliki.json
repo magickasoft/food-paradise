@@ -1,0 +1,137 @@
+{
+  "metaSeo": {
+    "title": "Творожные рогалики — пошаговый рецепт с граммовками",
+    "description": "Слоистые рогалики на творожном тесте с густой яблочной начинкой.",
+    "keywords": [
+      "творожные рогалики",
+      "творожные рогалики рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Творожные рогалики",
+    "og:description": "Слоистые рогалики на творожном тесте с густой яблочной начинкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/tvorozhnye-rogaliki",
+    "twitterTitle": "Творожные рогалики",
+    "twitterDescription": "Слоистые рогалики на творожном тесте с густой яблочной начинкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/tvorozhnye-rogaliki",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/tvorozhnye-rogaliki",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "творожные рогалики",
+    "творожные рогалики рецепт",
+    "творожные рогалики ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dessert"
+    }
+  ],
+  "key": "tvorozhnye-rogaliki",
+  "name": "tvorozhnye-rogaliki",
+  "img": null,
+  "title": "Творожные рогалики",
+  "description": "Слоистые рогалики на творожном тесте с густой яблочной начинкой.",
+  "calories": null,
+  "preparation": 30,
+  "time": 95,
+  "level": 2,
+  "rating": 0,
+  "portions": 10,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Творог",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 320,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Разрыхлитель",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Повидло яблочное",
+      "count": 220,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Скалка",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Творог протрите, смешайте с мягким маслом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте муку, разрыхлитель и соль, охладите тесто 30 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Раскатайте два круга до 3 мм, разрежьте каждый на 12 секторов.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Положите у широкого края повидло, сверните и обваляйте верх в сахаре.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте при 180 °C 20–25 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Повидло нужно густое.",
+    "Не кладите начинку на края."
+  ]
+}

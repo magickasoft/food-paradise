@@ -1,0 +1,137 @@
+{
+  "metaSeo": {
+    "title": "Салат из свёклы с черносливом — пошаговый рецепт с граммовками",
+    "description": "Печёная свёкла со сладким черносливом, чесноком и орехами.",
+    "keywords": [
+      "салат из свёклы с черносливом",
+      "салат из свёклы с черносливом рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Салат из свёклы с черносливом",
+    "og:description": "Печёная свёкла со сладким черносливом, чесноком и орехами.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-iz-svekly-s-chernoslivom",
+    "twitterTitle": "Салат из свёклы с черносливом",
+    "twitterDescription": "Печёная свёкла со сладким черносливом, чесноком и орехами.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-iz-svekly-s-chernoslivom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-iz-svekly-s-chernoslivom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "салат из свёклы с черносливом",
+    "салат из свёклы с черносливом рецепт",
+    "салат из свёклы с черносливом ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "salads"
+    }
+  ],
+  "key": "salat-iz-svekly-s-chernoslivom",
+  "name": "salat-iz-svekly-s-chernoslivom",
+  "img": null,
+  "title": "Салат из свёклы с черносливом",
+  "description": "Печёная свёкла со сладким черносливом, чесноком и орехами.",
+  "calories": null,
+  "preparation": 15,
+  "time": 90,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Свёкла",
+      "count": 650,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чернослив",
+      "count": 130,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Орехи грецкие",
+      "count": 80,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Майонез",
+      "count": 80,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Йогурт",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 5,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 4,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Тёрка",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Свёклу завыпекайте в фольге при 190 °C 60 минут, остудите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Чернослив залейте горячей водой на 10 минут, обсушите и нарежьте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Свёклу крупно натрите, орехи порубите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте майонез, йогурт, чеснок и соль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Заправьте свёклу с черносливом, вмешайте орехи и охладите 15 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не замачивайте мягкий чернослив слишком долго.",
+    "Орехи добавляйте после охлаждения свёклы."
+  ]
+}

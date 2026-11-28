@@ -1,0 +1,155 @@
+{
+  "metaSeo": {
+    "title": "Ризотто с белыми грибами — пошаговый рецепт с граммовками",
+    "description": "Кремовый рис с грибным настоем, пармезаном и сливочным маслом.",
+    "keywords": [
+      "ризотто с белыми грибами",
+      "ризотто с белыми грибами рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Ризотто с белыми грибами",
+    "og:description": "Кремовый рис с грибным настоем, пармезаном и сливочным маслом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/rizotto-s-belymi-gribami",
+    "twitterTitle": "Ризотто с белыми грибами",
+    "twitterDescription": "Кремовый рис с грибным настоем, пармезаном и сливочным маслом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/rizotto-s-belymi-gribami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/rizotto-s-belymi-gribami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "ризотто с белыми грибами",
+    "ризотто с белыми грибами рецепт",
+    "ризотто с белыми грибами ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "supper"
+    }
+  ],
+  "key": "rizotto-s-belymi-gribami",
+  "name": "rizotto-s-belymi-gribami",
+  "img": null,
+  "title": "Ризотто с белыми грибами",
+  "description": "Кремовый рис с грибным настоем, пармезаном и сливочным маслом.",
+  "calories": null,
+  "preparation": 20,
+  "time": 50,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Рис арборио",
+      "count": 320,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Грибы белые сушёные",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Шампиньоны",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 1100,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вино белое сухое",
+      "count": 100,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Пармезан",
+      "count": 90,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Сотейник",
+      "img": null
+    },
+    {
+      "name": "Мелкое сито",
+      "img": null
+    },
+    {
+      "name": "Лопатка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Сушёные грибы замочите в 300 мл тёплой воды на 20 минут, настой процедите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Шампиньоны обжарьте на оливковом масле, отложите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук томите на 30 г сливочного масла, всыпьте рис и прогрейте 2 минуты, влейте вино.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавляйте горячую воду с грибным настоем половниками, помешивая 18–20 минут, в середине положите грибы.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выключите, вмешайте соль, оставшееся масло и сыр, выдержите 2 минуты.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Рис не промывают.",
+    "Подавайте сразу после отдыха."
+  ]
+}

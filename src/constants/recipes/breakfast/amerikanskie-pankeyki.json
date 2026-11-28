@@ -1,0 +1,138 @@
+{
+  "metaSeo": {
+    "title": "Американские панкейки — пошаговый рецепт с граммовками",
+    "description": "Толстые мягкие панкейки на молоке с ровной золотистой поверхностью.",
+    "keywords": [
+      "американские панкейки",
+      "американские панкейки рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Американские панкейки",
+    "og:description": "Толстые мягкие панкейки на молоке с ровной золотистой поверхностью.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/amerikanskie-pankeyki",
+    "twitterTitle": "Американские панкейки",
+    "twitterDescription": "Толстые мягкие панкейки на молоке с ровной золотистой поверхностью.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/amerikanskie-pankeyki",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/amerikanskie-pankeyki",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "американские панкейки",
+    "американские панкейки рецепт",
+    "американские панкейки ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "amerikanskie-pankeyki",
+  "name": "amerikanskie-pankeyki",
+  "img": null,
+  "title": "Американские панкейки",
+  "description": "Толстые мягкие панкейки на молоке с ровной золотистой поверхностью.",
+  "calories": null,
+  "preparation": 10,
+  "time": 30,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Мука",
+      "count": 220,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Молоко",
+      "count": 280,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Яйцо",
+      "count": 50,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Сахар",
+      "count": 35,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 35,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Разрыхлитель",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Две миски",
+      "img": null
+    },
+    {
+      "name": "Венчик",
+      "img": null
+    },
+    {
+      "name": "Антипригарная сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте муку, разрыхлитель, сахар и соль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Яйцо взбейте с молоком и растопленным, слегка остывшим маслом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Соедините смеси несколькими движениями, оставьте на 5 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "На сухой антипригарной сковороде жарьте порции по 50 мл до пузырьков, около 2 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Переверните и подрумяньте 1 минуту, складывайте неплотной стопкой.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Мелкие комочки допустимы.",
+    "Сильный жар оставляет середину сырой."
+  ]
+}

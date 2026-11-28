@@ -1,0 +1,125 @@
+{
+  "metaSeo": {
+    "title": "Печёный чеснок с хлебом — пошаговый рецепт с граммовками",
+    "description": "Мягкие карамельные зубчики чеснока, которые легко намазываются на тост.",
+    "keywords": [
+      "печёный чеснок с хлебом",
+      "печёный чеснок с хлебом рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Печёный чеснок с хлебом",
+    "og:description": "Мягкие карамельные зубчики чеснока, которые легко намазываются на тост.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/pechenyy-chesnok-s-hlebom",
+    "twitterTitle": "Печёный чеснок с хлебом",
+    "twitterDescription": "Мягкие карамельные зубчики чеснока, которые легко намазываются на тост.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pechenyy-chesnok-s-hlebom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pechenyy-chesnok-s-hlebom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "печёный чеснок с хлебом",
+    "печёный чеснок с хлебом рецепт",
+    "печёный чеснок с хлебом ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "pechenyy-chesnok-s-hlebom",
+  "name": "pechenyy-chesnok-s-hlebom",
+  "img": null,
+  "title": "Печёный чеснок с хлебом",
+  "description": "Мягкие карамельные зубчики чеснока, которые легко намазываются на тост.",
+  "calories": null,
+  "preparation": 10,
+  "time": 65,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Чеснок целые головки",
+      "count": 350,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 45,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Тимьян",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 5,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Багет",
+      "count": 350,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Фольга",
+      "img": null
+    },
+    {
+      "name": "Противень",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "С головок срежьте верхушки, открыв зубчики.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Положите на фольгу, полейте 30 мл масла и посыпьте солью и тимьяном.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Плотно заверните и выпекайте при 180 °C 45–50 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Багет нарежьте, смажьте остатком масла и подсушите 7 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Чеснок слегка остудите и подавайте, выдавливая мягкую мякоть на хлеб.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Готовые зубчики должны легко выдавливаться.",
+    "Храните остатки в холодильнике и используйте в течение двух дней."
+  ]
+}

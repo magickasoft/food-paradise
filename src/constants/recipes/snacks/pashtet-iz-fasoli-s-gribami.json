@@ -1,0 +1,145 @@
+{
+  "metaSeo": {
+    "title": "Паштет из фасоли с грибами — пошаговый рецепт с граммовками",
+    "description": "Густая растительная намазка из белой фасоли и подрумяненных шампиньонов.",
+    "keywords": [
+      "паштет из фасоли с грибами",
+      "паштет из фасоли с грибами рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Паштет из фасоли с грибами",
+    "og:description": "Густая растительная намазка из белой фасоли и подрумяненных шампиньонов.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/pashtet-iz-fasoli-s-gribami",
+    "twitterTitle": "Паштет из фасоли с грибами",
+    "twitterDescription": "Густая растительная намазка из белой фасоли и подрумяненных шампиньонов.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pashtet-iz-fasoli-s-gribami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pashtet-iz-fasoli-s-gribami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "паштет из фасоли с грибами",
+    "паштет из фасоли с грибами рецепт",
+    "паштет из фасоли с грибами ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "pashtet-iz-fasoli-s-gribami",
+  "name": "pashtet-iz-fasoli-s-gribami",
+  "img": null,
+  "title": "Паштет из фасоли с грибами",
+  "description": "Густая растительная намазка из белой фасоли и подрумяненных шампиньонов.",
+  "calories": null,
+  "preparation": 20,
+  "time": 45,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Фасоль белая варёная",
+      "count": 500,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Шампиньоны",
+      "count": 350,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 40,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Тимьян",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Блендер",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук томите на половине масла 5 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте грибы, жарьте 10 минут до испарения воды.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Фасоль промойте, обсушите, соедините с грибами и чесноком.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Измельчите с лимоном, остальным маслом, солью и специями.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Остудите и выдержите 15 минут перед подачей.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Для густоты фасоль должна быть сухой.",
+    "Часть грибов оставьте для украшения."
+  ]
+}

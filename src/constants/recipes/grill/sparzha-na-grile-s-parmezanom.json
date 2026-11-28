@@ -1,0 +1,133 @@
+{
+  "metaSeo": {
+    "title": "Спаржа на гриле с пармезаном — пошаговый рецепт с граммовками",
+    "description": "Быстро приготовленная спаржа с лимоном и тонкой сырной стружкой.",
+    "keywords": [
+      "спаржа на гриле с пармезаном",
+      "спаржа на гриле с пармезаном рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Спаржа на гриле с пармезаном",
+    "og:description": "Быстро приготовленная спаржа с лимоном и тонкой сырной стружкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/sparzha-na-grile-s-parmezanom",
+    "twitterTitle": "Спаржа на гриле с пармезаном",
+    "twitterDescription": "Быстро приготовленная спаржа с лимоном и тонкой сырной стружкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/sparzha-na-grile-s-parmezanom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/sparzha-na-grile-s-parmezanom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "спаржа на гриле с пармезаном",
+    "спаржа на гриле с пармезаном рецепт",
+    "спаржа на гриле с пармезаном ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "sparzha-na-grile-s-parmezanom",
+  "name": "sparzha-na-grile-s-parmezanom",
+  "img": null,
+  "title": "Спаржа на гриле с пармезаном",
+  "description": "Быстро приготовленная спаржа с лимоном и тонкой сырной стружкой.",
+  "calories": null,
+  "preparation": 15,
+  "time": 25,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Спаржа зелёная",
+      "count": 700,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 30,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Пармезан",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лимонная цедра",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 6,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Гриль",
+      "img": null
+    },
+    {
+      "name": "Овощечистка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Срежьте жёсткие основания, толстую нижнюю часть очистите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Обсушите и смешайте с маслом, солью и перцем.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Уложите поперёк прутьев решётки.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Жарьте 5–7 минут, поворачивая до лёгких подпалин.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Полейте лимоном, добавьте цедру и сырную стружку.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Тонким стеблям достаточно 4 минут.",
+    "Готовая спаржа сохраняет упругость."
+  ]
+}

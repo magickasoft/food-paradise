@@ -1,0 +1,150 @@
+{
+  "metaSeo": {
+    "title": "Клафути с вишней — пошаговый рецепт с граммовками",
+    "description": "Французский запечённый десерт с вишней в нежной молочно-яичной заливке.",
+    "keywords": [
+      "клафути с вишней",
+      "клафути с вишней рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Клафути с вишней",
+    "og:description": "Французский запечённый десерт с вишней в нежной молочно-яичной заливке.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/klafuti-s-vishney",
+    "twitterTitle": "Клафути с вишней",
+    "twitterDescription": "Французский запечённый десерт с вишней в нежной молочно-яичной заливке.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/klafuti-s-vishney",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/klafuti-s-vishney",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "клафути с вишней",
+    "клафути с вишней рецепт",
+    "клафути с вишней ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dessert"
+    }
+  ],
+  "key": "klafuti-s-vishney",
+  "name": "klafuti-s-vishney",
+  "img": null,
+  "title": "Клафути с вишней",
+  "description": "Французский запечённый десерт с вишней в нежной молочно-яичной заливке.",
+  "calories": null,
+  "preparation": 20,
+  "time": 75,
+  "level": 2,
+  "rating": 0,
+  "portions": 8,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Вишня без косточек",
+      "count": 500,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 150,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Молоко",
+      "count": 250,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сливки 20%",
+      "count": 150,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 110,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Ванильный сахар",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Венчик",
+      "img": null
+    },
+    {
+      "name": "Форма",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Вишню обсушите, форму 24 см смажьте маслом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Яйца размешайте с сахаром, ванилью и солью.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте муку, затем молоко и сливки до жидкого теста.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выложите вишню и залейте тестом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте при 180 °C 35–40 минут, остудите 15 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Замороженную вишню полностью разморозьте и отцедите.",
+    "Центр должен слегка дрожать."
+  ]
+}

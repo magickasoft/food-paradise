@@ -1,0 +1,149 @@
+{
+  "metaSeo": {
+    "title": "Ячневая каша с грибами — пошаговый рецепт с граммовками",
+    "description": "Рассыпчатая ячневая крупа с подрумяненными грибами и луком.",
+    "keywords": [
+      "ячневая каша с грибами",
+      "ячневая каша с грибами рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Ячневая каша с грибами",
+    "og:description": "Рассыпчатая ячневая крупа с подрумяненными грибами и луком.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/yachnevaya-kasha-s-gribami",
+    "twitterTitle": "Ячневая каша с грибами",
+    "twitterDescription": "Рассыпчатая ячневая крупа с подрумяненными грибами и луком.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/yachnevaya-kasha-s-gribami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/yachnevaya-kasha-s-gribami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "ячневая каша с грибами",
+    "ячневая каша с грибами рецепт",
+    "ячневая каша с грибами ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "yachnevaya-kasha-s-gribami",
+  "name": "yachnevaya-kasha-s-gribami",
+  "img": null,
+  "title": "Ячневая каша с грибами",
+  "description": "Рассыпчатая ячневая крупа с подрумяненными грибами и луком.",
+  "calories": null,
+  "preparation": 15,
+  "time": 45,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Крупа ячневая",
+      "count": 220,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 650,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Шампиньоны",
+      "count": 350,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 130,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 25,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Петрушка",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец чёрный",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Крупу промойте и залейте водой с 5 г соли.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Варите под крышкой на слабом огне 20 минут, затем дайте настояться 10 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук обжарьте на растительном масле 4 минуты, добавьте грибы пластинками.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Жарьте 7–9 минут до золотистости, добавьте оставшуюся соль и перец.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Соедините с кашей, сливочным маслом и петрушкой, прогрейте 2 минуты.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не мешайте крупу во время набухания.",
+    "Грибы жарьте на широкой сковороде."
+  ]
+}

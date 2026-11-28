@@ -1,0 +1,129 @@
+{
+  "metaSeo": {
+    "title": "Кокосовый ликёр — пошаговый рецепт с граммовками",
+    "description": "Сладкий ликёр с натуральным кокосовым настоем и ванилью.",
+    "keywords": [
+      "кокосовый ликёр",
+      "кокосовый ликёр рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Кокосовый ликёр",
+    "og:description": "Сладкий ликёр с натуральным кокосовым настоем и ванилью.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kokosovyy-liker",
+    "twitterTitle": "Кокосовый ликёр",
+    "twitterDescription": "Сладкий ликёр с натуральным кокосовым настоем и ванилью.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kokosovyy-liker",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kokosovyy-liker",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "кокосовый ликёр",
+    "кокосовый ликёр рецепт",
+    "кокосовый ликёр ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "homemade-alcohol"
+    }
+  ],
+  "key": "kokosovyy-liker",
+  "name": "kokosovyy-liker",
+  "img": null,
+  "title": "Кокосовый ликёр",
+  "description": "Сладкий ликёр с натуральным кокосовым настоем и ванилью.",
+  "calories": null,
+  "preparation": 20,
+  "time": 18740,
+  "level": 1,
+  "rating": 0,
+  "portions": 20,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Ром белый 40%",
+      "count": 650,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Стружка кокосовая несладкая",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 220,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 250,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Ванильный экстракт",
+      "count": 4,
+      "gauge": "мл",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Банка",
+      "img": null
+    },
+    {
+      "name": "Ткань",
+      "img": null
+    },
+    {
+      "name": "Фильтр",
+      "img": null
+    },
+    {
+      "name": "Сотейник",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Стружку поместите в чистую банку и залейте ромом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выдержите 10 суток в темноте, встряхивая раз в день.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите через ткань, затем через бумажный фильтр.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте холодный сироп из воды и сахара и ваниль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Охладите 3 суток, снимите возможный застывший жир и снова профильтруйте.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Натуральный кокос может давать жирный слой.",
+    "Сладкая кондитерская стружка меняет пропорции."
+  ]
+}

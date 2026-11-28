@@ -1,0 +1,133 @@
+{
+  "metaSeo": {
+    "title": "Тапенада из оливок — пошаговый рецепт с граммовками",
+    "description": "Концентрированная оливковая намазка с каперсами, анчоусами и лимоном.",
+    "keywords": [
+      "тапенада из оливок",
+      "тапенада из оливок рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Тапенада из оливок",
+    "og:description": "Концентрированная оливковая намазка с каперсами, анчоусами и лимоном.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/tapenada-iz-olivok",
+    "twitterTitle": "Тапенада из оливок",
+    "twitterDescription": "Концентрированная оливковая намазка с каперсами, анчоусами и лимоном.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/tapenada-iz-olivok",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/tapenada-iz-olivok",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "тапенада из оливок",
+    "тапенада из оливок рецепт",
+    "тапенада из оливок ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "tapenada-iz-olivok",
+  "name": "tapenada-iz-olivok",
+  "img": null,
+  "title": "Тапенада из оливок",
+  "description": "Концентрированная оливковая намазка с каперсами, анчоусами и лимоном.",
+  "calories": null,
+  "preparation": 15,
+  "time": 30,
+  "level": 2,
+  "rating": 0,
+  "portions": 8,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Оливки чёрные без косточек",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Каперсы",
+      "count": 40,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Анчоусы в масле",
+      "count": 35,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 60,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 5,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Петрушка",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Блендер",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Оливки и каперсы обсушите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Анчоусы выньте из масла и нарежьте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Пробейте оливки, каперсы, рыбу и чеснок короткими импульсами.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте масло, лимон и рубленую петрушку.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выдержите 15 минут, подавайте небольшими порциями с хлебом.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не измельчайте в абсолютно гладкую пасту.",
+    "Дополнительная соль обычно не требуется."
+  ]
+}

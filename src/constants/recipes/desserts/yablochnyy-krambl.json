@@ -1,0 +1,143 @@
+{
+  "metaSeo": {
+    "title": "Яблочный крамбл — пошаговый рецепт с граммовками",
+    "description": "Мягкие печёные яблоки под хрустящей масляно-овсяной крошкой.",
+    "keywords": [
+      "яблочный крамбл",
+      "яблочный крамбл рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Яблочный крамбл",
+    "og:description": "Мягкие печёные яблоки под хрустящей масляно-овсяной крошкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/yablochnyy-krambl",
+    "twitterTitle": "Яблочный крамбл",
+    "twitterDescription": "Мягкие печёные яблоки под хрустящей масляно-овсяной крошкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/yablochnyy-krambl",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/yablochnyy-krambl",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "яблочный крамбл",
+    "яблочный крамбл рецепт",
+    "яблочный крамбл ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dessert"
+    }
+  ],
+  "key": "yablochnyy-krambl",
+  "name": "yablochnyy-krambl",
+  "img": null,
+  "title": "Яблочный крамбл",
+  "description": "Мягкие печёные яблоки под хрустящей масляно-овсяной крошкой.",
+  "calories": null,
+  "preparation": 20,
+  "time": 60,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Яблоки очищенные",
+      "count": 900,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 130,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Хлопья овсяные",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 130,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Корица",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Форма",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Яблоки нарежьте кубиками, смешайте с лимоном, корицей и 50 г сахара.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Муку перетрите с холодным маслом и солью.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте хлопья и оставшийся сахар, сохраняя крупную крошку.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Яблоки выложите в форму 24 см, равномерно накройте крошкой.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте при 185 °C 35 минут и выдержите 10 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Крошку не утрамбовывайте.",
+    "Подавайте тёплым, пока корочка хрустит."
+  ]
+}

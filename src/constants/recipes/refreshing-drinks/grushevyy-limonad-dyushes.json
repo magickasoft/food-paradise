@@ -1,0 +1,131 @@
+{
+  "metaSeo": {
+    "title": "Грушевый лимонад «Дюшес» — пошаговый рецепт с граммовками",
+    "description": "Ароматный напиток из спелых груш с лимоном и лёгкой газированностью.",
+    "keywords": [
+      "грушевый лимонад «дюшес»",
+      "грушевый лимонад «дюшес» рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Грушевый лимонад «Дюшес»",
+    "og:description": "Ароматный напиток из спелых груш с лимоном и лёгкой газированностью.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/grushevyy-limonad-dyushes",
+    "twitterTitle": "Грушевый лимонад «Дюшес»",
+    "twitterDescription": "Ароматный напиток из спелых груш с лимоном и лёгкой газированностью.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/grushevyy-limonad-dyushes",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/grushevyy-limonad-dyushes",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "грушевый лимонад «дюшес»",
+    "грушевый лимонад «дюшес» рецепт",
+    "грушевый лимонад «дюшес» ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "grushevyy-limonad-dyushes",
+  "name": "grushevyy-limonad-dyushes",
+  "img": null,
+  "title": "Грушевый лимонад «Дюшес»",
+  "description": "Ароматный напиток из спелых груш с лимоном и лёгкой газированностью.",
+  "calories": null,
+  "preparation": 20,
+  "time": 120,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Груши очищенные",
+      "count": 600,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 400,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 70,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Вода газированная",
+      "count": 1000,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лёд",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Кувшин",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Груши нарежьте и варите с водой и сахаром 15 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разомните, настаивайте под крышкой 20 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите через мелкое сито, добавьте лимон и охладите час.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте с газированной водой в кувшине.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте лёд и подавайте сразу.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Плотные ароматные груши дают более выразительный вкус.",
+    "Не продавливайте мякоть слишком сильно."
+  ]
+}

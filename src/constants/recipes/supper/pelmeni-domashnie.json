@@ -1,0 +1,150 @@
+{
+  "metaSeo": {
+    "title": "Пельмени домашние — пошаговый рецепт с граммовками",
+    "description": "Пельмени с тонким эластичным тестом и сочным смешанным фаршем.",
+    "keywords": [
+      "пельмени домашние",
+      "пельмени домашние рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Пельмени домашние",
+    "og:description": "Пельмени с тонким эластичным тестом и сочным смешанным фаршем.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/pelmeni-domashnie",
+    "twitterTitle": "Пельмени домашние",
+    "twitterDescription": "Пельмени с тонким эластичным тестом и сочным смешанным фаршем.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pelmeni-domashnie",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/pelmeni-domashnie",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "пельмени домашние",
+    "пельмени домашние рецепт",
+    "пельмени домашние ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "supper"
+    }
+  ],
+  "key": "pelmeni-domashnie",
+  "name": "pelmeni-domashnie",
+  "img": null,
+  "title": "Пельмени домашние",
+  "description": "Пельмени с тонким эластичным тестом и сочным смешанным фаршем.",
+  "calories": null,
+  "preparation": 60,
+  "time": 110,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Мука",
+      "count": 600,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 260,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Яйцо",
+      "count": 50,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Фарш говяжий",
+      "count": 450,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Фарш свиной",
+      "count": 350,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода ледяная для начинки",
+      "count": 100,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Скалка",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Кастрюля",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Замесите муку, яйцо, воду и 6 г соли, вымешивайте 8 минут, оставьте на 30 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Фарш смешайте с мелко рубленным луком, ледяной водой, перцем и 10 г соли.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Раскатайте тесто до 1,5 мм, вырежьте круги 7 см.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выложите по 10 г начинки, плотно защипните, соедините концы.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Варите партиями в подсоленной оставшейся солью воде 7 минут после всплытия.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Остальное тесто держите накрытым.",
+    "Замораживайте на доске одним слоем."
+  ]
+}

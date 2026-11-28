@@ -1,0 +1,143 @@
+{
+  "metaSeo": {
+    "title": "Салат «Красное море» — пошаговый рецепт с граммовками",
+    "description": "Быстрый салат с крабовыми палочками, красным перцем и томатами.",
+    "keywords": [
+      "салат «красное море»",
+      "салат «красное море» рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Салат «Красное море»",
+    "og:description": "Быстрый салат с крабовыми палочками, красным перцем и томатами.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-krasnoe-more",
+    "twitterTitle": "Салат «Красное море»",
+    "twitterDescription": "Быстрый салат с крабовыми палочками, красным перцем и томатами.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-krasnoe-more",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/salat-krasnoe-more",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "салат «красное море»",
+    "салат «красное море» рецепт",
+    "салат «красное море» ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "salads"
+    }
+  ],
+  "key": "salat-krasnoe-more",
+  "name": "salat-krasnoe-more",
+  "img": null,
+  "title": "Салат «Красное море»",
+  "description": "Быстрый салат с крабовыми палочками, красным перцем и томатами.",
+  "calories": null,
+  "preparation": 20,
+  "time": 20,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Крабовые палочки",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Томаты плотные",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец красный",
+      "count": 220,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сыр твёрдый",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Майонез",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 6,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Петрушка",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Нож",
+      "img": null
+    },
+    {
+      "name": "Тёрка",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "У томатов удалите жидкую семенную часть.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Перец и томаты нарежьте тонкой соломкой.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Крабовые палочки разделите на полоски, сыр крупно натрите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте майонез с чесноком и перцем.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Соедините все компоненты, заправьте и посыпьте петрушкой.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Солёность сыра обычно достаточна.",
+    "Собирайте незадолго до еды."
+  ]
+}

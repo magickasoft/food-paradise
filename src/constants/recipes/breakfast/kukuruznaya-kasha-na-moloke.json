@@ -1,0 +1,131 @@
+{
+  "metaSeo": {
+    "title": "Кукурузная каша на молоке — пошаговый рецепт с граммовками",
+    "description": "Солнечная каша из мелкой кукурузной крупы с мягким сливочным вкусом.",
+    "keywords": [
+      "кукурузная каша на молоке",
+      "кукурузная каша на молоке рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Кукурузная каша на молоке",
+    "og:description": "Солнечная каша из мелкой кукурузной крупы с мягким сливочным вкусом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kukuruznaya-kasha-na-moloke",
+    "twitterTitle": "Кукурузная каша на молоке",
+    "twitterDescription": "Солнечная каша из мелкой кукурузной крупы с мягким сливочным вкусом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kukuruznaya-kasha-na-moloke",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kukuruznaya-kasha-na-moloke",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "кукурузная каша на молоке",
+    "кукурузная каша на молоке рецепт",
+    "кукурузная каша на молоке ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "kukuruznaya-kasha-na-moloke",
+  "name": "kukuruznaya-kasha-na-moloke",
+  "img": null,
+  "title": "Кукурузная каша на молоке",
+  "description": "Солнечная каша из мелкой кукурузной крупы с мягким сливочным вкусом.",
+  "calories": null,
+  "preparation": 10,
+  "time": 45,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Крупа кукурузная мелкая",
+      "count": 170,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 450,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Молоко",
+      "count": 650,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 35,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 4,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля с толстым дном",
+      "img": null
+    },
+    {
+      "name": "Венчик",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Крупу промойте через мелкое сито.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Всыпьте в кипящую воду с солью, варите 10 минут на слабом огне.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Постепенно влейте горячее молоко и добавьте сахар.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Готовьте ещё 20 минут, часто перемешивая до мягкости крупинок.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте масло и выдержите под крышкой 5 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Грубая крупа потребует больше времени.",
+    "Если каша густеет раньше срока, подливайте горячую воду."
+  ]
+}

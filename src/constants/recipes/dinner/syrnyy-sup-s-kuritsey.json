@@ -1,0 +1,149 @@
+{
+  "metaSeo": {
+    "title": "Сырный суп с курицей — пошаговый рецепт с граммовками",
+    "description": "Мягкий сливочный суп с курицей, картофелем и плавленым сыром.",
+    "keywords": [
+      "сырный суп с курицей",
+      "сырный суп с курицей рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Сырный суп с курицей",
+    "og:description": "Мягкий сливочный суп с курицей, картофелем и плавленым сыром.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/syrnyy-sup-s-kuritsey",
+    "twitterTitle": "Сырный суп с курицей",
+    "twitterDescription": "Мягкий сливочный суп с курицей, картофелем и плавленым сыром.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/syrnyy-sup-s-kuritsey",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/syrnyy-sup-s-kuritsey",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "сырный суп с курицей",
+    "сырный суп с курицей рецепт",
+    "сырный суп с курицей ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dinner"
+    }
+  ],
+  "key": "syrnyy-sup-s-kuritsey",
+  "name": "syrnyy-sup-s-kuritsey",
+  "img": null,
+  "title": "Сырный суп с курицей",
+  "description": "Мягкий сливочный суп с курицей, картофелем и плавленым сыром.",
+  "calories": null,
+  "preparation": 20,
+  "time": 55,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Куриное филе",
+      "count": 450,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 1800,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Картофель",
+      "count": 450,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сыр плавленый без добавок",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Морковь",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Укроп",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Венчик",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Курицу залейте водой и варите 20 минут, выньте и нарежьте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "В бульон положите картофель кубиками, варите 15 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук и морковь томите на масле 7 минут, добавьте к картофелю.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте сыр небольшими порциями до полного растворения, верните курицу.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Посолите после пробы, прогрейте 3 минуты и добавьте укроп.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Берите сыр с плавкой однородной текстурой.",
+    "После сыра поддерживайте слабый нагрев."
+  ]
+}

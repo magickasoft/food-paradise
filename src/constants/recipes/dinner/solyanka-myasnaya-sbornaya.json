@@ -1,0 +1,163 @@
+{
+  "metaSeo": {
+    "title": "Солянка мясная сборная — пошаговый рецепт с граммовками",
+    "description": "Насыщенный мясной суп с копчёностями, солёными огурцами и оливками.",
+    "keywords": [
+      "солянка мясная сборная",
+      "солянка мясная сборная рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Солянка мясная сборная",
+    "og:description": "Насыщенный мясной суп с копчёностями, солёными огурцами и оливками.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/solyanka-myasnaya-sbornaya",
+    "twitterTitle": "Солянка мясная сборная",
+    "twitterDescription": "Насыщенный мясной суп с копчёностями, солёными огурцами и оливками.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/solyanka-myasnaya-sbornaya",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/solyanka-myasnaya-sbornaya",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "солянка мясная сборная",
+    "солянка мясная сборная рецепт",
+    "солянка мясная сборная ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dinner"
+    }
+  ],
+  "key": "solyanka-myasnaya-sbornaya",
+  "name": "solyanka-myasnaya-sbornaya",
+  "img": null,
+  "title": "Солянка мясная сборная",
+  "description": "Насыщенный мясной суп с копчёностями, солёными огурцами и оливками.",
+  "calories": null,
+  "preparation": 25,
+  "time": 100,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Говядина",
+      "count": 400,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 2000,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Ветчина",
+      "count": 200,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Колбаса копчёная",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Огурцы солёные",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Томатная паста",
+      "count": 60,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Оливки",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Каперсы",
+      "count": 25,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лимон",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Говядину варите в воде 70 минут, выньте и нарежьте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук обжарьте в масле, добавьте пасту и прогрейте 2 минуты.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Огурцы нарежьте соломкой и тушите с луком и 150 мл бульона 10 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Верните в бульон мясо, копчёности и зажарку, варите 10 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте оливки, каперсы и соль, настаивайте 10 минут, лимон положите в тарелки.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Солите после добавления копчёностей.",
+    "Лимон не варите, чтобы избежать горечи."
+  ]
+}

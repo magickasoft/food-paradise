@@ -1,0 +1,152 @@
+{
+  "metaSeo": {
+    "title": "Боул с гречкой и яйцом — пошаговый рецепт с граммовками",
+    "description": "Гречка с яйцом, огурцом, морковью и йогуртовой заправкой.",
+    "keywords": [
+      "боул с гречкой и яйцом",
+      "боул с гречкой и яйцом рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Боул с гречкой и яйцом",
+    "og:description": "Гречка с яйцом, огурцом, морковью и йогуртовой заправкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/boul-s-grechkoy-i-yaytsom",
+    "twitterTitle": "Боул с гречкой и яйцом",
+    "twitterDescription": "Гречка с яйцом, огурцом, морковью и йогуртовой заправкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/boul-s-grechkoy-i-yaytsom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/boul-s-grechkoy-i-yaytsom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "боул с гречкой и яйцом",
+    "боул с гречкой и яйцом рецепт",
+    "боул с гречкой и яйцом ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "healthy"
+    }
+  ],
+  "key": "boul-s-grechkoy-i-yaytsom",
+  "name": "boul-s-grechkoy-i-yaytsom",
+  "img": null,
+  "title": "Боул с гречкой и яйцом",
+  "description": "Гречка с яйцом, огурцом, морковью и йогуртовой заправкой.",
+  "calories": null,
+  "preparation": 15,
+  "time": 35,
+  "level": 2,
+  "rating": 0,
+  "portions": 2,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Гречка",
+      "count": 140,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 300,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 100,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Огурец",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Морковь",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Йогурт",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Горчица",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 10,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 5,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Укроп",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Гречку варите в воде с 3 г соли 15 минут, выдержите 5 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Яйца сварите 8 минут и охладите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Огурец нарежьте, морковь натрите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте йогурт, горчицу, лимон, укроп и оставшуюся соль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разложите крупу, овощи и яйца, полейте заправкой.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Овощи нарезайте перед подачей.",
+    "Заправку удобно готовить в банке."
+  ]
+}

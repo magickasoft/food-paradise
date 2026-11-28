@@ -47,6 +47,27 @@ import KABACHKOVYE_PALOCHKI_S_PARMEZANOM from './snacks/kabachkovye-palochki-s-p
 import CVETNAYA_KAPUSTA_BUFFALO from './snacks/cvetnaya-kapusta-buffalo.json'
 import ZAPECENNYY_BRI_S_GRUSHEY_I_OREHAMI from './snacks/zapecennyy-bri-s-grushey-i-orehami.json'
 
+import DZADZIKI_S_OGURTSOM from './snacks/dzadziki-s-ogurtsom.json'
+import TAPENADA_IZ_OLIVOK from './snacks/tapenada-iz-olivok.json'
+import RIET_IZ_LOSOSYA from './snacks/riet-iz-lososya.json'
+import PASHTET_IZ_FASOLI_S_GRIBAMI from './snacks/pashtet-iz-fasoli-s-gribami.json'
+import PHALI_IZ_SHPINATA from './snacks/phali-iz-shpinata.json'
+import LOBIO_IZ_KRASNOY_FASOLI from './snacks/lobio-iz-krasnoy-fasoli.json'
+import KAPONATA_IZ_BAKLAZHANOV from './snacks/kaponata-iz-baklazhanov.json'
+import ESKABECHE_IZ_SKUMBRII from './snacks/eskabeche-iz-skumbrii.json'
+import BRUSKETTY_S_GRIBAMI_I_RIKOTTOY from './snacks/brusketty-s-gribami-i-rikottoy.json'
+import TARTALETKI_S_KREVETOCHNYM_KREMOM from './snacks/tartaletki-s-krevetochnym-kremom.json'
+import BLINNYE_MESHOCHKI_S_GRIBAMI from './snacks/blinnye-meshochki-s-gribami.json'
+import SPRING_ROLLY_S_OVOSCHAMI from './snacks/spring-rolly-s-ovoschami.json'
+import KREVETKI_V_KOKOSOVOY_PANIROVKE from './snacks/krevetki-v-kokosovoy-panirovke.json'
+import KOLTSA_KALMARA_V_PANIROVKE from './snacks/koltsa-kalmara-v-panirovke.json'
+import MIDII_POD_SYRNOY_KOROCHKOY from './snacks/midii-pod-syrnoy-korochkoy.json'
+import FINIKI_V_BEKONE from './snacks/finiki-v-bekone.json'
+import HRUSTYASCHIY_NUT_S_PAPRIKOY from './snacks/hrustyaschiy-nut-s-paprikoy.json'
+import PECHENYY_CHESNOK_S_HLEBOM from './snacks/pechenyy-chesnok-s-hlebom.json'
+import SULUGUNI_V_LAVASHE_NA_SKOVORODE from './snacks/suluguni-v-lavashe-na-skovorode.json'
+import OLIVKI_V_TSITRUSOVOM_MARINADE from './snacks/olivki-v-tsitrusovom-marinade.json'
+
 import { withAssetPath } from '@/lib/withAssetPath'
 
 const toRecipes = (raw: readonly Recipe[]): Recipe[] => raw.map(item => withAssetPath<Recipe>(item))
@@ -99,4 +120,24 @@ export const SNACKS: Recipe[] = toRecipes([
   KABACHKOVYE_PALOCHKI_S_PARMEZANOM,
   CVETNAYA_KAPUSTA_BUFFALO,
   ZAPECENNYY_BRI_S_GRUSHEY_I_OREHAMI,
+  DZADZIKI_S_OGURTSOM,
+  TAPENADA_IZ_OLIVOK,
+  RIET_IZ_LOSOSYA,
+  PASHTET_IZ_FASOLI_S_GRIBAMI,
+  PHALI_IZ_SHPINATA,
+  LOBIO_IZ_KRASNOY_FASOLI,
+  KAPONATA_IZ_BAKLAZHANOV,
+  ESKABECHE_IZ_SKUMBRII,
+  BRUSKETTY_S_GRIBAMI_I_RIKOTTOY,
+  TARTALETKI_S_KREVETOCHNYM_KREMOM,
+  BLINNYE_MESHOCHKI_S_GRIBAMI,
+  SPRING_ROLLY_S_OVOSCHAMI,
+  KREVETKI_V_KOKOSOVOY_PANIROVKE,
+  KOLTSA_KALMARA_V_PANIROVKE,
+  MIDII_POD_SYRNOY_KOROCHKOY,
+  FINIKI_V_BEKONE,
+  HRUSTYASCHIY_NUT_S_PAPRIKOY,
+  PECHENYY_CHESNOK_S_HLEBOM,
+  SULUGUNI_V_LAVASHE_NA_SKOVORODE,
+  OLIVKI_V_TSITRUSOVOM_MARINADE,
 ])

@@ -1,0 +1,137 @@
+{
+  "metaSeo": {
+    "title": "Брокколи на гриле с лимоном — пошаговый рецепт с граммовками",
+    "description": "Подпечённые соцветия с хрустящими краями, чесноком и лимонной цедрой.",
+    "keywords": [
+      "брокколи на гриле с лимоном",
+      "брокколи на гриле с лимоном рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Брокколи на гриле с лимоном",
+    "og:description": "Подпечённые соцветия с хрустящими краями, чесноком и лимонной цедрой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/brokkoli-na-grile-s-limonom",
+    "twitterTitle": "Брокколи на гриле с лимоном",
+    "twitterDescription": "Подпечённые соцветия с хрустящими краями, чесноком и лимонной цедрой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/brokkoli-na-grile-s-limonom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/brokkoli-na-grile-s-limonom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "брокколи на гриле с лимоном",
+    "брокколи на гриле с лимоном рецепт",
+    "брокколи на гриле с лимоном ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "brokkoli-na-grile-s-limonom",
+  "name": "brokkoli-na-grile-s-limonom",
+  "img": null,
+  "title": "Брокколи на гриле с лимоном",
+  "description": "Подпечённые соцветия с хрустящими краями, чесноком и лимонной цедрой.",
+  "calories": null,
+  "preparation": 15,
+  "time": 30,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Брокколи",
+      "count": 800,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 40,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Цедра лимона",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Хлопья чили",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Гриль",
+      "img": null
+    },
+    {
+      "name": "Корзина",
+      "img": null
+    },
+    {
+      "name": "Кастрюля",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Брокколи разделите на крупные соцветия с ножкой.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Бланшируйте 2 минуты и полностью обсушите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте с 30 мл масла, солью и чили.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Жарьте в корзине для гриля 6–8 минут, переворачивая.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Остальное масло смешайте с лимоном, цедрой и чесноком, полейте готовую капусту.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Мокрые соцветия будут тушиться.",
+    "Используйте корзину, чтобы мелкие кусочки не падали."
+  ]
+}

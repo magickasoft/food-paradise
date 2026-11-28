@@ -1,0 +1,153 @@
+{
+  "metaSeo": {
+    "title": "Гусь с яблоками и черносливом — пошаговый рецепт с граммовками",
+    "description": "Крупная праздничная птица с фруктовой начинкой и румяной кожей.",
+    "keywords": [
+      "гусь с яблоками и черносливом",
+      "гусь с яблоками и черносливом рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Гусь с яблоками и черносливом",
+    "og:description": "Крупная праздничная птица с фруктовой начинкой и румяной кожей.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/gus-s-yablokami-i-chernoslivom",
+    "twitterTitle": "Гусь с яблоками и черносливом",
+    "twitterDescription": "Крупная праздничная птица с фруктовой начинкой и румяной кожей.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/gus-s-yablokami-i-chernoslivom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/gus-s-yablokami-i-chernoslivom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "гусь с яблоками и черносливом",
+    "гусь с яблоками и черносливом рецепт",
+    "гусь с яблоками и черносливом ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "new-year"
+    }
+  ],
+  "key": "gus-s-yablokami-i-chernoslivom",
+  "name": "gus-s-yablokami-i-chernoslivom",
+  "img": null,
+  "title": "Гусь с яблоками и черносливом",
+  "description": "Крупная праздничная птица с фруктовой начинкой и румяной кожей.",
+  "calories": null,
+  "preparation": 45,
+  "time": 260,
+  "level": 2,
+  "rating": 0,
+  "portions": 10,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Гусь потрошёный",
+      "count": 3500,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яблоки",
+      "count": 800,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чернослив",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 35,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 4,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Майоран",
+      "count": 4,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мёд",
+      "count": 40,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Горчица",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 400,
+      "gauge": "мл",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Решётка",
+      "img": null
+    },
+    {
+      "name": "Кухонная нить",
+      "img": null
+    },
+    {
+      "name": "Термометр",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Удалите избыток жира, обсушите гуся, натрите солью, перцем и майораном.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Яблоки дольками смешайте с черносливом, неплотно наполните птицу и зашейте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Поставьте на решётку над противнем с водой и запекайте при 160 °C 3 часа, сливая лишний жир.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смажьте мёдом с горчицей и выпекайте при 200 °C ещё 20–30 минут до 74 °C в бедре.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Дайте отдохнуть 25 минут перед разделкой.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Крупной птице может понадобиться больше времени.",
+    "Начинку не утрамбовывайте."
+  ]
+}

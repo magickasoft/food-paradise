@@ -1,0 +1,149 @@
+{
+  "metaSeo": {
+    "title": "Французский луковый суп — пошаговый рецепт с граммовками",
+    "description": "Сладковатый луковый бульон с хрустящим хлебом и расплавленным сыром.",
+    "keywords": [
+      "французский луковый суп",
+      "французский луковый суп рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Французский луковый суп",
+    "og:description": "Сладковатый луковый бульон с хрустящим хлебом и расплавленным сыром.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/frantsuzskiy-lukovyy-sup",
+    "twitterTitle": "Французский луковый суп",
+    "twitterDescription": "Сладковатый луковый бульон с хрустящим хлебом и расплавленным сыром.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/frantsuzskiy-lukovyy-sup",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/frantsuzskiy-lukovyy-sup",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "французский луковый суп",
+    "французский луковый суп рецепт",
+    "французский луковый суп ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dinner"
+    }
+  ],
+  "key": "frantsuzskiy-lukovyy-sup",
+  "name": "frantsuzskiy-lukovyy-sup",
+  "img": null,
+  "title": "Французский луковый суп",
+  "description": "Сладковатый луковый бульон с хрустящим хлебом и расплавленным сыром.",
+  "calories": null,
+  "preparation": 20,
+  "time": 100,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Лук",
+      "count": 1000,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Бульон говяжий несолёный",
+      "count": 1200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Вино белое сухое",
+      "count": 150,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 60,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Багет",
+      "count": 160,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Грюйер",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Тимьян",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Жаропрочные миски",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук тонко нарежьте, томите на масле 45 минут, часто перемешивая до карамельного цвета.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Посыпьте мукой, прогрейте минуту, влейте вино и выпарите наполовину.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте бульон, тимьян и соль, варите 20 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Багет подсушите, суп разлейте в жаропрочные миски и накройте тостами с сыром.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Завыпекайте под грилем 3–5 минут до пузырящейся корочки.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Лук карамелизуется медленно, сильный жар даст горечь.",
+    "Горячие миски подавайте на подставках."
+  ]
+}

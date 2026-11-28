@@ -1,0 +1,147 @@
+{
+  "metaSeo": {
+    "title": "Треска в томатном соусе — пошаговый рецепт с граммовками",
+    "description": "Белая рыба, припущенная с томатами, оливками и каперсами.",
+    "keywords": [
+      "треска в томатном соусе",
+      "треска в томатном соусе рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Треска в томатном соусе",
+    "og:description": "Белая рыба, припущенная с томатами, оливками и каперсами.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/treska-v-tomatnom-souse",
+    "twitterTitle": "Треска в томатном соусе",
+    "twitterDescription": "Белая рыба, припущенная с томатами, оливками и каперсами.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/treska-v-tomatnom-souse",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/treska-v-tomatnom-souse",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "треска в томатном соусе",
+    "треска в томатном соусе рецепт",
+    "треска в томатном соусе ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "supper"
+    }
+  ],
+  "key": "treska-v-tomatnom-souse",
+  "name": "treska-v-tomatnom-souse",
+  "img": null,
+  "title": "Треска в томатном соусе",
+  "description": "Белая рыба, припущенная с томатами, оливками и каперсами.",
+  "calories": null,
+  "preparation": 15,
+  "time": 40,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Филе трески",
+      "count": 800,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Томаты протёртые",
+      "count": 500,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Оливки",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Каперсы",
+      "count": 25,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 30,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Петрушка",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 9,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Сотейник с крышкой",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук томите в масле 6 минут, добавьте чеснок.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Влейте томаты, посолите половиной соли и варите 10 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте оливки и каперсы.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Рыбу обсушите, разделите на 4 порции, приправьте оставшейся солью и перцем, уложите в соус.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Тушите под крышкой 10–12 минут до разделения мякоти на хлопья, посыпьте петрушкой.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Соус должен едва кипеть.",
+    "Рыбу не перемешивайте, чтобы сохранить куски."
+  ]
+}

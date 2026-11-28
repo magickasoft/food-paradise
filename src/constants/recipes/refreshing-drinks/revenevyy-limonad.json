@@ -1,0 +1,137 @@
+{
+  "metaSeo": {
+    "title": "Ревеневый лимонад — пошаговый рецепт с граммовками",
+    "description": "Розовый кисло-сладкий лимонад из стеблей ревеня с ванилью.",
+    "keywords": [
+      "ревеневый лимонад",
+      "ревеневый лимонад рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Ревеневый лимонад",
+    "og:description": "Розовый кисло-сладкий лимонад из стеблей ревеня с ванилью.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/revenevyy-limonad",
+    "twitterTitle": "Ревеневый лимонад",
+    "twitterDescription": "Розовый кисло-сладкий лимонад из стеблей ревеня с ванилью.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/revenevyy-limonad",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/revenevyy-limonad",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "ревеневый лимонад",
+    "ревеневый лимонад рецепт",
+    "ревеневый лимонад ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "revenevyy-limonad",
+  "name": "revenevyy-limonad",
+  "img": null,
+  "title": "Ревеневый лимонад",
+  "description": "Розовый кисло-сладкий лимонад из стеблей ревеня с ванилью.",
+  "calories": null,
+  "preparation": 20,
+  "time": 120,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Стебли ревеня",
+      "count": 500,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 500,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 160,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 40,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Ванильный сахар",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода газированная",
+      "count": 1000,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лёд",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Кувшин",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Стебли вымойте и нарежьте кусочками 2 см, листья не используйте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Варите с водой и обоими сахарами 10 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Настаивайте 20 минут и процедите без сильного отжима.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте лимон и охладите час.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разведите газировкой и подавайте со льдом.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Используйте только стебли ревеня.",
+    "Для прозрачности не протирайте мякоть."
+  ]
+}

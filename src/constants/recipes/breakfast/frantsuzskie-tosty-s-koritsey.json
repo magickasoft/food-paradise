@@ -1,0 +1,138 @@
+{
+  "metaSeo": {
+    "title": "Французские тосты с корицей — пошаговый рецепт с граммовками",
+    "description": "Ломтики вчерашней бриоши с нежной молочной серединой и пряной корочкой.",
+    "keywords": [
+      "французские тосты с корицей",
+      "французские тосты с корицей рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Французские тосты с корицей",
+    "og:description": "Ломтики вчерашней бриоши с нежной молочной серединой и пряной корочкой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/frantsuzskie-tosty-s-koritsey",
+    "twitterTitle": "Французские тосты с корицей",
+    "twitterDescription": "Ломтики вчерашней бриоши с нежной молочной серединой и пряной корочкой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/frantsuzskie-tosty-s-koritsey",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/frantsuzskie-tosty-s-koritsey",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "французские тосты с корицей",
+    "французские тосты с корицей рецепт",
+    "французские тосты с корицей ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "breakfast"
+    }
+  ],
+  "key": "frantsuzskie-tosty-s-koritsey",
+  "name": "frantsuzskie-tosty-s-koritsey",
+  "img": null,
+  "title": "Французские тосты с корицей",
+  "description": "Ломтики вчерашней бриоши с нежной молочной серединой и пряной корочкой.",
+  "calories": null,
+  "preparation": 10,
+  "time": 25,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Бриошь",
+      "count": 320,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 150,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Молоко",
+      "count": 200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 35,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Корица",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Венчик",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Нарежьте хлеб ломтиками по 2 см.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Взбейте яйца с молоком, сахаром, корицей и солью.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Пропитайте каждый ломтик по 15 секунд с обеих сторон.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Обжаривайте на масле на умеренном огне по 3 минуты.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Перенесите на прогретую тарелку и подавайте сразу.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Слегка подсохший хлеб лучше держит форму.",
+    "Не перегревайте масло."
+  ]
+}

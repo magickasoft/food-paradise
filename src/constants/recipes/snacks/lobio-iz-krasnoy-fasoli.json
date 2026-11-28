@@ -1,0 +1,151 @@
+{
+  "metaSeo": {
+    "title": "Лобио из красной фасоли — пошаговый рецепт с граммовками",
+    "description": "Пряная фасоль с луком, орехами и кинзой, вкусная тёплой и холодной.",
+    "keywords": [
+      "лобио из красной фасоли",
+      "лобио из красной фасоли рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Лобио из красной фасоли",
+    "og:description": "Пряная фасоль с луком, орехами и кинзой, вкусная тёплой и холодной.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/lobio-iz-krasnoy-fasoli",
+    "twitterTitle": "Лобио из красной фасоли",
+    "twitterDescription": "Пряная фасоль с луком, орехами и кинзой, вкусная тёплой и холодной.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/lobio-iz-krasnoy-fasoli",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/lobio-iz-krasnoy-fasoli",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "лобио из красной фасоли",
+    "лобио из красной фасоли рецепт",
+    "лобио из красной фасоли ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "lobio-iz-krasnoy-fasoli",
+  "name": "lobio-iz-krasnoy-fasoli",
+  "img": null,
+  "title": "Лобио из красной фасоли",
+  "description": "Пряная фасоль с луком, орехами и кинзой, вкусная тёплой и холодной.",
+  "calories": null,
+  "preparation": 20,
+  "time": 45,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Фасоль красная варёная",
+      "count": 700,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 220,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Орехи грецкие",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 30,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Кинза",
+      "count": 35,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Уксус винный",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Кориандр молотый",
+      "count": 3,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 8,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 120,
+      "gauge": "мл",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Толкушка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук томите в масле 10 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте фасоль, воду, соль и кориандр, тушите 10 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разомните примерно треть фасоли прямо в сковороде.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте орехи, чеснок, уксус и кинзу.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Накройте и выдержите 10 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Фасоль нужна мягкая, но целая.",
+    "После остывания смесь густеет."
+  ]
+}

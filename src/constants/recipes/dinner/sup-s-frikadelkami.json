@@ -1,0 +1,155 @@
+{
+  "metaSeo": {
+    "title": "Суп с фрикадельками — пошаговый рецепт с граммовками",
+    "description": "Лёгкий овощной суп с небольшими говяжьими фрикадельками и вермишелью.",
+    "keywords": [
+      "суп с фрикадельками",
+      "суп с фрикадельками рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Суп с фрикадельками",
+    "og:description": "Лёгкий овощной суп с небольшими говяжьими фрикадельками и вермишелью.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/sup-s-frikadelkami",
+    "twitterTitle": "Суп с фрикадельками",
+    "twitterDescription": "Лёгкий овощной суп с небольшими говяжьими фрикадельками и вермишелью.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/sup-s-frikadelkami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/sup-s-frikadelkami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "суп с фрикадельками",
+    "суп с фрикадельками рецепт",
+    "суп с фрикадельками ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dinner"
+    }
+  ],
+  "key": "sup-s-frikadelkami",
+  "name": "sup-s-frikadelkami",
+  "img": null,
+  "title": "Суп с фрикадельками",
+  "description": "Лёгкий овощной суп с небольшими говяжьими фрикадельками и вермишелью.",
+  "calories": null,
+  "preparation": 20,
+  "time": 50,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Фарш говяжий",
+      "count": 450,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 2200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Картофель",
+      "count": 400,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Морковь",
+      "count": 130,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вермишель",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Петрушка",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Половину лука натрите, смешайте с фаршем, 5 г соли и перцем, скатайте 25 шариков.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "В кипящую воду положите картофель кубиками, варите 10 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Оставшийся лук и морковь обжарьте в масле 6 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Опустите фрикадельки и зажарку в суп, варите 10 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте вермишель и оставшуюся соль, варите по упаковке 3–5 минут, завершите петрушкой.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Размер фрикаделек делайте одинаковым.",
+    "Вермишель добавляйте в самом конце."
+  ]
+}

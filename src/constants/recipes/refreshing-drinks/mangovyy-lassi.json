@@ -1,0 +1,127 @@
+{
+  "metaSeo": {
+    "title": "Манговый ласси — пошаговый рецепт с граммовками",
+    "description": "Индийский йогуртовый напиток с манго и кардамоном.",
+    "keywords": [
+      "манговый ласси",
+      "манговый ласси рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Манговый ласси",
+    "og:description": "Индийский йогуртовый напиток с манго и кардамоном.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/mangovyy-lassi",
+    "twitterTitle": "Манговый ласси",
+    "twitterDescription": "Индийский йогуртовый напиток с манго и кардамоном.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/mangovyy-lassi",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/mangovyy-lassi",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "манговый ласси",
+    "манговый ласси рецепт",
+    "манговый ласси ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "mangovyy-lassi",
+  "name": "mangovyy-lassi",
+  "img": null,
+  "title": "Манговый ласси",
+  "description": "Индийский йогуртовый напиток с манго и кардамоном.",
+  "calories": null,
+  "preparation": 10,
+  "time": 15,
+  "level": 2,
+  "rating": 0,
+  "portions": 3,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Мякоть манго",
+      "count": 400,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Йогурт натуральный",
+      "count": 450,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода холодная",
+      "count": 150,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Мёд",
+      "count": 25,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Кардамон молотый",
+      "count": 0.5,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лёд",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Блендер",
+      "img": null
+    },
+    {
+      "name": "Стаканы",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Манго нарежьте кубиками.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Пробейте с йогуртом до гладкости.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте воду, мёд и кардамон.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Взбейте ещё 15 секунд, охладите 5 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разлейте в стаканы с небольшим количеством льда.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Сладкому манго мёд может не понадобиться.",
+    "Используйте йогурт без ароматизаторов."
+  ]
+}

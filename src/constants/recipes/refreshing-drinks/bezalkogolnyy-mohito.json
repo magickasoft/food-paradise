@@ -1,0 +1,127 @@
+{
+  "metaSeo": {
+    "title": "Безалкогольный мохито — пошаговый рецепт с граммовками",
+    "description": "Освежающий лаймовый напиток с мятой, льдом и газированной водой.",
+    "keywords": [
+      "безалкогольный мохито",
+      "безалкогольный мохито рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Безалкогольный мохито",
+    "og:description": "Освежающий лаймовый напиток с мятой, льдом и газированной водой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/bezalkogolnyy-mohito",
+    "twitterTitle": "Безалкогольный мохито",
+    "twitterDescription": "Освежающий лаймовый напиток с мятой, льдом и газированной водой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/bezalkogolnyy-mohito",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/bezalkogolnyy-mohito",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "безалкогольный мохито",
+    "безалкогольный мохито рецепт",
+    "безалкогольный мохито ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "bezalkogolnyy-mohito",
+  "name": "bezalkogolnyy-mohito",
+  "img": null,
+  "title": "Безалкогольный мохито",
+  "description": "Освежающий лаймовый напиток с мятой, льдом и газированной водой.",
+  "calories": null,
+  "preparation": 15,
+  "time": 15,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Лайм",
+      "count": 240,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мята",
+      "count": 35,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 80,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 80,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Вода газированная",
+      "count": 800,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лёд",
+      "count": 500,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Стаканы",
+      "img": null
+    },
+    {
+      "name": "Толкушка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Сахар растворите в тёплой воде и остудите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лайм разрежьте дольками и распределите по четырём стаканам.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте сироп и слегка раздавите лайм.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Листья мяты похлопайте ладонями и добавьте вместе со льдом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Долейте газировку и перемешайте снизу вверх.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не растирайте мяту в кашу.",
+    "Лайм с кожурой не оставляйте надолго."
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "metaSeo": {
+    "title": "Куриный шницель — пошаговый рецепт с граммовками",
+    "description": "Тонкие куриные шницели в золотистой сухарной корочке.",
+    "keywords": [
+      "куриный шницель",
+      "куриный шницель рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Куриный шницель",
+    "og:description": "Тонкие куриные шницели в золотистой сухарной корочке.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kurinyy-shnitsel",
+    "twitterTitle": "Куриный шницель",
+    "twitterDescription": "Тонкие куриные шницели в золотистой сухарной корочке.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kurinyy-shnitsel",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kurinyy-shnitsel",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "куриный шницель",
+    "куриный шницель рецепт",
+    "куриный шницель ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "supper"
+    }
+  ],
+  "key": "kurinyy-shnitsel",
+  "name": "kurinyy-shnitsel",
+  "img": null,
+  "title": "Куриный шницель",
+  "description": "Тонкие куриные шницели в золотистой сухарной корочке.",
+  "calories": null,
+  "preparation": 20,
+  "time": 40,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Филе куриной грудки",
+      "count": 800,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Мука",
+      "count": 90,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 100,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Сухари панировочные",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 100,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лимон",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 1,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Молоток",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Термометр",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Филе разрежьте вдоль, отбейте до толщины 7 мм и приправьте.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Подготовьте муку, взбитые яйца и сухари в отдельных тарелках.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Последовательно запанируйте мясо, слегка прижимая сухари.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Жарьте в смеси масел на среднем огне по 3–4 минуты с каждой стороны до 74 °C в центре.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Переложите на решётку на 2 минуты, подавайте с лимоном.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не отбивайте мясо до прозрачности.",
+    "Масло между партиями очищайте от крошек."
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "metaSeo": {
+    "title": "Домашний тархун — пошаговый рецепт с граммовками",
+    "description": "Газированный лимонад с ярким ароматом свежего эстрагона.",
+    "keywords": [
+      "домашний тархун",
+      "домашний тархун рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Домашний тархун",
+    "og:description": "Газированный лимонад с ярким ароматом свежего эстрагона.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/domashniy-tarhun",
+    "twitterTitle": "Домашний тархун",
+    "twitterDescription": "Газированный лимонад с ярким ароматом свежего эстрагона.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/domashniy-tarhun",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/domashniy-tarhun",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "домашний тархун",
+    "домашний тархун рецепт",
+    "домашний тархун ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "domashniy-tarhun",
+  "name": "domashniy-tarhun",
+  "img": null,
+  "title": "Домашний тархун",
+  "description": "Газированный лимонад с ярким ароматом свежего эстрагона.",
+  "calories": null,
+  "preparation": 20,
+  "time": 100,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Эстрагон свежий",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 130,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 300,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Вода газированная",
+      "count": 1200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 80,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лёд",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Сотейник",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Кувшин",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Сахар растворите в воде, доведите до кипения и снимите с огня.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Листья эстрагона разомните и залейте сиропом, настаивайте 20 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите, вмешайте лимонный сок и охладите час.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Перед подачей соедините с холодной газированной водой.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте лёд и аккуратно перемешайте.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не кипятите эстрагон долго.",
+    "Газировку добавляйте последней."
+  ]
+}

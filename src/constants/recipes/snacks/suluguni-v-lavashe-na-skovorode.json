@@ -1,0 +1,127 @@
+{
+  "metaSeo": {
+    "title": "Сулугуни в лаваше на сковороде — пошаговый рецепт с граммовками",
+    "description": "Хрустящие конверты с тягучим сыром и свежей зеленью.",
+    "keywords": [
+      "сулугуни в лаваше на сковороде",
+      "сулугуни в лаваше на сковороде рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Сулугуни в лаваше на сковороде",
+    "og:description": "Хрустящие конверты с тягучим сыром и свежей зеленью.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/suluguni-v-lavashe-na-skovorode",
+    "twitterTitle": "Сулугуни в лаваше на сковороде",
+    "twitterDescription": "Хрустящие конверты с тягучим сыром и свежей зеленью.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/suluguni-v-lavashe-na-skovorode",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/suluguni-v-lavashe-na-skovorode",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "сулугуни в лаваше на сковороде",
+    "сулугуни в лаваше на сковороде рецепт",
+    "сулугуни в лаваше на сковороде ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "suluguni-v-lavashe-na-skovorode",
+  "name": "suluguni-v-lavashe-na-skovorode",
+  "img": null,
+  "title": "Сулугуни в лаваше на сковороде",
+  "description": "Хрустящие конверты с тягучим сыром и свежей зеленью.",
+  "calories": null,
+  "preparation": 15,
+  "time": 30,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Лаваш тонкий",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сулугуни",
+      "count": 350,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Укроп",
+      "count": 25,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Петрушка",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сметана",
+      "count": 80,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло сливочное",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Сковорода с крышкой",
+      "img": null
+    },
+    {
+      "name": "Тёрка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Сыр крупно натрите, смешайте с зеленью и сметаной.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лаваш разрежьте на 8 прямоугольников.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разложите начинку и сложите закрытыми конвертами.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смажьте сковороду половиной масла, жарьте швом вниз 2 минуты.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Переверните, добавьте остальное масло и прогрейте под крышкой 2 минуты.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Не пересушивайте тонкий лаваш.",
+    "Соль зависит от сулугуни."
+  ]
+}

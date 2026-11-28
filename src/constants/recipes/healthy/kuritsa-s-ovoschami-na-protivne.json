@@ -1,0 +1,149 @@
+{
+  "metaSeo": {
+    "title": "Курица с овощами на противне — пошаговый рецепт с граммовками",
+    "description": "Кусочки курицы и разноцветные овощи с паприкой и лимоном.",
+    "keywords": [
+      "курица с овощами на противне",
+      "курица с овощами на противне рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Курица с овощами на противне",
+    "og:description": "Кусочки курицы и разноцветные овощи с паприкой и лимоном.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kuritsa-s-ovoschami-na-protivne",
+    "twitterTitle": "Курица с овощами на противне",
+    "twitterDescription": "Кусочки курицы и разноцветные овощи с паприкой и лимоном.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kuritsa-s-ovoschami-na-protivne",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kuritsa-s-ovoschami-na-protivne",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "курица с овощами на противне",
+    "курица с овощами на противне рецепт",
+    "курица с овощами на противне ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "healthy"
+    }
+  ],
+  "key": "kuritsa-s-ovoschami-na-protivne",
+  "name": "kuritsa-s-ovoschami-na-protivne",
+  "img": null,
+  "title": "Курица с овощами на противне",
+  "description": "Кусочки курицы и разноцветные овощи с паприкой и лимоном.",
+  "calories": null,
+  "preparation": 20,
+  "time": 60,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Филе бедра курицы",
+      "count": 700,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Брокколи",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец сладкий",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Морковь",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук красный",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло оливковое",
+      "count": 30,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Паприка",
+      "count": 5,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 11,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Противень",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Термометр",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Курицу нарежьте кусочками 4 см, овощи — крупными ломтиками.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте масло, лимон, паприку и соль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Обмажьте курицу и овощи, кроме брокколи, разложите одним слоем.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте при 200 °C 20 минут, добавьте брокколи.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Допекайте 15 минут до 74 °C в курице.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Овощи не должны лежать высокой кучей.",
+    "Брокколи добавляют позже корнеплодов."
+  ]
+}

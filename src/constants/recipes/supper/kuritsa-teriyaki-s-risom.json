@@ -1,0 +1,157 @@
+{
+  "metaSeo": {
+    "title": "Курица терияки с рисом — пошаговый рецепт с граммовками",
+    "description": "Глянцевые кусочки курицы с солёно-сладкой глазурью и рассыпчатым рисом.",
+    "keywords": [
+      "курица терияки с рисом",
+      "курица терияки с рисом рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Курица терияки с рисом",
+    "og:description": "Глянцевые кусочки курицы с солёно-сладкой глазурью и рассыпчатым рисом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kuritsa-teriyaki-s-risom",
+    "twitterTitle": "Курица терияки с рисом",
+    "twitterDescription": "Глянцевые кусочки курицы с солёно-сладкой глазурью и рассыпчатым рисом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kuritsa-teriyaki-s-risom",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kuritsa-teriyaki-s-risom",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "курица терияки с рисом",
+    "курица терияки с рисом рецепт",
+    "курица терияки с рисом ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "supper"
+    }
+  ],
+  "key": "kuritsa-teriyaki-s-risom",
+  "name": "kuritsa-teriyaki-s-risom",
+  "img": null,
+  "title": "Курица терияки с рисом",
+  "description": "Глянцевые кусочки курицы с солёно-сладкой глазурью и рассыпчатым рисом.",
+  "calories": null,
+  "preparation": 20,
+  "time": 45,
+  "level": 2,
+  "rating": 0,
+  "portions": 4,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Филе куриного бедра",
+      "count": 700,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Рис",
+      "count": 280,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода для риса",
+      "count": 420,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соевый соус",
+      "count": 70,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Мирин",
+      "count": 50,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 25,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Имбирь",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Кунжут",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Зелёный лук",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Промытый рис варите под крышкой в отмеренной воде 15 минут и выдержите 10 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Курицу нарежьте кусочками 3 см, обсушите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Обжарьте в масле 8–10 минут до готовности.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Влейте соевый соус, мирин, сахар, тёртые имбирь и чеснок, выпарите 3–4 минуты.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Подавайте с рисом, кунжутом и луком.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Сахарную глазурь наносите в конце.",
+    "Соевый соус обычно заменяет соль."
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "metaSeo": {
+    "title": "Зелёные щи со щавелем — пошаговый рецепт с граммовками",
+    "description": "Куриный суп со щавелевой кислинкой, картофелем и варёным яйцом.",
+    "keywords": [
+      "зелёные щи со щавелем",
+      "зелёные щи со щавелем рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Зелёные щи со щавелем",
+    "og:description": "Куриный суп со щавелевой кислинкой, картофелем и варёным яйцом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/zelenye-schi-so-schavelem",
+    "twitterTitle": "Зелёные щи со щавелем",
+    "twitterDescription": "Куриный суп со щавелевой кислинкой, картофелем и варёным яйцом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/zelenye-schi-so-schavelem",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/zelenye-schi-so-schavelem",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "зелёные щи со щавелем",
+    "зелёные щи со щавелем рецепт",
+    "зелёные щи со щавелем ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "dinner"
+    }
+  ],
+  "key": "zelenye-schi-so-schavelem",
+  "name": "zelenye-schi-so-schavelem",
+  "img": null,
+  "title": "Зелёные щи со щавелем",
+  "description": "Куриный суп со щавелевой кислинкой, картофелем и варёным яйцом.",
+  "calories": null,
+  "preparation": 20,
+  "time": 65,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Куриные бёдра",
+      "count": 600,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 2200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Картофель",
+      "count": 400,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Щавель",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Морковь",
+      "count": 120,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 150,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Масло растительное",
+      "count": 20,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 15,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Укроп",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Маленькая кастрюля",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Бёдра варите в воде 35 минут, выньте, отделите мясо и верните.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте картофель кубиками, варите 15 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Лук и морковь обжарьте в масле, яйца отдельно сварите вкрутую.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте зажарку и соль, затем нарезанный щавель и готовьте 2 минуты.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выключите, вмешайте укроп, подавайте с половинкой яйца.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Щавель добавляют после мягкости картофеля.",
+    "Удалите грубые черешки."
+  ]
+}

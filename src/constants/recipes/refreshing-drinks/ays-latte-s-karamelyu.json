@@ -1,0 +1,115 @@
+{
+  "metaSeo": {
+    "title": "Айс-латте с карамелью — пошаговый рецепт с граммовками",
+    "description": "Холодный молочный кофе с карамельным сиропом и льдом.",
+    "keywords": [
+      "айс-латте с карамелью",
+      "айс-латте с карамелью рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Айс-латте с карамелью",
+    "og:description": "Холодный молочный кофе с карамельным сиропом и льдом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/ays-latte-s-karamelyu",
+    "twitterTitle": "Айс-латте с карамелью",
+    "twitterDescription": "Холодный молочный кофе с карамельным сиропом и льдом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/ays-latte-s-karamelyu",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/ays-latte-s-karamelyu",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "айс-латте с карамелью",
+    "айс-латте с карамелью рецепт",
+    "айс-латте с карамелью ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "ays-latte-s-karamelyu",
+  "name": "ays-latte-s-karamelyu",
+  "img": null,
+  "title": "Айс-латте с карамелью",
+  "description": "Холодный молочный кофе с карамельным сиропом и льдом.",
+  "calories": null,
+  "preparation": 10,
+  "time": 15,
+  "level": 2,
+  "rating": 0,
+  "portions": 2,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Эспрессо готовый",
+      "count": 100,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Молоко",
+      "count": 400,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сироп карамельный",
+      "count": 40,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лёд",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кофеварка",
+      "img": null
+    },
+    {
+      "name": "Стаканы",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Сварите кофе и остудите 5 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Разделите сироп между стаканами.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте лёд и холодное молоко.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Медленно влейте кофе.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Перемешайте непосредственно перед питьём.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Количество сиропа регулируйте по сладости.",
+    "Не заливайте лёд кипящим кофе."
+  ]
+}

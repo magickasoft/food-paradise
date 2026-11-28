@@ -1,0 +1,153 @@
+{
+  "metaSeo": {
+    "title": "Свинина-гармошка с томатами — пошаговый рецепт с граммовками",
+    "description": "Свиная корейка с сыром и томатами в глубоких поперечных надрезах.",
+    "keywords": [
+      "свинина-гармошка с томатами",
+      "свинина-гармошка с томатами рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Свинина-гармошка с томатами",
+    "og:description": "Свиная корейка с сыром и томатами в глубоких поперечных надрезах.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/svinina-garmoshka-s-tomatami",
+    "twitterTitle": "Свинина-гармошка с томатами",
+    "twitterDescription": "Свиная корейка с сыром и томатами в глубоких поперечных надрезах.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/svinina-garmoshka-s-tomatami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/svinina-garmoshka-s-tomatami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "свинина-гармошка с томатами",
+    "свинина-гармошка с томатами рецепт",
+    "свинина-гармошка с томатами ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "new-year"
+    }
+  ],
+  "key": "svinina-garmoshka-s-tomatami",
+  "name": "svinina-garmoshka-s-tomatami",
+  "img": null,
+  "title": "Свинина-гармошка с томатами",
+  "description": "Свиная корейка с сыром и томатами в глубоких поперечных надрезах.",
+  "calories": null,
+  "preparation": 30,
+  "time": 130,
+  "level": 2,
+  "rating": 0,
+  "portions": 8,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Корейка свиная",
+      "count": 1700,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Томаты",
+      "count": 350,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сыр твёрдый",
+      "count": 250,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Горчица",
+      "count": 40,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Паприка",
+      "count": 5,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 20,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Перец",
+      "count": 2,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Нож",
+      "img": null
+    },
+    {
+      "name": "Фольга",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Термометр",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "В мясе сделайте надрезы через 1,5 см, не доходя до низа 2 см.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Натрите смесью масла, горчицы, чеснока, соли и специй, включая надрезы.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вложите тонкие ломтики сыра и томатов, заверните в фольгу.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выпекайте при 180 °C 75 минут, раскройте и подрумяньте ещё 15 минут до готовности мяса.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Выдержите 15 минут перед нарезкой.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Томаты режьте тонко.",
+    "Фольга должна удерживать сок."
+  ]
+}

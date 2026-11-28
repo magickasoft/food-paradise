@@ -1,0 +1,131 @@
+{
+  "metaSeo": {
+    "title": "Куриные голени в аджике — пошаговый рецепт с граммовками",
+    "description": "Румяные голени с ароматом кавказских специй и умеренной остротой.",
+    "keywords": [
+      "куриные голени в аджике",
+      "куриные голени в аджике рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Куриные голени в аджике",
+    "og:description": "Румяные голени с ароматом кавказских специй и умеренной остротой.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kurinye-goleni-v-adzhike",
+    "twitterTitle": "Куриные голени в аджике",
+    "twitterDescription": "Румяные голени с ароматом кавказских специй и умеренной остротой.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kurinye-goleni-v-adzhike",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kurinye-goleni-v-adzhike",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "куриные голени в аджике",
+    "куриные голени в аджике рецепт",
+    "куриные голени в аджике ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "grill"
+    }
+  ],
+  "key": "kurinye-goleni-v-adzhike",
+  "name": "kurinye-goleni-v-adzhike",
+  "img": null,
+  "title": "Куриные голени в аджике",
+  "description": "Румяные голени с ароматом кавказских специй и умеренной остротой.",
+  "calories": null,
+  "preparation": 20,
+  "time": 190,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Голени куриные",
+      "count": 1500,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Аджика",
+      "count": 70,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Йогурт",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Масло растительное",
+      "count": 25,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Чеснок",
+      "count": 12,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Гриль с крышкой",
+      "img": null
+    },
+    {
+      "name": "Миска",
+      "img": null
+    },
+    {
+      "name": "Термометр",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Голени обсушите, сделайте по одному неглубокому надрезу.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте йогурт, аджику, масло, чеснок и соль.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Маринуйте курицу в холодильнике 2 часа.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Готовьте в непрямой зоне гриля под крышкой 30–35 минут, поворачивая.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Подрумяньте над углями и проверьте 74 °C у кости.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Аджика уже может содержать много соли.",
+    "Не жарьте голени всё время над сильным жаром."
+  ]
+}

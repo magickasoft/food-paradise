@@ -1,0 +1,127 @@
+{
+  "metaSeo": {
+    "title": "Лимонад крем-сода — пошаговый рецепт с граммовками",
+    "description": "Ванильный газированный напиток с лимонным соком и мягкой сладостью.",
+    "keywords": [
+      "лимонад крем-сода",
+      "лимонад крем-сода рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Лимонад крем-сода",
+    "og:description": "Ванильный газированный напиток с лимонным соком и мягкой сладостью.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/limonad-krem-soda",
+    "twitterTitle": "Лимонад крем-сода",
+    "twitterDescription": "Ванильный газированный напиток с лимонным соком и мягкой сладостью.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/limonad-krem-soda",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/limonad-krem-soda",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "лимонад крем-сода",
+    "лимонад крем-сода рецепт",
+    "лимонад крем-сода ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "limonad-krem-soda",
+  "name": "limonad-krem-soda",
+  "img": null,
+  "title": "Лимонад крем-сода",
+  "description": "Ванильный газированный напиток с лимонным соком и мягкой сладостью.",
+  "calories": null,
+  "preparation": 15,
+  "time": 90,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Вода",
+      "count": 300,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Ванильный экстракт",
+      "count": 8,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лимонный сок",
+      "count": 70,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Вода газированная",
+      "count": 1200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Лёд",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Сотейник",
+      "img": null
+    },
+    {
+      "name": "Кувшин",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Воду с сахаром кипятите 2 минуты.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Снимите, добавьте ваниль и лимонный сок.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Полностью остудите сироп и охладите час.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Смешайте в высоком кувшине с холодной газировкой.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте лёд, перемешайте один раз и разлейте.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Ваниль добавляйте после нагрева.",
+    "Для менее сладкого вкуса увеличьте воду при подаче."
+  ]
+}

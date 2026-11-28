@@ -1,0 +1,125 @@
+{
+  "metaSeo": {
+    "title": "Арбузная аква-фреска — пошаговый рецепт с граммовками",
+    "description": "Лёгкий арбузный напиток с лаймом и небольшим количеством воды.",
+    "keywords": [
+      "арбузная аква-фреска",
+      "арбузная аква-фреска рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Арбузная аква-фреска",
+    "og:description": "Лёгкий арбузный напиток с лаймом и небольшим количеством воды.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/arbuznaya-akva-freska",
+    "twitterTitle": "Арбузная аква-фреска",
+    "twitterDescription": "Лёгкий арбузный напиток с лаймом и небольшим количеством воды.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/arbuznaya-akva-freska",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/arbuznaya-akva-freska",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "арбузная аква-фреска",
+    "арбузная аква-фреска рецепт",
+    "арбузная аква-фреска ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "arbuznaya-akva-freska",
+  "name": "arbuznaya-akva-freska",
+  "img": null,
+  "title": "Арбузная аква-фреска",
+  "description": "Лёгкий арбузный напиток с лаймом и небольшим количеством воды.",
+  "calories": null,
+  "preparation": 15,
+  "time": 35,
+  "level": 2,
+  "rating": 0,
+  "portions": 6,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Мякоть арбуза без косточек",
+      "count": 1400,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода холодная",
+      "count": 600,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сок лайма",
+      "count": 50,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 30,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лёд",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Блендер",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Кувшин",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Арбуз нарежьте и внимательно удалите семена.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Сахар растворите в 100 мл воды.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Арбуз пробейте с оставшейся водой.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите через крупное сито, вмешайте сироп и лайм.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Охладите 20 минут, подавайте со льдом.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Сладкому арбузу сироп можно не добавлять.",
+    "Не взбивайте напиток слишком долго."
+  ]
+}

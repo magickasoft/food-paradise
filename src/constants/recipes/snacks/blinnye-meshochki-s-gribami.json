@@ -1,0 +1,156 @@
+{
+  "metaSeo": {
+    "title": "Блинные мешочки с грибами — пошаговый рецепт с граммовками",
+    "description": "Тонкие блинчики с грибной начинкой, собранные небольшими мешочками.",
+    "keywords": [
+      "блинные мешочки с грибами",
+      "блинные мешочки с грибами рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Блинные мешочки с грибами",
+    "og:description": "Тонкие блинчики с грибной начинкой, собранные небольшими мешочками.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/blinnye-meshochki-s-gribami",
+    "twitterTitle": "Блинные мешочки с грибами",
+    "twitterDescription": "Тонкие блинчики с грибной начинкой, собранные небольшими мешочками.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/blinnye-meshochki-s-gribami",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/blinnye-meshochki-s-gribami",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "блинные мешочки с грибами",
+    "блинные мешочки с грибами рецепт",
+    "блинные мешочки с грибами ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "snacks"
+    }
+  ],
+  "key": "blinnye-meshochki-s-gribami",
+  "name": "blinnye-meshochki-s-gribami",
+  "img": null,
+  "title": "Блинные мешочки с грибами",
+  "description": "Тонкие блинчики с грибной начинкой, собранные небольшими мешочками.",
+  "calories": null,
+  "preparation": 35,
+  "time": 65,
+  "level": 2,
+  "rating": 0,
+  "portions": 8,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Мука",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Молоко",
+      "count": 400,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Яйца",
+      "count": 100,
+      "gauge": "г",
+      "img": null,
+      "note": "Масса без скорлупы. Одно среднее яйцо даёт около 50 г содержимого, желток — 20 г, белок — 30 г."
+    },
+    {
+      "name": "Масло растительное",
+      "count": 40,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Шампиньоны",
+      "count": 600,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лук",
+      "count": 180,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сметана",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Сыр твёрдый",
+      "count": 100,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Зелёный лук",
+      "count": 40,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Соль",
+      "count": 10,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Сковорода",
+      "img": null
+    },
+    {
+      "name": "Духовка",
+      "img": null
+    },
+    {
+      "name": "Венчик",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Из муки, молока, яиц, 20 мл масла и 3 г соли замешайте тесто.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Пожарьте 12 тонких блинов.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Грибы и лук жарьте на остальном масле 12 минут, добавьте сметану, соль и сыр.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "На блин положите начинку, соберите края и свяжите пером лука, ошпаренным кипятком.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Прогрейте при 180 °C 8 минут.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Начинка должна быть густой.",
+    "Луковые завязки заранее размягчите."
+  ]
+}

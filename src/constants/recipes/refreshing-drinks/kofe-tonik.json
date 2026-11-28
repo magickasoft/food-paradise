@@ -1,0 +1,119 @@
+{
+  "metaSeo": {
+    "title": "Кофе-тоник — пошаговый рецепт с граммовками",
+    "description": "Холодный кофейный напиток с горчинкой тоника и апельсиновым ароматом.",
+    "keywords": [
+      "кофе-тоник",
+      "кофе-тоник рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Кофе-тоник",
+    "og:description": "Холодный кофейный напиток с горчинкой тоника и апельсиновым ароматом.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/kofe-tonik",
+    "twitterTitle": "Кофе-тоник",
+    "twitterDescription": "Холодный кофейный напиток с горчинкой тоника и апельсиновым ароматом.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kofe-tonik",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/kofe-tonik",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "кофе-тоник",
+    "кофе-тоник рецепт",
+    "кофе-тоник ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "kofe-tonik",
+  "name": "kofe-tonik",
+  "img": null,
+  "title": "Кофе-тоник",
+  "description": "Холодный кофейный напиток с горчинкой тоника и апельсиновым ароматом.",
+  "calories": null,
+  "preparation": 10,
+  "time": 15,
+  "level": 2,
+  "rating": 0,
+  "portions": 2,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Эспрессо готовый",
+      "count": 100,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Тоник",
+      "count": 350,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Апельсин",
+      "count": 80,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Лёд",
+      "count": 300,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кофеварка",
+      "img": null
+    },
+    {
+      "name": "Стаканы",
+      "img": null
+    },
+    {
+      "name": "Ложка",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Приготовьте эспрессо и дайте остыть 5 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Стаканы наполните льдом.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Добавьте тонкие кружки апельсина.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Влейте холодный тоник.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Медленно добавьте кофе по ложке, чтобы сохранить слои.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Тёплый кофе даёт сильную пену.",
+    "Используйте свежий газированный тоник."
+  ]
+}

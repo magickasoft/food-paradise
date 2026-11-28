@@ -28,6 +28,27 @@ import SENDVICH_S_AVOKADO_I_YAYTSOM from './breakfast/sendvich-s-avokado-i-yayts
 import ZELENYJ_OMLET_SO_SHPINATOM from './breakfast/zelenyj-omlet-so-shpinatom.json'
 import YABLOCHNYE_OLADI_IZ_OVSYANOY_MUKI from './breakfast/yablochnye-oladi-iz-ovsyanoy-muki.json'
 
+import SYRNIKI_IZ_TVOROGA from './breakfast/syrniki-iz-tvoroga.json'
+import PYSHNYE_OLADI_NA_KEFIRE from './breakfast/pyshnye-oladi-na-kefire.json'
+import AMERIKANSKIE_PANKEYKI from './breakfast/amerikanskie-pankeyki.json'
+import LENIVYE_VARENIKI_S_TVOROGOM from './breakfast/lenivye-vareniki-s-tvorogom.json'
+import TVOROZHNAYA_ZAPEKANKA_S_IZYUMOM from './breakfast/tvorozhnaya-zapekanka-s-izyumom.json'
+import DRANIKI_KARTOFELNYE from './breakfast/draniki-kartofelnye.json'
+import FRANTSUZSKIE_TOSTY_S_KORITSEY from './breakfast/frantsuzskie-tosty-s-koritsey.json'
+import PSHENNAYA_KASHA_S_TYKVOY from './breakfast/pshennaya-kasha-s-tykvoy.json'
+import MANNAYA_KASHA_BEZ_KOMOCHKOV from './breakfast/mannaya-kasha-bez-komochkov.json'
+import KUKURUZNAYA_KASHA_NA_MOLOKE from './breakfast/kukuruznaya-kasha-na-moloke.json'
+import NOCHNAYA_OVSYANKA_S_ARAHISOVOY_PASTOY from './breakfast/nochnaya-ovsyanka-s-arahisovoy-pastoy.json'
+import VENSKIE_VAFLI from './breakfast/venskie-vafli.json'
+import HACHAPURI_PO_ADZHARSKI from './breakfast/hachapuri-po-adzharski.json'
+import CHYLBYR_YAYTSA_S_YOGURTOM from './breakfast/chylbyr-yaytsa-s-yogurtom.json'
+import YAYTSA_BENEDIKT_S_VETCHINOY from './breakfast/yaytsa-benedikt-s-vetchinoy.json'
+import OMLET_S_SHAMPINONAMI_I_SYROM from './breakfast/omlet-s-shampinonami-i-syrom.json'
+import GORYACHIE_TOSTY_KROK_MESE from './breakfast/goryachie-tosty-krok-mese.json'
+import BANANOVYE_OLADI from './breakfast/bananovye-oladi.json'
+import GRECHNEVYE_BLINY_NA_KEFIRE from './breakfast/grechnevye-bliny-na-kefire.json'
+import YACHNEVAYA_KASHA_S_GRIBAMI from './breakfast/yachnevaya-kasha-s-gribami.json'
+
 import { withAssetPath } from '@/lib/withAssetPath'
 
 const toRecipes = (raw: readonly Recipe[]): Recipe[] => raw.map(item => withAssetPath<Recipe>(item))
@@ -61,4 +82,24 @@ export const BREAKFAST: Recipe[] = toRecipes([
   SENDVICH_S_AVOKADO_I_YAYTSOM,
   ZELENYJ_OMLET_SO_SHPINATOM,
   YABLOCHNYE_OLADI_IZ_OVSYANOY_MUKI,
+  SYRNIKI_IZ_TVOROGA,
+  PYSHNYE_OLADI_NA_KEFIRE,
+  AMERIKANSKIE_PANKEYKI,
+  LENIVYE_VARENIKI_S_TVOROGOM,
+  TVOROZHNAYA_ZAPEKANKA_S_IZYUMOM,
+  DRANIKI_KARTOFELNYE,
+  FRANTSUZSKIE_TOSTY_S_KORITSEY,
+  PSHENNAYA_KASHA_S_TYKVOY,
+  MANNAYA_KASHA_BEZ_KOMOCHKOV,
+  KUKURUZNAYA_KASHA_NA_MOLOKE,
+  NOCHNAYA_OVSYANKA_S_ARAHISOVOY_PASTOY,
+  VENSKIE_VAFLI,
+  HACHAPURI_PO_ADZHARSKI,
+  CHYLBYR_YAYTSA_S_YOGURTOM,
+  YAYTSA_BENEDIKT_S_VETCHINOY,
+  OMLET_S_SHAMPINONAMI_I_SYROM,
+  GORYACHIE_TOSTY_KROK_MESE,
+  BANANOVYE_OLADI,
+  GRECHNEVYE_BLINY_NA_KEFIRE,
+  YACHNEVAYA_KASHA_S_GRIBAMI,
 ])

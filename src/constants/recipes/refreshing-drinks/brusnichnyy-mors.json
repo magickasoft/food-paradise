@@ -1,0 +1,113 @@
+{
+  "metaSeo": {
+    "title": "Брусничный морс — пошаговый рецепт с граммовками",
+    "description": "Кисло-сладкий ягодный напиток с коротко приготовленным отваром и свежим соком.",
+    "keywords": [
+      "брусничный морс",
+      "брусничный морс рецепт",
+      "пошаговое приготовление"
+    ],
+    "og:title": "Брусничный морс",
+    "og:description": "Кисло-сладкий ягодный напиток с коротко приготовленным отваром и свежим соком.",
+    "og:url": "https://magickasoft.github.io/food-paradise/ru/recipe/brusnichnyy-mors",
+    "twitterTitle": "Брусничный морс",
+    "twitterDescription": "Кисло-сладкий ягодный напиток с коротко приготовленным отваром и свежим соком.",
+    "twitterUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/brusnichnyy-mors",
+    "twitter:card": "summary",
+    "canonicalUrl": "https://magickasoft.github.io/food-paradise/ru/recipe/brusnichnyy-mors",
+    "robots": "index, follow",
+    "author": "food-paradise"
+  },
+  "searchRequests": [
+    "брусничный морс",
+    "брусничный морс рецепт",
+    "брусничный морс ингредиенты"
+  ],
+  "categories": [
+    {
+      "name": "refreshing-drinks"
+    }
+  ],
+  "key": "brusnichnyy-mors",
+  "name": "brusnichnyy-mors",
+  "img": null,
+  "title": "Брусничный морс",
+  "description": "Кисло-сладкий ягодный напиток с коротко приготовленным отваром и свежим соком.",
+  "calories": null,
+  "preparation": 15,
+  "time": 100,
+  "level": 2,
+  "rating": 0,
+  "portions": 8,
+  "used": null,
+  "ingredients": [
+    {
+      "name": "Брусника",
+      "count": 450,
+      "gauge": "г",
+      "img": null
+    },
+    {
+      "name": "Вода",
+      "count": 2200,
+      "gauge": "мл",
+      "img": null
+    },
+    {
+      "name": "Сахар",
+      "count": 150,
+      "gauge": "г",
+      "img": null
+    }
+  ],
+  "equipments": [
+    {
+      "name": "Кастрюля",
+      "img": null
+    },
+    {
+      "name": "Сито",
+      "img": null
+    },
+    {
+      "name": "Кувшин",
+      "img": null
+    }
+  ],
+  "cookingRecipe": [
+    {
+      "img": null,
+      "video": null,
+      "description": "Ягоды промойте и разомните.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Отожмите сок через сито и уберите в холодильник.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Жмых залейте водой, доведите до кипения и варите 5 минут.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Процедите, растворите сахар и остудите.",
+      "ingredients": []
+    },
+    {
+      "img": null,
+      "video": null,
+      "description": "Вмешайте сохранённый сок, охладите час.",
+      "ingredients": []
+    }
+  ],
+  "tips": [
+    "Долгая варка делает вкус грубее.",
+    "Сладость корректируйте перед подачей."
+  ]
+}
